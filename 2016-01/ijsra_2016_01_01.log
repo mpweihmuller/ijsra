@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.3.16)  17 MAR 2016 21:22
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.3.16)  17 MAR 2016 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5270,11 +5270,6 @@ File: figures/ASA_Fig1.jpg Graphic file (type QTm)
 File: figures/ASA_Fig2.jpg Graphic file (type QTm)
 
 <use  "figures/ASA_Fig2.jpg" >
-Underfull \hbox (badness 1748) in paragraph at lines 49--49
-\EU1/EBGaramond12(0)/m/it/10 Rachel Faulkner-Jones, Marta Lorenzon, Cindy
- []
-
-
 Underfull \hbox (badness 2073) in paragraph at lines 53--54
 [][]\EU1/EBGaramond12(0)/bx/n/10.95 As organizing committee (Fig.
  []
