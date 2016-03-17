@@ -1,0 +1,48 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {chapter}{Gonzalo Linares Matás\newline A Student Perspective on the Present of Archaeology: IJSRA Editorial}{vii}{chapter*.6}
+\contentsline {section}{\nonumberline References}{xii}{section*.7}
+\contentsline {chapter}{Gonzalo Linares Matás\newline Presentation of the first issue of the \emph {International Journal of Student Research in Archaeology}}{xv}{chapter*.8}
+\contentsline {part}{\numberline {I}\scshape articles}{1}{part.1}
+\contentsline {chapter}{Lilla Vonk\newline Archaeology’s Potential for Active Engagement in Dementia Care}{3}{chapter*.9}
+\contentsline {section}{\nonumberline References}{13}{section*.10}
+\contentsline {chapter}{Antonio Sánchez Verdú\newline Unearthing the Roads of Roman Hispania: Evolution of Theories, Methodologies and Value Enhancement Techniques}{15}{chapter*.11}
+\contentsline {section}{\nonumberline References}{27}{section*.18}
+\contentsline {chapter}{Arba Bekteshi\newline Albanian Archaeology during Communism: Constructing the Illyrian Myth through Numismatics}{31}{chapter*.19}
+\contentsline {section}{\nonumberline References}{35}{section*.20}
+\contentsline {chapter}{Ariane Maggio\newline \SIrange [range-phrase=--]{2}{3}{\percent } Neanderthal, \SI {5}{\percent } Denisovan, but \SI {100}{\percent } Human: Constructing Identity from the Genetic Past}{37}{chapter*.21}
+\contentsline {section}{\nonumberline References}{44}{section*.22}
+\contentsline {chapter}{Dylan Davis\newline Tetra-dimensional Climate and its Effects on the Roman State: An Archaeological Analysis of the Roman Agroeconomy}{49}{chapter*.23}
+\contentsline {section}{\nonumberline References}{73}{section*.41}
+\contentsline {chapter}{Lucy Northwood\newline Sacred Bodies in Sacred Spaces: Investigating whether western body theory is a valuable tool for interpreting Hindu ritual space}{77}{chapter*.42}
+\contentsline {section}{\nonumberline References}{85}{section*.44}
+\contentsline {chapter}{Richard Takkou, Sonja Dobroski \newline A Discourse on the Archaeological History of Zakynthos: Alternative Approaches}{89}{chapter*.45}
+\contentsline {section}{\nonumberline References}{101}{section*.55}
+\contentsline {chapter}{Vivian S. van Heekeren\newline A Method and an Object: An Art Historical Approach Applied to the ‘Memento-Mori’ Mosaic from Pompeii, Italy}{103}{chapter*.56}
+\contentsline {section}{\nonumberline References}{110}{section*.58}
+\contentsline {chapter}{Kelton Sheridan\newline A Case for Hybridity}{113}{chapter*.59}
+\contentsline {section}{\nonumberline References}{120}{section*.60}
+\contentsline {chapter}{Helen Rayer\newline Are ‘Small Towns’ Always Towns? A Classification of Roman Civil Settlements in Northern Britain}{123}{chapter*.61}
+\contentsline {section}{\nonumberline References}{143}{section*.71}
+\contentsline {chapter}{Sam Hughes\newline \enquote {In my sword I trust}. A Reassessment of Irish Iron Age Swords With a Focus on Their Potential Use in Battle}{147}{chapter*.72}
+\contentsline {section}{\nonumberline References}{163}{section*.81}
+\contentsline {chapter}{Bertie Norman\newline Re-assessing the Location of the Homeric Underworld in the Odyssey Book XI}{167}{chapter*.82}
+\contentsline {section}{\nonumberline References}{179}{section*.84}
+\contentsline {chapter}{Alix Thoeming \newline Dealing with Data: Naïve Bayesian Classification and a Case Study from Viking Age Sweden}{181}{chapter*.85}
+\contentsline {section}{\nonumberline References}{191}{section*.96}
+\contentsline {chapter}{Camilo Barcia García\newline The Management of Social Space in the Upper Palaeolithic: Patterns, Statistics, and Open GIS in the Lower Gallery of La Garma (Cantabria, Northern Iberian Peninsula)}{193}{chapter*.97}
+\contentsline {section}{\nonumberline References}{207}{section*.105}
+\contentsline {chapter}{Amanda Gaggioli\newline Making Better Knives: An Experimental Analysis of Projectile Point Technology and Multifunctional Uses}{211}{chapter*.106}
+\contentsline {section}{\nonumberline References}{224}{section*.116}
+\contentsline {chapter}{Yassin E. Zidan, Nesrin M. N. El Hadidi, Maisa M.A. Mansour, Wael A.A. Abo Elgat\newline Treatment of Khedive Ismail’s antique gun (1863--1879) at the National Military Museum. A Case Study}{225}{chapter*.117}
+\contentsline {section}{\nonumberline References}{232}{section*.125}
+\contentsline {part}{\numberline {II}\scshape conference reviews}{235}{part.2}
+\contentsline {chapter}{Ülle Aguraiuja, Rachel Faulkner-Jones, Marta Lorenzon, Cindy Nelson-Viljoen\newline Third ‘Annual Student Archaeology’ Conference: Edinburgh, June 2015}{237}{chapter*.126}
+\contentsline {chapter}{Rebekah Hawkins, Sharna Katzeff, Olivier Rochecouste\newline National Archaeology Student Conference Australia 2015}{241}{chapter*.129}
+\contentsline {chapter}{Jacqueline Jordaan\newline Taking stock of archaeological thought, method and practice in southern Africa. A review of the ASAPA Conference from the 1\relax st--3\relax rd July 2015}{249}{chapter*.135}
+\contentsline {chapter}{Jennifer Lane, Helen Heath\newline Proceedings from the 2015 New Zealand Archaeological Association Conference}{253}{chapter*.139}
+\contentsline {chapter}{Mariana Favila Vázquez, Ximena Chávez Balderas\newline Warfare, Environment, Social Inequality and Peace Studies Seville, Spain: May 29--30, 2015}{265}{chapter*.146}
+\contentsline {part}{\numberline {III}\scshape interviews}{271}{part.3}
+\contentsline {chapter}{Chelsea Colwell-Pasch\newline Brian Fagan, Ph.D. \textit {Professor Emeritus at the University of California, Santa Barbara}}{273}{chapter*.149}
+\contentsline {chapter}{Lisa M. Johnson\newline Rosemary Joyce, Ph.D. \textit {Professor of Anthropology at the University of California, Berkeley}}{279}{chapter*.151}
