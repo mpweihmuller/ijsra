@@ -24,6 +24,7 @@ stretch=10,% stretch=10, shrink=10 - reduce stretchability/shrinkability (defaul
 shrink=10
 ]{microtype}
 
+\usepackage{xspace}
 \usepackage{colortbl}
 \usepackage{abbrevs}
 \usepackage{alertmessage}
@@ -137,10 +138,10 @@ style=english,					% 	- german quotes
 	round-mode          				= places, 
 	round-precision     			= 2,
 	group-minimum-digits 	= 4, % Für "Tausenderpunkt" --> 1.234 anstatt 1234
-	group-separator={.},% für "12.345" statt "12 345"
+	group-separator={,},% für "12.345" statt "12 345"
 	%  scientific-notation = engineering, % Use multiples of 3 as exponent
 	%	locale=DE, % Typeset numbers and units the German way
-	range-phrase ={~$\times$\ },%
+	range-phrase ={$\times$},%
 	zero-decimal-to-integer,%aus "2.0" wird "2"
 	range-units=single,  % --> 2 x 2 m, - auskommentieren für 2 m x 2 m
 }
