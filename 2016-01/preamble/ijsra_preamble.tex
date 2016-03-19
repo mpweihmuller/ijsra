@@ -180,7 +180,7 @@ style=english,					% 	- german quotes
 backend=biber,
 style=authoryear,
 isbn=false,
-firstinits=true,
+giveninits=true,
 %dashed=false,
 ]{biblatex}
 \renewcommand{\labelnamepunct}{\addcolon\space}
@@ -189,8 +189,8 @@ firstinits=true,
 \renewcommand*{\postnotedelim}{\addcolon}
 \DeclareFieldFormat{postnote}{#1}
 \DeclareFieldFormat{pages}{#1}
-\DeclareNameAlias{sortname}{last-first}
-\DeclareNameAlias{default}{last-first}
+\DeclareNameAlias{sortname}{family-given}
+\DeclareNameAlias{default}{family-given}
 \DeclareNameAlias{editor}{sortname}
 
 \DeclareFieldFormat{multipostnote}{#1}
@@ -258,19 +258,32 @@ firstinits=true,
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
-
-%\usepackage{hyperxmp}
-\usepackage{hyperref} % For hyperlinks in the PDF
+\usepackage{hyperxmp}
+\usepackage{hyperref}
 \hypersetup{					% setup the hyperref-package options
-	colorlinks   = true, %Colours links instead of ugly boxes
-	urlcolor     =  myblue, %Colour for external hyperlinks
-	linkcolor    = myblue, %Colour of internal links
-	citecolor   = myblue, %Colour of citations
-	linktoc=page,
-	pdfborder={0 0 0},			% 	-
+	pdftitle={International Journal of Student Research in Archaeology (IJSRA)},	% 	- title (PDF meta)
+	pdfsubject={Issue 1},% 	- subject (PDF meta)
+	pdfauthor={},	% 	- author (PDF meta)
+	pdfauthortitle={},
+	pdfcopyright={Copyright (c) \the\year\ IJSRA. All rights reserved.},
+	pdfhighlight=/N,
+	pdfdisplaydoctitle=true,
+	pdfdate={\the\year-\the\month-\the\day}
+	pdflang={de},
+	pdfcaptionwriter={Lukas C. Bossert},
+	pdfkeywords={International Journal, Archaeology, Undergraduates},
+	pdfproducer={XeLaTeX},
+	pdflicenseurl={http://creativecommons.org/licenses/by-nc-nd/4.0/},
+	plainpages=false,			% 	- 
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     =  myblue, %Colour for external hyperlinks
+  linkcolor    = myblue, %Colour of internal links
+  citecolor   = myblue, %Colour of citations
+  linktoc=page,
+  	pdfborder={0 0 0},			% 	-
 	breaklinks=true,			% 	- allow line break inside links
 	bookmarksnumbered=true,		%
 	bookmarksopenlevel=2,
-	bookmarksopen=true,		%
-	final=true	% = true, only with web-Documents!!
+	bookmarksopen=false,		%
+	final=true	% = true, nur bei web-Dokument!! (wichtig!!)
 }

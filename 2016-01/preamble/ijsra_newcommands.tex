@@ -32,7 +32,8 @@
 \makeatother
 
 
-
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{0}
 
 
 \newcommand\authorname{}
@@ -77,5 +78,25 @@
 %\cleardoubleemptypage
 %\clearpage
 %\cleardoubleevenplainpage
-	\endinput
+%	\endinput
 }
+
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%   % Original »plain« replaced by »emptyx
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+

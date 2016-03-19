@@ -28,16 +28,35 @@ numbers=noenddot,
 \addbibresource{ijsra_2016_01.bib}
 
 
-%%
-%%\includeonly{%
-%% content/editorial,
-%% content/ijsra_editorial,
-%% content/ijsra_presentation,
-%% content/ijsra_vonk,%LCB: done
-%% content/ijsra_verdu,% LCB: done
-%%content/colophon, %LCB:
-%%content/editorial,
-%%}
+%
+\includeonly{%
+%content/ijsra_vonk,
+content/ijsra_verdu,
+%content/ijsra_bekteshi,
+%content/ijsra_maggio,
+%content/ijsra_davis,
+%content/ijsra_northwood,
+%content/ijsra_takkou_dobroski,
+%content/ijsra_scollan,
+%content/ijsra_Heekeren,
+%content/ijsra_Sheridan, 
+%content/ijsra_rayer,
+%content/ijsra_hughes,
+%content/ijsra_Norman, 
+%content/ijsra_thoeming,
+%content/ijsra_garcia,
+%content/ijsra_gagglioli,
+%content/ijsra_zidan,
+%%------------------------------
+%content/ijsra_ASA,
+%content/ijsra_NASC,
+%content/ijsra_ASAPA,
+%content/ijsra_NZAA,
+%content/ijsra_WESIPS,
+%%------------------------------
+%content/ijsra_pasch,
+%content/ijsra_johnson,
+}
 
 
 
@@ -50,22 +69,20 @@ numbers=noenddot,
 %%%      document itself      %%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-\setcounter{secnumdepth}{0}
-\setcounter{tocdepth}{0}
-
 \include{content/colophon}
 \include{content/editorial}
-\frontmatter
-
-\tableofcontents\thispagestyle{empty}
- \setcounter{page}{1}
+\include{content/_toc}
+%\frontmatter
+\renewcommand{\thepage}{\roman{page}}%
+\setcounter{page}{1}
 \include{content/ijsra_editorial}
 \include{content/ijsra_presentation}
 
 %------------------------------
-\mainmatter
-%\addcontentsline{toc}{part}{\scshape articles}
-\part{\scshape articles}\thispagestyle{empty}
+%\mainmatter
+\renewcommand{\thepage}{\arabic{page}}%
+\setcounter{page}{1}
+\include{content/_part_articles}
 \include{content/ijsra_vonk}
 \include{content/ijsra_verdu}
 \include{content/ijsra_bekteshi}
@@ -84,16 +101,14 @@ numbers=noenddot,
 \include{content/ijsra_gagglioli}
 \include{content/ijsra_zidan}
 %------------------------------
-%\addcontentsline{toc}{part}{\scshape conference reviews}
-\part{\scshape conference reviews}\thispagestyle{empty}
+\include{content/_part_reviews}
 \include{content/ijsra_ASA}
 \include{content/ijsra_NASC}
 \include{content/ijsra_ASAPA}
 \include{content/ijsra_NZAA}
 \include{content/ijsra_WESIPS}
 %------------------------------
-%\addcontentsline{toc}{part}{\scshape interviews}
-\part{\scshape interviews}\thispagestyle{empty}
+\include{content/_part_interviews}
 \include{content/ijsra_pasch}
 \include{content/ijsra_johnson}
 
