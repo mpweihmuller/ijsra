@@ -28,15 +28,16 @@ numbers=noenddot,
 \addbibresource{ijsra_2016_01.bib}
 
 
-%
-%\includeonly{%
+%%
+%%\includeonly{%
 %% content/editorial,
 %% content/ijsra_editorial,
 %% content/ijsra_presentation,
 %% content/ijsra_vonk,%LCB: done
 %% content/ijsra_verdu,% LCB: done
-%content/ijsra_bekteshi, %LCB:
-%}
+%%content/colophon, %LCB:
+%%content/editorial,
+%%}
 
 
 
@@ -49,24 +50,22 @@ numbers=noenddot,
 %%%      document itself      %%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-	\begin{titlepage}
-	
-	This is going to be the titlepage
-	\end{titlepage}	
-
-\frontmatter 
 \setcounter{secnumdepth}{0}
 \setcounter{tocdepth}{0}
-\tableofcontents
 
+\include{content/colophon}
 \include{content/editorial}
+\frontmatter
+
+\tableofcontents\thispagestyle{empty}
+ \setcounter{page}{1}
 \include{content/ijsra_editorial}
 \include{content/ijsra_presentation}
 
 %------------------------------
 \mainmatter
-\part{\scshape articles}
-
+%\addcontentsline{toc}{part}{\scshape articles}
+\part{\scshape articles}\thispagestyle{empty}
 \include{content/ijsra_vonk}
 \include{content/ijsra_verdu}
 \include{content/ijsra_bekteshi}
@@ -85,14 +84,16 @@ numbers=noenddot,
 \include{content/ijsra_gagglioli}
 \include{content/ijsra_zidan}
 %------------------------------
-\part{\scshape conference reviews}
+%\addcontentsline{toc}{part}{\scshape conference reviews}
+\part{\scshape conference reviews}\thispagestyle{empty}
 \include{content/ijsra_ASA}
 \include{content/ijsra_NASC}
 \include{content/ijsra_ASAPA}
 \include{content/ijsra_NZAA}
 \include{content/ijsra_WESIPS}
 %------------------------------
-\part{\scshape interviews}
+%\addcontentsline{toc}{part}{\scshape interviews}
+\part{\scshape interviews}\thispagestyle{empty}
 \include{content/ijsra_pasch}
 \include{content/ijsra_johnson}
 
