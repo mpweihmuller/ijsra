@@ -27,7 +27,7 @@ shrink=10
 \usepackage{xspace}
 \usepackage{colortbl}
 \usepackage{abbrevs}
-%\usepackage{alertmessage}
+\usepackage{alertmessage}
 \robustify{\DateMark} % after having loaded abbrevs
 %-------------------------------------------
 \usepackage[ 
@@ -71,12 +71,7 @@ bottom%
 %		\setlength{\footnotemargin}{1em}
 \deffootnote{0em}{1em}{{\sffamily\textbf\thefootnotemark}\ }%Ausgabe der Fußnotenziffer in normal
 %--------------------------------------
-\newcommand{\mychapter}[1]{
-	\setcounter{chapter}{1}
-%	\setcounter{section}{0}
-	\chapter*{#1}
-	\addcontentsline{toc}{chapter}{\shortauthor\newline \maintitle}
-}
+
 \usepackage{chngcntr} %Voraussetzung fuer Fussnoten durch alle Kapitel durchnummerieren
 \counterwithout{footnote}{chapter} %Fussnoten durch alle Kapitel durchnummerieren
 \counterwithout{figure}{chapter}
