@@ -43,6 +43,14 @@
 \newcommand\articletitleshort{}
 \newcommand\authorsinstitution{}
 \newcommand\thankyounote{}
+
+\newcommand{\mychapter}[1]{
+	\setcounter{chapter}{1}
+%	\setcounter{section}{0}
+	\chapter*{#1}
+	\addcontentsline{toc}{chapter}{\shortauthor\newline {\normalfont \maintitle}}
+}
+\renewcommand*{\UrlFont}{\small\bfseries}
 %-----------------------------------------
 \def\shortauthor{}
 \def\shorttitle{}
