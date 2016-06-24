@@ -1,0 +1,32 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {chapter}{Gonzalo Linares Matás\newline {\normalfont A Student Perspective on the Present of Archaeology: IJSRA Editorial}}{i}{chapter*.6}
+\contentsline {chapter}{Gonzalo Linares Matás\newline {\normalfont Presentation of the first issue of the \emph {International Journal of Student Research in Archaeology}}}{vii}{chapter*.7}
+\contentsline {part}{\numberline {I}\scshape articles}{1}{part.1}
+\contentsline {chapter}{Lilla Vonk\newline {\normalfont Archaeology’s Potential for Active Engagement in Dementia Care}}{3}{chapter*.8}
+\contentsline {chapter}{Antonio Sánchez Verdú\newline {\normalfont Unearthing the Roads of Roman Hispania: Evolution of Theories, Methodologies and Value Enhancement Techniques}}{13}{chapter*.9}
+\contentsline {chapter}{Arba Bekteshi\newline {\normalfont Albanian Archaeology during Communism: Constructing the Illyrian Myth through Numismatics}}{27}{chapter*.16}
+\contentsline {chapter}{Ariane Maggio\newline {\normalfont \SIrange [range-phrase=--]{2}{3}{\percent } Neanderthal, \SI {5}{\percent } Denisovan, but \SI {100}{\percent } Human: Constructing Identity from the Genetic Past}}{33}{chapter*.17}
+\contentsline {chapter}{Dylan Davis\newline {\normalfont Tetra-dimensional Climate and its Effects on the Roman State: An Archaeological Analysis of the Roman Agroeconomy}}{41}{chapter*.18}
+\contentsline {chapter}{Lucy Northwood\newline {\normalfont Sacred Bodies in Sacred Spaces: Investigating whether western body theory is a valuable tool for interpreting Hindu ritual space}}{67}{chapter*.36}
+\contentsline {chapter}{Richard Takkou, Sonja Dobroski \newline {\normalfont A Discourse on the Archaeological History of Zakynthos: Alternative Approaches}}{77}{chapter*.38}
+\contentsline {chapter}{Margaret Scollan\newline {\normalfont Domestication and Infectious Diseases: Evidence For Human Cultural Niche Construction}}{91}{chapter*.47}
+\contentsline {chapter}{Vivian S. van Heekeren\newline {\normalfont A Method and an Object: An Art Historical Approach Applied to the ‘Memento-Mori’ Mosaic from Pompeii, Italy}}{101}{chapter*.51}
+\contentsline {chapter}{Kelton Sheridan\newline {\normalfont A Case for Hybridity}}{109}{chapter*.53}
+\contentsline {chapter}{Helen Rayer\newline {\normalfont Are ‘Small Towns’ Always Towns? A Classification of Roman Civil Settlements in Northern Britain}}{117}{chapter*.54}
+\contentsline {chapter}{Sam Hughes\newline {\normalfont \enquote {In my sword I trust}. A Reassessment of Irish Iron Age Swords With a Focus on Their Potential Use in Battle}}{137}{chapter*.64}
+\contentsline {chapter}{Bertie Norman\newline {\normalfont Re-assessing the Location of the Homeric Underworld in the Odyssey Book XI}}{153}{chapter*.73}
+\contentsline {chapter}{Alix Thoeming \newline {\normalfont Dealing with Data: Naïve Bayesian Classification and a Case Study from Viking Age Sweden}}{165}{chapter*.75}
+\contentsline {chapter}{Camilo Barcia García\newline {\normalfont The Management of Social Space in the Upper Palaeolithic: Patterns, Statistics, and Open GIS in the Lower Gallery of La Garma (Cantabria, Northern Iberian Peninsula)}}{177}{chapter*.86}
+\contentsline {chapter}{Amanda Gaggioli\newline {\normalfont Making Better Knives: An Experimental Analysis of Projectile Point Technology and Multifunctional Uses}}{193}{chapter*.94}
+\contentsline {chapter}{Yassin E. Zidan, Nesrin M. N. El Hadidi, Maisa M.A. Mansour, Wael A.A. Abo Elgat\newline {\normalfont Treatment of Khedive Ismail’s antique gun (1863--1879) at the National Military Museum. A Case Study}}{207}{chapter*.104}
+\contentsline {part}{\numberline {II}\scshape conference reviews}{215}{part.2}
+\contentsline {chapter}{Ülle Aguraiuja, Rachel Faulkner-Jones, Marta Lorenzon, Cindy Nelson-Viljoen\newline {\normalfont Third ‘Annual Student Archaeology’ Conference}}{217}{chapter*.112}
+\contentsline {chapter}{Rebekah Hawkins, Sharna Katzeff, Olivier Rochecouste\newline {\normalfont National Archaeology Student Conference Australia 2015}}{221}{chapter*.115}
+\contentsline {chapter}{Jacqueline Jordaan\newline {\normalfont Taking stock of archaeological thought, method and practice in southern Africa. A review of the ASAPA Conference from the 1\relax st--3\relax rd July 2015}}{229}{chapter*.121}
+\contentsline {chapter}{Jennifer Lane, Helen Heath\newline {\normalfont Proceedings from the 2015 New Zealand Archaeological Association Conference}}{233}{chapter*.125}
+\contentsline {chapter}{Mariana Favila Vázquez, Ximena Chávez Balderas\newline {\normalfont Warfare, Environment, Social Inequality and Peace Studies Seville, Spain: May 29--30, 2015}}{245}{chapter*.132}
+\contentsline {part}{\numberline {III}\scshape interviews}{251}{part.3}
+\contentsline {chapter}{Chelsea Colwell-Pasch\newline {\normalfont Brian Fagan, Ph.D. \emph {Professor Emeritus at the University of California, Santa Barbara}}}{253}{chapter*.135}
+\contentsline {chapter}{Lisa M. Johnson\newline {\normalfont Rosemary Joyce, Ph.D. \textit {Professor of Anthropology at the University of California, Berkeley}}}{259}{chapter*.137}

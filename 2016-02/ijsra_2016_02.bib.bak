@@ -1,0 +1,319 @@
+% Encoding: UTF-8
+
+@BScTHESIS {Alexander_1984,
+
+author   = "Alexander, G. J.",
+
+title    = "A preliminary investigation into the relationships between geology, soils and vegetation in the eastern Tuli Block, Botswana",
+
+school   = "University of Natal, Pietermaritzburg",
+
+year     = "1984",
+
+type     = "Unpublished",
+
+crossref = "Alexander 1984"
+
+}
+
+@Book{Deacon_1984a,
+  author    = {Deacon, J.},
+  title     = {The Later Stone Age of Southernmost Africa},
+  publisher = {British Archaeological Reports},
+  location  = {Oxford},
+  year      = {1984},
+  volume    = {213},
+  series    = {BAR International Series},
+}
+
+@Inbook{Deacon_1984b,
+  author    = {Deacon, J.},
+  title     = {Southern African prehistory and paleoenvironment},
+  year      = {1984b},
+  editor    = {Klein, R.},
+  publisher = {Balkema},
+  chapter   = {Later Stone Age people and their descendants in southern Africa},
+  note      = {221-328},
+  location  = {Rotterdam},
+}
+
+@MastersThesis{Forssman_2010,
+  author   = {Forssman, T.},
+  title    = {The Later Stone Age occupation and sequence of the Mapungubwe Landscape},
+  year     = {2010},
+  pubstate = {Unpublished},
+  school   = {University of the Witwatersrand, Johannesburg},
+}
+
+@Article{Forssman_2013a,
+  author  = {Forssman, T.},
+  title   = {Missing pieces: the significance of surface scatters on the Mapungubwe Landscape, South Africa},
+  volume  = {25},
+  pages   = {53-73},
+  year    = {2013a},
+  journal = {Southern African Humanities},
+}
+
+@Book{Forssman_2013b,
+  author    = {Forssman, T.},
+  title     = {Beyond the Dripline: Later Stone Age Changes on the Greater Mapungubwe Landscape},
+  publisher = {Lambert Academic Publishing},
+  location  = {Saarbrücken},
+  year      = {2013b},
+}
+
+
+@ARTICLE {Forssman_2013c,
+
+author  = "Forssman, T.",
+
+title   = "A preliminary report on fieldwork in the Northern Tuli Game Reserve, northeastern Botswana",
+
+journal = "South African Archaeological Bulletin",
+
+year    = "2013",
+
+volume  = "68",
+
+pages   = "63-71"
+
+}
+
+@PhdThesis{Forssman_2014a,
+  author   = {Forssman, T.},
+  title    = {The Spaces between Places: A Landscape Study of Foragers on the Greater Mapungubwe Landscape},
+  year     = {2014},
+  type     = {Unpublished},
+  location = {Oxford},
+  school   = {University of Oxford},
+}
+
+
+@ARTICLE {Forssman_2014b,
+
+author  = "Forssman, T.",
+
+title   = "Dzombo Shelter: a contribution to the Later Stone Age sequence of the Greater Mapungubwe Landscape",
+
+journal = "South African Archaeological Bulletin",
+
+year    = "2014",
+
+volume  = "69",
+
+pages   = "182-191"
+
+}
+
+
+@ARTICLE {Forssman_2015,
+
+author  = "Forssman, T.",
+
+title   = "A macro-fracture investigation of the backed stone tools from Dzombo Shelter, eastern Botswana",
+
+journal = "Journal of Archaeological Science: Reports",
+
+year    = "2015",
+
+volume  = "3",
+
+pages   = "265-274"
+
+}
+
+@Article{Hall_2000,
+  author  = {Hall, S. and Smith, B.},
+  title   = {Empowering places: rock shelters and ritual control in farmer-forager interactions in the Northern Province},
+  volume  = {8},
+  pages   = {30-46},
+  year    = {2000},
+  journal = {South African Archaeological Society Goodwin Series},
+}
+
+@Article{Kennett_2002,
+  author  = {Kennett, D. and Ingram, B. and Southon, J. and Wise, K.},
+  title   = {Differences in 14C age between stratigraphically associated charcoal and marine shell from the archaic period site of Kilometer 4, southern Peru: old wood or old water?},
+  volume  = {44},
+  pages   = {53-58},
+  year    = {2002},
+  journal = {Radiocarbon},
+}
+
+@Inbook{Kuman_2009,
+  author    = {Kuman, K. and Field, A.},
+  title     = {The Cutting Edge: New Approaches to the Archaeology of Human Origins},
+  year      = {2009},
+  editor    = {Schick and Toth, N.},
+  publisher = {Stone Age Institute Press},
+  chapter   = {The Oldowan Industry from Sterkfontein Caves, South Africa},
+  note      = {pp. 159-169},
+  location  = {Gosport},
+}
+
+@Inbook{Lancaster_2003,
+  author    = {Lancaster, S. and Simpson, I.A.},
+  title     = {Assessing and modelling faunal turbation},
+  year      = {2003},
+  volume    = {1111},
+  publisher = {British Archaeological Reports},
+  chapter   = {64-85.},
+  series    = {BAR International Series},
+}
+
+
+@ARTICLE {Miller_2001,
+
+author  = "Miller, D.",
+
+title   = "Metal assemblages from Greefswald areas K2, Mapungubwe hill and Mapungubwe souther terrace",
+
+journal = "Southern African Archaeological Bulletin",
+
+year    = "2001",
+
+volume  = "56",
+
+pages   = "83-103"
+
+}
+
+
+@ARTICLE {Milleretal_2001,
+
+author  = "Miller, D., Killick, D., van der Merwe, N.",
+
+title   = "Metal working in the Northern Lowveld, South Africa, AD 1000-1890",
+
+journal = "Journal of Field Archaeology",
+
+year    = "2001",
+
+volume  = "28",
+
+pages   = "401-417"
+
+}
+
+
+@ARTICLE {Orton_2008,
+
+author  = "Orton, J.",
+
+title   = "Later Stone Age ostrich eggshell bead manufacture in the Northern Cape, South Africa",
+
+journal = "Journal of Archaeological Science",
+
+year    = "2008",
+
+volume  = "35",
+
+pages   = "1765-1775"
+
+}
+
+@PhdThesis{Orton_2014,
+  author   = {Orton, J.},
+  title    = {Late Holocene archaeology in Namaqualand, South Africa: hunter-gatherer and herders in a semi-arid environment},
+  year     = {2014},
+  type     = {Unpublished},
+  location = {Oxford},
+  school   = {University of Oxford},
+}
+
+@Inbook{Reid_1998,
+  author    = {Reid, A. and Sadr, K. and Hanson-James, N.},
+  title     = {Ditswa mmung: the archaeology of Botswana},
+  year      = {1998},
+  editor    = {Lane, P. and Reid, A. and Segobye, A.},
+  publisher = {Pula Press and the Botswana Society},
+  chapter   = {Herding traditions},
+  note      = {81-100},
+  location  = {Gaborone},
+}
+
+
+@ARTICLE {Schoeman_2006,
+
+author  = "Schoeman, M. H.",
+
+title   = "Imagining rain-places: rain-control and changing ritual landscapes in the Shashe-Limpopo confluence area, South Africa",
+
+journal = "South African Archaeological Bulletin",
+
+year    = "2006",
+
+volume  = "61",
+
+pages   = "152-165"
+
+}
+
+@PhdThesis{vanDoornum_2005,
+  author = {Van Doornum, B.},
+  title  = {Changing places, spaces and identity in the Shashe-Limpopo region of Limpopo Province, South Africa},
+  year   = {2005},
+  type   = {Unpublished},
+  school = {University of the Witwatersrand, Johanesburg},
+}
+
+@Article{vanDoornum_2007,
+  author  = {Van Doornum, B.},
+  title   = {Tshisiku Shelter and the Shashe-Limpopo confluence area hunter-gatherer sequence},
+  volume  = {19},
+  pages   = {17-67},
+  year    = {2007},
+  journal = {Southern African Humanities},
+}
+
+@Article{vanDoornum_2008,
+  author  = {Van Doornum, B.},
+  title   = {Sheltered from change: hunter-gatherer occupation of Balerno Main Shelter, Shashe-Limpopo confluence area, South Africa},
+  volume  = {20},
+  pages   = {249-284},
+  year    = {2008},
+  journal = {Southern African Humanities},
+}
+
+@Article{vanDoornum_2014,
+  author  = {Van Doornum, B.},
+  title   = {Balerno Shelter 3: A Later Stone Age site in the Shashe-Limpopo confluence area, South Africa},
+  volume  = {29},
+  pages   = {129-155},
+  year    = {2014},
+  journal = {Southern African Humanities},
+}
+
+
+@ARTICLE {Walker_1994,
+
+author  = "Walker, N.",
+
+title   = "The Late Stone Age of Botswana: some recent excavations",
+
+journal = "Botswana Notes and Records",
+
+year    = "1994",
+
+volume  = "26",
+
+pages   = "1-35"
+
+}
+
+
+@ARTICLE {Wood_2011,
+
+author  = "Wood, M.",
+
+title   = "A glass bead sequence for southern Africa from the 8th to the 16th century AD",
+
+journal = "Journal of African Archaeology",
+
+year    = "2011",
+
+volume  = "9",
+
+pages   = "67-84"
+}
+@Comment{jabref-meta: databaseType:biblatex;}

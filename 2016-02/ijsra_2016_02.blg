@@ -1,0 +1,9 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[1] Config.pm:346> INFO - Logfile is 'ijsra_2016_02.blg'
+[43] biber-darwin:290> INFO - === Fri Jun 24, 2016, 12:54:38
+[62] Biber.pm:351> INFO - Reading 'ijsra_2016_02.bcf'
+[152] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[157] Utils.pm:149> WARN - The file 'ijsra_2016_02.bcf' does not contain any citations!
+[163] bbl.pm:526> INFO - Writing 'ijsra_2016_02.bbl' with encoding 'UTF-8'
+[163] bbl.pm:619> INFO - Output to ijsra_2016_02.bbl
+[163] Biber.pm:108> INFO - WARNINGS: 1
