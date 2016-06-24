@@ -1,9 +1,17 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
-[1] Config.pm:346> INFO - Logfile is 'ijsra_2016_02.blg'
-[43] biber-darwin:290> INFO - === Fri Jun 24, 2016, 12:54:38
-[62] Biber.pm:351> INFO - Reading 'ijsra_2016_02.bcf'
-[152] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
-[157] Utils.pm:149> WARN - The file 'ijsra_2016_02.bcf' does not contain any citations!
-[163] bbl.pm:526> INFO - Writing 'ijsra_2016_02.bbl' with encoding 'UTF-8'
-[163] bbl.pm:619> INFO - Output to ijsra_2016_02.bbl
-[163] Biber.pm:108> INFO - WARNINGS: 1
+[0] Config.pm:346> INFO - Logfile is 'ijsra_2016_02.blg'
+[48] biber-darwin:290> INFO - === Fri Jun 24, 2016, 13:03:30
+[70] Biber.pm:351> INFO - Reading 'ijsra_2016_02.bcf'
+[172] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[172] Biber.pm:776> INFO - Found 16 citekeys in bib section 1
+[172] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[191] Biber.pm:3493> INFO - Processing section 1
+[206] Biber.pm:3657> INFO - Looking for bibtex format file 'ijsra_2016_02.bib' for section 1
+[208] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[209] bibtex.pm:1048> INFO - Found BibTeX data source 'ijsra_2016_02.bib'
+[259] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[259] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[260] Biber.pm:3306> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[260] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[279] bbl.pm:526> INFO - Writing 'ijsra_2016_02.bbl' with encoding 'UTF-8'
+[281] bbl.pm:619> INFO - Output to ijsra_2016_02.bbl

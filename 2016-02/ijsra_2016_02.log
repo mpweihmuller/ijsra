@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.6.24)  24 JUN 2016 12:57
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.6.24)  24 JUN 2016 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2243,12 +2243,8 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)
-
-Package biblatex Warning: 'firstinits' option is deprecated, use 'giveninits' i
-nstead.
-
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/xpatch/xpatch.sty
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xpatch/xpatch.sty
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -2602,11 +2598,6 @@ Package biblatex Info: ... file 'greek.lbx' found.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/greek.lbx
 File: greek.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 )
-
-Package biblatex Warning: Conflicting options.
-(biblatex)                'giveninits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 44.
-
 (./ijsra_2016_02.aux
 No file content/colophon.aux.
 No file content/editorial.aux.
@@ -2614,7 +2605,7 @@ No file preamble/_toc.aux.
 No file preamble/ijsra_editorial.aux.
 No file preamble/ijsra_presentation.aux.
 No file preamble/_part_articles.aux.
-No file content/forssman.aux.
+(./content/forssman.aux)
 No file preamble/_part_reviews.aux.
 No file preamble/_part_interviews.aux.
 )
@@ -2840,10 +2831,6 @@ LaTeX Info: Redefining \nameref on input line 44.
 \@outlinefile=\write6
 \openout6 = `ijsra_2016_02.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 \c__siunitx_mathsf_int=\count416
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+lnum;" at 8.0pt
@@ -2871,6 +2858,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 44.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
@@ -2917,33 +2905,305 @@ LaTeX Font Info:    Font shape `EU1/LinLibertine(5)/m/n' will be
 Requested font "[LinLibertine_M.otf]/OT:script=latn;language=DFLT;" at 6.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_M.otf
+\openout2 = `content/forssman.aux'.
+
+
+(./content/forssman.tex
+\blx@maxsegment@1=\count418
+\blx@sectionciteorder@1=\count419
+Package biblatex Info: Reference section=1 on input line 1.
+Package biblatex Info: Setting label 'refsection:1' on input line 1.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
+(Font)              scaled to size 10.95pt on input line 11.
+Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;" at 10.95pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RB.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;" at 17.28pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newline' on input line 11.
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;" at 14.4pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 14.4pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;" at 7.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "cmmi12" at 14.4pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+Requested font "cmsy10" at 14.4pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 13.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 13.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
+xt;mapping=tex-text;+tnum;" at 14.4pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 13.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
+xt;mapping=tex-text;+tnum;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 13.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
+xt;mapping=tex-text;+tnum;" at 7.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+LaTeX Font Info:    Font shape `EU1/LinLibertine(5)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 13.
+Requested font "[LinLibertine_M.otf]/OT:script=latn;language=DFLT;" at 14.4pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_M.otf
+LaTeX Font Info:    Font shape `EU1/LinLibertine(5)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 13.
+Requested font "[LinLibertine_M.otf]/OT:script=latn;language=DFLT;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_M.otf
+LaTeX Font Info:    Font shape `EU1/LinLibertine(5)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 13.
+Requested font "[LinLibertine_M.otf]/OT:script=latn;language=DFLT;" at 7.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_M.otf
+Requested font "cmr12" at 14.4pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 13.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
+xt;mapping=tex-text;+tnum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
+(Font)              scaled to size 9.0pt on input line 13.
+Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RB.otf
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+lnum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RI.otf
+Package marginnote Info: Margin note 1.1 is on absolute page 1
+(marginnote)              on input line 27.
+Package marginnote Info: xpos seems to be 141.01517pt,
+(marginnote)             \marginnoterightadjust ignored on input line 27.
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+lnum;" at 8.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RI.otf
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+lnum;" at 7.50002pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RI.otf
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 7.50002pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RI.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 10.95pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;" at 32.25891pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;" at 49.03023pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10.95> not a
+vailable
+(Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
+t line 37.
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+lnum;" at 10.95pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RI.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;" at 5.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "cmmi9" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+Requested font "cmsy9" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 37.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 37.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 37.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
+xt;mapping=tex-text;+tnum;" at 5.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+LaTeX Font Info:    Font shape `EU1/LinLibertine(5)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 37.
+Requested font "[LinLibertine_M.otf]/OT:script=latn;language=DFLT;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_M.otf
+LaTeX Font Info:    Font shape `EU1/LinLibertine(5)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 37.
+Requested font "[LinLibertine_M.otf]/OT:script=latn;language=DFLT;" at 5.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_M.otf
+Requested font "cmr9" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+File: preamble/ijsra_logo.jpg Graphic file (type QTm)
+
+<use  "preamble/ijsra_logo.jpg" > [1
+
+
+
+
+
+
+
+
+
+
+]
+File: figures/Forssman-Figure01.jpg Graphic file (type QTm)
+ <use  "figures/Forssman-Figure01.jpg" >
+Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+lnum;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RB.otf
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+lnum;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RI.otf
+Package marginnote Info: Margin note 2.1 is on absolute page 2
+(marginnote)              on input line 45.
+Package marginnote Info: xpos seems to be 205.84677pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 45.
+
+Overfull \hbox (3.01047pt too wide) in paragraph at lines 45--46
+[]\EU1/LinLibertine(0)/m/n/10.95 Mafunyane |[]is situated in a sandstone belt t
+hat stretches along the Motloutse, Limpopo,
+ []
+
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+lnum;" at 10.95pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RB.otf
+[2]
+Package marginnote Info: Margin note 3.1 is on absolute page 3
+(marginnote)              on input line 51.
+Package marginnote Info: xpos seems to be 170.11049pt,
+(marginnote)             \marginnoterightadjust ignored on input line 51.
+
+
+LaTeX Warning: Reference `fig:Forssman-Figure02' on page 3 undefined on input l
+ine 52.
+
+File: figures/Forssman-Figure02.jpg Graphic file (type QTm)
+<use  "figures/Forssman-Figure02.jpg" >
+
+LaTeX Warning: Reference `fig:Figure 03' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Reference `fig:Forssmann-Table 01' on page 3 undefined on input 
+line 67.
+
+File: figures/Forssman-Table01.jpg Graphic file (type QTm)
+<use  "figures/Forssman-Table01.jpg" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 71.
+See the caption package documentation for explanation.
+
+Package marginnote Info: Margin note 3.2 is on absolute page 3
+(marginnote)              on input line 77.
+Package marginnote Info: xpos seems to be 127.83104pt,
+(marginnote)             \marginnoterightadjust ignored on input line 77.
+
+LaTeX Warning: Reference `fig:Figure 04' on page 3 undefined on input line 78.
+
+[3] [4]
+File: figures/Forssman-Figure04.jpg Graphic file (type QTm)
+ <use  "figures/Forssman-Figure04.jpg" >
+File: figures/Forssman-Table02.jpg Graphic file (type QTm)
+
+<use  "figures/Forssman-Table02.jpg" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 92.
+See the caption package documentation for explanation.
+
+
+Package biblatex Warning: No driver for entry type 'bscthesis'.
+(biblatex)                Using fallback driver on input line 98.
+
+[5] [6]
+Package biblatex Info: Reference section=0 on input line 101.
+ [7])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
-
-(./ijsra_2016_02.aux
+ (./ijsra_2016_02.aux
 No file content/colophon.aux.
 No file content/editorial.aux.
 No file preamble/_toc.aux.
 No file preamble/ijsra_editorial.aux.
 No file preamble/ijsra_presentation.aux.
 No file preamble/_part_articles.aux.
-No file content/forssman.aux.
+(./content/forssman.aux)
 No file preamble/_part_reviews.aux.
 No file preamble/_part_interviews.aux.
 )
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 68.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 \openout1 = `ijsra_2016_02.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60083 strings out of 493590
- 1217496 string characters out of 6143520
- 1659201 words of memory out of 5000000
- 62734 multiletter control sequences out of 15000+600000
- 7223 words of font info for 56 fonts, out of 8000000 for 9000
+ 60521 strings out of 493590
+ 1228957 string characters out of 6143520
+ 1676705 words of memory out of 5000000
+ 63106 multiletter control sequences out of 15000+600000
+ 9988 words of font info for 94 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 76i,3n,100p,10494b,3427s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,23n,100p,10494b,5102s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-No pages of output.
+Output written on ijsra_2016_02.pdf (7 pages).
