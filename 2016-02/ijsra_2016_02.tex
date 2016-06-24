@@ -1,0 +1,68 @@
+\documentclass[%
+greek,ngerman,italian,french,dutch,spanish,swedish,english,%	
+twoside=true,				% onesite or twoside printing
+open=right,					% doublepage cleaning ends up right side
+%	parskip=half-,				% spacing value / method for paragraphs --> Eine halbe Zeile Abstand nach Absatz
+chapterprefix=false,		% prefix for chapter marks (Löscht "Kapitel" bei Kapitel)
+	headings=optiontohead, 		% \chapter[tocentry={}]{}
+%	captions=figureheading,
+fontsize=11pt,				% font size
+%	bibliography=totoc,			% include bib in toc
+%	listof=totoc,				% include listof entries in toc
+titlepage=on,				% own page for each title page
+captions=tableabove,		% display table captions above the float env
+numbers=noenddot,
+%chapterentrywithoutdots,
+%	index,
+%	draft,
+demo, %%% FOR ONLINE WORKING USE DEMO-MODE
+]{scrbook}%	
+
+
+\newcommand\issuemonth{October}
+\newcommand\issueyear{2016}
+\newcommand\issuevolume{2}
+\newcommand\issuenumber{2}
+\input{preamble/ijsra_preamble} %this includes all the used packages, just leave it as it is
+\input{preamble/ijsra_newcommands}
+\addbibresource{ijsra_2016_02.bib}
+
+
+%%
+%\includeonly{%
+%%content/ijsra_editorial,
+%%%------------------------------
+%content/forssmann,
+%}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%      document itself      %%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\include{content/colophon}
+\include{content/editorial}
+\include{preamble/_toc}
+%\frontmatter
+\renewcommand{\thepage}{\roman{page}}%
+\setcounter{page}{1}
+\include{preamble/ijsra_editorial}
+\include{preamble/ijsra_presentation}
+
+%------------------------------
+%\mainmatter
+\renewcommand{\thepage}{\arabic{page}}%
+\setcounter{page}{1}
+\include{preamble/_part_articles}
+
+\include{content/forssman}
+%------------------------------
+\include{preamble/_part_reviews}
+
+%------------------------------
+\include{preamble/_part_interviews}
+
+
+\end{document}

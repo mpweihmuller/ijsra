@@ -1,0 +1,276 @@
+\usepackage[%
+%oldstyle,%
+%sflining%
+]{biolinum}
+\usepackage[%
+lining,			%lining: keine tiefergelegte Zahlen Commands 				\oldstylenums{...} and \liningnums{...} are defined to allow for local use of old-style figures or lining figures, respectively.
+]{ebgaramond} 
+\setkomafont{partnumber}{\normalfont\Huge}
+\setkomafont{part}{\normalfont\scshape\Huge}
+\setkomafont{chapter}{\normalfont\LARGE}%\uppercase
+\setkomafont{section}{\normalfont\Large}%\uppercase
+\setkomafont{subsection}{\normalfont}%\uppercase
+\setkomafont{subsubsection}{\normalfont}%\uppercase
+\setkomafont{paragraph}{\normalfont\scshape}%\uppercase
+\addtokomafont{descriptionlabel}{\normalfont\sffamily}%\textsf\large}%\uppercase
+\addtokomafont{sectioning}{\linespread{1}\selectfont} %einfacher Zeilenabstand in Überschriften
+%-----------------------------
+\usepackage{babel}
+%\usepackage[newcommands]{ragged2e}%Flattersatz mit Trennungen
+%\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage[%
+final,% final - enable microtype; use "draft" to disable
+stretch=10,% stretch=10, shrink=10 - reduce stretchability/shrinkability (default is 20/20)
+shrink=10
+]{microtype}
+
+\usepackage{colortbl}
+\usepackage{abbrevs}
+\usepackage{alertmessage}
+\robustify{\DateMark} % after having loaded abbrevs
+%-------------------------------------------
+\usepackage[ 
+	headsepline, 
+%	plainheadsepline,
+%	footsepline,
+%	plainfootsepline, 
+%markcase=upper, 
+%automark, 
+draft=false,
+]{scrlayer-scrpage} 
+\addtokomafont{headsepline}{\color{mygold}}
+\KOMAoptions{headsepline=3pt}
+
+
+\pagestyle{scrheadings}
+\clearscrheadfoot
+
+
+\lohead[\normalfont\sffamily\footnotesize International Journal of Student Research in Archaeology (IJSRA) \newline 
+\normalfont\sffamily\footnotesize \issuemonth\ \issueyear\ $\bullet$ Vol. \issuevolume, No. \issuenumber \ppages]{\normalfont\sffamily\footnotesize \shorttitle\ \ppages}
+\rehead{\normalfont\sffamily\footnotesize \shortauthor}
+\rohead[{{\vspace{-3em}\includegraphics[width=2cm]{figures/ijsra_logo}}}]{\normalfont\textbf{\sffamily\thepage}}
+\lehead{\normalfont\textbf{\sffamily\thepage}}
+\refoot{\normalfont\sffamily\footnotesize International Journal of Student Research in Archaeology}
+\lofoot{\normalfont\sffamily\footnotesize \issuemonth\ \issueyear\ $\bullet$ Vol. \issuevolume, No. \issuenumber}
+\automark[subsection]{section}  
+%\renewcommand{\sectionmark}[1]{\markright{#1}}
+
+%-----------------------------------------
+\usepackage[%
+%flushmargin, %
+			marginal,
+ragged,%
+hang, %
+bottom%
+]{footmisc} %Fussnoten
+\raggedbottom
+\addtolength{\skip\footins}{.5\baselineskip} % Abstand Text <->
+% Fußnote
+%		\setlength{\footnotemargin}{1em}
+\deffootnote{0em}{1em}{{\sffamily\textbf\thefootnotemark}\ }%Ausgabe der Fußnotenziffer in normal
+%--------------------------------------
+\newcommand{\mychapter}[1]{
+	\setcounter{chapter}{1}
+%	\setcounter{section}{0}
+	\chapter*{#1}
+	\addcontentsline{toc}{chapter}{\shortauthor\newline \maintitle}
+}
+\usepackage{chngcntr} %Voraussetzung fuer Fussnoten durch alle Kapitel durchnummerieren
+\counterwithout{footnote}{chapter} %Fussnoten durch alle Kapitel durchnummerieren
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+%--------------------------------------
+%\usepackage{titling}
+%\settowidth{\thanksmarkwidth}{*}
+%\setlength{\thanksmargin}{.07cm}
+%\usepackage[noblocks]{authblk}
+%\renewcommand\Authfont{\scshape}
+%\renewcommand\Affilfont{\itshape}
+%\renewcommand\Authands{,  }
+
+\usepackage{etoolbox}
+\usepackage{graphicx}
+\usepackage{wrapfig} % Paket zur Positionierung einbinden
+\usepackage{booktabs}%für schönere Tabellen
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{pdfpages}
+\clubpenalty=10000				% prevent single lines at the beginning of a paragraph (Schusterjungen)
+\widowpenalty=10000				% prevent single lines at the end of a paragraph (Hurenkinder)
+\displaywidowpenalty=10000		%
+%-----------------------------------------
+\usepackage[					% page layout modifications
+paper=a4paper,					% 	- use A4 paper size
+head=4\baselineskip,							% 	- no header
+foot =4\baselineskip,
+bindingoffset=0.5cm,			% 	- binding correction
+top=3cm,						% 	- total body: top margin
+left=2cm,					% 	- total body: left margin (odd pages)
+right=5cm,					% 	- total body: right margin (odd pages)
+bottom=5cm,					% 	- total body: bottom margin
+marginparwidth=4cm,			% 	- width for side note
+%	marginparsep=10pt,				% 	- space between notes and body text (content)
+%	footskip=2cm,					% 	- footer skip size
+]{geometry}
+%\usepackage{canoniclayout}
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{subcaption}
+\usepackage{setspace}			% for line spacing, e.g. \onehalfspacing
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{nth}
+
+\usepackage[					% advanced quotes
+strict=true,					% 	- warning are errors now
+style=english,					% 	- german quotes
+%german=guillemets		muss für \MakeAutoQuote (s.u.) deaktiviert sein
+]{csquotes}
+%\MakeAutoQuote{»}{«}		%% macht aus « und » deutsche Anführungszeichen
+%\MakeAutoQuote*{›}{‹}		%% macht aus › und ‹ deutsche einfache Anführungszeichen
+%\defineshorthand{">}{»} \defineshorthand{"<}{«}
+\usepackage{siunitx} %Supreme typesetting of units
+\sisetup{%
+	detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
+	exponent-to-prefix  			= true,
+	round-mode          				= places, 
+	round-precision     			= 2,
+	group-minimum-digits 	= 4, % Für "Tausenderpunkt" --> 1.234 anstatt 1234
+	group-separator={.},% für "12.345" statt "12 345"
+	%  scientific-notation = engineering, % Use multiples of 3 as exponent
+	%	locale=DE, % Typeset numbers and units the German way
+	range-phrase ={~$\times$\ },%
+	zero-decimal-to-integer,%aus "2.0" wird "2"
+	range-units=single,  % --> 2 x 2 m, - auskommentieren für 2 m x 2 m
+}
+
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+
+\usepackage{marginnote}
+\renewcommand{\marginfont}{%\noindent\rule{0pt}{0.7\baselineskip}
+	\normalfont\small\sffamily}
+\newenvironment{myabstract}%
+{\list{}{\rightmargin\leftmargin}%
+	\footnotesize\itshape\item\relax}
+{\endlist}
+
+
+
+
+%\usepackage{abstract} % Allows abstract customization
+%\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+%\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+
+
+
+
+
+
+%\definecolor{myblue}{RGB}{6,2,52}
+\definecolor{myblue}{rgb}{0,0,51}
+\definecolor{mygold}{RGB}{204,153,51}
+%\definecolor{mygold}{cmyk}{0,25,75,20}
+
+
+%%%%%%%%%%%%%   biblatex   %%%%%%%%%%%%%%%%%%
+\usepackage[					%% use  for bibliography
+backend=biber,
+style=authoryear,
+isbn=false,
+firstinits=true,
+%dashed=false,
+]{biblatex}
+\renewcommand{\labelnamepunct}{\addcolon\space}
+\renewcommand*{\bibpagespunct}{\addcolon\space}
+\renewcommand*{\nameyeardelim}{\addcomma\addspace}
+\renewcommand*{\postnotedelim}{\addcolon}
+\DeclareFieldFormat{postnote}{#1}
+\DeclareFieldFormat{pages}{#1}
+\DeclareNameAlias{sortname}{last-first}
+\DeclareNameAlias{default}{last-first}
+\DeclareNameAlias{editor}{sortname}
+
+\DeclareFieldFormat{multipostnote}{#1}
+\DeclareFieldFormat[article,inbook,incollection,inproceedings,patent,thesis,unpublished]{citetitle}{#1\isdot}
+\DeclareFieldFormat[article,inbook,incollection,inproceedings,patent,thesis,unpublished]{title}{#1\isdot}
+%\renewbibmacro{in:}{%
+%  \ifentrytype{article}{}{\setunit{\addcomma\addspace }\printtext{\bibstring{in}\addspace}}}
+  
+\usepackage{xpatch}
+\xpatchbibmacro{date+extrayear}{%
+  \printtext[parens]%
+}{%
+  \setunit{\space}%
+  \printtext%
+}{}{}
+
+\renewbibmacro*{in:}{
+\ifentrytype{incollection}{%
+%  \DeclareNameAlias{editor}{first-last}
+\setunit{\addcomma\addspace }\printtext{\bibstring{in}\addspace}%
+  \ifnameundef{editor}
+    {}
+    {\printnames{editor}%
+     \addspace 
+     \mkbibparens{\usebibmacro{editorstrg}}
+     \setunit{\addcomma\addspace}% 
+    }%
+  \usebibmacro{maintitle+booktitle}
+  \clearfield{maintitle}
+  \clearfield{booktitle}
+  \clearfield{volume}
+  \clearfield{part}
+  \clearname{editor}
+  }
+  {%
+  \ifentrytype{inproceedings}{%
+%  \DeclareNameAlias{editor}{first-last}
+\setunit{\addcomma\addspace }\printtext{\bibstring{in}\addspace}%
+  \ifnameundef{editor}
+    {}
+    {\printnames{editor}%
+     \addspace 
+     \mkbibparens{\usebibmacro{editorstrg}}
+     \setunit{\addcomma\addspace}% 
+    }%
+  \usebibmacro{maintitle+booktitle}
+  \clearfield{maintitle}
+  \clearfield{booktitle}
+  \clearfield{volume}
+  \clearfield{part}
+  \clearname{editor}
+  }{%
+  \ifentrytype{article}{}{\setunit{\addcomma\addspace }\printtext{\bibstring{in}\addspace}}}}}%
+
+\renewbibmacro*{volume+number+eid}{%
+  \printfield{volume}%
+%  \setunit*{\adddot}% DELETED
+%  \setunit*{\addnbspace}% NEW (optional); there's also \addnbthinspace
+  \printfield{number}%
+  \setunit{\addcomma\space}%
+  \printfield{eid}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+%\usepackage{hyperxmp}
+\usepackage{hyperref} % For hyperlinks in the PDF
+\hypersetup{					% setup the hyperref-package options
+	colorlinks   = true, %Colours links instead of ugly boxes
+	urlcolor     =  myblue, %Colour for external hyperlinks
+	linkcolor    = myblue, %Colour of internal links
+	citecolor   = myblue, %Colour of citations
+	linktoc=page,
+	pdfborder={0 0 0},			% 	-
+	breaklinks=true,			% 	- allow line break inside links
+	bookmarksnumbered=true,		%
+	bookmarksopenlevel=2,
+	bookmarksopen=true,		%
+	final=true	% = true, only with web-Documents!!
+}
