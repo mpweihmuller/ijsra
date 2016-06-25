@@ -42,6 +42,33 @@
       \field{type}{Unpublished}
       \field{year}{1984}
     \endentry
+    \entry{Deacon_1984a}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=23d2542033b6177700ed466b33e2dcbc}{%
+           family={Deacon},
+           family_i={D\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {British Archaeological Reports}%
+      }
+      \strng{namehash}{23d2542033b6177700ed466b33e2dcbc}
+      \strng{fullhash}{23d2542033b6177700ed466b33e2dcbc}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{1984}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{BAR International Series}
+      \field{title}{The Later Stone Age of Southernmost Africa}
+      \field{volume}{213}
+      \field{year}{1984}
+    \endentry
     \entry{Forssman_2010}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=6d2c7cb93363b7fbcfd3724036d1f14f}{%
@@ -277,6 +304,48 @@
       \field{pages}{53\bibrangedash 58}
       \range{pages}{6}
     \endentry
+    \entry{Kuman_2009}{inbook}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ba0cd30640eae5a311fe77eed9d5c582}{%
+           family={Kuman},
+           family_i={K\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=293d1598662fb3add23c93b918ff83f3}{%
+           family={Field},
+           family_i={F\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=91643e8dc1df70286c96efbb938c1a70}{%
+           family={Schick},
+           family_i={S\bibinitperiod}}}%
+        {{hash=3a51da4dba3bf51bda0c9096d848a0c1}{%
+           family={Toth},
+           family_i={T\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Gosport}%
+      }
+      \list{publisher}{1}{%
+        {Stone Age Institute Press}%
+      }
+      \strng{namehash}{365a630be965c2994ccdbb14502305fb}
+      \strng{fullhash}{365a630be965c2994ccdbb14502305fb}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{The Oldowan Industry from Sterkfontein Caves, South Africa}
+      \field{note}{pp. 159-169}
+      \field{title}{The Cutting Edge: New Approaches to the Archaeology of Human Origins}
+      \field{year}{2009}
+    \endentry
     \entry{Lancaster_2003}{inbook}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=dc467b7f6160dd6a17f4537f5111823e}{%
@@ -306,6 +375,101 @@
       \field{title}{Assessing and modelling faunal turbation}
       \field{volume}{1111}
       \field{year}{2003}
+    \endentry
+    \entry{Miller_2001}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d7664e4a0b99746e653755d362474077}{%
+           family={Miller},
+           family_i={M\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7664e4a0b99746e653755d362474077}
+      \strng{fullhash}{d7664e4a0b99746e653755d362474077}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Southern African Archaeological Bulletin}
+      \field{title}{Metal assemblages from Greefswald areas K2, Mapungubwe hill and Mapungubwe souther terrace}
+      \field{volume}{56}
+      \field{year}{2001}
+      \field{pages}{83\bibrangedash 103}
+      \range{pages}{21}
+    \endentry
+    \entry{Miller_2002}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d7664e4a0b99746e653755d362474077}{%
+           family={Miller},
+           family_i={M\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7664e4a0b99746e653755d362474077}
+      \strng{fullhash}{d7664e4a0b99746e653755d362474077}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Archaeological Science}
+      \field{title}{Smelter and smith: Iron Age metal fabrication technology in southern Africa}
+      \field{volume}{29}
+      \field{year}{2002}
+      \field{pages}{1083─1131}
+      \range{pages}{-1}
+    \endentry
+    \entry{Orton_2008}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c976da40f2b7e8df689faa01e0228048}{%
+           family={Orton},
+           family_i={O\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c976da40f2b7e8df689faa01e0228048}
+      \strng{fullhash}{c976da40f2b7e8df689faa01e0228048}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Archaeological Science}
+      \field{title}{Later Stone Age ostrich eggshell bead manufacture in the Northern Cape, South Africa}
+      \field{volume}{35}
+      \field{year}{2008}
+      \field{pages}{1765\bibrangedash 1775}
+      \range{pages}{11}
+    \endentry
+    \entry{Orton_2014}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c976da40f2b7e8df689faa01e0228048}{%
+           family={Orton},
+           family_i={O\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Oxford}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \strng{namehash}{c976da40f2b7e8df689faa01e0228048}
+      \strng{fullhash}{c976da40f2b7e8df689faa01e0228048}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Late Holocene archaeology in Namaqualand, South Africa: hunter-gatherer and herders in a semi-arid environment}
+      \field{type}{Unpublished}
+      \field{year}{2014}
     \endentry
     \entry{vanDoornum_2005}{thesis}{}
       \name{author}{1}{}{%
@@ -421,6 +585,29 @@
       \field{year}{1994}
       \field{pages}{1\bibrangedash 35}
       \range{pages}{35}
+    \endentry
+    \entry{Wood_2011}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=754804fa37cc3769bfc612cc2ecae41e}{%
+           family={Wood},
+           family_i={W\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{754804fa37cc3769bfc612cc2ecae41e}
+      \strng{fullhash}{754804fa37cc3769bfc612cc2ecae41e}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of African Archaeology}
+      \field{title}{A glass bead sequence for southern Africa from the 8th to the 16th century AD}
+      \field{volume}{9}
+      \field{year}{2011}
+      \field{pages}{67\bibrangedash 84}
+      \range{pages}{18}
     \endentry
   \endsortlist
 \endrefsection

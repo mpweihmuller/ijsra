@@ -1,17 +1,17 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
 [0] Config.pm:346> INFO - Logfile is 'ijsra_2016_02.blg'
-[48] biber-darwin:290> INFO - === Fri Jun 24, 2016, 13:03:30
-[70] Biber.pm:351> INFO - Reading 'ijsra_2016_02.bcf'
-[172] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
-[172] Biber.pm:776> INFO - Found 16 citekeys in bib section 1
-[172] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
-[191] Biber.pm:3493> INFO - Processing section 1
-[206] Biber.pm:3657> INFO - Looking for bibtex format file 'ijsra_2016_02.bib' for section 1
-[208] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[209] bibtex.pm:1048> INFO - Found BibTeX data source 'ijsra_2016_02.bib'
-[259] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[259] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[260] Biber.pm:3306> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[260] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
-[279] bbl.pm:526> INFO - Writing 'ijsra_2016_02.bbl' with encoding 'UTF-8'
-[281] bbl.pm:619> INFO - Output to ijsra_2016_02.bbl
+[71] biber-darwin:290> INFO - === Sat Jun 25, 2016, 10:25:55
+[133] Biber.pm:351> INFO - Reading 'ijsra_2016_02.bcf'
+[237] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[238] Biber.pm:776> INFO - Found 23 citekeys in bib section 1
+[238] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[266] Biber.pm:3493> INFO - Processing section 1
+[311] Biber.pm:3657> INFO - Looking for bibtex format file 'ijsra_2016_02.bib' for section 1
+[325] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[327] bibtex.pm:1048> INFO - Found BibTeX data source 'ijsra_2016_02.bib'
+[426] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[426] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[426] Biber.pm:3306> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[426] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[457] bbl.pm:526> INFO - Writing 'ijsra_2016_02.bbl' with encoding 'UTF-8'
+[460] bbl.pm:619> INFO - Output to ijsra_2016_02.bbl
