@@ -1,19 +1,19 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  25 JUN 2016 11:09
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.6.24)  26 JUN 2016 10:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **ijsra_2016_02.tex
 (./ijsra_2016_02.tex
-LaTeX2e <2016/03/31>
+LaTeX2e <2016/03/31> patch level 1
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrbook.cls
-Document Class: scrbook 2016/05/10 v3.20 KOMA-Script document class (book)
+Document Class: scrbook 2016/06/14 v3.21 KOMA-Script document class (book)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-dependent b
+Package: scrkbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-independent 
+Package: scrbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
@@ -21,13 +21,13 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2016/05/10 v3.20 KOMA-Script package (loading files)
+Package: scrlfile 2016/06/14 v3.21 KOMA-Script package (loading files)
 
-Package scrlfile, 2016/05/10 v3.20 KOMA-Script package (loading files)
+Package scrlfile, 2016/06/14 v3.21 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
 ))) (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2016/05/10 v3.20 KOMA-Script package (handling toc-files)
+Package: tocbasic 2016/06/14 v3.21 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box26
 )
@@ -41,18 +41,18 @@ Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 134.
 Package tocbasic Info: defining new hook before heading of `' on input line 160
-1.
+2.
 Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input li
-ne 2268.
+ne 2269.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2016/05/10 v3.20 KOMA-Script font size class option (11pt
+File: scrsize11pt.clo 2016/06/14 v3.21 KOMA-Script font size class option (11pt
 )
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2016/05/10 v3.20 KOMA-Script package (type area)
+Package: typearea 2016/06/14 v3.21 KOMA-Script package (type area)
 
-Package typearea, 2016/05/10 v3.20 KOMA-Script package (type area)
+Package typearea, 2016/06/14 v3.21 KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -78,7 +78,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1528.
+(typearea)              on input line 1529.
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -94,13 +94,13 @@ Package typearea Info: These are the values describing the layout:
 \scr@dte@subsubsection@maxnumwidth=\skip51
 \scr@dte@paragraph@maxnumwidth=\skip52
 \scr@dte@subparagraph@maxnumwidth=\skip53
-LaTeX Info: Redefining \textsubscript on input line 4771.
+LaTeX Info: Redefining \textsubscript on input line 4782.
 \abovecaptionskip=\skip54
 \belowcaptionskip=\skip55
 \c@pti@nb@sid@b@x=\box27
 \c@figure=\count87
 \c@table=\count88
-Class scrbook Info: Redefining `\numberline' on input line 5776.
+Class scrbook Info: Redefining `\numberline' on input line 5813.
 \bibindent=\dimen102
 ) (./preamble/ijsra_preamble.tex
 (/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/libertine.sty
@@ -375,15 +375,15 @@ File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/06/02 v1.0s Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 96.
+Package graphics Info: Driver file: xetex.def on input line 99.
 
 (/usr/local/texlive/2016/texmf-dist/tex/xelatex/xetex-def/xetex.def
 File: xetex.def 2016/04/06 v4.08 LaTeX color/graphics driver for XeTeX (TeX Liv
@@ -1217,12 +1217,12 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \backup@length=\skip70
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+Package: color 2016/06/02 v1.1d Standard LaTeX Color (DPC)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: xetex.def on input line 144.
+Package color Info: Driver file: xetex.def on input line 147.
 )
 \everycr=\toks23
 \minrowclearance=\skip71
@@ -1575,11 +1575,11 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 \alertmessage@textlength=\skip75
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
-Package: scrlayer-scrpage 2016/05/10 v3.20 KOMA-Script package (end user interf
+Package: scrlayer-scrpage 2016/06/14 v3.21 KOMA-Script package (end user interf
 ace for scrlayer)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrlayer.sty
-Package: scrlayer 2016/05/10 v3.20 KOMA-Script package (defining layers and pag
+Package: scrlayer 2016/06/14 v3.21 KOMA-Script package (defining layers and pag
 e styles)
 Package scrlayer Info: Using already defined \footheight
 (scrlayer)             hoping, that this is a length and
@@ -1651,7 +1651,7 @@ Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
@@ -1741,7 +1741,7 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen285
 \captionmargin@=\dimen286
@@ -1758,7 +1758,7 @@ Package caption Info: KOMA-Script document class.
 Package caption Info: wrapfig package is loaded.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count187
 \c@subtable=\count188
 )
@@ -2011,7 +2011,7 @@ Package: paralist 2015/12/30 v2.5 Extended list environments
 \pl@lab=\toks47
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/marginnote/marginnote.sty
-Package: marginnote 2012/03/29 v1.1i non floating margin notes for LaTeX
+Package: marginnote 2016/06/02 v1.2 non floating margin notes for LaTeX
 \c@mn@abspage=\count283
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -2022,7 +2022,7 @@ Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX,
 and LuaTeX
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
@@ -2428,7 +2428,7 @@ Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 .................................................
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+Package: hyperref 2016/05/21 v6.83p Hypertext links for LaTeX
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -2470,37 +2470,37 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 \Hy@pagecounter=\count404
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2016/05/21 v6.83p Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count405
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4446.
-Package hyperref Info: Link nesting OFF on input line 4451.
-Package hyperref Info: Hyper index ON on input line 4454.
-Package hyperref Info: Plain pages OFF on input line 4461.
-Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4691.
+Package hyperref Info: Bookmarks ON on input line 4735.
 \c@Hy@tempcnt=\count406
-LaTeX Info: Redefining \url on input line 5044.
+LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen322
 Requested font "pzdr" at 0.00002pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
 \Fld@menulength=\count407
 \Field@Width=\dimen323
 \Fld@charsize=\dimen324
-Package hyperref Info: Hyper figures OFF on input line 6298.
-Package hyperref Info: Link nesting OFF on input line 6303.
-Package hyperref Info: Hyper index ON on input line 6306.
-Package hyperref Info: backreferencing OFF on input line 6313.
-Package hyperref Info: Link coloring OFF on input line 6318.
-Package hyperref Info: Link coloring with OCG OFF on input line 6323.
-Package hyperref Info: PDF/A mode OFF on input line 6328.
-LaTeX Info: Redefining \ref on input line 6368.
-LaTeX Info: Redefining \pageref on input line 6372.
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
 \Hy@abspage=\count408
 \c@Item=\count409
 \c@Hfootnote=\count410
@@ -2509,10 +2509,10 @@ LaTeX Info: Redefining \pageref on input line 6372.
 Package hyperref Message: Driver (autodetected): hxetex.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2016/05/05 v6.83n Hyperref driver for XeTeX
+File: hxetex.def 2016/05/21 v6.83p Hyperref driver for XeTeX
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2016/05/05 v6.83n Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2016/05/21 v6.83p Hyperref: PDF Unicode definition (HO)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/stringenc.sty
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
@@ -2541,6 +2541,20 @@ Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 277.
 
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 277.
 Package hyperref Info: Option `final' set `true' on input line 277.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2230.
+LaTeX Info: Redefining \cref on input line 2230.
+LaTeX Info: Redefining \Cref on input line 2230.
+LaTeX Info: Redefining \crefrange on input line 2230.
+LaTeX Info: Redefining \Crefrange on input line 2230.
+LaTeX Info: Redefining \cpageref on input line 2230.
+LaTeX Info: Redefining \Cpageref on input line 2230.
+LaTeX Info: Redefining \cpagerefrange on input line 2230.
+LaTeX Info: Redefining \Cpagerefrange on input line 2230.
+LaTeX Info: Redefining \labelcref on input line 2230.
+LaTeX Info: Redefining \labelcpageref on input line 2230.
 )
 (./preamble/ijsra_newcommands.tex
 \mybox=\box96
@@ -2799,7 +2813,8 @@ Dictionary: translator-basic-dictionary, Language: Spanish
 (/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
-Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
+Package marginnote Info: \pdfoutput not 0 or unimportant and
+(marginnote)             \pdflastxpos or \lastxpos available.
 (marginnote)             Extended position detection mode activated.
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -2815,7 +2830,7 @@ Package biblatex Info: Reference segment=0 on input line 44.
 Package hyperref Info: Link coloring ON on input line 44.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
@@ -3045,7 +3060,7 @@ tine_R.otf
 LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10.95> not a
 vailable
 (Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
-t line 37.
+t line 39.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
 text;mapping=tex-text;+tnum;+lnum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -3059,22 +3074,22 @@ Requested font "cmmi9" at 9.0pt
 Requested font "cmsy9" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 37.
+(Font)              <9> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 39.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 37.
+(Font)              scaled to size 5.0pt on input line 39.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
 xt;mapping=tex-text;+tnum;" at 5.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_R.otf
 LaTeX Font Info:    Font shape `EU1/LinLibertine(5)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 37.
+(Font)              scaled to size 9.0pt on input line 39.
 Requested font "[LinLibertine_M.otf]/OT:script=latn;language=DFLT;" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_M.otf
 LaTeX Font Info:    Font shape `EU1/LinLibertine(5)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 37.
+(Font)              scaled to size 5.0pt on input line 39.
 Requested font "[LinLibertine_M.otf]/OT:script=latn;language=DFLT;" at 5.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_M.otf
@@ -3105,11 +3120,11 @@ text;mapping=tex-text;+tnum;+lnum;" at 10.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_RI.otf
 Package marginnote Info: Margin note 2.1 is on absolute page 2
-(marginnote)              on input line 45.
+(marginnote)              on input line 47.
 Package marginnote Info: xpos seems to be 205.84677pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 45.
+(marginnote)             \marginnoteleftadjust ignored on input line 47.
 
-Overfull \hbox (3.01047pt too wide) in paragraph at lines 45--46
+Overfull \hbox (3.01047pt too wide) in paragraph at lines 47--49
 []\EU1/LinLibertine(0)/m/n/10.95 Mafunyane |[]is situated in a sandstone belt t
 hat stretches along the Motloutse, Limpopo,
  []
@@ -3124,39 +3139,25 @@ text;mapping=tex-text;+tnum;+lnum;" at 10.95pt
 tine_RB.otf
 [2]
 Package marginnote Info: Margin note 3.1 is on absolute page 3
-(marginnote)              on input line 51.
+(marginnote)              on input line 56.
 Package marginnote Info: xpos seems to be 170.11049pt,
-(marginnote)             \marginnoterightadjust ignored on input line 51.
-
-
-LaTeX Warning: Reference `fig:Forssman-Figure02' on page 3 undefined on input l
-ine 52.
-
+(marginnote)             \marginnoterightadjust ignored on input line 56.
 File: figures/Forssman-Figure02.jpg Graphic file (type QTm)
-<use  "figures/Forssman-Figure02.jpg" >
-
-LaTeX Warning: Reference `fig:Figure 03' on page 3 undefined on input line 66.
-
+ <use  "figures/Forssman-Figure02.jpg" >
 File: figures/Forssman-Figure03.jpg Graphic file (type QTm)
+
 <use  "figures/Forssman-Figure03.jpg" >
 File: figures/Forssman-Table01.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Table01.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 79.
+(caption)                 on input line 92.
 See the caption package documentation for explanation.
 
 Package marginnote Info: Margin note 3.2 is on absolute page 3
-(marginnote)              on input line 85.
-Package marginnote Info: xpos seems to be 127.83104pt,
-(marginnote)             \marginnoterightadjust ignored on input line 85.
-
-LaTeX Warning: Reference `fig:Figure 04' on page 3 undefined on input line 86.
-
-
-LaTeX Warning: Reference `fig:Forssman-Table02' on page 3 undefined on input li
-ne 87.
-
+(marginnote)              on input line 98.
+Package marginnote Info: xpos seems to be 125.69733pt,
+(marginnote)             \marginnoterightadjust ignored on input line 98.
 [3] [4] [5]
 File: figures/Forssman-Figure04.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Figure04.jpg" >
@@ -3165,21 +3166,17 @@ File: figures/Forssman-Table02.jpg Graphic file (type QTm)
 <use  "figures/Forssman-Table02.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 98.
+(caption)                 on input line 114.
 See the caption package documentation for explanation.
 
 Package marginnote Info: Margin note 6.1 is on absolute page 6
-(marginnote)              on input line 105.
+(marginnote)              on input line 121.
 Package marginnote Info: xpos seems to be 210.92657pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 105.
+(marginnote)             \marginnoteleftadjust ignored on input line 121.
 Package marginnote Info: Margin note 6.2 is on absolute page 7
-(marginnote)              on input line 112.
-Package marginnote Info: xpos seems to be 282.18655pt,
-(marginnote)             \marginnoterightadjust ignored on input line 112.
-
-LaTeX Warning: Reference `fig:Forssman-Table03' on page 6 undefined on input li
-ne 115.
-
+(marginnote)              on input line 137.
+Package marginnote Info: xpos seems to be 293.2395pt,
+(marginnote)             \marginnoterightadjust ignored on input line 137.
 [6]
 File: figures/Forssman-Figure05.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Figure05.jpg" >
@@ -3190,53 +3187,45 @@ File: figures/Forssman-Table03.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Table03.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 131.
+(caption)                 on input line 164.
 See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:Forssman-Table04' on page 7 undefined on input li
-ne 135.
 
 [7] [8] [9]
 File: figures/Forssman-Table04.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Table04.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 141.
+(caption)                 on input line 176.
 See the caption package documentation for explanation.
 
 Package marginnote Info: Margin note 10.1 is on absolute page 10
-(marginnote)              on input line 148.
+(marginnote)              on input line 183.
 Package marginnote Info: xpos seems to be 264.55582pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 148.
-
-LaTeX Warning: Reference `fig:Forssmann-Figure07' on page 10 undefined on input
- line 148.
-
+(marginnote)             \marginnoteleftadjust ignored on input line 183.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;" at 7.50002pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 7.50002pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
 File: figures/Forssman-Figure07.jpg Graphic file (type QTm)
 <use  "figures/Forssman-Figure07.jpg" >
 File: figures/Forssman-Figure08.jpg Graphic file (type QTm)
 
 <use  "figures/Forssman-Figure08.jpg" >
 Package marginnote Info: Margin note 10.2 is on absolute page 10
-(marginnote)              on input line 165.
-Package marginnote Info: xpos seems to be 207.94362pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 165.
-
-
-LaTeX Warning: Reference `fig:Forssman-Table05' on page 10 undefined on input l
-ine 165.
-
-
-LaTeX Warning: Reference `fig:Forssmann-Figure09' on page 10 undefined on input
- line 169.
-
-[10] [11]
+(marginnote)              on input line 205.
+Package marginnote Info: xpos seems to be 211.59767pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 205.
+ [10] [11]
 File: figures/Forssman-Table05.jpg Graphic file (type QTm)
- <use  "figures/Forssman-Table05.jpg" >
+
+<use  "figures/Forssman-Table05.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 173.
+(caption)                 on input line 222.
 See the caption package documentation for explanation.
 
 File: figures/Forssman-Figure09.jpg Graphic file (type QTm)
@@ -3249,17 +3238,13 @@ text;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 8.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_RI.otf
 Package marginnote Info: Margin note 12.1 is on absolute page 12
-(marginnote)              on input line 197.
+(marginnote)              on input line 253.
 Package marginnote Info: xpos seems to be 242.09424pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 197.
-
-
-LaTeX Warning: Reference `fig:Forssman-Table06' on page 12 undefined on input l
-ine 199.
-
-[12] [13] [14]
+(marginnote)             \marginnoteleftadjust ignored on input line 253.
+ [12] [13] [14]
 File: figures/Forssman-Figure11.jpg Graphic file (type QTm)
- <use  "figures/Forssman-Figure11.jpg" >
+
+<use  "figures/Forssman-Figure11.jpg" >
 File: figures/Forssman-Figure12.jpg Graphic file (type QTm)
 
 <use  "figures/Forssman-Figure12.jpg" >
@@ -3267,70 +3252,52 @@ File: figures/Forssman-Table06.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Table06.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 216.
+(caption)                 on input line 277.
 See the caption package documentation for explanation.
 
 Package marginnote Info: Margin note 15.1 is on absolute page 15
-(marginnote)              on input line 223.
-Package marginnote Info: xpos seems to be 146.79344pt,
-(marginnote)             \marginnoterightadjust ignored on input line 223.
-
-LaTeX Warning: Reference `fig:Forssman-Table07' on page 15 undefined on input l
-ine 224.
-
-
-Overfull \hbox (1.64816pt too wide) in paragraph at lines 223--226
-\EU1/LinLibertine(0)/m/n/10.95 number of identifiable specimens (NISP) and dens
-ity of non-identified remains ([][]/
- []
-
+(marginnote)              on input line 284.
+Package marginnote Info: xpos seems to be 148.49069pt,
+(marginnote)             \marginnoterightadjust ignored on input line 284.
 [15] [16] [17]
 File: figures/Forssman-Table07.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Table07.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 229.
+(caption)                 on input line 295.
 See the caption package documentation for explanation.
 
 Package marginnote Info: Margin note 18.1 is on absolute page 18
-(marginnote)              on input line 236.
+(marginnote)              on input line 302.
 Package marginnote Info: xpos seems to be 253.33986pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 236.
+(marginnote)             \marginnoteleftadjust ignored on input line 302.
 File: figures/Forssman-Figure13.jpg Graphic file (type QTm)
 <use  "figures/Forssman-Figure13.jpg" >
 File: figures/Forssman-Figure14.jpg Graphic file (type QTm)
 
 <use  "figures/Forssman-Figure14.jpg" >
 Package marginnote Info: Margin note 18.2 is on absolute page 18
-(marginnote)              on input line 253.
+(marginnote)              on input line 323.
 Package marginnote Info: xpos seems to be 294.04123pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 253.
+(marginnote)             \marginnoteleftadjust ignored on input line 323.
  [18] [19] [20]
 Package marginnote Info: Margin note 21.1 is on absolute page 21
-(marginnote)              on input line 268.
+(marginnote)              on input line 341.
 Package marginnote Info: xpos seems to be 99.27063pt,
-(marginnote)             \marginnoterightadjust ignored on input line 268.
+(marginnote)             \marginnoterightadjust ignored on input line 341.
 
 
-LaTeX Warning: Reference `fig:Forsmann-Figure01' on page 21 undefined on input 
-line 268.
+Package biblatex Warning: No driver for entry type 'bachelorthesis'.
+(biblatex)                Using fallback driver on input line 352.
 
 
-LaTeX Warning: Reference `fig:Forsmann-Figure02' on page 21 undefined on input 
-line 268.
-
-
-LaTeX Warning: Reference `fig:Forsmann-Figure03' on page 21 undefined on input 
-line 268.
-
-
-Package biblatex Warning: No driver for entry type 'bscthesis'.
-(biblatex)                Using fallback driver on input line 279.
+Overfull \hbox (6.37393pt too wide) in paragraph at lines 352--352
+[][]\EU1/LinLibertine(0)/m/n/10.95 Forssman, T. 2015: A macro-fracture investig
+ation of the backed stone tools from Dzombo
+ []
 
 [21]
-Missing character: There is no ─ in font [LinLibertine_R.otf]/OT:script=latn;la
-nguage=DFLT;mapping=tex-text;mapping=tex-text;+tnum;+lnum;!
-Package biblatex Info: Reference section=0 on input line 282.
+Package biblatex Info: Reference section=0 on input line 355.
  [22])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
@@ -3342,14 +3309,13 @@ No file preamble/ijsra_editorial.aux.
 No file preamble/ijsra_presentation.aux.
 No file preamble/_part_articles.aux.
 (./content/forssman.aux)
+Package cleveref Info: loaded `english' language definitions on input line 67.
+
 No file preamble/_part_reviews.aux.
 No file preamble/_part_interviews.aux.
 )
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 68.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -3359,12 +3325,12 @@ Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60571 strings out of 493591
- 1229436 string characters out of 6143546
- 1677312 words of memory out of 5000000
- 63138 multiletter control sequences out of 15000+600000
- 9996 words of font info for 95 fonts, out of 8000000 for 9000
+ 62147 strings out of 493590
+ 1265555 string characters out of 6143520
+ 1742334 words of memory out of 5000000
+ 64709 multiletter control sequences out of 15000+600000
+ 10126 words of font info for 97 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 76i,23n,100p,10494b,4966s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,23n,100p,10494b,5098s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ijsra_2016_02.pdf (22 pages).

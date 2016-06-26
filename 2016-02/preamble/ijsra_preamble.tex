@@ -136,9 +136,9 @@ style=english,					% 	- german quotes
 	detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	exponent-to-prefix  			= true,
 	round-mode          				= places, 
-	round-precision     			= 2,
+	round-precision     			= 1,
 	group-minimum-digits 	= 4, % Für "Tausenderpunkt" --> 1.234 anstatt 1234
-	group-separator={.},% für "12.345" statt "12 345"
+	group-separator={,},% für "12.345" statt "12 345"
 	%  scientific-notation = engineering, % Use multiples of 3 as exponent
 	%	locale=DE, % Typeset numbers and units the German way
 	range-phrase ={~$\times$\ },%
@@ -275,3 +275,5 @@ isbn=false,
 	bookmarksopen=true,		%
 	final=true	% = true, only with web-Documents!!
 }
+
+\usepackage{cleveref}

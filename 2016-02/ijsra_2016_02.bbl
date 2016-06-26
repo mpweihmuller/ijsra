@@ -19,7 +19,7 @@
 
 \refsection{1}
   \sortlist[entry]{nyt/global/}
-    \entry{Alexander_1984}{bscthesis}{}
+    \entry{Alexander_1984}{bachelorthesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=cf00e6f0383815c50bea679db73be176}{%
            family={Alexander},
@@ -419,8 +419,8 @@
       \field{title}{Smelter and smith: Iron Age metal fabrication technology in southern Africa}
       \field{volume}{29}
       \field{year}{2002}
-      \field{pages}{1083─1131}
-      \range{pages}{-1}
+      \field{pages}{1083\bibrangedash 1131}
+      \range{pages}{49}
     \endentry
     \entry{Orton_2008}{article}{}
       \name{author}{1}{}{%
