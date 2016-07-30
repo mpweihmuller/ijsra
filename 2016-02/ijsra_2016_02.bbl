@@ -69,106 +69,6 @@
       \field{volume}{213}
       \field{year}{1984}
     \endentry
-    \entry{vanDoornum_2005}{thesis}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=e9457eb5af151408b592ead438ce74a4}{%
-           prefix={van},
-           prefix_i={v\bibinitperiod},
-           family={Doornum},
-           family_i={D\bibinitperiod},
-           given={B.},
-           given_i={B\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {University of the Witwatersrand, Johanesburg}%
-      }
-      \strng{namehash}{e9457eb5af151408b592ead438ce74a4}
-      \strng{fullhash}{e9457eb5af151408b592ead438ce74a4}
-      \field{sortinit}{D}
-      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
-      \field{labelyear}{2005}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Changing places, spaces and identity in the Shashe-Limpopo region of Limpopo Province, South Africa}
-      \field{type}{Unpublished}
-      \field{year}{2005}
-    \endentry
-    \entry{vanDoornum_2007}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=e9457eb5af151408b592ead438ce74a4}{%
-           prefix={van},
-           prefix_i={v\bibinitperiod},
-           family={Doornum},
-           family_i={D\bibinitperiod},
-           given={B.},
-           given_i={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{e9457eb5af151408b592ead438ce74a4}
-      \strng{fullhash}{e9457eb5af151408b592ead438ce74a4}
-      \field{sortinit}{D}
-      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
-      \field{labelyear}{2007}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Southern African Humanities}
-      \field{title}{Tshisiku Shelter and the Shashe-Limpopo confluence area hunter-gatherer sequence}
-      \field{volume}{19}
-      \field{year}{2007}
-      \field{pages}{17\bibrangedash 67}
-      \range{pages}{51}
-    \endentry
-    \entry{vanDoornum_2008}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=e9457eb5af151408b592ead438ce74a4}{%
-           prefix={van},
-           prefix_i={v\bibinitperiod},
-           family={Doornum},
-           family_i={D\bibinitperiod},
-           given={B.},
-           given_i={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{e9457eb5af151408b592ead438ce74a4}
-      \strng{fullhash}{e9457eb5af151408b592ead438ce74a4}
-      \field{sortinit}{D}
-      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
-      \field{labelyear}{2008}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Southern African Humanities}
-      \field{title}{Sheltered from change: hunter-gatherer occupation of Balerno Main Shelter, Shashe-Limpopo confluence area, South Africa}
-      \field{volume}{20}
-      \field{year}{2008}
-      \field{pages}{249\bibrangedash 284}
-      \range{pages}{36}
-    \endentry
-    \entry{vanDoornum_2014}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=e9457eb5af151408b592ead438ce74a4}{%
-           prefix={van},
-           prefix_i={v\bibinitperiod},
-           family={Doornum},
-           family_i={D\bibinitperiod},
-           given={B.},
-           given_i={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{e9457eb5af151408b592ead438ce74a4}
-      \strng{fullhash}{e9457eb5af151408b592ead438ce74a4}
-      \field{sortinit}{D}
-      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
-      \field{labelyear}{2014}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Southern African Humanities}
-      \field{title}{Balerno Shelter 3: A Later Stone Age site in the Shashe-Limpopo confluence area, South Africa}
-      \field{volume}{29}
-      \field{year}{2014}
-      \field{pages}{129\bibrangedash 155}
-      \range{pages}{27}
-    \endentry
     \entry{Forssman_2010}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=6d2c7cb93363b7fbcfd3724036d1f14f}{%
@@ -571,6 +471,98 @@
       \field{title}{Late Holocene archaeology in Namaqualand, South Africa: hunter-gatherer and herders in a semi-arid environment}
       \field{type}{Unpublished}
       \field{year}{2014}
+    \endentry
+    \entry{vanDoornum_2005}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=be7ece317e55cb27b1bed4d6e20c3db8}{%
+           family={{van Doornum}},
+           family_i={v\bibinitperiod},
+           given={B.},
+           given_i={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of the Witwatersrand, Johanesburg}%
+      }
+      \strng{namehash}{be7ece317e55cb27b1bed4d6e20c3db8}
+      \strng{fullhash}{be7ece317e55cb27b1bed4d6e20c3db8}
+      \field{sortinit}{v}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Changing places, spaces and identity in the Shashe-Limpopo region of Limpopo Province, South Africa}
+      \field{type}{Unpublished}
+      \field{year}{2005}
+    \endentry
+    \entry{vanDoornum_2007}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=be7ece317e55cb27b1bed4d6e20c3db8}{%
+           family={{van Doornum}},
+           family_i={v\bibinitperiod},
+           given={B.},
+           given_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{be7ece317e55cb27b1bed4d6e20c3db8}
+      \strng{fullhash}{be7ece317e55cb27b1bed4d6e20c3db8}
+      \field{sortinit}{v}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Southern African Humanities}
+      \field{title}{Tshisiku Shelter and the Shashe-Limpopo confluence area hunter-gatherer sequence}
+      \field{volume}{19}
+      \field{year}{2007}
+      \field{pages}{17\bibrangedash 67}
+      \range{pages}{51}
+    \endentry
+    \entry{vanDoornum_2008}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=be7ece317e55cb27b1bed4d6e20c3db8}{%
+           family={{van Doornum}},
+           family_i={v\bibinitperiod},
+           given={B.},
+           given_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{be7ece317e55cb27b1bed4d6e20c3db8}
+      \strng{fullhash}{be7ece317e55cb27b1bed4d6e20c3db8}
+      \field{sortinit}{v}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Southern African Humanities}
+      \field{title}{Sheltered from change: hunter-gatherer occupation of Balerno Main Shelter, Shashe-Limpopo confluence area, South Africa}
+      \field{volume}{20}
+      \field{year}{2008}
+      \field{pages}{249\bibrangedash 284}
+      \range{pages}{36}
+    \endentry
+    \entry{vanDoornum_2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=be7ece317e55cb27b1bed4d6e20c3db8}{%
+           family={{van Doornum}},
+           family_i={v\bibinitperiod},
+           given={B.},
+           given_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{be7ece317e55cb27b1bed4d6e20c3db8}
+      \strng{fullhash}{be7ece317e55cb27b1bed4d6e20c3db8}
+      \field{sortinit}{v}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Southern African Humanities}
+      \field{title}{Balerno Shelter 3: A Later Stone Age site in the Shashe-Limpopo confluence area, South Africa}
+      \field{volume}{29}
+      \field{year}{2014}
+      \field{pages}{129\bibrangedash 155}
+      \range{pages}{27}
     \endentry
     \entry{Walker_1994}{article}{}
       \name{author}{1}{}{%
