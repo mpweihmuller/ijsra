@@ -93,29 +93,6 @@
       \field{type}{mathesis}
       \field{year}{2010}
     \endentry
-    \entry{Forssman_2013c}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=6d2c7cb93363b7fbcfd3724036d1f14f}{%
-           family={Forssman},
-           family_i={F\bibinitperiod},
-           given={T.},
-           given_i={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{6d2c7cb93363b7fbcfd3724036d1f14f}
-      \strng{fullhash}{6d2c7cb93363b7fbcfd3724036d1f14f}
-      \field{sortinit}{F}
-      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
-      \field{labelyear}{2013}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{South African Archaeological Bulletin}
-      \field{title}{A preliminary report on fieldwork in the Northern Tuli Game Reserve, northeastern Botswana}
-      \field{volume}{68}
-      \field{year}{2013}
-      \field{pages}{63\bibrangedash 71}
-      \range{pages}{9}
-    \endentry
     \entry{Forssman_2013a}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=6d2c7cb93363b7fbcfd3724036d1f14f}{%
@@ -164,7 +141,7 @@
       \field{title}{Beyond the Dripline: Later Stone Age Changes on the Greater Mapungubwe Landscape}
       \field{year}{2013b}
     \endentry
-    \entry{Forssman_2014b}{article}{}
+    \entry{Forssman_2013c}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=6d2c7cb93363b7fbcfd3724036d1f14f}{%
            family={Forssman},
@@ -176,17 +153,16 @@
       \strng{fullhash}{6d2c7cb93363b7fbcfd3724036d1f14f}
       \field{sortinit}{F}
       \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
-      \field{extrayear}{1}
-      \field{labelyear}{2014}
+      \field{labelyear}{2013c}
       \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{South African Archaeological Bulletin}
-      \field{title}{Dzombo Shelter: a contribution to the Later Stone Age sequence of the Greater Mapungubwe Landscape}
-      \field{volume}{69}
-      \field{year}{2014}
-      \field{pages}{182\bibrangedash 191}
-      \range{pages}{10}
+      \field{title}{A preliminary report on fieldwork in the Northern Tuli Game Reserve, northeastern Botswana}
+      \field{volume}{68}
+      \field{year}{2013c}
+      \field{pages}{63\bibrangedash 71}
+      \range{pages}{9}
     \endentry
     \entry{Forssman_2014a}{thesis}{}
       \name{author}{1}{}{%
@@ -206,14 +182,36 @@
       \strng{fullhash}{6d2c7cb93363b7fbcfd3724036d1f14f}
       \field{sortinit}{F}
       \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
-      \field{extrayear}{2}
-      \field{labelyear}{2014}
+      \field{labelyear}{2014a}
       \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Spaces between Places: A Landscape Study of Foragers on the Greater Mapungubwe Landscape}
       \field{type}{Unpublished}
-      \field{year}{2014}
+      \field{year}{2014a}
+    \endentry
+    \entry{Forssman_2014b}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6d2c7cb93363b7fbcfd3724036d1f14f}{%
+           family={Forssman},
+           family_i={F\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d2c7cb93363b7fbcfd3724036d1f14f}
+      \strng{fullhash}{6d2c7cb93363b7fbcfd3724036d1f14f}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2014b}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{South African Archaeological Bulletin}
+      \field{title}{Dzombo Shelter: a contribution to the Later Stone Age sequence of the Greater Mapungubwe Landscape}
+      \field{volume}{69}
+      \field{year}{2014b}
+      \field{pages}{182\bibrangedash 191}
+      \range{pages}{10}
     \endentry
     \entry{Forssman_2015}{article}{}
       \name{author}{1}{}{%

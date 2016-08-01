@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  30 JUL 2016 18:16
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  1 AUG 2016 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3024,6 +3024,10 @@ Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_RB.otf
+LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <9> not avail
+able
+(Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
+t line 12.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
 text;mapping=tex-text;+tnum;+lnum;" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -3150,14 +3154,14 @@ File: figures/Forssman-Table01.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Table01.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 91.
+(caption)                 on input line 90.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Margin note 3.2 is on absolute page 3
-(marginnote)              on input line 97.
+[3] [4]
+Package marginnote Info: Margin note 5.1 is on absolute page 5
+(marginnote)              on input line 96.
 Package marginnote Info: xpos seems to be 128.50964pt,
-(marginnote)             \marginnoterightadjust ignored on input line 97.
-[3] [4] [5]
+(marginnote)             \marginnoterightadjust ignored on input line 96.
 File: figures/Forssman-Figure04.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Figure04.jpg" >
 File: figures/Forssman-Table02.jpg Graphic file (type QTm)
@@ -3165,18 +3169,18 @@ File: figures/Forssman-Table02.jpg Graphic file (type QTm)
 <use  "figures/Forssman-Table02.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 113.
+(caption)                 on input line 112.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Margin note 6.1 is on absolute page 6
-(marginnote)              on input line 120.
-Package marginnote Info: xpos seems to be 210.92657pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 120.
-[6]
+[5] [6]
 Package marginnote Info: Margin note 7.1 is on absolute page 7
-(marginnote)              on input line 136.
+(marginnote)              on input line 119.
+Package marginnote Info: xpos seems to be 139.79466pt,
+(marginnote)             \marginnoterightadjust ignored on input line 119.
+Package marginnote Info: Margin note 7.2 is on absolute page 7
+(marginnote)              on input line 135.
 Package marginnote Info: xpos seems to be 293.2395pt,
-(marginnote)             \marginnoterightadjust ignored on input line 136.
+(marginnote)             \marginnoterightadjust ignored on input line 135.
 File: figures/Forssman-Figure05.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Figure05.jpg" >
 File: figures/Forssman-Figure06.jpg Graphic file (type QTm)
@@ -3186,20 +3190,20 @@ File: figures/Forssman-Table03.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Table03.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 163.
+(caption)                 on input line 162.
 See the caption package documentation for explanation.
 
 File: figures/Forssman-Table04.jpg Graphic file (type QTm)
 <use  "figures/Forssman-Table04.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 175.
+(caption)                 on input line 174.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Margin note 7.2 is on absolute page 7
-(marginnote)              on input line 182.
-Package marginnote Info: xpos seems to be 193.4239pt,
-(marginnote)             \marginnoterightadjust ignored on input line 182.
+Package marginnote Info: Margin note 7.3 is on absolute page 10
+(marginnote)              on input line 181.
+Package marginnote Info: xpos seems to be 264.55582pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 181.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+lnum;" at 7.50002pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -3215,16 +3219,16 @@ File: figures/Forssman-Figure08.jpg Graphic file (type QTm)
 
 <use  "figures/Forssman-Figure08.jpg" >
 Package marginnote Info: Margin note 10.1 is on absolute page 10
-(marginnote)              on input line 204.
+(marginnote)              on input line 203.
 Package marginnote Info: xpos seems to be 211.59767pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 204.
+(marginnote)             \marginnoteleftadjust ignored on input line 203.
  [10]
 File: figures/Forssman-Table05.jpg Graphic file (type QTm)
 
 <use  "figures/Forssman-Table05.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 221.
+(caption)                 on input line 220.
 See the caption package documentation for explanation.
 
 File: figures/Forssman-Figure09.jpg Graphic file (type QTm)
@@ -3237,9 +3241,10 @@ text;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 8.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_RI.otf
 Package marginnote Info: Margin note 11.1 is on absolute page 11
-(marginnote)              on input line 252.
+(marginnote)              on input line 251.
 Package marginnote Info: xpos seems to be 167.38461pt,
-(marginnote)             \marginnoterightadjust ignored on input line 252.
+(marginnote)             \marginnoterightadjust ignored on input line 251.
+ [11] [12] [13]
 File: figures/Forssman-Figure11.jpg Graphic file (type QTm)
 
 <use  "figures/Forssman-Figure11.jpg" >
@@ -3250,47 +3255,46 @@ File: figures/Forssman-Table06.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Table06.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 276.
+(caption)                 on input line 275.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Margin note 11.2 is on absolute page 16
-(marginnote)              on input line 283.
+Package marginnote Info: Margin note 14.1 is on absolute page 14
+(marginnote)              on input line 282.
 Package marginnote Info: xpos seems to be 219.6226pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 283.
-[11] [12] [13] [14] [15]
+(marginnote)             \marginnoteleftadjust ignored on input line 282.
+[14] [15]
 File: figures/Forssman-Table07.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Table07.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 294.
+(caption)                 on input line 293.
 See the caption package documentation for explanation.
 
 Package marginnote Info: Margin note 16.1 is on absolute page 16
-(marginnote)              on input line 301.
+(marginnote)              on input line 300.
 Package marginnote Info: xpos seems to be 253.33986pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 301.
-[16]
+(marginnote)             \marginnoteleftadjust ignored on input line 300.
 File: figures/Forssman-Figure13.jpg Graphic file (type QTm)
- <use  "figures/Forssman-Figure13.jpg" >
+<use  "figures/Forssman-Figure13.jpg" > [16]
 File: figures/Forssman-Figure14.jpg Graphic file (type QTm)
 
 <use  "figures/Forssman-Figure14.jpg" >
 Package marginnote Info: Margin note 17.1 is on absolute page 17
-(marginnote)              on input line 322.
+(marginnote)              on input line 321.
 Package marginnote Info: xpos seems to be 222.90932pt,
-(marginnote)             \marginnoterightadjust ignored on input line 322.
+(marginnote)             \marginnoterightadjust ignored on input line 321.
  [17] [18]
 Package marginnote Info: Margin note 19.1 is on absolute page 19
-(marginnote)              on input line 340.
+(marginnote)              on input line 339.
 Package marginnote Info: xpos seems to be 99.27063pt,
-(marginnote)             \marginnoterightadjust ignored on input line 340.
+(marginnote)             \marginnoterightadjust ignored on input line 339.
 
 
 Package biblatex Warning: No driver for entry type 'bachelorthesis'.
-(biblatex)                Using fallback driver on input line 350.
+(biblatex)                Using fallback driver on input line 349.
 
 [19]
-Package biblatex Info: Reference section=0 on input line 353.
+Package biblatex Info: Reference section=0 on input line 352.
  [20])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
@@ -3314,12 +3318,12 @@ Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 62075 strings out of 493591
- 1263443 string characters out of 6143546
- 1740617 words of memory out of 5000000
- 64636 multiletter control sequences out of 15000+600000
+ 62077 strings out of 493591
+ 1263504 string characters out of 6143546
+ 1741617 words of memory out of 5000000
+ 64638 multiletter control sequences out of 15000+600000
  10126 words of font info for 97 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 76i,23n,100p,10494b,4956s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,23n,100p,10494b,4957s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ijsra_2016_02.pdf (20 pages).
