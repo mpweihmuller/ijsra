@@ -1,17 +1,20 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
-[1] Config.pm:346> INFO - Logfile is 'ijsra_2016_02.blg'
-[66] biber-darwin:290> INFO - === Mon Aug  1, 2016, 18:33:14
-[113] Biber.pm:351> INFO - Reading 'ijsra_2016_02.bcf'
-[229] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
-[229] Biber.pm:776> INFO - Found 23 citekeys in bib section 1
-[229] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
-[252] Biber.pm:3493> INFO - Processing section 1
-[294] Biber.pm:3657> INFO - Looking for bibtex format file 'ijsra_2016_02.bib' for section 1
-[305] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[306] bibtex.pm:1048> INFO - Found BibTeX data source 'ijsra_2016_02.bib'
-[396] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[396] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[396] Biber.pm:3306> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[396] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
-[440] bbl.pm:526> INFO - Writing 'ijsra_2016_02.bbl' with encoding 'UTF-8'
-[445] bbl.pm:619> INFO - Output to ijsra_2016_02.bbl
+[0] Config.pm:346> INFO - Logfile is 'ijsra_2016_02.blg'
+[49] biber-darwin:290> INFO - === Sat Aug  6, 2016, 14:49:08
+[68] Biber.pm:351> INFO - Reading 'ijsra_2016_02.bcf'
+[157] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[157] Biber.pm:776> INFO - Found 23 citekeys in bib section 1
+[158] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[176] Biber.pm:3493> INFO - Processing section 1
+[189] Biber.pm:3657> INFO - Looking for bibtex format file 'ijsra_2016_02.bib' for section 1
+[191] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[191] bibtex.pm:1048> INFO - Found BibTeX data source 'ijsra_2016_02.bib'
+[192] Biber.pm:3657> INFO - Looking for bibtex format file 'forssman.bib' for section 1
+[194] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[195] bibtex.pm:1048> INFO - Found BibTeX data source 'forssman.bib'
+[262] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[262] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[262] Biber.pm:3306> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[262] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[287] bbl.pm:526> INFO - Writing 'ijsra_2016_02.bbl' with encoding 'UTF-8'
+[290] bbl.pm:619> INFO - Output to ijsra_2016_02.bbl

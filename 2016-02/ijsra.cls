@@ -20,8 +20,8 @@
 \RequirePackage{ifxetex,ifluatex,ifpdf,ifvtex}
 \RequirePackage{xkeyval}
 
-\def\IJSRAversion{0.1a}
-\def\IJSRAversiondate{2016/07/28}
+\def\IJSRAversion{0.2}
+\def\IJSRAversiondate{2016/08/08}
 
 
 
@@ -49,7 +49,7 @@
 	twoside=true,				% onesite or twoside printing
 	open=right,					% doublepage cleaning ends up right side
 	chapterprefix=false,		% prefix for chapter marks (Löscht "Kapitel" bei Kapitel)
-	headings=optiontohead, 		% \chapter[tocentry={}]{}
+	headings=optiontohead, 	% \chapter[tocentry={}]{}
 	fontsize=11pt,				% font size
 	titlepage=on,				% own page for each title page
 	captions=tableabove,		% display table captions above the float env
@@ -60,7 +60,7 @@
 \RequirePackage{filecontents}
 \RequirePackage{libertine}
 \renewcommand*\ttdefault{lmvtt}
-\RequirePackage[main=english]{babel}
+\RequirePackage[french, ngerman, spanish, italian, main=english]{babel}
 
 \ifxetex\else
 	\RequirePackage[%
@@ -75,7 +75,7 @@
 \RequirePackage{colortbl}
 \RequirePackage{abbrevs}
 \RequirePackage{alertmessage}
-\RequirePackage{marginnote}
+\RequirePackage[heightadjust]{marginnote}
 \RequirePackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
 \RequirePackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
 \RequirePackage{currfile}
@@ -86,21 +86,12 @@
 detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	exponent-to-prefix  		= true,
 	round-mode          		= places, 
-<<<<<<< HEAD
-	round-precision     		= 1,
-	group-minimum-digits 	= 4, 		% Für "Tausenderpunkt" --> 1.234 anstatt 1234
-=======
 	group-minimum-digits 	= 4, 
->>>>>>> origin/master
 	group-separator		={,},		% für "12.345" statt "12 345"
 	range-phrase 			= {~$\times$\ },%
 	zero-decimal-to-integer 	= true,	%aus "2.0" wird "2"
 	range-units			=single, 	% --> 2 x 2 m, - auskommentieren für 2 m x 2 m
-<<<<<<< HEAD
-	]{siunitx} %Supreme typesetting of units
-=======
 	]{siunitx} 
->>>>>>> origin/master
 \RequirePackage[					% advanced quotes
 	strict=true,					% 	- warning are errors now
 	style=english,					% 	- german quotes
@@ -119,7 +110,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \RequirePackage{multirow}
 \RequirePackage{xspace}
 \RequirePackage{xcolor}
-
+\RequirePackage{hologo}
 \definecolor{myblue}{rgb}{0,0,51}
 \definecolor{mygold}{RGB}{204,153,51}
 
@@ -238,18 +229,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 {\savebox\mybox{#1}\begin{quote}}
 	{\signed{\usebox\mybox}\end{quote}}
 
-<<<<<<< HEAD
-\makeatletter %%%Schriftgröße in quote kleiner
-\newif\if@in@footnote@
-\renewcommand{\@footnotetext}[1]{%
-	\scr@saved@footnotetext{\@in@footnote@true #1}%
-	\csname FN@mf@prepare\endcsname
-}
-\AtBeginEnvironment{quote}{\if@in@footnote@\else\small\fi}
-\makeatother
-=======
 \appto\quote{\normalsize\singlespacing}
->>>>>>> origin/master
 %-----------------------------------------
 \newcommand\ppages{\pagerange{firstpage\IJSRAidentifier}{lastpage\IJSRAidentifier}}
 \newcommand\shorttitle{}
@@ -263,34 +243,25 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 
 \newenvironment{IJSRAabstract}
 {\list{}{\rightmargin\leftmargin}%
-<<<<<<< HEAD
-\item \normalsize\sffamily\textbf\keywordname :  \keywords\\
-	\footnotesize\itshape
-=======
 \item \footnotesize\sffamily\textbf\keywordname :  \keywords\\
 	\itshape
->>>>>>> origin/master
 	\noindent\item\relax
 	}
 {\endlist}
 
-<<<<<<< HEAD
-\newcommand{\IJSRAseparator}{
-	\vspace{2em}
+\newcommand{\IJSRAseparator}{%
+	\vspace{1em}
 	\begin{center}
-		* * *
+	* * *
 	\end{center}
-	\vspace{2em}}
-=======
-\newcommand{\IJSRAseparator}{\vspace{1em}\begin{center}
-* * *\end{center}\vspace{1em}}
->>>>>>> origin/master
+	\vspace{1em}
+	}
 
-\newcommand{\IJSRAchapter}[1]{
+\newcommand{\IJSRAchapter}[1]{%
 	\setcounter{chapter}{1}
 	\chapter*{#1}
 	\addcontentsline{toc}{chapter}{\shortauthor\protect\newline \maintitle}
-}
+	}
 	
 \newcommand\email{{\normalfont\href{mailto:\authormail}{\authormail}}}
 
@@ -299,7 +270,8 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\edef\tempa{\getpagerefnumber{#1}\booltrue{@page}}%
 	\edef\tempb{\getpagerefnumber{#2}}%
 	\ifboolexpr{bool{@page}}{}{\ $\bullet$ 
-		\tempa--\tempb}}
+		\tempa--\tempb}
+	}
 
 
 \providecommand\IJSRAopening{%
@@ -322,14 +294,11 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	}
 	
 \providecommand\IJSRAclosing{%
-<<<<<<< HEAD
-=======
 	\IJSRAseparator
->>>>>>> origin/master
 	\printbibliography[heading=subbibliography] 
 	\end{refsection}
 	\label{lastpage\IJSRAidentifier}
-}
+	}
 
  \DeclareCaptionFormat{listing}{#1#2#3}
  \captionsetup[lstlisting]{format=listing,%
@@ -392,7 +361,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	colorlinks   = true, %Colours links instead of ugly boxes
 	urlcolor     =  myblue, %Colour for external hyperlinks
 	linkcolor    = myblue, %Colour of internal links
-	citecolor   = myblue, %Colour of citations
+	citecolor   = mygold, %Colour of citations
 	linktoc=page,
 	pdfborder={0 0 0},			% 	-
 	breaklinks=true,			% 	- allow line break inside links
