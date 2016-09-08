@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.8.1)  6 AUG 2016 14:49
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.8.1)  31 AUG 2016 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,7 @@ entering extended mode
 (./ijsra_2016_02.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(./ijsra.cls
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ijsra/ijsra.cls
 Document Class: ijsra 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
@@ -1755,7 +1755,7 @@ File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
 Loading lettrine.cfg
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lettrine/lettrine.cfg))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paralist/paralist.sty
-Package: paralist 2015/12/30 v2.5 Extended list environments
+Package: paralist 2016/08/07 v2.6 Extended list environments
 \pltopsep=\skip76
 \plpartopsep=\skip77
 \plitemsep=\skip78
@@ -1799,7 +1799,7 @@ Package: currfile-abspath 2015/04/23 v0.7c Provides absolute file paths, the pa
 rent working directory and the main file name
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2016/03/01 v2.6q A comprehensive (SI) units package
+Package: siunitx 2016/08/22 v2.6r A comprehensive (SI) units package
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
@@ -1855,119 +1855,119 @@ Package: l3keys2e 2016/05/18 v6512 LaTeX2e option processing using LaTeX3 keys
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7218.
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7234.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPostPower with sig. 'mm' on line 7221.
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7237.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7224.
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7240.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPrePower with sig. 'mm' on line 7227.
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7243.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIQualifier with sig. 'mm' on line 7230.
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7246.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7233.
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7249.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7236.
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7252.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7251.
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7267.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \num with sig. 'om' on line 7260.
+. Defining command \num with sig. 'om' on line 7276.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7269.
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7285.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numrange with sig. 'omm' on line 7278.
+. Defining command \numrange with sig. 'omm' on line 7294.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7290.
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7306.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIrange with sig. 'ommm' on line 7302.
+. Defining command \SIrange with sig. 'ommm' on line 7318.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SI with sig. 'omom' on line 7314.
+. Defining command \SI with sig. 'omom' on line 7330.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \sisetup with sig. 'm' on line 7317.
+. Defining command \sisetup with sig. 'm' on line 7333.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tablenum with sig. 'om' on line 7332.
+. Defining command \tablenum with sig. 'om' on line 7348.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \si with sig. 'om' on line 7344.
+. Defining command \si with sig. 'om' on line 7360.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7391.
+. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7407.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \__siunitx_bookmark_numrange:w with sig. 'omm' on line
-. 7393.
+. 7409.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7395.
+. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7411.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7397.
+. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7413.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \__siunitx_bookmark_SIrange:w with sig. 'ommm' on line
-. 7399.
+. 7415.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7400.
+. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7416.
 .................................................
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator.sty
 Package: translator 2010/06/12 ver 1.10
@@ -2377,7 +2377,7 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-Package scrhack Info: loading setspace hack on input line 147.
+Package scrhack Info: loading setspace hack on input line 149.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/setspace.hak
 File: setspace.hak 2016/06/14 v3.21 KOMA-Script package (hacking package setspa
@@ -2391,7 +2391,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks44
 \@floatcapt=\box94
 )
-Package scrhack Info: loading float hack on input line 149.
+Package scrhack Info: loading float hack on input line 151.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2016/06/14 v3.21 KOMA-Script package (hacking package float)
@@ -2428,7 +2428,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package scrhack Info: loading listings hack on input line 154.
+Package scrhack Info: loading listings hack on input line 156.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/listings.hak
 File: listings.hak 2016/06/14 v3.21 KOMA-Script package (hacking package listin
@@ -2462,7 +2462,7 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
 1: subsection
 Package scrkbase Info: You've told me to extend the font selection of the
 (scrkbase)             element `sectioning' that is an alias of element
-(scrkbase)             `disposition' on input line 186.
+(scrkbase)             `disposition' on input line 188.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks46
@@ -2511,7 +2511,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 360.
+(scrhack)             need that hack, on input line 400.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
@@ -2621,12 +2621,12 @@ tly
 )
 \Hy@SectionHShift=\skip100
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 372.
-Package hyperref Info: Option `breaklinks' set `true' on input line 372.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 372.
+Package hyperref Info: Option `colorlinks' set `true' on input line 412.
+Package hyperref Info: Option `breaklinks' set `true' on input line 412.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 412.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 372.
-Package hyperref Info: Option `final' set `true' on input line 372.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 412.
+Package hyperref Info: Option `final' set `true' on input line 412.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
@@ -2683,38 +2683,38 @@ File: french.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 (./preamble/_part_reviews.aux) (./preamble/_part_interviews.aux))
 \openout1 = `ijsra_2016_02.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 23.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 24.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -2722,68 +2722,68 @@ LaTeX Font Info:    ... okay on input line 23.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 23.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 23.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 23.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 23.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 23.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 23.
-LaTeX Font Info:    Redeclaring math accent \check on input line 23.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 23.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 23.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 23.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 24.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 24.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 24.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 24.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 24.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 24.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 24.
+LaTeX Font Info:    Redeclaring math accent \check on input line 24.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 24.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 24.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 24.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 24.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 23.
+(Font)              `operators' in the math version `normal' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/LinLibertine(0)/m/n on input line 2
-3.
+4.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 23.
+(Font)              `operators' in the math version `bold' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/LinLibertine(0)/m/n on input line 
-23.
+24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/LinLibertine(0)/m/n --> EU1/LinLibertine(0)/m/n on 
-input line 23.
+input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/LinLibertine(0)/m/it on input line
- 23.
+ 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/LinLibertine(0)/bx/n on input line
- 23.
+ 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> EU1/LinBiolinum(0)/m/n on input line 2
-3.
+4.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmvtt/m/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> EU1/lmvtt/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/LinLibertine(0)/m/n --> EU1/LinLibertine(0)/bx/n on
- input line 23.
+ input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/LinLibertine(0)/bx/it on input li
-ne 23.
+ne 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> EU1/LinBiolinum(0)/bx/n on input line
- 23.
+ 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmvtt/bx/n on input line 23.
-LaTeX Info: Redefining \dots on input line 23.
-LaTeX Info: Redefining \up on input line 23.
+(Font)                  OT1/cmtt/m/n --> EU1/lmvtt/bx/n on input line 24.
+LaTeX Info: Redefining \dots on input line 24.
+LaTeX Info: Redefining \up on input line 24.
 
 ABD: EveryShipout initializing macros
 Package marginnote Info: \pdfoutput not 0 or unimportant and
@@ -2795,7 +2795,7 @@ r-basic-dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
+File: siunitx-abbreviations.cfg 2016/08/22 v2.6r siunitx: Abbreviated units
 )
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -2804,12 +2804,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `ijsra_2016_02.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'ijsra_2016_02.bbl' found.
- (./ijsra_2016_02.bbl)
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
-\AtBeginShipoutBox=\box99
+Package biblatex Info: ... file 'ijsra_2016_02.bbl' not found.
 
+No file ijsra_2016_02.bbl.
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
+\AtBeginShipoutBox=\box99
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
@@ -2868,8 +2868,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count419
-Package scrhack Info: undefining \float@addtolists on input line 23.
-Package hyperref Info: Link coloring ON on input line 23.
+Package scrhack Info: undefining \float@addtolists on input line 24.
+Package hyperref Info: Link coloring ON on input line 24.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2878,9 +2878,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count420
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (./ijsra_2016_02.out) (./ijsra_2016_02.out)
 \@outlinefile=\write6
@@ -2908,35 +2908,35 @@ Requested font "cmsy8" at 8.0pt
 Requested font "cmsy6" at 6.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 23.
+(Font)              <10.95> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 23.
+(Font)              <8> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 23.
+(Font)              <6> on input line 24.
 Requested font "cmr8" at 8.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 Requested font "cmr6" at 6.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 23.
+(Font)              scaled to size 10.95pt on input line 24.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
 xt;mapping=tex-text;+tnum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_R.otf
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 23.
+(Font)              scaled to size 8.0pt on input line 24.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
 xt;mapping=tex-text;+tnum;" at 8.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_R.otf
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 23.
+(Font)              scaled to size 6.0pt on input line 24.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
 xt;mapping=tex-text;+tnum;" at 6.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_R.otf
 \c__siunitx_mathtt_int=\count422
-LaTeX Font Info:    Try loading font information for EU1+lmvtt on input line 23
+LaTeX Font Info:    Try loading font information for EU1+lmvtt on input line 24
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/euenc/eu1lmvtt.fd
@@ -2955,12 +2955,57 @@ gular.otf
 
 
 (./content/colophon.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 845.04684pt, 0.0pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=597.50787pt
+* \textheight=845.04684pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-92.67pt
+* \headheight=0.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=0.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=16.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+
+ []
+
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;" at 40.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+lnum;" at 15.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
 [1
-
 
 
 
@@ -2978,17 +3023,17 @@ Requested font "cmmi9" at 9.0pt
 Requested font "cmsy9" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 16.
+(Font)              <9> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
+(Font)              <5> on input line 17.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 16.
+(Font)              scaled to size 9.0pt on input line 17.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
 xt;mapping=tex-text;+tnum;" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_R.otf
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 16.
+(Font)              scaled to size 5.0pt on input line 17.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
 xt;mapping=tex-text;+tnum;" at 5.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
@@ -3005,11 +3050,14 @@ File: preamble/CC4-0.png Graphic file (type QTm)
  <use  "preamble/CC4-0.png" >
 File: preamble/OpenAccess3.png Graphic file (type QTm)
  <use  "preamble/OpenAccess3.png" >
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 40--53
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 41--54
 [] 
  []
 
-) [2]
+) [2
+
+
+]
 \openout2 = `content/editorial.aux'.
 
  (./content/editorial.tex
@@ -3155,8 +3203,8 @@ Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 24.88pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
-File: ijsra_logo.jpg Graphic file (type QTm)
-<use  "ijsra_logo.jpg" > [1
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" > [1
 
 
 
@@ -3234,6 +3282,13 @@ Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+smcp;+smcp;" at 7.50002pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_RI.otf
+
+LaTeX Warning: Citation 'Walker_1994' on page 3 undefined on input line 281.
+
+Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+lnum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RB.otf
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -3246,8 +3301,90 @@ Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+lnum;" at 49.03023pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
-File: ijsra_logo.jpg Graphic file (type QTm)
-<use  "ijsra_logo.jpg" > [3
+
+LaTeX Warning: Citation 'Hall_2000' on page 3 undefined on input line 288.
+
+
+LaTeX Warning: Citation 'vanDoornum_2005' on page 3 undefined on input line 288
+.
+
+
+LaTeX Warning: Citation 'vanDoornum_2007' on page 3 undefined on input line 288
+.
+
+
+LaTeX Warning: Citation 'vanDoornum_2008' on page 3 undefined on input line 288
+.
+
+
+LaTeX Warning: Citation 'vanDoornum_2014' on page 3 undefined on input line 288
+.
+
+
+LaTeX Warning: Citation 'Forssman_2010' on page 3 undefined on input line 288.
+
+
+LaTeX Warning: Citation 'Forssman_2013a' on page 3 undefined on input line 288.
+
+
+
+LaTeX Warning: Citation 'Forssman_2013b' on page 3 undefined on input line 288.
+
+
+
+LaTeX Warning: Citation 'Forssman_2013c' on page 3 undefined on input line 288.
+
+
+
+LaTeX Warning: Citation 'Forssman_2014a' on page 3 undefined on input line 288.
+
+
+
+LaTeX Warning: Citation 'Forssman_2014b' on page 3 undefined on input line 288.
+
+
+
+LaTeX Warning: Citation 'Forssman_2014a' on page 3 undefined on input line 289.
+
+
+
+LaTeX Warning: Citation 'Forssman_2014b' on page 3 undefined on input line 289.
+
+
+
+LaTeX Warning: Citation 'Forssman_2013c' on page 3 undefined on input line 289.
+
+
+
+LaTeX Warning: Citation 'Forssman_2015' on page 3 undefined on input line 289.
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 3 undefined on input line 289.
+
+
+Overfull \hbox (12.82709pt too wide) in paragraph at lines 288--291
+\EU1/LinLibertine(0)/m/n/10.95 western Zimbabwe (fig. [][]1[][]), has been at t
+he centre of a number of studies ([];
+ []
+
+
+Overfull \hbox (8.54741pt too wide) in paragraph at lines 288--291
+[]\EU1/LinLibertine(0)/m/n/10.95 ; []; []; [];
+ []
+
+
+Overfull \hbox (39.68315pt too wide) in paragraph at lines 288--291
+[]\EU1/LinLibertine(0)/m/n/10.95 ; []; []; []; [];
+ []
+
+
+Overfull \hbox (10.82996pt too wide) in paragraph at lines 288--291
+\EU1/LinLibertine(0)/m/n/10.95 past but which potentially confine our work toda
+y ([]; [];
+ []
+
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" > [3
 
 
 
@@ -3268,37 +3405,88 @@ Package marginnote Info: Margin note 9.1 is on absolute page 9
 Package marginnote Info: xpos seems to be 205.84677pt,
 (marginnote)             \marginnoterightadjust ignored on input line 299.
 
+
+LaTeX Warning: Citation 'Alexander_1984' on page 4 undefined on input line 300.
+
+
+
 Overfull \hbox (4.21497pt too wide) in paragraph at lines 299--301
 []\EU1/LinLibertine(0)/m/n/10.95 Mafunyane |[]is situated in a sandstone belt t
 hat stretches along the Motloutse, Limpopo,
  []
 
+
+LaTeX Warning: Citation 'Walker_1994' on page 4 undefined on input line 302.
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 4 undefined on input line 302.
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 4 undefined on input line 302.
+
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
+
+LaTeX Warning: Citation 'Walker_1994' on page 4 undefined on input line 305.
+
 [4]
 Package marginnote Info: Margin note 10.1 is on absolute page 10
 (marginnote)              on input line 308.
 Package marginnote Info: xpos seems to be 169.61702pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 308.
-File: figures/Forssman-Figure02.jpg Graphic file (type QTm)
- <use  "figures/Forssman-Figure02.jpg" >
-File: figures/Forssman-Figure03.jpg Graphic file (type QTm)
 
+
+LaTeX Warning: Citation 'Walker_1994' on page 5 undefined on input line 310.
+
+File: figures/Forssman-Figure02.jpg Graphic file (type QTm)
+<use  "figures/Forssman-Figure02.jpg" >
+
+LaTeX Warning: Citation 'Walker_1994' on page 5 undefined on input line 316.
+
+
+LaTeX Warning: Citation 'Forssman_2014a' on page 5 undefined on input line 316.
+
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 5 undefined on input line 316.
+
+
+LaTeX Warning: Citation 'Forssman_2014a' on page 5 undefined on input line 316.
+
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 5 undefined on input line 320.
+
+
+LaTeX Warning: Citation 'Forssman_2014a' on page 5 undefined on input line 325.
+
+
+File: figures/Forssman-Figure03.jpg Graphic file (type QTm)
 <use  "figures/Forssman-Figure03.jpg" >
+
+LaTeX Warning: Citation 'Kennett_2002' on page 5 undefined on input line 338.
+
+
+LaTeX Warning: Citation 'Lancaster_2003' on page 5 undefined on input line 338.
+
+
 File: figures/Forssman-Table01.jpg Graphic file (type QTm)
- <use  "figures/Forssman-Table01.jpg" >
+<use  "figures/Forssman-Table01.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 343.
 See the caption package documentation for explanation.
 
-[5] [6]
-Package marginnote Info: Margin note 12.1 is on absolute page 12
+Package marginnote Info: Margin note 10.2 is on absolute page 13
 (marginnote)              on input line 349.
-Package marginnote Info: xpos seems to be 127.15244pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 349.
+Package marginnote Info: xpos seems to be 198.28435pt,
+(marginnote)             \marginnoterightadjust ignored on input line 349.
+
+LaTeX Warning: Citation 'Walker_1994' on page 5 undefined on input line 355.
+
+[5] [6] [7]
 File: figures/Forssman-Figure04.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Figure04.jpg" >
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3327,17 +3515,44 @@ Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 365.
 See the caption package documentation for explanation.
 
-[7] [8]
-Package marginnote Info: Margin note 14.1 is on absolute page 14
+
+LaTeX Warning: Citation 'Walker_1994' on page 8 undefined on input line 369.
+
+Package marginnote Info: Margin note 13.1 is on absolute page 13
 (marginnote)              on input line 372.
-Package marginnote Info: xpos seems to be 139.53523pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 372.
-Package marginnote Info: Margin note 14.2 is on absolute page 14
+Package marginnote Info: xpos seems to be 210.66714pt,
+(marginnote)             \marginnoterightadjust ignored on input line 372.
+
+LaTeX Warning: Citation 'Deacon_1984a' on page 8 undefined on input line 376.
+
+
+LaTeX Warning: Citation 'Kuman_2009' on page 8 undefined on input line 377.
+
+[8]
+
+LaTeX Warning: Citation 'vanDoornum_2005' on page 9 undefined on input line 382
+.
+
+
+LaTeX Warning: Citation 'vanDoornum_2008' on page 9 undefined on input line 384
+.
+
+Package marginnote Info: Margin note 14.1 is on absolute page 14
 (marginnote)              on input line 388.
 Package marginnote Info: xpos seems to be 290.16562pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 388.
+
+LaTeX Warning: Citation 'vanDoornum_2005' on page 9 undefined on input line 389
+.
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 9 undefined on input line 399.
+
+
+LaTeX Warning: Citation 'Deacon_1984a' on page 9 undefined on input line 399.
+
 File: figures/Forssman-Figure05.jpg Graphic file (type QTm)
- <use  "figures/Forssman-Figure05.jpg" >
+<use  "figures/Forssman-Figure05.jpg" >
 File: figures/Forssman-Figure06.jpg Graphic file (type QTm)
 
 <use  "figures/Forssman-Figure06.jpg" >
@@ -3348,6 +3563,9 @@ Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 415.
 See the caption package documentation for explanation.
 
+
+LaTeX Warning: Citation 'Walker_1994' on page 9 undefined on input line 423.
+
 File: figures/Forssman-Table04.jpg Graphic file (type QTm)
 <use  "figures/Forssman-Table04.jpg" >
 
@@ -3355,10 +3573,10 @@ Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 427.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Margin note 14.3 is on absolute page 17
+Package marginnote Info: Margin note 14.2 is on absolute page 14
 (marginnote)              on input line 434.
-Package marginnote Info: xpos seems to be 264.55582pt,
-(marginnote)             \marginnoterightadjust ignored on input line 434.
+Package marginnote Info: xpos seems to be 193.4239pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 434.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+lnum;" at 7.50002pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -3367,6 +3585,9 @@ Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 7.50002pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
+
+LaTeX Warning: Citation 'Walker_1994' on page 9 undefined on input line 439.
+
 [9] [10] [11]
 File: figures/Forssman-Figure07.jpg Graphic file (type QTm)
  <use  "figures/Forssman-Figure07.jpg" >
@@ -3377,10 +3598,19 @@ Package marginnote Info: Margin note 17.1 is on absolute page 17
 (marginnote)              on input line 456.
 Package marginnote Info: xpos seems to be 211.59767pt,
 (marginnote)             \marginnoterightadjust ignored on input line 456.
- [12]
-File: figures/Forssman-Table05.jpg Graphic file (type QTm)
 
-<use  "figures/Forssman-Table05.jpg" >
+
+LaTeX Warning: Citation 'Orton_2008' on page 12 undefined on input line 458.
+
+
+LaTeX Warning: Citation 'Orton_2014' on page 12 undefined on input line 464.
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 12 undefined on input line 469.
+
+[12]
+File: figures/Forssman-Table05.jpg Graphic file (type QTm)
+ <use  "figures/Forssman-Table05.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 473.
@@ -3399,14 +3629,40 @@ Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
 text;mapping=tex-text;+tnum;+lnum;+smcp;+smcp;" at 8.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_RI.otf
+
+
+LaTeX Warning: Citation 'Wood_2011' on page 13 undefined on input line 497.
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 13 undefined on input line 499.
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 13 undefined on input line 500.
+
 Package marginnote Info: Margin note 18.1 is on absolute page 18
 (marginnote)              on input line 504.
 Package marginnote Info: xpos seems to be 170.96233pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 504.
- [13] [14] [15]
-File: figures/Forssman-Figure11.jpg Graphic file (type QTm)
 
-<use  "figures/Forssman-Figure11.jpg" >
+LaTeX Warning: Citation 'Walker_1994' on page 13 undefined on input line 504.
+
+
+LaTeX Warning: Citation 'Miller_2001' on page 13 undefined on input line 505.
+
+
+LaTeX Warning: Citation 'Miller_2002' on page 13 undefined on input line 505.
+
+
+LaTeX Warning: Citation 'Miller_2001' on page 13 undefined on input line 508.
+
+
+LaTeX Warning: Citation 'Miller_2001' on page 13 undefined on input line 511.
+
+
+LaTeX Warning: Citation 'Miller_2002' on page 13 undefined on input line 511.
+
+File: figures/Forssman-Figure11.jpg Graphic file (type QTm)
+<use  "figures/Forssman-Figure11.jpg" > [13] [14] [15]
 File: figures/Forssman-Figure12.jpg Graphic file (type QTm)
 
 <use  "figures/Forssman-Figure12.jpg" >
@@ -3422,25 +3678,31 @@ Package marginnote Info: Margin note 21.1 is on absolute page 21
 Package marginnote Info: xpos seems to be 217.92535pt,
 (marginnote)             \marginnoterightadjust ignored on input line 535.
 
+LaTeX Warning: Citation 'Walker_1994' on page 16 undefined on input line 537.
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 16 undefined on input line 539.
+
+
 Overfull \hbox (2.35991pt too wide) in paragraph at lines 535--543
 \EU1/LinLibertine(0)/m/n/10.95 number of identifiable specimens (NISP) and dens
 ity of non-identified remains ([][]/
  []
 
-[16] [17]
 File: figures/Forssman-Table07.jpg Graphic file (type QTm)
- <use  "figures/Forssman-Table07.jpg" >
+<use  "figures/Forssman-Table07.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 546.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Margin note 23.1 is on absolute page 23
+Package marginnote Info: Margin note 21.2 is on absolute page 24
 (marginnote)              on input line 553.
-Package marginnote Info: xpos seems to be 253.33986pt,
-(marginnote)             \marginnoterightadjust ignored on input line 553.
+Package marginnote Info: xpos seems to be 182.20795pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 553.
+[16] [17] [18]
 File: figures/Forssman-Figure13.jpg Graphic file (type QTm)
-<use  "figures/Forssman-Figure13.jpg" > [18]
+ <use  "figures/Forssman-Figure13.jpg" >
 File: figures/Forssman-Figure14.jpg Graphic file (type QTm)
 
 <use  "figures/Forssman-Figure14.jpg" >
@@ -3448,33 +3710,64 @@ Package marginnote Info: Margin note 24.1 is on absolute page 24
 (marginnote)              on input line 574.
 Package marginnote Info: xpos seems to be 222.29242pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 574.
- [19] [20]
+
+
+LaTeX Warning: Citation 'Hall_2000' on page 19 undefined on input line 576.
+
+
+LaTeX Warning: Citation 'vanDoornum_2007' on page 19 undefined on input line 57
+6.
+
+
+LaTeX Warning: Citation 'vanDoornum_2008' on page 19 undefined on input line 57
+6.
+
+
+LaTeX Warning: Citation 'vanDoornum_2014' on page 19 undefined on input line 57
+6.
+
+
+Overfull \hbox (218.0964pt too wide) in paragraph at lines 574--577
+\EU1/LinLibertine(0)/m/n/10.95 cussed primarily at large rockshelters. While th
+e work of [] and [][][]
+ []
+
+[19]
+
+LaTeX Warning: Citation 'vanDoornum_2008' on page 20 undefined on input line 58
+1.
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 20 undefined on input line 583.
+
+
+LaTeX Warning: Citation 'Walker_1994' on page 20 undefined on input line 585.
+
+[20]
 Package marginnote Info: Margin note 26.1 is on absolute page 26
 (marginnote)              on input line 591.
 Package marginnote Info: xpos seems to be 89.29124pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 591.
 
 
-Package biblatex Warning: No driver for entry type 'bachelorthesis'.
-(biblatex)                Using fallback driver on input line 604.
+LaTeX Warning: Empty bibliography on input line 604.
 
-[21]
 Package biblatex Info: Reference section=0 on input line 604.
-) [22]
+) [21]
 \openout2 = `preamble/_part_reviews.aux'.
 
- (./preamble/_part_reviews.tex
+ (./preamble/_part_reviews.tex [22
+
+
+
+
+]
 part II.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
-File: ijsra_logo.jpg Graphic file (type QTm)
-<use  "ijsra_logo.jpg" > [23
-
-
-
-
-] [24])
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" > [23] [24])
 \openout2 = `preamble/_part_interviews.aux'.
 
  (./preamble/_part_interviews.tex
@@ -3482,20 +3775,20 @@ part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
-File: ijsra_logo.jpg Graphic file (type QTm)
-<use  "ijsra_logo.jpg" > [25
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" > [25
 
 
 
 
 ] [26])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (./ijsra_2016_02.aux
 (./content/colophon.aux) (./content/editorial.aux) (./preamble/_toc.aux)
 (./preamble/_part_articles.aux) (./content/forssman.aux)
 (./preamble/_part_reviews.aux) (./preamble/_part_interviews.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 54.
 
 
  *File List*
@@ -3594,7 +3887,7 @@ pgfcomp-version-1-18.sty    2007/07/23 v3.0.1a (rcs-revision 1.1)
 marginnote.sty    2016/06/02 v1.2 non floating margin notes for LaTeX
 lettrine.sty    2015/08/31 v1.9 (Daniel Flipo)
 lettrine.cfg
-paralist.sty    2015/12/30 v2.5 Extended list environments
+paralist.sty    2016/08/07 v2.6 Extended list environments
 currfile.sty    2015/04/23 v0.7c Provides the file path elements of the current
  input file
 kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
@@ -3606,7 +3899,7 @@ filehook.sty    2011/10/12 v0.5d Hooks for input files
 filehook-scrlfile.sty    2011/01/03 v0.1 filehook patch for scrlfile package
 currfile-abspath.sty    2015/04/23 v0.7c Provides absolute file paths, the pare
 nt working directory and the main file name
- siunitx.sty    2016/03/01 v2.6q A comprehensive (SI) units package
+ siunitx.sty    2016/08/22 v2.6r A comprehensive (SI) units package
  amstext.sty    2000/06/29 v2.01 AMS text
   amsgen.sty    1999/11/30 v2.0 generic functions
 l3keys2e.sty    2016/05/18 v6512 LaTeX2e option processing using LaTeX3 keys
@@ -3708,8 +4001,7 @@ cleveref.sty    2013/12/28 v0.19 Intelligent cross-referencing
   ts1cmr.fd    2014/09/29 v2.5h Standard LaTeX font definitions
    t3cmr.fd    2001/12/31 TIPA font definitions
 translator-basic-dictionary-English.dict    
-siunitx-abbreviations.cfg    2016/03/01 v2.6q siunitx: Abbreviated units
-ijsra_2016_02.bbl
+siunitx-abbreviations.cfg    2016/08/22 v2.6r siunitx: Abbreviated units
 pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
   lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
   lscape.hak    2016/06/14 v3.21 KOMA-Script package (hacking package lscape)
@@ -3719,15 +4011,16 @@ ijsra_2016_02.out
 ijsra_2016_02.out
 eu1lmvtt.fd    2009/10/30 v1.6 Font defs for Latin Modern
 content/colophon.tex
+ijsra_logo.png    Graphic file (type QTm)
 se-ascii-print.def    2016/05/16 v1.11 stringenc: Printable ASCII characters
 preamble/CC4-0.png
 preamble/OpenAccess3.png
 content/editorial.tex
 preamble/_toc.tex
 preamble/_part_articles.tex
-ijsra_logo.jpg    Graphic file (type QTm)
+ijsra_logo.png    Graphic file (type QTm)
 content/forssman.tex
-ijsra_logo.jpg    Graphic file (type QTm)
+ijsra_logo.png    Graphic file (type QTm)
 figures/Forssman-Figure01.jpg
 figures/Forssman-Figure02.jpg
 figures/Forssman-Figure03.jpg
@@ -3750,23 +4043,31 @@ figures/Forssman-Table07.jpg
 figures/Forssman-Figure13.jpg
 figures/Forssman-Figure14.jpg
 preamble/_part_reviews.tex
-ijsra_logo.jpg    Graphic file (type QTm)
+ijsra_logo.png    Graphic file (type QTm)
 preamble/_part_interviews.tex
-ijsra_logo.jpg    Graphic file (type QTm)
+ijsra_logo.png    Graphic file (type QTm)
  ***********
 
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 53.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 54.
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                ijsra_2016_02
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 \openout1 = `ijsra_2016_02.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61879 strings out of 493589
- 1254417 string characters out of 6143513
- 1712402 words of memory out of 5000000
- 64377 multiletter control sequences out of 15000+600000
- 9359 words of font info for 98 fonts, out of 8000000 for 9000
+ 61740 strings out of 493589
+ 1251920 string characters out of 6143513
+ 1711481 words of memory out of 5000000
+ 64237 multiletter control sequences out of 15000+600000
+ 9497 words of font info for 101 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 80i,23n,147p,10428b,5085s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,23n,147p,10428b,3631s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ijsra_2016_02.pdf (31 pages).
