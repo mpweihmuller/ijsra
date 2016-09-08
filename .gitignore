@@ -38,3 +38,16 @@
 *.aux
 
 *.aux
+
+*.DS_Store
+
+
+2016-02/forssman.bib
+
+*.aux
+
+*.bbl
+
+*.blg
+
+*.log
