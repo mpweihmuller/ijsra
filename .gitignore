@@ -59,3 +59,15 @@
 *.blg
 
 *.log
+
+*.gz(busy)
+
+*.log
+
+*.aux
+
+*.log
+
+*.aux
+
+*.aux
