@@ -287,6 +287,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \newcommand\biofive{}
 
 \newcommand\abstract{}
+\undef\abstract{}
 
 \undef\authorone{}
 \undef\authortwo{}
@@ -388,9 +389,11 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\renewcommand*{\thefootnote}{\arabic{footnote}}
 	\label{firstpage\IJSRAidentifier}
 
+\ifdef\abstract{%
 \begin{IJSRAabstract}
 \abstract
 \end{IJSRAabstract}
+}{}
 }
 
 	
@@ -416,6 +419,8 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \undef\affilthreeauthor{}
 \undef\affilfourauthor{}
 \undef\affilfiveauthor{}
+
+\undef\abstract{}
 
 \undef\bioone{}
 \undef\biotwo{}
