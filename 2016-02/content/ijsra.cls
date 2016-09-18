@@ -377,7 +377,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
     }%
 	\\[1em]
 	\email
-	\ifdef{\affilone}{\\ \textsuperscript{\ifdef{\affiloneauthor}{$\affiloneauthor$}{$*$}}\affilone}{}%
+	\ifdef{\affilone}{\\ \textsuperscript{\ifdef{\affiloneauthor}{$\affiloneauthor$}{}}\affilone}{}%
 	\ifdef{\affiltwo}{\\ \ifdef{\affiltwoauthor}{\textsuperscript{$\affiltwoauthor$}}{}\affiltwo}{}%
 	\ifdef{\affilthree}{\\ \ifdef{\affilthreeauthor}{\textsuperscript{$\affilthreeauthor$}}{}\affilthree}{}%	
 	\ifdef{\affilfour}{\\ \ifdef{\affilfourauthor}{\textsuperscript{$\affilfourauthor$}}{}\affilfour}{}%

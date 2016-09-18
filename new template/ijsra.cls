@@ -287,6 +287,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \newcommand\biofive{}
 
 \newcommand\abstract{}
+\undef\abstract{}
 
 \undef\authorone{}
 \undef\authortwo{}
@@ -376,7 +377,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
     }%
 	\\[1em]
 	\email
-	\ifdef{\affilone}{\\ \textsuperscript{\ifdef{\affiloneauthor}{$\affiloneauthor$}{$*$}}\affilone}{}%
+	\ifdef{\affilone}{\\ \textsuperscript{\ifdef{\affiloneauthor}{$\affiloneauthor$}{}}\affilone}{}%
 	\ifdef{\affiltwo}{\\ \ifdef{\affiltwoauthor}{\textsuperscript{$\affiltwoauthor$}}{}\affiltwo}{}%
 	\ifdef{\affilthree}{\\ \ifdef{\affilthreeauthor}{\textsuperscript{$\affilthreeauthor$}}{}\affilthree}{}%	
 	\ifdef{\affilfour}{\\ \ifdef{\affilfourauthor}{\textsuperscript{$\affilfourauthor$}}{}\affilfour}{}%
@@ -388,9 +389,11 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\renewcommand*{\thefootnote}{\arabic{footnote}}
 	\label{firstpage\IJSRAidentifier}
 
+\ifdef\abstract{%
 \begin{IJSRAabstract}
 \abstract
 \end{IJSRAabstract}
+}{}
 }
 
 	
@@ -416,6 +419,8 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \undef\affilthreeauthor{}
 \undef\affilfourauthor{}
 \undef\affilfiveauthor{}
+
+\undef\abstract{}
 
 \undef\bioone{}
 \undef\biotwo{}
