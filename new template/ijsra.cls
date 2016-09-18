@@ -1,4 +1,4 @@
-%% This is file `ijsrabeta.cls',
+%% This is file `ijsra.cls',
 %%
 %% LaTeX Class for ``International Journal of Student Research in Archaeology''.
 %%
@@ -16,7 +16,7 @@
 \listfiles
 \NeedsTeXFormat{LaTeX2e}[1999/12/01]
 
-\ProvidesClass{ijsrabeta}
+\ProvidesClass{ijsra}
 \RequirePackage{ifxetex,ifluatex,ifpdf,ifvtex}
 \RequirePackage{xkeyval}
 
