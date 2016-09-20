@@ -1,0 +1,95 @@
+\documentclass[english]{ijsra}
+\def\IJSRAidentifier{\currfilebase}%<<<< DO NOT change this line
+
+%-------Title | Email | Keywords | Abstract-------------
+\def\shorttitle{AAPA 2016 Review}
+\def\maintitle{Review: American Association of Physical Anthropologists 2016 Annual Meeting}
+\def\cmail{}
+\def\keywords{Review, Annual Meeting, 85th}
+%\def\keywordname{}
+%\undef\abstract
+
+%--------Author’s names------------
+\def\authorone{Devin L. Ward}
+\def\authortwo{Michael B. C. Rivera}
+\def\authorthree{Jaap Saers}
+
+%-------Biographical information-------------
+\def\bioone{Devin L. Ward (https://utoronto.academia.edu/DevinWard) is a first year PhD Student at the University of Toronto and a Junior Fellow at Massey College, where she studies shape variation in the human inner ear.
+At the 2016 AAPA meeting, she presented research conducted for completion of her MPhil in Biological Anthropological Science at the University of Cambridge titled, “Insights into Developmental Stress Exposure from the Bony Labyrinth”.
+Devin is also an Editor of the International Journal of Student Research in Archaeology and is involved in ongoing bioarchaeological projects in Gibraltar and Italy.}
+\def\biotwo{Michael B. C. Rivera (https://cambridge.academia.edu/MichaelRivera) is a PhD student at the University of Cambridge conducting research on bioarchaeology and coastal adaptations in the prehistoric Baltics (between 5,400 BC–450 AD).
+His other interests include global human skeletal variation—at the 2016 AAPA meeting, he presented a poster on climatic adaptation and neutral evolution of the human lower limb.
+Michael is a Reviewer for the International Journal of Student Research in Archaeology and a co-organizer of the 4th Annual Student Archaeology Conference (the proceedings of which will be published in the next issue of the IJSRA).}
+\def\biothree{Jaap Saers (https://cambridge.academia.edu/JaapSaers) is a PhD candidate at Cambridge University.
+His research focuses on the interaction between growth and development, physical activity, and the structural organization of human trabecular bone.}
+
+%------University/Institution--------------
+\def\affilone{PhD student, Department of Anthropology, University of Toronto}
+\def\affiltwo{PhD student, Department of Archaeology & Anthropology, University of Cambridge}
+
+%--------Mapping of authors to affiliations------------
+%% authorone:--> * <--- copy/paste that symbol to \affiloneauthor etc. below
+%% authortwo:--> † <--- copy/paste that symbol to \affiloneauthor etc. below
+%% authorthree:--> ‡ <--- copy/paste that symbol to \affiloneauthor etc. below
+%% authorfour: --> § <--- copy/paste that symbol to \affiloneauthor etc. below
+%% authorfive: --> ¶ <--- copy/paste that symbol to \affiloneauthor etc. below
+%-------------------------------------------------------------------------
+%\def\affiloneauthor{*}%<---- paste the symbol of the authors into {}
+%\def\affiltwoauthor{†}%<---- paste the symbol of the authors into {}
+%\def\affilthreeauthor{†}%<---- paste the symbol of the authors into {}
+
+\begin{document}
+\IJSRAopening%<<<< DO NOT change this line
+
+
+\lettrine{T}he \IJSRAsection{Introduction} 85th annual meeting of the American Association of Physical Anthropologists (AAPA) took place April 13‒17,
+in Atlanta, Georgia, USA (Figs. 1 and 2).
+Founded in 1930 with only 83 members, the Association currently has more than 1,700 members internationally
+(The American Association of Physical Anthropologists).
+This year’s host institutions were Georgia State University and Georgia Perimeter College,
+but related lectures were also held at nearby Emory University.
+The AAPA invites members from all academic career stages, and annual meetings provide many opportunities to
+specifically foster student involvement in physical anthropology.
+Students participate in all aspects of the meetings, from presenting research through poster and
+podium presentations to organization of the event itself (“A Guide to Student Events at the 2016 AAPA Annual Meeting’).
+Although the AAPA was well-attended by many non-student anthropologists, this review will focus on the roles of,
+and opportunities for, students.
+
+The 2016 program ran over three full days and included 1,096 scientific presentations divided into 58 sessions.
+These then were divided into morning and afternoon sessions, 
+with approximately 4‒7 sessions being conducted concurrently per morning/afternoon. 
+Many of the symposia were open to students to submit abstracts for in mid-September 2015.
+Most poster and podium sessions were open to contributions from all members of the AAPA, including students,
+and focused on broad topics within biological anthropology.
+Topics included functional morphology, bioarcheology, primate behavior, growth and development, human genetic variation,
+among others (Figs. 3 and 4).
+Poster sessions lasted all day, leaving time for attendants to browse during breaks.
+The authors of each poster stood by their posters for questions as well during two designated half-hour intervals on
+the day of their session (Figs. 5 and 6).
+
+In addition to these broad sessions, 
+invited poster and podium sessions allowed dedicated idea exchanges within specialized research areas. 
+There were 7 invited podium sessions and 16 invited poster symposiums covering topics such as: humans in marginal environments, 
+malaria in antiquity, the morphology of the last common ancestor, and imaging and analysis of bone microstructure, to name a few. 
+Invited poster symposia included a brief talk by each invited author, followed by conversation and questions. 
+Each invited poster session concluded with a discussion featuring one or several prominent members of the relevant field,
+where findings of the symposium were summarized and debated. 
+Invited podium sessions followed a similar format where each session would be concluded by one or several discussants who synthesized
+the work at the end and directed a subsequent discussion. 
+Several invited podium sessions discouraged questions after each talk in order to have a more detailed discussion at the end.
+One of the most popular invited podium sessions was devoted to addressing the most recent addition to the hominin fossil record,
+\emph{Homo naledi}, providing the opportunity for 13 members of the Rising Stars team (mostly early-career scientists)
+to present their ongoing work. 
+This then culminated with a special luncheon and lecture hosted by renowned paleoanthropologist Lee Berger (Fig. 7).
+
+Complementing these talks and poster sessions over the course of the meeting were a number of smaller panel discussions,
+workshops, adjacent committee meetings, and evening receptions. 
+A student awards ceremony and closing reception was the final event of this year’s event.  
+All of these will be discussed in more detail throughout this review.
+
+Graduate \IJSRAsection{Student Research} and undergraduate research 
+
+
+\IJSRAclosing%<<<< DO NOT change this line
+\end{document}
