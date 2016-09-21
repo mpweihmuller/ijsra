@@ -15,14 +15,14 @@
 \def\authorthree{Jaap P. P. Saers}
 
 %-------Biographical information-------------
-\def\bioone{Devin L. Ward (https://utoronto.academia.edu/DevinWard) is a first year PhD Student at the University of Toronto and a Junior Fellow at Massey College, where she studies shape variation in the human inner ear.
+\def\bioone{Devin L. Ward (\href{https://utoronto.academia.edu/DevinWard}{academia.edu/DevinWard}) is a first year PhD Student at the University of Toronto and a Junior Fellow at Massey College, where she studies shape variation in the human inner ear.
 At the 2016 AAPA meeting, she presented research conducted for completion of her MPhil in Biological Anthropological Science at the University of Cambridge titled, “\emph{Insights into Developmental Stress Exposure from the Bony Labyrinth}”.
 Devin is also an Editor of the International Journal of Student Research in Archaeology and is involved in ongoing bioarchaeological projects in Gibraltar and Italy.}
-\def\biotwo{Michael B. C. Rivera (https://cambridge.academia.edu/MichaelRivera) is a PhD student at the University of Cambridge conducting research on bioarchaeology and coastal adaptations in the prehistoric Baltics (between 5,400\BC–450\AD).
+\def\biotwo{Michael B. C. Rivera (\href{https://cambridge.academia.edu/MichaelRivera}{academia.edu/MichaelRivera}) is a PhD student at the University of Cambridge conducting research on bioarchaeology and coastal adaptations in the prehistoric Baltics (between 5,400\BC–450\AD).
 His other interests include global human skeletal variation—at the 2016 AAPA meeting, he presented a poster on climatic adaptation and neutral evolution of the human lower limb.
 Michael is a Reviewer for the International Journal of Student Research in Archaeology and a co-organizer of the 4th Annual Student Archaeology Conference (the proceedings of which will be published in the next issue of the IJSRA).}
-\def\biothree{Jaap P. P. Saers (https://cambridge.academia.edu/JaapSaers) is a PhD candidate at Cambridge University.
-His research focuses on the interaction between growth and development, physical activity, and the structural organization of human trabecular bone.}%add hyperlinks to above?
+\def\biothree{Jaap P. P. Saers (\href{https://cambridge.academia.edu/JaapSaers}{academia.edu/JaapSaers}) is a PhD candidate at Cambridge University.
+His research focuses on the interaction between growth and development, physical activity, and the structural organization of human trabecular bone.}
 
 %------University/Institution--------------
 \def\affilone{Department of Anthropology, University of Toronto}
@@ -37,10 +37,10 @@ His research focuses on the interaction between growth and development, physical
 %-------------------------------------------------------------------------
 \def\affiloneauthor{*}%<---- paste the symbol of the authors into {}
 \def\affiltwoauthor{†}%<---- paste the symbol of the authors into {}
-\def\affilthreeauthor{†}%<---- paste the symbol of the authors into {}
+\def\affilthreeauthor{†}%LCB
 
 \begin{filecontents}{\IJSRAidentifier.bib}
-@misc{beasley_2016,
+@misc{beasley2016,
 title = {A Guide to Student Events at the 2016 AAPA Annual Meeting},
 url = {http://physanth.org/news/738/},
 journal = {American Association of Physical Anthropologists},
@@ -50,25 +50,28 @@ year = {2016},
 month = {Mar}
 } 
 
-@misc{american association of physical anthropologists_2015,
+@misc{american2015,
 title = {Committee on Diversity Women's Initiative Graduate Student Women's Professional Development Workshop},
 url = {http://physanth.org/news/654/},
+shorthand = {AAPA 2015},
 journal = {American Association of Physical Anthropologists},
 publisher = {American Association of Physical Anthropologists},
 year = {2015},
 month = {Dec}
 }
 
-@misc{american association of physical anthropologists,
+@misc{american,
 title = {Student presentation awards},
+shorthand = {AAPA Awards},
 url = {http://physanth.org/about/awards/student-presentation-awards},
 journal = {American Association of Physical Anthropologists},
 publisher = {American Association of Physical Anthropologists}
 }
 
-@misc{american association of physical anthropologists_2016,
+@misc{american2016,
 title = {American Association of Physical Anthropologists},
 url = {http://www.physanth.org/},
+shorthand = {AAPA 2016},
 journal = {American Association of Physical Anthropologists},
 publisher = {American Association of Physical Anthropologists},
 year = {2016}
@@ -80,68 +83,73 @@ year = {2016}
 
 
 \lettrine{T}he \IJSRAsection{Introduction} 85th annual meeting of the American Association of Physical Anthropologists (AAPA)
-took place April 13‒17, in Atlanta, Georgia, USA (\cref{fig:Ward-Figure1},,{fig:Ward-Figure2}).
-Founded in 1930 with only 83 members, the Association currently has more than 1,700 members internationally \parencite{american association of physical anthropologists_2016}.
+took place April 13‒17, in Atlanta, Georgia, USA (\cref{fig:Ward-Figure1,fig:Ward-Figure2}).
+Founded in 1930 with only 83 members, the Association currently has more than 1,700 members internationally \parencite{american2016}.
 This year’s host institutions were Georgia State University and Georgia Perimeter College,
 but related lectures were also held at nearby Emory University.
 The AAPA invites members from all academic career stages, and annual meetings provide many opportunities to
 specifically foster student involvement in physical anthropology.
 Students participate in all aspects of the meetings, from presenting research through poster and
-podium presentations to organization of the event itself \parencite{beasley_2016}.
+podium presentations to organization of the event itself \parencite{beasley2016}.
 Although the AAPA was well-attended by many non-student anthropologists, this review will focus on the roles of,
 and opportunities for, students.
-
-\begin{figure} %Figure 1
-		\includegraphics[width=\linewidth]{figures/Ward-Figure1}
-		\caption{The many levels of the conference venue, the Atlanta Marriott Marquis, leading a few delegates to liken its appearance to a spinal column and rib cage! (Copyright to authors).}
-		\centering
+\begin{figure}[!htb] %Figure 1
+%\begin{wrapfigure}{O}{0.5\textwidth} 
+%		\centering
+		\includegraphics[angle=270,width=.6\linewidth]{Ward-Figure1}
+		\caption{The many levels of the conference venue, the Atlanta Marriott Marquis, leading a few delegates to liken its appearance to a spinal column and rib cage! 
+		{\normalfont\scriptsize \\ \copyright\ by \shortauthor}}
 		\label{fig:Ward-Figure1}
 	\end{figure}
+%\end{wrapfigure}
 
-\begin{figure} %Figure 2
-		\includegraphics[width=\linewidth]{figures/Ward-Figure2}
-		\caption{Attractions to enjoy in Atlanta between conference sessions included the Georgia Aquarium, the Fernbank Museum of Natural History, The World of Coca-Cola and Atlanta Zoo (Copyright to authors).}
+\begin{figure}[!htb] %Figure 2
 		\centering
+		\includegraphics[width=\linewidth]{Ward-Figure2}
+		\caption{Attractions to enjoy in Atlanta between conference sessions included the Georgia Aquarium, the Fernbank Museum of Natural History, The World of Coca-Cola and Atlanta Zoo. 
+		{\normalfont\scriptsize \\ \copyright\ by \shortauthor}}
 		\label{fig:Ward-Figure2}
 	\end{figure}
-
-The 2016 program ran over three full days and included 1,096 scientific presentations divided into 58 sessions.
+The 2016 program ran over three full days and included \num{1096} scientific presentations divided into 58 sessions.
 These then were divided into morning and afternoon sessions, 
 with approximately 4‒7 sessions being conducted concurrently per morning/afternoon. 
 Many of the symposia were open to students to submit abstracts for in mid-September 2015.
 Most poster and podium sessions were open to contributions from all members of the AAPA, including students,
 and focused on broad topics within biological anthropology.
 Topics included functional morphology, bioarcheology, primate behavior, growth and development, human genetic variation,
-among others (\crefs{fig:Ward-Figure3},,{fig:Ward-Figure4}).
+among others (\cref{fig:Ward-Figure3,fig:Ward-Figure4}).
 Poster sessions lasted all day, leaving time for attendants to browse during breaks.
 The authors of each poster stood by their posters for questions as well during two designated half-hour intervals on
-the day of their session (\crefs{fig:Ward-Figure5},,{fig:Ward-Figure6}).
+the day of their session (\cref{fig:Ward-Figure5,fig:Ward-Figure6}).
 
-\begin{figure} %Figure 3
-		\includegraphics[width=\linewidth]{figures/Ward-Figure3}
-		\caption{Podium presentations were given by undergraduates, postgraduates, post-doctoral researchers and senior faculty (Copyright to authors).}
+\begin{figure}[!htb] %Figure 3
 		\centering
+		\includegraphics[width=\linewidth]{Ward-Figure3}
+		\caption{Podium presentations were given by undergraduates, postgraduates, post-doctoral researchers and senior faculty. 
+		{\normalfont\scriptsize \\ \copyright\ by \shortauthor}}
 		\label{fig:Ward-Figure3}
 	\end{figure}
 	
-	\begin{figure} %Figure 4
-		\includegraphics[width=\linewidth]{figures/Ward-Figure4}
-		\caption{The ‘Evolutionary Perspectives to Bioarchaeology’ poster symposium, hosted by Dr. Jim Watson—one of the concurrent sessions that took place in the afternoon on Thursday April 21st (Copyright to authors).}
+	\begin{figure}[!htb] %Figure 4
 		\centering
+		\includegraphics[width=\linewidth]{Ward-Figure4}
+		\caption{The ‘Evolutionary Perspectives to Bioarchaeology’ poster symposium, hosted by Dr. Jim Watson—one of the concurrent sessions that took place in the afternoon on Thursday April \nth{21}. 
+		{\normalfont\scriptsize \\ \copyright\ by \shortauthor}}
 		\label{fig:Ward-Figure4}
 	\end{figure}
 	
-	\begin{figure} %Figure 5
-		\includegraphics[width=\linewidth]{figures/Ward-Figure5}
-		\caption{Student research posters were displayed everyday in the Marriott's Atrium Ballroom (Copyright to authors).}
-		\centering
+	\begin{figure}[!htb] %Figure 5
+		\includegraphics[angle=270,width=.6\linewidth]{Ward-Figure5}
+		\caption{Student research posters were displayed everyday in the Marriott's Atrium Ballroom. 
+		{\normalfont\scriptsize \\ \copyright\ by \shortauthor}}
 		\label{fig:Ward-Figure5}
 	\end{figure}
 	
-	\begin{figure} %Figure 6
-		\includegraphics[width=\linewidth]{figures/Ward-Figure6}
-		\caption{University of Cambridge PhD student Jaap Saers presenting his poster on trabecular bone morphology as part of the session, '\emph{Bone Microstructure: Imaging, Analysis and Function}' (Copyright to authors).}
-		\centering
+	\begin{figure}[!htb] %Figure 6
+%		\centering
+		\includegraphics[width=.6\linewidth]{Ward-Figure6}
+		\caption{University of Cambridge PhD student Jaap Saers presenting his poster on trabecular bone morphology as part of the session, '\emph{Bone Microstructure: Imaging, Analysis and Function}'.
+				{\normalfont\scriptsize \\ \copyright\ by \shortauthor}}
 		\label{fig:Ward-Figure6}
 	\end{figure}
 
@@ -160,10 +168,11 @@ One of the most popular invited podium sessions was devoted to addressing the mo
 to present their ongoing work. 
 This then culminated with a special luncheon and lecture hosted by renowned paleoanthropologist Lee Berger (\cref{fig:Ward-Figure7}).
 
-	\begin{figure} %Figure 7
-		\includegraphics[width=\linewidth]{figures/Ward-Figure7}
-		\caption{Lee Berger gives a luncheon presentation on the new \emph{Homo naledi} discovery, to which many students attended (Copyright to authors).}
+	\begin{figure}[!htb] %Figure 7
 		\centering
+		\includegraphics[width=\linewidth]{Ward-Figure7}
+		\caption{Lee Berger gives a luncheon presentation on the new \emph{Homo naledi} discovery, to which many students attended.
+		{\normalfont\scriptsize \\ \copyright\ by \shortauthor}}
 		\label{fig:Ward-Figure7}
 	\end{figure}
 
@@ -182,10 +191,11 @@ Undergraduate student participants are mentored by graduate student members of A
 who are invited to participate as mentors on a yearly basis.
 Many previous URS participants opt to continue as graduate mentors once they enter a graduate program.
 
-	\begin{figure} %Figure 8
-		\includegraphics[width=\linewidth]{figures/Ward-Figure8}
-		\caption{Dr. Susan Antón gives out prizes to the participants of the Undergraduate Research Symposium (Copyright to authors).}
-		\centering
+	\begin{figure}[!htb] %Figure 8
+%		\centering
+		\includegraphics[angle=270,width=.6\linewidth]{Ward-Figure8}
+		\caption{Dr. Susan Antón gives out prizes to the participants of the Undergraduate Research Symposium.
+				{\normalfont\scriptsize \\ \copyright\ by \shortauthor}}
 		\label{fig:Ward-Figure8}
 	\end{figure}
 
@@ -194,20 +204,19 @@ recognizing both diverse and excellent student work in the form of posters and p
 Several of these prizes are sponsored by the AAPA in cooperation with other societies,
 such as the American Association of Anatomists (AAA). 
 Other prizes are in honor of specific anthropologists, including the Aleš Hrdlička Prize,
-named after the founder of the American Journal of Physical Anthropology \parencite{american association of physical anthropologists}.
+named after the founder of the American Journal of Physical Anthropology \parencite{american}.
 All of the 2016 winners were graduate students from American and Canadian universities. 
 Honorable mentions went to Melanie Beasley, Amanda Lee, Brittany, and Lu Yao.  
 Winners are listed as follows: 
 \begin{description}
-  \item[$\bullet$] Eric Castillo (Harvard University): AAA-AAPA Podium Prize for his presentation titled, “\emph{Testing biomechanical models for lumbar lordosis variation in hominins}”.
-  \item[$\bullet$] Jesse Goliath (Ohio State University): AAA-AAPA Poster Prize for his poster titled, “\emph{Patterns in ontogeny of epiphyseal and metaphyseal trabecular bone microstructure in the human proximal tibia}".
-  \item[$\bullet$] Andrew Halley (University of California, Berkeley): Aleš Hrdlička Prize for his podium presentation titled “\emph{The embryonic origins of primate encephalization: allometric and growth analyses}”.
-  \item[$\bullet$] Myra Laird (New York University): Earnest Hooton Best Poster Prize for her poster titled, “\emph{Gape cycle kinematic variance and occlusal topography in modern humans}”.
-  \item[$\bullet$] Cecilia Mayer (Macalester College): Sherwood Washburn Prize for her poster presentation titled “\emph{How tough is the grey-cheeked mangabey? Patterns of healed skeletal trauma in \emph{Lophocebus albigena}}”.
-  \item[$\bullet$] Nathan Thompson (Stony Brook University): Mildred Trotter Prize for his presentation titled “\emph{In search of the last common ancestor: perspectives on the ancestral morphotype of hominins}”.
-  \item[$\bullet$] Amber Walker-Bolton (University of Toronto): Juan Comas Prize for her podium presentation titled “\emph{Operational sex ratio, dominance rank and mating success of group and non-group male ring-tailed lemurs (\emph{Lemur catta})}”.
+  \item[Eric Castillo (Harvard University):] AAA-AAPA Podium Prize for his presentation titled, “\emph{Testing biomechanical models for lumbar lordosis variation in hominins}”.
+  \item[Jesse Goliath (Ohio State University):] AAA-AAPA Poster Prize for his poster titled, “\emph{Patterns in ontogeny of epiphyseal and metaphyseal trabecular bone microstructure in the human proximal tibia}".
+  \item[Andrew Halley (University of California, Berkeley):] Aleš Hrdlička Prize for his podium presentation titled “\emph{The embryonic origins of primate encephalization: allometric and growth analyses}”.
+  \item[Myra Laird (New York University):] Earnest Hooton Best Poster Prize for her poster titled, “\emph{Gape cycle kinematic variance and occlusal topography in modern humans}”.
+  \item[Cecilia Mayer (Macalester College):] Sherwood Washburn Prize for her poster presentation titled “\emph{How tough is the grey-cheeked mangabey? Patterns of healed skeletal trauma in \emph{Lophocebus albigena}}”.
+  \item[Nathan Thompson (Stony Brook University):] Mildred Trotter Prize for his presentation titled “\emph{In search of the last common ancestor: perspectives on the ancestral morphotype of hominins}”.
+  \item[Amber Walker-Bolton (University of Toronto):] Juan Comas Prize for her podium presentation titled “\emph{Operational sex ratio, dominance rank and mating success of group and non-group male ring-tailed lemurs \emph{(Lemur catta)}}”.
 \end{description}
-
 There \IJSRAsection{Other Student Involvement} are many ways in which students can be involved in the AAPA meetings beyond research presentation.  These opportunities have included more traditional positions, such as membership on the student committee, but in recent years the larger role of social media in conferences has opened many other doors.  
 
 All sessions, both podium and presentation, as well as many seminars were live-tweeted.
@@ -215,9 +224,9 @@ A call for volunteer live-tweeters was put out via Twitter and departmental mail
 a University of Texas at Austin graduate student. 
 The team assembled for this task comprised undergraduates, graduates, and post-doctoral researchers, 
 who live-tweeted sessions covering subjects of their own research. 
-Using the \#AAPA2016 hashtag, all tweets associated with this year’s meeting were easy to locate on Twitter. 
+Using the \emph{\#AAPA2016} hashtag, all tweets associated with this year’s meeting were easy to locate on Twitter. 
 Volunteers also designed additional hashtags unique to each podium and poster session to allow Twitter users to
-follow conversations of interest to them (e.g., \#ancientalleles, \#EvoBioArch, \#SEBioArch, \emph{etc.}).%add links for #ancientalleles, #EvoBioArch, #SEBioArch ?
+follow conversations of interest to them (e.g., \emph{\#ancientalleles, \#EvoBioArch, \#SEBioArch,} etc.).%add links for #ancientalleles, #EvoBioArch, #SEBioArch ?
 
 Because many of the sessions ran parallel to each other, the use of Twitter enabled AAPA attendees to ‘listen in’ on multiple sessions simultaneously. 
 Overall, live-tweeting created many positive interactions and lively discussions between early-career scientists and senior faculty members alike, both in Atlanta and among other interested academics around the world.
@@ -249,7 +258,7 @@ and Kelly Blevins (graduate student at Durham University) won lunch with Dr. Mil
 Finally, Cody Moser (undergraduate student at Florida State University), 
 Vanessa Graves (graduate student at Central Michigan University), 
 Helen Alesbury (graduate student at New York University), An-Dii Yim (graduate student at New York University) won lunch with
-Dr. Jim McKenna  and Dr. Claudia Valeggia.%Devin's note in doc: "When I format this article in LaTeX, I can insert a link to each of the students profile pages online, academia.edu, linkedin, etc."
+Dr. Jim McKenna  and Dr. Claudia Valeggia.%Devin's note in doc: "When I format this article in LaTeX, I can insert a link to each of the students profile pages online, academia.edu, linkedin, etc." LCB response: good!
 
 The AAPA meetings also include more targeted opportunities for networking, 
 which recur yearly and are often managed by the Committee on Diversity or other small groups within the association.
@@ -262,8 +271,7 @@ The PAWMN also hosted a happy hour later the same day to facilitate one-on-one d
 Raffle tickets were distributed to happy hour attendees and prizes were given throughout the evening.
 The Women’s Mentoring network strives to provide networking opportunities and a “safe space” in which to 
 discuss “all issues relevant to women in physical anthropology at the graduate level and up”,
-and will continue at next year’s AAPA meetings.
-Donations to the PAWMN can be made here (http://www.payit2.com/collect-page/26003).%link needs to be added
+and will continue at next year’s AAPA meetings.\footnote{Donations to the PAWMN can be made here (\href{http://www.payit2.com/collect-page/26003}{http://www.payit2.com/collect-page/26003}).}
 
 The \IJSRAsection{Workshops and Resources} Annual Committee on Diversity, 
 previously mentioned as organizing the symposium on undergraduate research, 
@@ -272,7 +280,7 @@ These included a Women's Initiative Graduate Student Women's Professional Develo
 Specifically geared towards women students at the very beginning of their careers, the workshop included speakers and mentors.
 Over lunch, registered participants took part in discussions ranging in style from lectures to more personal group sessions.
 Topics ranged from publication, the review process, external funding, and the job market and included active participation.
-The workshop aimed to provide women scholars with “practical tools and resources” to “strategically navigate their [careers]” \parencite{american association of physical anthropologists_2015}.
+The workshop aimed to provide women scholars with \enquote{practical tools and resources} to \enquote{strategically navigate their [careers]} \parencite{american2015}.
 
 An additional Committee on Diversity-organized event included a round-table titled “ACT” or
 “The Anthropologists ACademic Taboo: discussion alternatives to “traditional” R1 positions”.
@@ -300,12 +308,12 @@ Of particular focus was discussion of power differential between students and te
 and also between junior and senior faculty members, lead to sexual harassment. 
 Participants both asked for advice and debated the best approaches to handling situations of harassment they had encountered.
 Discussion also included topics such as discouraging all-male-panels and taking notice and action when witnessing harassment.
-Although the entire session was live-tweeted via the hashtag “\#AAPAforward”,%add link from doc here
+Although the entire session was live-tweeted via the hashtag \href{LINK}{\emph{\#AAPAforward}}, %add link from doc here
 the topic and questions raised are still being discussed on social media and will continue to
 be discussed at next year’s AAPA meetings. 
-Postdoctoral fellow at the University of Notre Dame, Dr. Marc Kissel, provides a condensed version of the conversation on Storify.%add link from doc here
+Postdoctoral fellow at the University of Notre Dame, Dr. Marc Kissel, provides a condensed version of the conversation on Storify. %add link from doc here
 
-This year, the conference in Atlanta included a career development workshop with Randall Robaudo of SciPhD (http://sciphd.com/).%add link here?
+This year, the conference in Atlanta included a career development workshop with Randall Robaudo of SciPhD.\footnote{\href{http://sciphd.com/}{http://sciphd.com/}.} %add link here?
 The challenges for PhDs of finding a career in academia have changed significantly over the past decade and a half,
 with tenure-track positions becoming increasingly competitive as more PhDs enter the job market. 
 The workshop aimed to provide guidance to doctoral students who are considering transition from academia to
@@ -317,6 +325,14 @@ The participants were also trained on how to dissect job advertisements, how to 
 and how to develop talking points to get them through the interview process. 
 The workshop was an excellent opportunity to learn how to meet the career challenges facing PhDs and land a job.
 
+	\begin{figure}[!tb] %Figure 9
+		\centering
+		\includegraphics[width=\linewidth]{Ward-Figure9}
+		\caption{Osteological cast manufacturers Bone Clones showed off their many teaching and research materials.
+				{\normalfont\scriptsize \\ \copyright\ by \shortauthor}}
+		\label{fig:Ward-Figure9}
+	\end{figure}
+	
 In addition to the groups and workshops discussed here, there were many events tailored to inclusivity and diversity in the AAPA.
 These included, for example, GAYAPA, the AAPA-Wiley Reception, Increasing Diversity in Evolutionary Anthropology (IDEAS),
 Title IX workshop, and mentoring relations for grant writing.  
@@ -330,12 +346,6 @@ Several workshops with a focus on professional development and education also to
 Live and silent auctions were also held through the first two days of the meetings, 
 with proceeds benefitting annual Student Travel Awards for conference attendance.
 
-	\begin{figure} %Figure 9
-		\includegraphics[width=\linewidth]{figures/Ward-Figure9}
-		\caption{Osteological cast manufacturers Bone Clones showed off their many teaching and research materials (Copyright to authors).}
-		\centering
-		\label{fig:Ward-Figure9}
-	\end{figure}
 
 The annual meetings of the Association of Physical Anthropologists support and encourage student participation,
 and in turn opportunities available to students are growing every year. For students in physical anthropology, 
