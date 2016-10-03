@@ -65,8 +65,8 @@
 \RequirePackage[T1,small,euler-digits]{eulervm}
 \renewcommand*\ttdefault{lmvtt}
 
-
-
+\RequirePackage{url}
+\urlstyle{same}
 \RequirePackage[french, ngerman, spanish, italian, main=english]{babel}
 %\ifxetex\else
 \RequirePackage[%
