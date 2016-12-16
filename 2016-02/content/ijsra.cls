@@ -156,7 +156,16 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	textfont=it,
 	up,
 	]{caption} % Custom captions under/above floats in tables or figures
-\RequirePackage{subcaption}
+\RequirePackage[
+    list=true,
+    listformat=default,
+]{subcaption}
+\captionsetup[subfigure]{%
+    %	listformat=subabb,
+    subrefformat=simple,
+    font={footnotesize,sf}, 
+    labelformat=simple,% default (a) |	empty	| simple	a | brace	 a) |parens (a)
+}
 \RequirePackage{setspace}			% for line spacing, e.g. \onehalfspacing
 \RequirePackage{booktabs} % Horizontal rules in tables
 \RequirePackage[super]{nth}
@@ -268,6 +277,9 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \newcommand{\IJSRAsection}[1]{%
 	\marginnote{#1}\pdfbookmark[1]{#1}{#1}%
 }
+\newcommand{\IJSRAsubsection}[1]{%
+	\marginnote{#1}\pdfbookmark[2]{#1}{#1}%
+}
 
 \newcommand\authorone{}
 \newcommand\authortwo{}
@@ -354,7 +366,8 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \newcommand{\IJSRAchapter}[1]{%
 	\setcounter{chapter}{1}
 	\chapter*{#1}
-	\addcontentsline{toc}{chapter}{\shortauthor\protect\newline \maintitle}
+	\addcontentsline{toc}{chapter}{\shortauthor\protect\newline \maintitle}%
+	\pdfbookmark[0]{\shortauthor\ |\ \maintitle}{#1}
 	}
 	
 \newcommand\email{{\normalfont\href{mailto:\cmail}{\cmail}}}
@@ -370,6 +383,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 
 \providecommand\IJSRAopening{%
 	\begin{refsection}
+	\bookmarksetup{depth=-1}
 	\setcounter{footnote}{0}
 	\setcounter{table}{0}
 	\setcounter{figure}{0}
@@ -546,8 +560,10 @@ Archaeology
 	bookmarksopen=true,		%
 	final=true	% = true, only with web-Documents!!
 }
+\RequirePackage{bookmark}
 
 \RequirePackage{cleveref}
 
-
-\endinput
+%\AtBeginDocument\IJSRAopening
+%\AtEndDocument\IJSRAclosing
+%\endinput
