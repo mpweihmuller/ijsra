@@ -14,9 +14,17 @@
 \undef\bioone%{\emph{Master's student?}}% needs to be added
 \def\affilone{Classical Archaeology, University of Oxford}
 
-\begin{filecontents}{\IJSRAidentifier.bib}
-%.bib needs revision
+\iffalse
+Appian, White, H., 2014: Roman History. Cambridge: Harvard University Press.
+Aristotle, Peck, A.L., 2014: History of Animals. Cambridge: Harvard University Press.
+Arrian, Hammond, M., Atkison, J., 2013: Alexander the Great: The Anabasis and the Indica. Oxford: Oxford University Press.
+Justin, Yardley, J.C., Develin, R., 1994: Epitome of the Philippic history of Pompeius Trogus. Atlanta: Scholars Press.
+Plutarch, Babbitt, F.C., 1957: Moralia, in fifteen volumes, with an English translation by Frank Cole Babbitt. Cambridge: Harvard University Press 
+Polybius; Waterfield, R., McGing, B., 2010: The Histories. Oxford: Oxford University Press. 
+Strabo, Jones, H.L., Sterrett, J.R.S., 2014:  Geography. Cambridge: Harvard University Press.
 
+\fi
+\begin{filecontents}{\IJSRAidentifier.bib}
 @incollection{Abdullaev1995,
     author = {Abdullaev, K.},
     title = {Armour of ancient Bactria},
@@ -39,7 +47,14 @@
     year = {2013},
     }
 
-Alonso Troncoso, V., 2014: The Zoology of Kingship: From Alexander the Great to the Epigoni (336 – c. 250 BC). ANABASIS 5, 53–75.
+@article{Troncoso2014,
+author = {Alonso Troncoso, V.},
+year  = {2014},
+title  = {The Zoology of Kingship: From Alexander the Great to the Epigoni (336 – c. 250 BC)},
+journaltitle = {ANABASIS},
+volume = {5}, 
+pages = {53–75},
+}
 
 @book{Alter2004,
 	author = {Alter, S.},
@@ -49,11 +64,6 @@ Alonso Troncoso, V., 2014: The Zoology of Kingship: From Alexander the Great to 
 	year = {2004},
 	}
 
-Appian, White, H., 2014: Roman History. Cambridge: Harvard University Press.
-
-Aristotle, Peck, A.L., 2014: History of Animals. Cambridge: Harvard University Press.
-
-Arrian, Hammond, M., Atkison, J., 2013: Alexander the Great: The Anabasis and the Indica. Oxford: Oxford University Press.
 
 @article{Bannikov2013,
    author = {Bannikov, A.V. and Popov, A.},
@@ -72,7 +82,14 @@ Arrian, Hammond, M., Atkison, J., 2013: Alexander the Great: The Anabasis and th
     year = {1995},
     }
 
-Bopearachchi, O., 1990: Graeco-Bactrian Issues of Later Indo-Greek Kings. The Numismatic Chronicle 150, 79–103.
+@article{Bopearachchi1990,
+author = {Bopearachchi, O.}, 
+year = {1990},
+title = {Graeco-Bactrian Issues of Later Indo-Greek Kings},
+journaltitle = {The Numismatic Chronicle},
+volume  = {150}, 
+pages = {79–103}
+}
 
 @book{Bopearachchi1991,
     author = {Bopearachchi, O.},
@@ -112,7 +129,16 @@ Bopearachchi, O., 1990: Graeco-Bactrian Issues of Later Indo-Greek Kings. The Nu
     year = {2011},
     }
 
-Bopearachchi, O., 2015: The Evidence of the Overstrikes for the Reconstruction of the History of the Indo-Greeks, in Bopearachchi, O., (ed), From Bactria to Taprobane: Selected Works of Osmund Bopearachchi, Central Asian and Indian Numismatics, Volume 1, pp.1171–1200. New Delhi: Manohar Publishers \& Distributors. 
+@incollection{Bopearachchi2015,
+author = {Bopearachchi, O.},
+year = {2015},
+title = {The Evidence of the Overstrikes for the Reconstruction of the History of the Indo-Greeks},
+editor = {Bopearachchi, O.},
+booktitle = {From Bactria to Taprobane: Selected Works of Osmund Bopearachchi, Central Asian and Indian Numismatics}, 
+volume = {1},
+pages = {1171–1200},
+location = {New Delhi},
+publisher = {Manohar Publishers \& Distributors},}
 
 @article{Bukharin2004,
    author = {Bukharin, M.},
@@ -123,8 +149,13 @@ Bopearachchi, O., 2015: The Evidence of the Overstrikes for the Reconstruction o
    year ={2004},    
     }
 
-Campbell, J., and Zimmer, H. (eds), 2015: Myths and Symbols in Indian Art and Civilization. Princeton: Princeton University Press.
-(Is: Campbell2015 in-text)
+@book{Campbell2015,
+author = {Campbell, J. and Zimmer, H.},
+year = {2015},
+title = {Myths and Symbols in Indian Art and Civilization},
+publisher = {Princeton University Press},
+location = {Princeton},
+}
 
 @online{Coin,
    title = {Coin India: The Virtual Museum of Indian Coins},
@@ -152,7 +183,12 @@ Campbell, J., and Zimmer, H. (eds), 2015: Myths and Symbols in Indian Art and Ci
     year = {2007},
     }
 
-Dahmen, K., 2007: The legend of Alexander the Great on Greek and Roman Coins. New York: Routledge.
+@book{Dahmen2007,
+author = {Dahmen, K.},
+year = {2007},
+title = {The legend of Alexander the Great on Greek and Roman Coins},
+publisher = {Routledge},
+location = {New York}}
 
 @book{Dhammika2005,
     author = {Dhammika, S.},
@@ -171,9 +207,24 @@ Dahmen, K., 2007: The legend of Alexander the Great on Greek and Roman Coins. Ne
    year ={1981},    
     }
 
-Erickson, K., 2013: Seleucus I, Zeus and Alexander, in Melville, C., and Mitchell, L., (eds), Every Inch a King: Comparative Studies on Kings and Kingship in the Ancient and Medieval Worlds, pp.109–128. Boston: Brill.
+@incollection{Erickson2013,
+author = {Erickson, K.}, 
+year = {2013},
+title = {Seleucus I, Zeus and Alexander},
+editor = {Melville, C. and Mitchell, L.},
+booktitle = {Every Inch a King: Comparative Studies on Kings and Kingship in the Ancient and Medieval Worlds},
+pages = {109–128},
+location = {Boston},
+publisher = {Brill}}
 
-Fussman, G., 1993: Ménandre l'Indo-grec ou Paul Demiéville revisité.  Journal Asiatique 281 (1-2), 61–137. 
+@article{Fussman1993,
+author = {Fussman, G.},
+year = {1993},
+title = {Ménandre l'Indo-grec ou Paul Demiéville revisité},
+journaltitle = {Journal Asiatique},
+volume = {281},
+issue = {1-2},
+pages = {61–137}}
 
 @book{Gonda1966,
     author = {Gonda, J.},
@@ -210,7 +261,13 @@ Fussman, G., 1993: Ménandre l'Indo-grec ou Paul Demiéville revisité.  Journal
     year = {2011},
     }
 
-Holt, F.L, 1981: The Euthydemid Coinage of Bactria: Further Hoard Evidence from Ai Khanoum. Revue Numismatique 23, 7–44.
+@article{Holt1981,
+author = {Holt, F. L.},
+year = {1981},
+booktitle = {The Euthydemid Coinage of Bactria: Further Hoard Evidence from Ai Khanoum},
+journaltitle = {Revue Numismatique},
+volume = {23},
+pages = {7–44}}
 
 @book{Holt1999,
     author = {Holt, F. L.},
@@ -252,9 +309,19 @@ Holt, F.L, 1981: The Euthydemid Coinage of Bactria: Further Hoard Evidence from 
     year = {1995},
     }
 
-Hudson, D.D., 2008: The Body of God: An Emperor's Palace for Krishna in Eighth-Century Kanchipuram. Oxford: Oxford University Press.
+@book{Hudson2008,
+author = {Hudson, D. D.},
+year = {2008},
+title = {The Body of God: An Emperor's Palace for Krishna in Eighth-Century Kanchipuram},
+location = {Oxford},
+publisher = {Oxford University Press}}
 
-Huntingford, G.W.B, 1980: The Periplus of the Erythraean Sea, by an Unknown Author. London: Hakluyt Society.
+@book{Huntingford1980,
+author = {Huntingford, G. W. B.},
+year = {1980},
+title = {The Periplus of the Erythraean Sea, by an Unknown Author},
+location = {London},
+publisher = {Hakluyt Society}}
 
 @article{Iossif2010,
    author = {Iossif, P. P. and Lorber, C.},
@@ -265,7 +332,7 @@ Huntingford, G.W.B, 1980: The Periplus of the Erythraean Sea, by an Unknown Auth
    year ={2010},    
     }
 
-Justin, Yardley, J.C., Develin, R., 1994: Epitome of the Philippic history of Pompeius Trogus. Atlanta: Scholars Press.
+
 
 @article{Kalita1997,
    author = {Kalita, S.},
@@ -296,7 +363,14 @@ Justin, Yardley, J.C., Develin, R., 1994: Epitome of the Philippic history of Po
     year = {1999},
     }
 
-Libanius, Downey, G., 1959: Libanius' Oration in Praise of Antioch (Oration XI). Proceedings of the American Philosophical Society 103 (5), 652–686. 
+@article{Libanius,
+editor = {Downey, G.}, 
+year = {1959},
+title = {Libanius' Oration in Praise of Antioch (Oration XI)},
+journaltitle = {Proceedings of the American Philosophical Society},
+volume = {103},
+issue = {5}, 
+pages = {652–686}}
 
 @incollection{MacDowall2007b,
     author = {MacDowall, D. W.},
@@ -320,7 +394,15 @@ Libanius, Downey, G., 1959: Libanius' Oration in Praise of Antioch (Oration XI).
     year = {2007},
     }
 
-MacDowall, D.W., 2007c: Numismatic Evidence for a Chronological Framework for Pre-Kaniskan Art, from Kalchayan to Gandhāra, in D. Srinivasan (ed.), On the cusp of an era: art in the pre-Kusana world, pp.233–266. Leiden: Brill.
+@incollection{MacDowall2007c,
+author={MacDowall, D. W.},
+year = {2007},
+title = {Numismatic Evidence for a Chronological Framework for Pre-Kaniskan Art, from Kalchayan to Gandhāra},
+editor = {D. Srinivasan}, 
+booktitle = {On the cusp of an era: art in the pre-Kusana world},
+pages = {233–266},
+location = {Leiden},
+publisher = {Brill}}
 
 @book{Mairs2014,
     author = {Mairs, R.},
@@ -341,7 +423,12 @@ MacDowall, D.W., 2007c: Numismatic Evidence for a Chronological Framework for Pr
     year = {2015},
     }
 
-Marcinkiewicz-Joseph, F.A., 2016: Demetrius I of Bactria: An analysis of Hellenistic royal power through numismatic evidence. Unpublished PhD thesis, Department of History, University of Houston, Houston.
+@phdthesis{Marcinkiewicz-Joseph2016,
+author = {Marcinkiewicz-Joseph, F. A.}, 
+year = {2016},
+title = {Demetrius I of Bactria: An analysis of Hellenistic royal power through numismatic evidence},
+institution = {Department of History, University of Houston, Houston},
+pubstatus = {unpublished},}
 
 @incollection{Maritz2004,
     author = {Maritz, J.},
@@ -384,15 +471,29 @@ Marcinkiewicz-Joseph, F.A., 2016: Demetrius I of Bactria: An analysis of Helleni
     year = {1993},
     }
 
-Plutarch, Babbitt, F.C., 1957: Moralia, in fifteen volumes, with an English translation by Frank Cole Babbitt. Cambridge: Harvard University Press 
+@incollection{Potter2003,
+author = {Potter, D.},
+year = {2003},
+title = {Hellenistic Religion},
+editor = {A. Erskine},
+booktitle = {A Companion to the Hellenistic Word}, 
+pages = {407–430},
+location = {Oxford},
+publisher = {Blackwell Publishing}}
 
-Polybius; Waterfield, R., McGing, B., 2010: The Histories. Oxford: Oxford University Press. 
+@book{Rothkrug2006,
+author = {Rothkrug, L.},
+year = {2006},
+title = {Death, Trust, and Society: Mapping Religion and Culture},
+location = {Berkeley},
+publisher = {North Atlantic Books}}
 
-Potter, D., 2003: Hellenistic Religion, in A. Erskine (ed), A Companion to the Hellenistic Word, pp.407–430. Oxford: Blackwell Publishing.
-
-Rothkrug, L., 2006: Death, Trust, and Society: Mapping Religion and Culture. Berkeley: North Atlantic Books.
-
-Sidky, H., 2000: The Greek Kingdom of Bactria: From Alexander to Eucratides the Great. Lanham: University Press of America.
+@book{Sidkey2000,
+author = {Sidky, H.},
+year = {2000},
+title= {The Greek Kingdom of Bactria: From Alexander to Eucratides the Great},
+location = {Lanham},
+publisher = {University Press of America}}
 
 @article{Smith1986,
    author = {Smith, R. R. R.},
@@ -419,7 +520,6 @@ Sidky, H., 2000: The Greek Kingdom of Bactria: From Alexander to Eucratides the 
     year = {1993},
     }
 
-Strabo, Jones, H.L., Sterrett, J.R.S., 2014:  Geography. Cambridge: Harvard University Press.
 
 @book{Strootman2014,
     author = {Strootman, R.},
@@ -535,7 +635,7 @@ the Indo-Greeks continued to rule until the turn of the first century\AD, when t
 Since literary sources are lacking, Graeco-Bactrian and Indo-Greek history has been reconstructed mainly from coins \parencite[96--97]{Thonemann2015}.
 This is possible because the symbols on the coins, such as images and inscriptions, publicised the identity, agenda, and achievements of the ruler who issued them.
 While ancient coinage had mainly an economic function, it was widely used for political purposes. This was a result of its wide circulation in everyday life as currency, allowing kings to communicate with their subjects at large \parencite[11,61]{Howgego1995}.
-As Aristotle writes, “everybody inspects his coins” \parencites[]{Arist. HA. 491a}[120]{Holt1999}.
+As Aristotle writes, “everybody inspects his coins” \parentext{Arist. HA. 491a;\cite[120]{Holt1999}}.
 The iconography of coins was therefore a politically significant choice, and in the words of one scholar, the “most deliberate of all symbols of public identity” \parencite[66]{Thonemann2015}.
 
 This paper studies the representation of royal power through elephants, the most common animal on the coins, and widely represented in ancient visual culture as a symbol of power and divinity \parencites[383--384]{Bopearachchi1991}[11--19]{Gupta1983}[156]{Iossif2010}.
@@ -565,8 +665,8 @@ Principally, there is the suggestion that the elephant headdress coins indicate 
 Another is that if not alluding to conquests already made, the elephant headdress represented Demetrius as a ‘second Alexander’, and thus heralding an intention to conquer India in the future \parencites[190]{Sidky2000}[132]{Tarn1951}.
 This paper argues against such proposals, instead suggesting that Demetrius’ elephant headdress represented a symbol of royal power accommodating various cultural groups.
 
-First, the authority for Demetrius’ Indian campaigns is Strabo, who describes the conqueror as ‘\emph{Δημήτριος ὁ Εὐθυδήμου υἱὸς τοῦ Βακτρίων βασιλέως}’,
-‘Demetrius, son of Euthydemus, the king of the Bactrians’ \parencite[]{Strab. Geo. 11.11.1}.
+First, the authority for Demetrius’ Indian campaigns is Strabo, who describes the conqueror as \enquote*{Δημήτριος ὁ Εὐθυδήμου υἱὸς τοῦ Βακτρίων βασιλέως},
+‘Demetrius, son of Euthydemus, the king of the Bactrians’ (Strab. Geo. 11.11.1).
 Some read the Greek to mean that Strabo was withholding the royal title from Demetrius, and that Euthydemus was king at this time \parencites[157]{Holt2012}[99]{MacDowall2007c}.
 If so, Demetrius’ introduction of the elephant headdress coins might have alluded to his previous Indian conquests under Euthydemus.
 However, Strabo’s syntax is structured around Demetrius, and the sentence should read that the latter was both Euthydemus’ son and king of Bactria. The traditional reading is indeed that Demetrius was the king mentioned in the text \parencite[144]{Tarn1951}.
@@ -574,13 +674,13 @@ Consequently, Strabo does not support the placing of Demetrius’ Indian campaig
 
 Second, it has been argued that a Greek inscription from Kuliab, Tajikistan, hailing Demetrius as \emph{Kallinikos}, ‘the Glorious Victor’, alludes to his Indian conquests under Euthydemus, the reigning king whom the inscription honours as \emph{Basileus Megiston}, ‘the Greatest of all Kings” \parencites[110]{Hollis2011}[125]{Holt2012}[104--105]{MacDowall2007a}[99]{MacDowall2007c}.
 However, the inscription could have been alluding to victories claimed against Antiochus III, the Seleucid king who had unsuccessfully invaded Bactria during the reign of Euthydemus in 208-206\BC \parencite[48]{Bopearachchi2007}.
-Polybius’ account of the war indicates that Demetrius was a young man, and thus old enough to have participated in some leading role \parencite[]{Pol. Hist. 11.34}.
+Polybius’ account of the war indicates that Demetrius was a young man, and thus old enough to have participated in some leading role (Pol. Hist. 11.34).
 In addition, the wording of Euthydemus’ epithet suggests that the inscription is describing his successful resistance to Antiochus, who had adopted the title of \emph{Basileus Megas}, ‘the Great King’ \parencites[111]{Hollis2011}[125]{Holt2012}.
 Thus, the Kuliab inscription does not necessarily suggest that Demetrius campaigned in India under Euthydemus.
 
 Finally, while the dates cannot be fixed with any certainty, Graeco-Bactrian expansion into India seems improbable during the reign of Euthydemus.
 Antiochus invaded India after the Bactrian war, evidently still ruled by independent kings such as Sophagasenus.
-Meanwhile, nomads had begun troubling the Graeco-Bactrians, and Polybius writes that Euthydemus warned Antiochus of the mutual threat from an imminent invasion \parencite[]{Pol. Hist.11.34}.
+Meanwhile, nomads had begun troubling the Graeco-Bactrians, and Polybius writes that Euthydemus warned Antiochus of the mutual threat from an imminent invasion (Pol. Hist.11.34).
 Significantly, the loss of Sogdiana – now mainly Tajikistan – coincided with the war with Antiochus, who seemed convinced to make peace with Euthydemus \parencites[38--39]{Holt1981}[135]{Holt1999}.
 Euthydemus was probably preoccupied with the nomads for the remainder of his reign, and upon becoming king, Demetrius, too, might have been troubled by them.
 Extensive fortification projects were initiated in the Sogdian frontiers of the kingdom beginning c. 200\BC, including new walls for the city of Ai Khanoum \parencites[38--39]{Holt1981}[135]{Holt1999}[60--61]{Lerner1999}[236]{Widemann2000}.
@@ -605,20 +705,20 @@ The ‘animalisation’ of the monarch could have resonated locally as well. Ani
 Thus, Bactrians might have thought that Demetrius was symbolically claiming the strength of the elephant for himself, and that may have been the intention.
 Self-aggrandisement of royal power through approximation to powerful animals was a recurring feature of Hellenistic kingship.
 For example, Appian writes that horns adorning statues and images of Seleucus commemorated his supposed feat in taming a wild bull with his bare hands,
-attesting to his bull-like strength \parencites[53]{Alonso2014}[]{App. Syr. 57}[120]{Erickson2013}.
+attesting to his bull-like strength \parentext{App. Syr. 57; \cites[53]{Alonso2014}[120]{Erickson2013}}.
 
 Since certain animals were associated with divinities, their attributes could be considered divine tokens as well, ‘divinising’ symbols.
-Thus, Libanius believed that Seleucus’ horns paid homage to the bull-goddess worshipped in his native Antioch, the Greek Io \parencites[121]{Erickson2013}[]{Lib. Or. 11.92}.
+Thus, Libanius believed that Seleucus’ horns paid homage to the bull-goddess worshipped in his native Antioch, the Greek Io \parentext{\cites[121]{Erickson2013}; Lib. Or. 11.92}.
 Significantly, elephant head crowns were a divinising symbol of the Indian sky god Indra, and worn by the south Indian Pallava kings consecrated as \emph{Narendra}, ‘the Indra of Man’ \parencite[66--70]{Hudson2008}.
-Although the Pallavas are relatively late, elephants were a traditional symbol of kingship in India, and Justin records the story of an elephant consecrating Chandragupta Maurya – the Indian ruler who fought Seleucus – as king \parencite[]{Justin. Ep. 15.4}.
+Although the Pallavas are relatively late, elephants were a traditional symbol of kingship in India, and Justin records the story of an elephant consecrating Chandragupta Maurya – the Indian ruler who fought Seleucus – as king (Justin. Ep. 15.4).
 Thus, Demetrius’ elephant headdress would not have necessarily given affront to his new subjects in India, who might have recognised royal power in the imagery \parencite[465]{Narain2003}.
-Suggestively, the Indo-Greek Demetrius III (c. 100\BC) later represented himself in an elephant headdress, deploying the thunderbolt – an attribute of Indra – as the reverse design \parencite[17--18]{Kalita1997}.  
+Suggestively, the Indo-Greek Demetrius III (c.\,100\BC) later represented himself in an elephant headdress, deploying the thunderbolt – an attribute of Indra – as the reverse design \parencite[17--18]{Kalita1997}.  
 
 Finally, it is notable that the reverse of Demetrius’ elephant headdress coin type depicts the coronation of Heracles, the demigod whom the Greeks tried to identify with local figures (see \cref{fig:Raza-Figure01}) \parencites[70--80]{Bukharin2004}[140]{Stanco2012}.
-These include the ‘Bactrian Heracles’ mentioned by Arrian and the ‘Indian Heracles’ cited by Megasthenes, with both being known since the time of Alexander the Great \parencites[]{Arr. Anab. 4.28}[]{Arr. Ind. 8.4}.
+These include the ‘Bactrian Heracles’ mentioned by Arrian and the ‘Indian Heracles’ cited by Megasthenes, with both being known since the time of Alexander the Great \parentext{Arr. Anab. 4.28; Arr. Ind. 8.4}.
 Thus, the coins draw attention to royal sovereignty, and perhaps in a cross-cultural context understood by local subjects.
 Plutarch writes that the Bactrians worshipped Greek gods,
-while Megasthenes adds that Indians worshipped Heracles \parencites[]{Arr. Ind. 8.4}[]{Plut. Mor. 328d}[420]{Potter2003}.
+while Megasthenes adds that Indians worshipped Heracles \parentext{Arr. Ind. 8.4; Plut. Mor. 328d; \cite[420]{Potter2003}}.
 It is argued that the material evidence supports the existence of a cult for Heracles in Bactria, and later, India as well \parencite[248]{Stanco2012}. 
 
 Even if the local worship of Greek gods remained superficial, Plutarch and Megasthenes thought otherwise, which is possible if they identified local gods with Greek ones (\emph{interpretatio graeca}).
@@ -745,7 +845,7 @@ Menander was an important ruler whose reputation has been preserved in both Indi
 The Buddhist text \emph{Milindapanha} portrays Menander as a wise Buddhist king who abdicated his throne to retire to an ascetic life \parencite[14--17]{Bopearachchi1993}.
 Classical authors provide a different perspective.
 Plutarch writes that Menander was celebrated for his rule, but that he died in camp, presumably while on a military campaign.
-Strabo adds that Menander was the most successful Indo-Greek general, comparing him to Alexander the Great \parencites[180--183]{Holt1999}[]{Strab. Geo. 11.11.1}[]{Plut. Mor. 821d}.
+Strabo adds that Menander was the most successful Indo-Greek general, comparing him to Alexander the Great \parentext{\cite[180--183]{Holt1999}; Strab. Geo. 11.11.1; Plut. Mor. 821d}.
 
 \begin{figure}[!htb] %Figure 8
 	%\begin{wrapfigure}{O}{0.5\textwidth} 
@@ -763,14 +863,14 @@ Menander is also associated with Eucratides I (c. 170-145\BC),
 the Graeco-Bactrian king, who, according to Justin,
 had weakened himself through the waging of incessant wars,
 but in more cynical translations was said to have “bled Bactria to death”
-\parencites[128]{Holt2005}[156]{Mairs2014}[]{Justin. Ep. 41.6}[270]{Tarn1951}.
+\parentext{\cites[128]{Holt2005}[156]{Mairs2014}[270]{Tarn1951}; Justin. Ep. 41.6}.
 In contrast, Menander’s representation as a philosopher king in the \emph{Milindapanha} has been summarily dismissed as Buddhist missionary ‘propaganda’, which overlooks his actual ‘warlike’ and ‘murderous’ tendencies \parencites[234]{Widemann2000}[15--16]{Widemann2007}.
 Accordingly, the elephant and goad on Menander’s coins have been associated with Greek imperialism, presumably representing the Greeks as the masters of elephants, and hence of Indians \parencite[87--89]{Fussman1993}.
 This paper argues that this was not necessarily the case and that Menander’s coin type might have represented royal power in a cross-cultural context, accommodating both Greeks and Indians.
 
 While the \emph{Milindapanha} might betray a Buddhist bias, it is suggestive that Menander was considered an ideal figure to represent Indian ideas of kingship.
 Significantly, Plutarch writes that after Menander’s death, his subjects competed over his mortal remains and divided them as relics for internment in various monuments.
-This calls to mind the division of the Buddha’s ashes in \emph{stupas}, ‘tombs’ set up by his followers, and indicates that Menander might have been honoured by his Indian subjects in the Buddhist fashion \parencites[]{Plut. Mor. 821d}[145]{Rothkrug2006}.
+This calls to mind the division of the Buddha’s ashes in \emph{stupas}, ‘tombs’ set up by his followers, and indicates that Menander might have been honoured by his Indian subjects in the Buddhist fashion \parentext{Plut. Mor. 821d; \cite[145]{Rothkrug2006}}.
 Regardless of whether or not Menander was a convert, it seems that Buddhists remembered him with esteem, and honoured him as one of their own \parencite[644]{Mairs2015}.
 Thus, Menander might have conceivably reached out to his Indian subjects. The coin type with the elephant and the goad might have been one such instance.
 
@@ -806,7 +906,7 @@ For the Greeks, a goad represented power over elephants and symbolically alluded
 Alexander had evidently aggrandised his Indian triumphs on the so-called ‘elephant medallion’ coins by representing his defeat of the Indian ruler, Porus, a giant figure controlling an elephant with a goad \parencites[151--152]{Holt2003}[204--205]{Stewart1991}.
 While Menander did not represent himself as an elephant tamer per se, the goad might have nevertheless represented royal military power to Greeks, as evident in the king’s possession of powerful war elephants. 
 
-Moreover, the Greek author of the \emph{Periplus Maris Erythrae} reports seeing the coins of Menander in the Indian port of Barygaza (Baruch), and takes special note of the iconography \parencite[]{PME. 47}.
+Moreover, the Greek author of the \emph{Periplus Maris Erythrae} reports seeing the coins of Menander in the Indian port of Barygaza (Baruch), and takes special note of the iconography \parentext{PME. 47}.
 Conceivably, the author would have interpreted the coins in a Greek context. In contrast, an Indian might have equated the elephant and the goad with local traditions.
 The point is that the coin type would have resonated in both a Greek and an Indian context.
 Consequently, it would be unjustified to dismiss Menander’s reputation as an Indian philosopher king, and focus on the Hellenistic warrior king found in the classical authors.
@@ -819,8 +919,7 @@ However, a ‘Hellenocentric’ approach has meant that the cross-cultural signi
 When studying the coins, scholars should take note to consider not only the Greek context, but also the possible local significance of the iconography.
 Through consideration of local contexts, scholars will be able to gain a better understanding of how Hellenistic kings established and maintained their power over diverse, multi-ethnic populations.
 
-* * *%temp break
-
+\IJSRAseparator
 I \IJSRAsection{Acknowledgements} would like to thank the IJSRA editors and Candida Crewe for their assistance and critical comments.
 \IJSRAclosing%<<<< DO NOT change this line
 \end{document}
