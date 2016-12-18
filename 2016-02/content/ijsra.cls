@@ -266,7 +266,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \patchcmd{\Gin@setfile}{\ttfamily\expandafter\strip@prefix\meaning\@tempa}{\@missingcopyright}{}{}
 \def\@missingcopyright{%
 	\footnotesize\sffamily
-		Figure omitted due to faster compiling.
+		Figure omitted due to missing copyright.
 		% comment the following line if you don't want to show the file name
 %\expandafter\strip@prefix\meaning\@tempa 
 	}
