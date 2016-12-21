@@ -3,50 +3,68 @@
   year=2016,
   volume=2,
   number=2,
-%  titlefigure=Forssman-Figure09,%must be in the folder "figures" (ratio: 1000x400 pt)
+  titlefigure=forssman-titlepage,
+	%Fyfe-Figure03_titlefigure,%must be in the folder "figures" (ratio: 1000x400 pt)
   ]{ijsra}
 
-\addbibresource{forssman.bib}
 
+\addbibresource{ijsra_2016_02.bib}
 
+\graphicspath{{content/figures/}}
 %\includeonly{%
 %%content/ijsra_editorial,
 %%%------------------------------
 %content/forssman,
 %}
-
-
-
-
 %%%%%%%%%%%%%%%%%%%
 %%%      document itself      %%% 
 %%%%%%%%%%%%%%%%%%%
 \begin{document}
-%\include{content/colophon}
-%\include{content/editorial}
+\include{preamble/colophon}
+\include{preamble/editorial}
 %\include{preamble/_toc}
+{\tableofcontents
+\thispagestyle{empty}}
 %\frontmatter
 \renewcommand{\thepage}{\roman{page}}%
 \setcounter{page}{1}
-%\include{preamble/ijsra_editorial}
-%\include{preamble/ijsra_presentation}
+\include{preamble/issue-presentation}
+
 
 %------------------------------
 %\mainmatter
 \renewcommand{\thepage}{\arabic{page}}%
-%\include{preamble/_part_articles}
-%\include{content/forssman}
-
+%------------------------------
+\include{preamble/_part_interviews}
+\include{content/16Stringer}
 
 
 %------------------------------
-%\include{preamble/_part_reviews}
-
-
+\include{preamble/_part_articles}
+%------------------------------
+\include{content/fyfe}
+\include{content/forssman}
+\include{content/17Pereda}
+\include{content/11Raza}
+\include{content/Rownd}
+\include{content/Davis}
 
 
 %------------------------------
-%\include{preamble/_part_interviews}
+\include{preamble/_part_litreviews}
+\include{content/Gyngell}
+
+
+\include{preamble/_part_reviews}
+\include{content/Ward}%AAPA
+\include{content/Resena}%CIJIMA
+\include{content/7IARSS}%IARSS
+\include{content/Hawkins}%WAC-8
+\include{content/18Kerr}%SMA Student Colloquium
+\include{content/19Kenny}%Irish Quaternary Association
+
+\include{preamble/_part_bookreviews}
+\include{content/Rivera}
 
 
 
