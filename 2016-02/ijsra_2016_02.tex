@@ -22,8 +22,7 @@
 \begin{document}
 \include{preamble/colophon}
 \include{preamble/editorial}
-%\include{preamble/_toc}
-{\def\ppages{}\tableofcontents}
+\include{preamble/_toc}
 %\frontmatter
 \renewcommand{\thepage}{\roman{page}}%
 \setcounter{page}{1}
@@ -32,6 +31,7 @@
 
 %------------------------------
 %\mainmatter
+\setcounter{page}{1}
 \renewcommand{\thepage}{\arabic{page}}%
 %------------------------------
 \include{preamble/_part_interviews}

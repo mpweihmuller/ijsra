@@ -276,7 +276,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \def\keywordname{Keywords}
 
 \newcommand{\IJSRAsection}[1]{%
-	\marginnote{#1}\pdfbookmark[1]{#1}{#1\IJSRAidentifier}%
+	\marginnote{#1}\pdfbookmark[1]{#1}{#1	\IJSRAidentifier	}%
 }
 \newcommand{\IJSRAsubsection}[1]{%
 	\marginnote{#1}\pdfbookmark[2]{#1}{#1\IJSRAidentifier}%
@@ -499,6 +499,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	marginparwidth=0cm,			% 	- width for side note
 }
 \thispagestyle{empty}
+	\pdfbookmark[0]{Cover}{Cover}
 \pagecolor{mybluetitle}
 \Put(-11,-450){\IJSRAtitlefigure}\\
 \Put(-11,-450){\color{white}\rule{1.5\linewidth}{15pt}}

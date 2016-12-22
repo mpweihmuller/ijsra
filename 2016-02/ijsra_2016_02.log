@@ -1,6 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  22 DEC 2016 01:53
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  22 DEC 2016 07:48
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **ijsra_2016_02.tex
 (./ijsra_2016_02.tex
@@ -2560,7 +2561,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 582.
+(scrhack)             need that hack, on input line 583.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
@@ -2670,12 +2671,12 @@ tly
 )
 \Hy@SectionHShift=\skip105
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 594.
-Package hyperref Info: Option `breaklinks' set `true' on input line 594.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 594.
+Package hyperref Info: Option `colorlinks' set `true' on input line 595.
+Package hyperref Info: Option `breaklinks' set `true' on input line 595.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 595.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 594.
-Package hyperref Info: Option `final' set `true' on input line 594.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 595.
+Package hyperref Info: Option `final' set `true' on input line 595.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -2735,17 +2736,18 @@ Package biblatex Info: ... file 'french.lbx' found.
 File: french.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 (./ijsra_2016_02.aux (./preamble/colophon.aux) (./preamble/editorial.aux)
-(./preamble/issue-presentation.aux) (./preamble/_part_interviews.aux)
-(./content/16Stringer.aux) (./preamble/_part_articles.aux) (./content/fyfe.aux)
-(./content/forssman.aux) (./content/17Pereda.aux) (./content/11Raza.aux)
-(./content/Rownd.aux) (./content/Davis.aux) (./preamble/_part_litreviews.aux)
-(./content/Gyngell.aux) (./preamble/_part_reviews.aux) (./content/Ward.aux)
-(./content/Resena.aux
+(./preamble/_toc.aux) (./preamble/issue-presentation.aux)
+(./preamble/_part_interviews.aux) (./content/16Stringer.aux)
+(./preamble/_part_articles.aux) (./content/fyfe.aux) (./content/forssman.aux)
+(./content/17Pereda.aux) (./content/11Raza.aux) (./content/Rownd.aux)
+(./content/Davis.aux) (./preamble/_part_litreviews.aux) (./content/Gyngell.aux)
+(./preamble/_part_reviews.aux) (./content/Ward.aux) (./content/Resena.aux
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
-) (./content/7IARSS.aux) (./content/Hawkins.aux)
-(./content/18Kerr.aux) (./content/19Kenny.aux)
-(./preamble/_part_bookreviews.aux) (./content/Rivera.aux))
+)
+(./content/7IARSS.aux) (./content/Hawkins.aux) (./content/18Kerr.aux)
+(./content/19Kenny.aux) (./preamble/_part_bookreviews.aux)
+(./content/Rivera.aux))
 \openout1 = `ijsra_2016_02.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -3085,11 +3087,16 @@ Package microtype Info: ... : First loading protrusion list `default'.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-File: figures/forssman-titlepage.jpg Graphic file (type QTm)
- <use  "figures/forssman-titlepage.jpg" >
-File: ijsra_logo.png Graphic file (type QTm)
 
-<use  "ijsra_logo.png" >
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
+File: figures/forssman-titlepage.jpg Graphic file (type QTm)
+
+<use  "figures/forssman-titlepage.jpg" >
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 4--4
 
  []
@@ -3110,10 +3117,6 @@ Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/15' on input l
 ine 4.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
-)
 [1
 
 
@@ -3362,17 +3365,20 @@ Package microtype Info: ... : First loading protrusion list `default'.
 
 
 ]) [4]
+\openout2 = `preamble/_toc.aux'.
+
+ (./preamble/_toc.tex
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 17.28pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/17.28' on inpu
-t line 26.
+t line 1.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Disabling protrusion on input line 26.
-Package tocbasic Info: character protrusion at toc deactivated on input line 26
-.
+Package microtype Info: Disabling protrusion on input line 1.
+Package tocbasic Info: character protrusion at toc deactivated on input line 1.
+
  (./ijsra_2016_02.toc
 Package microtype Info: *** Changing to language context `english'
 (microtype)              on input line 3.
@@ -3412,12 +3418,12 @@ udy of Chance Games
 
 
 Overfull \hbox (1.53148pt too wide) detected at line 14
- [][][]\EU1/LinBiolinum(0)/bx/n/12 121[][]
+ [][][]\EU1/LinBiolinum(0)/bx/n/12 123[][]
  []
 
 
 Overfull \hbox (1.53148pt too wide) detected at line 16
- [][][]\EU1/LinBiolinum(0)/bx/n/12 133[][]
+ [][][]\EU1/LinBiolinum(0)/bx/n/12 137[][]
  []
 
 LaTeX Info: Redefining \. on input line 18.
@@ -3452,6 +3458,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 
+
 ]
 Overfull \hbox (0.85968pt too wide) in paragraph at lines 19--19
  \EU1/LinBiolinum(0)/bx/n/10.95 Reseña III Congreso Internacional de Jóvenes In
@@ -3468,14 +3475,14 @@ ld Archaeology Congress
 
 
 Overfull \hbox (1.53148pt too wide) detected at line 25
- [][][]\EU1/LinBiolinum(0)/bx/n/12 175[][]
+ [][][]\EU1/LinBiolinum(0)/bx/n/12 179[][]
  []
 
 )
 \tf@toc=\write6
 \openout6 = `ijsra_2016_02.toc'.
 
- [1]
+) [6]
 \openout2 = `preamble/issue-presentation.aux'.
 
  (./preamble/issue-presentation.tex
@@ -3483,11 +3490,6 @@ Overfull \hbox (1.53148pt too wide) detected at line 25
 \blx@sectionciteorder@1=\count439
 Package biblatex Info: Reference section=1 on input line 22.
 Package biblatex Info: Setting label 'refsection:1' on input line 22.
- [2
-
-
-
-]
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;+smcp;+smcp;" at 14.4pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -3625,15 +3627,22 @@ put line 24.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [3]
+ <use  "ijsra_logo.png" > [1
+
+
+
+
+]
 Overfull \hbox (0.11966pt too wide) in paragraph at lines 31--32
 \EU1/LinLibertine(0)/m/n/10.95 towards fundamental dimensions of human experien
 ce are plural and changing through
  []
 
-[4]
-Package marginnote Info: Margin note 10.1 is on absolute page 10
+[2]
+Package marginnote Info: Margin note 9.1 is on absolute page 9
 (marginnote)              on input line 40.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 40.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -3652,17 +3661,13 @@ Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10' on input li
 ne 40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 40.
- [5]
-Package marginnote Info: Margin note 11.1 is on absolute page 11
+ [3]
+Package marginnote Info: Margin note 10.1 is on absolute page 10
 (marginnote)              on input line 46.
 Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoterightadjust ignored on input line 46.
-Package marginnote Info: Margin note 11.2 is on absolute page 11
+(marginnote)             \marginnoteleftadjust ignored on input line 46.
+Package marginnote Info: Margin note 10.2 is on absolute page 10
 (marginnote)              on input line 49.
-Package marginnote Info: xpos seems to be 325.83014pt,
-(marginnote)             \marginnoterightadjust ignored on input line 49.
 Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
 text;mapping=tex-text;+tnum;+onum;" at 10.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -3675,25 +3680,22 @@ Package microtype Info: ... : First loading protrusion list `default'.
 
 LaTeX Warning: Reference `' on page i undefined on input line 49.
 
-[6]
-Package marginnote Info: Margin note 12.1 is on absolute page 12
+Package marginnote Info: xpos seems to be 325.83014pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 49.
+[4]
+Package marginnote Info: Margin note 11.1 is on absolute page 11
 (marginnote)              on input line 63.
 Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 63.
+(marginnote)             \marginnoterightadjust ignored on input line 63.
 
 
 LaTeX Warning: Empty bibliography on input line 68.
 
 Package biblatex Info: Reference section=0 on input line 68.
-) [7]
+) [5]
 \openout2 = `preamble/_part_interviews.aux'.
 
- (./preamble/_part_interviews.tex [8
-
-
-
-
-]
+ (./preamble/_part_interviews.tex
 part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
@@ -3714,7 +3716,12 @@ Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/24.88' on inp
 ut line 1.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-[9] [10])
+[1
+
+
+
+
+] [2])
 \openout2 = `content/16Stringer.aux'.
 
  (./content/16Stringer.tex
@@ -3735,7 +3742,7 @@ Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 File: ijsra_logo.png Graphic file (type QTm)
  <use  "ijsra_logo.png" >
-[11
+[3
 
 
 
@@ -3745,18 +3752,18 @@ Overfull \hbox (10.39801pt too wide) in paragraph at lines 50--51
 []\EU1/LinLibertine(0)/m/it/10.95 When and why
  []
 
-[12]
+[4]
 Overfull \hbox (5.21053pt too wide) in paragraph at lines 128--129
 []\EU1/LinLibertine(0)/m/it/10.95 With ancient DNA techniques, researchers have
  found both hybridization behaviour
  []
 
-[13]
+[5]
 
 LaTeX Warning: Empty bibliography on input line 188.
 
 Package biblatex Info: Reference section=0 on input line 188.
-) [14]
+) [6]
 \openout2 = `preamble/_part_articles.aux'.
 
  (./preamble/_part_articles.tex
@@ -3764,12 +3771,12 @@ part II.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
-[15
+[7
 
 
 
 
-] [16])
+] [8])
 \openout2 = `content/fyfe.aux'.
 
  (./content/fyfe.tex
@@ -3784,123 +3791,107 @@ LaTeX Warning: Tab has been converted to Blank Space.
 
 \blx@maxsegment@3=\count442
 \blx@sectionciteorder@3=\count443
-Package biblatex Info: Reference section=3 on input line 380.
-Package biblatex Info: Setting label 'refsection:3' on input line 380.
+Package biblatex Info: Reference section=3 on input line 382.
+Package biblatex Info: Setting label 'refsection:3' on input line 382.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 380.
+(Font)              scaled to size 9.0pt on input line 382.
 Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_RI.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/9' on input li
-ne 380.
+ne 382.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: Margin note 22.1 is on absolute page 22
-(marginnote)              on input line 380.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 380.
-Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RI.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/10' on input l
-ine 380.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: xpos seems to be 134.14201pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 380.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 380.
+(Font)              scaled to size 10.95pt on input line 382.
 Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_RI.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/10.95' on inpu
-t line 380.
+t line 382.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [17
+<use  "ijsra_logo.png" > [9
 
 
 
 
-] [18]
-Package marginnote Info: Suggest that margin note 24.1 will be on
-(marginnote)             absolute page 24.
-(marginnote)             This may be wrong on input line 404.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 404.
- [19] [20]
-Package marginnote Info: Margin note 26.1 is on absolute page 26
-(marginnote)              on input line 463.
+
+] [10]
+Package marginnote Info: Margin note 22.1 is on absolute page 22
+(marginnote)              on input line 406.
 Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 463.
- [21]
+(marginnote)             \marginnoteleftadjust ignored on input line 406.
+ [11] [12]
+Package marginnote Info: Margin note 24.1 is on absolute page 24
+(marginnote)              on input line 465.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 465.
+ [13]
 File: content/figures/Fyfe-Table01.jpg Graphic file (type QTm)
 
 <use  "content/figures/Fyfe-Table01.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 488.
+(caption)                 on input line 490.
 See the caption package documentation for explanation.
 
 File: content/figures/Fyfe-Table02.jpg Graphic file (type QTm)
 <use  "content/figures/Fyfe-Table02.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 499.
+(caption)                 on input line 501.
 See the caption package documentation for explanation.
 
-[22] [23]
-Package marginnote Info: Suggest that margin note 29.1 will be on
-(marginnote)             absolute page 29.
-(marginnote)             This may be wrong on input line 518.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 518.
+[14] [15]
+Package marginnote Info: Margin note 27.1 is on absolute page 27
+(marginnote)              on input line 520.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 520.
 File: content/figures/Fyfe-Figure01.jpg Graphic file (type QTm)
- <use  "content/figures/Fyfe-Figure01.jpg" > [24]
-Package marginnote Info: Margin note 30.1 is on absolute page 30
-(marginnote)              on input line 551.
+ <use  "content/figures/Fyfe-Figure01.jpg" > [16]
+Package marginnote Info: Margin note 28.1 is on absolute page 28
+(marginnote)              on input line 553.
 Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 551.
- [25]
+(marginnote)             \marginnoteleftadjust ignored on input line 553.
+ [17]
 File: content/figures/Fyfe-Figure02.jpg Graphic file (type QTm)
 
 <use  "content/figures/Fyfe-Figure02.jpg" >
-Package marginnote Info: Margin note 31.1 is on absolute page 31
-(marginnote)              on input line 575.
+Package marginnote Info: Margin note 29.1 is on absolute page 29
+(marginnote)              on input line 577.
 Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoterightadjust ignored on input line 575.
- [26]
+(marginnote)             \marginnoterightadjust ignored on input line 577.
+ [18]
 File: content/figures/Fyfe-Figure03.jpg Graphic file (type QTm)
 
-<use  "content/figures/Fyfe-Figure03.jpg" > [27]
-Package marginnote Info: Suggest that margin note 33.1 will be on
-(marginnote)             absolute page 33.
-(marginnote)             This may be wrong on input line 601.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 601.
- [28]
-Package marginnote Info: Margin note 34.1 is on absolute page 34
-(marginnote)              on input line 635.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 635.
- [29]
-Package marginnote Info: Margin note 35.1 is on absolute page 35
-(marginnote)              on input line 642.
+<use  "content/figures/Fyfe-Figure03.jpg" > [19]
+Package marginnote Info: Margin note 31.1 is on absolute page 31
+(marginnote)              on input line 603.
 Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoterightadjust ignored on input line 642.
- [30]
-Overfull \hbox (25.80472pt too wide) in paragraph at lines 654--654
+(marginnote)             \marginnoterightadjust ignored on input line 603.
+ [20]
+Package marginnote Info: Margin note 32.1 is on absolute page 32
+(marginnote)              on input line 637.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 637.
+ [21]
+Package marginnote Info: Margin note 33.1 is on absolute page 33
+(marginnote)              on input line 644.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 644.
+ [22]
+Overfull \hbox (25.80472pt too wide) in paragraph at lines 656--656
 [][]\EU1/LinLibertine(0)/m/n/10.95 Ireland, T. et al. 2013: Historical archaeol
 ogy and Australia‘s cultural heritage sector:emerging
  []
 
-[31]
-Package biblatex Info: Reference section=0 on input line 654.
-) [32]
+[23]
+Package biblatex Info: Reference section=0 on input line 656.
+) [24]
 \openout2 = `content/forssman.aux'.
 
  (./content/forssman.tex
@@ -3926,9 +3917,19 @@ Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/9' on input l
 ine 279.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: Margin note 38.1 is on absolute page 38
+Package marginnote Info: Margin note 36.1 is on absolute page 36
 (marginnote)              on input line 279.
-Package marginnote Info: xpos seems to be 170.98631pt,
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 279.
+Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RI.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/10' on input l
+ine 279.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package marginnote Info: xpos seems to be 142.17824pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 279.
 
 Overfull \hbox (3.21062pt too wide) in paragraph at lines 282--285
@@ -3937,7 +3938,7 @@ er Mapungubwe Landscape, which
  []
 
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [33
+<use  "ijsra_logo.png" > [25
 
 
 
@@ -3945,23 +3946,25 @@ File: ijsra_logo.png Graphic file (type QTm)
 ]
 File: content/figures/Forssman-Figure01.jpg Graphic file (type QTm)
  <use  "content/figures/Forssman-Figure01.jpg" >
-Package marginnote Info: Suggest that margin note 39.1 will be on
-(marginnote)             absolute page 39.
-(marginnote)             This may be wrong on input line 293.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 293.
+Package marginnote Info: Margin note 37.1 is on absolute page 37
+(marginnote)              on input line 293.
+Package marginnote Info: xpos seems to be 205.84677pt,
+(marginnote)             \marginnoterightadjust ignored on input line 293.
 
 Overfull \hbox (4.83548pt too wide) in paragraph at lines 293--295
 []\EU1/LinLibertine(0)/m/n/10.95 Mafunyane |[][][] is situated in a sandstone b
 elt that stretches along the Motloutse, Limpopo,
  []
 
-[34]
-Package marginnote Info: Suggest that margin note 40.1 will be on
-(marginnote)             absolute page 40.
-(marginnote)             This may be wrong on input line 302.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 302.
+[26]
+Package marginnote Info: Margin note 38.1 is on absolute page 38
+(marginnote)              on input line 303.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 303.
+Package marginnote Info: Margin note 38.2 is on absolute page 38
+(marginnote)              on input line 303.
+Package marginnote Info: xpos seems to be 170.98631pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 303.
 File: content/figures/Forssman-Figure02.jpg Graphic file (type QTm)
  <use  "content/figures/Forssman-Figure02.jpg" >
 File: content/figures/Forssman-Figure03.jpg Graphic file (type QTm)
@@ -3972,20 +3975,20 @@ File: content/figures/Forssman-Table01.jpg Graphic file (type QTm)
 <use  "content/figures/Forssman-Table01.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 337.
+(caption)                 on input line 338.
 See the caption package documentation for explanation.
 
-[35] [36]
-Package marginnote Info: Margin note 42.1 is on absolute page 42
-(marginnote)              on input line 343.
-Package marginnote Info: xpos seems to be 288.43628pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 343.
+[27] [28]
+Package marginnote Info: Margin note 40.1 is on absolute page 40
+(marginnote)              on input line 344.
+Package marginnote Info: xpos seems to be 126.68518pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 344.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 5.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/5' on input li
-ne 343.
+ne 344.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 File: content/figures/Forssman-Figure04.jpg Graphic file (type QTm)
@@ -3995,20 +3998,18 @@ File: content/figures/Forssman-Table02.jpg Graphic file (type QTm)
 <use  "content/figures/Forssman-Table02.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 360.
+(caption)                 on input line 361.
 See the caption package documentation for explanation.
 
-[37] [38]
-Package marginnote Info: Suggest that margin note 44.1 will be on
-(marginnote)             absolute page 44.
-(marginnote)             This may be wrong on input line 367.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 367.
-Package marginnote Info: Suggest that margin note 44.2 will be on
-(marginnote)             absolute page 44.
-(marginnote)             This may be wrong on input line 383.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 383.
+[29] [30]
+Package marginnote Info: Margin note 42.1 is on absolute page 42
+(marginnote)              on input line 368.
+Package marginnote Info: xpos seems to be 139.50482pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 368.
+Package marginnote Info: Margin note 42.2 is on absolute page 42
+(marginnote)              on input line 384.
+Package marginnote Info: xpos seems to be 288.43628pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 384.
 File: content/figures/Forssman-Figure05.jpg Graphic file (type QTm)
  <use  "content/figures/Forssman-Figure05.jpg" >
 File: content/figures/Forssman-Figure06.jpg Graphic file (type QTm)
@@ -4019,39 +4020,37 @@ File: content/figures/Forssman-Table03.jpg Graphic file (type QTm)
 <use  "content/figures/Forssman-Table03.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 410.
+(caption)                 on input line 411.
 See the caption package documentation for explanation.
 
 File: content/figures/Forssman-Table04.jpg Graphic file (type QTm)
 <use  "content/figures/Forssman-Table04.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 422.
+(caption)                 on input line 423.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Suggest that margin note 44.3 will be on
-(marginnote)             absolute page 44.
-(marginnote)             This may be wrong on input line 429.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 429.
-[39] [40] [41]
+Package marginnote Info: Margin note 42.3 is on absolute page 45
+(marginnote)              on input line 430.
+Package marginnote Info: xpos seems to be 263.95125pt,
+(marginnote)             \marginnoterightadjust ignored on input line 430.
+[31] [32] [33]
 File: content/figures/Forssman-Figure07.jpg Graphic file (type QTm)
  <use  "content/figures/Forssman-Figure07.jpg" >
 File: content/figures/Forssman-Figure08.jpg Graphic file (type QTm)
 
 <use  "content/figures/Forssman-Figure08.jpg" >
-Package marginnote Info: Suggest that margin note 47.1 will be on
-(marginnote)             absolute page 47.
-(marginnote)             This may be wrong on input line 451.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 451.
- [42]
+Package marginnote Info: Margin note 45.1 is on absolute page 45
+(marginnote)              on input line 452.
+Package marginnote Info: xpos seems to be 210.89096pt,
+(marginnote)             \marginnoterightadjust ignored on input line 452.
+ [34]
 File: content/figures/Forssman-Table05.jpg Graphic file (type QTm)
 
 <use  "content/figures/Forssman-Table05.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 468.
+(caption)                 on input line 469.
 See the caption package documentation for explanation.
 
 File: content/figures/Forssman-Figure09.jpg Graphic file (type QTm)
@@ -4059,12 +4058,11 @@ File: content/figures/Forssman-Figure09.jpg Graphic file (type QTm)
 File: content/figures/Forssman-Figure10.jpg Graphic file (type QTm)
 
 <use  "content/figures/Forssman-Figure10.jpg" >
-Package marginnote Info: Suggest that margin note 48.1 will be on
-(marginnote)             absolute page 48.
-(marginnote)             This may be wrong on input line 499.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 499.
- [43] [44] [45]
+Package marginnote Info: Margin note 46.1 is on absolute page 46
+(marginnote)              on input line 500.
+Package marginnote Info: xpos seems to be 170.1824pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 500.
+ [35] [36] [37]
 File: content/figures/Forssman-Figure11.jpg Graphic file (type QTm)
 
 <use  "content/figures/Forssman-Figure11.jpg" >
@@ -4076,56 +4074,53 @@ File: content/figures/Forssman-Table06.jpg Graphic file (type QTm)
 <use  "content/figures/Forssman-Table06.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 526.
+(caption)                 on input line 527.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Suggest that margin note 51.1 will be on
-(marginnote)             absolute page 51.
-(marginnote)             This may be wrong on input line 532.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 532.
+Package marginnote Info: Margin note 49.1 is on absolute page 49
+(marginnote)              on input line 533.
+Package marginnote Info: xpos seems to be 217.56581pt,
+(marginnote)             \marginnoterightadjust ignored on input line 533.
 
-Overfull \hbox (1.6485pt too wide) in paragraph at lines 532--540
+Overfull \hbox (1.6485pt too wide) in paragraph at lines 533--541
 \EU1/LinLibertine(0)/m/n/10.95 number of identifiable specimens (NISP) and dens
 ity of non-identified remains ([][]/
  []
 
-[46] [47]
+[38] [39]
 File: content/figures/Forssman-Table07.jpg Graphic file (type QTm)
  <use  "content/figures/Forssman-Table07.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 543.
+(caption)                 on input line 544.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Suggest that margin note 53.1 will be on
-(marginnote)             absolute page 53.
-(marginnote)             This may be wrong on input line 550.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 550.
+Package marginnote Info: Margin note 51.1 is on absolute page 51
+(marginnote)              on input line 551.
+Package marginnote Info: xpos seems to be 252.63014pt,
+(marginnote)             \marginnoterightadjust ignored on input line 551.
 File: content/figures/Forssman-Figure13.jpg Graphic file (type QTm)
-<use  "content/figures/Forssman-Figure13.jpg" > [48]
+<use  "content/figures/Forssman-Figure13.jpg" > [40]
 File: content/figures/Forssman-Figure14.jpg Graphic file (type QTm)
 
 <use  "content/figures/Forssman-Figure14.jpg" >
+Package marginnote Info: Margin note 52.1 is on absolute page 52
+(marginnote)              on input line 572.
+Package marginnote Info: xpos seems to be 221.65422pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 572.
+ [41] [42]
 Package marginnote Info: Margin note 54.1 is on absolute page 54
-(marginnote)              on input line 571.
+(marginnote)              on input line 589.
 Package marginnote Info: xpos seems to be 89.10886pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 571.
- [49] [50]
-Package marginnote Info: Suggest that margin note 56.1 will be on
-(marginnote)             absolute page 56.
-(marginnote)             This may be wrong on input line 588.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 588.
+(marginnote)             \marginnoteleftadjust ignored on input line 589.
 
 
 Package biblatex Warning: No driver for entry type 'bachelorthesis'.
-(biblatex)                Using fallback driver on input line 601.
+(biblatex)                Using fallback driver on input line 602.
 
-[51]
-Package biblatex Info: Reference section=0 on input line 601.
-) [52]
+[43]
+Package biblatex Info: Reference section=0 on input line 602.
+) [44]
 \openout2 = `content/17Pereda.aux'.
 
  (./content/17Pereda.tex
@@ -4143,91 +4138,86 @@ LaTeX Warning: Tab has been converted to Blank Space.
 Package biblatex Info: Reference section=5 on input line 306.
 Package biblatex Info: Setting label 'refsection:5' on input line 306.
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [53
+<use  "ijsra_logo.png" > [45
 
 
 
 
 ]
-Package marginnote Info: Margin note 59.1 is on absolute page 59
+Package marginnote Info: Margin note 57.1 is on absolute page 57
 (marginnote)              on input line 317.
 Package marginnote Info: xpos seems to be 142.26378pt,
 (marginnote)             \marginnoterightadjust ignored on input line 317.
 File: content/figures/Pereda-Figure01.jpg Graphic file (type QTm)
  <use  "content/figures/Pereda-Figure01.jpg" >
-Package marginnote Info: Margin note 59.2 is on absolute page 59
+Package marginnote Info: Margin note 57.2 is on absolute page 57
 (marginnote)              on input line 330.
 Package marginnote Info: xpos seems to be 142.26378pt,
 (marginnote)             \marginnoterightadjust ignored on input line 330.
 
-[54] [55]
-Package marginnote Info: Margin note 61.1 is on absolute page 61
+[46] [47]
+Package marginnote Info: Margin note 59.1 is on absolute page 59
 (marginnote)              on input line 334.
 Package marginnote Info: xpos seems to be 142.26378pt,
 (marginnote)             \marginnoterightadjust ignored on input line 334.
-Package marginnote Info: Margin note 61.2 is on absolute page 61
+Package marginnote Info: Margin note 59.2 is on absolute page 59
 (marginnote)              on input line 341.
-Package marginnote Info: xpos seems to be 488.27023pt,
+Package marginnote Info: xpos seems to be 142.26378pt,
 (marginnote)             \marginnoterightadjust ignored on input line 341.
- [56
+ [48
 
 ]
-Package marginnote Info: Margin note 62.1 is on absolute page 62
+Package marginnote Info: Margin note 60.1 is on absolute page 60
 (marginnote)              on input line 352.
 Package marginnote Info: xpos seems to be 71.13187pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 352.
 File: content/figures/Pereda-Figure02.jpg Graphic file (type QTm)
  <use  "content/figures/Pereda-Figure02.jpg" >
-Package marginnote Info: Suggest that margin note 62.2 will be on
-(marginnote)             absolute page 62.
-(marginnote)             This may be wrong on input line 361.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 361.
-Package marginnote Info: Suggest that margin note 62.3 will be on
-(marginnote)             absolute page 62.
-(marginnote)             This may be wrong on input line 368.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 368.
- [57
+Package marginnote Info: Margin note 60.2 is on absolute page 60
+(marginnote)              on input line 361.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 361.
+Package marginnote Info: Margin note 60.3 is on absolute page 60
+(marginnote)              on input line 368.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 368.
+ [49
 
 ]
-Package marginnote Info: Suggest that margin note 63.1 will be on
-(marginnote)             absolute page 63.
-(marginnote)             This may be wrong on input line 376.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 376.
+Package marginnote Info: Margin note 61.1 is on absolute page 61
+(marginnote)              on input line 376.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 376.
 File: content/figures/Pereda-Figure03.jpg Graphic file (type QTm)
 
 <use  "content/figures/Pereda-Figure03.jpg" >
-Package marginnote Info: Suggest that margin note 63.2 will be on
-(marginnote)             absolute page 63.
-(marginnote)             This may be wrong on input line 387.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 387.
-Package marginnote Info: Suggest that margin note 63.3 will be on
-(marginnote)             absolute page 63.
-(marginnote)             This may be wrong on input line 390.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 390.
+Package marginnote Info: Margin note 61.2 is on absolute page 61
+(marginnote)              on input line 387.
+Package marginnote Info: xpos seems to be 514.05663pt,
+(marginnote)             \marginnoterightadjust ignored on input line 387.
+Package marginnote Info: Margin note 61.3 is on absolute page 61
+(marginnote)              on input line 390.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 390.
 
 Overfull \hbox (0.25594pt too wide) in paragraph at lines 397--400
 \EU1/LinLibertine(0)/m/n/10.95 north-west was the kitchen ([]Thomas, Sloane, an
 d Phillpotts, [][]1997[][]:51; []Thomas, [][]2002[][]:100);
  []
 
-[58]
-Package marginnote Info: Margin note 64.1 is on absolute page 64
+[50]
+Package marginnote Info: Margin note 62.1 is on absolute page 62
 (marginnote)              on input line 405.
 Package marginnote Info: xpos seems to be 71.13187pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 405.
- [59]
+ [51]
 File: content/figures/Pereda-Figure04.jpg Graphic file (type QTm)
- <use  "content/figures/Pereda-Figure04.jpg" > [60]
-Package marginnote Info: Margin note 66.1 is on absolute page 66
+ <use  "content/figures/Pereda-Figure04.jpg" > [52]
+Package marginnote Info: Margin note 64.1 is on absolute page 64
 (marginnote)              on input line 435.
-Package marginnote Info: xpos seems to be 113.70917pt,
+Package marginnote Info: xpos seems to be 71.13187pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 435.
- [61] [62]
+ [53] [54]
 Overfull \hbox (3.38362pt too wide) in paragraph at lines 457--457
 [][]\EU1/LinLibertine(0)/m/n/10.95 Brodman, J. 2009: \EU1/LinLibertine(0)/m/it/
 10.95 Charity and religion in Medieval Europe\EU1/LinLibertine(0)/m/n/10.95 . W
@@ -4238,9 +4228,9 @@ Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/10.95' on inp
 ut line 457.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-[63]
+[55]
 Package biblatex Info: Reference section=0 on input line 457.
-) [64]
+) [56]
 \openout2 = `content/11Raza.aux'.
 
  (./content/11Raza.tex
@@ -4257,13 +4247,12 @@ LaTeX Warning: Tab has been converted to Blank Space.
 \blx@sectionciteorder@6=\count449
 Package biblatex Info: Reference section=6 on input line 620.
 Package biblatex Info: Setting label 'refsection:6' on input line 620.
-Package marginnote Info: Suggest that margin note 70.1 will be on
-(marginnote)             absolute page 70.
-(marginnote)             This may be wrong on input line 620.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 620.
+Package marginnote Info: Margin note 68.1 is on absolute page 68
+(marginnote)              on input line 620.
+Package marginnote Info: xpos seems to be 113.70917pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 620.
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [65
+<use  "ijsra_logo.png" > [57
 
 
 
@@ -4271,7 +4260,7 @@ File: ijsra_logo.png Graphic file (type QTm)
 ]
 File: content/figures/Raza-Figure01.jpg Graphic file (type QTm)
  <use  "content/figures/Raza-Figure01.jpg" >
-[66] [67] [68]
+[58] [59] [60]
 Overfull \hbox (0.70973pt too wide) in paragraph at lines 724--728
 \EU1/LinLibertine(0)/m/n/10.95 ones (\EU1/LinLibertine(0)/m/it/10.95 interpreta
 tio graeca\EU1/LinLibertine(0)/m/n/10.95 ). Significantly, Demetrius’ coins dep
@@ -4279,16 +4268,16 @@ icted the goddess Artemis
  []
 
 File: content/figures/Raza-Figure02.jpg Graphic file (type QTm)
-<use  "content/figures/Raza-Figure02.jpg" > [69]
+<use  "content/figures/Raza-Figure02.jpg" > [61]
 File: content/figures/Raza-Figure03.jpg Graphic file (type QTm)
 
 <use  "content/figures/Raza-Figure03.jpg" >
 File: content/figures/Raza-Figure04.jpg Graphic file (type QTm)
 
-<use  "content/figures/Raza-Figure04.jpg" > [70]
+<use  "content/figures/Raza-Figure04.jpg" > [62]
 File: content/figures/Raza-Figure05.jpg Graphic file (type QTm)
 
-<use  "content/figures/Raza-Figure05.jpg" > [71]
+<use  "content/figures/Raza-Figure05.jpg" > [63]
 Overfull \hbox (17.8222pt too wide) in paragraph at lines 809--812
 \EU1/LinLibertine(0)/m/n/10.95 not unlike Indra’s representation in Indian trad
 ition (see figs. [][]4[][] to [][]6[][]) ([]MacDowall, [][]2007a[][]:242–
@@ -4298,20 +4287,20 @@ File: content/figures/Raza-Figure06.jpg Graphic file (type QTm)
 <use  "content/figures/Raza-Figure06.jpg" >
 File: content/figures/Raza-Figure07.jpg Graphic file (type QTm)
 
-<use  "content/figures/Raza-Figure07.jpg" > [72]
+<use  "content/figures/Raza-Figure07.jpg" > [64]
 File: content/figures/Raza-Figure08.jpg Graphic file (type QTm)
 
-<use  "content/figures/Raza-Figure08.jpg" > [73]
+<use  "content/figures/Raza-Figure08.jpg" > [65]
 File: content/figures/Raza-Figure09.jpg Graphic file (type QTm)
 
-<use  "content/figures/Raza-Figure09.jpg" > [74]
-Package marginnote Info: Margin note 80.1 is on absolute page 80
+<use  "content/figures/Raza-Figure09.jpg" > [66]
+Package marginnote Info: Margin note 78.1 is on absolute page 79
 (marginnote)              on input line 923.
-Package marginnote Info: xpos seems to be 137.47298pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 923.
- [75] [76] [77] [78]
+Package marginnote Info: xpos seems to be 149.02643pt,
+(marginnote)             \marginnoterightadjust ignored on input line 923.
+ [67] [68] [69] [70]
 Package biblatex Info: Reference section=0 on input line 924.
-) [79]
+) [71]
 \openout2 = `content/Rownd.aux'.
 
 
@@ -4329,46 +4318,44 @@ LaTeX Warning: Tab has been converted to Blank Space.
 \blx@sectionciteorder@7=\count451
 Package biblatex Info: Reference section=7 on input line 187.
 Package biblatex Info: Setting label 'refsection:7' on input line 187.
-[80
+[72
 
 
 
 
 ]
-Package marginnote Info: Margin note 86.1 is on absolute page 86
+Package marginnote Info: Margin note 84.1 is on absolute page 84
 (marginnote)              on input line 187.
-Package marginnote Info: xpos seems to be 113.37538pt,
+Package marginnote Info: xpos seems to be 116.64178pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 187.
-Package marginnote Info: Suggest that margin note 86.2 will be on
-(marginnote)             absolute page 86.
-(marginnote)             This may be wrong on input line 189.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 189.
+Package marginnote Info: Margin note 84.2 is on absolute page 84
+(marginnote)              on input line 189.
+Package marginnote Info: xpos seems to be 178.60677pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 189.
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [81] [82]
-Package marginnote Info: Margin note 88.1 is on absolute page 88
+ <use  "ijsra_logo.png" > [73] [74]
+Package marginnote Info: Margin note 86.1 is on absolute page 86
 (marginnote)              on input line 202.
-Package marginnote Info: xpos seems to be 137.56918pt,
+Package marginnote Info: xpos seems to be 137.47298pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 202.
-Package marginnote Info: Suggest that margin note 88.2 will be on
-(marginnote)             absolute page 88.
-(marginnote)             This may be wrong on input line 206.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 206.
- [83] [84] [85]
-Package marginnote Info: Margin note 91.1 is on absolute page 91
+Package marginnote Info: Margin note 86.2 is on absolute page 86
+(marginnote)              on input line 206.
+Package marginnote Info: xpos seems to be 160.65259pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 206.
+ [75] [76] [77]
+Package marginnote Info: Margin note 89.1 is on absolute page 89
 (marginnote)              on input line 247.
-Package marginnote Info: xpos seems to be 219.1332pt,
+Package marginnote Info: xpos seems to be 227.29465pt,
 (marginnote)             \marginnoterightadjust ignored on input line 247.
- [86] [87] [88]
-Package marginnote Info: Margin note 94.1 is on absolute page 94
+ [78] [79] [80]
+Package marginnote Info: Margin note 92.1 is on absolute page 92
 (marginnote)              on input line 285.
-Package marginnote Info: xpos seems to be 240.094pt,
+Package marginnote Info: xpos seems to be 113.37538pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 285.
- [89]
-Package marginnote Info: Margin note 95.1 is on absolute page 95
+ [81]
+Package marginnote Info: Margin note 93.1 is on absolute page 93
 (marginnote)              on input line 292.
-Package marginnote Info: xpos seems to be 142.26378pt,
+Package marginnote Info: xpos seems to be 199.51385pt,
 (marginnote)             \marginnoterightadjust ignored on input line 292.
 
 Overfull \hbox (4.9451pt too wide) in paragraph at lines 307--308
@@ -4376,10 +4363,10 @@ Overfull \hbox (4.9451pt too wide) in paragraph at lines 307--308
 ly destructive techniques
  []
 
-[90]
-Package marginnote Info: Margin note 96.1 is on absolute page 96
+[82]
+Package marginnote Info: Margin note 94.1 is on absolute page 94
 (marginnote)              on input line 322.
-Package marginnote Info: xpos seems to be 71.13187pt,
+Package marginnote Info: xpos seems to be 137.56918pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 322.
 
 Overfull \hbox (20.18008pt too wide) in paragraph at lines 322--323
@@ -4387,13 +4374,13 @@ Overfull \hbox (20.18008pt too wide) in paragraph at lines 322--323
  treasure hunters of the Philippines and nighthawks
  []
 
-[91]
+[83]
 
 Package biblatex Warning: No driver for entry type 'standard'.
 (biblatex)                Using fallback driver on input line 331.
 
 Package biblatex Info: Reference section=0 on input line 331.
-) [92]
+) [84]
 \openout2 = `content/Davis.aux'.
 
  (./content/Davis.tex
@@ -4421,23 +4408,22 @@ ne 475.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [93
+<use  "ijsra_logo.png" > [85
 
 
 
 
 ]
-Package marginnote Info: Suggest that margin note 99.1 will be on
-(marginnote)             absolute page 99.
-(marginnote)             This may be wrong on input line 491.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 491.
+Package marginnote Info: Margin note 97.1 is on absolute page 97
+(marginnote)              on input line 491.
+Package marginnote Info: xpos seems to be 221.01575pt,
+(marginnote)             \marginnoterightadjust ignored on input line 491.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\cite' on input line 491.
 
-[94]
+[86]
 Overfull \hbox (9.37248pt too wide) in paragraph at lines 496--497
 []\EU1/LinLibertine(0)/m/n/10.95 Games of physical skill are potentially relate
 d to environmental conditions ([]Roberts,
@@ -4450,35 +4436,31 @@ Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 507.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Suggest that margin note 100.1 will be on
-(marginnote)             absolute page 100.
-(marginnote)             This may be wrong on input line 511.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 511.
-[95]
-Package marginnote Info: Suggest that margin note 101.1 will be on
-(marginnote)             absolute page 101.
-(marginnote)             This may be wrong on input line 517.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 517.
- [96]
-Package marginnote Info: Suggest that margin note 102.1 will be on
-(marginnote)             absolute page 102.
-(marginnote)             This may be wrong on input line 525.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 525.
+Package marginnote Info: Margin note 98.1 is on absolute page 98
+(marginnote)              on input line 511.
+Package marginnote Info: xpos seems to be 145.0124pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 511.
+[87]
+Package marginnote Info: Margin note 99.1 is on absolute page 99
+(marginnote)              on input line 517.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 517.
+ [88]
+Package marginnote Info: Margin note 100.1 is on absolute page 100
+(marginnote)              on input line 525.
+Package marginnote Info: xpos seems to be 105.05861pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 525.
 
 Overfull \hbox (4.24048pt too wide) in paragraph at lines 523--526
 []\EU1/LinLibertine(0)/m/n/10.95 Additional comparisons were conducted to addre
 ss further correlations between game
  []
 
-Package marginnote Info: Suggest that margin note 102.2 will be on
-(marginnote)             absolute page 102.
-(marginnote)             This may be wrong on input line 527.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 527.
-[97]
+Package marginnote Info: Margin note 100.2 is on absolute page 100
+(marginnote)              on input line 527.
+Package marginnote Info: xpos seems to be 129.80688pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 527.
+[89]
 File: content/figures/Davis-Table02.png Graphic file (type QTm)
  <use  "content/figures/Davis-Table02.png" >
 
@@ -4486,16 +4468,15 @@ Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 532.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Margin note 103.1 is on absolute page 103
+Package marginnote Info: Margin note 101.1 is on absolute page 101
 (marginnote)              on input line 537.
 Package marginnote Info: xpos seems to be 142.26378pt,
 (marginnote)             \marginnoterightadjust ignored on input line 537.
-Package marginnote Info: Suggest that margin note 103.2 will be on
-(marginnote)             absolute page 103.
-(marginnote)             This may be wrong on input line 540.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 540.
-[98]
+Package marginnote Info: Margin note 101.2 is on absolute page 101
+(marginnote)              on input line 540.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 540.
+[90]
 File: content/figures/Davis_Figure1_082016.png Graphic file (type QTm)
  <use  "content/figures/Davis_Figure1_082016.png" >
 File: content/figures/Davis_Figure2_082016.png Graphic file (type QTm)
@@ -4503,12 +4484,11 @@ File: content/figures/Davis_Figure2_082016.png Graphic file (type QTm)
 <use  "content/figures/Davis_Figure2_082016.png" >
 File: content/figures/Davis_Figure3_082016.png Graphic file (type QTm)
 
-<use  "content/figures/Davis_Figure3_082016.png" > [99]
-Package marginnote Info: Suggest that margin note 105.1 will be on
-(marginnote)             absolute page 105.
-(marginnote)             This may be wrong on input line 579.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 579.
+<use  "content/figures/Davis_Figure3_082016.png" > [91]
+Package marginnote Info: Margin note 103.1 is on absolute page 103
+(marginnote)              on input line 579.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 579.
 File: content/figures/Davis-Table02.png Graphic file (type QTm)
 
 <use  "content/figures/Davis-Table02.png" >
@@ -4519,33 +4499,31 @@ See the caption package documentation for explanation.
 
 File: content/figures/Davis_Figure4_082016.png Graphic file (type QTm)
 <use  "content/figures/Davis_Figure4_082016.png" >
-Package marginnote Info: Suggest that margin note 105.2 will be on
-(marginnote)             absolute page 105.
-(marginnote)             This may be wrong on input line 597.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 597.
- [100] [101] [102]
+Package marginnote Info: Margin note 103.2 is on absolute page 104
+(marginnote)              on input line 597.
+Package marginnote Info: xpos seems to be 103.99571pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 597.
+ [92] [93] [94]
 File: content/figures/Davis_Figure5_082016.png Graphic file (type QTm)
 
-<use  "content/figures/Davis_Figure5_082016.png" > [103] [104] [105]
+<use  "content/figures/Davis_Figure5_082016.png" > [95] [96] [97]
 File: content/figures/Davis_Figure6_082016.png Graphic file (type QTm)
 
 <use  "content/figures/Davis_Figure6_082016.png" >
 File: content/figures/Davis_Figure7_082016.png Graphic file (type QTm)
 
 <use  "content/figures/Davis_Figure7_082016.png" >
-Package marginnote Info: Suggest that margin note 111.1 will be on
-(marginnote)             absolute page 111.
-(marginnote)             This may be wrong on input line 666.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 666.
- [106]
+Package marginnote Info: Margin note 109.1 is on absolute page 110
+(marginnote)              on input line 666.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 666.
+ [98]
 Overfull \hbox (0.16716pt too wide) in paragraph at lines 669--670
 []\EU1/LinLibertine(0)/m/n/10.95 For archaeologists, these conclusions reaffirm
  that games, especially games of chance,
  []
 
-[107] [108]
+[99] [100]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
  <use  "content/Davis_Appendix.pdf" >
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
@@ -4565,7 +4543,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page1>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page1> [109
+<use  "content/Davis_Appendix.pdf"  page1> [101
 
 ]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
@@ -4576,7 +4554,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page2>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page2> [110]
+<use  "content/Davis_Appendix.pdf"  page2> [102]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page3>
@@ -4585,7 +4563,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page3>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page3> [111]
+<use  "content/Davis_Appendix.pdf"  page3> [103]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page4>
@@ -4594,7 +4572,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page4>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page4> [112]
+<use  "content/Davis_Appendix.pdf"  page4> [104]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page5>
@@ -4603,7 +4581,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page5>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page5> [113]
+<use  "content/Davis_Appendix.pdf"  page5> [105]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page6>
@@ -4612,7 +4590,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page6>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page6> [114]
+<use  "content/Davis_Appendix.pdf"  page6> [106]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page7>
@@ -4621,7 +4599,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page7>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page7> [115]
+<use  "content/Davis_Appendix.pdf"  page7> [107]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page8>
@@ -4630,7 +4608,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page8>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page8> [116]
+<use  "content/Davis_Appendix.pdf"  page8> [108]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page9>
@@ -4639,7 +4617,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page9>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page9> [117]
+<use  "content/Davis_Appendix.pdf"  page9> [109]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page10>
@@ -4648,7 +4626,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page10>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page10> [118]
+<use  "content/Davis_Appendix.pdf"  page10> [110]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page11>
@@ -4657,7 +4635,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page11>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page11> [119]
+<use  "content/Davis_Appendix.pdf"  page11> [111]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page12>
@@ -4666,7 +4644,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page12>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page12> [120]
+<use  "content/Davis_Appendix.pdf"  page12> [112]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page13>
@@ -4675,7 +4653,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page13>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page13> [121]
+<use  "content/Davis_Appendix.pdf"  page13> [113]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page14>
@@ -4684,7 +4662,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page14>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page14> [122]
+<use  "content/Davis_Appendix.pdf"  page14> [114]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page15>
@@ -4693,7 +4671,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page15>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page15> [123]
+<use  "content/Davis_Appendix.pdf"  page15> [115]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page16>
@@ -4702,7 +4680,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page16>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page16> [124]
+<use  "content/Davis_Appendix.pdf"  page16> [116]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page17>
@@ -4711,7 +4689,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page17>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page17> [125]
+<use  "content/Davis_Appendix.pdf"  page17> [117]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page18>
@@ -4720,7 +4698,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page18>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page18> [126]
+<use  "content/Davis_Appendix.pdf"  page18> [118]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page19>
@@ -4729,7 +4707,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page19>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page19> [127] [128]
+<use  "content/Davis_Appendix.pdf"  page19> [119] [120]
 Overfull \hbox (1.59785pt too wide) in paragraph at lines 682--682
 [][]\EU1/LinLibertine(0)/m/n/10.95 Peregrine, Peter N. 2008: Political Strategy
  and Cross-Cultural Variation in Games. \EU1/LinLibertine(0)/m/it/10.95 Cross-
@@ -4739,9 +4717,9 @@ Overfull \hbox (1.59785pt too wide) in paragraph at lines 682--682
 Package biblatex Warning: No driver for entry type 'standard'.
 (biblatex)                Using fallback driver on input line 682.
 
-[129]
+[121]
 Package biblatex Info: Reference section=0 on input line 682.
-) [130]
+) [122]
 \openout2 = `preamble/_part_litreviews.aux'.
 
  (./preamble/_part_litreviews.tex
@@ -4749,12 +4727,12 @@ part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
-[131
+[123
 
 
 
 
-] [132])
+] [124])
 \openout2 = `content/Gyngell.aux'.
 
  (./content/Gyngell.tex
@@ -4772,43 +4750,39 @@ LaTeX Warning: Tab has been converted to Blank Space.
 Package biblatex Info: Reference section=9 on input line 290.
 Package biblatex Info: Setting label 'refsection:9' on input line 290.
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [133
+<use  "ijsra_logo.png" > [125
 
 
 
 
 ]
-Package marginnote Info: Suggest that margin note 139.1 will be on
-(marginnote)             absolute page 139.
-(marginnote)             This may be wrong on input line 301.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 301.
-Package marginnote Info: Suggest that margin note 139.2 will be on
-(marginnote)             absolute page 139.
-(marginnote)             This may be wrong on input line 310.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 310.
- [134]
-Package marginnote Info: Margin note 140.1 is on absolute page 140
+Package marginnote Info: Margin note 137.1 is on absolute page 137
+(marginnote)              on input line 301.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 301.
+Package marginnote Info: Margin note 137.2 is on absolute page 137
+(marginnote)              on input line 310.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 310.
+ [126]
+Package marginnote Info: Margin note 138.1 is on absolute page 138
 (marginnote)              on input line 329.
-Package marginnote Info: xpos seems to be 113.073pt,
+Package marginnote Info: xpos seems to be 71.13187pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 329.
- [135]
-Package marginnote Info: Suggest that margin note 141.1 will be on
-(marginnote)             absolute page 141.
-(marginnote)             This may be wrong on input line 347.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 347.
- [136]
-Package marginnote Info: Margin note 142.1 is on absolute page 142
+ [127]
+Package marginnote Info: Margin note 139.1 is on absolute page 139
+(marginnote)              on input line 347.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 347.
+ [128]
+Package marginnote Info: Margin note 140.1 is on absolute page 140
 (marginnote)              on input line 356.
-Package marginnote Info: xpos seems to be 125.19931pt,
+Package marginnote Info: xpos seems to be 71.13187pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 356.
-Package marginnote Info: Suggest that margin note 142.2 will be on
-(marginnote)             absolute page 142.
-(marginnote)             This may be wrong on input line 360.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 360.
+Package marginnote Info: Margin note 140.2 is on absolute page 140
+(marginnote)              on input line 360.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 360.
 File: content/figures/Gyngell-Fig01.jpg Graphic file (type QTm)
 
 <use  "content/figures/Gyngell-Fig01.jpg" >
@@ -4817,18 +4791,17 @@ File: content/figures/Gyngell-Fig02.jpg Graphic file (type QTm)
 <use  "content/figures/Gyngell-Fig02.jpg" >
 File: content/figures/Gyngell-Fig03.jpg Graphic file (type QTm)
 
-<use  "content/figures/Gyngell-Fig03.jpg" > [137]
+<use  "content/figures/Gyngell-Fig03.jpg" > [129]
 Underfull \hbox (badness 1292) in paragraph at lines 430--433
 [][]\EU1/LinLibertine(0)/m/n/10.95 More recently, []Hardy-Smith and Edwards ([]
 []2004[][]) con-
  []
 
-Package marginnote Info: Suggest that margin note 143.1 will be on
-(marginnote)             absolute page 143.
-(marginnote)             This may be wrong on input line 444.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 444.
-[138]
+Package marginnote Info: Margin note 141.1 is on absolute page 141
+(marginnote)              on input line 444.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 444.
+[130]
 File: content/figures/Gyngell-Fig04.jpg Graphic file (type QTm)
  <use  "content/figures/Gyngell-Fig04.jpg" >
 File: content/figures/Gyngell-Fig05.jpg Graphic file (type QTm)
@@ -4840,36 +4813,34 @@ Overfull \hbox (131.65399pt too wide) in paragraph at lines 454--468
 
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
 put line 468.
-[139]
-Package marginnote Info: Margin note 145.1 is on absolute page 146
+[131]
+Package marginnote Info: Margin note 143.1 is on absolute page 143
 (marginnote)              on input line 478.
-Package marginnote Info: xpos seems to be 101.29384pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 478.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 478.
 File: content/figures/Gyngell-Fig06.jpg Graphic file (type QTm)
  <use  "content/figures/Gyngell-Fig06.jpg" >
 File: content/figures/Gyngell-Fig07.jpg Graphic file (type QTm)
 
 <use  "content/figures/Gyngell-Fig07.jpg" >
-Package marginnote Info: Suggest that margin note 145.2 will be on
-(marginnote)             absolute page 145.
-(marginnote)             This may be wrong on input line 509.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 509.
- [140
+Package marginnote Info: Margin note 143.2 is on absolute page 143
+(marginnote)              on input line 509.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 509.
+ [132
 
 ]
-Package marginnote Info: Suggest that margin note 146.1 will be on
-(marginnote)             absolute page 146.
-(marginnote)             This may be wrong on input line 519.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 519.
- [141] [142]
+Package marginnote Info: Margin note 144.1 is on absolute page 144
+(marginnote)              on input line 519.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 519.
+ [133] [134]
 Package biblatex Info: Reference section=0 on input line 522.
-) [143]
+) [135]
 \openout2 = `preamble/_part_reviews.aux'.
 
 
-(./preamble/_part_reviews.tex [144
+(./preamble/_part_reviews.tex [136
 
 
 
@@ -4879,7 +4850,7 @@ part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
-[145] [146])
+[137] [138])
 \openout2 = `content/Ward.aux'.
 
  (./content/Ward.tex
@@ -4895,18 +4866,17 @@ Package biblatex Info: Reference section=10 on input line 82.
 Package biblatex Info: Setting label 'refsection:10' on input line 82.
 Missing character: There is no † in font ecrm0800!
 Missing character: There is no ‡ in font ecrm0800!
-Package marginnote Info: Suggest that margin note 152.1 will be on
-(marginnote)             absolute page 152.
-(marginnote)             This may be wrong on input line 85.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 85.
+Package marginnote Info: Margin note 150.1 is on absolute page 150
+(marginnote)              on input line 85.
+Package marginnote Info: xpos seems to be 113.073pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 85.
 File: content/figures/Ward-Figure1.jpg Graphic file (type QTm)
 <use  "content/figures/Ward-Figure1.jpg" >
 File: content/figures/Ward-Figure2.jpg Graphic file (type QTm)
 
 <use  "content/figures/Ward-Figure2.jpg" >
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [147
+ <use  "ijsra_logo.png" > [139
 
 
 
@@ -4936,15 +4906,14 @@ LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
 t line 153.
- [148]
+ [140]
 File: content/figures/Ward-Figure7.jpg Graphic file (type QTm)
 
 <use  "content/figures/Ward-Figure7.jpg" >
-Package marginnote Info: Suggest that margin note 154.1 will be on
-(marginnote)             absolute page 154.
-(marginnote)             This may be wrong on input line 185.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 185.
+Package marginnote Info: Margin note 152.1 is on absolute page 152
+(marginnote)              on input line 185.
+Package marginnote Info: xpos seems to be 125.19931pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 185.
 
 Overfull \hbox (2.36076pt too wide) in paragraph at lines 185--194
 []\EU1/LinLibertine(0)/m/n/10.95 Graduate |[][][] and undergraduate research is
@@ -4952,7 +4921,7 @@ Overfull \hbox (2.36076pt too wide) in paragraph at lines 185--194
  []
 
 File: content/figures/Ward-Figure8.jpg Graphic file (type QTm)
-<use  "content/figures/Ward-Figure8.jpg" > [149]
+<use  "content/figures/Ward-Figure8.jpg" > [141]
 Overfull \hbox (6.58652pt too wide) in paragraph at lines 214--215
 []\EU1/LinLibertine(0)/m/n/10.95 AAA-AAPA Poster Prize for his poster titled, “
 \EU1/LinLibertine(0)/m/it/10.95 Pat-
@@ -4963,30 +4932,27 @@ Overfull \hbox (0.99197pt too wide) in paragraph at lines 215--216
 []\EU1/LinLibertine(0)/m/n/10.95 Aleš Hrdlička Prize for his podium
  []
 
-[150]
-Package marginnote Info: Suggest that margin note 156.1 will be on
-(marginnote)             absolute page 156.
-(marginnote)             This may be wrong on input line 221.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 221.
- [151]
+[142]
+Package marginnote Info: Margin note 154.1 is on absolute page 154
+(marginnote)              on input line 221.
+Package marginnote Info: xpos seems to be 98.59433pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 221.
+ [143]
 Overfull \hbox (3.31131pt too wide) in paragraph at lines 232--235
 \EU1/LinLibertine(0)/m/n/10.95 AAPA attendees to ‘listen in’ on multiple sessio
 ns simultaneously. Overall, live-tweeting
  []
 
-Package marginnote Info: Suggest that margin note 157.1 will be on
-(marginnote)             absolute page 157.
-(marginnote)             This may be wrong on input line 236.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 236.
-[152] [153] [154]
-Package marginnote Info: Suggest that margin note 160.1 will be on
-(marginnote)             absolute page 160.
-(marginnote)             This may be wrong on input line 277.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 277.
- [155] [156]
+Package marginnote Info: Margin note 155.1 is on absolute page 156
+(marginnote)              on input line 236.
+Package marginnote Info: xpos seems to be 101.29384pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 236.
+[144] [145] [146]
+Package marginnote Info: Margin note 158.1 is on absolute page 158
+(marginnote)              on input line 277.
+Package marginnote Info: xpos seems to be 101.4288pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 277.
+ [147] [148]
 File: content/figures/Ward-Figure9.jpg Graphic file (type QTm)
  <use  "content/figures/Ward-Figure9.jpg" >
 Overfull \hbox (5.40117pt too wide) in paragraph at lines 337--341
@@ -4994,18 +4960,17 @@ Overfull \hbox (5.40117pt too wide) in paragraph at lines 337--341
 n Evolutionary Anthropology (IDEAS),
  []
 
-Package marginnote Info: Margin note 162.1 is on absolute page 162
+Package marginnote Info: Margin note 160.1 is on absolute page 160
 (marginnote)              on input line 342.
-Package marginnote Info: xpos seems to be 137.94049pt,
+Package marginnote Info: xpos seems to be 109.26546pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 342.
-[157]
-Package marginnote Info: Suggest that margin note 163.1 will be on
-(marginnote)             absolute page 163.
-(marginnote)             This may be wrong on input line 358.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 358.
+[149]
+Package marginnote Info: Margin note 161.1 is on absolute page 161
+(marginnote)              on input line 358.
+Package marginnote Info: xpos seems to be 170.06023pt,
+(marginnote)             \marginnoterightadjust ignored on input line 358.
 Package biblatex Info: Reference section=0 on input line 362.
-) [158]
+) [150]
 \openout2 = `content/Resena.aux'.
 
  (./content/Resena.tex
@@ -5059,7 +5024,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 24.
- [159
+ [151
 
 
 
@@ -5089,14 +5054,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 34.
- [160]
+ [152]
 
 LaTeX Warning: Empty bibliography on input line 50.
 
 Package biblatex Info: Reference section=0 on input line 50.
 Package microtype Info: *** Changing to language context `english'
 (microtype)              on input line 51.
-) [161]
+) [153]
 \openout2 = `content/7IARSS.aux'.
 
  (./content/7IARSS.tex
@@ -5104,14 +5069,14 @@ Package microtype Info: *** Changing to language context `english'
 \blx@sectionciteorder@12=\count461
 Package biblatex Info: Reference section=12 on input line 32.
 Package biblatex Info: Setting label 'refsection:12' on input line 32.
- [162
+ [154
 
 
 
 
 ]
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [163]
+ <use  "ijsra_logo.png" > [155]
 File: content/figures/IARSS_Session.jpg Graphic file (type QTm)
 
 <use  "content/figures/IARSS_Session.jpg" >
@@ -5134,12 +5099,12 @@ Overfull \hbox (161.32806pt too wide) in paragraph at lines 63--64
 [][] 
  []
 
-[164] [165]
+[156] [157]
 
 LaTeX Warning: Empty bibliography on input line 88.
 
 Package biblatex Info: Reference section=0 on input line 88.
-) [166] [167]
+) [158] [159]
 \openout2 = `content/Hawkins.aux'.
 
  (./content/Hawkins.tex
@@ -5156,19 +5121,18 @@ LaTeX Warning: Tab has been converted to Blank Space.
 \blx@sectionciteorder@13=\count463
 Package biblatex Info: Reference section=13 on input line 61.
 Package biblatex Info: Setting label 'refsection:13' on input line 61.
-[168
+[160
 
 
 
 
 ]
-Package marginnote Info: Suggest that margin note 174.1 will be on
-(marginnote)             absolute page 174.
-(marginnote)             This may be wrong on input line 71.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 71.
+Package marginnote Info: Margin note 172.1 is on absolute page 172
+(marginnote)              on input line 71.
+Package marginnote Info: xpos seems to be 137.94049pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 71.
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [169]
+ <use  "ijsra_logo.png" > [161]
 File: content/figures/Hawkins-Figure01.jpg Graphic file (type QTm)
 
 <use  "content/figures/Hawkins-Figure01.jpg" >
@@ -5177,46 +5141,42 @@ File: content/figures/Hawkins-Figure02.jpg Graphic file (type QTm)
 <use  "content/figures/Hawkins-Figure02.jpg" >
 File: content/figures/Hawkins-Figure03.jpg Graphic file (type QTm)
 
-<use  "content/figures/Hawkins-Figure03.jpg" > [170]
-Package marginnote Info: Suggest that margin note 176.1 will be on
-(marginnote)             absolute page 176.
-(marginnote)             This may be wrong on input line 101.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 101.
- [171] [172]
-Package marginnote Info: Suggest that margin note 178.1 will be on
-(marginnote)             absolute page 178.
-(marginnote)             This may be wrong on input line 109.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 109.
+<use  "content/figures/Hawkins-Figure03.jpg" > [162]
+Package marginnote Info: Margin note 174.1 is on absolute page 174
+(marginnote)              on input line 101.
+Package marginnote Info: xpos seems to be 174.73785pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 101.
+ [163] [164]
+Package marginnote Info: Margin note 176.1 is on absolute page 176
+(marginnote)              on input line 109.
+Package marginnote Info: xpos seems to be 140.45297pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 109.
 File: content/figures/Hawkins-Figure04.jpg Graphic file (type QTm)
 
-<use  "content/figures/Hawkins-Figure04.jpg" > [173]
+<use  "content/figures/Hawkins-Figure04.jpg" > [165]
 Overfull \hbox (8.35405pt too wide) in paragraph at lines 127--128
 []\EU1/LinLibertine(0)/m/n/10.95 Thursday saw the plenary, ‘\EU1/LinLibertine(0
 )/m/it/10.95 Indigenous Archaeologies and World Archaeological Congress,
  []
 
-[174]
+[166]
 File: content/figures/Hawkins-Figure05.jpg Graphic file (type QTm)
  <use  "content/figures/Hawkins-Figure05.jpg" >
 File: content/figures/Hawkins-Figure06.jpg Graphic file (type QTm)
 
-<use  "content/figures/Hawkins-Figure06.jpg" > [175]
-Package marginnote Info: Suggest that margin note 181.1 will be on
-(marginnote)             absolute page 181.
-(marginnote)             This may be wrong on input line 149.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 149.
- [176]
-Package marginnote Info: Suggest that margin note 182.1 will be on
-(marginnote)             absolute page 182.
-(marginnote)             This may be wrong on input line 159.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 159.
- [177]
+<use  "content/figures/Hawkins-Figure06.jpg" > [167]
+Package marginnote Info: Margin note 179.1 is on absolute page 179
+(marginnote)              on input line 149.
+Package marginnote Info: xpos seems to be 251.57645pt,
+(marginnote)             \marginnoterightadjust ignored on input line 149.
+ [168]
+Package marginnote Info: Margin note 180.1 is on absolute page 180
+(marginnote)              on input line 159.
+Package marginnote Info: xpos seems to be 153.7251pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 159.
+ [169]
 Package biblatex Info: Reference section=0 on input line 169.
-) [178]
+) [170]
 \openout2 = `content/18Kerr.aux'.
 
 
@@ -5226,7 +5186,7 @@ Package biblatex Info: Reference section=0 on input line 169.
 Package biblatex Info: Reference section=14 on input line 19.
 Package biblatex Info: Setting label 'refsection:14' on input line 19.
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [179
+ <use  "ijsra_logo.png" > [171
 
 
 
@@ -5234,12 +5194,12 @@ File: ijsra_logo.png Graphic file (type QTm)
 ]
 File: content/figures/Kerr_fig01.jpg Graphic file (type QTm)
 
-<use  "content/figures/Kerr_fig01.jpg" > [180] [181]
+<use  "content/figures/Kerr_fig01.jpg" > [172] [173]
 
 LaTeX Warning: Empty bibliography on input line 51.
 
 Package biblatex Info: Reference section=0 on input line 51.
-) [182]
+) [174]
 \openout2 = `content/19Kenny.aux'.
 
  (./content/19Kenny.tex
@@ -5248,7 +5208,7 @@ Package biblatex Info: Reference section=0 on input line 51.
 Package biblatex Info: Reference section=15 on input line 24.
 Package biblatex Info: Setting label 'refsection:15' on input line 24.
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [183
+ <use  "ijsra_logo.png" > [175
 
 
 
@@ -5259,12 +5219,12 @@ Overfull \hbox (0.71098pt too wide) in paragraph at lines 47--48
 ith current models and finally putting
  []
 
-[184] [185]
+[176] [177]
 
 LaTeX Warning: Empty bibliography on input line 58.
 
 Package biblatex Info: Reference section=0 on input line 58.
-) [186]
+) [178]
 \openout2 = `preamble/_part_bookreviews.aux'.
 
  (./preamble/_part_bookreviews.tex
@@ -5272,12 +5232,12 @@ part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
-[187
+[179
 
 
 
 
-] [188])
+] [180])
 \openout2 = `content/Rivera.aux'.
 
  (./content/Rivera.tex
@@ -5292,21 +5252,21 @@ LaTeX Warning: Overwriting file `./Rivera.bib'.
 Package biblatex Info: Reference section=16 on input line 101.
 Package biblatex Info: Setting label 'refsection:16' on input line 101.
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [189
+<use  "ijsra_logo.png" > [181
 
 
 
 
-] [190] [191]
+] [182] [183]
 Package biblatex Info: Reference section=0 on input line 143.
-) [192]
+) [184]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
  (./ijsra_2016_02.aux
 (./preamble/colophon.aux)
 Package microtype Info: *** Changing to language context `english'
 (microtype)              on input line 30.
- (./preamble/editorial.aux)
+ (./preamble/editorial.aux) (./preamble/_toc.aux)
 (./preamble/issue-presentation.aux) (./preamble/_part_interviews.aux)
 (./content/16Stringer.aux) (./preamble/_part_articles.aux) (./content/fyfe.aux)
 (./content/forssman.aux) (./content/17Pereda.aux) (./content/11Raza.aux)
@@ -5554,12 +5514,13 @@ RS)
   mt-eus.cfg    2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
   uzeuex.fd    2005/01/11 v4.0 (WaS)
 preamble/colophon.tex
+se-ascii-print.def    2016/05/16 v1.11 stringenc: Printable ASCII characters
 figures/forssman-titlepage.jpg
 ijsra_logo.png    Graphic file (type QTm)
-se-ascii-print.def    2016/05/16 v1.11 stringenc: Printable ASCII characters
 preamble/CC4-0.png
 preamble/OpenAccess3.png
 preamble/editorial.tex
+preamble/_toc.tex
 ijsra_logo.png    Graphic file (type QTm)
 preamble/issue-presentation.tex
 ijsra_logo.png    Graphic file (type QTm)
@@ -5706,24 +5667,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 \openout1 = `ijsra_2016_02.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66091 strings out of 493589
- 1341014 string characters out of 6143511
- 2049372 words of memory out of 5000000
- 68377 multiletter control sequences out of 15000+600000
+ 66836 strings out of 493589
+ 1349896 string characters out of 6143511
+ 2057770 words of memory out of 5000000
+ 69115 multiletter control sequences out of 15000+600000
  19376 words of font info for 107 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 80i,24n,147p,10428b,5297s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,24n,147p,10428b,5871s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ijsra_2016_02.pdf (197 pages).
+Output written on ijsra_2016_02.pdf (195 pages).
