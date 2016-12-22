@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  22 DEC 2016 00:30
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  22 DEC 2016 01:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2820,12 +2820,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `ijsra_2016_02.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'ijsra_2016_02.bbl' not found.
-
-No file ijsra_2016_02.bbl.
+Package biblatex Info: ... file 'ijsra_2016_02.bbl' found.
+ (./ijsra_2016_02.bbl)
 Package biblatex Info: Reference section=0 on input line 22.
 Package biblatex Info: Reference segment=0 on input line 22.
 \AtBeginShipoutBox=\box101
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
@@ -3229,13 +3229,13 @@ Overfull \hbox (12.79999pt too wide) in paragraph at lines 43--56
 
  (./preamble/editorial.tex
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
-(Font)              scaled to size 9.0pt on input line 3.
+(Font)              scaled to size 9.0pt on input line 6.
 Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_RB.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/9' on input li
-ne 3.
+ne 6.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3243,101 +3243,101 @@ ext;mapping=tex-text;+tnum;+onum;" at 14.4pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/14.4' on input
- line 3.
+ line 6.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 []\EU1/LinLibertine(0)/m/n/9 Gesualdo Busacca, Stanford University
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 []\EU1/LinLibertine(0)/m/n/9 Ximena Chávez Balderas, Tulane Uni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 \EU1/LinLibertine(0)/m/n/9 versity (USA) and Instituto Nacional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 \EU1/LinLibertine(0)/m/n/9 de Antropología e Historia (México).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 []\EU1/LinLibertine(0)/m/n/9 Jacqueline Jordaan, Pretoria University
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 []\EU1/LinLibertine(0)/m/n/9 Fabio Saccoccio, Università Roma-La
  []
 
 
-Underfull \hbox (badness 6725) in paragraph at lines 27--28
+Underfull \hbox (badness 6725) in paragraph at lines 30--31
 []\EU1/LinLibertine(0)/m/n/9 Rhiannon Stammers, La Trobe Univer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 \EU1/LinLibertine(0)/m/n/9 Evolutionary Anthropology (Germany).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 []\EU1/LinLibertine(0)/m/n/9 Sabrina Autenrieth, Leiden University
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 []\EU1/LinLibertine(0)/m/n/9 Helen Heath, Otago University (New
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 []\EU1/LinLibertine(0)/m/n/9 Nayeli Jiménez Cano, Universidad
  []
 
 
-Underfull \hbox (badness 7504) in paragraph at lines 65--66
+Underfull \hbox (badness 7504) in paragraph at lines 68--69
 []\EU1/LinLibertine(0)/m/n/9 Lisa Johnson, University of California,
  []
 
 LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10.95> not a
 vailable
 (Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
-t line 66.
+t line 69.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
 text;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_RI.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/10.95' on inp
-ut line 66.
+ut line 69.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 66.
+(Font)              scaled to size 10.95pt on input line 69.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
 xt;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_R.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10.95' on input
- line 66.
+ line 69.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10.95' on input
- line 66.
+ line 69.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10.95' on input 
-line 66.
+line 69.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10.95' on input
- line 66.
+ line 69.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
@@ -3345,17 +3345,17 @@ text;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_RB.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/10.95' on inp
-ut line 66.
+ut line 69.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 66.
+(Font)              scaled to size 10.95pt on input line 69.
 Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_RB.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/10.95' on inpu
-t line 66.
+t line 69.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 [3
@@ -3412,12 +3412,12 @@ udy of Chance Games
 
 
 Overfull \hbox (1.53148pt too wide) detected at line 14
- [][][]\EU1/LinBiolinum(0)/bx/n/12 121[][]
+ [][][]\EU1/LinBiolinum(0)/bx/n/12 131[][]
  []
 
 
 Overfull \hbox (1.53148pt too wide) detected at line 16
- [][][]\EU1/LinBiolinum(0)/bx/n/12 133[][]
+ [][][]\EU1/LinBiolinum(0)/bx/n/12 145[][]
  []
 
 LaTeX Info: Redefining \. on input line 18.
@@ -3468,23 +3468,9 @@ ld Archaeology Congress
 
 
 Overfull \hbox (1.53148pt too wide) detected at line 25
- [][][]\EU1/LinBiolinum(0)/bx/n/12 175[][]
+ [][][]\EU1/LinBiolinum(0)/bx/n/12 187[][]
  []
 
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/sl' in size <10.95> not a
-vailable
-(Font)              Font shape `EU1/LinBiolinum(0)/bx/it' tried instead on inpu
-t line 26.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/it' will be
-(Font)              scaled to size 10.95pt on input line 26.
-Requested font "[LinBiolinum_RBO.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 10.95pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RBO.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/it/10.95' on inp
-ut line 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
 )
 \tf@toc=\write6
 \openout6 = `ijsra_2016_02.toc'.
@@ -3666,18 +3652,17 @@ Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10' on input li
 ne 40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: xpos seems to be 142.26378pt,
+Package marginnote Info: xpos seems to be 71.13187pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 40.
  [5]
 Package marginnote Info: Margin note 11.1 is on absolute page 11
 (marginnote)              on input line 46.
-Package marginnote Info: xpos seems to be 71.13187pt,
+Package marginnote Info: xpos seems to be 142.26378pt,
 (marginnote)             \marginnoterightadjust ignored on input line 46.
-Package marginnote Info: Suggest that margin note 11.2 will be on
-(marginnote)             absolute page 11.
-(marginnote)             This may be wrong on input line 49.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 49.
+Package marginnote Info: Margin note 11.2 is on absolute page 11
+(marginnote)              on input line 49.
+Package marginnote Info: xpos seems to be 325.83014pt,
+(marginnote)             \marginnoterightadjust ignored on input line 49.
 Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
 text;mapping=tex-text;+tnum;+onum;" at 10.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -3691,11 +3676,10 @@ Package microtype Info: ... : First loading protrusion list `default'.
 LaTeX Warning: Reference `' on page i undefined on input line 49.
 
 [6]
-Package marginnote Info: Suggest that margin note 12.1 will be on
-(marginnote)             absolute page 12.
-(marginnote)             This may be wrong on input line 63.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 63.
+Package marginnote Info: Margin note 12.1 is on absolute page 12
+(marginnote)              on input line 63.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 63.
 
 
 LaTeX Warning: Empty bibliography on input line 68.
@@ -3812,10 +3796,8 @@ Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/9' on input li
 ne 380.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: Margin note 22.1 is on absolute page 23
+Package marginnote Info: Margin note 22.1 is on absolute page 22
 (marginnote)              on input line 380.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 380.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 380.
 Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3826,6 +3808,8 @@ Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/10' on input l
 ine 380.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
+Package marginnote Info: xpos seems to be 134.14201pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 380.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 380.
 Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3842,183 +3826,19 @@ File: ijsra_logo.png Graphic file (type QTm)
 
 
 
-]
-
-LaTeX Warning: Citation 'cobb2012' on page 18 undefined on input line 384.
-
-
-LaTeX Warning: Citation 'mytum2012a' on page 18 undefined on input line 384.
-
-
-LaTeX Warning: Citation 'ulm2005' on page 18 undefined on input line 384.
-
-
-LaTeX Warning: Citation 'ulm2013' on page 18 undefined on input line 384.
-
-
-LaTeX Warning: Citation 'beck2005' on page 18 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'colley2012' on page 18 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'cosgrove2013' on page 18 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'fredericksen2005' on page 18 undefined on input line 3
-90.
-
-
-LaTeX Warning: Citation 'hall2005' on page 18 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'colley2004' on page 18 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'colley2012' on page 18 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'cosgrove2013' on page 18 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'gibbs2005' on page 18 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'ireland2013' on page 18 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'ulm2005' on page 18 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'ulm2013' on page 18 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'aitchison2004' on page 18 undefined on input line 391.
-
-
-
-LaTeX Warning: Citation 'cobb2012' on page 18 undefined on input line 391.
-
-
-LaTeX Warning: Citation 'boytner2012' on page 18 undefined on input line 392.
-
-
-LaTeX Warning: Citation 'boytner2012' on page 18 undefined on input line 399.
-
-
-LaTeX Warning: Citation 'mytum2012a' on page 18 undefined on input line 399.
-
-
-LaTeX Warning: Citation 'mytum2012b' on page 18 undefined on input line 399.
-
-
-LaTeX Warning: Citation 'scarlett2012' on page 18 undefined on input line 399.
-
-
-LaTeX Warning: Citation 'boytner2012' on page 18 undefined on input line 402.
-
-
-LaTeX Warning: Citation 'clark2012' on page 18 undefined on input line 402.
-
-
-LaTeX Warning: Citation 'colley2012' on page 18 undefined on input line 402.
-
-Package marginnote Info: Suggest that margin note 23.1 will be on
-(marginnote)             absolute page 23.
-(marginnote)             This may be wrong on input line 404.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 404.
-[18]
-
-LaTeX Warning: Citation 'gibbs2005' on page 19 undefined on input line 407.
-
-
-LaTeX Warning: Citation 'boytner2012' on page 19 undefined on input line 408.
-
-
-LaTeX Warning: Citation 'colley2004' on page 19 undefined on input line 409.
-
-
-LaTeX Warning: Citation 'colley2012' on page 19 undefined on input line 409.
-
-
-LaTeX Warning: Citation 'gibbs2005' on page 19 undefined on input line 409.
-
-
-LaTeX Warning: Citation 'cosgrove2013' on page 19 undefined on input line 409.
-
-
-LaTeX Warning: Citation 'gibbs2005' on page 19 undefined on input line 410.
-
-
-LaTeX Warning: Citation 'cosgrove2013' on page 19 undefined on input line 410.
-
-
-LaTeX Warning: Citation 'cobb2012' on page 19 undefined on input line 411.
-
-
-LaTeX Warning: Citation 'cobb2012' on page 19 undefined on input line 412.
-
-
-LaTeX Warning: Citation 'hall2005' on page 19 undefined on input line 416.
-
-
-LaTeX Warning: Citation 'pyburn2003' on page 19 undefined on input line 416.
-
-
-LaTeX Warning: Citation 'mytum2012c' on page 19 undefined on input line 418.
-
-
-LaTeX Warning: Citation 'cosgrove2013' on page 19 undefined on input line 419.
-
-
-LaTeX Warning: Citation 'hall2005' on page 19 undefined on input line 419.
-
-
-LaTeX Warning: Citation 'beck2008' on page 19 undefined on input line 424.
-
-
-LaTeX Warning: Citation 'beck2008' on page 19 undefined on input line 425.
-
-[19]
-
-LaTeX Warning: Citation 'cosgrove2013' on page 20 undefined on input line 433.
-
-
-LaTeX Warning: Citation 'colley2004' on page 20 undefined on input line 438.
-
-
-LaTeX Warning: Citation 'colley2012' on page 20 undefined on input line 438.
-
-
-LaTeX Warning: Citation 'gibbs2005' on page 20 undefined on input line 438.
-
-
-LaTeX Warning: Citation 'faulkner2000' on page 20 undefined on input line 450.
-
-[20]
-
-LaTeX Warning: Citation 'cosgrove2013' on page 21 undefined on input line 455.
-
-
-LaTeX Warning: Citation 'hall2005' on page 21 undefined on input line 455.
-
-Package marginnote Info: Suggest that margin note 26.1 will be on
-(marginnote)             absolute page 26.
-(marginnote)             This may be wrong on input line 463.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 463.
-[21]
-
-LaTeX Warning: Citation 'ulm2013' on page 22 undefined on input line 478.
-
-
-LaTeX Warning: Citation 'ulm2013' on page 22 undefined on input line 479.
-
-
-LaTeX Warning: Citation 'ireland2013' on page 22 undefined on input line 480.
-
+] [18]
+Package marginnote Info: Margin note 24.1 is on absolute page 24
+(marginnote)              on input line 404.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 404.
+ [19] [20]
+Package marginnote Info: Margin note 26.1 is on absolute page 26
+(marginnote)              on input line 463.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 463.
+ [21]
 File: content/figures/Fyfe-Table01.jpg Graphic file (type QTm)
+
 <use  "content/figures/Fyfe-Table01.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
@@ -4032,105 +3852,52 @@ Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 499.
 See the caption package documentation for explanation.
 
-
-LaTeX Warning: Citation 'mytum2012c' on page 22 undefined on input line 508.
-
-[22]
-
-LaTeX Warning: Citation 'beck2008' on page 23 undefined on input line 514.
-
-
-LaTeX Warning: Citation 'ireland2013' on page 23 undefined on input line 515.
-
-
-LaTeX Warning: Citation 'ulm2005' on page 23 undefined on input line 515.
-
-
-LaTeX Warning: Citation 'ulm2013' on page 23 undefined on input line 515.
-
-Package marginnote Info: Suggest that margin note 28.1 will be on
-(marginnote)             absolute page 28.
-(marginnote)             This may be wrong on input line 518.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 518.
-[23]
+[22] [23]
+Package marginnote Info: Margin note 29.1 is on absolute page 29
+(marginnote)              on input line 518.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 518.
 File: content/figures/Fyfe-Figure01.jpg Graphic file (type QTm)
  <use  "content/figures/Fyfe-Figure01.jpg" > [24]
 Package marginnote Info: Margin note 30.1 is on absolute page 30
 (marginnote)              on input line 551.
-Package marginnote Info: xpos seems to be 142.26378pt,
+Package marginnote Info: xpos seems to be 71.13187pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 551.
  [25]
 File: content/figures/Fyfe-Figure02.jpg Graphic file (type QTm)
 
 <use  "content/figures/Fyfe-Figure02.jpg" >
-Package marginnote Info: Margin note 31.1 is on absolute page 32
+Package marginnote Info: Margin note 31.1 is on absolute page 31
 (marginnote)              on input line 575.
 Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 575.
+(marginnote)             \marginnoterightadjust ignored on input line 575.
+ [26]
 File: content/figures/Fyfe-Figure03.jpg Graphic file (type QTm)
 
-<use  "content/figures/Fyfe-Figure03.jpg" > [26]
-
-LaTeX Warning: Citation 'murszewskiwinter2012' on page 27 undefined on input li
-ne 593.
-
-
-LaTeX Warning: Citation 'murszewski2012' on page 27 undefined on input line 594
-.
-
-
-LaTeX Warning: Citation 'busher2012' on page 27 undefined on input line 595.
-
-Package marginnote Info: Suggest that margin note 32.1 will be on
-(marginnote)             absolute page 32.
-(marginnote)             This may be wrong on input line 601.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 601.
-[27]
-
-LaTeX Warning: Citation 'boytner2012' on page 28 undefined on input line 602.
-
-
-LaTeX Warning: Citation 'cobb2012' on page 28 undefined on input line 602.
-
-
-LaTeX Warning: Citation 'colley2012' on page 28 undefined on input line 602.
-
-
-LaTeX Warning: Citation 'mytum2012a' on page 28 undefined on input line 602.
-
-
-LaTeX Warning: Citation 'mytum2012b' on page 28 undefined on input line 602.
-
-
-LaTeX Warning: Citation 'ulm2013' on page 28 undefined on input line 602.
-
-
-LaTeX Warning: Citation 'faulkner2000' on page 28 undefined on input line 603.
-
-
-LaTeX Warning: Citation 'bowdler1984' on page 28 undefined on input line 615.
-
-
-LaTeX Warning: Citation 'brown2008' on page 28 undefined on input line 615.
-
-[28]
+<use  "content/figures/Fyfe-Figure03.jpg" > [27]
+Package marginnote Info: Margin note 33.1 is on absolute page 33
+(marginnote)              on input line 601.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 601.
+ [28]
 Package marginnote Info: Margin note 34.1 is on absolute page 34
 (marginnote)              on input line 635.
-Package marginnote Info: xpos seems to be 142.26378pt,
+Package marginnote Info: xpos seems to be 71.13187pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 635.
  [29]
 Package marginnote Info: Margin note 35.1 is on absolute page 35
 (marginnote)              on input line 642.
-Package marginnote Info: xpos seems to be 142.17824pt,
+Package marginnote Info: xpos seems to be 142.26378pt,
 (marginnote)             \marginnoterightadjust ignored on input line 642.
+ [30]
+Overfull \hbox (25.80472pt too wide) in paragraph at lines 654--654
+[][]\EU1/LinLibertine(0)/m/n/10.95 Ireland, T. et al. 2013: Historical archaeol
+ogy and Australia‘s cultural heritage sector:emerging
+ []
 
-
-LaTeX Warning: Empty bibliography on input line 654.
-
+[31]
 Package biblatex Info: Reference section=0 on input line 654.
-) [30]
+) [32]
 \openout2 = `content/forssman.aux'.
 
  (./content/forssman.tex
@@ -4156,107 +3923,18 @@ Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/9' on input l
 ine 279.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: Margin note 36.1 is on absolute page 36
+Package marginnote Info: Margin note 38.1 is on absolute page 38
 (marginnote)              on input line 279.
-Package marginnote Info: xpos seems to be 205.84677pt,
+Package marginnote Info: xpos seems to be 142.17824pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 279.
-
-LaTeX Warning: Citation 'Walker_1994' on page 31 undefined on input line 279.
-
-Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_RB.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/9' on input l
-ine 279.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-
-LaTeX Warning: Citation 'Hall_2000' on page 31 undefined on input line 282.
-
-
-LaTeX Warning: Citation 'vanDoornum_2005' on page 31 undefined on input line 28
-2.
-
-
-LaTeX Warning: Citation 'vanDoornum_2007' on page 31 undefined on input line 28
-2.
-
-
-LaTeX Warning: Citation 'vanDoornum_2008' on page 31 undefined on input line 28
-2.
-
-
-LaTeX Warning: Citation 'vanDoornum_2014' on page 31 undefined on input line 28
-2.
-
-
-LaTeX Warning: Citation 'Forssman_2010' on page 31 undefined on input line 282.
-
-
-
-LaTeX Warning: Citation 'Forssman_2013a' on page 31 undefined on input line 282
-.
-
-
-LaTeX Warning: Citation 'Forssman_2013b' on page 31 undefined on input line 282
-.
-
-
-LaTeX Warning: Citation 'Forssman_2013c' on page 31 undefined on input line 282
-.
-
-
-LaTeX Warning: Citation 'Forssman_2014a' on page 31 undefined on input line 282
-.
-
-
-LaTeX Warning: Citation 'Forssman_2014b' on page 31 undefined on input line 282
-.
-
-
-LaTeX Warning: Citation 'Forssman_2014a' on page 31 undefined on input line 283
-.
-
-
-LaTeX Warning: Citation 'Forssman_2014b' on page 31 undefined on input line 283
-.
-
-
-LaTeX Warning: Citation 'Forssman_2013c' on page 31 undefined on input line 283
-.
-
-
-LaTeX Warning: Citation 'Forssman_2015' on page 31 undefined on input line 283.
-
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 31 undefined on input line 283.
-
 
 Overfull \hbox (3.21062pt too wide) in paragraph at lines 282--285
 [][] \EU1/LinLibertine(0)/m/n/10.95 Later Stone Age (LSA) sequence of the Great
 er Mapungubwe Landscape, which
  []
 
-
-Overfull \hbox (7.48526pt too wide) in paragraph at lines 282--285
-[]\EU1/LinLibertine(0)/m/n/10.95 ; []; []; [];
- []
-
-
-Overfull \hbox (38.9057pt too wide) in paragraph at lines 282--285
-[]\EU1/LinLibertine(0)/m/n/10.95 ; []; []; []; [];
- []
-
-
-Overfull \hbox (10.0525pt too wide) in paragraph at lines 282--285
-\EU1/LinLibertine(0)/m/n/10.95 past but which potentially confine our work toda
-y ([]; [];
- []
-
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [31
+<use  "ijsra_logo.png" > [33
 
 
 
@@ -4264,80 +3942,39 @@ File: ijsra_logo.png Graphic file (type QTm)
 ]
 File: content/figures/Forssman-Figure01.jpg Graphic file (type QTm)
  <use  "content/figures/Forssman-Figure01.jpg" >
-Package marginnote Info: Margin note 37.1 is on absolute page 37
+Package marginnote Info: Margin note 39.1 is on absolute page 39
 (marginnote)              on input line 293.
-Package marginnote Info: xpos seems to be 170.98631pt,
+Package marginnote Info: xpos seems to be 205.84677pt,
 (marginnote)             \marginnoterightadjust ignored on input line 293.
-
-
-LaTeX Warning: Citation 'Alexander_1984' on page 32 undefined on input line 294
-.
-
 
 Overfull \hbox (4.83548pt too wide) in paragraph at lines 293--295
 []\EU1/LinLibertine(0)/m/n/10.95 Mafunyane |[][][] is situated in a sandstone b
 elt that stretches along the Motloutse, Limpopo,
  []
 
-
-LaTeX Warning: Citation 'Walker_1994' on page 32 undefined on input line 296.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 32 undefined on input line 296.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 32 undefined on input line 296.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 32 undefined on input line 299.
-
-[32]
-Package marginnote Info: Suggest that margin note 38.1 will be on
-(marginnote)             absolute page 38.
-(marginnote)             This may be wrong on input line 302.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 302.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 33 undefined on input line 304.
-
+[34]
+Package marginnote Info: Margin note 40.1 is on absolute page 40
+(marginnote)              on input line 302.
+Package marginnote Info: xpos seems to be 170.98631pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 302.
 File: content/figures/Forssman-Figure02.jpg Graphic file (type QTm)
-<use  "content/figures/Forssman-Figure02.jpg" >
-
-LaTeX Warning: Citation 'Walker_1994' on page 33 undefined on input line 310.
-
-
-LaTeX Warning: Citation 'Forssman_2014a' on page 33 undefined on input line 310
-.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 33 undefined on input line 314.
-
-
-LaTeX Warning: Citation 'Forssman_2014a' on page 33 undefined on input line 319
-.
-
+ <use  "content/figures/Forssman-Figure02.jpg" >
 File: content/figures/Forssman-Figure03.jpg Graphic file (type QTm)
+
 <use  "content/figures/Forssman-Figure03.jpg" >
-
-LaTeX Warning: Citation 'Kennett_2002' on page 33 undefined on input line 332.
-
-
-LaTeX Warning: Citation 'Lancaster_2003' on page 33 undefined on input line 332
-.
-
 File: content/figures/Forssman-Table01.jpg Graphic file (type QTm)
+
 <use  "content/figures/Forssman-Table01.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 337.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Suggest that margin note 38.2 will be on
-(marginnote)             absolute page 38.
-(marginnote)             This may be wrong on input line 343.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 343.
+[35] [36]
+Package marginnote Info: Margin note 42.1 is on absolute page 42
+(marginnote)              on input line 343.
+Package marginnote Info: xpos seems to be 126.68518pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 343.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 5.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -4346,10 +3983,6 @@ Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/5' on input li
 ne 343.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-
-LaTeX Warning: Citation 'Walker_1994' on page 33 undefined on input line 349.
-
-[33] [34] [35]
 File: content/figures/Forssman-Figure04.jpg Graphic file (type QTm)
  <use  "content/figures/Forssman-Figure04.jpg" >
 File: content/figures/Forssman-Table02.jpg Graphic file (type QTm)
@@ -4360,45 +3993,17 @@ Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 360.
 See the caption package documentation for explanation.
 
-
-LaTeX Warning: Citation 'Walker_1994' on page 36 undefined on input line 364.
-
-Package marginnote Info: Margin note 41.1 is on absolute page 41
+[37] [38]
+Package marginnote Info: Margin note 44.1 is on absolute page 44
 (marginnote)              on input line 367.
+Package marginnote Info: xpos seems to be 139.50482pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 367.
+Package marginnote Info: Margin note 44.2 is on absolute page 44
+(marginnote)              on input line 383.
 Package marginnote Info: xpos seems to be 288.43628pt,
-(marginnote)             \marginnoterightadjust ignored on input line 367.
-
-LaTeX Warning: Citation 'Deacon_1984a' on page 36 undefined on input line 371.
-
-
-LaTeX Warning: Citation 'Kuman_2009' on page 36 undefined on input line 372.
-
-[36]
-
-LaTeX Warning: Citation 'vanDoornum_2005' on page 37 undefined on input line 37
-7.
-
-
-LaTeX Warning: Citation 'vanDoornum_2008' on page 37 undefined on input line 37
-9.
-
-Package marginnote Info: Suggest that margin note 42.1 will be on
-(marginnote)             absolute page 42.
-(marginnote)             This may be wrong on input line 383.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 383.
-
-LaTeX Warning: Citation 'vanDoornum_2005' on page 37 undefined on input line 38
-4.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 37 undefined on input line 394.
-
-
-LaTeX Warning: Citation 'Deacon_1984a' on page 37 undefined on input line 394.
-
+(marginnote)             \marginnoteleftadjust ignored on input line 383.
 File: content/figures/Forssman-Figure05.jpg Graphic file (type QTm)
-<use  "content/figures/Forssman-Figure05.jpg" >
+ <use  "content/figures/Forssman-Figure05.jpg" >
 File: content/figures/Forssman-Figure06.jpg Graphic file (type QTm)
 
 <use  "content/figures/Forssman-Figure06.jpg" >
@@ -4410,9 +4015,6 @@ Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 410.
 See the caption package documentation for explanation.
 
-
-LaTeX Warning: Citation 'Walker_1994' on page 37 undefined on input line 418.
-
 File: content/figures/Forssman-Table04.jpg Graphic file (type QTm)
 <use  "content/figures/Forssman-Table04.jpg" >
 
@@ -4420,37 +4022,24 @@ Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 422.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Suggest that margin note 42.2 will be on
-(marginnote)             absolute page 42.
-(marginnote)             This may be wrong on input line 429.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 429.
-
-LaTeX Warning: Citation 'Walker_1994' on page 37 undefined on input line 434.
-
-[37] [38] [39]
+Package marginnote Info: Margin note 44.3 is on absolute page 47
+(marginnote)              on input line 429.
+Package marginnote Info: xpos seems to be 263.95125pt,
+(marginnote)             \marginnoterightadjust ignored on input line 429.
+[39] [40] [41]
 File: content/figures/Forssman-Figure07.jpg Graphic file (type QTm)
  <use  "content/figures/Forssman-Figure07.jpg" >
 File: content/figures/Forssman-Figure08.jpg Graphic file (type QTm)
 
 <use  "content/figures/Forssman-Figure08.jpg" >
-Package marginnote Info: Margin note 45.1 is on absolute page 45
+Package marginnote Info: Margin note 47.1 is on absolute page 47
 (marginnote)              on input line 451.
-Package marginnote Info: xpos seems to be 170.1824pt,
+Package marginnote Info: xpos seems to be 210.89096pt,
 (marginnote)             \marginnoterightadjust ignored on input line 451.
-
-
-LaTeX Warning: Citation 'Orton_2008' on page 40 undefined on input line 453.
-
-
-LaTeX Warning: Citation 'Orton_2014' on page 40 undefined on input line 459.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 40 undefined on input line 464.
-
-[40]
+ [42]
 File: content/figures/Forssman-Table05.jpg Graphic file (type QTm)
- <use  "content/figures/Forssman-Table05.jpg" >
+
+<use  "content/figures/Forssman-Table05.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 468.
@@ -4461,43 +4050,14 @@ File: content/figures/Forssman-Figure09.jpg Graphic file (type QTm)
 File: content/figures/Forssman-Figure10.jpg Graphic file (type QTm)
 
 <use  "content/figures/Forssman-Figure10.jpg" >
-
-LaTeX Warning: Citation 'Wood_2011' on page 41 undefined on input line 492.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 41 undefined on input line 494.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 41 undefined on input line 495.
-
-Package marginnote Info: Suggest that margin note 46.1 will be on
-(marginnote)             absolute page 46.
-(marginnote)             This may be wrong on input line 499.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 499.
-
-LaTeX Warning: Citation 'Walker_1994' on page 41 undefined on input line 499.
-
-
-LaTeX Warning: Citation 'Miller_2001' on page 41 undefined on input line 501.
-
-
-LaTeX Warning: Citation 'Miller_2001' on page 41 undefined on input line 501.
-
-
-LaTeX Warning: Citation 'Miller_2002' on page 41 undefined on input line 501.
-
-
-LaTeX Warning: Citation 'Miller_2001' on page 41 undefined on input line 506.
-
-
-LaTeX Warning: Citation 'Miller_2001' on page 41 undefined on input line 509.
-
-
-LaTeX Warning: Citation 'Miller_2002' on page 41 undefined on input line 509.
-
+Package marginnote Info: Margin note 48.1 is on absolute page 48
+(marginnote)              on input line 499.
+Package marginnote Info: xpos seems to be 170.1824pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 499.
+ [43] [44] [45]
 File: content/figures/Forssman-Figure11.jpg Graphic file (type QTm)
-<use  "content/figures/Forssman-Figure11.jpg" > [41] [42] [43]
+
+<use  "content/figures/Forssman-Figure11.jpg" >
 File: content/figures/Forssman-Figure12.jpg Graphic file (type QTm)
 
 <use  "content/figures/Forssman-Figure12.jpg" >
@@ -4509,91 +4069,50 @@ Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 526.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Suggest that margin note 49.1 will be on
-(marginnote)             absolute page 49.
-(marginnote)             This may be wrong on input line 532.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 532.
-
-LaTeX Warning: Citation 'Walker_1994' on page 44 undefined on input line 534.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 44 undefined on input line 536.
-
+Package marginnote Info: Margin note 51.1 is on absolute page 51
+(marginnote)              on input line 532.
+Package marginnote Info: xpos seems to be 217.56581pt,
+(marginnote)             \marginnoterightadjust ignored on input line 532.
 
 Overfull \hbox (1.6485pt too wide) in paragraph at lines 532--540
 \EU1/LinLibertine(0)/m/n/10.95 number of identifiable specimens (NISP) and dens
 ity of non-identified remains ([][]/
  []
 
+[46] [47]
 File: content/figures/Forssman-Table07.jpg Graphic file (type QTm)
-<use  "content/figures/Forssman-Table07.jpg" >
+ <use  "content/figures/Forssman-Table07.jpg" >
 
 Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 543.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Suggest that margin note 49.2 will be on
-(marginnote)             absolute page 49.
-(marginnote)             This may be wrong on input line 550.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 550.
-[44] [45] [46]
+Package marginnote Info: Margin note 53.1 is on absolute page 53
+(marginnote)              on input line 550.
+Package marginnote Info: xpos seems to be 252.63014pt,
+(marginnote)             \marginnoterightadjust ignored on input line 550.
 File: content/figures/Forssman-Figure13.jpg Graphic file (type QTm)
- <use  "content/figures/Forssman-Figure13.jpg" >
+<use  "content/figures/Forssman-Figure13.jpg" > [48]
 File: content/figures/Forssman-Figure14.jpg Graphic file (type QTm)
 
 <use  "content/figures/Forssman-Figure14.jpg" >
-Package marginnote Info: Suggest that margin note 52.1 will be on
-(marginnote)             absolute page 52.
-(marginnote)             This may be wrong on input line 571.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 571.
+Package marginnote Info: Margin note 54.1 is on absolute page 54
+(marginnote)              on input line 571.
+Package marginnote Info: xpos seems to be 221.65422pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 571.
+ [49] [50]
+Package marginnote Info: Margin note 56.1 is on absolute page 56
+(marginnote)              on input line 588.
+Package marginnote Info: xpos seems to be 89.10886pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 588.
 
 
-LaTeX Warning: Citation 'Hall_2000' on page 47 undefined on input line 573.
+Package biblatex Warning: No driver for entry type 'bachelorthesis'.
+(biblatex)                Using fallback driver on input line 601.
 
-
-LaTeX Warning: Citation 'vanDoornum_2007' on page 47 undefined on input line 57
-3.
-
-
-LaTeX Warning: Citation 'vanDoornum_2008' on page 47 undefined on input line 57
-3.
-
-
-LaTeX Warning: Citation 'vanDoornum_2014' on page 47 undefined on input line 57
-3.
-
-
-Overfull \hbox (218.0964pt too wide) in paragraph at lines 571--574
-\EU1/LinLibertine(0)/m/n/10.95 cussed primarily at large rockshelters. While th
-e work of [] and [][][]
- []
-
-[47]
-
-LaTeX Warning: Citation 'vanDoornum_2008' on page 48 undefined on input line 57
-8.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 48 undefined on input line 580.
-
-
-LaTeX Warning: Citation 'Walker_1994' on page 48 undefined on input line 582.
-
-[48]
-Package marginnote Info: Suggest that margin note 54.1 will be on
-(marginnote)             absolute page 54.
-(marginnote)             This may be wrong on input line 588.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 588.
-
-
-LaTeX Warning: Empty bibliography on input line 601.
-
+[51]
 Package biblatex Info: Reference section=0 on input line 601.
-) [49]
+) [52]
 \openout2 = `content/17Pereda.aux'.
 
  (./content/17Pereda.tex
@@ -4610,408 +4129,100 @@ LaTeX Warning: Tab has been converted to Blank Space.
 \blx@sectionciteorder@5=\count447
 Package biblatex Info: Reference section=5 on input line 306.
 Package biblatex Info: Setting label 'refsection:5' on input line 306.
-[50
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" > [53
 
 
 
 
 ]
-
-LaTeX Warning: Citation 'Clay_1966' on page 51 undefined on input line 308.
-
-
-LaTeX Warning: Citation 'Cullum_1991' on page 51 undefined on input line 309.
-
-
-LaTeX Warning: Citation 'Phillpotts_1997' on page 51 undefined on input line 30
-9.
-
-
-LaTeX Warning: Citation 'Rawcliffe_1999' on page 51 undefined on input line 309
-.
-
-
-LaTeX Warning: Citation 'White_2007' on page 51 undefined on input line 309.
-
-
-LaTeX Warning: Citation 'Watson_2006' on page 51 undefined on input line 310.
-
-File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [51]
-Package marginnote Info: Suggest that margin note 57.1 will be on
-(marginnote)             absolute page 57.
-(marginnote)             This may be wrong on input line 317.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 317.
+Package marginnote Info: Margin note 59.1 is on absolute page 59
+(marginnote)              on input line 317.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 317.
 File: content/figures/Pereda-Figure01.jpg Graphic file (type QTm)
  <use  "content/figures/Pereda-Figure01.jpg" >
-
-LaTeX Warning: Citation 'Dean_2008' on page 52 undefined on input line 325.
-
-Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 8.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_RB.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/8' on input l
-ine 325.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-
-LaTeX Warning: Citation 'Cullum_1991' on page 52 undefined on input line 328.
-
-
-LaTeX Warning: Citation 'Dainton_1961' on page 52 undefined on input line 328.
-
-
-LaTeX Warning: Citation 'Dean_2008' on page 52 undefined on input line 328.
-
-
-LaTeX Warning: Citation 'Goldberg_1992' on page 52 undefined on input line 328.
-
-
-
-LaTeX Warning: Citation 'Page_1974' on page 52 undefined on input line 328.
-
-
-LaTeX Warning: Citation 'Palliser_2014' on page 52 undefined on input line 328.
-
-
-Package marginnote Info: Suggest that margin note 57.2 will be on
-(marginnote)             absolute page 57.
-(marginnote)             This may be wrong on input line 330.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 330.
-
-LaTeX Warning: Citation 'Palliser_2014' on page 52 undefined on input line 332.
-
-
-
-LaTeX Warning: Citation 'YorkMuseumGardens_2016' on page 52 undefined on input 
-line 332.
-
-
-Overfull \hbox (0.56686pt too wide) in paragraph at lines 331--333
-\EU1/LinLibertine(0)/m/n/10.95 time of Henry VIII until the first half of the 1
-8$[]$ century ([]). 
- []
-
-[52] [53]
-Package marginnote Info: Margin note 59.1 is on absolute page 59
-(marginnote)              on input line 334.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 334.
-
-
-LaTeX Warning: Citation 'Johnson_2014' on page 54 undefined on input line 335.
-
-
-LaTeX Warning: Citation 'Cullum_1991' on page 54 undefined on input line 336.
-
-
-LaTeX Warning: Citation 'Cullum_1999' on page 54 undefined on input line 336.
-
-
-LaTeX Warning: Citation 'Johnson_2014' on page 54 undefined on input line 336.
-
-
-LaTeX Warning: Citation 'Palliser_2014' on page 54 undefined on input line 336.
-
-
-
-LaTeX Warning: Citation 'Raine_1955' on page 54 undefined on input line 336.
-
-
-LaTeX Warning: Citation 'Rawcliffe_2004' on page 54 undefined on input line 336
-.
-
-
-LaTeX Warning: Citation 'Dean_2008' on page 54 undefined on input line 339.
-
-
-LaTeX Warning: Citation 'Raine_1955' on page 54 undefined on input line 339.
-
 Package marginnote Info: Margin note 59.2 is on absolute page 59
+(marginnote)              on input line 330.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 330.
+
+[54] [55]
+Package marginnote Info: Margin note 61.1 is on absolute page 61
+(marginnote)              on input line 334.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 334.
+Package marginnote Info: Margin note 61.2 is on absolute page 61
 (marginnote)              on input line 341.
-Package marginnote Info: xpos seems to be 71.13187pt,
+Package marginnote Info: xpos seems to be 142.26378pt,
 (marginnote)             \marginnoterightadjust ignored on input line 341.
-
-LaTeX Warning: Citation 'Cullum_1991' on page 54 undefined on input line 342.
-
-
-LaTeX Warning: Citation 'Palliser_2014' on page 54 undefined on input line 342.
-
-
-
-LaTeX Warning: Citation 'Brodman_2009' on page 54 undefined on input line 345.
-
-
-LaTeX Warning: Citation 'Cullum_1991' on page 54 undefined on input line 345.
-
-
-LaTeX Warning: Citation 'Johnson_2014' on page 54 undefined on input line 347.
-
-
-LaTeX Warning: Citation 'Cullum_1991' on page 54 undefined on input line 348.
-
-
-LaTeX Warning: Citation 'Cullum_1999' on page 54 undefined on input line 348.
-
-
-LaTeX Warning: Citation 'Dean_2008' on page 54 undefined on input line 349.
-
-[54
+ [56
 
 ]
-Package marginnote Info: Margin note 60.1 is on absolute page 60
+Package marginnote Info: Margin note 62.1 is on absolute page 62
 (marginnote)              on input line 352.
-Package marginnote Info: xpos seems to be 142.26378pt,
+Package marginnote Info: xpos seems to be 71.13187pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 352.
 File: content/figures/Pereda-Figure02.jpg Graphic file (type QTm)
  <use  "content/figures/Pereda-Figure02.jpg" >
-Package marginnote Info: Margin note 60.2 is on absolute page 60
+Package marginnote Info: Margin note 62.2 is on absolute page 62
 (marginnote)              on input line 361.
-Package marginnote Info: xpos seems to be 488.27023pt,
+Package marginnote Info: xpos seems to be 71.13187pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 361.
-
-
-LaTeX Warning: Citation 'Dainton_1961' on page 55 undefined on input line 363.
-
-
-LaTeX Warning: Citation 'Dainton_1961' on page 55 undefined on input line 364.
-
-
-LaTeX Warning: Citation 'Rawcliffe_1999' on page 55 undefined on input line 365
-.
-
-Package marginnote Info: Margin note 60.3 is on absolute page 60
+Package marginnote Info: Margin note 62.3 is on absolute page 62
 (marginnote)              on input line 368.
-Package marginnote Info: xpos seems to be 142.26378pt,
+Package marginnote Info: xpos seems to be 71.13187pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 368.
-
-LaTeX Warning: Citation 'Dainton_1961' on page 55 undefined on input line 370.
-
-
-LaTeX Warning: Citation 'Rider_2012' on page 55 undefined on input line 371.
-
-
-LaTeX Warning: Citation 'Dainton_1961' on page 55 undefined on input line 372.
-
-[55
+ [57
 
 ]
-Package marginnote Info: Margin note 61.1 is on absolute page 61
+Package marginnote Info: Margin note 63.1 is on absolute page 63
 (marginnote)              on input line 376.
-Package marginnote Info: xpos seems to be 71.13187pt,
+Package marginnote Info: xpos seems to be 142.26378pt,
 (marginnote)             \marginnoterightadjust ignored on input line 376.
-
-
-LaTeX Warning: Citation 'Bowers_2007' on page 56 undefined on input line 378.
-
 File: content/figures/Pereda-Figure03.jpg Graphic file (type QTm)
+
 <use  "content/figures/Pereda-Figure03.jpg" >
+Package marginnote Info: Margin note 63.2 is on absolute page 63
+(marginnote)              on input line 387.
+Package marginnote Info: xpos seems to be 514.05663pt,
+(marginnote)             \marginnoterightadjust ignored on input line 387.
+Package marginnote Info: Margin note 63.3 is on absolute page 63
+(marginnote)              on input line 390.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 390.
 
-LaTeX Warning: Citation 'Thomas_2002' on page 56 undefined on input line 384.
-
-Package marginnote Info: Suggest that margin note 61.2 will be on
-(marginnote)             absolute page 61.
-(marginnote)             This may be wrong on input line 387.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 387.
-
-LaTeX Warning: Citation 'Phillpotts_1997' on page 56 undefined on input line 38
-8.
-
-
-LaTeX Warning: Citation 'Thomas_2002' on page 56 undefined on input line 388.
-
-
-LaTeX Warning: Citation 'Unknown_1957' on page 56 undefined on input line 388.
-
-
-LaTeX Warning: Citation 'White_2007' on page 56 undefined on input line 388.
-
-Package marginnote Info: Suggest that margin note 61.3 will be on
-(marginnote)             absolute page 61.
-(marginnote)             This may be wrong on input line 390.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 390.
-
-LaTeX Warning: Citation 'Phillpotts_1997' on page 56 undefined on input line 39
-1.
-
-
-LaTeX Warning: Citation 'Thomas_2002' on page 56 undefined on input line 391.
-
-
-LaTeX Warning: Citation 'Phillpotts_1997' on page 56 undefined on input line 39
-2.
-
-
-LaTeX Warning: Citation 'Thomas_2002' on page 56 undefined on input line 392.
-
-
-LaTeX Warning: Citation 'Phillpotts_1997' on page 56 undefined on input line 39
-4.
-
-
-LaTeX Warning: Citation 'Thomas_2002' on page 56 undefined on input line 394.
-
-
-LaTeX Warning: Citation 'White_2007' on page 56 undefined on input line 394.
-
-
-LaTeX Warning: Citation 'Thomas_2002' on page 56 undefined on input line 395.
-
-
-LaTeX Warning: Citation 'Phillpotts_1997' on page 56 undefined on input line 39
-8.
-
-
-LaTeX Warning: Citation 'Thomas_2002' on page 56 undefined on input line 398.
-
-
-LaTeX Warning: Citation 'White_2007' on page 56 undefined on input line 399.
-
-[56]
-
-LaTeX Warning: Citation 'Phillpotts_1997' on page 57 undefined on input line 40
-1.
-
-
-LaTeX Warning: Citation 'Rawcliffe_1999' on page 57 undefined on input line 401
-.
-
-
-LaTeX Warning: Citation 'Thomas_2002' on page 57 undefined on input line 401.
-
-
-LaTeX Warning: Citation 'Thomas_2002' on page 57 undefined on input line 402.
-
-
-Overfull \hbox (5.93777pt too wide) in paragraph at lines 401--403
-\EU1/LinLibertine(0)/m/n/10.95 which to live, a conclusion that agrees with the
- documentary evidence ([];
+Overfull \hbox (0.25594pt too wide) in paragraph at lines 397--400
+\EU1/LinLibertine(0)/m/n/10.95 north-west was the kitchen ([]Thomas, Sloane, an
+d Phillpotts, [][]1997[][]:51; []Thomas, [][]2002[][]:100);
  []
 
-Package marginnote Info: Suggest that margin note 62.1 will be on
-(marginnote)             absolute page 62.
-(marginnote)             This may be wrong on input line 405.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 405.
-
-LaTeX Warning: Citation 'Thomas_2002' on page 57 undefined on input line 406.
-
-
-LaTeX Warning: Citation 'Egan_2007' on page 57 undefined on input line 407.
-
-
-LaTeX Warning: Citation 'Thomas_2002' on page 57 undefined on input line 407.
-
-
-LaTeX Warning: Citation 'Phillpotts_1997' on page 57 undefined on input line 40
-8.
-
-
-LaTeX Warning: Citation 'Egan_2007' on page 57 undefined on input line 409.
-
-[57]
-
-LaTeX Warning: Citation 'Bowers_2007' on page 58 undefined on input line 414.
-
-
-LaTeX Warning: Citation 'Brodman_2009' on page 58 undefined on input line 414.
-
-
-LaTeX Warning: Citation 'Egan_2007' on page 58 undefined on input line 414.
-
-
-LaTeX Warning: Citation 'Thomas_2002' on page 58 undefined on input line 414.
-
-
-LaTeX Warning: Citation 'White_2007' on page 58 undefined on input line 414.
-
-
-LaTeX Warning: Citation 'Rogers_2001' on page 58 undefined on input line 418.
-
-
-LaTeX Warning: Citation 'Verlaan_2007' on page 58 undefined on input line 418.
-
-
-LaTeX Warning: Citation 'Waldron_1985' on page 58 undefined on input line 418.
-
-
-LaTeX Warning: Citation 'White_2007' on page 58 undefined on input line 418.
-
-
-LaTeX Warning: Citation 'White_2007' on page 58 undefined on input line 421.
-
-
-LaTeX Warning: Citation 'Bowers_2007' on page 58 undefined on input line 423.
-
-
-LaTeX Warning: Citation 'Phillpotts_1997' on page 58 undefined on input line 42
-4.
-
-
-LaTeX Warning: Citation 'White_2007' on page 58 undefined on input line 424.
-
-File: content/figures/Pereda-Figure04.jpg Graphic file (type QTm)
-<use  "content/figures/Pereda-Figure04.jpg" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [58]
-Package marginnote Info: Suggest that margin note 64.1 will be on
-(marginnote)             absolute page 64.
-(marginnote)             This may be wrong on input line 435.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 435.
+Package marginnote Info: Margin note 64.1 is on absolute page 64
+(marginnote)              on input line 405.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 405.
+ [59]
+File: content/figures/Pereda-Figure04.jpg Graphic file (type QTm)
+ <use  "content/figures/Pereda-Figure04.jpg" > [60]
+Package marginnote Info: Margin note 66.1 is on absolute page 66
+(marginnote)              on input line 435.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 435.
+ [61] [62]
+Overfull \hbox (3.38362pt too wide) in paragraph at lines 457--457
+[][]\EU1/LinLibertine(0)/m/n/10.95 Brodman, J. 2009: \EU1/LinLibertine(0)/m/it/
+10.95 Charity and religion in Medieval Europe\EU1/LinLibertine(0)/m/n/10.95 . W
+ashington D.C.: The Catholic
+ []
 
-
-LaTeX Warning: Citation 'Henderson_2006' on page 59 undefined on input line 440
-.
-
-
-LaTeX Warning: Citation 'Malcom_2014' on page 59 undefined on input line 440.
-
-
-LaTeX Warning: Citation 'Orme_1995' on page 59 undefined on input line 440.
-
-
-LaTeX Warning: Citation 'Rawcliffe_1999' on page 59 undefined on input line 440
-.
-
-
-LaTeX Warning: Citation 'Dean_2008' on page 59 undefined on input line 441.
-
-
-LaTeX Warning: Citation 'Malcom_2014' on page 59 undefined on input line 441.
-
-[59]
-
-LaTeX Warning: Citation 'Bowers_2007' on page 60 undefined on input line 445.
-
-
-LaTeX Warning: Citation 'Biller_2001' on page 60 undefined on input line 447.
-
-
-LaTeX Warning: Citation 'Rawcliffe_1995' on page 60 undefined on input line 447
-.
-
-
-LaTeX Warning: Citation 'Egan_2007' on page 60 undefined on input line 449.
-
-
-LaTeX Warning: Citation 'Malcom_2014' on page 60 undefined on input line 449.
-
-
-LaTeX Warning: Citation 'Stell_1996' on page 60 undefined on input line 453.
-
-
-LaTeX Warning: Empty bibliography on input line 457.
-
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/10.95' on inp
+ut line 457.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+[63]
 Package biblatex Info: Reference section=0 on input line 457.
-) [60]
+) [64]
 \openout2 = `content/11Raza.aux'.
 
  (./content/11Raza.tex
@@ -5028,50 +4239,12 @@ LaTeX Warning: Tab has been converted to Blank Space.
 \blx@sectionciteorder@6=\count449
 Package biblatex Info: Reference section=6 on input line 620.
 Package biblatex Info: Setting label 'refsection:6' on input line 620.
-Package marginnote Info: Suggest that margin note 66.1 will be on
-(marginnote)             absolute page 66.
-(marginnote)             This may be wrong on input line 620.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 620.
-
-LaTeX Warning: Citation 'Bopearachchi2011' on page 61 undefined on input line 6
-33.
-
-
-LaTeX Warning: Citation 'Mairs2014' on page 61 undefined on input line 633.
-
-
-LaTeX Warning: Citation 'Thonemann2015' on page 61 undefined on input line 635.
-
-
-
-LaTeX Warning: Citation 'Howgego1995' on page 61 undefined on input line 637.
-
-
-LaTeX Warning: Citation 'Holt1999' on page 61 undefined on input line 638.
-
-
-LaTeX Warning: Citation 'Thonemann2015' on page 61 undefined on input line 639.
-
-
-
-LaTeX Warning: Citation 'Bopearachchi1991' on page 61 undefined on input line 6
-41.
-
-
-LaTeX Warning: Citation 'Gupta1983' on page 61 undefined on input line 641.
-
-
-LaTeX Warning: Citation 'Iossif2010' on page 61 undefined on input line 641.
-
-
-LaTeX Warning: Citation 'Alonso2013' on page 61 undefined on input line 642.
-
-
-LaTeX Warning: Citation 'Alonso2014' on page 61 undefined on input line 642.
-
+Package marginnote Info: Margin note 70.1 is on absolute page 70
+(marginnote)              on input line 620.
+Package marginnote Info: xpos seems to be 113.70917pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 620.
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [61
+<use  "ijsra_logo.png" > [65
 
 
 
@@ -5079,166 +4252,7 @@ File: ijsra_logo.png Graphic file (type QTm)
 ]
 File: content/figures/Raza-Figure01.jpg Graphic file (type QTm)
  <use  "content/figures/Raza-Figure01.jpg" >
-
-LaTeX Warning: Citation 'Coin' on page 62 undefined on input line 650.
-
-
-LaTeX Warning: Citation 'Bopearachchi2011' on page 62 undefined on input line 6
-58.
-
-
-LaTeX Warning: Citation 'Kalita1997' on page 62 undefined on input line 658.
-
-
-LaTeX Warning: Citation 'Curtis2007' on page 62 undefined on input line 659.
-
-
-LaTeX Warning: Citation 'Green1993' on page 62 undefined on input line 659.
-
-
-LaTeX Warning: Citation 'MacDowall2007a' on page 62 undefined on input line 659
-.
-
-
-LaTeX Warning: Citation 'Gupta1983' on page 62 undefined on input line 660.
-
-
-LaTeX Warning: Citation 'Widemann2009' on page 62 undefined on input line 660.
-
-
-LaTeX Warning: Citation 'Holt2012' on page 62 undefined on input line 662.
-
-
-LaTeX Warning: Citation 'Holt2012' on page 62 undefined on input line 664.
-
-
-LaTeX Warning: Citation 'Sidky2000' on page 62 undefined on input line 665.
-
-
-LaTeX Warning: Citation 'Tarn1951' on page 62 undefined on input line 665.
-
-[62]
-
-LaTeX Warning: Citation 'Holt2012' on page 63 undefined on input line 670.
-
-
-LaTeX Warning: Citation 'MacDowall2007c' on page 63 undefined on input line 670
-.
-
-
-LaTeX Warning: Citation 'Tarn1951' on page 63 undefined on input line 672.
-
-
-LaTeX Warning: Citation 'Hollis2011' on page 63 undefined on input line 675.
-
-
-LaTeX Warning: Citation 'Holt2012' on page 63 undefined on input line 675.
-
-
-LaTeX Warning: Citation 'MacDowall2007a' on page 63 undefined on input line 675
-.
-
-
-LaTeX Warning: Citation 'MacDowall2007c' on page 63 undefined on input line 675
-.
-
-
-LaTeX Warning: Citation 'Bopearachchi2007' on page 63 undefined on input line 6
-76.
-
-
-LaTeX Warning: Citation 'Hollis2011' on page 63 undefined on input line 678.
-
-
-LaTeX Warning: Citation 'Holt2012' on page 63 undefined on input line 678.
-
-
-LaTeX Warning: Citation 'Holt1981' on page 63 undefined on input line 684.
-
-
-LaTeX Warning: Citation 'Holt1999' on page 63 undefined on input line 684.
-
-
-LaTeX Warning: Citation 'Holt1981' on page 63 undefined on input line 686.
-
-
-LaTeX Warning: Citation 'Holt1999' on page 63 undefined on input line 686.
-
-
-LaTeX Warning: Citation 'Lerner1999' on page 63 undefined on input line 686.
-
-
-LaTeX Warning: Citation 'Widemann2000' on page 63 undefined on input line 686.
-
-[63]
-
-LaTeX Warning: Citation 'Dahmen2007' on page 64 undefined on input line 696.
-
-
-LaTeX Warning: Citation 'Marcinkiewicz-Joseph2016' on page 64 undefined on inpu
-t line 696.
-
-
-LaTeX Warning: Citation 'Maritz2004' on page 64 undefined on input line 696.
-
-
-LaTeX Warning: Citation 'Smith1986' on page 64 undefined on input line 696.
-
-
-LaTeX Warning: Citation 'Abdullaev1995' on page 64 undefined on input line 701.
-
-
-
-LaTeX Warning: Citation 'Bannikov2013' on page 64 undefined on input line 701.
-
-
-LaTeX Warning: Citation 'Pfrommer1993' on page 64 undefined on input line 701.
-
-
-LaTeX Warning: Citation 'Treister1999' on page 64 undefined on input line 701.
-
-
-LaTeX Warning: Citation 'Lerner2009' on page 64 undefined on input line 704.
-
-
-LaTeX Warning: Citation 'Alonso2014' on page 64 undefined on input line 708.
-
-
-LaTeX Warning: Citation 'Erickson2013' on page 64 undefined on input line 708.
-
-
-LaTeX Warning: Citation 'Erickson2013' on page 64 undefined on input line 711.
-
-
-LaTeX Warning: Citation 'Hudson2008' on page 64 undefined on input line 712.
-
-
-LaTeX Warning: Citation 'Narain2003' on page 64 undefined on input line 714.
-
-
-LaTeX Warning: Citation 'Kalita1997' on page 64 undefined on input line 715.
-
-
-LaTeX Warning: Citation 'Bukharin2004' on page 64 undefined on input line 717.
-
-
-LaTeX Warning: Citation 'Stanco2012' on page 64 undefined on input line 717.
-
-
-LaTeX Warning: Citation 'Potter2003' on page 64 undefined on input line 721.
-
-
-LaTeX Warning: Citation 'Stanco2012' on page 64 undefined on input line 722.
-
-[64]
-
-LaTeX Warning: Citation 'MacDowall2007b' on page 65 undefined on input line 725
-.
-
-
-LaTeX Warning: Citation 'Potter2003' on page 65 undefined on input line 725.
-
-
+[66] [67] [68]
 Overfull \hbox (0.70973pt too wide) in paragraph at lines 724--728
 \EU1/LinLibertine(0)/m/n/10.95 ones (\EU1/LinLibertine(0)/m/it/10.95 interpreta
 tio graeca\EU1/LinLibertine(0)/m/n/10.95 ). Significantly, Demetrius’ coins dep
@@ -5246,229 +4260,43 @@ icted the goddess Artemis
  []
 
 File: content/figures/Raza-Figure02.jpg Graphic file (type QTm)
-<use  "content/figures/Raza-Figure02.jpg" >
-
-LaTeX Warning: Citation 'Coin' on page 65 undefined on input line 734.
-
-
-LaTeX Warning: Citation 'Mairs2014' on page 65 undefined on input line 741.
-
-
-LaTeX Warning: Citation 'Whitehead1970' on page 65 undefined on input line 742.
-
-
-
-LaTeX Warning: Citation 'Cribb2011' on page 65 undefined on input line 743.
-
-
-LaTeX Warning: Citation 'Widemann2003' on page 65 undefined on input line 743.
-
-
-LaTeX Warning: Citation 'Billows1995' on page 65 undefined on input line 744.
-
-
-LaTeX Warning: Citation 'Holt1999' on page 65 undefined on input line 745.
-
+<use  "content/figures/Raza-Figure02.jpg" > [69]
 File: content/figures/Raza-Figure03.jpg Graphic file (type QTm)
+
 <use  "content/figures/Raza-Figure03.jpg" >
-
-LaTeX Warning: Citation 'Coin' on page 65 undefined on input line 752.
-
-[65]
-
-LaTeX Warning: Citation 'Bopearachchi1990' on page 66 undefined on input line 7
-57.
-
-
-LaTeX Warning: Citation 'Whitehead1970' on page 66 undefined on input line 759.
-
-
-
-LaTeX Warning: Citation 'Whitehead1970' on page 66 undefined on input line 760.
-
-
-
-LaTeX Warning: Citation 'Widemann2007' on page 66 undefined on input line 760.
-
 File: content/figures/Raza-Figure04.jpg Graphic file (type QTm)
-<use  "content/figures/Raza-Figure04.jpg" >
 
-LaTeX Warning: Citation 'Coin' on page 66 undefined on input line 767.
-
-
-LaTeX Warning: Citation 'Widemann2003' on page 66 undefined on input line 772.
-
-
-LaTeX Warning: Citation 'Widemann2007' on page 66 undefined on input line 773.
-
-
-Overfull \hbox (28.1006pt too wide) in paragraph at lines 772--776
-\EU1/LinLibertine(0)/m/n/10.95 party’, which evidently attempted to enforce Ind
-ian worship of Greek gods ([]).
- []
-
-[66]
-
-LaTeX Warning: Citation 'Mairs2014' on page 67 undefined on input line 777.
-
-
-LaTeX Warning: Citation 'Bopearachchi2015' on page 67 undefined on input line 7
-82.
-
-
-LaTeX Warning: Citation 'Narain2003' on page 67 undefined on input line 782.
-
-
-LaTeX Warning: Citation 'Narain1991' on page 67 undefined on input line 786.
-
-
-LaTeX Warning: Citation 'Whitehead1970' on page 67 undefined on input line 788.
-
-
+<use  "content/figures/Raza-Figure04.jpg" > [70]
 File: content/figures/Raza-Figure05.jpg Graphic file (type QTm)
-<use  "content/figures/Raza-Figure05.jpg" >
 
-LaTeX Warning: Citation 'Coin' on page 67 undefined on input line 797.
-
-
-LaTeX Warning: Citation 'Hudson2008' on page 67 undefined on input line 804.
-
-
-LaTeX Warning: Citation 'Gupta1983' on page 67 undefined on input line 807.
-
-[67]
-
-LaTeX Warning: Citation 'MacDowall2007b' on page 68 undefined on input line 810
-.
-
-
-Overfull \hbox (2.39pt too wide) in paragraph at lines 809--812
+<use  "content/figures/Raza-Figure05.jpg" > [71]
+Overfull \hbox (17.8222pt too wide) in paragraph at lines 809--812
 \EU1/LinLibertine(0)/m/n/10.95 not unlike Indra’s representation in Indian trad
-ition (see figs. [][]4[][] to [][]6[][]) ([]).
+ition (see figs. [][]4[][] to [][]6[][]) ([]MacDowall, [][]2007a[][]:242–
  []
 
 File: content/figures/Raza-Figure06.jpg Graphic file (type QTm)
 <use  "content/figures/Raza-Figure06.jpg" >
-
-LaTeX Warning: Citation 'Coin' on page 68 undefined on input line 818.
-
 File: content/figures/Raza-Figure07.jpg Graphic file (type QTm)
-<use  "content/figures/Raza-Figure07.jpg" >
 
-LaTeX Warning: Citation 'Coin' on page 68 undefined on input line 828.
-
-
-LaTeX Warning: Citation 'Mairs2014' on page 68 undefined on input line 836.
-
-
-LaTeX Warning: Citation 'Bopearachchi1993' on page 68 undefined on input line 8
-44.
-
-
-LaTeX Warning: Citation 'Bopearachchi1993' on page 68 undefined on input line 8
-45.
-
-
-LaTeX Warning: Citation 'Holt1999' on page 68 undefined on input line 848.
-
-[68]
+<use  "content/figures/Raza-Figure07.jpg" > [72]
 File: content/figures/Raza-Figure08.jpg Graphic file (type QTm)
- <use  "content/figures/Raza-Figure08.jpg" >
 
-LaTeX Warning: Citation 'Coin' on page 69 undefined on input line 855.
-
-
-LaTeX Warning: Citation 'Holt2005' on page 69 undefined on input line 866.
-
-
-LaTeX Warning: Citation 'Mairs2014' on page 69 undefined on input line 866.
-
-
-LaTeX Warning: Citation 'Tarn1951' on page 69 undefined on input line 866.
-
-
-LaTeX Warning: Citation 'Widemann2000' on page 69 undefined on input line 867.
-
-
-LaTeX Warning: Citation 'Widemann2007' on page 69 undefined on input line 867.
-
-
-LaTeX Warning: Citation 'Fussman1993' on page 69 undefined on input line 868.
-
-
-LaTeX Warning: Citation 'Rothkrug2006' on page 69 undefined on input line 873.
-
-
-LaTeX Warning: Citation 'Mairs2015' on page 69 undefined on input line 874.
-
-[69]
-
-LaTeX Warning: Citation 'Gupta1983' on page 70 undefined on input line 878.
-
-
-LaTeX Warning: Citation 'Gonda1966' on page 70 undefined on input line 881.
-
-
-LaTeX Warning: Citation 'Campbell2015' on page 70 undefined on input line 881.
-
-
-LaTeX Warning: Citation 'Gupta1983' on page 70 undefined on input line 882.
-
-
-LaTeX Warning: Citation 'Trautmann2015' on page 70 undefined on input line 886.
-
-
-
-LaTeX Warning: Citation 'Alter2004' on page 70 undefined on input line 888.
-
-
-LaTeX Warning: Citation 'Dhavalikar1981' on page 70 undefined on input line 888
-.
-
-
-LaTeX Warning: Citation 'Dhammika2005' on page 70 undefined on input line 889.
-
-
-LaTeX Warning: Citation 'Stanco2012' on page 70 undefined on input line 892.
-
+<use  "content/figures/Raza-Figure08.jpg" > [73]
 File: content/figures/Raza-Figure09.jpg Graphic file (type QTm)
-<use  "content/figures/Raza-Figure09.jpg" >
 
-LaTeX Warning: Citation 'Coin' on page 70 undefined on input line 899.
-
-
-LaTeX Warning: Citation 'Mairs2015' on page 70 undefined on input line 904.
-
-
-LaTeX Warning: Citation 'Holt2003' on page 70 undefined on input line 906.
-
-
-LaTeX Warning: Citation 'Stewart1993' on page 70 undefined on input line 906.
-
-
-Overfull \hbox (4.21864pt too wide) in paragraph at lines 904--908
-\EU1/LinLibertine(0)/m/n/10.95 represented power over elephants and symbolicall
-y alluded to the strength of the wielder.
- []
-
-[70]
-
-LaTeX Warning: Citation 'Strootman2014' on page 71 undefined on input line 917.
-
-
-Package marginnote Info: Suggest that margin note 76.1 will be on
-(marginnote)             absolute page 76.
-(marginnote)             This may be wrong on input line 923.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 923.
-
-LaTeX Warning: Empty bibliography on input line 924.
-
+<use  "content/figures/Raza-Figure09.jpg" > [74]
+Package marginnote Info: Margin note 80.1 is on absolute page 81
+(marginnote)              on input line 923.
+Package marginnote Info: xpos seems to be 149.02643pt,
+(marginnote)             \marginnoterightadjust ignored on input line 923.
+ [75] [76] [77] [78]
 Package biblatex Info: Reference section=0 on input line 924.
-) [71]
+) [79]
 \openout2 = `content/Rownd.aux'.
 
- (./content/Rownd.tex
+
+(./content/Rownd.tex
 
 LaTeX Warning: Overwriting file `./Rownd.bib'.
 
@@ -5480,96 +4308,71 @@ LaTeX Warning: Tab has been converted to Blank Space.
 
 \blx@maxsegment@7=\count450
 \blx@sectionciteorder@7=\count451
-Package biblatex Info: Reference section=7 on input line 188.
-Package biblatex Info: Setting label 'refsection:7' on input line 188.
-[72
+Package biblatex Info: Reference section=7 on input line 187.
+Package biblatex Info: Setting label 'refsection:7' on input line 187.
+[80
 
 
 
 
 ]
-Package marginnote Info: Suggest that margin note 78.1 will be on
-(marginnote)             absolute page 78.
-(marginnote)             This may be wrong on input line 188.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 188.
-Package marginnote Info: Suggest that margin note 78.2 will be on
-(marginnote)             absolute page 78.
-(marginnote)             This may be wrong on input line 190.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 190.
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [73]
-
-LaTeX Warning: Citation 'UNESCO2015' on page 74 undefined on input line 197.
-
-
-LaTeX Warning: Citation 'conard2009' on page 74 undefined on input line 200.
-
-[74]
-Package marginnote Info: Suggest that margin note 80.1 will be on
-(marginnote)             absolute page 80.
-(marginnote)             This may be wrong on input line 203.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 203.
-Package marginnote Info: Suggest that margin note 80.2 will be on
-(marginnote)             absolute page 80.
-(marginnote)             This may be wrong on input line 207.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 207.
- [75] [76] [77]
-Package marginnote Info: Suggest that margin note 83.1 will be on
-(marginnote)             absolute page 83.
-(marginnote)             This may be wrong on input line 248.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 248.
- [78] [79] [80]
 Package marginnote Info: Margin note 86.1 is on absolute page 86
-(marginnote)              on input line 286.
+(marginnote)              on input line 187.
+Package marginnote Info: xpos seems to be 116.64178pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 187.
+Package marginnote Info: Margin note 86.2 is on absolute page 86
+(marginnote)              on input line 189.
+Package marginnote Info: xpos seems to be 178.60677pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 189.
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" > [81] [82]
+Package marginnote Info: Margin note 88.1 is on absolute page 88
+(marginnote)              on input line 202.
+Package marginnote Info: xpos seems to be 137.47298pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 202.
+Package marginnote Info: Margin note 88.2 is on absolute page 88
+(marginnote)              on input line 206.
+Package marginnote Info: xpos seems to be 160.65259pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 206.
+ [83] [84] [85]
+Package marginnote Info: Margin note 91.1 is on absolute page 91
+(marginnote)              on input line 247.
+Package marginnote Info: xpos seems to be 227.29465pt,
+(marginnote)             \marginnoterightadjust ignored on input line 247.
+ [86] [87] [88]
+Package marginnote Info: Margin note 94.1 is on absolute page 94
+(marginnote)              on input line 285.
+Package marginnote Info: xpos seems to be 113.37538pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 285.
+ [89]
+Package marginnote Info: Margin note 95.1 is on absolute page 95
+(marginnote)              on input line 292.
 Package marginnote Info: xpos seems to be 199.51385pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 286.
- [81]
-Package marginnote Info: Margin note 87.1 is on absolute page 87
-(marginnote)              on input line 293.
-Package marginnote Info: xpos seems to be 137.56918pt,
-(marginnote)             \marginnoterightadjust ignored on input line 293.
+(marginnote)             \marginnoterightadjust ignored on input line 292.
 
-Overfull \hbox (4.9451pt too wide) in paragraph at lines 308--309
+Overfull \hbox (4.9451pt too wide) in paragraph at lines 307--308
 []\EU1/LinLibertine(0)/m/n/10.95 to ensure that excavations and other potential
 ly destructive techniques
  []
 
+[90]
+Package marginnote Info: Margin note 96.1 is on absolute page 96
+(marginnote)              on input line 322.
+Package marginnote Info: xpos seems to be 137.56918pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 322.
 
-LaTeX Warning: Citation 'finlo2006' on page 82 undefined on input line 316.
-
-
-LaTeX Warning: Citation 'potts2015' on page 82 undefined on input line 316.
-
-
-LaTeX Warning: Citation 'willems2007' on page 82 undefined on input line 316.
-
-[82]
-Package marginnote Info: Suggest that margin note 88.1 will be on
-(marginnote)             absolute page 88.
-(marginnote)             This may be wrong on input line 323.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 323.
-
-
-LaTeX Warning: Citation 'RA10066' on page 83 undefined on input line 323.
-
-
-Overfull \hbox (20.18008pt too wide) in paragraph at lines 323--324
+Overfull \hbox (20.18008pt too wide) in paragraph at lines 322--323
 []\EU1/LinLibertine(0)/m/n/10.95 While profit |[][][]driven thieves such as the
  treasure hunters of the Philippines and nighthawks
  []
 
-[83]
+[91]
 
-LaTeX Warning: Empty bibliography on input line 332.
+Package biblatex Warning: No driver for entry type 'standard'.
+(biblatex)                Using fallback driver on input line 331.
 
-Package biblatex Info: Reference section=0 on input line 332.
-) [84]
+Package biblatex Info: Reference section=0 on input line 331.
+) [92]
 \openout2 = `content/Davis.aux'.
 
  (./content/Davis.tex
@@ -5596,149 +4399,26 @@ Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/6' on input li
 ne 475.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-
-LaTeX Warning: Citation 'roberts1959' on page 85 undefined on input line 475.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 85 undefined on input line 475.
-
-
-LaTeX Warning: Citation 'peregrine2008' on page 85 undefined on input line 481.
-
-
-
-LaTeX Warning: Citation 'chick2015' on page 85 undefined on input line 481.
-
-
-LaTeX Warning: Citation 'sipes1973' on page 85 undefined on input line 481.
-
-
-LaTeX Warning: Citation 'chick1984' on page 85 undefined on input line 481.
-
-
-LaTeX Warning: Citation 'chick2015' on page 85 undefined on input line 481.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 85 undefined on input line 481.
-
-
-LaTeX Warning: Citation 'chick1984' on page 85 undefined on input line 481.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 85 undefined on input line 481.
-
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [85
+<use  "ijsra_logo.png" > [93
 
 
 
 
 ]
-
-LaTeX Warning: Citation 'gosso2005' on page 86 undefined on input line 483.
-
-
-LaTeX Warning: Citation 'crist2016' on page 86 undefined on input line 483.
-
-
-LaTeX Warning: Citation 'finkel2007' on page 86 undefined on input line 483.
-
-
-LaTeX Warning: Citation 'hall2016' on page 86 undefined on input line 483.
-
-
-LaTeX Warning: Citation 'piccione1980' on page 86 undefined on input line 485.
-
-
-LaTeX Warning: Citation 'faulkner2008' on page 86 undefined on input line 486.
-
-
-LaTeX Warning: Citation 'piccione1980' on page 86 undefined on input line 486.
-
-
-LaTeX Warning: Citation 'faulkner2008' on page 86 undefined on input line 486.
-
-
-LaTeX Warning: Citation 'devoogt2013' on page 86 undefined on input line 486.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 86 undefined on input line 488.
-
-
-LaTeX Warning: Citation 'chick1998' on page 86 undefined on input line 488.
-
-Package marginnote Info: Margin note 91.1 is on absolute page 91
+Package marginnote Info: Margin note 99.1 is on absolute page 99
 (marginnote)              on input line 491.
-Package marginnote Info: xpos seems to be 145.0124pt,
+Package marginnote Info: xpos seems to be 221.01575pt,
 (marginnote)             \marginnoterightadjust ignored on input line 491.
-
-LaTeX Warning: Citation 'roberts1959' on page 86 undefined on input line 491.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\cite' on input line 491.
 
-
-LaTeX Warning: Citation 'roberts1959' on page 86 undefined on input line 491.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 86 undefined on input line 491.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 86 undefined on input line 491.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 86 undefined on input line 496.
-
-
-Overfull \hbox (35.82768pt too wide) in paragraph at lines 496--497
+[94]
+Overfull \hbox (9.37248pt too wide) in paragraph at lines 496--497
 []\EU1/LinLibertine(0)/m/n/10.95 Games of physical skill are potentially relate
-d to environmental conditions ([]). 
- []
-
-
-LaTeX Warning: Citation 'chick1998' on page 86 undefined on input line 499.
-
-
-LaTeX Warning: Citation 'chick1998' on page 86 undefined on input line 499.
-
-
-LaTeX Warning: Citation 'murdock1962' on page 86 undefined on input line 500.
-
-
-LaTeX Warning: Citation 'barry1980' on page 86 undefined on input line 500.
-
-
-LaTeX Warning: Citation 'gray1999' on page 86 undefined on input line 500.
-
-
-LaTeX Warning: Citation 'korotayev2004' on page 86 undefined on input line 500.
-
-
-
-LaTeX Warning: Citation 'bondarenko2005' on page 86 undefined on input line 500
-.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 86 undefined on input line 500.
-
-[86]
-
-LaTeX Warning: Citation 'roberts1959' on page 87 undefined on input line 502.
-
-
-LaTeX Warning: Citation 'lambert1959' on page 87 undefined on input line 502.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 87 undefined on input line 502.
-
-
-LaTeX Warning: Citation 'chick1998' on page 87 undefined on input line 503.
-
-
-Overfull \hbox (0.63799pt too wide) in paragraph at lines 502--504
-\EU1/LinLibertine(0)/m/n/10.95 ferent cultures detailed in a study by [] The ba
-sic hypothesis of []
+d to environmental conditions ([]Roberts,
  []
 
 File: content/figures/Davis-Table01.png Graphic file (type QTm)
@@ -5748,76 +4428,19 @@ Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 507.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Margin note 92.1 is on absolute page 92
+Package marginnote Info: Margin note 100.1 is on absolute page 100
 (marginnote)              on input line 511.
-Package marginnote Info: xpos seems to be 142.26378pt,
+Package marginnote Info: xpos seems to be 145.0124pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 511.
-
-LaTeX Warning: Citation 'kirby2016' on page 87 undefined on input line 511.
-
-
-LaTeX Warning: Citation 'D-PLACE' on page 87 undefined on input line 511.
-
-
-LaTeX Warning: Citation 'kirby2016' on page 87 undefined on input line 513.
-
-
-LaTeX Warning: Citation 'kirby2016' on page 87 undefined on input line 513.
-
-[87]
-
-LaTeX Warning: Citation 'kirby2016' on page 88 undefined on input line 515.
-
-Package marginnote Info: Margin note 93.1 is on absolute page 93
+[95]
+Package marginnote Info: Margin note 101.1 is on absolute page 101
 (marginnote)              on input line 517.
-Package marginnote Info: xpos seems to be 240.094pt,
-(marginnote)             \marginnoterightadjust ignored on input line 517.
-
-LaTeX Warning: Citation 'roberts1959' on page 88 undefined on input line 518.
-
-
-LaTeX Warning: Citation 'lambert1959' on page 88 undefined on input line 519.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 88 undefined on input line 519.
-
-
-LaTeX Warning: Citation 'purzycki2016' on page 88 undefined on input line 521.
-
-
-LaTeX Warning: Citation 'botero2014' on page 88 undefined on input line 521.
-
-
-LaTeX Warning: Citation 'purzycki2016' on page 88 undefined on input line 521.
-
-
-LaTeX Warning: Citation 'purzycki2011' on page 88 undefined on input line 521.
-
-
-LaTeX Warning: Citation 'lansing1993' on page 88 undefined on input line 521.
-
-
-LaTeX Warning: Citation 'purzycki2016' on page 88 undefined on input line 521.
-
-
-LaTeX Warning: Citation 'ball1972' on page 88 undefined on input line 521.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 88 undefined on input line 521.
-
-[88]
-
-LaTeX Warning: Citation 'roberts1959' on page 89 undefined on input line 523.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 89 undefined on input line 523.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 89 undefined on input line 524.
-
-Package marginnote Info: Margin note 94.1 is on absolute page 94
-(marginnote)              on input line 525.
 Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 517.
+ [96]
+Package marginnote Info: Margin note 102.1 is on absolute page 102
+(marginnote)              on input line 525.
+Package marginnote Info: xpos seems to be 105.05861pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 525.
 
 Overfull \hbox (4.24048pt too wide) in paragraph at lines 523--526
@@ -5825,94 +4448,42 @@ Overfull \hbox (4.24048pt too wide) in paragraph at lines 523--526
 ss further correlations between game
  []
 
-Package marginnote Info: Suggest that margin note 94.2 will be on
-(marginnote)             absolute page 94.
-(marginnote)             This may be wrong on input line 527.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 527.
-
-LaTeX Warning: Citation 'roberts1959' on page 89 undefined on input line 528.
-
-
-LaTeX Warning: Citation 'lambert1959' on page 89 undefined on input line 528.
-
+Package marginnote Info: Margin note 102.2 is on absolute page 102
+(marginnote)              on input line 527.
+Package marginnote Info: xpos seems to be 129.80688pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 527.
+[97]
 File: content/figures/Davis-Table02.png Graphic file (type QTm)
-<use  "content/figures/Davis-Table02.png" >
+ <use  "content/figures/Davis-Table02.png" >
 
 Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 532.
 See the caption package documentation for explanation.
 
-Package marginnote Info: Suggest that margin note 94.3 will be on
-(marginnote)             absolute page 94.
-(marginnote)             This may be wrong on input line 537.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 537.
-[89]
-Package marginnote Info: Margin note 95.1 is on absolute page 95
+Package marginnote Info: Margin note 103.1 is on absolute page 103
+(marginnote)              on input line 537.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 537.
+Package marginnote Info: Margin note 103.2 is on absolute page 103
 (marginnote)              on input line 540.
-Package marginnote Info: xpos seems to be 71.13187pt,
+Package marginnote Info: xpos seems to be 142.26378pt,
 (marginnote)             \marginnoterightadjust ignored on input line 540.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 90 undefined on input line 541.
-
-
-LaTeX Warning: Citation 'ball1972' on page 90 undefined on input line 541.
-
-
-LaTeX Warning: Citation 'chick1984' on page 90 undefined on input line 541.
-
-
-LaTeX Warning: Citation 'chick1998' on page 90 undefined on input line 541.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 90 undefined on input line 541.
-
+[98]
 File: content/figures/Davis_Figure1_082016.png Graphic file (type QTm)
-<use  "content/figures/Davis_Figure1_082016.png" >
+ <use  "content/figures/Davis_Figure1_082016.png" >
 File: content/figures/Davis_Figure2_082016.png Graphic file (type QTm)
 
 <use  "content/figures/Davis_Figure2_082016.png" >
-
-LaTeX Warning: Citation 'roberts1959' on page 90 undefined on input line 565.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 90 undefined on input line 565.
-
-
-Overfull \hbox (12.10147pt too wide) in paragraph at lines 565--566
-\EU1/LinLibertine(0)/m/n/10.95 types present in a cultural group to its level o
-f political integration (see fig. [][]3[][]). []
- []
-
 File: content/figures/Davis_Figure3_082016.png Graphic file (type QTm)
-<use  "content/figures/Davis_Figure3_082016.png" > [90]
 
-LaTeX Warning: Citation 'roberts1959' on page 91 undefined on input line 577.
-
-
-LaTeX Warning: Citation 'murdock1957' on page 91 undefined on input line 577.
-
-
-LaTeX Warning: Citation 'murdock1957' on page 91 undefined on input line 577.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 91 undefined on input line 577.
-
-
-LaTeX Warning: Citation 'murdock1957' on page 91 undefined on input line 577.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 91 undefined on input line 577.
-
-Package marginnote Info: Margin note 96.1 is on absolute page 96
+<use  "content/figures/Davis_Figure3_082016.png" > [99]
+Package marginnote Info: Margin note 105.1 is on absolute page 105
 (marginnote)              on input line 579.
-Package marginnote Info: xpos seems to be 175.12762pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 579.
-[91]
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 579.
 File: content/figures/Davis-Table02.png Graphic file (type QTm)
- <use  "content/figures/Davis-Table02.png" >
+
+<use  "content/figures/Davis-Table02.png" >
 
 Package caption Warning: The caption type was already set to `figure'
 (caption)                 on input line 584.
@@ -5920,210 +4491,31 @@ See the caption package documentation for explanation.
 
 File: content/figures/Davis_Figure4_082016.png Graphic file (type QTm)
 <use  "content/figures/Davis_Figure4_082016.png" >
-Package marginnote Info: Suggest that margin note 97.1 will be on
-(marginnote)             absolute page 97.
-(marginnote)             This may be wrong on input line 597.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 597.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 92 undefined on input line 597.
-
-
-LaTeX Warning: Citation 'ball1972' on page 92 undefined on input line 597.
-
-
-LaTeX Warning: Citation 'chick1998' on page 92 undefined on input line 597.
-
-
-LaTeX Warning: Citation 'binde2005' on page 92 undefined on input line 597.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 92 undefined on input line 597.
-
-
-LaTeX Warning: Citation 'binde2005' on page 92 undefined on input line 597.
-
-
-LaTeX Warning: Citation 'ball1972' on page 92 undefined on input line 597.
-
-
-LaTeX Warning: Citation 'ball1972' on page 92 undefined on input line 599.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 92 undefined on input line 599.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 92 undefined on input line 599.
-
-
-LaTeX Warning: Citation 'binde2005' on page 92 undefined on input line 599.
-
-
-LaTeX Warning: Citation 'binde2007' on page 92 undefined on input line 599.
-
-[92] [93]
+Package marginnote Info: Margin note 105.2 is on absolute page 106
+(marginnote)              on input line 597.
+Package marginnote Info: xpos seems to be 103.99571pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 597.
+ [100] [101] [102]
 File: content/figures/Davis_Figure5_082016.png Graphic file (type QTm)
- <use  "content/figures/Davis_Figure5_082016.png" >
 
-LaTeX Warning: Citation 'wohl2002' on page 94 undefined on input line 611.
-
-
-LaTeX Warning: Citation 'langer1975' on page 94 undefined on input line 611.
-
-
-LaTeX Warning: Citation 'langer1975' on page 94 undefined on input line 611.
-
-
-LaTeX Warning: Citation 'langer1975' on page 94 undefined on input line 617.
-
-
-LaTeX Warning: Citation 'fast2009' on page 94 undefined on input line 617.
-
-
-LaTeX Warning: Citation 'tobacyk1991' on page 94 undefined on input line 617.
-
-[94]
-
-LaTeX Warning: Citation 'robinson2015' on page 95 undefined on input line 619.
-
-[95]
-
-LaTeX Warning: Citation 'bell1992' on page 96 undefined on input line 627.
-
-
-LaTeX Warning: Citation 'hodder2016' on page 96 undefined on input line 627.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 96 undefined on input line 629.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 96 undefined on input line 629.
-
-
-LaTeX Warning: Citation 'rogersdotter2015' on page 96 undefined on input line 6
-31.
-
-
-LaTeX Warning: Citation 'rogersdotter2015' on page 96 undefined on input line 6
-31.
-
-
-LaTeX Warning: Citation 'rogersdotter2015' on page 96 undefined on input line 6
-31.
-
-
-LaTeX Warning: Citation 'kendall2007' on page 96 undefined on input line 633.
-
-
-LaTeX Warning: Citation 'gobet2004' on page 96 undefined on input line 633.
-
-
-LaTeX Warning: Citation 'piccione1980' on page 96 undefined on input line 633.
-
-
-LaTeX Warning: Citation 'piccione2007' on page 96 undefined on input line 633.
-
-
-LaTeX Warning: Citation 'piccione2007' on page 96 undefined on input line 633.
-
-
-LaTeX Warning: Citation 'robinson2015' on page 96 undefined on input line 633.
-
-
-LaTeX Warning: Citation 'kendall2007' on page 96 undefined on input line 633.
-
-
-LaTeX Warning: Citation 'kendall2007' on page 96 undefined on input line 633.
-
-
-LaTeX Warning: Citation 'kendall2007' on page 96 undefined on input line 633.
-
-[96]
-
-LaTeX Warning: Citation 'stevenson1903' on page 97 undefined on input line 636.
-
-
-
-LaTeX Warning: Citation 'stevenson1903' on page 97 undefined on input line 636.
-
-
-
-LaTeX Warning: Citation 'stevenson1903' on page 97 undefined on input line 636.
-
-
-
-LaTeX Warning: Citation 'ball1972' on page 97 undefined on input line 638.
-
-
-LaTeX Warning: Citation 'chick1984' on page 97 undefined on input line 638.
-
-
-LaTeX Warning: Citation 'chick1998' on page 97 undefined on input line 638.
-
-
-LaTeX Warning: Citation 'chick2015' on page 97 undefined on input line 638.
-
-
-LaTeX Warning: Citation 'peregrine2008' on page 97 undefined on input line 638.
-
-
-
-LaTeX Warning: Citation 'roberts1959' on page 97 undefined on input line 638.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 97 undefined on input line 638.
-
-
-LaTeX Warning: Citation 'chick1998' on page 97 undefined on input line 638.
-
-
-LaTeX Warning: Citation 'rogersdotter2015' on page 97 undefined on input line 6
-38.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 97 undefined on input line 640.
-
-[97]
-
-LaTeX Warning: Citation 'botero2014' on page 98 undefined on input line 644.
-
-
-LaTeX Warning: Citation 'botero2014' on page 98 undefined on input line 644.
-
-
-LaTeX Warning: Citation 'davis' on page 98 undefined on input line 644.
-
+<use  "content/figures/Davis_Figure5_082016.png" > [103] [104] [105]
 File: content/figures/Davis_Figure6_082016.png Graphic file (type QTm)
+
 <use  "content/figures/Davis_Figure6_082016.png" >
 File: content/figures/Davis_Figure7_082016.png Graphic file (type QTm)
 
 <use  "content/figures/Davis_Figure7_082016.png" >
-Package marginnote Info: Suggest that margin note 103.1 will be on
-(marginnote)             absolute page 103.
-(marginnote)             This may be wrong on input line 666.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 666.
-
-
-LaTeX Warning: Citation 'D-PLACE' on page 98 undefined on input line 667.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 98 undefined on input line 667.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 98 undefined on input line 667.
-
-
-LaTeX Warning: Citation 'roberts1959' on page 98 undefined on input line 667.
-
-[98]
+Package marginnote Info: Margin note 111.1 is on absolute page 112
+(marginnote)              on input line 666.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 666.
+ [106]
 Overfull \hbox (0.16716pt too wide) in paragraph at lines 669--670
 []\EU1/LinLibertine(0)/m/n/10.95 For archaeologists, these conclusions reaffirm
  that games, especially games of chance,
  []
 
-[99] [100]
+[107] [108]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
  <use  "content/Davis_Appendix.pdf" >
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
@@ -6143,7 +4535,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page1>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page1> [101
+<use  "content/Davis_Appendix.pdf"  page1> [109
 
 ]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
@@ -6154,7 +4546,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page2>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page2> [102]
+<use  "content/Davis_Appendix.pdf"  page2> [110]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page3>
@@ -6163,7 +4555,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page3>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page3> [103]
+<use  "content/Davis_Appendix.pdf"  page3> [111]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page4>
@@ -6172,7 +4564,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page4>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page4> [104]
+<use  "content/Davis_Appendix.pdf"  page4> [112]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page5>
@@ -6181,7 +4573,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page5>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page5> [105]
+<use  "content/Davis_Appendix.pdf"  page5> [113]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page6>
@@ -6190,7 +4582,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page6>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page6> [106]
+<use  "content/Davis_Appendix.pdf"  page6> [114]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page7>
@@ -6199,7 +4591,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page7>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page7> [107]
+<use  "content/Davis_Appendix.pdf"  page7> [115]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page8>
@@ -6208,7 +4600,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page8>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page8> [108]
+<use  "content/Davis_Appendix.pdf"  page8> [116]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page9>
@@ -6217,7 +4609,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page9>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page9> [109]
+<use  "content/Davis_Appendix.pdf"  page9> [117]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page10>
@@ -6226,7 +4618,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page10>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page10> [110]
+<use  "content/Davis_Appendix.pdf"  page10> [118]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page11>
@@ -6235,7 +4627,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page11>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page11> [111]
+<use  "content/Davis_Appendix.pdf"  page11> [119]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page12>
@@ -6244,7 +4636,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page12>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page12> [112]
+<use  "content/Davis_Appendix.pdf"  page12> [120]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page13>
@@ -6253,7 +4645,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page13>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page13> [113]
+<use  "content/Davis_Appendix.pdf"  page13> [121]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page14>
@@ -6262,7 +4654,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page14>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page14> [114]
+<use  "content/Davis_Appendix.pdf"  page14> [122]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page15>
@@ -6271,7 +4663,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page15>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page15> [115]
+<use  "content/Davis_Appendix.pdf"  page15> [123]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page16>
@@ -6280,7 +4672,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page16>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page16> [116]
+<use  "content/Davis_Appendix.pdf"  page16> [124]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page17>
@@ -6289,7 +4681,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page17>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page17> [117]
+<use  "content/Davis_Appendix.pdf"  page17> [125]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page18>
@@ -6298,7 +4690,7 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page18>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page18> [118]
+<use  "content/Davis_Appendix.pdf"  page18> [126]
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
 <use  "content/Davis_Appendix.pdf"  page19>
@@ -6307,12 +4699,19 @@ File: content/Davis_Appendix.pdf Graphic file (type QTm)
 <use  "content/Davis_Appendix.pdf"  page19>
 File: content/Davis_Appendix.pdf Graphic file (type QTm)
 
-<use  "content/Davis_Appendix.pdf"  page19> [119]
+<use  "content/Davis_Appendix.pdf"  page19> [127] [128]
+Overfull \hbox (1.59785pt too wide) in paragraph at lines 682--682
+[][]\EU1/LinLibertine(0)/m/n/10.95 Peregrine, Peter N. 2008: Political Strategy
+ and Cross-Cultural Variation in Games. \EU1/LinLibertine(0)/m/it/10.95 Cross-
+ []
 
-LaTeX Warning: Empty bibliography on input line 682.
 
+Package biblatex Warning: No driver for entry type 'standard'.
+(biblatex)                Using fallback driver on input line 682.
+
+[129]
 Package biblatex Info: Reference section=0 on input line 682.
-) [120]
+) [130]
 \openout2 = `preamble/_part_litreviews.aux'.
 
  (./preamble/_part_litreviews.tex
@@ -6320,12 +4719,12 @@ part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
-[121
+[131
 
 
 
 
-] [122])
+] [132])
 \openout2 = `content/Gyngell.aux'.
 
  (./content/Gyngell.tex
@@ -6340,478 +4739,100 @@ LaTeX Warning: Tab has been converted to Blank Space.
 
 \blx@maxsegment@9=\count454
 \blx@sectionciteorder@9=\count455
-Package biblatex Info: Reference section=9 on input line 301.
-Package biblatex Info: Setting label 'refsection:9' on input line 301.
-
-LaTeX Warning: Citation 'Childe_1953' on page 123 undefined on input line 306.
-
+Package biblatex Info: Reference section=9 on input line 290.
+Package biblatex Info: Setting label 'refsection:9' on input line 290.
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [123
+<use  "ijsra_logo.png" > [133
 
 
 
 
 ]
-
-LaTeX Warning: Citation 'Edwards_1989' on page 124 undefined on input line 308.
-
-
-
-LaTeX Warning: Citation 'Shewan_2004' on page 124 undefined on input line 309.
-
-
-LaTeX Warning: Citation 'Fletcher_2007' on page 124 undefined on input line 310
-.
-
-Package marginnote Info: Margin note 129.1 is on absolute page 129
-(marginnote)              on input line 312.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 312.
-
-LaTeX Warning: Citation 'Garrod_1957' on page 124 undefined on input line 313.
-
-
-LaTeX Warning: Citation 'Garrod_1957' on page 124 undefined on input line 314.
-
-
-LaTeX Warning: Citation 'Lieberman_1999' on page 124 undefined on input line 31
-5.
-
-
-LaTeX Warning: Citation 'Bar-Yosef_1989' on page 124 undefined on input line 31
-6.
-
-
-LaTeX Warning: Citation 'Finlayson_2013' on page 124 undefined on input line 31
-8.
-
-
-Overfull \hbox (36.41893pt too wide) in paragraph at lines 318--320
-\EU1/LinLibertine(0)/m/n/10.95 understanding of the significance of the period 
-onto their analysis of the data ([]).
- []
-
-Package marginnote Info: Suggest that margin note 129.2 will be on
-(marginnote)             absolute page 129.
-(marginnote)             This may be wrong on input line 321.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 321.
-
-LaTeX Warning: Citation 'Bar-Yosef_1983' on page 124 undefined on input line 32
-3.
-
-
-LaTeX Warning: Citation 'Bar-Yosef_1983' on page 124 undefined on input line 32
-4.
-
-
-LaTeX Warning: Citation 'Bar-Yosef_1983' on page 124 undefined on input line 32
-5.
-
-
-LaTeX Warning: Citation 'Bar-Yosef_1991' on page 124 undefined on input line 32
-6.
-
-
-LaTeX Warning: Citation 'Bar-Yosef_1983' on page 124 undefined on input line 32
-7.
-
-
-LaTeX Warning: Citation 'Bar-Yosef_1991' on page 124 undefined on input line 32
-9.
-
-
-LaTeX Warning: Citation 'Shewan_2004' on page 124 undefined on input line 330.
-
-
-Overfull \hbox (8.91254pt too wide) in paragraph at lines 322--331
-\EU1/LinLibertine(0)/m/n/10.95 camps would be situated within the same territor
-y as a large base camp ([]).
- []
-
-
-Overfull \hbox (19.88077pt too wide) in paragraph at lines 322--331
-\EU1/LinLibertine(0)/m/n/10.95 quently, he defined Hayonim Terrace as a permane
-nt Natufian settlement ([]).
- []
-
-[124]
-
-LaTeX Warning: Citation 'Bar-Yosef_1998' on page 125 undefined on input line 33
-2.
-
-
-LaTeX Warning: Citation 'Bar-Yosef_1998' on page 125 undefined on input line 33
-3.
-
-
-LaTeX Warning: Citation 'Valla_1999' on page 125 undefined on input line 334.
-
-
-LaTeX Warning: Citation 'Fletcher_2007' on page 125 undefined on input line 335
-.
-
-
-LaTeX Warning: Citation 'Bar-Yosef_2011' on page 125 undefined on input line 33
-6.
-
-
-LaTeX Warning: Citation 'Finlayson_2013' on page 125 undefined on input line 33
-7.
-
-Package marginnote Info: Margin note 130.1 is on absolute page 130
-(marginnote)              on input line 340.
+Package marginnote Info: Margin note 139.1 is on absolute page 139
+(marginnote)              on input line 301.
 Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 340.
-
-LaTeX Warning: Citation 'Tchernov_1991' on page 125 undefined on input line 341
-.
-
-
-LaTeX Warning: Citation 'Tchernov_1991' on page 125 undefined on input line 342
-.
-
-
-LaTeX Warning: Citation 'Tchernov_1991' on page 125 undefined on input line 343
-.
-
-
-LaTeX Warning: Citation 'Boyd_2006' on page 125 undefined on input line 344.
-
-
-LaTeX Warning: Citation 'Boyd_2006' on page 125 undefined on input line 345.
-
-[125]
-
-LaTeX Warning: Citation 'Valla_1999' on page 126 undefined on input line 347.
-
-
-LaTeX Warning: Citation 'Valla_1999' on page 126 undefined on input line 348.
-
-
-LaTeX Warning: Citation 'Lieberman_1999' on page 126 undefined on input line 34
-9.
-
-
-LaTeX Warning: Citation 'Lieberman_1999' on page 126 undefined on input line 35
-0.
-
-
-LaTeX Warning: Citation 'Stutz_2002' on page 126 undefined on input line 351.
-
-
-LaTeX Warning: Citation 'Stutz_2002' on page 126 undefined on input line 352.
-
-
-LaTeX Warning: Citation 'Belfer-Cohen_1991' on page 126 undefined on input line
- 353.
-
-
-LaTeX Warning: Citation 'Fletcher_1998' on page 126 undefined on input line 355
-.
-
-
-LaTeX Warning: Citation 'Edwards_1989' on page 126 undefined on input line 356.
-
-
-Package marginnote Info: Margin note 131.1 is on absolute page 131
-(marginnote)              on input line 358.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 358.
-
-LaTeX Warning: Citation 'Edwards_1989' on page 126 undefined on input line 359.
-
-
-
-LaTeX Warning: Citation 'Bar-Yosef_2011' on page 126 undefined on input line 36
-0.
-
-
-LaTeX Warning: Citation 'Yeshurun_2014' on page 126 undefined on input line 361
-.
-
-
-LaTeX Warning: Citation 'Boyd_2006' on page 126 undefined on input line 362.
-
-
-LaTeX Warning: Citation 'Bar-Yosef_2011' on page 126 undefined on input line 36
-3.
-
-
-LaTeX Warning: Citation 'Shewan_2004' on page 126 undefined on input line 364.
-
-
-LaTeX Warning: Citation 'Edwards_1989' on page 126 undefined on input line 365.
-
-
-[126]
-Package marginnote Info: Margin note 132.1 is on absolute page 132
-(marginnote)              on input line 367.
+(marginnote)             \marginnoterightadjust ignored on input line 301.
+Package marginnote Info: Margin note 139.2 is on absolute page 139
+(marginnote)              on input line 310.
 Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 367.
-
-
-LaTeX Warning: Citation 'Edwards_1989' on page 127 undefined on input line 368.
-
-
-
-LaTeX Warning: Citation 'Edwards_1989' on page 127 undefined on input line 370.
-
-
-Package marginnote Info: Suggest that margin note 132.2 will be on
-(marginnote)             absolute page 132.
-(marginnote)             This may be wrong on input line 371.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 371.
-
-LaTeX Warning: Citation 'Edwards_1989' on page 127 undefined on input line 377.
-
-
-
-LaTeX Warning: Citation 'Edwards_1989' on page 127 undefined on input line 381.
-
-
-
-LaTeX Warning: Citation 'Edwards_1989' on page 127 undefined on input line 384.
-
-
-
-LaTeX Warning: Citation 'Edwards_1989' on page 127 undefined on input line 390.
-
-
+(marginnote)             \marginnoterightadjust ignored on input line 310.
+ [134]
+Package marginnote Info: Margin note 140.1 is on absolute page 140
+(marginnote)              on input line 329.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 329.
+ [135]
+Package marginnote Info: Margin note 141.1 is on absolute page 141
+(marginnote)              on input line 347.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 347.
+ [136]
+Package marginnote Info: Margin note 142.1 is on absolute page 142
+(marginnote)              on input line 356.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 356.
+Package marginnote Info: Margin note 142.2 is on absolute page 142
+(marginnote)              on input line 360.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 360.
 File: content/figures/Gyngell-Fig01.jpg Graphic file (type QTm)
+
 <use  "content/figures/Gyngell-Fig01.jpg" >
-
-LaTeX Warning: Citation 'Hardy-Smith_2004' on page 127 undefined on input line 
-400.
-
 File: content/figures/Gyngell-Fig02.jpg Graphic file (type QTm)
+
 <use  "content/figures/Gyngell-Fig02.jpg" >
-
-LaTeX Warning: Citation 'Hardy-Smith_2004' on page 127 undefined on input line 
-408.
-
 File: content/figures/Gyngell-Fig03.jpg Graphic file (type QTm)
-<use  "content/figures/Gyngell-Fig03.jpg" >
 
-LaTeX Warning: Citation 'Hardy-Smith_2004' on page 127 undefined on input line 
-417.
-
-
-LaTeX Warning: Citation 'Edwards_1989' on page 127 undefined on input line 420.
-
-
-
-LaTeX Warning: Citation 'Edwards_1989' on page 127 undefined on input line 430.
-
-
-
-LaTeX Warning: Citation 'Edwards_1989' on page 127 undefined on input line 434.
-
-
-
-LaTeX Warning: Citation 'Edwards_1989' on page 127 undefined on input line 438.
-
-
-[127]
-
-LaTeX Warning: Citation 'Hardy-Smith_2004' on page 128 undefined on input line 
-441.
-
-
-LaTeX Warning: Citation 'Fletcher_2007' on page 128 undefined on input line 442
-.
-
-
-LaTeX Warning: Citation 'Hardy-Smith_2004' on page 128 undefined on input line 
-443.
-
-
-LaTeX Warning: Citation 'Hardy-Smith_2004' on page 128 undefined on input line 
-445.
-
-
-LaTeX Warning: Citation 'Hardy-Smith_2004' on page 128 undefined on input line 
-446.
-
-
-LaTeX Warning: Citation 'Hardy-Smith_2004' on page 128 undefined on input line 
-447.
-
-
-LaTeX Warning: Citation 'Hardy-Smith_2004' on page 128 undefined on input line 
-450.
-
-
-LaTeX Warning: Citation 'Hardy-Smith_2004' on page 128 undefined on input line 
-451.
-
-
-LaTeX Warning: Citation 'Hardy-Smith_2004' on page 128 undefined on input line 
-452.
-
-
-Underfull \hbox (badness 7740) in paragraph at lines 450--453
-[]\EU1/LinLibertine(0)/m/n/10.95 Most significantly, [][] of artefacts were pri
-mary
+<use  "content/figures/Gyngell-Fig03.jpg" > [137]
+Underfull \hbox (badness 1292) in paragraph at lines 430--433
+[][]\EU1/LinLibertine(0)/m/n/10.95 More recently, []Hardy-Smith and Edwards ([]
+[]2004[][]) con-
  []
 
-
-Overfull \hbox (34.73993pt too wide) in paragraph at lines 450--453
-\EU1/LinLibertine(0)/m/n/10.95 refuse clusters discarded within the dwellings (
-[]),
- []
-
-Package marginnote Info: Suggest that margin note 133.1 will be on
-(marginnote)             absolute page 133.
-(marginnote)             This may be wrong on input line 455.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 455.
-
-LaTeX Warning: Citation 'Shewan_2004' on page 128 undefined on input line 456.
-
-
-LaTeX Warning: Citation 'Shewan_2004' on page 128 undefined on input line 457.
-
-
-LaTeX Warning: Citation 'Shewan_2004' on page 128 undefined on input line 458.
-
-
-LaTeX Warning: Citation 'Shewan_2004' on page 128 undefined on input line 459.
-
-
-LaTeX Warning: Citation 'Shewan_2004' on page 128 undefined on input line 460.
-
-
-LaTeX Warning: Citation 'Shewan_2004' on page 128 undefined on input line 461.
-
-
-Overfull \hbox (21.07068pt too wide) in paragraph at lines 456--462
-[]\EU1/LinLibertine(0)/m/n/10.95 The application of strontium isotope analysis 
-by []
- []
-
-[128]
+Package marginnote Info: Margin note 143.1 is on absolute page 143
+(marginnote)              on input line 444.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 444.
+[138]
 File: content/figures/Gyngell-Fig04.jpg Graphic file (type QTm)
  <use  "content/figures/Gyngell-Fig04.jpg" >
-
-LaTeX Warning: Citation 'Shewan_2004' on page 129 undefined on input line 468.
-
 File: content/figures/Gyngell-Fig05.jpg Graphic file (type QTm)
+
 <use  "content/figures/Gyngell-Fig05.jpg" >
-
-LaTeX Warning: Citation 'Shewan_2004' on page 129 undefined on input line 476.
-
-
-Overfull \hbox (131.65399pt too wide) in paragraph at lines 465--479
+Overfull \hbox (131.65399pt too wide) in paragraph at lines 454--468
 [][]  |  [] 
  []
 
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
-put line 479.
-
-LaTeX Warning: Citation 'Shewan_2004' on page 129 undefined on input line 482.
-
-
-LaTeX Warning: Citation 'Shewan_2004' on page 129 undefined on input line 484.
-
-
-LaTeX Warning: Citation 'Shewan_2004' on page 129 undefined on input line 487.
-
-[129]
-Package marginnote Info: Margin note 135.1 is on absolute page 135
-(marginnote)              on input line 489.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 489.
+put line 468.
+[139]
+Package marginnote Info: Margin note 145.1 is on absolute page 145
+(marginnote)              on input line 478.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 478.
 File: content/figures/Gyngell-Fig06.jpg Graphic file (type QTm)
  <use  "content/figures/Gyngell-Fig06.jpg" >
-
-LaTeX Warning: Citation 'Shewan_2004' on page 130 undefined on input line 497.
-
 File: content/figures/Gyngell-Fig07.jpg Graphic file (type QTm)
+
 <use  "content/figures/Gyngell-Fig07.jpg" >
-
-LaTeX Warning: Citation 'Edwards_2015' on page 130 undefined on input line 507.
-
-
-
-LaTeX Warning: Citation 'Parslow_2009' on page 130 undefined on input line 511.
-
-
-
-LaTeX Warning: Citation 'Parslow_2009' on page 130 undefined on input line 512.
-
-
-
-LaTeX Warning: Citation 'Edwards_2015' on page 130 undefined on input line 513.
-
-
-
-LaTeX Warning: Citation 'Belfer-Cohen_2013' on page 130 undefined on input line
- 513.
-
-
-LaTeX Warning: Citation 'Belfer-Cohen_2013' on page 130 undefined on input line
- 514.
-
-
-LaTeX Warning: Citation 'Belfer-Cohen_2013' on page 130 undefined on input line
- 515.
-
-
-LaTeX Warning: Citation 'Edwards_2015' on page 130 undefined on input line 516.
-
-
-
-LaTeX Warning: Citation 'Edwards_2015' on page 130 undefined on input line 517.
-
-
-
-LaTeX Warning: Citation 'Edwards_2015' on page 130 undefined on input line 518.
-
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 511--519
-\EU1/LinLibertine(0)/m/n/10.95 take account of human agency, and several sphere
-s of
- []
-
-Package marginnote Info: Suggest that margin note 135.2 will be on
-(marginnote)             absolute page 135.
-(marginnote)             This may be wrong on input line 520.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 520.
-
-LaTeX Warning: Citation 'Habu_1996' on page 130 undefined on input line 522.
-
-
-LaTeX Warning: Citation 'Fletcher_2007' on page 130 undefined on input line 523
-.
-
-
-LaTeX Warning: Citation 'Fletcher_2007' on page 130 undefined on input line 524
-.
-
-
-LaTeX Warning: Citation 'Byrd_2005' on page 130 undefined on input line 525.
-
-[130
+Package marginnote Info: Margin note 145.2 is on absolute page 145
+(marginnote)              on input line 509.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoterightadjust ignored on input line 509.
+ [140
 
 ]
-Package marginnote Info: Suggest that margin note 136.1 will be on
-(marginnote)             absolute page 136.
-(marginnote)             This may be wrong on input line 530.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 530.
-
-
-LaTeX Warning: Empty bibliography on input line 533.
-
-Package biblatex Info: Reference section=0 on input line 533.
-) [131]
+Package marginnote Info: Margin note 146.1 is on absolute page 146
+(marginnote)              on input line 519.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 519.
+ [141] [142]
+Package biblatex Info: Reference section=0 on input line 522.
+) [143]
 \openout2 = `preamble/_part_reviews.aux'.
 
- (./preamble/_part_reviews.tex [132
+
+(./preamble/_part_reviews.tex [144
 
 
 
@@ -6821,7 +4842,7 @@ part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
-[133] [134])
+[145] [146])
 \openout2 = `content/Ward.aux'.
 
  (./content/Ward.tex
@@ -6837,24 +4858,17 @@ Package biblatex Info: Reference section=10 on input line 82.
 Package biblatex Info: Setting label 'refsection:10' on input line 82.
 Missing character: There is no † in font ecrm0800!
 Missing character: There is no ‡ in font ecrm0800!
-Package marginnote Info: Suggest that margin note 140.1 will be on
-(marginnote)             absolute page 140.
-(marginnote)             This may be wrong on input line 85.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 85.
-
-LaTeX Warning: Citation 'american2016' on page 135 undefined on input line 87.
-
-
-LaTeX Warning: Citation 'beasley2016' on page 135 undefined on input line 93.
-
+Package marginnote Info: Margin note 152.1 is on absolute page 152
+(marginnote)              on input line 85.
+Package marginnote Info: xpos seems to be 113.073pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 85.
 File: content/figures/Ward-Figure1.jpg Graphic file (type QTm)
 <use  "content/figures/Ward-Figure1.jpg" >
 File: content/figures/Ward-Figure2.jpg Graphic file (type QTm)
 
 <use  "content/figures/Ward-Figure2.jpg" >
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [135
+ <use  "ijsra_logo.png" > [147
 
 
 
@@ -6884,15 +4898,14 @@ LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
 t line 153.
- [136]
+ [148]
 File: content/figures/Ward-Figure7.jpg Graphic file (type QTm)
 
 <use  "content/figures/Ward-Figure7.jpg" >
-Package marginnote Info: Suggest that margin note 142.1 will be on
-(marginnote)             absolute page 142.
-(marginnote)             This may be wrong on input line 185.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 185.
+Package marginnote Info: Margin note 154.1 is on absolute page 154
+(marginnote)              on input line 185.
+Package marginnote Info: xpos seems to be 125.19931pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 185.
 
 Overfull \hbox (2.36076pt too wide) in paragraph at lines 185--194
 []\EU1/LinLibertine(0)/m/n/10.95 Graduate |[][][] and undergraduate research is
@@ -6900,11 +4913,7 @@ Overfull \hbox (2.36076pt too wide) in paragraph at lines 185--194
  []
 
 File: content/figures/Ward-Figure8.jpg Graphic file (type QTm)
-<use  "content/figures/Ward-Figure8.jpg" > [137]
-
-LaTeX Warning: Citation 'american' on page 138 undefined on input line 208.
-
-
+<use  "content/figures/Ward-Figure8.jpg" > [149]
 Overfull \hbox (6.58652pt too wide) in paragraph at lines 214--215
 []\EU1/LinLibertine(0)/m/n/10.95 AAA-AAPA Poster Prize for his poster titled, “
 \EU1/LinLibertine(0)/m/it/10.95 Pat-
@@ -6915,34 +4924,27 @@ Overfull \hbox (0.99197pt too wide) in paragraph at lines 215--216
 []\EU1/LinLibertine(0)/m/n/10.95 Aleš Hrdlička Prize for his podium
  []
 
-[138]
-Package marginnote Info: Margin note 144.1 is on absolute page 145
+[150]
+Package marginnote Info: Margin note 156.1 is on absolute page 156
 (marginnote)              on input line 221.
-Package marginnote Info: xpos seems to be 101.29384pt,
-(marginnote)             \marginnoterightadjust ignored on input line 221.
- [139]
+Package marginnote Info: xpos seems to be 98.59433pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 221.
+ [151]
 Overfull \hbox (3.31131pt too wide) in paragraph at lines 232--235
 \EU1/LinLibertine(0)/m/n/10.95 AAPA attendees to ‘listen in’ on multiple sessio
 ns simultaneously. Overall, live-tweeting
  []
 
-Package marginnote Info: Suggest that margin note 145.1 will be on
-(marginnote)             absolute page 145.
-(marginnote)             This may be wrong on input line 236.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 236.
-[140] [141] [142]
-Package marginnote Info: Suggest that margin note 148.1 will be on
-(marginnote)             absolute page 148.
-(marginnote)             This may be wrong on input line 277.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 277.
-
-
-LaTeX Warning: Citation 'american2015' on page 143 undefined on input line 284.
-
-
-[143] [144]
+Package marginnote Info: Margin note 157.1 is on absolute page 158
+(marginnote)              on input line 236.
+Package marginnote Info: xpos seems to be 101.29384pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 236.
+[152] [153] [154]
+Package marginnote Info: Margin note 160.1 is on absolute page 160
+(marginnote)              on input line 277.
+Package marginnote Info: xpos seems to be 101.4288pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 277.
+ [155] [156]
 File: content/figures/Ward-Figure9.jpg Graphic file (type QTm)
  <use  "content/figures/Ward-Figure9.jpg" >
 Overfull \hbox (5.40117pt too wide) in paragraph at lines 337--341
@@ -6950,22 +4952,17 @@ Overfull \hbox (5.40117pt too wide) in paragraph at lines 337--341
 n Evolutionary Anthropology (IDEAS),
  []
 
-Package marginnote Info: Margin note 150.1 is on absolute page 150
+Package marginnote Info: Margin note 162.1 is on absolute page 162
 (marginnote)              on input line 342.
-Package marginnote Info: xpos seems to be 170.06023pt,
+Package marginnote Info: xpos seems to be 109.26546pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 342.
-[145]
-Package marginnote Info: Suggest that margin note 151.1 will be on
-(marginnote)             absolute page 151.
-(marginnote)             This may be wrong on input line 358.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 358.
-
-
-LaTeX Warning: Empty bibliography on input line 362.
-
+[157]
+Package marginnote Info: Margin note 163.1 is on absolute page 163
+(marginnote)              on input line 358.
+Package marginnote Info: xpos seems to be 170.06023pt,
+(marginnote)             \marginnoterightadjust ignored on input line 358.
 Package biblatex Info: Reference section=0 on input line 362.
-) [146]
+) [158]
 \openout2 = `content/Resena.aux'.
 
  (./content/Resena.tex
@@ -7019,7 +5016,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 24.
- [147
+ [159
 
 
 
@@ -7049,14 +5046,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 34.
- [148]
+ [160]
 
 LaTeX Warning: Empty bibliography on input line 50.
 
 Package biblatex Info: Reference section=0 on input line 50.
 Package microtype Info: *** Changing to language context `english'
 (microtype)              on input line 51.
-) [149]
+) [161]
 \openout2 = `content/7IARSS.aux'.
 
  (./content/7IARSS.tex
@@ -7064,14 +5061,14 @@ Package microtype Info: *** Changing to language context `english'
 \blx@sectionciteorder@12=\count461
 Package biblatex Info: Reference section=12 on input line 32.
 Package biblatex Info: Setting label 'refsection:12' on input line 32.
- [150
+ [162
 
 
 
 
 ]
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [151]
+ <use  "ijsra_logo.png" > [163]
 File: content/figures/IARSS_Session.jpg Graphic file (type QTm)
 
 <use  "content/figures/IARSS_Session.jpg" >
@@ -7094,12 +5091,12 @@ Overfull \hbox (161.32806pt too wide) in paragraph at lines 63--64
 [][] 
  []
 
-[152] [153]
+[164] [165]
 
 LaTeX Warning: Empty bibliography on input line 88.
 
 Package biblatex Info: Reference section=0 on input line 88.
-) [154] [155]
+) [166] [167]
 \openout2 = `content/Hawkins.aux'.
 
  (./content/Hawkins.tex
@@ -7116,93 +5113,72 @@ LaTeX Warning: Tab has been converted to Blank Space.
 \blx@sectionciteorder@13=\count463
 Package biblatex Info: Reference section=13 on input line 61.
 Package biblatex Info: Setting label 'refsection:13' on input line 61.
-[156
+[168
 
 
 
 
 ]
-
-LaTeX Warning: Citation 'aboutWAC' on page 157 undefined on input line 68.
-
-Package marginnote Info: Suggest that margin note 162.1 will be on
-(marginnote)             absolute page 162.
-(marginnote)             This may be wrong on input line 71.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 71.
-
-LaTeX Warning: Citation 'welcomeWAC' on page 157 undefined on input line 71.
-
+Package marginnote Info: Margin note 174.1 is on absolute page 174
+(marginnote)              on input line 71.
+Package marginnote Info: xpos seems to be 137.94049pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 71.
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [157]
+ <use  "ijsra_logo.png" > [169]
 File: content/figures/Hawkins-Figure01.jpg Graphic file (type QTm)
- <use  "content/figures/Hawkins-Figure01.jpg" >
+
+<use  "content/figures/Hawkins-Figure01.jpg" >
 File: content/figures/Hawkins-Figure02.jpg Graphic file (type QTm)
 
 <use  "content/figures/Hawkins-Figure02.jpg" >
 File: content/figures/Hawkins-Figure03.jpg Graphic file (type QTm)
 
-<use  "content/figures/Hawkins-Figure03.jpg" > [158]
-Package marginnote Info: Suggest that margin note 164.1 will be on
-(marginnote)             absolute page 164.
-(marginnote)             This may be wrong on input line 101.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 101.
-
-
-LaTeX Warning: Citation 'addressWAC' on page 159 undefined on input line 103.
-
-[159] [160]
-Package marginnote Info: Suggest that margin note 166.1 will be on
-(marginnote)             absolute page 166.
-(marginnote)             This may be wrong on input line 109.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 109.
+<use  "content/figures/Hawkins-Figure03.jpg" > [170]
+Package marginnote Info: Margin note 176.1 is on absolute page 176
+(marginnote)              on input line 101.
+Package marginnote Info: xpos seems to be 174.73785pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 101.
+ [171] [172]
+Package marginnote Info: Margin note 178.1 is on absolute page 178
+(marginnote)              on input line 109.
+Package marginnote Info: xpos seems to be 140.45297pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 109.
 File: content/figures/Hawkins-Figure04.jpg Graphic file (type QTm)
- <use  "content/figures/Hawkins-Figure04.jpg" > [161]
+
+<use  "content/figures/Hawkins-Figure04.jpg" > [173]
 Overfull \hbox (8.35405pt too wide) in paragraph at lines 127--128
 []\EU1/LinLibertine(0)/m/n/10.95 Thursday saw the plenary, ‘\EU1/LinLibertine(0
 )/m/it/10.95 Indigenous Archaeologies and World Archaeological Congress,
  []
 
-[162]
+[174]
 File: content/figures/Hawkins-Figure05.jpg Graphic file (type QTm)
  <use  "content/figures/Hawkins-Figure05.jpg" >
 File: content/figures/Hawkins-Figure06.jpg Graphic file (type QTm)
 
-<use  "content/figures/Hawkins-Figure06.jpg" > [163]
-Package marginnote Info: Margin note 169.1 is on absolute page 169
+<use  "content/figures/Hawkins-Figure06.jpg" > [175]
+Package marginnote Info: Margin note 181.1 is on absolute page 181
 (marginnote)              on input line 149.
-Package marginnote Info: xpos seems to be 153.7251pt,
+Package marginnote Info: xpos seems to be 251.57645pt,
 (marginnote)             \marginnoterightadjust ignored on input line 149.
-
-
-LaTeX Warning: Citation 'closingWAC' on page 164 undefined on input line 151.
-
-[164]
-
-LaTeX Warning: Citation 'closingWAC' on page 165 undefined on input line 153.
-
-Package marginnote Info: Suggest that margin note 170.1 will be on
-(marginnote)             absolute page 170.
-(marginnote)             This may be wrong on input line 159.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 159.
-[165]
-
-LaTeX Warning: Empty bibliography on input line 169.
-
+ [176]
+Package marginnote Info: Margin note 182.1 is on absolute page 182
+(marginnote)              on input line 159.
+Package marginnote Info: xpos seems to be 153.7251pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 159.
+ [177]
 Package biblatex Info: Reference section=0 on input line 169.
-) [166]
+) [178]
 \openout2 = `content/18Kerr.aux'.
 
- (./content/18Kerr.tex
+
+(./content/18Kerr.tex
 \blx@maxsegment@14=\count464
 \blx@sectionciteorder@14=\count465
 Package biblatex Info: Reference section=14 on input line 19.
 Package biblatex Info: Setting label 'refsection:14' on input line 19.
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [167
+ <use  "ijsra_logo.png" > [179
 
 
 
@@ -7210,12 +5186,12 @@ File: ijsra_logo.png Graphic file (type QTm)
 ]
 File: content/figures/Kerr_fig01.jpg Graphic file (type QTm)
 
-<use  "content/figures/Kerr_fig01.jpg" > [168] [169]
+<use  "content/figures/Kerr_fig01.jpg" > [180] [181]
 
 LaTeX Warning: Empty bibliography on input line 51.
 
 Package biblatex Info: Reference section=0 on input line 51.
-) [170]
+) [182]
 \openout2 = `content/19Kenny.aux'.
 
  (./content/19Kenny.tex
@@ -7224,7 +5200,7 @@ Package biblatex Info: Reference section=0 on input line 51.
 Package biblatex Info: Reference section=15 on input line 24.
 Package biblatex Info: Setting label 'refsection:15' on input line 24.
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [171
+ <use  "ijsra_logo.png" > [183
 
 
 
@@ -7235,12 +5211,12 @@ Overfull \hbox (0.71098pt too wide) in paragraph at lines 47--48
 ith current models and finally putting
  []
 
-[172] [173]
+[184] [185]
 
 LaTeX Warning: Empty bibliography on input line 58.
 
 Package biblatex Info: Reference section=0 on input line 58.
-) [174]
+) [186]
 \openout2 = `preamble/_part_bookreviews.aux'.
 
  (./preamble/_part_bookreviews.tex
@@ -7248,12 +5224,12 @@ part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
-[175
+[187
 
 
 
 
-] [176])
+] [188])
 \openout2 = `content/Rivera.aux'.
 
  (./content/Rivera.tex
@@ -7267,65 +5243,35 @@ LaTeX Warning: Overwriting file `./Rivera.bib'.
 \blx@sectionciteorder@16=\count469
 Package biblatex Info: Reference section=16 on input line 101.
 Package biblatex Info: Setting label 'refsection:16' on input line 101.
-
-LaTeX Warning: Citation 'Ortner2003a' on page 177 undefined on input line 104.
-
-
-LaTeX Warning: Citation 'Roberts2007' on page 177 undefined on input line 104.
-
-
-LaTeX Warning: Citation 'Waldron2009' on page 177 undefined on input line 104.
-
 File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [177
+<use  "ijsra_logo.png" > [189
 
 
 
 
-] [178]
-
-LaTeX Warning: Citation 'Waldron1994' on page 179 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'Robb2000' on page 179 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'Ortner2003b' on page 179 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'Ortner2003c' on page 179 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'Ortner2011' on page 179 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'Wells1964' on page 179 undefined on input line 134.
-
-
-LaTeX Warning: Empty bibliography on input line 143.
-
+] [190] [191]
 Package biblatex Info: Reference section=0 on input line 143.
-) [179]
+) [192]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
- (./ijsra_2016_02.aux (./preamble/colophon.aux)
+ (./ijsra_2016_02.aux
+(./preamble/colophon.aux)
 Package microtype Info: *** Changing to language context `english'
 (microtype)              on input line 30.
-
-(./preamble/editorial.aux) (./preamble/issue-presentation.aux)
-(./preamble/_part_interviews.aux) (./content/16Stringer.aux)
-(./preamble/_part_articles.aux) (./content/fyfe.aux) (./content/forssman.aux)
-(./content/17Pereda.aux) (./content/11Raza.aux) (./content/Rownd.aux)
-(./content/Davis.aux) (./preamble/_part_litreviews.aux) (./content/Gyngell.aux)
-(./preamble/_part_reviews.aux) (./content/Ward.aux) (./content/Resena.aux
+ (./preamble/editorial.aux)
+(./preamble/issue-presentation.aux) (./preamble/_part_interviews.aux)
+(./content/16Stringer.aux) (./preamble/_part_articles.aux) (./content/fyfe.aux)
+(./content/forssman.aux) (./content/17Pereda.aux) (./content/11Raza.aux)
+(./content/Rownd.aux) (./content/Davis.aux) (./preamble/_part_litreviews.aux)
+(./content/Gyngell.aux) (./preamble/_part_reviews.aux) (./content/Ward.aux)
+(./content/Resena.aux
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 Package microtype Info: *** Changing to language context `english'
 (microtype)              on input line 15.
-)
-(./content/7IARSS.aux) (./content/Hawkins.aux) (./content/18Kerr.aux)
-(./content/19Kenny.aux) (./preamble/_part_bookreviews.aux)
-(./content/Rivera.aux))
+) (./content/7IARSS.aux) (./content/Hawkins.aux)
+(./content/18Kerr.aux) (./content/19Kenny.aux)
+(./preamble/_part_bookreviews.aux) (./content/Rivera.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 72.
 
 
@@ -7546,6 +5492,7 @@ cleveref.sty    2013/12/28 v0.19 Intelligent cross-referencing
    t3cmr.fd    2001/12/31 TIPA font definitions
 translator-basic-dictionary-English.dict    
 siunitx-abbreviations.cfg    2016/11/24 v2.7 siunitx: Abbreviated units
+ijsra_2016_02.bbl
 pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
   lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
   lscape.hak    2016/06/14 v3.21 KOMA-Script package (hacking package lscape)
@@ -7711,25 +5658,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                ijsra_2016_02
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 \openout1 = `ijsra_2016_02.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65546 strings out of 493589
- 1322464 string characters out of 6143511
- 1892287 words of memory out of 5000000
- 67831 multiletter control sequences out of 15000+600000
- 19400 words of font info for 110 fonts, out of 8000000 for 9000
+ 66826 strings out of 493589
+ 1349776 string characters out of 6143511
+ 2054657 words of memory out of 5000000
+ 69112 multiletter control sequences out of 15000+600000
+ 19376 words of font info for 107 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 80i,24n,147p,10428b,5254s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,24n,147p,10428b,5870s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ijsra_2016_02.pdf (184 pages).
+Output written on ijsra_2016_02.pdf (197 pages).
