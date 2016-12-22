@@ -4,38 +4,35 @@
 %\def\IJSRAidentifier{Editorial}
 \section*{Executive Editor}
 
-
-
 \textbf{Gonzalo Linares Matás},  \emph{St Hugh's College, University of Oxford (UK)}. 
 Archaeology and Anthropology
 
 
 \section*{Advisory Editorial Board}
-\def\myitem{
+\newcommand{\myitem}[1]{%
 \begin{itemize}
-\setlength{\itemsep}{0pt}%
-\setlength{\parskip}{0pt}%
-\setlength{\parsep}{0pt}%
-\DTLforeach{advisory}{
-    \name=name, 
-    \field=field, 
-    \university=university, 
-    \mail=mail}{
-    \item \textbf{\name}, \emph{\university}. \field \\ \href{mailto:\mail}{\mail}
-}
+        \setlength{\itemsep}{0pt}%
+        \setlength{\parskip}{0pt}%
+        \setlength{\parsep}{0pt}%
+        \DTLforeach{#1}{%
+            \name=name, 
+            \field=field, 
+            \university=university, 
+            \mail=mail}
+        {\item \textbf{\name}, \emph{\university}. \field \\ \href{mailto:\mail}{\mail}}
 \end{itemize}}
-\myitem
-
+\myitem{advisory}
 \section*{Editorial Board}
-\myitem
+\myitem{editorialboard}
 \section*{Editing Team}
-\myitem
-
+\myitem{editing}
 \def\shorttitle{Editorial}\def\ppages{}
 \section*{Reviewing Team}
 \begin{multicols}{2}
-\myitem
+\myitem{reviewers}
 \end{multicols}
+
+
 \def\shorttitle{Editorial}\def\ppages{}
 \end{footnotesize}
 %	\label{lastpage\IJSRAidentifier}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  22 DEC 2016 23:47
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  22 DEC 2016 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2871,7 +2871,7 @@ File: french.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 (./ijsra_2016_02.aux
 No file preamble/colophon.aux.
-No file preamble/editorial.aux.
+(./preamble/editorial.aux)
 No file preamble/_toc.aux.
 No file preamble/issue-presentation.aux.
 No file preamble/_part_interviews.aux.
@@ -2969,12 +2969,114 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ijsra_2016_02.bbl' found.
- (./ijsra_2016_02.bbl)
+ (./ijsra_2016_02.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Divers_2014a':
+(biblatex)                - Entry 'Divers_2014a' (Rownd.bib): Invalid format '2
+0' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Divers_2014a':
+(biblatex)                - Entry 'Divers_2014a' (Rownd.bib): Invalid format '2
+0' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Divers_2014b':
+(biblatex)                - Entry 'Divers_2014b' (Rownd.bib): Invalid format '2
+0' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Divers_2014b':
+(biblatex)                - Entry 'Divers_2014b' (Rownd.bib): Invalid format '2
+0' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Cairo_2015':
+(biblatex)                - Entry 'Cairo_2015' (Rownd.bib): Invalid format '25'
+ of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Cairo_2015':
+(biblatex)                - Entry 'Cairo_2015' (Rownd.bib): Invalid format '25'
+ of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'President_260':
+(biblatex)                - Entry 'President_260' (Rownd.bib): Invalid format '
+05' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'President_260':
+(biblatex)                - Entry 'President_260' (Rownd.bib): Invalid format '
+05' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'President_1505':
+(biblatex)                - Entry 'President_1505' (Rownd.bib): Invalid format 
+'05' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'President_1505':
+(biblatex)                - Entry 'President_1505' (Rownd.bib): Invalid format 
+'05' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'CIA_2001':
+(biblatex)                - Entry 'CIA_2001' (Rownd.bib): Invalid format '24' o
+f date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'CIA_2001':
+(biblatex)                - Entry 'CIA_2001' (Rownd.bib): Invalid format '24' o
+f date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'RA10066':
+(biblatex)                - Entry 'RA10066' (Rownd.bib): Invalid format '27' of
+ date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'RA10066':
+(biblatex)                - Entry 'RA10066' (Rownd.bib): Invalid format '27' of
+ date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Potts_2015':
+(biblatex)                - Entry 'Potts_2015' (Rownd.bib): Invalid format '23'
+ of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Valetta_1992':
+(biblatex)                - Entry 'Valetta_1992' (Rownd.bib): Invalid format '2
+0' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Valetta_1992':
+(biblatex)                - Entry 'Valetta_1992' (Rownd.bib): Invalid format '2
+0' of date field 'date' - ignoring.
+
+)
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
 \AtBeginShipoutBox=\box102
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
@@ -3198,30 +3300,25 @@ Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/6' on input lin
 e 40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-\openout2 = `content/Rownd.aux'.
+\openout2 = `preamble/editorial.aux'.
 
-(./content/Rownd.tex
-
-LaTeX Warning: Overwriting file `./Rownd.bib'.
-
-\openout15 = `Rownd.bib'.
-
-
-LaTeX Warning: Tab has been converted to Blank Space.
-
-
-\blx@maxsegment@1=\count479
-\blx@sectionciteorder@1=\count480
-Package biblatex Info: Reference section=1 on input line 242.
-Package biblatex Info: Setting label 'refsection:1' on input line 242.
+(./preamble/editorial.tex
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/9' on input li
+ne 1.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 242.
+(Font)              scaled to size 9.0pt on input line 5.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+tnum;+onum;" at 10.95pt
+xt;mapping=tex-text;+tnum;+onum;" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_R.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10.95' on input
- line 242.
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/9' on input lin
+e 5.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinBiolinum' (encoding: EU1).
@@ -3229,387 +3326,776 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 Package microtype Info: ... : First loading protrusion list `default'.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 242.
+(Font)              scaled to size 9.0pt on input line 5.
+Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RB.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/9' on input li
+ne 5.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 14.4pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/14.4' on input
+ line 5.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+onum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RB.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/9' on input l
+ine 7.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <9> not avail
+able
+(Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
+t line 7.
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+onum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RI.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/9' on input l
+ine 7.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+
+! Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.24 \myitem{advisory}
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.24 \myitem{advisory}
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.24 \myitem{advisory}
+                      
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.24 \myitem{advisory}
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.24 \myitem{advisory}
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.24 \myitem{advisory}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.24 \myitem{advisory}
+                      
+I'm forgetting what you said and using zero instead.
+
+
+Overfull \hbox (10.56485pt too wide) in paragraph at lines 26--26
+[]\EU1/LinLibertine(0)/bx/n/9 Lucy Gill\EU1/LinLibertine(0)/m/n/9 , \EU1/LinLib
+ertine(0)/m/it/9 University of California-Berkeley University (USA)\EU1/LinLibe
+rtine(0)/m/n/9 . Environmental Archaeology, Mesoamer-
+ []
+
+Missing character: There is no ‎ in font [LinLibertine_R.otf]/OT:script=latn;la
+nguage=DFLT;mapping=tex-text;mapping=tex-text;+tnum;+onum;!
+LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10.95> not a
+vailable
+(Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
+t line 26.
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+onum;" at 10.95pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RI.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/10.95' on inp
+ut line 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 26.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
+xt;mapping=tex-text;+tnum;+onum;" at 10.95pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10.95' on input
+ line 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+onum;" at 10.95pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RB.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/10.95' on inp
+ut line 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
+(Font)              scaled to size 10.95pt on input line 26.
 Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_RB.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/10.95' on inpu
-t line 242.
+t line 26.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 17.28pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/17.28' on inpu
-t line 242.
+Requested font "ecrm0900" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/9' on input lin
+e 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "ecrm0500" at 5.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/5' on input lin
+e 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 26.
+Requested font "zeurm10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
+Package microtype Info: Setting up font `U/zeur/m/n/9' on input line 26.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 26.
+Requested font "zeurm5" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm5.tfm
+Package microtype Info: Setting up font `U/zeur/m/n/5' on input line 26.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeus/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 26.
+Requested font "zeusm10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
+Package microtype Info: Setting up font `U/zeus/m/n/9' on input line 26.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeus/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 26.
+Requested font "zeusm5" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm5.tfm
+Package microtype Info: Setting up font `U/zeus/m/n/5' on input line 26.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 26.
+Requested font "zeuex10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+Package microtype Info: Setting up font `U/zeuex/m/n/9' on input line 26.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 26.
+Requested font "zeuex10" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+Package microtype Info: Setting up font `U/zeuex/m/n/5' on input line 26.
+Package microtype Info: ... No protrusion.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/9' on input line
+ 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/5' on input line
+ 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/9' on input lin
+e 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/5' on input lin
+e 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10.95' on input
+ line 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10.95' on input 
+line 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10.95' on input
+ line 26.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 14.4pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/14.4' on input
- line 242.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;+smcp;+smcp;" at 14.4pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/14.4' on inpu
-t line 242.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 8.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/8' on input li
-ne 242.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/9' on input li
-ne 242.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 242.
-Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_R.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/9' on input lin
-e 242.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
-(Font)              scaled to size 9.0pt on input line 242.
-Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RB.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/9' on input li
-ne 242.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 242.
-Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RI.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/9' on input li
-ne 242.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: Margin note 1.1 is on absolute page 1
-(marginnote)              on input line 242.
-Package marginnote Info: xpos seems to be 116.43158pt,
-(marginnote)             \marginnoterightadjust ignored on input line 242.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 242.
-Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RI.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/10' on input l
-ine 242.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 31.91946pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/31.91946' on i
-nput line 244.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 48.5143pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/48.5143' on in
-put line 244.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 10.95pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_RI.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/10.95' on inp
-ut line 244.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-
-
-LaTeX Warning: Citation 'RA10066' on page 1 undefined on input line 246.
-
-Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 10.95pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_RB.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/10.95' on inp
-ut line 246.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-
-LaTeX Warning: Citation 'Valetta_1992' on page 1 undefined on input line 246.
-
-
-Overfull \hbox (0.64526pt too wide) in paragraph at lines 246--249
-[]\EU1/LinLibertine(0)/m/n/10.95 Republic of the Philippines’ Act 10066 ([]), a
-nd the Council of Europe’s Treaty
- []
-
-LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10.95> not a
-vailable
-(Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
-t line 249.
-Requested font "ecrm0900" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/9' on input lin
-e 249.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "ecrm0500" at 5.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/5' on input lin
-e 249.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 249.
-Requested font "zeurm10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/9' on input line 249.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 249.
-Requested font "zeurm5" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm5.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/5' on input line 249.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 249.
-Requested font "zeusm10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/9' on input line 249.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 249.
-Requested font "zeusm5" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm5.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/5' on input line 249.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 249.
-Requested font "zeuex10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/9' on input line 249.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 249.
-Requested font "zeuex10" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/5' on input line 249.
-Package microtype Info: ... No protrusion.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/9' on input line
- 249.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/5' on input line
- 249.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/9' on input lin
-e 249.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/5' on input lin
-e 249.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10.95' on input
- line 249.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10.95' on input 
-line 249.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10.95' on input
- line 249.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [1
-
-
-
-
-
-
-
-
-
-
-
-
+[1
 
 
 
 ]
+! Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Citation 'Cairo_2015' on page 2 undefined on input line 250.
+! Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.26 \myitem{editorialboard}
+                            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.26 \myitem{editorialboard}
+                            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.26 \myitem{editorialboard}
+                            
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.26 \myitem{editorialboard}
+                            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.26 \myitem{editorialboard}
+                            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.26 \myitem{editorialboard}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.26 \myitem{editorialboard}
+                            
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.28 \myitem{editing}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.28 \myitem{editing}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.28 \myitem{editing}
+                     
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.28 \myitem{editing}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.28 \myitem{editing}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.28 \myitem{editing}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.28 \myitem{editing}
+                     
+I'm forgetting what you said and using zero instead.
 
 
-LaTeX Warning: Citation 'Conard_2009' on page 2 undefined on input line 252.
+Underfull \hbox (badness 7273) in paragraph at lines 32--32
+[]\EU1/LinLibertine(0)/bx/n/9 Sabrina Autenrieth\EU1/LinLibertine(0)/m/n/9 , \E
+U1/LinLibertine(0)/m/it/9 Leiden University
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 32--32
+\EU1/LinLibertine(0)/m/n/9 South American Archaeology, Heritage
+ []
+
+
+Overfull \hbox (13.04695pt too wide) in paragraph at lines 32--32
+[][]\EU1/LinLibertine(0)/m/n/9 antonia.edwards-freshwater@wolfson.ox.ac.uk[][][
+] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]\EU1/LinLibertine(0)/bx/n/9 Mariana Favila\EU1/LinLibertine(0)/m/n/9 , \EU1/L
+inLibertine(0)/m/it/9 Universidad Nacional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]\EU1/LinLibertine(0)/bx/n/9 Nayeli Jiménez Cano\EU1/LinLibertine(0)/m/n/9 , \
+EU1/LinLibertine(0)/m/it/9 Universidad
+ []
 
 [2]
-Package marginnote Info: Margin note 3.1 is on absolute page 3
-(marginnote)              on input line 255.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 255.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/10' on input l
-ine 255.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 255.
-Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+tnum;+onum;" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_R.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10' on input li
-ne 255.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-
-
-LaTeX Warning: Citation 'Valetta_1992' on page 3 undefined on input line 257.
-
-
-LaTeX Warning: Citation 'RA10066' on page 3 undefined on input line 257.
-
-Package marginnote Info: Margin note 3.2 is on absolute page 3
-(marginnote)              on input line 259.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 259.
-
-LaTeX Warning: Citation 'RA10066' on page 3 undefined on input line 261.
-
-
-LaTeX Warning: Citation 'RA10066' on page 3 undefined on input line 264.
-
-
-LaTeX Warning: Citation 'Tankersley_2014' on page 3 undefined on input line 266
-.
-
-
-LaTeX Warning: Citation 'RA4886' on page 3 undefined on input line 267.
-
-
-LaTeX Warning: Citation 'RA4886' on page 3 undefined on input line 267.
-
-
-LaTeX Warning: Citation 'RA4886' on page 3 undefined on input line 268.
-
-
-LaTeX Warning: Citation 'RA4886' on page 3 undefined on input line 269.
-
-[3]
-
-LaTeX Warning: Citation 'President_260' on page 4 undefined on input line 271.
-
-
-LaTeX Warning: Citation 'President_1505' on page 4 undefined on input line 271.
-
-
-
-LaTeX Warning: Citation 'Tankersley_2014' on page 4 undefined on input line 272
-.
-
-
-Overfull \hbox (0.87154pt too wide) in paragraph at lines 271--274
-\EU1/LinLibertine(0)/m/n/10.95 fied “important historical edifice” without prio
-r written permission ([]).
- []
-
-[4]
-
-LaTeX Warning: Citation 'Divers_2014a' on page 5 undefined on input line 277.
-
-Package marginnote Info: Margin note 5.1 is on absolute page 5
-(marginnote)              on input line 279.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 279.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 5.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/5' on input li
-ne 281.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-
-LaTeX Warning: Citation 'Aleta_2003' on page 5 undefined on input line 282.
-
-
-LaTeX Warning: Citation 'Ta-as_2014' on page 5 undefined on input line 286.
-
-
-LaTeX Warning: Citation 'Divers_2014b' on page 5 undefined on input line 287.
-
-
-LaTeX Warning: Citation 'Divers_2014a' on page 5 undefined on input line 289.
-
-[5]
-
-LaTeX Warning: Citation 'Divers_2014b' on page 6 undefined on input line 294.
-
-
-Overfull \hbox (10.83257pt too wide) in paragraph at lines 294--295
-\EU1/LinLibertine(0)/m/n/10.95 mulgated in order to preserve these unique natur
-al resources ([]). 
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]\EU1/LinLibertine(0)/bx/n/9 Tathagata Neogi\EU1/LinLibertine(0)/m/n/9 , \EU1/
+LinLibertine(0)/m/it/9 Exeter University
  []
 
 
-LaTeX Warning: Citation 'Divers_2014b' on page 6 undefined on input line 297.
-
-Package marginnote Info: Margin note 6.1 is on absolute page 6
-(marginnote)              on input line 301.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 301.
-[6]
-
-LaTeX Warning: Citation 'CoE_2000' on page 7 undefined on input line 305.
+Underfull \hbox (badness 6063) in paragraph at lines 32--32
+[]\EU1/LinLibertine(0)/bx/n/9 Oluseyi Odunyemi\EU1/LinLibertine(0)/m/n/9 , \EU1
+/LinLibertine(0)/m/it/9 University College
+ []
 
 
-LaTeX Warning: Citation 'Valetta_1992' on page 7 undefined on input line 306.
-
-[7]
-
-LaTeX Warning: Citation 'Valetta_1992' on page 8 undefined on input line 320.
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\EU1/LinLibertine(0)/m/it/9 ham (UK)\EU1/LinLibertine(0)/m/n/9 . Mediterranean 
+Archaeology,
+ []
 
 ! Undefined control sequence.
-\enit@endenumerate ->\enit@after 
-                                 \endlist \ifx \enit@series \relax \else \if...
-l.321 ^^I^^I\end{enumerate}
-                           
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.32 \myitem{reviewers}
+                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3617,10 +4103,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\enit@endenumerate ...\else \ifnum \enit@resuming 
+\enit@enditemize ...x \else \ifnum \enit@resuming 
                                                   =\@ne \enit@setresumekeys ...
-l.321 ^^I^^I\end{enumerate}
-                           
+l.32 \myitem{reviewers}
+                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3630,8 +4116,8 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.321 ^^I^^I\end{enumerate}
-                           
+l.32 \myitem{reviewers}
+                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3639,8 +4125,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \enit@setresumekeys ...xpandafter {\enit@savekeys 
                                                   }\xdef \enit@afterlist {#2...
-l.321 ^^I^^I\end{enumerate}
-                           
+l.32 \myitem{reviewers}
+                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3650,8 +4136,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...it@toks }\ifnum \enit@type 
                                                   =\z@ #3\def \enit@noexcs {...
-l.321 ^^I^^I\end{enumerate}
-                           
+l.32 \myitem{reviewers}
+                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3661,8 +4147,8 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.321 ^^I^^I\end{enumerate}
-                           
+l.32 \myitem{reviewers}
+                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3670,8 +4156,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 <argument> enit@resume@series@\enit@series 
                                            
-l.321 ^^I^^I\end{enumerate}
-                           
+l.32 \myitem{reviewers}
+                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3679,10 +4165,39 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\enit@endenumerate ...t \fi \ifnum \enit@resuming 
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.32 \myitem{reviewers}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.32 \myitem{reviewers}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.32 \myitem{reviewers}
+                       
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
                                                   =\thr@@ \enit@setresumekey...
-l.321 ^^I^^I\end{enumerate}
-                           
+l.32 \myitem{reviewers}
+                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3692,8 +4207,8 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.321 ^^I^^I\end{enumerate}
-                           
+l.32 \myitem{reviewers}
+                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3701,8 +4216,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \enit@setresumekeys ...xpandafter {\enit@savekeys 
                                                   }\xdef \enit@afterlist {#2...
-l.321 ^^I^^I\end{enumerate}
-                           
+l.32 \myitem{reviewers}
+                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3712,8 +4227,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...it@toks }\ifnum \enit@type 
                                                   =\z@ #3\def \enit@noexcs {...
-l.321 ^^I^^I\end{enumerate}
-                           
+l.32 \myitem{reviewers}
+                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3723,17 +4238,17 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.321 ^^I^^I\end{enumerate}
-                           
+l.32 \myitem{reviewers}
+                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 ! Undefined control sequence.
-\enit@endenumerate ->\enit@after 
-                                 \endlist \ifx \enit@series \relax \else \if...
-l.322 ^^I\end{enumerate}
-                        
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.32 \myitem{reviewers}
+                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3741,711 +4256,32 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\enit@endenumerate ...\else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.322 ^^I\end{enumerate}
-                        
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.32 \myitem{reviewers}
+                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.322 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.322 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.322 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.322 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.322 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@endenumerate ...t \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.322 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.322 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.322 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.322 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.322 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-LaTeX Warning: Citation 'Valetta_1992' on page 8 undefined on input line 327.
-
-! Undefined control sequence.
-\enit@endenumerate ->\enit@after 
-                                 \endlist \ifx \enit@series \relax \else \if...
-l.328 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@endenumerate ...\else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.328 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.328 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.328 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.328 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.328 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.328 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@endenumerate ...t \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.328 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.328 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.328 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.328 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.328 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-LaTeX Warning: Citation 'Valetta_1992' on page 8 undefined on input line 331.
-
-
-LaTeX Warning: Citation 'Willems_2007' on page 8 undefined on input line 335.
-
-[8]
-Package marginnote Info: Margin note 9.1 is on absolute page 9
-(marginnote)              on input line 340.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 340.
-
-
-LaTeX Warning: Citation 'Willems_2007' on page 9 undefined on input line 342.
-
-
-LaTeX Warning: Citation 'Groenewoudt_2014' on page 9 undefined on input line 34
-4.
-
-
-LaTeX Warning: Citation 'Groenewoudt_2014' on page 9 undefined on input line 34
-7.
-
-[9]
-Package marginnote Info: Margin note 10.1 is on absolute page 10
-(marginnote)              on input line 350.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 350.
-
-
-LaTeX Warning: Citation 'Willems_2007' on page 10 undefined on input line 352.
-
-
-LaTeX Warning: Citation 'CIA_2001' on page 10 undefined on input line 352.
-
-! Undefined control sequence.
-\enit@endenumerate ->\enit@after 
-                                 \endlist \ifx \enit@series \relax \else \if...
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@endenumerate ...\else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@endenumerate ...t \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.365 ^^I^^I^^I\end{enumerate}
-                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@endenumerate ->\enit@after 
-                                 \endlist \ifx \enit@series \relax \else \if...
-l.366 ^^I^^I\end{enumerate}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@endenumerate ...\else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.366 ^^I^^I\end{enumerate}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.366 ^^I^^I\end{enumerate}
-                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.366 ^^I^^I\end{enumerate}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.366 ^^I^^I\end{enumerate}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.366 ^^I^^I\end{enumerate}
-                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.366 ^^I^^I\end{enumerate}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@endenumerate ...t \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.366 ^^I^^I\end{enumerate}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.366 ^^I^^I\end{enumerate}
-                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.366 ^^I^^I\end{enumerate}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.366 ^^I^^I\end{enumerate}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.366 ^^I^^I\end{enumerate}
-                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-LaTeX Warning: Citation 'CIA_2001' on page 10 undefined on input line 367.
-
-! Undefined control sequence.
-\enit@endenumerate ->\enit@after 
-                                 \endlist \ifx \enit@series \relax \else \if...
-l.368 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (4.9451pt too wide) in paragraph at lines 367--368
-[]\EU1/LinLibertine(0)/m/n/10.95 to ensure that excavations and other potential
-ly destructive techniques
- []
-
-
-Overfull \hbox (14.72466pt too wide) in paragraph at lines 367--368
-\EU1/LinLibertine(0)/m/n/10.95 are carried out \EU1/LinLibertine(0)/m/it/10.95 
-only by qualified, specially authorized persons\EU1/LinLibertine(0)/m/n/10.95 ;
- ([]) 
- []
-
-! Undefined control sequence.
-\enit@endenumerate ...\else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.368 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.368 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.368 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.368 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.368 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.368 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@endenumerate ...t \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.368 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.368 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.368 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.368 ^^I\end{enumerate}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.368 ^^I\end{enumerate}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-[10]
-
-LaTeX Warning: Citation 'Roeher_2006' on page 11 undefined on input line 374.
-
-
-LaTeX Warning: Citation 'Potts_2015' on page 11 undefined on input line 374.
-
-
-LaTeX Warning: Citation 'Willems_2007' on page 11 undefined on input line 375.
-
-
-Overfull \hbox (2.79054pt too wide) in paragraph at lines 374--376
-[] \EU1/LinLibertine(0)/m/n/10.95 metal detectorists spread throughout the UK (
-[]; []). While
- []
-
-Package marginnote Info: Margin note 11.1 is on absolute page 11
-(marginnote)              on input line 381.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 381.
-
-LaTeX Warning: Citation 'RA10066' on page 11 undefined on input line 383.
-
-
-LaTeX Warning: Citation 'Valetta_1992' on page 11 undefined on input line 383.
-
-
-Overfull \hbox (20.18008pt too wide) in paragraph at lines 383--384
-[]\EU1/LinLibertine(0)/m/n/10.95 While profit driven thieves such as the treasu
-re hunters of the Philippines and nighthawks
- []
-
-[11]
-
-LaTeX Warning: Empty bibliography on input line 391.
-
-Package biblatex Info: Reference section=0 on input line 391.
-) [12]
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.32 \myitem{reviewers}
+                       
+I'm forgetting what you said and using zero instead.
+
+) [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
  (./ijsra_2016_02.aux
 No file preamble/colophon.aux.
-No file preamble/editorial.aux.
+(./preamble/editorial.aux)
+Package microtype Info: *** Changing to language context `english'
+(microtype)              on input line 31.
+
 No file preamble/_toc.aux.
 No file preamble/issue-presentation.aux.
 No file preamble/_part_interviews.aux.
@@ -4456,9 +4292,6 @@ No file content/forssman.aux.
 No file content/17Pereda.aux.
 No file content/11Raza.aux.
 (./content/Rownd.aux)
-Package microtype Info: *** Changing to language context `english'
-(microtype)              on input line 46.
-
 No file content/Davis.aux.
 No file preamble/_part_litreviews.aux.
 No file content/Gyngell.aux.
@@ -4723,34 +4556,25 @@ RS)
    uzeus.fd    2005/01/11 v4.0 (WaS)
   mt-eus.cfg    2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
   uzeuex.fd    2005/01/11 v4.0 (WaS)
-content/Rownd.tex
+preamble/editorial.tex
 se-ascii-print.def    2016/05/16 v1.11 stringenc: Printable ASCII characters
-ijsra_logo.png    Graphic file (type QTm)
  ***********
 
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 90.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                ijsra_2016_02
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 \openout1 = `ijsra_2016_02.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66413 strings out of 493589
- 1326436 string characters out of 6143511
- 1864649 words of memory out of 5000000
- 68875 multiletter control sequences out of 15000+600000
- 13788 words of font info for 80 fonts, out of 8000000 for 9000
+ 66242 strings out of 493589
+ 1322842 string characters out of 6143511
+ 1868575 words of memory out of 5000000
+ 68721 multiletter control sequences out of 15000+600000
+ 13325 words of font info for 72 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 80i,23n,147p,10428b,3592s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,22n,147p,10428b,3586s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ijsra_2016_02.pdf (12 pages).
+Output written on ijsra_2016_02.pdf (3 pages).
