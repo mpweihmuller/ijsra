@@ -4,17 +4,34 @@
   volume=2,
   number=2,
   titlefigure=forssman-titlepage,
+	nobib,
 	%Fyfe-Figure03_titlefigure,%must be in the folder "figures" (ratio: 1000x400 pt)
   ]{ijsra}
 
 
 %\addbibresource{ijsra_2016_02.bib}
-\addbibresource{Rownd}
+\addbibresource{fyfe.bib}
+\addbibresource{forssman.bib}
+\addbibresource{17Pereda.bib}
+\addbibresource{11Raza.bib}
+\addbibresource{Rownd.bib}
+\addbibresource{Davis.bib}
+\addbibresource{Gyngell.bib}
+\addbibresource{Hawkins.bib}
+\addbibresource{Rivera.bib}
+\addbibresource{Ward.bib}
+
+\usepackage[delimiter="]{datatool}
+\DTLloaddb{advisory}{csv/advisory.csv}
+\DTLloaddb{editorialboard}{csv/editorialboard.csv}
+\DTLloaddb{editing}{csv/editing.csv}
+\DTLloaddb{reviewers}{csv/reviewers.csv}
+
 \graphicspath{{content/figures/}}
 \includeonly{%
-%%content/ijsra_editorial,
-%%%------------------------------
-%content/forssman,
+%preamble/editorial,
+%%%%------------------------------
+%%content/forssman,
 content/Rownd
 }
 %%%%%%%%%%%%%%%%%%%
@@ -31,11 +48,12 @@ content/Rownd
 
 
 %------------------------------
+
 %\mainmatter
-\setcounter{page}{1}
 \renewcommand{\thepage}{\arabic{page}}%
 %------------------------------
 \include{preamble/_part_interviews}
+\setcounter{page}{1}
 \include{content/16Stringer}
 
 

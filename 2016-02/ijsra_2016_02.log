@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.12)  22 DEC 2016 10:08
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  22 DEC 2016 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -34,6 +34,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@depth=\count79
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2016/12/01 v2.2b e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count80
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrhack.sty
 Package: scrhack 2016/06/14 v3.21 KOMA-Script package 
 
@@ -53,10 +57,10 @@ Package scrlfile, 2016/06/14 v3.21 KOMA-Script package (loading files)
 
 ))) (/usr/local/texlive/2016/texmf-dist/tex/latex/xpatch/xpatch.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2016/10/19 v6730 L3 programming layer (loader) 
+Package: expl3 2016/11/21 v6760 L3 programming layer (loader) 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2016/10/19 v6730 L3 programming layer (code)
+Package: expl3 2016/11/21 v6760 L3 programming layer (code)
 L3 Module: l3bootstrap 2016/06/13 v6596 L3 Bootstrap code
 L3 Module: l3names 2016/10/13 v6722 L3 Namespace for primitives
 L3 Module: l3basics 2016/09/01 v6696 L3 Basic definitions
@@ -65,24 +69,24 @@ L3 Module: l3tl 2016/08/19 v6692 L3 Token lists
 L3 Module: l3str 2016/08/19 v6692 L3 Strings
 L3 Module: l3seq 2016/08/19 v6685 L3 Sequences and stacks
 L3 Module: l3int 2016/09/07 v6700 L3 Integers
-\c_max_int=\count80
-\l_tmpa_int=\count81
-\l_tmpb_int=\count82
-\g_tmpa_int=\count83
-\g_tmpb_int=\count84
+\c_max_int=\count81
+\l_tmpa_int=\count82
+\l_tmpb_int=\count83
+\g_tmpa_int=\count84
+\g_tmpb_int=\count85
 L3 Module: l3quark 2016/08/19 v6685 L3 Quarks
 L3 Module: l3prg 2016/08/18 v6679 L3 Control structures
-\g__prg_map_int=\count85
+\g__prg_map_int=\count86
 L3 Module: l3clist 2016/08/19 v6685 L3 Comma separated lists
 L3 Module: l3token 2016/09/01 v6695 L3 Experimental token manipulation
 L3 Module: l3prop 2016/08/19 v6685 L3 Property lists
 L3 Module: l3msg 2016/08/19 v6691 L3 Messages
 L3 Module: l3file 2016/08/19 v6685 L3 File and I/O operations
-\l_iow_line_count_int=\count86
-\l__iow_target_count_int=\count87
-\l__iow_current_line_int=\count88
-\l__iow_current_word_int=\count89
-\l__iow_current_indentation_int=\count90
+\l_iow_line_count_int=\count87
+\l__iow_target_count_int=\count88
+\l__iow_current_line_int=\count89
+\l__iow_current_word_int=\count90
+\l__iow_current_indentation_int=\count91
 L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \c_zero_dim=\dimen102
 \c_max_dim=\dimen103
@@ -103,17 +107,17 @@ L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
 L3 Module: l3keys 2016/09/21 v6711 L3 Key-value interfaces
-\l_keys_choice_int=\count91
-L3 Module: l3fp 2016/08/19 v6685 L3 Floating points
-\c__fp_leading_shift_int=\count92
-\c__fp_middle_shift_int=\count93
-\c__fp_trailing_shift_int=\count94
-\c__fp_big_leading_shift_int=\count95
-\c__fp_big_middle_shift_int=\count96
-\c__fp_big_trailing_shift_int=\count97
-\c__fp_Bigg_leading_shift_int=\count98
-\c__fp_Bigg_middle_shift_int=\count99
-\c__fp_Bigg_trailing_shift_int=\count100
+\l_keys_choice_int=\count92
+L3 Module: l3fp 2016/11/21 v6761 L3 Floating points
+\c__fp_leading_shift_int=\count93
+\c__fp_middle_shift_int=\count94
+\c__fp_trailing_shift_int=\count95
+\c__fp_big_leading_shift_int=\count96
+\c__fp_big_middle_shift_int=\count97
+\c__fp_big_trailing_shift_int=\count98
+\c__fp_Bigg_leading_shift_int=\count99
+\c__fp_Bigg_middle_shift_int=\count100
+\c__fp_Bigg_trailing_shift_int=\count101
 L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
 \c_empty_box=\box26
 \l_tmpa_box=\box27
@@ -168,16 +172,12 @@ File: l3xdvidpfmx.def 2016/08/18 v6679 L3 Experimental driver: xdvipdfmx
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2016/10/19 v6730 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count101
-\l__xparse_m_args_int=\count102
-\l__xparse_mandatory_args_int=\count103
-\l__xparse_processor_int=\count104
-\l__xparse_v_nesting_int=\count105
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count106
+Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count102
+\l__xparse_m_args_int=\count103
+\l__xparse_mandatory_args_int=\count104
+\l__xparse_processor_int=\count105
+\l__xparse_v_nesting_int=\count106
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1318,6 +1318,15 @@ LaTeX Info: Redefining \liningnums on input line 459.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eulervm/eulervm.sty
 Package: eulervm 2005/01/11 v4.0 (WaS)
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks23
+\labelindent=\skip65
+\enit@outerparindent=\dimen148
+\enit@toks=\toks24
+\enit@inbox=\box46
+\enitdp@description=\count140
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -1330,15 +1339,15 @@ Language: frenchb 2016/05/14 v3.2c French support from the babel system
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count140
-\U@D=\dimen148
+\babel@savecnt=\count141
+\U@D=\dimen149
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/xebabel.def))
 \l@acadian = a dialect from \language\l@french 
 \l@canadien = a dialect from \language\l@french 
-\FB@nonchar=\count141
-\FBcolonskip=\skip65
-\FBthinskip=\skip66
+\FB@nonchar=\count142
+\FBcolonskip=\skip66
+\FBthinskip=\skip67
 Package frenchb.ldf Info: No need for active punctuation characters
 (frenchb.ldf)             with this version of XeTeX!
 (frenchb.ldf)             reported on input line 277.
@@ -1348,18 +1357,18 @@ Package frenchb.ldf Info: No need for active punctuation characters
 \FB@guilo=\XeTeXcharclass4
 \FB@guilf=\XeTeXcharclass5
 \FB@guilnul=\XeTeXcharclass6
-\FBguillskip=\skip67
-\FBguill@level=\count142
-\FB@everypar=\toks23
-\FB@Mht=\dimen149
+\FBguillskip=\skip68
+\FBguill@level=\count143
+\FB@everypar=\toks25
+\FB@Mht=\dimen150
 LaTeX Info: Redefining \degres on input line 729.
-\std@mcc=\count143
-\dec@mcc=\count144
-\listindentFB=\skip68
-\labelwidthFB=\skip69
-\leftmarginFB=\skip70
-\parindentFFN=\dimen150
-\FBfnindent=\skip71
+\std@mcc=\count144
+\dec@mcc=\count145
+\listindentFB=\skip69
+\labelwidthFB=\skip70
+\leftmarginFB=\skip71
+\parindentFFN=\dimen151
+\FBfnindent=\skip72
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel-german/ngerman.ldf
 Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
@@ -1370,17 +1379,17 @@ Package babel Info: Making " an active character on input line 125.
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-\es@quottoks=\toks24
-\es@quotdepth=\count145
+\es@quottoks=\toks26
+\es@quotdepth=\count146
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel-italian/italian.ldf
 Language: italian 2015/03/26 v1.3n Italian support from the babel system
-\it@lettering=\count146
-\it@doublequoteactive=\count147
-\it@ISOcompliance=\count148
+\it@lettering=\count147
+\it@doublequoteactive=\count148
+\it@ISOcompliance=\count149
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
@@ -1391,12 +1400,12 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 (/usr/local/texlive/2016/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks25
-\MT@count=\count149
+\MT@toks=\toks27
+\MT@count=\count150
 LaTeX Info: Redefining \textls on input line 774.
-\MT@outer@kern=\dimen151
+\MT@outer@kern=\dimen152
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count150
+\MT@listname@count=\count151
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-xetex.def
 File: microtype-xetex.def 2016/05/14 v2.6a Definitions specific to xetex (RS)
@@ -1412,11 +1421,11 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen152
-\extrarowheight=\dimen153
-\NC@list=\toks26
-\extratabsurround=\skip72
-\backup@length=\skip73
+\col@sep=\dimen153
+\extrarowheight=\dimen154
+\NC@list=\toks28
+\extratabsurround=\skip73
+\backup@length=\skip74
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -1426,8 +1435,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 147.
 )
-\everycr=\toks27
-\minrowclearance=\skip74
+\everycr=\toks29
+\minrowclearance=\skip75
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/frankenstein/abbrevs.sty
 Package: abbrevs 2001/09/08 v1.4 abbreviation macros (Frankenstein's briefs)
@@ -1435,8 +1444,8 @@ Package: abbrevs 2001/09/08 v1.4 abbreviation macros (Frankenstein's briefs)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/frankenstein/moredefs.sty
 Package: moredefs 2001/08/31 v1.8 more defining commands (Frankenstein's brain)
 
-\sc@toks@a=\toks28
-\sc@toks@b=\toks29
+\sc@toks@a=\toks30
+\sc@toks@b=\toks31
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/frankenstein/slemph.sty
 Package: slemph 1999/02/25 v1.2 slanted emphasis (Frankenstein's gait)
@@ -1448,7 +1457,7 @@ LaTeX Info: Redefining \textslswitch on input line 196.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/frankenstein/slemph.cfg
 File: slemph.cfg 
 ))
-\c@tm@util=\count151
+\c@tm@util=\count152
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/frankenstein/abbrevs.cfg
 File: abbrevs.cfg 
@@ -1485,30 +1494,30 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count152
-\calc@Bcount=\count153
-\calc@Adimen=\dimen154
-\calc@Bdimen=\dimen155
-\calc@Askip=\skip75
-\calc@Bskip=\skip76
+\calc@Acount=\count153
+\calc@Bcount=\count154
+\calc@Adimen=\dimen155
+\calc@Bdimen=\dimen156
+\calc@Askip=\skip76
+\calc@Bskip=\skip77
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count154
-\calc@Cskip=\skip77
+\calc@Ccount=\count155
+\calc@Cskip=\skip78
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks30
-\pgfutil@tempdima=\dimen156
-\pgfutil@tempdimb=\dimen157
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box46
+\pgfutil@abb=\box47
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -1521,30 +1530,30 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks31
-\pgfkeys@temptoks=\toks32
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks33
+\pgfkeys@tmptoks=\toks35
 ))
-\pgf@x=\dimen158
-\pgf@y=\dimen159
-\pgf@xa=\dimen160
-\pgf@ya=\dimen161
-\pgf@xb=\dimen162
-\pgf@yb=\dimen163
-\pgf@xc=\dimen164
-\pgf@yc=\dimen165
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count155
-\c@pgf@countb=\count156
-\c@pgf@countc=\count157
-\c@pgf@countd=\count158
-\t@pgf@toka=\toks34
-\t@pgf@tokb=\toks35
-\t@pgf@tokc=\toks36
+\c@pgf@counta=\count156
+\c@pgf@countb=\count157
+\c@pgf@countc=\count158
+\c@pgf@countd=\count159
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -1563,13 +1572,13 @@ File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
 df.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )
-\pgfsys@objnum=\count159
+\pgfsys@objnum=\count160
 )))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count160
-\pgfsyssoftpath@bigbuffer@items=\count161
+\pgfsyssoftpath@smallbuffer@items=\count161
+\pgfsyssoftpath@bigbuffer@items=\count162
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -1581,12 +1590,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen166
-\pgfmath@count=\count162
-\pgfmath@box=\box47
-\pgfmath@toks=\toks37
-\pgfmath@stack@operand=\toks38
-\pgfmath@stack@operation=\toks39
+\pgfmath@dimen=\dimen167
+\pgfmath@count=\count163
+\pgfmath@box=\box48
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -1607,57 +1616,57 @@ code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count163
+\c@pgfmathroundto@lastzeros=\count164
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen167
-\pgf@picmaxx=\dimen168
-\pgf@picminy=\dimen169
-\pgf@picmaxy=\dimen170
-\pgf@pathminx=\dimen171
-\pgf@pathmaxx=\dimen172
-\pgf@pathminy=\dimen173
-\pgf@pathmaxy=\dimen174
-\pgf@xx=\dimen175
-\pgf@xy=\dimen176
-\pgf@yx=\dimen177
-\pgf@yy=\dimen178
-\pgf@zx=\dimen179
-\pgf@zy=\dimen180
+\pgf@picminx=\dimen168
+\pgf@picmaxx=\dimen169
+\pgf@picminy=\dimen170
+\pgf@picmaxy=\dimen171
+\pgf@pathminx=\dimen172
+\pgf@pathmaxx=\dimen173
+\pgf@pathminy=\dimen174
+\pgf@pathmaxy=\dimen175
+\pgf@xx=\dimen176
+\pgf@xy=\dimen177
+\pgf@yx=\dimen178
+\pgf@yy=\dimen179
+\pgf@zx=\dimen180
+\pgf@zy=\dimen181
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen181
-\pgf@path@lasty=\dimen182
+\pgf@path@lastx=\dimen182
+\pgf@path@lasty=\dimen183
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen183
-\pgf@shorten@start@additional=\dimen184
+\pgf@shorten@end@additional=\dimen184
+\pgf@shorten@start@additional=\dimen185
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box48
-\pgf@hbox=\box49
-\pgf@layerbox@main=\box50
-\pgf@picture@serial@count=\count164
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
+\pgf@picture@serial@count=\count165
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen185
+\pgflinewidth=\dimen186
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen186
-\pgf@pt@y=\dimen187
-\pgf@pt@temp=\dimen188
+\pgf@pt@x=\dimen187
+\pgf@pt@y=\dimen188
+\pgf@pt@temp=\dimen189
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -1674,13 +1683,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen189
+\pgfarrowsep=\dimen190
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen190
-\pgf@sys@shading@range@num=\count165
+\pgf@max=\dimen191
+\pgf@sys@shading@range@num=\count166
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1689,7 +1698,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box51
+\pgfexternal@startupbox=\box52
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -1706,7 +1715,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box52
+\pgfnodeparttextbox=\box53
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -1715,8 +1724,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen191
-\pgf@nodesepend=\dimen192
+\pgf@nodesepstart=\dimen192
+\pgf@nodesepend=\dimen193
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1731,10 +1740,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen193
-\pgffor@skip=\dimen194
-\pgffor@stack=\toks40
-\pgffor@toks=\toks41
+\pgffor@iter=\dimen194
+\pgffor@skip=\dimen195
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1743,67 +1752,67 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count166
-\pgfplotmarksize=\dimen195
+\pgf@plot@mark@count=\count167
+\pgfplotmarksize=\dimen196
 )
-\tikz@lastx=\dimen196
-\tikz@lasty=\dimen197
-\tikz@lastxsaved=\dimen198
-\tikz@lastysaved=\dimen199
-\tikzleveldistance=\dimen256
-\tikzsiblingdistance=\dimen257
-\tikz@figbox=\box53
-\tikz@figbox@bg=\box54
-\tikz@tempbox=\box55
-\tikz@tempbox@bg=\box56
-\tikztreelevel=\count167
-\tikznumberofchildren=\count168
-\tikznumberofcurrentchild=\count169
-\tikz@fig@count=\count170
+\tikz@lastx=\dimen197
+\tikz@lasty=\dimen198
+\tikz@lastxsaved=\dimen199
+\tikz@lastysaved=\dimen256
+\tikzleveldistance=\dimen257
+\tikzsiblingdistance=\dimen258
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count168
+\tikznumberofchildren=\count169
+\tikznumberofcurrentchild=\count170
+\tikz@fig@count=\count171
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count171
-\pgfmatrixcurrentcolumn=\count172
-\pgf@matrix@numberofcolumns=\count173
+\pgfmatrixcurrentrow=\count172
+\pgfmatrixcurrentcolumn=\count173
+\pgf@matrix@numberofcolumns=\count174
 )
-\tikz@expandcount=\count174
+\tikz@expandcount=\count175
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-\alertmessage@textlength=\skip78
+\alertmessage@textlength=\skip79
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2016/10/21 v1.2a non floating margin notes for LaTeX
-\c@mn@abspage=\count175
+\c@mn@abspage=\count176
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count176
-\c@DefaultDepth=\count177
-\DefaultFindent=\dimen258
-\DefaultNindent=\dimen259
-\DefaultSlope=\dimen260
-\DiscardVskip=\dimen261
-\L@lbox=\box57
-\L@tbox=\box58
-\c@L@lines=\count178
-\c@L@depth=\count179
-\L@Pindent=\dimen262
-\L@Findent=\dimen263
-\L@Nindent=\dimen264
-\L@lraise=\dimen265
-\L@first=\dimen266
-\L@next=\dimen267
-\L@slope=\dimen268
-\L@height=\dimen269
-\L@novskip=\dimen270
-\LettrineWidth=\dimen271
-\LettrineHeight=\dimen272
-\LettrineDepth=\dimen273
+\c@DefaultLines=\count177
+\c@DefaultDepth=\count178
+\DefaultFindent=\dimen259
+\DefaultNindent=\dimen260
+\DefaultSlope=\dimen261
+\DiscardVskip=\dimen262
+\L@lbox=\box58
+\L@tbox=\box59
+\c@L@lines=\count179
+\c@L@depth=\count180
+\L@Pindent=\dimen263
+\L@Findent=\dimen264
+\L@Nindent=\dimen265
+\L@lraise=\dimen266
+\L@first=\dimen267
+\L@next=\dimen268
+\L@slope=\dimen269
+\L@height=\dimen270
+\L@novskip=\dimen271
+\LettrineWidth=\dimen272
+\LettrineHeight=\dimen273
+\LettrineDepth=\dimen274
 
 Loading lettrine.cfg
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lettrine/lettrine.cfg))
@@ -1818,11 +1827,11 @@ tine_RI.otf
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2016/08/07 v2.6 Extended list environments
-\pltopsep=\skip79
-\plpartopsep=\skip80
-\plitemsep=\skip81
-\plparsep=\skip82
-\pl@lab=\toks42
+\pltopsep=\skip80
+\plpartopsep=\skip81
+\plitemsep=\skip82
+\plparsep=\skip83
+\pl@lab=\toks44
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/currfile/currfile.sty
 Package: currfile 2015/04/23 v0.7c Provides the file path elements of the curre
@@ -1855,173 +1864,173 @@ Package: filehook-scrlfile 2011/01/03 v0.1 filehook patch for scrlfile package
 Package filehook Info: Package 'scrlfile' detected and compensated for on input
  line 102.
 ))
-\c@currfiledepth=\count180
+\c@currfiledepth=\count181
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/currfile/currfile-abspath.sty
 Package: currfile-abspath 2015/04/23 v0.7c Provides absolute file paths, the pa
 rent working directory and the main file name
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2016/09/02 v2.6s A comprehensive (SI) units package
+Package: siunitx 2016/11/24 v2.7 A comprehensive (SI) units package
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2016/10/19 v6730 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box59
-\l__siunitx_tmp_dim=\dimen274
-\l__siunitx_tmp_int=\count181
-\l__siunitx_number_mantissa_length_int=\count182
-\l__siunitx_number_uncert_length_int=\count183
-\l__siunitx_round_int=\count184
-\l__siunitx_process_decimal_int=\count185
-\l__siunitx_process_uncertainty_int=\count186
-\l__siunitx_process_fixed_int=\count187
-\l__siunitx_process_integer_min_int=\count188
-\l__siunitx_process_precision_int=\count189
-\l__siunitx_group_min_int=\count190
-\l__siunitx_angle_marker_box=\box60
-\l__siunitx_angle_unit_box=\box61
-\l__siunitx_angle_marker_dim=\dimen275
-\l__siunitx_angle_unit_dim=\dimen276
-\l__siunitx_unit_int=\count191
-\l__siunitx_unit_denominator_int=\count192
-\l__siunitx_unit_numerator_int=\count193
-\l__siunitx_unit_prefix_int=\count194
-\l__siunitx_unit_prefix_base_int=\count195
-\l__siunitx_unit_prefix_gram_int=\count196
-\l__siunitx_number_product_int=\count197
-\c__siunitx_one_fill_skip=\skip83
-\l__siunitx_table_unit_align_skip=\skip84
-\l__siunitx_table_exponent_dim=\dimen277
-\l__siunitx_table_integer_dim=\dimen278
-\l__siunitx_table_mantissa_dim=\dimen279
-\l__siunitx_table_marker_dim=\dimen280
-\l__siunitx_table_result_dim=\dimen281
-\l__siunitx_table_uncert_dim=\dimen282
-\l__siunitx_table_fill_pre_dim=\dimen283
-\l__siunitx_table_fill_post_dim=\dimen284
-\l__siunitx_table_fill_mid_dim=\dimen285
-\l__siunitx_table_pre_box=\box62
-\l__siunitx_table_post_box=\box63
-\l__siunitx_table_mantissa_box=\box64
-\l__siunitx_table_result_box=\box65
-\l__siunitx_table_number_align_skip=\skip85
-\l__siunitx_table_text_align_skip=\skip86
+\l__siunitx_tmp_box=\box60
+\l__siunitx_tmp_dim=\dimen275
+\l__siunitx_tmp_int=\count182
+\l__siunitx_number_mantissa_length_int=\count183
+\l__siunitx_number_uncert_length_int=\count184
+\l__siunitx_round_int=\count185
+\l__siunitx_process_decimal_int=\count186
+\l__siunitx_process_uncertainty_int=\count187
+\l__siunitx_process_fixed_int=\count188
+\l__siunitx_process_integer_min_int=\count189
+\l__siunitx_process_precision_int=\count190
+\l__siunitx_group_min_int=\count191
+\l__siunitx_angle_marker_box=\box61
+\l__siunitx_angle_unit_box=\box62
+\l__siunitx_angle_marker_dim=\dimen276
+\l__siunitx_angle_unit_dim=\dimen277
+\l__siunitx_unit_int=\count192
+\l__siunitx_unit_denominator_int=\count193
+\l__siunitx_unit_numerator_int=\count194
+\l__siunitx_unit_prefix_int=\count195
+\l__siunitx_unit_prefix_base_int=\count196
+\l__siunitx_unit_prefix_gram_int=\count197
+\l__siunitx_number_product_int=\count198
+\c__siunitx_one_fill_skip=\skip84
+\l__siunitx_table_unit_align_skip=\skip85
+\l__siunitx_table_exponent_dim=\dimen278
+\l__siunitx_table_integer_dim=\dimen279
+\l__siunitx_table_mantissa_dim=\dimen280
+\l__siunitx_table_marker_dim=\dimen281
+\l__siunitx_table_result_dim=\dimen282
+\l__siunitx_table_uncert_dim=\dimen283
+\l__siunitx_table_fill_pre_dim=\dimen284
+\l__siunitx_table_fill_post_dim=\dimen285
+\l__siunitx_table_fill_mid_dim=\dimen286
+\l__siunitx_table_pre_box=\box63
+\l__siunitx_table_post_box=\box64
+\l__siunitx_table_mantissa_box=\box65
+\l__siunitx_table_result_box=\box66
+\l__siunitx_table_number_align_skip=\skip86
+\l__siunitx_table_text_align_skip=\skip87
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7237.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareSIPostPower with sig. 'mm' on line 7240.
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7249.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7243.
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7252.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPrePower with sig. 'mm' on line 7246.
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7255.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIQualifier with sig. 'mm' on line 7249.
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7258.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7252.
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7261.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7255.
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7264.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7270.
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7267.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \num with sig. 'om' on line 7279.
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7282.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7288.
+. Defining command \num with sig. 'om' on line 7291.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numrange with sig. 'omm' on line 7297.
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7300.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7309.
+. Defining command \numrange with sig. 'omm' on line 7309.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIrange with sig. 'ommm' on line 7321.
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7321.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SI with sig. 'omom' on line 7333.
+. Defining command \SIrange with sig. 'ommm' on line 7333.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \sisetup with sig. 'm' on line 7336.
+. Defining command \SI with sig. 'omom' on line 7345.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tablenum with sig. 'om' on line 7351.
+. Defining command \sisetup with sig. 'm' on line 7348.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \si with sig. 'om' on line 7363.
+. Defining command \tablenum with sig. 'om' on line 7363.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7410.
+. Defining command \si with sig. 'om' on line 7375.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7422.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \__siunitx_bookmark_numrange:w with sig. 'omm' on line
-. 7412.
+. 7424.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7414.
+. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7426.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7416.
+. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7428.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \__siunitx_bookmark_SIrange:w with sig. 'ommm' on line
-. 7418.
+. 7430.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7419.
+. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7431.
 .................................................
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator.sty
 Package: translator 2010/06/12 ver 1.10
@@ -2030,13 +2039,13 @@ Package: translator 2010/06/12 ver 1.10
 uage-mappings.tex)))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/07/14 v5.1h context-sensitive quotations (JAW)
-\csq@reset=\count198
-\csq@gtype=\count199
-\csq@glevel=\count266
-\csq@qlevel=\count267
-\csq@maxlvl=\count268
-\csq@tshold=\count269
-\csq@ltx@everypar=\toks43
+\csq@reset=\count199
+\csq@gtype=\count266
+\csq@glevel=\count267
+\csq@qlevel=\count268
+\csq@maxlvl=\count269
+\csq@tshold=\count270
+\csq@ltx@everypar=\toks45
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2016/07/14 v5.1h csquotes generic definitions (JAW)
@@ -2052,7 +2061,7 @@ Package csquotes Info: Disabling multilingual quotes.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2016/09/17 v3.6 programmable bibliographies (PK/JW/AB)
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
@@ -2065,7 +2074,7 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count270
+\lrq@indent=\count271
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -2073,62 +2082,62 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
-\integerpart=\count271
-\decimalpart=\count272
+\integerpart=\count272
+\decimalpart=\count273
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count273
-\c@listtotal=\count274
-\c@listcount=\count275
-\c@liststart=\count276
-\c@liststop=\count277
-\c@citecount=\count278
-\c@citetotal=\count279
-\c@multicitecount=\count280
-\c@multicitetotal=\count281
-\c@instcount=\count282
-\c@maxnames=\count283
-\c@minnames=\count284
-\c@maxitems=\count285
-\c@minitems=\count286
-\c@citecounter=\count287
-\c@savedcitecounter=\count288
-\c@uniquelist=\count289
-\c@uniquename=\count290
-\c@refsection=\count291
-\c@refsegment=\count292
-\c@maxextratitle=\count293
-\c@maxextratitleyear=\count294
-\c@maxextrayear=\count295
-\c@maxextraalpha=\count296
-\c@abbrvpenalty=\count297
-\c@highnamepenalty=\count298
-\c@lownamepenalty=\count299
-\c@maxparens=\count300
-\c@parenlevel=\count301
-\blx@tempcnta=\count302
-\blx@tempcntb=\count303
-\blx@tempcntc=\count304
-\blx@maxsection=\count305
-\blx@maxsegment@0=\count306
-\blx@notetype=\count307
-\blx@parenlevel@text=\count308
-\blx@parenlevel@foot=\count309
-\blx@sectionciteorder@0=\count310
-\labelnumberwidth=\skip87
-\labelalphawidth=\skip88
-\biblabelsep=\skip89
-\bibitemsep=\skip90
-\bibnamesep=\skip91
-\bibinitsep=\skip92
-\bibparsep=\skip93
-\bibhang=\skip94
+\c@tabx@nest=\count274
+\c@listtotal=\count275
+\c@listcount=\count276
+\c@liststart=\count277
+\c@liststop=\count278
+\c@citecount=\count279
+\c@citetotal=\count280
+\c@multicitecount=\count281
+\c@multicitetotal=\count282
+\c@instcount=\count283
+\c@maxnames=\count284
+\c@minnames=\count285
+\c@maxitems=\count286
+\c@minitems=\count287
+\c@citecounter=\count288
+\c@savedcitecounter=\count289
+\c@uniquelist=\count290
+\c@uniquename=\count291
+\c@refsection=\count292
+\c@refsegment=\count293
+\c@maxextratitle=\count294
+\c@maxextratitleyear=\count295
+\c@maxextrayear=\count296
+\c@maxextraalpha=\count297
+\c@abbrvpenalty=\count298
+\c@highnamepenalty=\count299
+\c@lownamepenalty=\count300
+\c@maxparens=\count301
+\c@parenlevel=\count302
+\blx@tempcnta=\count303
+\blx@tempcntb=\count304
+\blx@tempcntc=\count305
+\blx@maxsection=\count306
+\blx@maxsegment@0=\count307
+\blx@notetype=\count308
+\blx@parenlevel@text=\count309
+\blx@parenlevel@foot=\count310
+\blx@sectionciteorder@0=\count311
+\labelnumberwidth=\skip88
+\labelalphawidth=\skip89
+\biblabelsep=\skip90
+\bibitemsep=\skip91
+\bibnamesep=\skip92
+\bibinitsep=\skip93
+\bibparsep=\skip94
+\bibhang=\skip95
 \blx@bcfin=\read3
 \blx@bcfout=\write5
-\c@mincomprange=\count311
-\c@maxcomprange=\count312
-\c@mincompwidth=\count313
+\c@mincomprange=\count312
+\c@maxcomprange=\count313
+\c@mincompwidth=\count314
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -2137,96 +2146,96 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ijsra.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count314
-\c@savedafterword=\count315
-\c@annotator=\count316
-\c@savedannotator=\count317
-\c@author=\count318
-\c@savedauthor=\count319
-\c@bookauthor=\count320
-\c@savedbookauthor=\count321
-\c@commentator=\count322
-\c@savedcommentator=\count323
-\c@editor=\count324
-\c@savededitor=\count325
-\c@editora=\count326
-\c@savededitora=\count327
-\c@editorb=\count328
-\c@savededitorb=\count329
-\c@editorc=\count330
-\c@savededitorc=\count331
-\c@foreword=\count332
-\c@savedforeword=\count333
-\c@holder=\count334
-\c@savedholder=\count335
-\c@introduction=\count336
-\c@savedintroduction=\count337
-\c@namea=\count338
-\c@savednamea=\count339
-\c@nameb=\count340
-\c@savednameb=\count341
-\c@namec=\count342
-\c@savednamec=\count343
-\c@translator=\count344
-\c@savedtranslator=\count345
-\c@shortauthor=\count346
-\c@savedshortauthor=\count347
-\c@shorteditor=\count348
-\c@savedshorteditor=\count349
-\c@labelname=\count350
-\c@savedlabelname=\count351
-\c@institution=\count352
-\c@savedinstitution=\count353
-\c@lista=\count354
-\c@savedlista=\count355
-\c@listb=\count356
-\c@savedlistb=\count357
-\c@listc=\count358
-\c@savedlistc=\count359
-\c@listd=\count360
-\c@savedlistd=\count361
-\c@liste=\count362
-\c@savedliste=\count363
-\c@listf=\count364
-\c@savedlistf=\count365
-\c@location=\count366
-\c@savedlocation=\count367
-\c@organization=\count368
-\c@savedorganization=\count369
-\c@origlocation=\count370
-\c@savedoriglocation=\count371
-\c@origpublisher=\count372
-\c@savedorigpublisher=\count373
-\c@publisher=\count374
-\c@savedpublisher=\count375
-\c@language=\count376
-\c@savedlanguage=\count377
-\c@pageref=\count378
-\c@savedpageref=\count379
-\shorthandwidth=\skip95
-\shortjournalwidth=\skip96
-\shortserieswidth=\skip97
-\shorttitlewidth=\skip98
-\shortauthorwidth=\skip99
-\shorteditorwidth=\skip100
+\c@afterword=\count315
+\c@savedafterword=\count316
+\c@annotator=\count317
+\c@savedannotator=\count318
+\c@author=\count319
+\c@savedauthor=\count320
+\c@bookauthor=\count321
+\c@savedbookauthor=\count322
+\c@commentator=\count323
+\c@savedcommentator=\count324
+\c@editor=\count325
+\c@savededitor=\count326
+\c@editora=\count327
+\c@savededitora=\count328
+\c@editorb=\count329
+\c@savededitorb=\count330
+\c@editorc=\count331
+\c@savededitorc=\count332
+\c@foreword=\count333
+\c@savedforeword=\count334
+\c@holder=\count335
+\c@savedholder=\count336
+\c@introduction=\count337
+\c@savedintroduction=\count338
+\c@namea=\count339
+\c@savednamea=\count340
+\c@nameb=\count341
+\c@savednameb=\count342
+\c@namec=\count343
+\c@savednamec=\count344
+\c@translator=\count345
+\c@savedtranslator=\count346
+\c@shortauthor=\count347
+\c@savedshortauthor=\count348
+\c@shorteditor=\count349
+\c@savedshorteditor=\count350
+\c@labelname=\count351
+\c@savedlabelname=\count352
+\c@institution=\count353
+\c@savedinstitution=\count354
+\c@lista=\count355
+\c@savedlista=\count356
+\c@listb=\count357
+\c@savedlistb=\count358
+\c@listc=\count359
+\c@savedlistc=\count360
+\c@listd=\count361
+\c@savedlistd=\count362
+\c@liste=\count363
+\c@savedliste=\count364
+\c@listf=\count365
+\c@savedlistf=\count366
+\c@location=\count367
+\c@savedlocation=\count368
+\c@organization=\count369
+\c@savedorganization=\count370
+\c@origlocation=\count371
+\c@savedoriglocation=\count372
+\c@origpublisher=\count373
+\c@savedorigpublisher=\count374
+\c@publisher=\count375
+\c@savedpublisher=\count376
+\c@language=\count377
+\c@savedlanguage=\count378
+\c@pageref=\count379
+\c@savedpageref=\count380
+\shorthandwidth=\skip96
+\shortjournalwidth=\skip97
+\shortserieswidth=\skip98
+\shorttitlewidth=\skip99
+\shortauthorwidth=\skip100
+\shorteditorwidth=\skip101
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count380
-\c@textcitetotal=\count381
-\c@textcitemaxnames=\count382
-\c@biburlnumpenalty=\count383
-\c@biburlucpenalty=\count384
-\c@biburllcpenalty=\count385
-\c@smartand=\count386
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count381
+\c@textcitetotal=\count382
+\c@textcitemaxnames=\count383
+\c@biburlnumpenalty=\count384
+\c@biburlucpenalty=\count385
+\c@biburllcpenalty=\count386
+\c@smartand=\count387
 )
 Package biblatex Info: Trying to load bibliography style 'ijsra'...
 Package biblatex Info: ... file 'ijsra.bbx' found.
@@ -2237,14 +2246,14 @@ Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-File: authoryear.bbx 2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
+File: authoryear.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count387
-\c@bbx:relatedtotal=\count388
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count388
+\c@bbx:relatedtotal=\count389
 )))
 Package biblatex Info: Trying to load citation style 'ijsra'...
 Package biblatex Info: ... file 'ijsra.cbx' found.
@@ -2255,7 +2264,7 @@ Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
-File: authoryear.cbx 2016/09/17 v3.6 biblatex citation style (PK/JW/AB)
+File: authoryear.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -2271,40 +2280,39 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen286
-\WF@size=\dimen287
-\c@WF@wrappedlines=\count389
-\WF@box=\box66
-\WF@everypar=\toks44
+\wrapoverhang=\dimen287
+\WF@size=\dimen288
+\c@WF@wrappedlines=\count390
+\WF@box=\box67
+\WF@everypar=\toks46
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen288
-\lightrulewidth=\dimen289
-\cmidrulewidth=\dimen290
-\belowrulesep=\dimen291
-\belowbottomsep=\dimen292
-\aboverulesep=\dimen293
-\abovetopsep=\dimen294
-\cmidrulesep=\dimen295
-\cmidrulekern=\dimen296
-\defaultaddspace=\dimen297
-\@cmidla=\count390
-\@cmidlb=\count391
-\@aboverulesep=\dimen298
-\@belowrulesep=\dimen299
-\@thisruleclass=\count392
-\@lastruleclass=\count393
-\@thisrulewidth=\dimen300
+\heavyrulewidth=\dimen289
+\lightrulewidth=\dimen290
+\cmidrulewidth=\dimen291
+\belowrulesep=\dimen292
+\belowbottomsep=\dimen293
+\aboverulesep=\dimen294
+\abovetopsep=\dimen295
+\cmidrulesep=\dimen296
+\cmidrulekern=\dimen297
+\defaultaddspace=\dimen298
+\@cmidla=\count391
+\@cmidlb=\count392
+\@aboverulesep=\dimen299
+\@belowrulesep=\dimen300
+\@thisruleclass=\count393
+\@lastruleclass=\count394
+\@thisrulewidth=\dimen301
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2016/10/11 v2.1 Span multiple rows of a table
-\multirow@colwidth=\skip101
-\multirow@cnta=\count394
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip102
 \multirow@cntb=\count395
-\multirow@dima=\skip102
-\bigstrutjot=\dimen301
+\multirow@dima=\skip103
+\bigstrutjot=\dimen302
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -2316,7 +2324,7 @@ Package: hologo 2016/05/16 v1.12 A logo collection with bookmark support (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+Package: pdfpages 2016/12/11 v0.5g Insert pages of external PDF documents (AM)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
@@ -2324,57 +2332,56 @@ Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 ))
-\AM@pagewidth=\dimen302
-\AM@pageheight=\dimen303
+\AM@pagewidth=\dimen303
+\AM@pageheight=\dimen304
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/ppxetex.def
-File: ppxetex.def 2016/04/19 v0.5f Pdfpages driver for XeTeX (AM)
+File: ppxetex.def 2016/12/11 v0.5g Pdfpages driver for XeTeX (AM)
 )
-\AM@pagebox=\box67
-\AM@global@opts=\toks45
-\AM@toc@title=\toks46
+\AM@pagebox=\box68
+\AM@global@opts=\toks47
+\AM@toc@title=\toks48
 \c@AM@survey=\count396
-\AM@templatesizebox=\box68
+\AM@templatesizebox=\box69
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count397
 \Gm@cntv=\count398
 \c@Gm@tempcnt=\count399
-\Gm@bindingoffset=\dimen304
-\Gm@wd@mp=\dimen305
-\Gm@odd@mp=\dimen306
-\Gm@even@mp=\dimen307
-\Gm@layoutwidth=\dimen308
-\Gm@layoutheight=\dimen309
-\Gm@layouthoffset=\dimen310
-\Gm@layoutvoffset=\dimen311
-\Gm@dimlist=\toks47
+\Gm@bindingoffset=\dimen305
+\Gm@wd@mp=\dimen306
+\Gm@odd@mp=\dimen307
+\Gm@even@mp=\dimen308
+\Gm@layoutwidth=\dimen309
+\Gm@layoutheight=\dimen310
+\Gm@layouthoffset=\dimen311
+\Gm@layoutvoffset=\dimen312
+\Gm@dimlist=\toks49
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \c@tracingmulticols=\count400
-\mult@box=\box69
-\multicol@leftmargin=\dimen312
+\mult@box=\box70
+\multicol@leftmargin=\dimen313
 \c@unbalance=\count401
 \c@collectmore=\count402
 \doublecol@number=\count403
 \multicoltolerance=\count404
 \multicolpretolerance=\count405
-\full@width=\dimen313
-\page@free=\dimen314
-\premulticols=\dimen315
-\postmulticols=\dimen316
-\multicolsep=\skip103
-\multicolbaselineskip=\skip104
-\partial@page=\box70
-\last@line=\box71
-\maxbalancingoverflow=\dimen317
-\mult@rightbox=\box72
-\mult@grightbox=\box73
-\mult@gfirstbox=\box74
-\mult@firstbox=\box75
-\@tempa=\box76
+\full@width=\dimen314
+\page@free=\dimen315
+\premulticols=\dimen316
+\postmulticols=\dimen317
+\multicolsep=\skip104
+\multicolbaselineskip=\skip105
+\partial@page=\box71
+\last@line=\box72
+\maxbalancingoverflow=\dimen318
+\mult@rightbox=\box73
+\mult@grightbox=\box74
+\mult@gfirstbox=\box75
+\mult@firstbox=\box76
 \@tempa=\box77
 \@tempa=\box78
 \@tempa=\box79
@@ -2391,13 +2398,14 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box90
 \@tempa=\box91
 \@tempa=\box92
+\@tempa=\box93
 \c@columnbadness=\count406
 \c@finalcolumnbadness=\count407
-\last@try=\dimen318
-\multicolovershoot=\dimen319
-\multicolundershoot=\dimen320
-\mult@nat@firstbox=\box93
-\colbreak@box=\box94
+\last@try=\dimen319
+\multicolovershoot=\dimen320
+\multicolundershoot=\dimen321
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
 \mc@col@check@num=\count408
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
@@ -2406,13 +2414,13 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen321
-\captionmargin@=\dimen322
-\captionwidth=\dimen323
-\caption@tempdima=\dimen324
-\caption@indent=\dimen325
-\caption@parindent=\dimen326
-\caption@hangindent=\dimen327
+\captionmargin=\dimen322
+\captionmargin@=\dimen323
+\captionwidth=\dimen324
+\caption@tempdima=\dimen325
+\caption@indent=\dimen326
+\caption@parindent=\dimen327
+\caption@hangindent=\dimen328
 Package caption Info: The definition of \@makecaption has been changed,
 (caption)             frenchb will NOT customize it.
 )
@@ -2428,7 +2436,7 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-Package scrhack Info: loading setspace hack on input line 171.
+Package scrhack Info: loading setspace hack on input line 176.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/setspace.hak
 File: setspace.hak 2016/06/14 v3.21 KOMA-Script package (hacking package setspa
@@ -2442,28 +2450,28 @@ Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count412
-\lst@gtempboxa=\box95
-\lst@token=\toks48
+\lst@gtempboxa=\box96
+\lst@token=\toks50
 \lst@length=\count413
-\lst@currlwidth=\dimen328
+\lst@currlwidth=\dimen329
 \lst@column=\count414
 \lst@pos=\count415
-\lst@lostspace=\dimen329
-\lst@width=\dimen330
+\lst@lostspace=\dimen330
+\lst@width=\dimen331
 \lst@newlines=\count416
 \lst@lineno=\count417
-\lst@maxwidth=\dimen331
+\lst@maxwidth=\dimen332
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count418
 \lst@skipnumbers=\count419
-\lst@framebox=\box96
+\lst@framebox=\box97
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package scrhack Info: loading listings hack on input line 177.
+Package scrhack Info: loading listings hack on input line 182.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/listings.hak
 File: listings.hak 2016/06/14 v3.21 KOMA-Script package (hacking package listin
@@ -2497,11 +2505,11 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
 1: subsection
 Package scrkbase Info: You've told me to extend the font selection of the
 (scrkbase)             element `sectioning' that is an alias of element
-(scrkbase)             `disposition' on input line 209.
+(scrkbase)             `disposition' on input line 214.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks49
-\footnotemargin=\dimen332
+\FN@temptoken=\toks51
+\footnotemargin=\dimen333
 \c@pp@next@reset=\count420
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
@@ -2515,19 +2523,19 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 (/usr/local/texlive/2016/texmf-dist/tex/latex/marginfix/marginfix.sty
 Package: marginfix 2013/09/08 v1.1 Fix Margin Paragraphs
 \Mfx@inject@insert=\insert252
-\Mfx@marginbox=\box97
-\Mfx@marginpos@min=\dimen333
-\Mfx@marginpos@max=\dimen334
-\Mfx@marginspace=\dimen335
-\Mfx@marginheight=\dimen336
-\Mfx@piece@content=\box98
+\Mfx@marginbox=\box98
+\Mfx@marginpos@min=\dimen334
+\Mfx@marginpos@max=\dimen335
+\Mfx@marginspace=\dimen336
+\Mfx@marginheight=\dimen337
+\Mfx@piece@content=\box99
 \Mfx@piece@count=\count421
-\Mfx@mparshift=\dimen337
-\marginheightadjustment=\dimen338
-\marginposadjustment=\dimen339
-\Mfx@strutheight=\dimen340
+\Mfx@mparshift=\dimen338
+\marginheightadjustment=\dimen339
+\marginposadjustment=\dimen340
+\Mfx@strutheight=\dimen341
 )
-\mybox=\box99
+\mybox=\box100
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -2561,7 +2569,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 583.
+(scrhack)             need that hack, on input line 588.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
@@ -2601,7 +2609,7 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen341
+\@linkdim=\dimen342
 \Hy@linkcounter=\count422
 \Hy@pagecounter=\count423
 
@@ -2622,12 +2630,12 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
 \c@Hy@tempcnt=\count425
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen342
+\XeTeXLinkMargin=\dimen343
 Requested font "pzdr" at 0.00002pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
 \Fld@menulength=\count426
-\Field@Width=\dimen343
-\Fld@charsize=\dimen344
+\Field@Width=\dimen344
+\Fld@charsize=\dimen345
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -2654,7 +2662,7 @@ File: puenc.def 2016/06/24 v6.83q Hyperref: PDF Unicode definition (HO)
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box100
+\pdfm@box=\box101
 \c@Hy@AnnotLevel=\count430
 \HyField@AnnotCount=\count431
 \Fld@listcount=\count432
@@ -2669,14 +2677,14 @@ Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
 tly
 (rerunfilecheck)             and the loading of the package is aborted.
 )
-\Hy@SectionHShift=\skip105
+\Hy@SectionHShift=\skip106
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 595.
-Package hyperref Info: Option `breaklinks' set `true' on input line 595.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 595.
+Package hyperref Info: Option `colorlinks' set `true' on input line 600.
+Package hyperref Info: Option `breaklinks' set `true' on input line 600.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 600.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 595.
-Package hyperref Info: Option `final' set `true' on input line 595.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 600.
+Package hyperref Info: Option `final' set `true' on input line 600.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -2700,97 +2708,229 @@ LaTeX Info: Redefining \labelcref on input line 2230.
 LaTeX Info: Redefining \labelcpageref on input line 2230.
 Package cleveref Info: `listings' support loaded on input line 2950.
 ))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/datatool/datatool.sty
+Package: datatool 2016/07/28 v2.27 (NLCT)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count435
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2016/07/28 v2.27 (NLCT)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2016/07/28 v2.27 (NLCT)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count436
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count437
+\FP@xia=\count438
+\FP@xib=\count439
+\FP@xfa=\count440
+\FP@xfb=\count441
+\FP@rega=\count442
+\FP@regb=\count443
+\FP@regs=\count444
+\FP@times=\count445
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count446
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks52
+\@dtl@tmpcount=\count447
+\dtl@tmplength=\skip107
+\dtl@sortresult=\count448
+\@dtl@numgrpsepcount=\count449
+\@dtl@datatype=\count450
+\dtl@codeA=\count451
+\dtl@codeB=\count452
+\@dtl@foreach@level=\count453
+)
+\dtlcolumnnum=\count454
+\dtlrownum=\count455
+\@dtl@before=\toks53
+\@dtl@after=\toks54
+\@dtl@colhead=\toks55
+\dtlcurrentrow=\toks56
+\dtlbeforerow=\toks57
+\dtlafterrow=\toks58
+\dtlforeachlevel=\count456
+\c@DTLrowi=\count457
+\c@DTLrowii=\count458
+\c@DTLrowiii=\count459
+\c@DTLrow=\count460
+\dtl@rowi=\count461
+\dtl@rowii=\count462
+\dtl@rowiii=\count463
+\@dtl@curi=\toks59
+\@dtl@previ=\toks60
+\@dtl@nexti=\toks61
+\@dtl@curii=\toks62
+\@dtl@previi=\toks63
+\@dtl@nextii=\toks64
+\@dtl@curiii=\toks65
+\@dtl@previii=\toks66
+\@dtl@nextiii=\toks67
+\@dtl@elements=\count464
+\@dtl@list=\toks68
+\@dtl@rowa=\toks69
+\@dtl@rowb=\toks70
+\@dtl@toksA=\toks71
+\@dtl@toksB=\toks72
+\@dtl@write=\write6
+\@dtl@read=\read4
+\dtl@entrycr=\count465
+\dtl@omitlines=\count466
+)
+\dtldb@advisory=\toks73
+\dtlkeys@advisory=\toks74
+\dtlrows@advisory=\count467
+\dtlcols@advisory=\count468
+\dtldb@editorialboard=\toks75
+\dtlkeys@editorialboard=\toks76
+\dtlrows@editorialboard=\count469
+\dtlcols@editorialboard=\count470
+\dtldb@editing=\toks77
+\dtlkeys@editing=\toks78
+\dtlrows@editing=\count471
+\dtlcols@editing=\count472
+\dtldb@reviewers=\toks79
+\dtlkeys@reviewers=\toks80
+\dtlrows@reviewers=\count473
+\dtlcols@reviewers=\count474
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
+File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 Package biblatex Info: Trying to load language 'italian'...
 Package biblatex Info: ... file 'italian.lbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/italian.lbx
-File: italian.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
+File: italian.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
-File: spanish.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
+File: spanish.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-File: ngerman.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
+File: ngerman.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
+File: german.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 ))
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/french.lbx
-File: french.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
+File: french.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-(./ijsra_2016_02.aux (./preamble/colophon.aux) (./preamble/editorial.aux)
-(./preamble/_toc.aux) (./preamble/issue-presentation.aux)
-(./preamble/_part_interviews.aux) (./content/16Stringer.aux)
-(./preamble/_part_articles.aux) (./content/fyfe.aux) (./content/forssman.aux)
-(./content/17Pereda.aux) (./content/11Raza.aux) (./content/Rownd.aux
-
-LaTeX Warning: Label `refsection:1' multiply defined.
-
-
-LaTeX Warning: Label `refsection:1@cref' multiply defined.
-
-) (./content/Davis.aux) (./preamble/_part_litreviews.aux)
-(./content/Gyngell.aux) (./preamble/_part_reviews.aux) (./content/Ward.aux)
-(./content/Resena.aux
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-) (./content/7IARSS.aux) (./content/Hawkins.aux)
-(./content/18Kerr.aux) (./content/19Kenny.aux)
-(./preamble/_part_bookreviews.aux) (./content/Rivera.aux))
+(./ijsra_2016_02.aux
+No file preamble/colophon.aux.
+No file preamble/editorial.aux.
+No file preamble/_toc.aux.
+No file preamble/issue-presentation.aux.
+No file preamble/_part_interviews.aux.
+No file content/16Stringer.aux.
+No file preamble/_part_articles.aux.
+No file content/fyfe.aux.
+No file content/forssman.aux.
+No file content/17Pereda.aux.
+No file content/11Raza.aux.
+(./content/Rownd.aux)
+No file content/Davis.aux.
+No file preamble/_part_litreviews.aux.
+No file content/Gyngell.aux.
+No file preamble/_part_reviews.aux.
+No file content/Ward.aux.
+No file content/Resena.aux.
+No file content/7IARSS.aux.
+No file content/Hawkins.aux.
+No file content/18Kerr.aux.
+No file content/19Kenny.aux.
+No file preamble/_part_bookreviews.aux.
+No file content/Rivera.aux.
+)
 \openout1 = `ijsra_2016_02.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 23.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 40.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 40.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Info: Redefining \dots on input line 23.
-LaTeX Info: Redefining \up on input line 23.
-LaTeX Info: Redefining \microtypecontext on input line 23.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Info: Redefining \dots on input line 40.
+LaTeX Info: Redefining \up on input line 40.
+LaTeX Info: Redefining \microtypecontext on input line 40.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2798,10 +2938,10 @@ Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 Package microtype Info: Redefining babel's language switching commands.
 Package microtype Info: *** Changing to language context `english'
-(microtype)              on input line 23.
+(microtype)              on input line 40.
 Package microtype Info: ... No configuration file mt-LinLibertine.cfg.
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/10.95' on inpu
-t line 23.
+t line 40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinLibertine' (encoding: EU1).
@@ -2819,7 +2959,7 @@ r-basic-dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2016/09/02 v2.6s siunitx: Abbreviated units
+File: siunitx-abbreviations.cfg 2016/11/24 v2.7 siunitx: Abbreviated units
 )
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -2830,9 +2970,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ijsra_2016_02.bbl' found.
  (./ijsra_2016_02.bbl)
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
-\AtBeginShipoutBox=\box101
+Package biblatex Info: Reference section=0 on input line 40.
+Package biblatex Info: Reference segment=0 on input line 40.
+\AtBeginShipoutBox=\box102
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -2846,7 +2986,7 @@ Package scrhack Info: loading lscape hack on input line 76.
 File: lscape.hak 2016/06/14 v3.21 KOMA-Script package (hacking package lscape)
 Package scrhack Info: \landscape patched to make \textheight change optional on
  input line 90.
-\scrh@LT@textheight=\skip106
+\scrh@LT@textheight=\skip108
 )
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 
@@ -2890,28 +3030,28 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count435
-Package scrhack Info: undefining \float@addtolists on input line 23.
-Package hyperref Info: Link coloring ON on input line 23.
+\c@lstlisting=\count475
+Package scrhack Info: undefining \float@addtolists on input line 40.
+Package hyperref Info: Link coloring ON on input line 40.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count436
+\c@section@level=\count476
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
-\c__siunitx_mathsf_int=\count437
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
+\c__siunitx_mathsf_int=\count477
 LaTeX Font Info:    Try loading font information for T1+LinLibertine(0) on inpu
-t line 23.
-LaTeX Font Info:    No file T1LinLibertine(0).fd. on input line 23.
+t line 40.
+LaTeX Font Info:    No file T1LinLibertine(0).fd. on input line 40.
 
 
 LaTeX Font Warning: Font shape `T1/LinLibertine(0)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 23.
+(Font)              using `T1/cmr/m/n' instead on input line 40.
 
 Requested font "ecrm1095" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm
@@ -2920,13 +3060,13 @@ Package microtype Info: ... Loading configuration file mt-cmr.cfg.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package microtype Info: Setting up font `T1/cmr/m/n/10.95' on input line 23.
+Package microtype Info: Setting up font `T1/cmr/m/n/10.95' on input line 40.
 Package microtype Info: ... Loading protrusion list `cmr-T1'.
 Package microtype Info: ... : First loading protrusion list `cmr-default'.
 Requested font "ecrm0800" at 8.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/8' on input lin
-e 23.
+e 40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinLibertine' (encoding: T1).
@@ -2936,16 +3076,16 @@ Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "ecrm0600" at 6.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/6' on input lin
-e 23.
+e 40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 23.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 40.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 23.
+(Font)              scaled to size 10.40245pt on input line 40.
 Requested font "zeurm10" at 10.40245pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
 Package microtype Info: ... No configuration file mt-zeur.cfg.
@@ -2954,27 +3094,27 @@ Package microtype Info: ... Loading configuration file mt-eur.cfg.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-Package microtype Info: Setting up font `U/zeur/m/n/10.95' on input line 23.
+Package microtype Info: Setting up font `U/zeur/m/n/10.95' on input line 40.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 23.
+(Font)              scaled to size 7.59998pt on input line 40.
 Requested font "zeurm7" at 7.59998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/8' on input line 23.
+Package microtype Info: Setting up font `U/zeur/m/n/8' on input line 40.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 23.
+(Font)              scaled to size 5.69998pt on input line 40.
 Requested font "zeurm7" at 5.69998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/6' on input line 23.
+Package microtype Info: Setting up font `U/zeur/m/n/6' on input line 40.
 Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Try loading font information for U+zeus on input line 23.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 40.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 23.
+(Font)              scaled to size 10.40245pt on input line 40.
 Requested font "zeusm10" at 10.40245pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
 Package microtype Info: ... No configuration file mt-zeus.cfg.
@@ -2983,55 +3123,55 @@ Package microtype Info: ... Loading configuration file mt-eus.cfg.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-eus.cfg
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
-Package microtype Info: Setting up font `U/zeus/m/n/10.95' on input line 23.
+Package microtype Info: Setting up font `U/zeus/m/n/10.95' on input line 40.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 23.
+(Font)              scaled to size 7.59998pt on input line 40.
 Requested font "zeusm7" at 7.59998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/8' on input line 23.
+Package microtype Info: Setting up font `U/zeus/m/n/8' on input line 40.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 23.
+(Font)              scaled to size 5.69998pt on input line 40.
 Requested font "zeusm7" at 5.69998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/6' on input line 23.
+Package microtype Info: Setting up font `U/zeus/m/n/6' on input line 40.
 Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 23.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 40.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 23.
+(Font)              scaled to size 10.40245pt on input line 40.
 Requested font "zeuex10" at 10.40245pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
 Package microtype Info: ... No configuration file mt-zeuex.cfg.
-Package microtype Info: Setting up font `U/zeuex/m/n/10.95' on input line 23.
+Package microtype Info: Setting up font `U/zeuex/m/n/10.95' on input line 40.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 23.
+(Font)              scaled to size 7.59998pt on input line 40.
 Requested font "zeuex10" at 7.59998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/8' on input line 23.
+Package microtype Info: Setting up font `U/zeuex/m/n/8' on input line 40.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 23.
+(Font)              scaled to size 5.69998pt on input line 40.
 Requested font "zeuex10" at 5.69998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/6' on input line 23.
+Package microtype Info: Setting up font `U/zeuex/m/n/6' on input line 40.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Try loading font information for T1+LinBiolinum(0) on input
- line 23.
-LaTeX Font Info:    No file T1LinBiolinum(0).fd. on input line 23.
+ line 40.
+LaTeX Font Info:    No file T1LinBiolinum(0).fd. on input line 40.
 
 
 LaTeX Font Warning: Font shape `T1/LinBiolinum(0)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 23.
+(Font)              using `T1/cmr/m/n' instead on input line 40.
 
 Package microtype Info: ... No configuration file mt-LinBiolinum.cfg.
 Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/8' on input line
- 23.
+ 40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinBiolinum' (encoding: T1).
@@ -3039,23 +3179,23 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/6' on input line
- 23.
+ 40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-\c__siunitx_mathtt_int=\count438
+\c__siunitx_mathtt_int=\count478
 LaTeX Font Info:    Try loading font information for T1+LinLibertine(5) on inpu
-t line 23.
-LaTeX Font Info:    No file T1LinLibertine(5).fd. on input line 23.
+t line 40.
+LaTeX Font Info:    No file T1LinLibertine(5).fd. on input line 40.
 
 LaTeX Font Warning: Font shape `T1/LinLibertine(5)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 23.
+(Font)              using `T1/cmr/m/n' instead on input line 40.
 
 Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/8' on input lin
-e 23.
+e 40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/6' on input lin
-e 23.
+e 40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 \openout2 = `content/Rownd.aux'.
@@ -3070,18 +3210,18 @@ LaTeX Warning: Overwriting file `./Rownd.bib'.
 LaTeX Warning: Tab has been converted to Blank Space.
 
 
-\blx@maxsegment@1=\count439
-\blx@sectionciteorder@1=\count440
-Package biblatex Info: Reference section=1 on input line 187.
-Package biblatex Info: Setting label 'refsection:1' on input line 187.
+\blx@maxsegment@1=\count479
+\blx@sectionciteorder@1=\count480
+Package biblatex Info: Reference section=1 on input line 242.
+Package biblatex Info: Setting label 'refsection:1' on input line 242.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 187.
+(Font)              scaled to size 10.95pt on input line 242.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
 xt;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_R.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10.95' on input
- line 187.
+ line 242.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinBiolinum' (encoding: EU1).
@@ -3089,13 +3229,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 Package microtype Info: ... : First loading protrusion list `default'.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 187.
+(Font)              scaled to size 10.95pt on input line 242.
 Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_RB.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/10.95' on inpu
-t line 187.
+t line 242.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3103,7 +3243,7 @@ ext;mapping=tex-text;+tnum;+onum;" at 17.28pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/17.28' on inpu
-t line 187.
+t line 242.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
@@ -3115,7 +3255,7 @@ ext;mapping=tex-text;+tnum;+onum;" at 14.4pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/14.4' on input
- line 187.
+ line 242.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3123,151 +3263,7 @@ ext;mapping=tex-text;+tnum;+onum;+smcp;+smcp;" at 14.4pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/14.4' on inpu
-t line 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "ecrm1440" at 14.4pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/14.4' on input 
-line 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "ecrm1000" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10' on input li
-ne 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "ecrm0700" at 7.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/7' on input lin
-e 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 187.
-Requested font "zeurm10" at 13.67995pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/14.4' on input line 187.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 187.
-Requested font "zeurm10" at 9.49997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/10' on input line 187.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 187.
-Requested font "zeurm7" at 6.64998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/7' on input line 187.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 187.
-Requested font "zeusm10" at 13.67995pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/14.4' on input line 187.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 187.
-Requested font "zeusm10" at 9.49997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/10' on input line 187.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 187.
-Requested font "zeusm7" at 6.64998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/7' on input line 187.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 187.
-Requested font "zeuex10" at 13.67995pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/14.4' on input line 187.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 187.
-Requested font "zeuex10" at 9.49997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/10' on input line 187.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 187.
-Requested font "zeuex10" at 6.64998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/7' on input line 187.
-Package microtype Info: ... No protrusion.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/14.4' on input l
-ine 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10' on input lin
-e 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/7' on input line
- 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/14.4' on input 
-line 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10' on input li
-ne 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/7' on input lin
-e 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;+smcp;+smcp;" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/10' on input 
-line 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/9' on input li
-ne 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 187.
-Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_R.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/9' on input lin
-e 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
-(Font)              scaled to size 9.0pt on input line 187.
-Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RB.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/9' on input li
-ne 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10.95' on input
- line 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10.95' on input 
-line 187.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10.95' on input
- line 187.
+t line 242.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3275,39 +3271,67 @@ ext;mapping=tex-text;+tnum;+onum;" at 8.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/8' on input li
-ne 187.
+ne 242.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/9' on input li
+ne 242.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 242.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
+xt;mapping=tex-text;+tnum;+onum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/9' on input lin
+e 242.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
+(Font)              scaled to size 9.0pt on input line 242.
+Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RB.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/9' on input li
+ne 242.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 187.
+(Font)              scaled to size 9.0pt on input line 242.
 Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_RI.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/9' on input li
-ne 187.
+ne 242.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: Margin note 76.1 is on absolute page 76
-(marginnote)              on input line 187.
+Package marginnote Info: Margin note 1.1 is on absolute page 1
+(marginnote)              on input line 242.
+Package marginnote Info: xpos seems to be 116.43158pt,
+(marginnote)             \marginnoterightadjust ignored on input line 242.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 187.
+(Font)              scaled to size 10.0pt on input line 242.
 Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_RI.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/10' on input l
-ine 187.
+ine 242.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: xpos seems to be 187.7737pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 187.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 31.91946pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/31.91946' on i
-nput line 189.
+nput line 244.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3315,45 +3339,121 @@ ext;mapping=tex-text;+tnum;+onum;" at 48.5143pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/48.5143' on in
-put line 189.
+put line 244.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: Margin note 76.2 is on absolute page 76
-(marginnote)              on input line 189.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/10' on input l
-ine 189.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 189.
-Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+tnum;+onum;" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_R.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10' on input li
-ne 189.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package marginnote Info: xpos seems to be 249.73868pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 189.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
 text;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_RI.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/10.95' on inp
-ut line 189.
+ut line 244.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
+
+
+LaTeX Warning: Citation 'RA10066' on page 1 undefined on input line 246.
+
+Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+onum;" at 10.95pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RB.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/10.95' on inp
+ut line 246.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+
+LaTeX Warning: Citation 'Valetta_1992' on page 1 undefined on input line 246.
+
+
+Overfull \hbox (0.64526pt too wide) in paragraph at lines 246--249
+[]\EU1/LinLibertine(0)/m/n/10.95 Republic of the Philippines’ Act 10066 ([]), a
+nd the Council of Europe’s Treaty
+ []
+
 LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10.95> not a
 vailable
 (Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
-t line 194.
+t line 249.
+Requested font "ecrm0900" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/9' on input lin
+e 249.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "ecrm0500" at 5.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/5' on input lin
+e 249.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 249.
+Requested font "zeurm10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
+Package microtype Info: Setting up font `U/zeur/m/n/9' on input line 249.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 249.
+Requested font "zeurm5" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm5.tfm
+Package microtype Info: Setting up font `U/zeur/m/n/5' on input line 249.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeus/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 249.
+Requested font "zeusm10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
+Package microtype Info: Setting up font `U/zeus/m/n/9' on input line 249.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeus/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 249.
+Requested font "zeusm5" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm5.tfm
+Package microtype Info: Setting up font `U/zeus/m/n/5' on input line 249.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 249.
+Requested font "zeuex10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+Package microtype Info: Setting up font `U/zeuex/m/n/9' on input line 249.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 249.
+Requested font "zeuex10" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+Package microtype Info: Setting up font `U/zeuex/m/n/5' on input line 249.
+Package microtype Info: ... No protrusion.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/9' on input line
+ 249.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/5' on input line
+ 249.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/9' on input lin
+e 249.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/5' on input lin
+e 249.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10.95' on input
+ line 249.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10.95' on input 
+line 249.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10.95' on input
+ line 249.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" > [1
 
-[72
 
 
 
@@ -3369,161 +3469,1010 @@ t line 194.
 
 
 ]
-Requested font "ecrm0900" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/9' on input lin
-e 201.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "ecrm0500" at 5.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/5' on input lin
-e 201.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 201.
-Requested font "zeurm10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/9' on input line 201.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 201.
-Requested font "zeurm5" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm5.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/5' on input line 201.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 201.
-Requested font "zeusm10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/9' on input line 201.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 201.
-Requested font "zeusm5" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm5.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/5' on input line 201.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 201.
-Requested font "zeuex10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/9' on input line 201.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 201.
-Requested font "zeuex10" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/5' on input line 201.
-Package microtype Info: ... No protrusion.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/9' on input line
- 201.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/5' on input line
- 201.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/9' on input lin
-e 201.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/5' on input lin
-e 201.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 10.95pt
+
+LaTeX Warning: Citation 'Cairo_2015' on page 2 undefined on input line 250.
+
+
+LaTeX Warning: Citation 'Conard_2009' on page 2 undefined on input line 252.
+
+[2]
+Package marginnote Info: Margin note 3.1 is on absolute page 3
+(marginnote)              on input line 255.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 255.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_RB.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/10.95' on inp
-ut line 201.
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/10' on input l
+ine 255.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
- [73]
-Package marginnote Info: Margin note 78.1 is on absolute page 78
-(marginnote)              on input line 202.
-Package marginnote Info: xpos seems to be 208.60489pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 202.
-Package marginnote Info: Margin note 78.2 is on absolute page 78
-(marginnote)              on input line 206.
-Package marginnote Info: xpos seems to be 231.7845pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 206.
- [74] [75]
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 255.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
+xt;mapping=tex-text;+tnum;+onum;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10' on input li
+ne 255.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+
+
+LaTeX Warning: Citation 'Valetta_1992' on page 3 undefined on input line 257.
+
+
+LaTeX Warning: Citation 'RA10066' on page 3 undefined on input line 257.
+
+Package marginnote Info: Margin note 3.2 is on absolute page 3
+(marginnote)              on input line 259.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 259.
+
+LaTeX Warning: Citation 'RA10066' on page 3 undefined on input line 261.
+
+
+LaTeX Warning: Citation 'RA10066' on page 3 undefined on input line 264.
+
+
+LaTeX Warning: Citation 'Tankersley_2014' on page 3 undefined on input line 266
+.
+
+
+LaTeX Warning: Citation 'RA4886' on page 3 undefined on input line 267.
+
+
+LaTeX Warning: Citation 'RA4886' on page 3 undefined on input line 267.
+
+
+LaTeX Warning: Citation 'RA4886' on page 3 undefined on input line 268.
+
+
+LaTeX Warning: Citation 'RA4886' on page 3 undefined on input line 269.
+
+[3]
+
+LaTeX Warning: Citation 'President_260' on page 4 undefined on input line 271.
+
+
+LaTeX Warning: Citation 'President_1505' on page 4 undefined on input line 271.
+
+
+
+LaTeX Warning: Citation 'Tankersley_2014' on page 4 undefined on input line 272
+.
+
+
+Overfull \hbox (0.87154pt too wide) in paragraph at lines 271--274
+\EU1/LinLibertine(0)/m/n/10.95 fied “important historical edifice” without prio
+r written permission ([]).
+ []
+
+[4]
+
+LaTeX Warning: Citation 'Divers_2014a' on page 5 undefined on input line 277.
+
+Package marginnote Info: Margin note 5.1 is on absolute page 5
+(marginnote)              on input line 279.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 279.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 5.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/5' on input li
-ne 227.
+ne 281.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
- [76]
-Package marginnote Info: Margin note 81.1 is on absolute page 81
-(marginnote)              on input line 247.
-Package marginnote Info: xpos seems to be 156.16273pt,
-(marginnote)             \marginnoterightadjust ignored on input line 247.
- [77] [78] [79]
-Package marginnote Info: Margin note 84.1 is on absolute page 84
-(marginnote)              on input line 285.
-Package marginnote Info: xpos seems to be 184.5073pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 285.
- [80]
-Package marginnote Info: Margin note 85.1 is on absolute page 85
-(marginnote)              on input line 292.
-Package marginnote Info: xpos seems to be 128.38194pt,
-(marginnote)             \marginnoterightadjust ignored on input line 292.
 
-Overfull \hbox (4.9451pt too wide) in paragraph at lines 307--308
+LaTeX Warning: Citation 'Aleta_2003' on page 5 undefined on input line 282.
+
+
+LaTeX Warning: Citation 'Ta-as_2014' on page 5 undefined on input line 286.
+
+
+LaTeX Warning: Citation 'Divers_2014b' on page 5 undefined on input line 287.
+
+
+LaTeX Warning: Citation 'Divers_2014a' on page 5 undefined on input line 289.
+
+[5]
+
+LaTeX Warning: Citation 'Divers_2014b' on page 6 undefined on input line 294.
+
+
+Overfull \hbox (10.83257pt too wide) in paragraph at lines 294--295
+\EU1/LinLibertine(0)/m/n/10.95 mulgated in order to preserve these unique natur
+al resources ([]). 
+ []
+
+
+LaTeX Warning: Citation 'Divers_2014b' on page 6 undefined on input line 297.
+
+Package marginnote Info: Margin note 6.1 is on absolute page 6
+(marginnote)              on input line 301.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 301.
+[6]
+
+LaTeX Warning: Citation 'CoE_2000' on page 7 undefined on input line 305.
+
+
+LaTeX Warning: Citation 'Valetta_1992' on page 7 undefined on input line 306.
+
+[7]
+
+LaTeX Warning: Citation 'Valetta_1992' on page 8 undefined on input line 320.
+
+! Undefined control sequence.
+\enit@endenumerate ->\enit@after 
+                                 \endlist \ifx \enit@series \relax \else \if...
+l.321 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...\else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.321 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.321 ^^I^^I\end{enumerate}
+                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.321 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.321 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.321 ^^I^^I\end{enumerate}
+                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.321 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...t \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.321 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.321 ^^I^^I\end{enumerate}
+                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.321 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.321 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.321 ^^I^^I\end{enumerate}
+                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@endenumerate ->\enit@after 
+                                 \endlist \ifx \enit@series \relax \else \if...
+l.322 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...\else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.322 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.322 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.322 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.322 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.322 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.322 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...t \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.322 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.322 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.322 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.322 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.322 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: Citation 'Valetta_1992' on page 8 undefined on input line 327.
+
+! Undefined control sequence.
+\enit@endenumerate ->\enit@after 
+                                 \endlist \ifx \enit@series \relax \else \if...
+l.328 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...\else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.328 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.328 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.328 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.328 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.328 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.328 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...t \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.328 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.328 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.328 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.328 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.328 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: Citation 'Valetta_1992' on page 8 undefined on input line 331.
+
+
+LaTeX Warning: Citation 'Willems_2007' on page 8 undefined on input line 335.
+
+[8]
+Package marginnote Info: Margin note 9.1 is on absolute page 9
+(marginnote)              on input line 340.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 340.
+
+
+LaTeX Warning: Citation 'Willems_2007' on page 9 undefined on input line 342.
+
+
+LaTeX Warning: Citation 'Groenewoudt_2014' on page 9 undefined on input line 34
+4.
+
+
+LaTeX Warning: Citation 'Groenewoudt_2014' on page 9 undefined on input line 34
+7.
+
+[9]
+Package marginnote Info: Margin note 10.1 is on absolute page 10
+(marginnote)              on input line 350.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 350.
+
+
+LaTeX Warning: Citation 'Willems_2007' on page 10 undefined on input line 352.
+
+
+LaTeX Warning: Citation 'CIA_2001' on page 10 undefined on input line 352.
+
+! Undefined control sequence.
+\enit@endenumerate ->\enit@after 
+                                 \endlist \ifx \enit@series \relax \else \if...
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...\else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...t \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.365 ^^I^^I^^I\end{enumerate}
+                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@endenumerate ->\enit@after 
+                                 \endlist \ifx \enit@series \relax \else \if...
+l.366 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...\else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.366 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.366 ^^I^^I\end{enumerate}
+                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.366 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.366 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.366 ^^I^^I\end{enumerate}
+                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.366 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...t \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.366 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.366 ^^I^^I\end{enumerate}
+                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.366 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.366 ^^I^^I\end{enumerate}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.366 ^^I^^I\end{enumerate}
+                           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: Citation 'CIA_2001' on page 10 undefined on input line 367.
+
+! Undefined control sequence.
+\enit@endenumerate ->\enit@after 
+                                 \endlist \ifx \enit@series \relax \else \if...
+l.368 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (4.9451pt too wide) in paragraph at lines 367--368
 []\EU1/LinLibertine(0)/m/n/10.95 to ensure that excavations and other potential
 ly destructive techniques
  []
 
-[81]
-Package marginnote Info: Margin note 86.1 is on absolute page 86
-(marginnote)              on input line 322.
-Package marginnote Info: xpos seems to be 208.7011pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 322.
 
-Overfull \hbox (20.18008pt too wide) in paragraph at lines 322--323
-[]\EU1/LinLibertine(0)/m/n/10.95 While profit |[][][]driven thieves such as the
- treasure hunters of the Philippines and nighthawks
+Overfull \hbox (14.72466pt too wide) in paragraph at lines 367--368
+\EU1/LinLibertine(0)/m/n/10.95 are carried out \EU1/LinLibertine(0)/m/it/10.95 
+only by qualified, specially authorized persons\EU1/LinLibertine(0)/m/n/10.95 ;
+ ([]) 
  []
 
-[82]
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/10.95' on inp
-ut line 331.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
+! Undefined control sequence.
+\enit@endenumerate ...\else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.368 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.368 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.368 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.368 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.368 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.368 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...t \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.368 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.368 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.368 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.368 ^^I\end{enumerate}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.368 ^^I\end{enumerate}
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[10]
+
+LaTeX Warning: Citation 'Roeher_2006' on page 11 undefined on input line 374.
 
 
-Package biblatex Warning: No driver for entry type 'standard'.
-(biblatex)                Using fallback driver on input line 331.
+LaTeX Warning: Citation 'Potts_2015' on page 11 undefined on input line 374.
 
-Package biblatex Info: Reference section=0 on input line 331.
-) [83]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
- (./ijsra_2016_02.aux (./preamble/colophon.aux) (./preamble/editorial.aux) (./p
-reamble/_toc.aux) (./preamble/issue-presentation.aux)
-(./preamble/_part_interviews.aux) (./content/16Stringer.aux)
-(./preamble/_part_articles.aux) (./content/fyfe.aux) (./content/forssman.aux)
-(./content/17Pereda.aux) (./content/11Raza.aux) (./content/Rownd.aux)
+
+LaTeX Warning: Citation 'Willems_2007' on page 11 undefined on input line 375.
+
+
+Overfull \hbox (2.79054pt too wide) in paragraph at lines 374--376
+[] \EU1/LinLibertine(0)/m/n/10.95 metal detectorists spread throughout the UK (
+[]; []). While
+ []
+
+Package marginnote Info: Margin note 11.1 is on absolute page 11
+(marginnote)              on input line 381.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 381.
+
+LaTeX Warning: Citation 'RA10066' on page 11 undefined on input line 383.
+
+
+LaTeX Warning: Citation 'Valetta_1992' on page 11 undefined on input line 383.
+
+
+Overfull \hbox (20.18008pt too wide) in paragraph at lines 383--384
+[]\EU1/LinLibertine(0)/m/n/10.95 While profit driven thieves such as the treasu
+re hunters of the Philippines and nighthawks
+ []
+
+[11]
+
+LaTeX Warning: Empty bibliography on input line 391.
+
+Package biblatex Info: Reference section=0 on input line 391.
+) [12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
+ (./ijsra_2016_02.aux
+No file preamble/colophon.aux.
+No file preamble/editorial.aux.
+No file preamble/_toc.aux.
+No file preamble/issue-presentation.aux.
+No file preamble/_part_interviews.aux.
+No file content/16Stringer.aux.
+No file preamble/_part_articles.aux.
+No file content/fyfe.aux.
+No file content/forssman.aux.
+No file content/17Pereda.aux.
+No file content/11Raza.aux.
+(./content/Rownd.aux)
 Package microtype Info: *** Changing to language context `english'
-(microtype)              on input line 42.
+(microtype)              on input line 46.
 
-(./content/Davis.aux) (./preamble/_part_litreviews.aux) (./content/Gyngell.aux)
-(./preamble/_part_reviews.aux) (./content/Ward.aux) (./content/Resena.aux
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-Package microtype Info: *** Changing to language context `english'
-(microtype)              on input line 15.
+No file content/Davis.aux.
+No file preamble/_part_litreviews.aux.
+No file content/Gyngell.aux.
+No file preamble/_part_reviews.aux.
+No file content/Ward.aux.
+No file content/Resena.aux.
+No file content/7IARSS.aux.
+No file content/Hawkins.aux.
+No file content/18Kerr.aux.
+No file content/19Kenny.aux.
+No file preamble/_part_bookreviews.aux.
+No file content/Rivera.aux.
 )
-(./content/7IARSS.aux) (./content/Hawkins.aux) (./content/18Kerr.aux)
-(./content/19Kenny.aux) (./preamble/_part_bookreviews.aux)
-(./content/Rivera.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 72.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
 
 
  *File List*
@@ -3534,6 +4483,7 @@ ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
   ifvtex.sty    2016/05/16 v1.6 Detect VTeX and its facilities (HO)
  xkeyval.sty    2014/12/03 v2.7a package option processing (HA)
  xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+etoolbox.sty    2016/12/01 v2.2b e-TeX tools for LaTeX (JAW)
  scrhack.sty    2016/06/14 v3.21 KOMA-Script package 
 scrkbase.sty    2016/06/14 v3.21 KOMA-Script package (KOMA-Script-dependent bas
 ics and keyval usage)
@@ -3541,11 +4491,10 @@ ics and keyval usage)
 asics and keyval usage)
 scrlfile.sty    2016/06/14 v3.21 KOMA-Script package (loading files)
   xpatch.sty    2012/10/02 v0.3 Extending etoolbox patching commands
-   expl3.sty    2016/10/19 v6730 L3 programming layer (loader) 
-expl3-code.tex    2016/10/19 v6730 L3 programming layer 
+   expl3.sty    2016/11/21 v6760 L3 programming layer (loader) 
+expl3-code.tex    2016/11/21 v6760 L3 programming layer 
 l3xdvipdfmx.def    
-  xparse.sty    2016/10/19 v6730 L3 Experimental document command parser
-etoolbox.sty    2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+  xparse.sty    2016/11/21 v6760 L3 Experimental document command parser
  scrbook.cls    2016/06/14 v3.21 KOMA-Script document class (book)
 tocbasic.sty    2016/06/14 v3.21 KOMA-Script package (handling toc-files)
 scrsize11pt.clo    2016/06/14 v3.21 KOMA-Script font size class option (11pt)
@@ -3582,6 +4531,7 @@ LinBiolinum_K.tex
 LinLibertine_I.tex
     LKey.tex
  eulervm.sty    2005/01/11 v4.0 (WaS)
+enumitem.sty    2011/09/28 v3.5.2 Customized lists
      url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
    babel.sty    2016/04/23 3.9r The Babel package
  frenchb.ldf    2016/05/14 v3.2c French support from the babel system
@@ -3644,14 +4594,14 @@ filehook.sty    2011/10/12 v0.5d Hooks for input files
 filehook-scrlfile.sty    2011/01/03 v0.1 filehook patch for scrlfile package
 currfile-abspath.sty    2015/04/23 v0.7c Provides absolute file paths, the pare
 nt working directory and the main file name
- siunitx.sty    2016/09/02 v2.6s A comprehensive (SI) units package
-l3keys2e.sty    2016/10/19 v6730 LaTeX2e option processing using LaTeX3 keys
+ siunitx.sty    2016/11/24 v2.7 A comprehensive (SI) units package
+l3keys2e.sty    2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 translator.sty    2010/06/12 ver 1.10
 translator-language-mappings.tex
 csquotes.sty    2016/07/14 v5.1h context-sensitive quotations (JAW)
 csquotes.def    2016/07/14 v5.1h csquotes generic definitions (JAW)
 csquotes.cfg    
-biblatex.sty    2016/09/17 v3.6 programmable bibliographies (PK/JW/AB)
+biblatex.sty    2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 pdftexcmds.sty    2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
   logreq.sty    2010/08/04 v1.0 xml request logger
   logreq.def    2010/08/04 v1.0 logreq spec v1.0
@@ -3659,24 +4609,24 @@ pdftexcmds.sty    2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
   blx-dm.def
    ijsra.dbx
 biblatex-dm.cfg
-blx-compat.def    2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
-biblatex.def    2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
-standard.bbx    2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
-authoryear.bbx    2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
+blx-compat.def    2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+biblatex.def    2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+standard.bbx    2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+authoryear.bbx    2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
    ijsra.bbx    2016/07/04 v0.1 ijsra
-authoryear.cbx    2016/09/17 v3.6 biblatex citation style (PK/JW/AB)
+authoryear.cbx    2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
    ijsra.cbx    2016/07/04 v0.1 ijsra
 biblatex.cfg    
  wrapfig.sty    2003/01/31  v 3.6
 booktabs.sty    2016/04/27 v1.618033 publication quality tables
-multirow.sty    2016/10/11 v2.1 Span multiple rows of a table
+multirow.sty    2016/11/25 v2.2 Span multiple rows of a table
   xspace.sty    2014/10/28 v1.13 Space after command names (DPC,MH)
   hologo.sty    2016/05/16 v1.12 A logo collection with bookmark support (HO)
 kvdefinekeys.sty    2016/05/16 v1.4 Define keys (HO)
-pdfpages.sty    2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+pdfpages.sty    2016/12/11 v0.5g Insert pages of external PDF documents (AM)
  eso-pic.sty    2015/07/21 v2.0g eso-pic (RN)
 atbegshi.sty    2016/06/09 v1.18 At begin shipout hook (HO)
- ppxetex.def    2016/04/19 v0.5f Pdfpages driver for XeTeX (AM)
+ ppxetex.def    2016/12/11 v0.5g Pdfpages driver for XeTeX (AM)
 geometry.sty    2010/09/12 v5.6 Page Geometry
 multicol.sty    2016/04/07 v1.8p multicolumn formatting (FMi)
  caption.sty    2016/02/21 v3.3-144 Customizing captions (AR)
@@ -3733,16 +4683,33 @@ rerunfilecheck.sty    2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 bookmark.sty    2016/05/17 v1.26 PDF bookmarks (HO)
 bkm-dvipdfm.def    2016/05/17 v1.26 bookmark driver for dvipdfm (HO)
 cleveref.sty    2013/12/28 v0.19 Intelligent cross-referencing
- english.lbx    2016/09/17 v3.6 biblatex localization (PK/JW/AB)
- italian.lbx    2016/09/17 v3.6 biblatex localization (PK/JW/AB)
- spanish.lbx    2016/09/17 v3.6 biblatex localization (PK/JW/AB)
-  german.lbx    2016/09/17 v3.6 biblatex localization (PK/JW/AB)
- ngerman.lbx    2016/09/17 v3.6 biblatex localization (PK/JW/AB)
-  french.lbx    2016/09/17 v3.6 biblatex localization (PK/JW/AB)
+datatool.sty    2016/07/28 v2.27 (NLCT)
+    xfor.sty    2009/02/05 v1.05 (NLCT)
+  substr.sty    2009/10/20 v1.2 Handle substrings
+datatool-base.sty    2016/07/28 v2.27 (NLCT)
+datatool-fp.sty    2016/07/28 v2.27 (NLCT)
+      fp.sty    1995/04/02
+defpattern.sty    1994/10/12
+fp-basic.sty    1996/05/13
+fp-addons.sty    1995/03/15
+ fp-snap.sty    1995/04/05
+  fp-exp.sty    1995/04/03
+fp-trigo.sty    1995/04/14
+  fp-pas.sty    1994/08/29
+fp-random.sty    1995/02/23
+  fp-eqn.sty    1995/04/03
+  fp-upn.sty    1996/10/21
+ fp-eval.sty    1995/04/03
+ english.lbx    2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+ italian.lbx    2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+ spanish.lbx    2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+  german.lbx    2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+ ngerman.lbx    2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+  french.lbx    2016/12/05 v3.7 biblatex localization (PK/JW/AB)
   ts1cmr.fd    2014/09/29 v2.5h Standard LaTeX font definitions
    t3cmr.fd    2001/12/31 TIPA font definitions
 translator-basic-dictionary-English.dict    
-siunitx-abbreviations.cfg    2016/09/02 v2.6s siunitx: Abbreviated units
+siunitx-abbreviations.cfg    2016/11/24 v2.7 siunitx: Abbreviated units
 ijsra_2016_02.bbl
 pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
   lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
@@ -3758,30 +4725,32 @@ RS)
   uzeuex.fd    2005/01/11 v4.0 (WaS)
 content/Rownd.tex
 se-ascii-print.def    2016/05/16 v1.11 stringenc: Printable ASCII characters
+ijsra_logo.png    Graphic file (type QTm)
  ***********
 
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 72.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 90.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
 
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                ijsra_2016_02
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 \openout1 = `ijsra_2016_02.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 64791 strings out of 493589
- 1306237 string characters out of 6143511
- 1862174 words of memory out of 5000000
- 67235 multiletter control sequences out of 15000+600000
- 18922 words of font info for 93 fonts, out of 8000000 for 9000
+ 66413 strings out of 493589
+ 1326436 string characters out of 6143511
+ 1864649 words of memory out of 5000000
+ 68875 multiletter control sequences out of 15000+600000
+ 13788 words of font info for 80 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 80i,22n,147p,10428b,5189s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,23n,147p,10428b,3592s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ijsra_2016_02.pdf (12 pages).

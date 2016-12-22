@@ -18,7 +18,7 @@
 
 \ProvidesClass{ijsra}
 \RequirePackage{ifxetex,ifluatex,ifpdf,ifvtex}
-\RequirePackage{xkeyval}
+\RequirePackage{xkeyval,etoolbox}
 
 \def\IJSRAversion{0.5}
 \def\IJSRAversiondate{2016/09/XX}
@@ -31,12 +31,14 @@
 \newcommand*\IJSRAnumber{\scshape proof}
 \newcommand*\IJSRAtitlefigure{\color{mygold}\rule{\linewidth}{410pt}}
 \newcommand*\IJSRAidentifier{\jobname}
+\newbool{bib:nobib}
 
 
 
 \DeclareOptionX{draft}{\PassOptionsToClass{\CurrentOption}{scrbook}}
 \DeclareOptionX{month}{\def\IJSRAmonth{#1}}
 \DeclareOptionX{year}{\def\IJSRAyear{#1}}
+\DeclareOptionX{nobib}{\csuse{booltrue}{bib:nobib}}
 \DeclareOptionX{volume}{\def\IJSRAvolume{Vol.\addspace #1}}
 \DeclareOptionX{number}{\def\IJSRAnumber{No.\addspace #1}}
 \DeclareOptionX{titlefigure}{\def\IJSRAtitlefigure{\includegraphics[width=\linewidth]{figures/#1}}}
@@ -49,9 +51,10 @@
 
 \LoadClass[%
 	twoside=true,				% onesite or twoside printing
-	open=any,					% doublepage cleaning ends up right side
+	open=right,					% doublepage cleaning ends up right side
 	chapterprefix=false,		% prefix for chapter marks (Löscht "Kapitel" bei Kapitel)
-	headings=optiontohead, 	% \chapter[tocentry={}]{}
+%	headings=openany,
+%    headings=optiontohead, 	% \chapter[tocentry={}]{}
 	fontsize=11pt,				% font size
 	titlepage=on,				% own page for each title page
 	captions=tableabove,		% display table captions above the float env
@@ -65,6 +68,9 @@
 \RequirePackage[oldstyle]{libertine}
 \RequirePackage[T1,small,euler-digits]{eulervm}
 \renewcommand*\ttdefault{lmvtt}
+
+\RequirePackage{enumitem}
+
 
 \RequirePackage{url}
 \urlstyle{same}
@@ -111,10 +117,9 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	backend=biber,
 	style=ijsra,
 	]{biblatex}
-\addbibresource{\jobname.bib}
+\ifbool{bib:nobib}{}{\addbibresource{\jobname.bib}}
 
 
-\RequirePackage{etoolbox}
 \RequirePackage{graphicx}
 \graphicspath{{figures/}}
 \RequirePackage{wrapfig} % Paket zur Positionierung einbinden
@@ -589,7 +594,7 @@ Archaeology
 	pdfborder={0 0 0},			% 	-
 	breaklinks=true,			% 	- allow line break inside links
 	bookmarksnumbered=true,		%
-	bookmarksopenlevel=1,
+	bookmarksopenlevel=0,
 	bookmarksopen=true,		%
 	final=true	% = true, only with web-Documents!!
 }
