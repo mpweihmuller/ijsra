@@ -49,7 +49,7 @@
 
 \LoadClass[%
 	twoside=true,				% onesite or twoside printing
-	open=right,					% doublepage cleaning ends up right side
+	open=any,					% doublepage cleaning ends up right side
 	chapterprefix=false,		% prefix for chapter marks (Löscht "Kapitel" bei Kapitel)
 	headings=optiontohead, 	% \chapter[tocentry={}]{}
 	fontsize=11pt,				% font size
