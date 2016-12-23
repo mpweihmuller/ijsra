@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  23 DEC 2016 11:38
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  23 DEC 2016 22:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2863,54 +2863,151 @@ File: french.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 (./ijsra_2016_02.aux (./preamble/colophon.aux) (./preamble/editorial.aux)
 (./preamble/_toc.aux) (./preamble/issue-presentation.aux)
-(./preamble/_part_interviews.aux) (./content/16Stringer.aux)
-(./preamble/_part_articles.aux) (./content/fyfe.aux) (./content/forssman.aux)
-(./content/17Pereda.aux) (./content/11Raza.aux) (./content/Rownd.aux)
-(./content/Davis.aux) (./preamble/_part_litreviews.aux) (./content/Gyngell.aux)
-(./preamble/_part_reviews.aux) (./content/Ward.aux) (./content/Resena.aux
+(./preamble/_part_interviews.aux) (./content/16Stringer.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./preamble/_part_articles.aux) (./content/fyfe.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./content/forssman.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./content/17Pereda.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./content/11Raza.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./content/Rownd.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./content/Davis.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./preamble/_part_litreviews.aux) (./content/Gyngell.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./preamble/_part_reviews.aux) (./content/Ward.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./content/Resena.aux
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
-)
-(./content/7IARSS.aux) (./content/Hawkins.aux) (./content/18Kerr.aux)
-(./content/19Kenny.aux) (./preamble/_part_bookreviews.aux)
-(./content/Rivera.aux))
+
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./content/7IARSS.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./content/Hawkins.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./content/18Kerr.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./content/19Kenny.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+) (./preamble/_part_bookreviews.aux) (./content/Rivera.aux
+
+LaTeX Warning: Label `refsection:1' multiply defined.
+
+
+LaTeX Warning: Label `refsection:1@cref' multiply defined.
+
+))
 \openout1 = `ijsra_2016_02.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 55.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 41.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 41.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 55.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Info: Redefining \dots on input line 41.
-LaTeX Info: Redefining \up on input line 41.
-LaTeX Info: Redefining \microtypecontext on input line 41.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Info: Redefining \dots on input line 55.
+LaTeX Info: Redefining \up on input line 55.
+LaTeX Info: Redefining \microtypecontext on input line 55.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2918,10 +3015,10 @@ Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 Package microtype Info: Redefining babel's language switching commands.
 Package microtype Info: *** Changing to language context `english'
-(microtype)              on input line 41.
+(microtype)              on input line 55.
 Package microtype Info: ... No configuration file mt-LinLibertine.cfg.
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/10.95' on inpu
-t line 41.
+t line 55.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinLibertine' (encoding: EU1).
@@ -2950,8 +3047,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ijsra_2016_02.bbl' found.
  (./ijsra_2016_02.bbl)
-Package biblatex Info: Reference section=0 on input line 41.
-Package biblatex Info: Reference segment=0 on input line 41.
+Package biblatex Info: Reference section=0 on input line 55.
+Package biblatex Info: Reference segment=0 on input line 55.
 \AtBeginShipoutBox=\box101
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -3011,8 +3108,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count474
-Package scrhack Info: undefining \float@addtolists on input line 41.
-Package hyperref Info: Link coloring ON on input line 41.
+Package scrhack Info: undefining \float@addtolists on input line 55.
+Package hyperref Info: Link coloring ON on input line 55.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -3021,17 +3118,17 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count475
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 \c__siunitx_mathsf_int=\count476
 LaTeX Font Info:    Try loading font information for T1+LinLibertine(0) on inpu
-t line 41.
-LaTeX Font Info:    No file T1LinLibertine(0).fd. on input line 41.
+t line 55.
+LaTeX Font Info:    No file T1LinLibertine(0).fd. on input line 55.
 
 
 LaTeX Font Warning: Font shape `T1/LinLibertine(0)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 41.
+(Font)              using `T1/cmr/m/n' instead on input line 55.
 
 Requested font "ecrm1095" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm
@@ -3040,13 +3137,13 @@ Package microtype Info: ... Loading configuration file mt-cmr.cfg.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package microtype Info: Setting up font `T1/cmr/m/n/10.95' on input line 41.
+Package microtype Info: Setting up font `T1/cmr/m/n/10.95' on input line 55.
 Package microtype Info: ... Loading protrusion list `cmr-T1'.
 Package microtype Info: ... : First loading protrusion list `cmr-default'.
 Requested font "ecrm0800" at 8.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/8' on input lin
-e 41.
+e 55.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinLibertine' (encoding: T1).
@@ -3056,16 +3153,16 @@ Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "ecrm0600" at 6.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/6' on input lin
-e 41.
+e 55.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 41.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 55.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 41.
+(Font)              scaled to size 10.40245pt on input line 55.
 Requested font "zeurm10" at 10.40245pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
 Package microtype Info: ... No configuration file mt-zeur.cfg.
@@ -3074,27 +3171,27 @@ Package microtype Info: ... Loading configuration file mt-eur.cfg.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-Package microtype Info: Setting up font `U/zeur/m/n/10.95' on input line 41.
+Package microtype Info: Setting up font `U/zeur/m/n/10.95' on input line 55.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 41.
+(Font)              scaled to size 7.59998pt on input line 55.
 Requested font "zeurm7" at 7.59998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/8' on input line 41.
+Package microtype Info: Setting up font `U/zeur/m/n/8' on input line 55.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 41.
+(Font)              scaled to size 5.69998pt on input line 55.
 Requested font "zeurm7" at 5.69998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/6' on input line 41.
+Package microtype Info: Setting up font `U/zeur/m/n/6' on input line 55.
 Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Try loading font information for U+zeus on input line 41.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 55.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 41.
+(Font)              scaled to size 10.40245pt on input line 55.
 Requested font "zeusm10" at 10.40245pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
 Package microtype Info: ... No configuration file mt-zeus.cfg.
@@ -3103,55 +3200,55 @@ Package microtype Info: ... Loading configuration file mt-eus.cfg.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-eus.cfg
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
-Package microtype Info: Setting up font `U/zeus/m/n/10.95' on input line 41.
+Package microtype Info: Setting up font `U/zeus/m/n/10.95' on input line 55.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 41.
+(Font)              scaled to size 7.59998pt on input line 55.
 Requested font "zeusm7" at 7.59998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/8' on input line 41.
+Package microtype Info: Setting up font `U/zeus/m/n/8' on input line 55.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 41.
+(Font)              scaled to size 5.69998pt on input line 55.
 Requested font "zeusm7" at 5.69998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/6' on input line 41.
+Package microtype Info: Setting up font `U/zeus/m/n/6' on input line 55.
 Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 41.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 55.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 41.
+(Font)              scaled to size 10.40245pt on input line 55.
 Requested font "zeuex10" at 10.40245pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
 Package microtype Info: ... No configuration file mt-zeuex.cfg.
-Package microtype Info: Setting up font `U/zeuex/m/n/10.95' on input line 41.
+Package microtype Info: Setting up font `U/zeuex/m/n/10.95' on input line 55.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 41.
+(Font)              scaled to size 7.59998pt on input line 55.
 Requested font "zeuex10" at 7.59998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/8' on input line 41.
+Package microtype Info: Setting up font `U/zeuex/m/n/8' on input line 55.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 41.
+(Font)              scaled to size 5.69998pt on input line 55.
 Requested font "zeuex10" at 5.69998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/6' on input line 41.
+Package microtype Info: Setting up font `U/zeuex/m/n/6' on input line 55.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Try loading font information for T1+LinBiolinum(0) on input
- line 41.
-LaTeX Font Info:    No file T1LinBiolinum(0).fd. on input line 41.
+ line 55.
+LaTeX Font Info:    No file T1LinBiolinum(0).fd. on input line 55.
 
 
 LaTeX Font Warning: Font shape `T1/LinBiolinum(0)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 41.
+(Font)              using `T1/cmr/m/n' instead on input line 55.
 
 Package microtype Info: ... No configuration file mt-LinBiolinum.cfg.
 Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/8' on input line
- 41.
+ 55.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinBiolinum' (encoding: T1).
@@ -3159,539 +3256,184 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/6' on input line
- 41.
+ 55.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 \c__siunitx_mathtt_int=\count477
 LaTeX Font Info:    Try loading font information for T1+LinLibertine(5) on inpu
-t line 41.
-LaTeX Font Info:    No file T1LinLibertine(5).fd. on input line 41.
+t line 55.
+LaTeX Font Info:    No file T1LinLibertine(5).fd. on input line 55.
 
 LaTeX Font Warning: Font shape `T1/LinLibertine(5)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 41.
+(Font)              using `T1/cmr/m/n' instead on input line 55.
 
 Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/8' on input lin
-e 41.
+e 55.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/6' on input lin
-e 41.
+e 55.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-\openout2 = `preamble/colophon.aux'.
+\openout2 = `content/Rivera.aux'.
 
-(./preamble/colophon.tex
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: xetex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
-* v-part:(T,H,B)=(0.0pt, 845.04684pt, 0.0pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=597.50787pt
-* \textheight=845.04684pt
-* \oddsidemargin=-72.26999pt
-* \evensidemargin=-72.26999pt
-* \topmargin=-92.67pt
-* \headheight=0.0pt
-* \headsep=20.40001pt
-* \topskip=11.0pt
-* \footskip=0.0pt
-* \marginparwidth=0.0pt
-* \marginparsep=12.8401pt
-* \columnsep=10.0pt
-* \skip\footins=16.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+(./content/Rivera.tex
+
+LaTeX Warning: Overwriting file `./Rivera.bib'.
+
+\openout15 = `Rivera.bib'.
 
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
-)
-File: figures/forssman-titlepage.jpg Graphic file (type QTm)
-
-<use  "figures/forssman-titlepage.jpg" >
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-
- []
-
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 40.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/40' on input l
-ine 4.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 15.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/15' on input l
-ine 4.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-[1
-
-
-
-]
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/9' on input li
-ne 9.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "ecrm0900" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/9' on input lin
-e 17.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "ecrm0500" at 5.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/5' on input lin
-e 17.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 17.
-Requested font "zeurm10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/9' on input line 17.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 17.
-Requested font "zeurm5" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm5.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/5' on input line 17.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 17.
-Requested font "zeusm10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/9' on input line 17.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 17.
-Requested font "zeusm5" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm5.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/5' on input line 17.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 17.
-Requested font "zeuex10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/9' on input line 17.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 17.
-Requested font "zeuex10" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/5' on input line 17.
-Package microtype Info: ... No protrusion.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/9' on input line
- 17.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/5' on input line
- 17.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/9' on input lin
-e 17.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/5' on input lin
-e 17.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 6.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/6' on input li
-ne 17.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
+\blx@maxsegment@1=\count478
+\blx@sectionciteorder@1=\count479
+Package biblatex Info: Reference section=1 on input line 101.
+Package biblatex Info: Setting label 'refsection:1' on input line 101.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
+(Font)              scaled to size 10.95pt on input line 101.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+tnum;+onum;" at 9.0pt
+xt;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_R.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/9' on input lin
-e 17.
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10.95' on input
+ line 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinBiolinum' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package microtype Info: ... : First loading protrusion list `default'.
-File: preamble/CC4-0.png Graphic file (type QTm)
- <use  "preamble/CC4-0.png" >
-File: preamble/OpenAccess3.png Graphic file (type QTm)
- <use  "preamble/OpenAccess3.png" >
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 43--56
-[] 
- []
-
-) [2
-
-
-]
-\openout2 = `preamble/editorial.aux'.
-
- (./preamble/editorial.tex
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
-(Font)              scaled to size 9.0pt on input line 5.
-Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RB.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/9' on input li
-ne 5.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 14.4pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/14.4' on input
- line 5.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_RB.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/9' on input l
-ine 7.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <9> not avail
-able
-(Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
-t line 7.
-Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_RI.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/9' on input l
-ine 7.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Missing character: There is no ‎ in font [LinLibertine_R.otf]/OT:script=latn;la
-nguage=DFLT;mapping=tex-text;mapping=tex-text;+tnum;+onum;!
-LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10.95> not a
-vailable
-(Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
-t line 26.
-Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 10.95pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_RI.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/10.95' on inp
-ut line 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 26.
-Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+tnum;+onum;" at 10.95pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_R.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10.95' on input
- line 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10.95' on input
- line 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10.95' on input 
-line 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10.95' on input
- line 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 10.95pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_RB.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/10.95' on inp
-ut line 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 26.
+(Font)              scaled to size 10.95pt on input line 101.
 Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_RB.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/10.95' on inpu
-t line 26.
+t line 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
- [3
-
-
-]
-Overfull \hbox (13.04695pt too wide) in paragraph at lines 32--32
-[][]\EU1/LinLibertine(0)/m/n/9 antonia.edwards-freshwater@wolfson.ox.ac.uk[][][
-] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\EU1/LinLibertine(0)/m/it/9 Maximilians-Universität München (Ger-
- []
-
-[4]
-Underfull \hbox (badness 8132) in paragraph at lines 32--32
-[]\EU1/LinLibertine(0)/bx/n/9 Tanambelo Rasolondrainy\EU1/LinLibertine(0)/m/n/9
- , \EU1/LinLibertine(0)/m/it/9 Yale University
- []
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 32--32
-\EU1/LinLibertine(0)/m/n/9 Mediterranean Archaeology, Mesoameri-
- []
-
-) [5]
-\openout2 = `preamble/_toc.aux'.
-
- (./preamble/_toc.tex [6
-
-
-
-
-]
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 17.28pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/17.28' on inpu
-t line 1.
+t line 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Disabling protrusion on input line 1.
-Package tocbasic Info: character protrusion at toc deactivated on input line 1.
-
- (./ijsra_2016_02.toc
-Package microtype Info: *** Changing to language context `english'
-(microtype)              on input line 3.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 5.
-Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 12.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RB.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/12' on input l
-ine 5.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 12.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/12' on input l
-ine 5.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-
-Overfull \hbox (8.6525pt too wide) in paragraph at lines 13--13
- \EU1/LinBiolinum(0)/bx/n/10.95 Gods, Games, and Geography: A Cross Cultural St
-udy of Chance Games 
- []
-
-
-Overfull \hbox (1.53148pt too wide) detected at line 14
- [][][]\EU1/LinBiolinum(0)/bx/n/12 123[][]
- []
-
-
-Overfull \hbox (1.53148pt too wide) detected at line 16
- [][][]\EU1/LinBiolinum(0)/bx/n/12 137[][]
- []
-
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
-File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" >
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 19.
- [7]
-Overfull \hbox (0.85968pt too wide) in paragraph at lines 19--19
- \EU1/LinBiolinum(0)/bx/n/10.95 Reseña III Congreso Internacional de Jóvenes In
-vestigadores del Mun- 
- []
-
-Package microtype Info: *** Changing to language context `english'
-(microtype)              on input line 20.
-
-Overfull \hbox (12.97131pt too wide) in paragraph at lines 22--22
- \EU1/LinBiolinum(0)/bx/n/10.95 Giving the Past a Future: Review of the 8th Wor
-ld Archaeology Congress 
- []
-
-
-Overfull \hbox (1.53148pt too wide) detected at line 25
- [][][]\EU1/LinBiolinum(0)/bx/n/12 177[][]
- []
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-\tf@toc=\write7
-\openout7 = `ijsra_2016_02.toc'.
-
-) [8]
-\openout2 = `preamble/issue-presentation.aux'.
-
- (./preamble/issue-presentation.tex
-\blx@maxsegment@1=\count478
-\blx@sectionciteorder@1=\count479
-Package biblatex Info: Reference section=1 on input line 22.
-Package biblatex Info: Setting label 'refsection:1' on input line 22.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 14.4pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/14.4' on input
+ line 101.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;+smcp;+smcp;" at 14.4pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/14.4' on inpu
-t line 22.
+t line 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "ecrm1440" at 14.4pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
 Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/14.4' on input 
-line 22.
+line 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "ecrm1000" at 10.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10' on input li
-ne 22.
+ne 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "ecrm0700" at 7.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/7' on input lin
-e 22.
+e 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 22.
+(Font)              scaled to size 13.67995pt on input line 101.
 Requested font "zeurm10" at 13.67995pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/14.4' on input line 22.
+Package microtype Info: Setting up font `U/zeur/m/n/14.4' on input line 101.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 22.
+(Font)              scaled to size 9.49997pt on input line 101.
 Requested font "zeurm10" at 9.49997pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/10' on input line 22.
+Package microtype Info: Setting up font `U/zeur/m/n/10' on input line 101.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 22.
+(Font)              scaled to size 6.64998pt on input line 101.
 Requested font "zeurm7" at 6.64998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/7' on input line 22.
+Package microtype Info: Setting up font `U/zeur/m/n/7' on input line 101.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 22.
+(Font)              scaled to size 13.67995pt on input line 101.
 Requested font "zeusm10" at 13.67995pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/14.4' on input line 22.
+Package microtype Info: Setting up font `U/zeus/m/n/14.4' on input line 101.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 22.
+(Font)              scaled to size 9.49997pt on input line 101.
 Requested font "zeusm10" at 9.49997pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/10' on input line 22.
+Package microtype Info: Setting up font `U/zeus/m/n/10' on input line 101.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 22.
+(Font)              scaled to size 6.64998pt on input line 101.
 Requested font "zeusm7" at 6.64998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/7' on input line 22.
+Package microtype Info: Setting up font `U/zeus/m/n/7' on input line 101.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 22.
+(Font)              scaled to size 13.67995pt on input line 101.
 Requested font "zeuex10" at 13.67995pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/14.4' on input line 22.
+Package microtype Info: Setting up font `U/zeuex/m/n/14.4' on input line 101.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 22.
+(Font)              scaled to size 9.49997pt on input line 101.
 Requested font "zeuex10" at 9.49997pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/10' on input line 22.
+Package microtype Info: Setting up font `U/zeuex/m/n/10' on input line 101.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 22.
+(Font)              scaled to size 6.64998pt on input line 101.
 Requested font "zeuex10" at 6.64998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/7' on input line 22.
+Package microtype Info: Setting up font `U/zeuex/m/n/7' on input line 101.
 Package microtype Info: ... No protrusion.
 Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/14.4' on input l
-ine 22.
+ine 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10' on input lin
-e 22.
+e 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/7' on input line
- 22.
+ 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/14.4' on input 
-line 22.
+line 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10' on input li
-ne 22.
+ne 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/7' on input lin
-e 22.
+e 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3699,7 +3441,47 @@ ext;mapping=tex-text;+tnum;+onum;+smcp;+smcp;" at 10.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/10' on input 
-line 22.
+line 101.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/9' on input li
+ne 101.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 101.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
+xt;mapping=tex-text;+tnum;+onum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/9' on input lin
+e 101.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
+(Font)              scaled to size 9.0pt on input line 101.
+Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RB.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/9' on input li
+ne 101.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10.95' on input
+ line 101.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10.95' on input 
+line 101.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10.95' on input
+ line 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3707,7 +3489,7 @@ ext;mapping=tex-text;+tnum;+onum;" at 8.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/8' on input li
-ne 22.
+ne 101.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3715,7 +3497,7 @@ ext;mapping=tex-text;+tnum;+onum;" at 31.91946pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/31.91946' on i
-nput line 24.
+nput line 102.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3723,1615 +3505,131 @@ ext;mapping=tex-text;+tnum;+onum;" at 48.5143pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/48.5143' on in
-put line 24.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [1
-
-
-
-
-]
-Overfull \hbox (0.11966pt too wide) in paragraph at lines 31--32
-\EU1/LinLibertine(0)/m/n/10.95 towards fundamental dimensions of human experien
-ce are plural and changing through
- []
-
-[2]
-Package marginnote Info: Margin note 11.1 is on absolute page 11
-(marginnote)              on input line 40.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 40.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/10' on input l
-ine 40.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 40.
-Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
-xt;mapping=tex-text;+tnum;+onum;" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_R.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10' on input li
-ne 40.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
- [3]
-Package marginnote Info: Margin note 12.1 is on absolute page 12
-(marginnote)              on input line 45.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 45.
- [4]
-Package marginnote Info: Margin note 13.1 is on absolute page 13
-(marginnote)              on input line 61.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 61.
- [5]
-
-LaTeX Warning: Empty bibliography on input line 66.
-
-Package biblatex Info: Reference section=0 on input line 66.
-) [6]
-\openout2 = `preamble/_part_interviews.aux'.
-
- (./preamble/_part_interviews.tex
-part I.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 24.88pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/24.88' on inpu
-t line 1.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;+smcp;+smcp;" at 24.88pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/24.88' on inp
-ut line 1.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-[7
-
-
-
-
-] [8])
-\openout2 = `content/16Stringer.aux'.
-
- (./content/16Stringer.tex
-\blx@maxsegment@2=\count480
-\blx@sectionciteorder@2=\count481
-Package biblatex Info: Reference section=2 on input line 23.
-Package biblatex Info: Setting label 'refsection:2' on input line 23.
-File: content/figures/Stringer_Figure1.jpeg Graphic file (type QTm)
-
-<use  "content/figures/Stringer_Figure1.jpeg" >
-Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_RB.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/10' on input 
-line 31.
+put line 102.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 10.0pt
+text;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_RI.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/10' on input 
-line 31.
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/10.95' on inp
+ut line 104.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" >
-[1
-
-
-
-
-]
-Overfull \hbox (10.39801pt too wide) in paragraph at lines 50--51
-[]\EU1/LinLibertine(0)/m/it/10.95 When and why
- []
-
-[2]
-Overfull \hbox (5.21053pt too wide) in paragraph at lines 128--129
-[]\EU1/LinLibertine(0)/m/it/10.95 With ancient DNA techniques, researchers have
- found both hybridization behaviour
- []
-
-[3]
-
-LaTeX Warning: Empty bibliography on input line 188.
-
-Package biblatex Info: Reference section=0 on input line 188.
-) [4]
-\openout2 = `preamble/_part_articles.aux'.
-
- (./preamble/_part_articles.tex
-part II.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1.
-[5
-
-
-
-
-] [6])
-\openout2 = `content/fyfe.aux'.
-
- (./content/fyfe.tex
-
-LaTeX Warning: Overwriting file `./fyfe.bib'.
-
-\openout15 = `fyfe.bib'.
-
-
-LaTeX Warning: Tab has been converted to Blank Space.
-
-
-\blx@maxsegment@3=\count482
-\blx@sectionciteorder@3=\count483
-Package biblatex Info: Reference section=3 on input line 382.
-Package biblatex Info: Setting label 'refsection:3' on input line 382.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 382.
-Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RI.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/9' on input li
-ne 382.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 382.
-Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 10.95pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RI.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/10.95' on inpu
-t line 382.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [7
-
-
-
-
-
-] [8]
-Package marginnote Info: Margin note 25.1 is on absolute page 25
-(marginnote)              on input line 406.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 406.
- [9] [10]
-Package marginnote Info: Margin note 27.1 is on absolute page 27
-(marginnote)              on input line 465.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 465.
- [11]
-File: content/figures/Fyfe-Table01.jpg Graphic file (type QTm)
-
-<use  "content/figures/Fyfe-Table01.jpg" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 490.
-See the caption package documentation for explanation.
-
-File: content/figures/Fyfe-Table02.jpg Graphic file (type QTm)
-<use  "content/figures/Fyfe-Table02.jpg" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 501.
-See the caption package documentation for explanation.
-
-[12] [13]
-Package marginnote Info: Margin note 30.1 is on absolute page 30
-(marginnote)              on input line 520.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 520.
-File: content/figures/Fyfe-Figure01.jpg Graphic file (type QTm)
- <use  "content/figures/Fyfe-Figure01.jpg" > [14]
-Package marginnote Info: Margin note 31.1 is on absolute page 31
-(marginnote)              on input line 553.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 553.
- [15]
-File: content/figures/Fyfe-Figure02.jpg Graphic file (type QTm)
-
-<use  "content/figures/Fyfe-Figure02.jpg" >
-Package marginnote Info: Margin note 32.1 is on absolute page 32
-(marginnote)              on input line 577.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 577.
- [16]
-File: content/figures/Fyfe-Figure03.jpg Graphic file (type QTm)
-
-<use  "content/figures/Fyfe-Figure03.jpg" > [17]
-Package marginnote Info: Margin note 34.1 is on absolute page 34
-(marginnote)              on input line 603.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 603.
- [18]
-Package marginnote Info: Margin note 35.1 is on absolute page 35
-(marginnote)              on input line 637.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 637.
- [19]
-Package marginnote Info: Margin note 36.1 is on absolute page 36
-(marginnote)              on input line 644.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 644.
- [20]
-Overfull \hbox (25.80472pt too wide) in paragraph at lines 656--656
-[][]\EU1/LinLibertine(0)/m/n/10.95 Ireland, T. et al. 2013: Historical archaeol
-ogy and Australia‘s cultural heritage sector:emerging
- []
-
-[21]
-Package biblatex Info: Reference section=0 on input line 656.
-) [22]
-\openout2 = `content/forssman.aux'.
-
- (./content/forssman.tex
-
-LaTeX Warning: Overwriting file `./forssman.bib'.
-
-\openout15 = `forssman.bib'.
-
-
-\blx@maxsegment@4=\count484
-\blx@sectionciteorder@4=\count485
-Package biblatex Info: Reference section=4 on input line 279.
-Package biblatex Info: Setting label 'refsection:4' on input line 279.
-Package marginnote Info: Margin note 39.1 is on absolute page 39
-(marginnote)              on input line 279.
-Package marginnote Info: xpos seems to be 142.17824pt,
-(marginnote)             \marginnoterightadjust ignored on input line 279.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 279.
-Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RI.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/10' on input l
-ine 279.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-
-Overfull \hbox (3.21062pt too wide) in paragraph at lines 282--285
-[][] \EU1/LinLibertine(0)/m/n/10.95 Later Stone Age (LSA) sequence of the Great
-er Mapungubwe Landscape, which
- []
-
-File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [23
-
-
-
-
-]
-File: content/figures/Forssman-Figure01.jpg Graphic file (type QTm)
- <use  "content/figures/Forssman-Figure01.jpg" >
-Package marginnote Info: Margin note 40.1 is on absolute page 40
-(marginnote)              on input line 293.
-Package marginnote Info: xpos seems to be 205.84677pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 293.
-
-Overfull \hbox (4.83548pt too wide) in paragraph at lines 293--295
-[]\EU1/LinLibertine(0)/m/n/10.95 Mafunyane |[][][] is situated in a sandstone b
-elt that stretches along the Motloutse, Limpopo,
- []
-
-[24]
-Package marginnote Info: Margin note 41.1 is on absolute page 41
-(marginnote)              on input line 302.
-Package marginnote Info: xpos seems to be 170.98631pt,
-(marginnote)             \marginnoterightadjust ignored on input line 302.
-File: content/figures/Forssman-Figure02.jpg Graphic file (type QTm)
- <use  "content/figures/Forssman-Figure02.jpg" >
-File: content/figures/Forssman-Figure03.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Figure03.jpg" >
-File: content/figures/Forssman-Table01.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Table01.jpg" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 337.
-See the caption package documentation for explanation.
-
-[25] [26]
-Package marginnote Info: Margin note 43.1 is on absolute page 43
-(marginnote)              on input line 343.
-Package marginnote Info: xpos seems to be 126.68518pt,
-(marginnote)             \marginnoterightadjust ignored on input line 343.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 5.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_R.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/5' on input li
-ne 343.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-File: content/figures/Forssman-Figure04.jpg Graphic file (type QTm)
- <use  "content/figures/Forssman-Figure04.jpg" >
-File: content/figures/Forssman-Table02.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Table02.jpg" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 360.
-See the caption package documentation for explanation.
-
-[27] [28]
-Package marginnote Info: Margin note 45.1 is on absolute page 45
-(marginnote)              on input line 367.
-Package marginnote Info: xpos seems to be 139.50482pt,
-(marginnote)             \marginnoterightadjust ignored on input line 367.
-Package marginnote Info: Margin note 45.2 is on absolute page 45
-(marginnote)              on input line 383.
-Package marginnote Info: xpos seems to be 288.43628pt,
-(marginnote)             \marginnoterightadjust ignored on input line 383.
-File: content/figures/Forssman-Figure05.jpg Graphic file (type QTm)
- <use  "content/figures/Forssman-Figure05.jpg" >
-File: content/figures/Forssman-Figure06.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Figure06.jpg" >
-File: content/figures/Forssman-Table03.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Table03.jpg" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 410.
-See the caption package documentation for explanation.
-
-File: content/figures/Forssman-Table04.jpg Graphic file (type QTm)
-<use  "content/figures/Forssman-Table04.jpg" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 422.
-See the caption package documentation for explanation.
-
-Package marginnote Info: Margin note 45.3 is on absolute page 48
-(marginnote)              on input line 429.
-Package marginnote Info: xpos seems to be 263.95125pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 429.
-[29] [30] [31]
-File: content/figures/Forssman-Figure07.jpg Graphic file (type QTm)
- <use  "content/figures/Forssman-Figure07.jpg" >
-File: content/figures/Forssman-Figure08.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Figure08.jpg" >
-Package marginnote Info: Margin note 48.1 is on absolute page 48
-(marginnote)              on input line 451.
-Package marginnote Info: xpos seems to be 210.89096pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 451.
- [32]
-File: content/figures/Forssman-Table05.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Table05.jpg" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 468.
-See the caption package documentation for explanation.
-
-File: content/figures/Forssman-Figure09.jpg Graphic file (type QTm)
-<use  "content/figures/Forssman-Figure09.jpg" >
-File: content/figures/Forssman-Figure10.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Figure10.jpg" >
-Package marginnote Info: Margin note 49.1 is on absolute page 49
-(marginnote)              on input line 499.
-Package marginnote Info: xpos seems to be 170.1824pt,
-(marginnote)             \marginnoterightadjust ignored on input line 499.
- [33] [34] [35]
-File: content/figures/Forssman-Figure11.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Figure11.jpg" >
-File: content/figures/Forssman-Figure12.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Figure12.jpg" >
-File: content/figures/Forssman-Table06.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Table06.jpg" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 526.
-See the caption package documentation for explanation.
-
-Package marginnote Info: Margin note 52.1 is on absolute page 52
-(marginnote)              on input line 532.
-Package marginnote Info: xpos seems to be 217.56581pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 532.
-
-Overfull \hbox (1.6485pt too wide) in paragraph at lines 532--540
-\EU1/LinLibertine(0)/m/n/10.95 number of identifiable specimens (NISP) and dens
-ity of non-identified remains ([][]/
- []
-
-[36] [37]
-File: content/figures/Forssman-Table07.jpg Graphic file (type QTm)
- <use  "content/figures/Forssman-Table07.jpg" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 543.
-See the caption package documentation for explanation.
-
-Package marginnote Info: Margin note 54.1 is on absolute page 54
-(marginnote)              on input line 550.
-Package marginnote Info: xpos seems to be 252.63014pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 550.
-File: content/figures/Forssman-Figure13.jpg Graphic file (type QTm)
-<use  "content/figures/Forssman-Figure13.jpg" > [38]
-File: content/figures/Forssman-Figure14.jpg Graphic file (type QTm)
-
-<use  "content/figures/Forssman-Figure14.jpg" >
-Package marginnote Info: Margin note 55.1 is on absolute page 55
-(marginnote)              on input line 571.
-Package marginnote Info: xpos seems to be 221.65422pt,
-(marginnote)             \marginnoterightadjust ignored on input line 571.
- [39] [40]
-Package marginnote Info: Margin note 57.1 is on absolute page 57
-(marginnote)              on input line 588.
-Package marginnote Info: xpos seems to be 89.10886pt,
-(marginnote)             \marginnoterightadjust ignored on input line 588.
-
-
-Package biblatex Warning: No driver for entry type 'bachelorthesis'.
-(biblatex)                Using fallback driver on input line 601.
-
-[41]
-Package biblatex Info: Reference section=0 on input line 601.
-) [42]
-\openout2 = `content/17Pereda.aux'.
-
- (./content/17Pereda.tex
-
-LaTeX Warning: Overwriting file `./17Pereda.bib'.
-
-\openout15 = `17Pereda.bib'.
-
-
-LaTeX Warning: Tab has been converted to Blank Space.
-
-
-\blx@maxsegment@5=\count486
-\blx@sectionciteorder@5=\count487
-Package biblatex Info: Reference section=5 on input line 306.
-Package biblatex Info: Setting label 'refsection:5' on input line 306.
-File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [43
-
-
-
-
-]
-Package marginnote Info: Margin note 60.1 is on absolute page 60
-(marginnote)              on input line 317.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 317.
-File: content/figures/Pereda-Figure01.jpg Graphic file (type QTm)
- <use  "content/figures/Pereda-Figure01.jpg" >
-[44]
-Package marginnote Info: Margin note 61.1 is on absolute page 61
-(marginnote)              on input line 331.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 331.
-Package marginnote Info: Margin note 61.2 is on absolute page 61
-(marginnote)              on input line 335.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 335.
-Package marginnote Info: Margin note 61.3 is on absolute page 61
-(marginnote)              on input line 342.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 342.
- [45]
-Package marginnote Info: Margin note 62.1 is on absolute page 62
-(marginnote)              on input line 353.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 353.
-File: content/figures/Pereda-Figure02.jpg Graphic file (type QTm)
- <use  "content/figures/Pereda-Figure02.jpg" >
-Package marginnote Info: Margin note 62.2 is on absolute page 62
-(marginnote)              on input line 361.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 361.
-Package marginnote Info: Margin note 62.3 is on absolute page 63
-(marginnote)              on input line 368.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 368.
- [46]
-Package marginnote Info: Margin note 63.1 is on absolute page 63
-(marginnote)              on input line 376.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 376.
-File: content/figures/Pereda-Figure03.jpg Graphic file (type QTm)
-
-<use  "content/figures/Pereda-Figure03.jpg" >
-Package marginnote Info: Margin note 63.2 is on absolute page 63
-(marginnote)              on input line 387.
-Package marginnote Info: xpos seems to be 442.92471pt,
-(marginnote)             \marginnoterightadjust ignored on input line 387.
- [47]
-Package marginnote Info: Margin note 64.1 is on absolute page 64
-(marginnote)              on input line 390.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 390.
-
-Overfull \hbox (0.25594pt too wide) in paragraph at lines 397--400
-\EU1/LinLibertine(0)/m/n/10.95 north-west was the kitchen ([]Thomas, Sloane, an
-d Phillpotts, [][]1997[][]:51; []Thomas, [][]2002[][]:100);
- []
-
-Package marginnote Info: Margin note 64.2 is on absolute page 64
-(marginnote)              on input line 405.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 405.
-[48]
-File: content/figures/Pereda-Figure04.jpg Graphic file (type QTm)
- <use  "content/figures/Pereda-Figure04.jpg" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package marginnote Info: Margin note 65.1 is on absolute page 66
-(marginnote)              on input line 434.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 434.
-[49] [50]
-Overfull \hbox (3.38362pt too wide) in paragraph at lines 456--456
-[][]\EU1/LinLibertine(0)/m/n/10.95 Brodman, J. 2009: \EU1/LinLibertine(0)/m/it/
-10.95 Charity and religion in Medieval Europe\EU1/LinLibertine(0)/m/n/10.95 . W
-ashington D.C.: The Catholic
- []
-
-[51]
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/10.95' on inp
-ut line 456.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
- [52]
-Package biblatex Info: Reference section=0 on input line 456.
-) [53]
-\openout2 = `content/11Raza.aux'.
-
- (./content/11Raza.tex
-
-LaTeX Warning: Overwriting file `./11Raza.bib'.
-
-\openout15 = `11Raza.bib'.
-
-
-LaTeX Warning: Tab has been converted to Blank Space.
-
-
-\blx@maxsegment@6=\count488
-\blx@sectionciteorder@6=\count489
-Package biblatex Info: Reference section=6 on input line 621.
-Package biblatex Info: Setting label 'refsection:6' on input line 621.
-[54
-
-
-
-
-]
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [55]
-File: content/figures/Raza-Figure01.jpg Graphic file (type QTm)
- <use  "content/figures/Raza-Figure01.jpg" >
-[56] [57] [58]
-Overfull \hbox (0.70973pt too wide) in paragraph at lines 725--729
-\EU1/LinLibertine(0)/m/n/10.95 ones (\EU1/LinLibertine(0)/m/it/10.95 interpreta
-tio graeca\EU1/LinLibertine(0)/m/n/10.95 ). Significantly, Demetrius’ coins dep
-icted the goddess Artemis
- []
-
-File: content/figures/Raza-Figure02.jpg Graphic file (type QTm)
-<use  "content/figures/Raza-Figure02.jpg" > [59]
-File: content/figures/Raza-Figure03.jpg Graphic file (type QTm)
-
-<use  "content/figures/Raza-Figure03.jpg" >
-File: content/figures/Raza-Figure04.jpg Graphic file (type QTm)
-
-<use  "content/figures/Raza-Figure04.jpg" > [60]
-File: content/figures/Raza-Figure05.jpg Graphic file (type QTm)
-
-<use  "content/figures/Raza-Figure05.jpg" > [61]
-Overfull \hbox (17.8222pt too wide) in paragraph at lines 810--813
-\EU1/LinLibertine(0)/m/n/10.95 not unlike Indra’s representation in Indian trad
-ition (see figs. [][]4[][] to [][]6[][]) ([]MacDowall, [][]2007a[][]:242–
- []
-
-File: content/figures/Raza-Figure06.jpg Graphic file (type QTm)
-<use  "content/figures/Raza-Figure06.jpg" >
-File: content/figures/Raza-Figure07.jpg Graphic file (type QTm)
-
-<use  "content/figures/Raza-Figure07.jpg" > [62]
-File: content/figures/Raza-Figure08.jpg Graphic file (type QTm)
-
-<use  "content/figures/Raza-Figure08.jpg" > [63]
-File: content/figures/Raza-Figure09.jpg Graphic file (type QTm)
-
-<use  "content/figures/Raza-Figure09.jpg" > [64]
-Package marginnote Info: Margin note 81.1 is on absolute page 82
-(marginnote)              on input line 924.
-Package marginnote Info: xpos seems to be 149.02643pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 924.
- [65] [66] [67] [68]
-Package biblatex Info: Reference section=0 on input line 925.
-) [69]
-\openout2 = `content/Rownd.aux'.
-
-
-(./content/Rownd.tex
-
-LaTeX Warning: Overwriting file `./Rownd.bib'.
-
-\openout15 = `Rownd.bib'.
-
-
-LaTeX Warning: Tab has been converted to Blank Space.
-
-
-\blx@maxsegment@7=\count490
-\blx@sectionciteorder@7=\count491
-Package biblatex Info: Reference section=7 on input line 209.
-Package biblatex Info: Setting label 'refsection:7' on input line 209.
-[70
-
-
-
-
-]
-Package marginnote Info: Margin note 87.1 is on absolute page 87
-(marginnote)              on input line 209.
-Package marginnote Info: xpos seems to be 116.43158pt,
-(marginnote)             \marginnoterightadjust ignored on input line 209.
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [71] [72]
-Package marginnote Info: Margin note 89.1 is on absolute page 89
-(marginnote)              on input line 222.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 222.
-Package marginnote Info: Margin note 89.2 is on absolute page 89
-(marginnote)              on input line 226.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 226.
- [73] [74]
-Package marginnote Info: Margin note 91.1 is on absolute page 91
-(marginnote)              on input line 246.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 246.
- [75] [76]
-Package marginnote Info: Margin note 93.1 is on absolute page 93
-(marginnote)              on input line 268.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 268.
- [77] [78]
-Package marginnote Info: Margin note 95.1 is on absolute page 95
-(marginnote)              on input line 307.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 307.
- [79]
-Package marginnote Info: Margin note 96.1 is on absolute page 96
-(marginnote)              on input line 317.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 317.
-
-[80]
-Overfull \hbox (4.9451pt too wide) in paragraph at lines 335--336
-[]\EU1/LinLibertine(0)/m/n/10.95 to ensure that excavations and other potential
-ly destructive techniques
- []
-
-[81]
-Package marginnote Info: Margin note 98.1 is on absolute page 98
-(marginnote)              on input line 349.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 349.
- [82]
-Package biblatex Info: Reference section=0 on input line 354.
-) [83]
-\openout2 = `content/Davis.aux'.
-
- (./content/Davis.tex
-
-LaTeX Warning: Overwriting file `./Davis.bib'.
-
-\openout15 = `Davis.bib'.
-
-
-LaTeX Warning: Tab has been converted to Blank Space.
-
-
-\blx@maxsegment@8=\count492
-\blx@sectionciteorder@8=\count493
-Package biblatex Info: Reference section=8 on input line 475.
-Package biblatex Info: Setting label 'refsection:8' on input line 475.
-[84
-
-
-
-
-]
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 6.0pt on input line 475.
-Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
-ext;mapping=tex-text;+tnum;+onum;" at 6.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
-num_RI.otf
-Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/6' on input li
-ne 475.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [85]
-Package marginnote Info: Margin note 102.1 is on absolute page 102
-(marginnote)              on input line 491.
-Package marginnote Info: xpos seems to be 221.01575pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 491.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cite' on input line 491.
-
-[86]
-Overfull \hbox (9.37248pt too wide) in paragraph at lines 496--497
-[]\EU1/LinLibertine(0)/m/n/10.95 Games of physical skill are potentially relate
-d to environmental conditions ([]Roberts,
- []
-
-File: content/figures/Davis-Table01.png Graphic file (type QTm)
-<use  "content/figures/Davis-Table01.png" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 507.
-See the caption package documentation for explanation.
-
-Package marginnote Info: Margin note 103.1 is on absolute page 103
-(marginnote)              on input line 511.
-Package marginnote Info: xpos seems to be 145.0124pt,
-(marginnote)             \marginnoterightadjust ignored on input line 511.
-[87]
-Package marginnote Info: Margin note 104.1 is on absolute page 104
-(marginnote)              on input line 517.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 517.
- [88]
-Package marginnote Info: Margin note 105.1 is on absolute page 105
-(marginnote)              on input line 525.
-Package marginnote Info: xpos seems to be 105.05861pt,
-(marginnote)             \marginnoterightadjust ignored on input line 525.
-
-Overfull \hbox (4.24048pt too wide) in paragraph at lines 523--526
-[]\EU1/LinLibertine(0)/m/n/10.95 Additional comparisons were conducted to addre
-ss further correlations between game
- []
-
-Package marginnote Info: Margin note 105.2 is on absolute page 105
-(marginnote)              on input line 527.
-Package marginnote Info: xpos seems to be 129.80688pt,
-(marginnote)             \marginnoterightadjust ignored on input line 527.
-[89]
-File: content/figures/Davis-Table02.png Graphic file (type QTm)
- <use  "content/figures/Davis-Table02.png" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 532.
-See the caption package documentation for explanation.
-
-Package marginnote Info: Margin note 106.1 is on absolute page 106
-(marginnote)              on input line 537.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 537.
-Package marginnote Info: Margin note 106.2 is on absolute page 106
-(marginnote)              on input line 540.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 540.
-[90]
-File: content/figures/Davis_Figure1_082016.png Graphic file (type QTm)
- <use  "content/figures/Davis_Figure1_082016.png" >
-File: content/figures/Davis_Figure2_082016.png Graphic file (type QTm)
-
-<use  "content/figures/Davis_Figure2_082016.png" >
-File: content/figures/Davis_Figure3_082016.png Graphic file (type QTm)
-
-<use  "content/figures/Davis_Figure3_082016.png" > [91]
-Package marginnote Info: Margin note 108.1 is on absolute page 108
-(marginnote)              on input line 579.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 579.
-File: content/figures/Davis-Table02.png Graphic file (type QTm)
-
-<use  "content/figures/Davis-Table02.png" >
-
-Package caption Warning: The caption type was already set to `figure'
-(caption)                 on input line 584.
-See the caption package documentation for explanation.
-
-File: content/figures/Davis_Figure4_082016.png Graphic file (type QTm)
-<use  "content/figures/Davis_Figure4_082016.png" >
-Package marginnote Info: Margin note 108.2 is on absolute page 109
-(marginnote)              on input line 597.
-Package marginnote Info: xpos seems to be 103.99571pt,
-(marginnote)             \marginnoterightadjust ignored on input line 597.
- [92] [93] [94]
-File: content/figures/Davis_Figure5_082016.png Graphic file (type QTm)
-
-<use  "content/figures/Davis_Figure5_082016.png" > [95] [96] [97]
-File: content/figures/Davis_Figure6_082016.png Graphic file (type QTm)
-
-<use  "content/figures/Davis_Figure6_082016.png" >
-File: content/figures/Davis_Figure7_082016.png Graphic file (type QTm)
-
-<use  "content/figures/Davis_Figure7_082016.png" >
-Package marginnote Info: Margin note 114.1 is on absolute page 115
-(marginnote)              on input line 666.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 666.
- [98]
-Overfull \hbox (0.16716pt too wide) in paragraph at lines 669--670
-[]\EU1/LinLibertine(0)/m/n/10.95 For archaeologists, these conclusions reaffirm
- that games, especially games of chance,
- []
-
-[99] [100]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
- <use  "content/Davis_Appendix.pdf" >
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf" >
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page1>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page1>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page1>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page1>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page1> [101
-
-]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page2>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page2>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page2> [102]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page3>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page3>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page3> [103]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page4>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page4>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page4> [104]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page5>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page5>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page5> [105]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page6>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page6>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page6> [106]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page7>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page7>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page7> [107]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page8>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page8>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page8> [108]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page9>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page9>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page9> [109]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page10>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page10>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page10> [110]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page11>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page11>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page11> [111]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page12>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page12>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page12> [112]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page13>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page13>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page13> [113]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page14>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page14>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page14> [114]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page15>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page15>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page15> [115]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page16>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page16>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page16> [116]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page17>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page17>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page17> [117]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page18>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page18>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page18> [118]
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page19>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page19>
-File: content/Davis_Appendix.pdf Graphic file (type QTm)
-
-<use  "content/Davis_Appendix.pdf"  page19> [119] [120]
-Overfull \hbox (1.59785pt too wide) in paragraph at lines 682--682
-[][]\EU1/LinLibertine(0)/m/n/10.95 Peregrine, Peter N. 2008: Political Strategy
- and Cross-Cultural Variation in Games. \EU1/LinLibertine(0)/m/it/10.95 Cross-
- []
-
-
-Package biblatex Warning: No driver for entry type 'standard'.
-(biblatex)                Using fallback driver on input line 682.
-
-[121]
-Package biblatex Info: Reference section=0 on input line 682.
-) [122]
-\openout2 = `preamble/_part_litreviews.aux'.
-
- (./preamble/_part_litreviews.tex
-part III.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1.
-[123
-
-
-
-
-] [124])
-\openout2 = `content/Gyngell.aux'.
-
- (./content/Gyngell.tex
-
-LaTeX Warning: Overwriting file `./Gyngell.bib'.
-
-\openout15 = `Gyngell.bib'.
-
-
-LaTeX Warning: Tab has been converted to Blank Space.
-
-
-\blx@maxsegment@9=\count494
-\blx@sectionciteorder@9=\count495
-Package biblatex Info: Reference section=9 on input line 282.
-Package biblatex Info: Setting label 'refsection:9' on input line 282.
-File: ijsra_logo.png Graphic file (type QTm)
-<use  "ijsra_logo.png" > [125
-
-
-
-
-]
-Package marginnote Info: Margin note 142.1 is on absolute page 142
-(marginnote)              on input line 293.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 293.
-Package marginnote Info: Margin note 142.2 is on absolute page 142
-(marginnote)              on input line 302.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 302.
- [126]
-Package marginnote Info: Margin note 143.1 is on absolute page 143
-(marginnote)              on input line 321.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 321.
- [127]
-Package marginnote Info: Margin note 144.1 is on absolute page 144
-(marginnote)              on input line 339.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 339.
- [128]
-Package marginnote Info: Margin note 145.1 is on absolute page 145
-(marginnote)              on input line 348.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 348.
-Package marginnote Info: Margin note 145.2 is on absolute page 145
-(marginnote)              on input line 352.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 352.
-File: content/figures/Gyngell-Fig01.jpg Graphic file (type QTm)
-
-<use  "content/figures/Gyngell-Fig01.jpg" >
-File: content/figures/Gyngell-Fig02.jpg Graphic file (type QTm)
-
-<use  "content/figures/Gyngell-Fig02.jpg" >
-File: content/figures/Gyngell-Fig03.jpg Graphic file (type QTm)
-
-<use  "content/figures/Gyngell-Fig03.jpg" > [129]
-Underfull \hbox (badness 1292) in paragraph at lines 422--425
-[][]\EU1/LinLibertine(0)/m/n/10.95 More recently, []Hardy-Smith and Edwards ([]
-[]2004[][]) con-
- []
-
-Package marginnote Info: Margin note 146.1 is on absolute page 146
-(marginnote)              on input line 436.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 436.
-[130]
-File: content/figures/Gyngell-Fig04.jpg Graphic file (type QTm)
- <use  "content/figures/Gyngell-Fig04.jpg" >
-File: content/figures/Gyngell-Fig05.jpg Graphic file (type QTm)
-
-<use  "content/figures/Gyngell-Fig05.jpg" >
-Overfull \hbox (131.65399pt too wide) in paragraph at lines 446--460
-[][]  |  [] 
- []
-
-Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
-put line 460.
-[131]
-Package marginnote Info: Margin note 148.1 is on absolute page 148
-(marginnote)              on input line 470.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 470.
-File: content/figures/Gyngell-Fig06.jpg Graphic file (type QTm)
- <use  "content/figures/Gyngell-Fig06.jpg" >
-File: content/figures/Gyngell-Fig07.jpg Graphic file (type QTm)
-
-<use  "content/figures/Gyngell-Fig07.jpg" >
-Package marginnote Info: Margin note 148.2 is on absolute page 148
-(marginnote)              on input line 501.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 501.
- [132
-
-]
-Package marginnote Info: Margin note 149.1 is on absolute page 149
-(marginnote)              on input line 511.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 511.
- [133] [134]
-Package biblatex Info: Reference section=0 on input line 514.
-) [135]
-\openout2 = `preamble/_part_reviews.aux'.
-
-
-(./preamble/_part_reviews.tex [136
-
-
-
-
-]
-part IV.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1.
-[137] [138])
-\openout2 = `content/Ward.aux'.
-
- (./content/Ward.tex
-
-LaTeX Warning: Overwriting file `./Ward.bib'.
-
-\openout15 = `Ward.bib'.
-
-
-\blx@maxsegment@10=\count496
-\blx@sectionciteorder@10=\count497
-Package biblatex Info: Reference section=10 on input line 82.
-Package biblatex Info: Setting label 'refsection:10' on input line 82.
-Missing character: There is no † in font ecrm0800!
-Missing character: There is no ‡ in font ecrm0800!
-Package marginnote Info: Margin note 155.1 is on absolute page 155
-(marginnote)              on input line 85.
-Package marginnote Info: xpos seems to be 113.073pt,
-(marginnote)             \marginnoterightadjust ignored on input line 85.
-File: content/figures/Ward-Figure1.jpg Graphic file (type QTm)
-<use  "content/figures/Ward-Figure1.jpg" >
-File: content/figures/Ward-Figure2.jpg Graphic file (type QTm)
-
-<use  "content/figures/Ward-Figure2.jpg" >
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [139
-
-
-
-
-
-]
-File: content/figures/Ward-Figure3.jpg Graphic file (type QTm)
-
-<use  "content/figures/Ward-Figure3.jpg" >
-File: content/figures/Ward-Figure4.jpg Graphic file (type QTm)
-
-<use  "content/figures/Ward-Figure4.jpg" >
-Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
-text;mapping=tex-text;+tnum;+onum;" at 7.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
-tine_RI.otf
-Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/7' on input l
-ine 137.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-File: content/figures/Ward-Figure5.jpg Graphic file (type QTm)
-
-<use  "content/figures/Ward-Figure5.jpg" >
-File: content/figures/Ward-Figure6.jpg Graphic file (type QTm)
-
-<use  "content/figures/Ward-Figure6.jpg" >
-LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10> not avai
-lable
+LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10.95> not a
+vailable
 (Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
-t line 153.
- [140]
-File: content/figures/Ward-Figure7.jpg Graphic file (type QTm)
-
-<use  "content/figures/Ward-Figure7.jpg" >
-Package marginnote Info: Margin note 157.1 is on absolute page 157
-(marginnote)              on input line 185.
-Package marginnote Info: xpos seems to be 125.19931pt,
-(marginnote)             \marginnoterightadjust ignored on input line 185.
-
-Overfull \hbox (2.36076pt too wide) in paragraph at lines 185--194
-[]\EU1/LinLibertine(0)/m/n/10.95 Graduate |[][][] and undergraduate research is
- scattered throughout the meetings as posters
- []
-
-File: content/figures/Ward-Figure8.jpg Graphic file (type QTm)
-<use  "content/figures/Ward-Figure8.jpg" > [141]
-Overfull \hbox (6.58652pt too wide) in paragraph at lines 214--215
-[]\EU1/LinLibertine(0)/m/n/10.95 AAA-AAPA Poster Prize for his poster titled, “
-\EU1/LinLibertine(0)/m/it/10.95 Pat-
- []
-
-
-Overfull \hbox (0.99197pt too wide) in paragraph at lines 215--216
-[]\EU1/LinLibertine(0)/m/n/10.95 Aleš Hrdlička Prize for his podium
- []
-
-[142]
-Package marginnote Info: Margin note 159.1 is on absolute page 159
-(marginnote)              on input line 221.
-Package marginnote Info: xpos seems to be 98.59433pt,
-(marginnote)             \marginnoterightadjust ignored on input line 221.
- [143]
-Overfull \hbox (3.31131pt too wide) in paragraph at lines 232--235
-\EU1/LinLibertine(0)/m/n/10.95 AAPA attendees to ‘listen in’ on multiple sessio
-ns simultaneously. Overall, live-tweeting
- []
-
-Package marginnote Info: Margin note 160.1 is on absolute page 161
-(marginnote)              on input line 236.
-Package marginnote Info: xpos seems to be 101.29384pt,
-(marginnote)             \marginnoterightadjust ignored on input line 236.
-[144] [145] [146]
-Package marginnote Info: Margin note 163.1 is on absolute page 163
-(marginnote)              on input line 277.
-Package marginnote Info: xpos seems to be 101.4288pt,
-(marginnote)             \marginnoterightadjust ignored on input line 277.
- [147] [148]
-File: content/figures/Ward-Figure9.jpg Graphic file (type QTm)
- <use  "content/figures/Ward-Figure9.jpg" >
-Overfull \hbox (5.40117pt too wide) in paragraph at lines 337--341
-\EU1/LinLibertine(0)/m/n/10.95 the AAPA-Wiley Reception, Increasing Diversity i
-n Evolutionary Anthropology (IDEAS),
- []
-
-Package marginnote Info: Margin note 165.1 is on absolute page 165
-(marginnote)              on input line 342.
-Package marginnote Info: xpos seems to be 109.26546pt,
-(marginnote)             \marginnoterightadjust ignored on input line 342.
-[149]
-Package marginnote Info: Margin note 166.1 is on absolute page 166
-(marginnote)              on input line 358.
-Package marginnote Info: xpos seems to be 170.06023pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 358.
-Package biblatex Info: Reference section=0 on input line 362.
-) [150]
-\openout2 = `content/Resena.aux'.
-
- (./content/Resena.tex
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
-\blx@maxsegment@11=\count498
-\blx@sectionciteorder@11=\count499
-Package biblatex Info: Reference section=11 on input line 21.
-Package biblatex Info: Setting label 'refsection:11' on input line 21.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 21.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/sl' in size <9> not availa
-ble
-(Font)              Font shape `EU1/LinBiolinum(0)/m/it' tried instead on input
- line 21.
-LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 21.
+t line 114.
+Requested font "ecrm0900" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/9' on input lin
+e 114.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "ecrm0500" at 5.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/5' on input lin
+e 114.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 114.
+Requested font "zeurm10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
+Package microtype Info: Setting up font `U/zeur/m/n/9' on input line 114.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 114.
+Requested font "zeurm5" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm5.tfm
+Package microtype Info: Setting up font `U/zeur/m/n/5' on input line 114.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeus/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 114.
+Requested font "zeusm10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
+Package microtype Info: Setting up font `U/zeus/m/n/9' on input line 114.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeus/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 114.
+Requested font "zeusm5" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm5.tfm
+Package microtype Info: Setting up font `U/zeus/m/n/5' on input line 114.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 114.
+Requested font "zeuex10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+Package microtype Info: Setting up font `U/zeuex/m/n/9' on input line 114.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 114.
+Requested font "zeuex10" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+Package microtype Info: Setting up font `U/zeuex/m/n/5' on input line 114.
+Package microtype Info: ... No protrusion.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/9' on input line
+ 114.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/5' on input line
+ 114.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/9' on input lin
+e 114.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/5' on input lin
+e 114.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
 File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" >
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 24.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 24.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 24.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 24.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 24.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 24.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 24.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 24.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 24.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 24.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 24.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 24.
- [151
 
-
-
-
-]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 34.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 34.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 34.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 34.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 34.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 34.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 34.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 34.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 34.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 34.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 34.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 34.
- [152]
-
-LaTeX Warning: Empty bibliography on input line 50.
-
-Package biblatex Info: Reference section=0 on input line 50.
-Package microtype Info: *** Changing to language context `english'
-(microtype)              on input line 51.
-) [153]
-\openout2 = `content/7IARSS.aux'.
-
- (./content/7IARSS.tex
-\blx@maxsegment@12=\count500
-\blx@sectionciteorder@12=\count501
-Package biblatex Info: Reference section=12 on input line 32.
-Package biblatex Info: Setting label 'refsection:12' on input line 32.
- [154
-
-
-
-
-]
-File: content/figures/IARSS_Session.jpg Graphic file (type QTm)
-
-<use  "content/figures/IARSS_Session.jpg" >
-File: content/figures/IARSS_Break2.jpg Graphic file (type QTm)
-
-<use  "content/figures/IARSS_Break2.jpg" >
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [155]
-File: content/figures/IARSS_Conference3.jpg Graphic file (type QTm)
-
-<use  "content/figures/IARSS_Conference3.jpg" >
-Overfull \hbox (92.5978pt too wide) in paragraph at lines 60--61
-[][] 
- []
-
-
-Overfull \hbox (49.07019pt too wide) in paragraph at lines 61--61
-[][]|[]|  
- []
-
-File: content/figures/IARSS_Quiz.jpg Graphic file (type QTm)
-<use  "content/figures/IARSS_Quiz.jpg" >
-Overfull \hbox (92.5978pt too wide) in paragraph at lines 64--65
-[][] 
- []
-
-[156]
-
-LaTeX Warning: Empty bibliography on input line 89.
-
-Package biblatex Info: Reference section=0 on input line 89.
-) [157]
-\openout2 = `content/Hawkins.aux'.
-
- (./content/Hawkins.tex
-
-LaTeX Warning: Overwriting file `./Hawkins.bib'.
-
-\openout15 = `Hawkins.bib'.
-
-
-LaTeX Warning: Tab has been converted to Blank Space.
-
-
-\blx@maxsegment@13=\count502
-\blx@sectionciteorder@13=\count503
-Package biblatex Info: Reference section=13 on input line 61.
-Package biblatex Info: Setting label 'refsection:13' on input line 61.
-[158
-
-
-
-
-]
-Package marginnote Info: Margin note 175.1 is on absolute page 175
-(marginnote)              on input line 69.
-Package marginnote Info: xpos seems to be 137.94049pt,
-(marginnote)             \marginnoterightadjust ignored on input line 69.
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [159]
-File: content/figures/Hawkins-Figure01.jpg Graphic file (type QTm)
-
-<use  "content/figures/Hawkins-Figure01.jpg" >
-File: content/figures/Hawkins-Figure02.jpg Graphic file (type QTm)
-
-<use  "content/figures/Hawkins-Figure02.jpg" >
-File: content/figures/Hawkins-Figure03.jpg Graphic file (type QTm)
-
-<use  "content/figures/Hawkins-Figure03.jpg" >
-Package marginnote Info: Margin note 176.1 is on absolute page 176
-(marginnote)              on input line 96.
-Package marginnote Info: xpos seems to be 245.86977pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 96.
- [160] [161]
-Package marginnote Info: Margin note 178.1 is on absolute page 178
-(marginnote)              on input line 104.
-Package marginnote Info: xpos seems to be 211.58488pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 104.
-File: content/figures/Hawkins-Figure04.jpg Graphic file (type QTm)
-
-<use  "content/figures/Hawkins-Figure04.jpg" > [162] [163]
-File: content/figures/Hawkins-Figure05.jpg Graphic file (type QTm)
-
-<use  "content/figures/Hawkins-Figure05.jpg" >
-File: content/figures/Hawkins-Figure06.jpg Graphic file (type QTm)
-
-<use  "content/figures/Hawkins-Figure06.jpg" > [164]
-Package marginnote Info: Margin note 181.1 is on absolute page 181
-(marginnote)              on input line 141.
-Package marginnote Info: xpos seems to be 180.44453pt,
-(marginnote)             \marginnoterightadjust ignored on input line 141.
- [165]
-Package marginnote Info: Margin note 182.1 is on absolute page 182
-(marginnote)              on input line 150.
-Package marginnote Info: xpos seems to be 215.46819pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 150.
- [166]
-Package biblatex Info: Reference section=0 on input line 156.
-) [167]
-\openout2 = `content/18Kerr.aux'.
-
-
-(./content/18Kerr.tex
-\blx@maxsegment@14=\count504
-\blx@sectionciteorder@14=\count505
-Package biblatex Info: Reference section=14 on input line 19.
-Package biblatex Info: Setting label 'refsection:14' on input line 19.
- [168
-
-
-
-
-]
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [169]
-File: content/figures/Kerr_fig01.jpg Graphic file (type QTm)
-
-<use  "content/figures/Kerr_fig01.jpg" > [170] [171]
-
-LaTeX Warning: Empty bibliography on input line 51.
-
-Package biblatex Info: Reference section=0 on input line 51.
-) [172]
-\openout2 = `content/19Kenny.aux'.
-
- (./content/19Kenny.tex
-\blx@maxsegment@15=\count506
-\blx@sectionciteorder@15=\count507
-Package biblatex Info: Reference section=15 on input line 24.
-Package biblatex Info: Setting label 'refsection:15' on input line 24.
-File: ijsra_logo.png Graphic file (type QTm)
- <use  "ijsra_logo.png" > [173
-
-
-
-
-]
-Overfull \hbox (0.71098pt too wide) in paragraph at lines 47--48
-\EU1/LinLibertine(0)/m/n/10.95 and developed over time, reviewed the problems w
-ith current models and finally putting
- []
-
-[174] [175]
-
-LaTeX Warning: Empty bibliography on input line 58.
-
-Package biblatex Info: Reference section=0 on input line 58.
-) [176]
-\openout2 = `preamble/_part_bookreviews.aux'.
-
- (./preamble/_part_bookreviews.tex
-part V.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1.
-[177
-
-
-
-
-] [178])
-\openout2 = `content/Rivera.aux'.
-
- (./content/Rivera.tex
-
-LaTeX Warning: Overwriting file `./Rivera.bib'.
-
-\openout15 = `Rivera.bib'.
-
-
-\blx@maxsegment@16=\count508
-\blx@sectionciteorder@16=\count509
-Package biblatex Info: Reference section=16 on input line 101.
-Package biblatex Info: Setting label 'refsection:16' on input line 101.
-File: ijsra_logo.png Graphic file (type QTm)
 <use  "ijsra_logo.png" > [179
 
 
 
 
 
-] [180] [181]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+onum;" at 10.95pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RB.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/10.95' on inp
+ut line 129.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+ [180] [181]
 Package biblatex Info: Reference section=0 on input line 143.
 ) [182]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (./ijsra_2016_02.aux
-(./preamble/colophon.aux)
-Package microtype Info: *** Changing to language context `english'
-(microtype)              on input line 30.
- (./preamble/editorial.aux) (./preamble/_toc.aux)
+(./preamble/colophon.aux) (./preamble/editorial.aux) (./preamble/_toc.aux)
 (./preamble/issue-presentation.aux) (./preamble/_part_interviews.aux)
 (./content/16Stringer.aux) (./preamble/_part_articles.aux) (./content/fyfe.aux)
 (./content/forssman.aux) (./content/17Pereda.aux) (./content/11Raza.aux)
@@ -5344,8 +3642,11 @@ Package microtype Info: *** Changing to language context `english'
 (microtype)              on input line 15.
 ) (./content/7IARSS.aux) (./content/Hawkins.aux)
 (./content/18Kerr.aux) (./content/19Kenny.aux)
-(./preamble/_part_bookreviews.aux) (./content/Rivera.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 91.
+(./preamble/_part_bookreviews.aux) (./content/Rivera.aux)
+Package microtype Info: *** Changing to language context `english'
+(microtype)              on input line 60.
+)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 105.
 
 
  *File List*
@@ -5595,172 +3896,29 @@ RS)
    uzeus.fd    2005/01/11 v4.0 (WaS)
   mt-eus.cfg    2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
   uzeuex.fd    2005/01/11 v4.0 (WaS)
-preamble/colophon.tex
-se-ascii-print.def    2016/05/16 v1.11 stringenc: Printable ASCII characters
-figures/forssman-titlepage.jpg
-ijsra_logo.png    Graphic file (type QTm)
-preamble/CC4-0.png
-preamble/OpenAccess3.png
-preamble/editorial.tex
-preamble/_toc.tex
-ijsra_logo.png    Graphic file (type QTm)
-preamble/issue-presentation.tex
-ijsra_logo.png    Graphic file (type QTm)
-preamble/_part_interviews.tex
-content/16Stringer.tex
-content/figures/Stringer_Figure1.jpeg
-ijsra_logo.png    Graphic file (type QTm)
-preamble/_part_articles.tex
-content/fyfe.tex
-ijsra_logo.png    Graphic file (type QTm)
-content/figures/Fyfe-Table01.jpg
-content/figures/Fyfe-Table02.jpg
-content/figures/Fyfe-Figure01.jpg
-content/figures/Fyfe-Figure02.jpg
-content/figures/Fyfe-Figure03.jpg
-content/forssman.tex
-ijsra_logo.png    Graphic file (type QTm)
-content/figures/Forssman-Figure01.jpg
-content/figures/Forssman-Figure02.jpg
-content/figures/Forssman-Figure03.jpg
-content/figures/Forssman-Table01.jpg
-content/figures/Forssman-Figure04.jpg
-content/figures/Forssman-Table02.jpg
-content/figures/Forssman-Figure05.jpg
-content/figures/Forssman-Figure06.jpg
-content/figures/Forssman-Table03.jpg
-content/figures/Forssman-Table04.jpg
-content/figures/Forssman-Figure07.jpg
-content/figures/Forssman-Figure08.jpg
-content/figures/Forssman-Table05.jpg
-content/figures/Forssman-Figure09.jpg
-content/figures/Forssman-Figure10.jpg
-content/figures/Forssman-Figure11.jpg
-content/figures/Forssman-Figure12.jpg
-content/figures/Forssman-Table06.jpg
-content/figures/Forssman-Table07.jpg
-content/figures/Forssman-Figure13.jpg
-content/figures/Forssman-Figure14.jpg
-content/17Pereda.tex
-ijsra_logo.png    Graphic file (type QTm)
-content/figures/Pereda-Figure01.jpg
-content/figures/Pereda-Figure02.jpg
-content/figures/Pereda-Figure03.jpg
-content/figures/Pereda-Figure04.jpg
-content/11Raza.tex
-ijsra_logo.png    Graphic file (type QTm)
-content/figures/Raza-Figure01.jpg
-content/figures/Raza-Figure02.jpg
-content/figures/Raza-Figure03.jpg
-content/figures/Raza-Figure04.jpg
-content/figures/Raza-Figure05.jpg
-content/figures/Raza-Figure06.jpg
-content/figures/Raza-Figure07.jpg
-content/figures/Raza-Figure08.jpg
-content/figures/Raza-Figure09.jpg
-content/Rownd.tex
-ijsra_logo.png    Graphic file (type QTm)
-content/Davis.tex
-ijsra_logo.png    Graphic file (type QTm)
-content/figures/Davis-Table01.png
-content/figures/Davis-Table02.png
-content/figures/Davis_Figure1_082016.png
-content/figures/Davis_Figure2_082016.png
-content/figures/Davis_Figure3_082016.png
-content/figures/Davis-Table02.png
-content/figures/Davis_Figure4_082016.png
-content/figures/Davis_Figure5_082016.png
-content/figures/Davis_Figure6_082016.png
-content/figures/Davis_Figure7_082016.png
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-content/Davis_Appendix.pdf
-preamble/_part_litreviews.tex
-content/Gyngell.tex
-ijsra_logo.png    Graphic file (type QTm)
-content/figures/Gyngell-Fig01.jpg
-content/figures/Gyngell-Fig02.jpg
-content/figures/Gyngell-Fig03.jpg
-content/figures/Gyngell-Fig04.jpg
-content/figures/Gyngell-Fig05.jpg
-content/figures/Gyngell-Fig06.jpg
-content/figures/Gyngell-Fig07.jpg
-preamble/_part_reviews.tex
-content/Ward.tex
-content/figures/Ward-Figure1.jpg
-content/figures/Ward-Figure2.jpg
-ijsra_logo.png    Graphic file (type QTm)
-content/figures/Ward-Figure3.jpg
-content/figures/Ward-Figure4.jpg
-content/figures/Ward-Figure5.jpg
-content/figures/Ward-Figure6.jpg
-content/figures/Ward-Figure7.jpg
-content/figures/Ward-Figure8.jpg
-content/figures/Ward-Figure9.jpg
-content/Resena.tex
-ijsra_logo.png    Graphic file (type QTm)
-content/7IARSS.tex
-content/figures/IARSS_Session.jpg
-content/figures/IARSS_Break2.jpg
-ijsra_logo.png    Graphic file (type QTm)
-content/figures/IARSS_Conference3.jpg
-content/figures/IARSS_Quiz.jpg
-content/Hawkins.tex
-ijsra_logo.png    Graphic file (type QTm)
-content/figures/Hawkins-Figure01.jpg
-content/figures/Hawkins-Figure02.jpg
-content/figures/Hawkins-Figure03.jpg
-content/figures/Hawkins-Figure04.jpg
-content/figures/Hawkins-Figure05.jpg
-content/figures/Hawkins-Figure06.jpg
-content/18Kerr.tex
-ijsra_logo.png    Graphic file (type QTm)
-content/figures/Kerr_fig01.jpg
-content/19Kenny.tex
-ijsra_logo.png    Graphic file (type QTm)
-preamble/_part_bookreviews.tex
 content/Rivera.tex
+se-ascii-print.def    2016/05/16 v1.11 stringenc: Printable ASCII characters
 ijsra_logo.png    Graphic file (type QTm)
  ***********
 
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 105.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 \openout1 = `ijsra_2016_02.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 67903 strings out of 493589
- 1366642 string characters out of 6143511
- 2135808 words of memory out of 5000000
- 70120 multiletter control sequences out of 15000+600000
- 19376 words of font info for 107 fonts, out of 8000000 for 9000
+ 66636 strings out of 493589
+ 1331420 string characters out of 6143511
+ 1925396 words of memory out of 5000000
+ 69011 multiletter control sequences out of 15000+600000
+ 18768 words of font info for 88 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 80i,24n,147p,10428b,5297s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,24n,147p,10428b,5255s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ijsra_2016_02.pdf (198 pages).
+Output written on ijsra_2016_02.pdf (4 pages).
