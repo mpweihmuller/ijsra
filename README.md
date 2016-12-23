@@ -14,5 +14,5 @@ We always look for people who like to submit articles or who like to edit articl
 If you like to turn in your paper as LaTeX-Code you can use the template hosted at [OverLeaf](https://www.overleaf.com/latex/templates/template-for-international-journal-of-student-research-in-archaeology-ijsra/nwdmgkqqxkhd#.WF2fkLGYwiM).
 
 ##Issues published:
-1. 2016 vol. 1 no. 1
-2. 2016 vol. 1 no. 2
+1. [2016 vol. 1 no. 1] (https://github.com/LukasCBossert/ijsra/blob/master/issues-completed-pdf/ijsra_2016_01_01.pdf)
+2. [2016 vol. 1 no. 2](https://github.com/LukasCBossert/ijsra/blob/master/issues-completed-pdf/ijsra_2016_01_02/ijsra_2016_01_02.pdf)
