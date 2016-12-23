@@ -510,7 +510,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \Put(-11,-450){\color{white}\rule{1.5\linewidth}{15pt}}
 \Put(.5\linewidth-3.5cm,-1.1\linewidth){\includegraphics[width=7cm]{ijsra_logo.png}}\\
 
-\vspace{.6\linewidth}
+\vspace*{15cm}
 \begin{center}\color{white}
 \fontsize{40}{40}\selectfont
 International Journal of \\ 
@@ -519,7 +519,7 @@ Archaeology
 
 \vfill
 \fontsize{15}{15}\selectfont
-\IJSRAnumber\ \IJSRAvolume\\
+\IJSRAvolume\ | \IJSRAnumber\\
 \IJSRAmonth\ \IJSRAyear
 
 \vspace{2em}

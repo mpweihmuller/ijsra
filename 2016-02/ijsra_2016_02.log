@@ -1,6 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  23 DEC 2016 05:14
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  23 DEC 2016 11:11
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **ijsra_2016_02.tex
 (./ijsra_2016_02.tex
@@ -2875,41 +2876,41 @@ LaTeX Info: Redefining \% on input line 3.
 (./content/Rivera.aux))
 \openout1 = `ijsra_2016_02.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 40.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 41.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Info: Redefining \dots on input line 40.
-LaTeX Info: Redefining \up on input line 40.
-LaTeX Info: Redefining \microtypecontext on input line 40.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Info: Redefining \dots on input line 41.
+LaTeX Info: Redefining \up on input line 41.
+LaTeX Info: Redefining \microtypecontext on input line 41.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2917,10 +2918,10 @@ Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 Package microtype Info: Redefining babel's language switching commands.
 Package microtype Info: *** Changing to language context `english'
-(microtype)              on input line 40.
+(microtype)              on input line 41.
 Package microtype Info: ... No configuration file mt-LinLibertine.cfg.
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/10.95' on inpu
-t line 40.
+t line 41.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinLibertine' (encoding: EU1).
@@ -2949,8 +2950,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ijsra_2016_02.bbl' found.
  (./ijsra_2016_02.bbl)
-Package biblatex Info: Reference section=0 on input line 40.
-Package biblatex Info: Reference segment=0 on input line 40.
+Package biblatex Info: Reference section=0 on input line 41.
+Package biblatex Info: Reference segment=0 on input line 41.
 \AtBeginShipoutBox=\box101
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -3010,8 +3011,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count474
-Package scrhack Info: undefining \float@addtolists on input line 40.
-Package hyperref Info: Link coloring ON on input line 40.
+Package scrhack Info: undefining \float@addtolists on input line 41.
+Package hyperref Info: Link coloring ON on input line 41.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -3020,17 +3021,17 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count475
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
 \c__siunitx_mathsf_int=\count476
 LaTeX Font Info:    Try loading font information for T1+LinLibertine(0) on inpu
-t line 40.
-LaTeX Font Info:    No file T1LinLibertine(0).fd. on input line 40.
+t line 41.
+LaTeX Font Info:    No file T1LinLibertine(0).fd. on input line 41.
 
 
 LaTeX Font Warning: Font shape `T1/LinLibertine(0)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 40.
+(Font)              using `T1/cmr/m/n' instead on input line 41.
 
 Requested font "ecrm1095" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm
@@ -3039,13 +3040,13 @@ Package microtype Info: ... Loading configuration file mt-cmr.cfg.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package microtype Info: Setting up font `T1/cmr/m/n/10.95' on input line 40.
+Package microtype Info: Setting up font `T1/cmr/m/n/10.95' on input line 41.
 Package microtype Info: ... Loading protrusion list `cmr-T1'.
 Package microtype Info: ... : First loading protrusion list `cmr-default'.
 Requested font "ecrm0800" at 8.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/8' on input lin
-e 40.
+e 41.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinLibertine' (encoding: T1).
@@ -3055,16 +3056,16 @@ Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "ecrm0600" at 6.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/6' on input lin
-e 40.
+e 41.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 40.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 41.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 40.
+(Font)              scaled to size 10.40245pt on input line 41.
 Requested font "zeurm10" at 10.40245pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
 Package microtype Info: ... No configuration file mt-zeur.cfg.
@@ -3073,27 +3074,27 @@ Package microtype Info: ... Loading configuration file mt-eur.cfg.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-Package microtype Info: Setting up font `U/zeur/m/n/10.95' on input line 40.
+Package microtype Info: Setting up font `U/zeur/m/n/10.95' on input line 41.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 40.
+(Font)              scaled to size 7.59998pt on input line 41.
 Requested font "zeurm7" at 7.59998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/8' on input line 40.
+Package microtype Info: Setting up font `U/zeur/m/n/8' on input line 41.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 40.
+(Font)              scaled to size 5.69998pt on input line 41.
 Requested font "zeurm7" at 5.69998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/6' on input line 40.
+Package microtype Info: Setting up font `U/zeur/m/n/6' on input line 41.
 Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Try loading font information for U+zeus on input line 40.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 41.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 40.
+(Font)              scaled to size 10.40245pt on input line 41.
 Requested font "zeusm10" at 10.40245pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
 Package microtype Info: ... No configuration file mt-zeus.cfg.
@@ -3102,55 +3103,55 @@ Package microtype Info: ... Loading configuration file mt-eus.cfg.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-eus.cfg
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
-Package microtype Info: Setting up font `U/zeus/m/n/10.95' on input line 40.
+Package microtype Info: Setting up font `U/zeus/m/n/10.95' on input line 41.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 40.
+(Font)              scaled to size 7.59998pt on input line 41.
 Requested font "zeusm7" at 7.59998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/8' on input line 40.
+Package microtype Info: Setting up font `U/zeus/m/n/8' on input line 41.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 40.
+(Font)              scaled to size 5.69998pt on input line 41.
 Requested font "zeusm7" at 5.69998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/6' on input line 40.
+Package microtype Info: Setting up font `U/zeus/m/n/6' on input line 41.
 Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 40.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 41.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 40.
+(Font)              scaled to size 10.40245pt on input line 41.
 Requested font "zeuex10" at 10.40245pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
 Package microtype Info: ... No configuration file mt-zeuex.cfg.
-Package microtype Info: Setting up font `U/zeuex/m/n/10.95' on input line 40.
+Package microtype Info: Setting up font `U/zeuex/m/n/10.95' on input line 41.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 40.
+(Font)              scaled to size 7.59998pt on input line 41.
 Requested font "zeuex10" at 7.59998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/8' on input line 40.
+Package microtype Info: Setting up font `U/zeuex/m/n/8' on input line 41.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 40.
+(Font)              scaled to size 5.69998pt on input line 41.
 Requested font "zeuex10" at 5.69998pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/6' on input line 40.
+Package microtype Info: Setting up font `U/zeuex/m/n/6' on input line 41.
 Package microtype Info: ... No protrusion.
 LaTeX Font Info:    Try loading font information for T1+LinBiolinum(0) on input
- line 40.
-LaTeX Font Info:    No file T1LinBiolinum(0).fd. on input line 40.
+ line 41.
+LaTeX Font Info:    No file T1LinBiolinum(0).fd. on input line 41.
 
 
 LaTeX Font Warning: Font shape `T1/LinBiolinum(0)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 40.
+(Font)              using `T1/cmr/m/n' instead on input line 41.
 
 Package microtype Info: ... No configuration file mt-LinBiolinum.cfg.
 Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/8' on input line
- 40.
+ 41.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinBiolinum' (encoding: T1).
@@ -3158,23 +3159,23 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/6' on input line
- 40.
+ 41.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 \c__siunitx_mathtt_int=\count477
 LaTeX Font Info:    Try loading font information for T1+LinLibertine(5) on inpu
-t line 40.
-LaTeX Font Info:    No file T1LinLibertine(5).fd. on input line 40.
+t line 41.
+LaTeX Font Info:    No file T1LinLibertine(5).fd. on input line 41.
 
 LaTeX Font Warning: Font shape `T1/LinLibertine(5)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 40.
+(Font)              using `T1/cmr/m/n' instead on input line 41.
 
 Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/8' on input lin
-e 40.
+e 41.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/6' on input lin
-e 40.
+e 41.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 \openout2 = `preamble/colophon.aux'.
@@ -3394,13 +3395,6 @@ Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/9' on input l
 ine 7.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-
-Overfull \hbox (10.56485pt too wide) in paragraph at lines 26--26
-[]\EU1/LinLibertine(0)/bx/n/9 Lucy Gill\EU1/LinLibertine(0)/m/n/9 , \EU1/LinLib
-ertine(0)/m/it/9 University of California-Berkeley University (USA)\EU1/LinLibe
-rtine(0)/m/n/9 . Environmental Archaeology, Mesoamer-
- []
-
 Missing character: There is no ‎ in font [LinLibertine_R.otf]/OT:script=latn;la
 nguage=DFLT;mapping=tex-text;mapping=tex-text;+tnum;+onum;!
 LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10.95> not a
@@ -3455,7 +3449,7 @@ Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/10.95' on inpu
 t line 26.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-[3
+ [3
 
 
 ]
@@ -4419,8 +4413,8 @@ LaTeX Warning: Tab has been converted to Blank Space.
 
 \blx@maxsegment@7=\count490
 \blx@sectionciteorder@7=\count491
-Package biblatex Info: Reference section=7 on input line 204.
-Package biblatex Info: Setting label 'refsection:7' on input line 204.
+Package biblatex Info: Reference section=7 on input line 209.
+Package biblatex Info: Setting label 'refsection:7' on input line 209.
 [70
 
 
@@ -4428,52 +4422,53 @@ Package biblatex Info: Setting label 'refsection:7' on input line 204.
 
 ]
 Package marginnote Info: Margin note 87.1 is on absolute page 87
-(marginnote)              on input line 204.
+(marginnote)              on input line 209.
 Package marginnote Info: xpos seems to be 116.43158pt,
-(marginnote)             \marginnoterightadjust ignored on input line 204.
+(marginnote)             \marginnoterightadjust ignored on input line 209.
 File: ijsra_logo.png Graphic file (type QTm)
  <use  "ijsra_logo.png" > [71] [72]
 Package marginnote Info: Margin note 89.1 is on absolute page 89
-(marginnote)              on input line 217.
+(marginnote)              on input line 222.
 Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 217.
+(marginnote)             \marginnoterightadjust ignored on input line 222.
 Package marginnote Info: Margin note 89.2 is on absolute page 89
-(marginnote)              on input line 221.
+(marginnote)              on input line 226.
 Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 221.
+(marginnote)             \marginnoterightadjust ignored on input line 226.
  [73] [74]
 Package marginnote Info: Margin note 91.1 is on absolute page 91
-(marginnote)              on input line 241.
+(marginnote)              on input line 246.
 Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 241.
- [75]
-Package marginnote Info: Margin note 92.1 is on absolute page 92
-(marginnote)              on input line 263.
-Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 263.
- [76] [77] [78]
+(marginnote)             \marginnoterightadjust ignored on input line 246.
+ [75] [76]
+Package marginnote Info: Margin note 93.1 is on absolute page 93
+(marginnote)              on input line 268.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 268.
+ [77] [78]
 Package marginnote Info: Margin note 95.1 is on absolute page 95
-(marginnote)              on input line 302.
+(marginnote)              on input line 307.
 Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 302.
+(marginnote)             \marginnoterightadjust ignored on input line 307.
  [79]
 Package marginnote Info: Margin note 96.1 is on absolute page 96
-(marginnote)              on input line 312.
+(marginnote)              on input line 317.
 Package marginnote Info: xpos seems to be 142.26378pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 312.
+(marginnote)             \marginnoteleftadjust ignored on input line 317.
 
-Overfull \hbox (4.9451pt too wide) in paragraph at lines 330--331
+[80]
+Overfull \hbox (4.9451pt too wide) in paragraph at lines 335--336
 []\EU1/LinLibertine(0)/m/n/10.95 to ensure that excavations and other potential
 ly destructive techniques
  []
 
-[80]
-Package marginnote Info: Margin note 97.1 is on absolute page 97
-(marginnote)              on input line 344.
-Package marginnote Info: xpos seems to be 71.13187pt,
-(marginnote)             \marginnoterightadjust ignored on input line 344.
- [81] [82]
-Package biblatex Info: Reference section=0 on input line 349.
+[81]
+Package marginnote Info: Margin note 98.1 is on absolute page 98
+(marginnote)              on input line 349.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 349.
+ [82]
+Package biblatex Info: Reference section=0 on input line 354.
 ) [83]
 \openout2 = `content/Davis.aux'.
 
@@ -5355,8 +5350,8 @@ File: ijsra_logo.png Graphic file (type QTm)
 ] [180] [181]
 Package biblatex Info: Reference section=0 on input line 143.
 ) [182]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
  (./ijsra_2016_02.aux
 (./preamble/colophon.aux)
 Package microtype Info: *** Changing to language context `english'
@@ -5375,7 +5370,7 @@ Package microtype Info: *** Changing to language context `english'
 ) (./content/7IARSS.aux) (./content/Hawkins.aux)
 (./content/18Kerr.aux) (./content/19Kenny.aux)
 (./preamble/_part_bookreviews.aux) (./content/Rivera.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 91.
 
 
  *File List*
@@ -5772,21 +5767,25 @@ content/Rivera.tex
 ijsra_logo.png    Graphic file (type QTm)
  ***********
 
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 90.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 91.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 \openout1 = `ijsra_2016_02.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 68728 strings out of 493589
- 1376446 string characters out of 6143511
- 2152150 words of memory out of 5000000
- 70945 multiletter control sequences out of 15000+600000
+ 67903 strings out of 493589
+ 1366642 string characters out of 6143511
+ 2138802 words of memory out of 5000000
+ 70120 multiletter control sequences out of 15000+600000
  19376 words of font info for 107 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 80i,24n,147p,10428b,5917s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,24n,147p,10428b,5297s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ijsra_2016_02.pdf (198 pages).
