@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  22 DEC 2016 23:57
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  23 DEC 2016 05:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1318,15 +1318,6 @@ LaTeX Info: Redefining \liningnums on input line 459.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eulervm/eulervm.sty
 Package: eulervm 2005/01/11 v4.0 (WaS)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\enitkv@toks@=\toks23
-\labelindent=\skip65
-\enit@outerparindent=\dimen148
-\enit@toks=\toks24
-\enit@inbox=\box46
-\enitdp@description=\count140
-)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -1339,15 +1330,15 @@ Language: frenchb 2016/05/14 v3.2c French support from the babel system
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count141
-\U@D=\dimen149
+\babel@savecnt=\count140
+\U@D=\dimen148
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/xebabel.def))
 \l@acadian = a dialect from \language\l@french 
 \l@canadien = a dialect from \language\l@french 
-\FB@nonchar=\count142
-\FBcolonskip=\skip66
-\FBthinskip=\skip67
+\FB@nonchar=\count141
+\FBcolonskip=\skip65
+\FBthinskip=\skip66
 Package frenchb.ldf Info: No need for active punctuation characters
 (frenchb.ldf)             with this version of XeTeX!
 (frenchb.ldf)             reported on input line 277.
@@ -1357,18 +1348,18 @@ Package frenchb.ldf Info: No need for active punctuation characters
 \FB@guilo=\XeTeXcharclass4
 \FB@guilf=\XeTeXcharclass5
 \FB@guilnul=\XeTeXcharclass6
-\FBguillskip=\skip68
-\FBguill@level=\count143
-\FB@everypar=\toks25
-\FB@Mht=\dimen150
+\FBguillskip=\skip67
+\FBguill@level=\count142
+\FB@everypar=\toks23
+\FB@Mht=\dimen149
 LaTeX Info: Redefining \degres on input line 729.
-\std@mcc=\count144
-\dec@mcc=\count145
-\listindentFB=\skip69
-\labelwidthFB=\skip70
-\leftmarginFB=\skip71
-\parindentFFN=\dimen151
-\FBfnindent=\skip72
+\std@mcc=\count143
+\dec@mcc=\count144
+\listindentFB=\skip68
+\labelwidthFB=\skip69
+\leftmarginFB=\skip70
+\parindentFFN=\dimen150
+\FBfnindent=\skip71
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel-german/ngerman.ldf
 Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
@@ -1379,17 +1370,17 @@ Package babel Info: Making " an active character on input line 125.
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-\es@quottoks=\toks26
-\es@quotdepth=\count146
+\es@quottoks=\toks24
+\es@quotdepth=\count145
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel-italian/italian.ldf
 Language: italian 2015/03/26 v1.3n Italian support from the babel system
-\it@lettering=\count147
-\it@doublequoteactive=\count148
-\it@ISOcompliance=\count149
+\it@lettering=\count146
+\it@doublequoteactive=\count147
+\it@ISOcompliance=\count148
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
@@ -1400,12 +1391,12 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 (/usr/local/texlive/2016/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks27
-\MT@count=\count150
+\MT@toks=\toks25
+\MT@count=\count149
 LaTeX Info: Redefining \textls on input line 774.
-\MT@outer@kern=\dimen152
+\MT@outer@kern=\dimen151
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count151
+\MT@listname@count=\count150
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-xetex.def
 File: microtype-xetex.def 2016/05/14 v2.6a Definitions specific to xetex (RS)
@@ -1421,11 +1412,11 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen153
-\extrarowheight=\dimen154
-\NC@list=\toks28
-\extratabsurround=\skip73
-\backup@length=\skip74
+\col@sep=\dimen152
+\extrarowheight=\dimen153
+\NC@list=\toks26
+\extratabsurround=\skip72
+\backup@length=\skip73
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -1435,8 +1426,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 147.
 )
-\everycr=\toks29
-\minrowclearance=\skip75
+\everycr=\toks27
+\minrowclearance=\skip74
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/frankenstein/abbrevs.sty
 Package: abbrevs 2001/09/08 v1.4 abbreviation macros (Frankenstein's briefs)
@@ -1444,8 +1435,8 @@ Package: abbrevs 2001/09/08 v1.4 abbreviation macros (Frankenstein's briefs)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/frankenstein/moredefs.sty
 Package: moredefs 2001/08/31 v1.8 more defining commands (Frankenstein's brain)
 
-\sc@toks@a=\toks30
-\sc@toks@b=\toks31
+\sc@toks@a=\toks28
+\sc@toks@b=\toks29
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/frankenstein/slemph.sty
 Package: slemph 1999/02/25 v1.2 slanted emphasis (Frankenstein's gait)
@@ -1457,7 +1448,7 @@ LaTeX Info: Redefining \textslswitch on input line 196.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/frankenstein/slemph.cfg
 File: slemph.cfg 
 ))
-\c@tm@util=\count152
+\c@tm@util=\count151
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/frankenstein/abbrevs.cfg
 File: abbrevs.cfg 
@@ -1494,30 +1485,30 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count153
-\calc@Bcount=\count154
-\calc@Adimen=\dimen155
-\calc@Bdimen=\dimen156
-\calc@Askip=\skip76
-\calc@Bskip=\skip77
+\calc@Acount=\count152
+\calc@Bcount=\count153
+\calc@Adimen=\dimen154
+\calc@Bdimen=\dimen155
+\calc@Askip=\skip75
+\calc@Bskip=\skip76
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count155
-\calc@Cskip=\skip78
+\calc@Ccount=\count154
+\calc@Cskip=\skip77
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks32
-\pgfutil@tempdima=\dimen157
-\pgfutil@tempdimb=\dimen158
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen156
+\pgfutil@tempdimb=\dimen157
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box47
+\pgfutil@abb=\box46
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -1530,30 +1521,30 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks33
-\pgfkeys@temptoks=\toks34
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks35
+\pgfkeys@tmptoks=\toks33
 ))
-\pgf@x=\dimen159
-\pgf@y=\dimen160
-\pgf@xa=\dimen161
-\pgf@ya=\dimen162
-\pgf@xb=\dimen163
-\pgf@yb=\dimen164
-\pgf@xc=\dimen165
-\pgf@yc=\dimen166
+\pgf@x=\dimen158
+\pgf@y=\dimen159
+\pgf@xa=\dimen160
+\pgf@ya=\dimen161
+\pgf@xb=\dimen162
+\pgf@yb=\dimen163
+\pgf@xc=\dimen164
+\pgf@yc=\dimen165
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count156
-\c@pgf@countb=\count157
-\c@pgf@countc=\count158
-\c@pgf@countd=\count159
-\t@pgf@toka=\toks36
-\t@pgf@tokb=\toks37
-\t@pgf@tokc=\toks38
+\c@pgf@counta=\count155
+\c@pgf@countb=\count156
+\c@pgf@countc=\count157
+\c@pgf@countd=\count158
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -1572,13 +1563,13 @@ File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
 df.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )
-\pgfsys@objnum=\count160
+\pgfsys@objnum=\count159
 )))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count161
-\pgfsyssoftpath@bigbuffer@items=\count162
+\pgfsyssoftpath@smallbuffer@items=\count160
+\pgfsyssoftpath@bigbuffer@items=\count161
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -1590,12 +1581,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen167
-\pgfmath@count=\count163
-\pgfmath@box=\box48
-\pgfmath@toks=\toks39
-\pgfmath@stack@operand=\toks40
-\pgfmath@stack@operation=\toks41
+\pgfmath@dimen=\dimen166
+\pgfmath@count=\count162
+\pgfmath@box=\box47
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -1616,57 +1607,57 @@ code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count164
+\c@pgfmathroundto@lastzeros=\count163
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen168
-\pgf@picmaxx=\dimen169
-\pgf@picminy=\dimen170
-\pgf@picmaxy=\dimen171
-\pgf@pathminx=\dimen172
-\pgf@pathmaxx=\dimen173
-\pgf@pathminy=\dimen174
-\pgf@pathmaxy=\dimen175
-\pgf@xx=\dimen176
-\pgf@xy=\dimen177
-\pgf@yx=\dimen178
-\pgf@yy=\dimen179
-\pgf@zx=\dimen180
-\pgf@zy=\dimen181
+\pgf@picminx=\dimen167
+\pgf@picmaxx=\dimen168
+\pgf@picminy=\dimen169
+\pgf@picmaxy=\dimen170
+\pgf@pathminx=\dimen171
+\pgf@pathmaxx=\dimen172
+\pgf@pathminy=\dimen173
+\pgf@pathmaxy=\dimen174
+\pgf@xx=\dimen175
+\pgf@xy=\dimen176
+\pgf@yx=\dimen177
+\pgf@yy=\dimen178
+\pgf@zx=\dimen179
+\pgf@zy=\dimen180
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen182
-\pgf@path@lasty=\dimen183
+\pgf@path@lastx=\dimen181
+\pgf@path@lasty=\dimen182
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen184
-\pgf@shorten@start@additional=\dimen185
+\pgf@shorten@end@additional=\dimen183
+\pgf@shorten@start@additional=\dimen184
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box49
-\pgf@hbox=\box50
-\pgf@layerbox@main=\box51
-\pgf@picture@serial@count=\count165
+\pgfpic=\box48
+\pgf@hbox=\box49
+\pgf@layerbox@main=\box50
+\pgf@picture@serial@count=\count164
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen186
+\pgflinewidth=\dimen185
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen187
-\pgf@pt@y=\dimen188
-\pgf@pt@temp=\dimen189
+\pgf@pt@x=\dimen186
+\pgf@pt@y=\dimen187
+\pgf@pt@temp=\dimen188
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -1683,13 +1674,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen190
+\pgfarrowsep=\dimen189
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen191
-\pgf@sys@shading@range@num=\count166
+\pgf@max=\dimen190
+\pgf@sys@shading@range@num=\count165
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1698,7 +1689,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box52
+\pgfexternal@startupbox=\box51
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -1715,7 +1706,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box53
+\pgfnodeparttextbox=\box52
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -1724,8 +1715,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen192
-\pgf@nodesepend=\dimen193
+\pgf@nodesepstart=\dimen191
+\pgf@nodesepend=\dimen192
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1740,10 +1731,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen194
-\pgffor@skip=\dimen195
-\pgffor@stack=\toks42
-\pgffor@toks=\toks43
+\pgffor@iter=\dimen193
+\pgffor@skip=\dimen194
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1752,67 +1743,67 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count167
-\pgfplotmarksize=\dimen196
+\pgf@plot@mark@count=\count166
+\pgfplotmarksize=\dimen195
 )
-\tikz@lastx=\dimen197
-\tikz@lasty=\dimen198
-\tikz@lastxsaved=\dimen199
-\tikz@lastysaved=\dimen256
-\tikzleveldistance=\dimen257
-\tikzsiblingdistance=\dimen258
-\tikz@figbox=\box54
-\tikz@figbox@bg=\box55
-\tikz@tempbox=\box56
-\tikz@tempbox@bg=\box57
-\tikztreelevel=\count168
-\tikznumberofchildren=\count169
-\tikznumberofcurrentchild=\count170
-\tikz@fig@count=\count171
+\tikz@lastx=\dimen196
+\tikz@lasty=\dimen197
+\tikz@lastxsaved=\dimen198
+\tikz@lastysaved=\dimen199
+\tikzleveldistance=\dimen256
+\tikzsiblingdistance=\dimen257
+\tikz@figbox=\box53
+\tikz@figbox@bg=\box54
+\tikz@tempbox=\box55
+\tikz@tempbox@bg=\box56
+\tikztreelevel=\count167
+\tikznumberofchildren=\count168
+\tikznumberofcurrentchild=\count169
+\tikz@fig@count=\count170
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count172
-\pgfmatrixcurrentcolumn=\count173
-\pgf@matrix@numberofcolumns=\count174
+\pgfmatrixcurrentrow=\count171
+\pgfmatrixcurrentcolumn=\count172
+\pgf@matrix@numberofcolumns=\count173
 )
-\tikz@expandcount=\count175
+\tikz@expandcount=\count174
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-\alertmessage@textlength=\skip79
+\alertmessage@textlength=\skip78
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2016/10/21 v1.2a non floating margin notes for LaTeX
-\c@mn@abspage=\count176
+\c@mn@abspage=\count175
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count177
-\c@DefaultDepth=\count178
-\DefaultFindent=\dimen259
-\DefaultNindent=\dimen260
-\DefaultSlope=\dimen261
-\DiscardVskip=\dimen262
-\L@lbox=\box58
-\L@tbox=\box59
-\c@L@lines=\count179
-\c@L@depth=\count180
-\L@Pindent=\dimen263
-\L@Findent=\dimen264
-\L@Nindent=\dimen265
-\L@lraise=\dimen266
-\L@first=\dimen267
-\L@next=\dimen268
-\L@slope=\dimen269
-\L@height=\dimen270
-\L@novskip=\dimen271
-\LettrineWidth=\dimen272
-\LettrineHeight=\dimen273
-\LettrineDepth=\dimen274
+\c@DefaultLines=\count176
+\c@DefaultDepth=\count177
+\DefaultFindent=\dimen258
+\DefaultNindent=\dimen259
+\DefaultSlope=\dimen260
+\DiscardVskip=\dimen261
+\L@lbox=\box57
+\L@tbox=\box58
+\c@L@lines=\count178
+\c@L@depth=\count179
+\L@Pindent=\dimen262
+\L@Findent=\dimen263
+\L@Nindent=\dimen264
+\L@lraise=\dimen265
+\L@first=\dimen266
+\L@next=\dimen267
+\L@slope=\dimen268
+\L@height=\dimen269
+\L@novskip=\dimen270
+\LettrineWidth=\dimen271
+\LettrineHeight=\dimen272
+\LettrineDepth=\dimen273
 
 Loading lettrine.cfg
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lettrine/lettrine.cfg))
@@ -1827,11 +1818,11 @@ tine_RI.otf
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2016/08/07 v2.6 Extended list environments
-\pltopsep=\skip80
-\plpartopsep=\skip81
-\plitemsep=\skip82
-\plparsep=\skip83
-\pl@lab=\toks44
+\pltopsep=\skip79
+\plpartopsep=\skip80
+\plitemsep=\skip81
+\plparsep=\skip82
+\pl@lab=\toks42
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/currfile/currfile.sty
 Package: currfile 2015/04/23 v0.7c Provides the file path elements of the curre
@@ -1864,7 +1855,7 @@ Package: filehook-scrlfile 2011/01/03 v0.1 filehook patch for scrlfile package
 Package filehook Info: Package 'scrlfile' detected and compensated for on input
  line 102.
 ))
-\c@currfiledepth=\count181
+\c@currfiledepth=\count180
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/currfile/currfile-abspath.sty
 Package: currfile-abspath 2015/04/23 v0.7c Provides absolute file paths, the pa
 rent working directory and the main file name
@@ -1875,46 +1866,46 @@ Package: siunitx 2016/11/24 v2.7 A comprehensive (SI) units package
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box60
-\l__siunitx_tmp_dim=\dimen275
-\l__siunitx_tmp_int=\count182
-\l__siunitx_number_mantissa_length_int=\count183
-\l__siunitx_number_uncert_length_int=\count184
-\l__siunitx_round_int=\count185
-\l__siunitx_process_decimal_int=\count186
-\l__siunitx_process_uncertainty_int=\count187
-\l__siunitx_process_fixed_int=\count188
-\l__siunitx_process_integer_min_int=\count189
-\l__siunitx_process_precision_int=\count190
-\l__siunitx_group_min_int=\count191
-\l__siunitx_angle_marker_box=\box61
-\l__siunitx_angle_unit_box=\box62
-\l__siunitx_angle_marker_dim=\dimen276
-\l__siunitx_angle_unit_dim=\dimen277
-\l__siunitx_unit_int=\count192
-\l__siunitx_unit_denominator_int=\count193
-\l__siunitx_unit_numerator_int=\count194
-\l__siunitx_unit_prefix_int=\count195
-\l__siunitx_unit_prefix_base_int=\count196
-\l__siunitx_unit_prefix_gram_int=\count197
-\l__siunitx_number_product_int=\count198
-\c__siunitx_one_fill_skip=\skip84
-\l__siunitx_table_unit_align_skip=\skip85
-\l__siunitx_table_exponent_dim=\dimen278
-\l__siunitx_table_integer_dim=\dimen279
-\l__siunitx_table_mantissa_dim=\dimen280
-\l__siunitx_table_marker_dim=\dimen281
-\l__siunitx_table_result_dim=\dimen282
-\l__siunitx_table_uncert_dim=\dimen283
-\l__siunitx_table_fill_pre_dim=\dimen284
-\l__siunitx_table_fill_post_dim=\dimen285
-\l__siunitx_table_fill_mid_dim=\dimen286
-\l__siunitx_table_pre_box=\box63
-\l__siunitx_table_post_box=\box64
-\l__siunitx_table_mantissa_box=\box65
-\l__siunitx_table_result_box=\box66
-\l__siunitx_table_number_align_skip=\skip86
-\l__siunitx_table_text_align_skip=\skip87
+\l__siunitx_tmp_box=\box59
+\l__siunitx_tmp_dim=\dimen274
+\l__siunitx_tmp_int=\count181
+\l__siunitx_number_mantissa_length_int=\count182
+\l__siunitx_number_uncert_length_int=\count183
+\l__siunitx_round_int=\count184
+\l__siunitx_process_decimal_int=\count185
+\l__siunitx_process_uncertainty_int=\count186
+\l__siunitx_process_fixed_int=\count187
+\l__siunitx_process_integer_min_int=\count188
+\l__siunitx_process_precision_int=\count189
+\l__siunitx_group_min_int=\count190
+\l__siunitx_angle_marker_box=\box60
+\l__siunitx_angle_unit_box=\box61
+\l__siunitx_angle_marker_dim=\dimen275
+\l__siunitx_angle_unit_dim=\dimen276
+\l__siunitx_unit_int=\count191
+\l__siunitx_unit_denominator_int=\count192
+\l__siunitx_unit_numerator_int=\count193
+\l__siunitx_unit_prefix_int=\count194
+\l__siunitx_unit_prefix_base_int=\count195
+\l__siunitx_unit_prefix_gram_int=\count196
+\l__siunitx_number_product_int=\count197
+\c__siunitx_one_fill_skip=\skip83
+\l__siunitx_table_unit_align_skip=\skip84
+\l__siunitx_table_exponent_dim=\dimen277
+\l__siunitx_table_integer_dim=\dimen278
+\l__siunitx_table_mantissa_dim=\dimen279
+\l__siunitx_table_marker_dim=\dimen280
+\l__siunitx_table_result_dim=\dimen281
+\l__siunitx_table_uncert_dim=\dimen282
+\l__siunitx_table_fill_pre_dim=\dimen283
+\l__siunitx_table_fill_post_dim=\dimen284
+\l__siunitx_table_fill_mid_dim=\dimen285
+\l__siunitx_table_pre_box=\box62
+\l__siunitx_table_post_box=\box63
+\l__siunitx_table_mantissa_box=\box64
+\l__siunitx_table_result_box=\box65
+\l__siunitx_table_number_align_skip=\skip85
+\l__siunitx_table_text_align_skip=\skip86
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2039,13 +2030,13 @@ Package: translator 2010/06/12 ver 1.10
 uage-mappings.tex)))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/07/14 v5.1h context-sensitive quotations (JAW)
-\csq@reset=\count199
-\csq@gtype=\count266
-\csq@glevel=\count267
-\csq@qlevel=\count268
-\csq@maxlvl=\count269
-\csq@tshold=\count270
-\csq@ltx@everypar=\toks45
+\csq@reset=\count198
+\csq@gtype=\count199
+\csq@glevel=\count266
+\csq@qlevel=\count267
+\csq@maxlvl=\count268
+\csq@tshold=\count269
+\csq@ltx@everypar=\toks43
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2016/07/14 v5.1h csquotes generic definitions (JAW)
@@ -2074,7 +2065,7 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count271
+\lrq@indent=\count270
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -2082,62 +2073,62 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
-\integerpart=\count272
-\decimalpart=\count273
+\integerpart=\count271
+\decimalpart=\count272
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count274
-\c@listtotal=\count275
-\c@listcount=\count276
-\c@liststart=\count277
-\c@liststop=\count278
-\c@citecount=\count279
-\c@citetotal=\count280
-\c@multicitecount=\count281
-\c@multicitetotal=\count282
-\c@instcount=\count283
-\c@maxnames=\count284
-\c@minnames=\count285
-\c@maxitems=\count286
-\c@minitems=\count287
-\c@citecounter=\count288
-\c@savedcitecounter=\count289
-\c@uniquelist=\count290
-\c@uniquename=\count291
-\c@refsection=\count292
-\c@refsegment=\count293
-\c@maxextratitle=\count294
-\c@maxextratitleyear=\count295
-\c@maxextrayear=\count296
-\c@maxextraalpha=\count297
-\c@abbrvpenalty=\count298
-\c@highnamepenalty=\count299
-\c@lownamepenalty=\count300
-\c@maxparens=\count301
-\c@parenlevel=\count302
-\blx@tempcnta=\count303
-\blx@tempcntb=\count304
-\blx@tempcntc=\count305
-\blx@maxsection=\count306
-\blx@maxsegment@0=\count307
-\blx@notetype=\count308
-\blx@parenlevel@text=\count309
-\blx@parenlevel@foot=\count310
-\blx@sectionciteorder@0=\count311
-\labelnumberwidth=\skip88
-\labelalphawidth=\skip89
-\biblabelsep=\skip90
-\bibitemsep=\skip91
-\bibnamesep=\skip92
-\bibinitsep=\skip93
-\bibparsep=\skip94
-\bibhang=\skip95
+\c@tabx@nest=\count273
+\c@listtotal=\count274
+\c@listcount=\count275
+\c@liststart=\count276
+\c@liststop=\count277
+\c@citecount=\count278
+\c@citetotal=\count279
+\c@multicitecount=\count280
+\c@multicitetotal=\count281
+\c@instcount=\count282
+\c@maxnames=\count283
+\c@minnames=\count284
+\c@maxitems=\count285
+\c@minitems=\count286
+\c@citecounter=\count287
+\c@savedcitecounter=\count288
+\c@uniquelist=\count289
+\c@uniquename=\count290
+\c@refsection=\count291
+\c@refsegment=\count292
+\c@maxextratitle=\count293
+\c@maxextratitleyear=\count294
+\c@maxextrayear=\count295
+\c@maxextraalpha=\count296
+\c@abbrvpenalty=\count297
+\c@highnamepenalty=\count298
+\c@lownamepenalty=\count299
+\c@maxparens=\count300
+\c@parenlevel=\count301
+\blx@tempcnta=\count302
+\blx@tempcntb=\count303
+\blx@tempcntc=\count304
+\blx@maxsection=\count305
+\blx@maxsegment@0=\count306
+\blx@notetype=\count307
+\blx@parenlevel@text=\count308
+\blx@parenlevel@foot=\count309
+\blx@sectionciteorder@0=\count310
+\labelnumberwidth=\skip87
+\labelalphawidth=\skip88
+\biblabelsep=\skip89
+\bibitemsep=\skip90
+\bibnamesep=\skip91
+\bibinitsep=\skip92
+\bibparsep=\skip93
+\bibhang=\skip94
 \blx@bcfin=\read3
 \blx@bcfout=\write5
-\c@mincomprange=\count312
-\c@maxcomprange=\count313
-\c@mincompwidth=\count314
+\c@mincomprange=\count311
+\c@maxcomprange=\count312
+\c@mincompwidth=\count313
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -2146,78 +2137,78 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ijsra.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count315
-\c@savedafterword=\count316
-\c@annotator=\count317
-\c@savedannotator=\count318
-\c@author=\count319
-\c@savedauthor=\count320
-\c@bookauthor=\count321
-\c@savedbookauthor=\count322
-\c@commentator=\count323
-\c@savedcommentator=\count324
-\c@editor=\count325
-\c@savededitor=\count326
-\c@editora=\count327
-\c@savededitora=\count328
-\c@editorb=\count329
-\c@savededitorb=\count330
-\c@editorc=\count331
-\c@savededitorc=\count332
-\c@foreword=\count333
-\c@savedforeword=\count334
-\c@holder=\count335
-\c@savedholder=\count336
-\c@introduction=\count337
-\c@savedintroduction=\count338
-\c@namea=\count339
-\c@savednamea=\count340
-\c@nameb=\count341
-\c@savednameb=\count342
-\c@namec=\count343
-\c@savednamec=\count344
-\c@translator=\count345
-\c@savedtranslator=\count346
-\c@shortauthor=\count347
-\c@savedshortauthor=\count348
-\c@shorteditor=\count349
-\c@savedshorteditor=\count350
-\c@labelname=\count351
-\c@savedlabelname=\count352
-\c@institution=\count353
-\c@savedinstitution=\count354
-\c@lista=\count355
-\c@savedlista=\count356
-\c@listb=\count357
-\c@savedlistb=\count358
-\c@listc=\count359
-\c@savedlistc=\count360
-\c@listd=\count361
-\c@savedlistd=\count362
-\c@liste=\count363
-\c@savedliste=\count364
-\c@listf=\count365
-\c@savedlistf=\count366
-\c@location=\count367
-\c@savedlocation=\count368
-\c@organization=\count369
-\c@savedorganization=\count370
-\c@origlocation=\count371
-\c@savedoriglocation=\count372
-\c@origpublisher=\count373
-\c@savedorigpublisher=\count374
-\c@publisher=\count375
-\c@savedpublisher=\count376
-\c@language=\count377
-\c@savedlanguage=\count378
-\c@pageref=\count379
-\c@savedpageref=\count380
-\shorthandwidth=\skip96
-\shortjournalwidth=\skip97
-\shortserieswidth=\skip98
-\shorttitlewidth=\skip99
-\shortauthorwidth=\skip100
-\shorteditorwidth=\skip101
+\c@afterword=\count314
+\c@savedafterword=\count315
+\c@annotator=\count316
+\c@savedannotator=\count317
+\c@author=\count318
+\c@savedauthor=\count319
+\c@bookauthor=\count320
+\c@savedbookauthor=\count321
+\c@commentator=\count322
+\c@savedcommentator=\count323
+\c@editor=\count324
+\c@savededitor=\count325
+\c@editora=\count326
+\c@savededitora=\count327
+\c@editorb=\count328
+\c@savededitorb=\count329
+\c@editorc=\count330
+\c@savededitorc=\count331
+\c@foreword=\count332
+\c@savedforeword=\count333
+\c@holder=\count334
+\c@savedholder=\count335
+\c@introduction=\count336
+\c@savedintroduction=\count337
+\c@namea=\count338
+\c@savednamea=\count339
+\c@nameb=\count340
+\c@savednameb=\count341
+\c@namec=\count342
+\c@savednamec=\count343
+\c@translator=\count344
+\c@savedtranslator=\count345
+\c@shortauthor=\count346
+\c@savedshortauthor=\count347
+\c@shorteditor=\count348
+\c@savedshorteditor=\count349
+\c@labelname=\count350
+\c@savedlabelname=\count351
+\c@institution=\count352
+\c@savedinstitution=\count353
+\c@lista=\count354
+\c@savedlista=\count355
+\c@listb=\count356
+\c@savedlistb=\count357
+\c@listc=\count358
+\c@savedlistc=\count359
+\c@listd=\count360
+\c@savedlistd=\count361
+\c@liste=\count362
+\c@savedliste=\count363
+\c@listf=\count364
+\c@savedlistf=\count365
+\c@location=\count366
+\c@savedlocation=\count367
+\c@organization=\count368
+\c@savedorganization=\count369
+\c@origlocation=\count370
+\c@savedoriglocation=\count371
+\c@origpublisher=\count372
+\c@savedorigpublisher=\count373
+\c@publisher=\count374
+\c@savedpublisher=\count375
+\c@language=\count376
+\c@savedlanguage=\count377
+\c@pageref=\count378
+\c@savedpageref=\count379
+\shorthandwidth=\skip95
+\shortjournalwidth=\skip96
+\shortserieswidth=\skip97
+\shorttitlewidth=\skip98
+\shortauthorwidth=\skip99
+\shorteditorwidth=\skip100
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -2229,13 +2220,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count381
-\c@textcitetotal=\count382
-\c@textcitemaxnames=\count383
-\c@biburlnumpenalty=\count384
-\c@biburlucpenalty=\count385
-\c@biburllcpenalty=\count386
-\c@smartand=\count387
+\c@textcitecount=\count380
+\c@textcitetotal=\count381
+\c@textcitemaxnames=\count382
+\c@biburlnumpenalty=\count383
+\c@biburlucpenalty=\count384
+\c@biburllcpenalty=\count385
+\c@smartand=\count386
 )
 Package biblatex Info: Trying to load bibliography style 'ijsra'...
 Package biblatex Info: ... file 'ijsra.bbx' found.
@@ -2252,8 +2243,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count388
-\c@bbx:relatedtotal=\count389
+\c@bbx:relatedcount=\count387
+\c@bbx:relatedtotal=\count388
 )))
 Package biblatex Info: Trying to load citation style 'ijsra'...
 Package biblatex Info: ... file 'ijsra.cbx' found.
@@ -2280,39 +2271,39 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen287
-\WF@size=\dimen288
-\c@WF@wrappedlines=\count390
-\WF@box=\box67
-\WF@everypar=\toks46
+\wrapoverhang=\dimen286
+\WF@size=\dimen287
+\c@WF@wrappedlines=\count389
+\WF@box=\box66
+\WF@everypar=\toks44
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen289
-\lightrulewidth=\dimen290
-\cmidrulewidth=\dimen291
-\belowrulesep=\dimen292
-\belowbottomsep=\dimen293
-\aboverulesep=\dimen294
-\abovetopsep=\dimen295
-\cmidrulesep=\dimen296
-\cmidrulekern=\dimen297
-\defaultaddspace=\dimen298
-\@cmidla=\count391
-\@cmidlb=\count392
-\@aboverulesep=\dimen299
-\@belowrulesep=\dimen300
-\@thisruleclass=\count393
-\@lastruleclass=\count394
-\@thisrulewidth=\dimen301
+\heavyrulewidth=\dimen288
+\lightrulewidth=\dimen289
+\cmidrulewidth=\dimen290
+\belowrulesep=\dimen291
+\belowbottomsep=\dimen292
+\aboverulesep=\dimen293
+\abovetopsep=\dimen294
+\cmidrulesep=\dimen295
+\cmidrulekern=\dimen296
+\defaultaddspace=\dimen297
+\@cmidla=\count390
+\@cmidlb=\count391
+\@aboverulesep=\dimen298
+\@belowrulesep=\dimen299
+\@thisruleclass=\count392
+\@lastruleclass=\count393
+\@thisrulewidth=\dimen300
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip102
-\multirow@cntb=\count395
-\multirow@dima=\skip103
-\bigstrutjot=\dimen302
+\multirow@colwidth=\skip101
+\multirow@cntb=\count394
+\multirow@dima=\skip102
+\bigstrutjot=\dimen301
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -2332,56 +2323,57 @@ Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 ))
-\AM@pagewidth=\dimen303
-\AM@pageheight=\dimen304
+\AM@pagewidth=\dimen302
+\AM@pageheight=\dimen303
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/ppxetex.def
 File: ppxetex.def 2016/12/11 v0.5g Pdfpages driver for XeTeX (AM)
 )
-\AM@pagebox=\box68
-\AM@global@opts=\toks47
-\AM@toc@title=\toks48
-\c@AM@survey=\count396
-\AM@templatesizebox=\box69
+\AM@pagebox=\box67
+\AM@global@opts=\toks45
+\AM@toc@title=\toks46
+\c@AM@survey=\count395
+\AM@templatesizebox=\box68
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count397
-\Gm@cntv=\count398
-\c@Gm@tempcnt=\count399
-\Gm@bindingoffset=\dimen305
-\Gm@wd@mp=\dimen306
-\Gm@odd@mp=\dimen307
-\Gm@even@mp=\dimen308
-\Gm@layoutwidth=\dimen309
-\Gm@layoutheight=\dimen310
-\Gm@layouthoffset=\dimen311
-\Gm@layoutvoffset=\dimen312
-\Gm@dimlist=\toks49
+\Gm@cnth=\count396
+\Gm@cntv=\count397
+\c@Gm@tempcnt=\count398
+\Gm@bindingoffset=\dimen304
+\Gm@wd@mp=\dimen305
+\Gm@odd@mp=\dimen306
+\Gm@even@mp=\dimen307
+\Gm@layoutwidth=\dimen308
+\Gm@layoutheight=\dimen309
+\Gm@layouthoffset=\dimen310
+\Gm@layoutvoffset=\dimen311
+\Gm@dimlist=\toks47
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
-\c@tracingmulticols=\count400
-\mult@box=\box70
-\multicol@leftmargin=\dimen313
-\c@unbalance=\count401
-\c@collectmore=\count402
-\doublecol@number=\count403
-\multicoltolerance=\count404
-\multicolpretolerance=\count405
-\full@width=\dimen314
-\page@free=\dimen315
-\premulticols=\dimen316
-\postmulticols=\dimen317
-\multicolsep=\skip104
-\multicolbaselineskip=\skip105
-\partial@page=\box71
-\last@line=\box72
-\maxbalancingoverflow=\dimen318
-\mult@rightbox=\box73
-\mult@grightbox=\box74
-\mult@gfirstbox=\box75
-\mult@firstbox=\box76
+\c@tracingmulticols=\count399
+\mult@box=\box69
+\multicol@leftmargin=\dimen312
+\c@unbalance=\count400
+\c@collectmore=\count401
+\doublecol@number=\count402
+\multicoltolerance=\count403
+\multicolpretolerance=\count404
+\full@width=\dimen313
+\page@free=\dimen314
+\premulticols=\dimen315
+\postmulticols=\dimen316
+\multicolsep=\skip103
+\multicolbaselineskip=\skip104
+\partial@page=\box70
+\last@line=\box71
+\maxbalancingoverflow=\dimen317
+\mult@rightbox=\box72
+\mult@grightbox=\box73
+\mult@gfirstbox=\box74
+\mult@firstbox=\box75
+\@tempa=\box76
 \@tempa=\box77
 \@tempa=\box78
 \@tempa=\box79
@@ -2398,15 +2390,14 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box90
 \@tempa=\box91
 \@tempa=\box92
-\@tempa=\box93
-\c@columnbadness=\count406
-\c@finalcolumnbadness=\count407
-\last@try=\dimen319
-\multicolovershoot=\dimen320
-\multicolundershoot=\dimen321
-\mult@nat@firstbox=\box94
-\colbreak@box=\box95
-\mc@col@check@num=\count408
+\c@columnbadness=\count405
+\c@finalcolumnbadness=\count406
+\last@try=\dimen318
+\multicolovershoot=\dimen319
+\multicolundershoot=\dimen320
+\mult@nat@firstbox=\box93
+\colbreak@box=\box94
+\mc@col@check@num=\count407
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -2414,24 +2405,24 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen322
-\captionmargin@=\dimen323
-\captionwidth=\dimen324
-\caption@tempdima=\dimen325
-\caption@indent=\dimen326
-\caption@parindent=\dimen327
-\caption@hangindent=\dimen328
+\captionmargin=\dimen321
+\captionmargin@=\dimen322
+\captionwidth=\dimen323
+\caption@tempdima=\dimen324
+\caption@indent=\dimen325
+\caption@parindent=\dimen326
+\caption@hangindent=\dimen327
 Package caption Info: The definition of \@makecaption has been changed,
 (caption)             frenchb will NOT customize it.
 )
 Package caption Info: KOMA-Script document class.
-\c@ContinuedFloat=\count409
+\c@ContinuedFloat=\count408
 Package caption Info: wrapfig package is loaded.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count410
-\c@subtable=\count411
+\c@subfigure=\count409
+\c@subtable=\count410
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -2449,24 +2440,24 @@ Package: nth 2002/02/27
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count412
-\lst@gtempboxa=\box96
-\lst@token=\toks50
-\lst@length=\count413
-\lst@currlwidth=\dimen329
-\lst@column=\count414
-\lst@pos=\count415
-\lst@lostspace=\dimen330
-\lst@width=\dimen331
-\lst@newlines=\count416
-\lst@lineno=\count417
-\lst@maxwidth=\dimen332
+\lst@mode=\count411
+\lst@gtempboxa=\box95
+\lst@token=\toks48
+\lst@length=\count412
+\lst@currlwidth=\dimen328
+\lst@column=\count413
+\lst@pos=\count414
+\lst@lostspace=\dimen329
+\lst@width=\dimen330
+\lst@newlines=\count415
+\lst@lineno=\count416
+\lst@maxwidth=\dimen331
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count418
-\lst@skipnumbers=\count419
-\lst@framebox=\box97
+\c@lstnumber=\count417
+\lst@skipnumbers=\count418
+\lst@framebox=\box96
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -2508,9 +2499,9 @@ Package scrkbase Info: You've told me to extend the font selection of the
 (scrkbase)             `disposition' on input line 214.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks51
-\footnotemargin=\dimen333
-\c@pp@next@reset=\count420
+\FN@temptoken=\toks49
+\footnotemargin=\dimen332
+\c@pp@next@reset=\count419
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -2523,19 +2514,19 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 (/usr/local/texlive/2016/texmf-dist/tex/latex/marginfix/marginfix.sty
 Package: marginfix 2013/09/08 v1.1 Fix Margin Paragraphs
 \Mfx@inject@insert=\insert252
-\Mfx@marginbox=\box98
-\Mfx@marginpos@min=\dimen334
-\Mfx@marginpos@max=\dimen335
-\Mfx@marginspace=\dimen336
-\Mfx@marginheight=\dimen337
-\Mfx@piece@content=\box99
-\Mfx@piece@count=\count421
-\Mfx@mparshift=\dimen338
-\marginheightadjustment=\dimen339
-\marginposadjustment=\dimen340
-\Mfx@strutheight=\dimen341
+\Mfx@marginbox=\box97
+\Mfx@marginpos@min=\dimen333
+\Mfx@marginpos@max=\dimen334
+\Mfx@marginspace=\dimen335
+\Mfx@marginheight=\dimen336
+\Mfx@piece@content=\box98
+\Mfx@piece@count=\count420
+\Mfx@mparshift=\dimen337
+\marginheightadjustment=\dimen338
+\marginposadjustment=\dimen339
+\Mfx@strutheight=\dimen340
 )
-\mybox=\box100
+\mybox=\box99
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -2609,14 +2600,14 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen342
-\Hy@linkcounter=\count422
-\Hy@pagecounter=\count423
+\@linkdim=\dimen341
+\Hy@linkcounter=\count421
+\Hy@pagecounter=\count422
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count424
+\Hy@SavedSpaceFactor=\count423
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -2628,14 +2619,14 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count425
+\c@Hy@tempcnt=\count424
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen343
+\XeTeXLinkMargin=\dimen342
 Requested font "pzdr" at 0.00002pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
-\Fld@menulength=\count426
-\Field@Width=\dimen344
-\Fld@charsize=\dimen345
+\Fld@menulength=\count425
+\Field@Width=\dimen343
+\Fld@charsize=\dimen344
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -2645,9 +2636,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count427
-\c@Item=\count428
-\c@Hfootnote=\count429
+\Hy@abspage=\count426
+\c@Item=\count427
+\c@Hfootnote=\count428
 )
 
 Package hyperref Message: Driver (autodetected): hxetex.
@@ -2662,11 +2653,11 @@ File: puenc.def 2016/06/24 v6.83q Hyperref: PDF Unicode definition (HO)
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box101
-\c@Hy@AnnotLevel=\count430
-\HyField@AnnotCount=\count431
-\Fld@listcount=\count432
-\c@bookmark@seq@number=\count433
+\pdfm@box=\box100
+\c@Hy@AnnotLevel=\count429
+\HyField@AnnotCount=\count430
+\Fld@listcount=\count431
+\c@bookmark@seq@number=\count432
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -2677,7 +2668,7 @@ Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
 tly
 (rerunfilecheck)             and the loading of the package is aborted.
 )
-\Hy@SectionHShift=\skip106
+\Hy@SectionHShift=\skip105
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 600.
 Package hyperref Info: Option `breaklinks' set `true' on input line 600.
@@ -2691,7 +2682,7 @@ Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2016/05/17 v1.26 bookmark driver for dvipdfm (HO)
-\BKM@id=\count434
+\BKM@id=\count433
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
@@ -2716,7 +2707,7 @@ Package: xfor 2009/02/05 v1.05 (NLCT)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count435
+\c@su@anzahl=\count434
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2016/07/28 v2.27 (NLCT)
@@ -2730,19 +2721,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count436
+\actioncount=\count435
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count437
-\FP@xia=\count438
-\FP@xib=\count439
-\FP@xfa=\count440
-\FP@xfb=\count441
-\FP@rega=\count442
-\FP@regb=\count443
-\FP@regs=\count444
-\FP@times=\count445
+\FP@xs=\count436
+\FP@xia=\count437
+\FP@xib=\count438
+\FP@xfa=\count439
+\FP@xfb=\count440
+\FP@rega=\count441
+\FP@regb=\count442
+\FP@regs=\count443
+\FP@times=\count444
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -2761,7 +2752,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count446
+\FPseed=\count445
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -2772,68 +2763,68 @@ Package: fp-upn 1996/10/21
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks52
-\@dtl@tmpcount=\count447
-\dtl@tmplength=\skip107
-\dtl@sortresult=\count448
-\@dtl@numgrpsepcount=\count449
-\@dtl@datatype=\count450
-\dtl@codeA=\count451
-\dtl@codeB=\count452
-\@dtl@foreach@level=\count453
+\@dtl@toks=\toks50
+\@dtl@tmpcount=\count446
+\dtl@tmplength=\skip106
+\dtl@sortresult=\count447
+\@dtl@numgrpsepcount=\count448
+\@dtl@datatype=\count449
+\dtl@codeA=\count450
+\dtl@codeB=\count451
+\@dtl@foreach@level=\count452
 )
-\dtlcolumnnum=\count454
-\dtlrownum=\count455
-\@dtl@before=\toks53
-\@dtl@after=\toks54
-\@dtl@colhead=\toks55
-\dtlcurrentrow=\toks56
-\dtlbeforerow=\toks57
-\dtlafterrow=\toks58
-\dtlforeachlevel=\count456
-\c@DTLrowi=\count457
-\c@DTLrowii=\count458
-\c@DTLrowiii=\count459
-\c@DTLrow=\count460
-\dtl@rowi=\count461
-\dtl@rowii=\count462
-\dtl@rowiii=\count463
-\@dtl@curi=\toks59
-\@dtl@previ=\toks60
-\@dtl@nexti=\toks61
-\@dtl@curii=\toks62
-\@dtl@previi=\toks63
-\@dtl@nextii=\toks64
-\@dtl@curiii=\toks65
-\@dtl@previii=\toks66
-\@dtl@nextiii=\toks67
-\@dtl@elements=\count464
-\@dtl@list=\toks68
-\@dtl@rowa=\toks69
-\@dtl@rowb=\toks70
-\@dtl@toksA=\toks71
-\@dtl@toksB=\toks72
+\dtlcolumnnum=\count453
+\dtlrownum=\count454
+\@dtl@before=\toks51
+\@dtl@after=\toks52
+\@dtl@colhead=\toks53
+\dtlcurrentrow=\toks54
+\dtlbeforerow=\toks55
+\dtlafterrow=\toks56
+\dtlforeachlevel=\count455
+\c@DTLrowi=\count456
+\c@DTLrowii=\count457
+\c@DTLrowiii=\count458
+\c@DTLrow=\count459
+\dtl@rowi=\count460
+\dtl@rowii=\count461
+\dtl@rowiii=\count462
+\@dtl@curi=\toks57
+\@dtl@previ=\toks58
+\@dtl@nexti=\toks59
+\@dtl@curii=\toks60
+\@dtl@previi=\toks61
+\@dtl@nextii=\toks62
+\@dtl@curiii=\toks63
+\@dtl@previii=\toks64
+\@dtl@nextiii=\toks65
+\@dtl@elements=\count463
+\@dtl@list=\toks66
+\@dtl@rowa=\toks67
+\@dtl@rowb=\toks68
+\@dtl@toksA=\toks69
+\@dtl@toksB=\toks70
 \@dtl@write=\write6
 \@dtl@read=\read4
-\dtl@entrycr=\count465
-\dtl@omitlines=\count466
+\dtl@entrycr=\count464
+\dtl@omitlines=\count465
 )
-\dtldb@advisory=\toks73
-\dtlkeys@advisory=\toks74
-\dtlrows@advisory=\count467
-\dtlcols@advisory=\count468
-\dtldb@editorialboard=\toks75
-\dtlkeys@editorialboard=\toks76
-\dtlrows@editorialboard=\count469
-\dtlcols@editorialboard=\count470
-\dtldb@editing=\toks77
-\dtlkeys@editing=\toks78
-\dtlrows@editing=\count471
-\dtlcols@editing=\count472
-\dtldb@reviewers=\toks79
-\dtlkeys@reviewers=\toks80
-\dtlrows@reviewers=\count473
-\dtlcols@reviewers=\count474
+\dtldb@advisory=\toks71
+\dtlkeys@advisory=\toks72
+\dtlrows@advisory=\count466
+\dtlcols@advisory=\count467
+\dtldb@editorialboard=\toks73
+\dtlkeys@editorialboard=\toks74
+\dtlrows@editorialboard=\count468
+\dtlcols@editorialboard=\count469
+\dtldb@editing=\toks75
+\dtlkeys@editing=\toks76
+\dtlrows@editing=\count470
+\dtlcols@editing=\count471
+\dtldb@reviewers=\toks77
+\dtlkeys@reviewers=\toks78
+\dtlrows@reviewers=\count472
+\dtlcols@reviewers=\count473
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -2869,32 +2860,19 @@ Package biblatex Info: ... file 'french.lbx' found.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/french.lbx
 File: french.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-(./ijsra_2016_02.aux
-No file preamble/colophon.aux.
-(./preamble/editorial.aux)
-No file preamble/_toc.aux.
-No file preamble/issue-presentation.aux.
-No file preamble/_part_interviews.aux.
-No file content/16Stringer.aux.
-No file preamble/_part_articles.aux.
-No file content/fyfe.aux.
-No file content/forssman.aux.
-No file content/17Pereda.aux.
-No file content/11Raza.aux.
-(./content/Rownd.aux)
-No file content/Davis.aux.
-No file preamble/_part_litreviews.aux.
-No file content/Gyngell.aux.
-No file preamble/_part_reviews.aux.
-No file content/Ward.aux.
-No file content/Resena.aux.
-No file content/7IARSS.aux.
-No file content/Hawkins.aux.
-No file content/18Kerr.aux.
-No file content/19Kenny.aux.
-No file preamble/_part_bookreviews.aux.
-No file content/Rivera.aux.
+(./ijsra_2016_02.aux (./preamble/colophon.aux) (./preamble/editorial.aux)
+(./preamble/_toc.aux) (./preamble/issue-presentation.aux)
+(./preamble/_part_interviews.aux) (./content/16Stringer.aux)
+(./preamble/_part_articles.aux) (./content/fyfe.aux) (./content/forssman.aux)
+(./content/17Pereda.aux) (./content/11Raza.aux) (./content/Rownd.aux)
+(./content/Davis.aux) (./preamble/_part_litreviews.aux) (./content/Gyngell.aux)
+(./preamble/_part_reviews.aux) (./content/Ward.aux) (./content/Resena.aux
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
 )
+(./content/7IARSS.aux) (./content/Hawkins.aux) (./content/18Kerr.aux)
+(./content/19Kenny.aux) (./preamble/_part_bookreviews.aux)
+(./content/Rivera.aux))
 \openout1 = `ijsra_2016_02.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -2911,7 +2889,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 40.
@@ -2969,114 +2948,12 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ijsra_2016_02.bbl' found.
- (./ijsra_2016_02.bbl
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Divers_2014a':
-(biblatex)                - Entry 'Divers_2014a' (Rownd.bib): Invalid format '2
-0' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Divers_2014a':
-(biblatex)                - Entry 'Divers_2014a' (Rownd.bib): Invalid format '2
-0' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Divers_2014b':
-(biblatex)                - Entry 'Divers_2014b' (Rownd.bib): Invalid format '2
-0' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Divers_2014b':
-(biblatex)                - Entry 'Divers_2014b' (Rownd.bib): Invalid format '2
-0' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Cairo_2015':
-(biblatex)                - Entry 'Cairo_2015' (Rownd.bib): Invalid format '25'
- of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Cairo_2015':
-(biblatex)                - Entry 'Cairo_2015' (Rownd.bib): Invalid format '25'
- of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'President_260':
-(biblatex)                - Entry 'President_260' (Rownd.bib): Invalid format '
-05' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'President_260':
-(biblatex)                - Entry 'President_260' (Rownd.bib): Invalid format '
-05' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'President_1505':
-(biblatex)                - Entry 'President_1505' (Rownd.bib): Invalid format 
-'05' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'President_1505':
-(biblatex)                - Entry 'President_1505' (Rownd.bib): Invalid format 
-'05' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'CIA_2001':
-(biblatex)                - Entry 'CIA_2001' (Rownd.bib): Invalid format '24' o
-f date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'CIA_2001':
-(biblatex)                - Entry 'CIA_2001' (Rownd.bib): Invalid format '24' o
-f date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'RA10066':
-(biblatex)                - Entry 'RA10066' (Rownd.bib): Invalid format '27' of
- date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'RA10066':
-(biblatex)                - Entry 'RA10066' (Rownd.bib): Invalid format '27' of
- date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Potts_2015':
-(biblatex)                - Entry 'Potts_2015' (Rownd.bib): Invalid format '23'
- of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Valetta_1992':
-(biblatex)                - Entry 'Valetta_1992' (Rownd.bib): Invalid format '2
-0' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Valetta_1992':
-(biblatex)                - Entry 'Valetta_1992' (Rownd.bib): Invalid format '2
-0' of date field 'date' - ignoring.
-
-)
+ (./ijsra_2016_02.bbl)
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
-\AtBeginShipoutBox=\box102
- (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+\AtBeginShipoutBox=\box101
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
@@ -3088,7 +2965,7 @@ Package scrhack Info: loading lscape hack on input line 76.
 File: lscape.hak 2016/06/14 v3.21 KOMA-Script package (hacking package lscape)
 Package scrhack Info: \landscape patched to make \textheight change optional on
  input line 90.
-\scrh@LT@textheight=\skip108
+\scrh@LT@textheight=\skip107
 )
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 
@@ -3132,7 +3009,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count475
+\c@lstlisting=\count474
 Package scrhack Info: undefining \float@addtolists on input line 40.
 Package hyperref Info: Link coloring ON on input line 40.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -3141,12 +3018,12 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count476
+\c@section@level=\count475
 )
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
-\c__siunitx_mathsf_int=\count477
+\c__siunitx_mathsf_int=\count476
 LaTeX Font Info:    Try loading font information for T1+LinLibertine(0) on inpu
 t line 40.
 LaTeX Font Info:    No file T1LinLibertine(0).fd. on input line 40.
@@ -3284,7 +3161,7 @@ Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/6' on input line
  40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-\c__siunitx_mathtt_int=\count478
+\c__siunitx_mathtt_int=\count477
 LaTeX Font Info:    Try loading font information for T1+LinLibertine(5) on inpu
 t line 40.
 LaTeX Font Info:    No file T1LinLibertine(5).fd. on input line 40.
@@ -3300,31 +3177,185 @@ Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/6' on input lin
 e 40.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-\openout2 = `preamble/editorial.aux'.
+\openout2 = `preamble/colophon.aux'.
 
-(./preamble/editorial.tex
+(./preamble/colophon.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 845.04684pt, 0.0pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=597.50787pt
+* \textheight=845.04684pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-92.67pt
+* \headheight=0.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=0.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=16.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
+File: figures/forssman-titlepage.jpg Graphic file (type QTm)
+
+<use  "figures/forssman-titlepage.jpg" >
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+
+ []
+
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 40.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/40' on input l
+ine 4.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 15.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/15' on input l
+ine 4.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+[1
+
+
+
+]
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
 ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/9' on input li
-ne 1.
+ne 9.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "ecrm0900" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/9' on input lin
+e 17.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "ecrm0500" at 5.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/5' on input lin
+e 17.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 17.
+Requested font "zeurm10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
+Package microtype Info: Setting up font `U/zeur/m/n/9' on input line 17.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 17.
+Requested font "zeurm5" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm5.tfm
+Package microtype Info: Setting up font `U/zeur/m/n/5' on input line 17.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeus/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 17.
+Requested font "zeusm10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
+Package microtype Info: Setting up font `U/zeus/m/n/9' on input line 17.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeus/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 17.
+Requested font "zeusm5" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm5.tfm
+Package microtype Info: Setting up font `U/zeus/m/n/5' on input line 17.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 17.
+Requested font "zeuex10" at 8.54997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+Package microtype Info: Setting up font `U/zeuex/m/n/9' on input line 17.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 17.
+Requested font "zeuex10" at 4.74998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+Package microtype Info: Setting up font `U/zeuex/m/n/5' on input line 17.
+Package microtype Info: ... No protrusion.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/9' on input line
+ 17.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/5' on input line
+ 17.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/9' on input lin
+e 17.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/5' on input lin
+e 17.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 6.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/6' on input li
+ne 17.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 5.
+(Font)              scaled to size 9.0pt on input line 17.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
 xt;mapping=tex-text;+tnum;+onum;" at 9.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_R.otf
 Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/9' on input lin
-e 5.
+e 17.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinBiolinum' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package microtype Info: ... : First loading protrusion list `default'.
+File: preamble/CC4-0.png Graphic file (type QTm)
+ <use  "preamble/CC4-0.png" >
+File: preamble/OpenAccess3.png Graphic file (type QTm)
+ <use  "preamble/OpenAccess3.png" >
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 43--56
+[] 
+ []
+
+) [2
+
+
+]
+\openout2 = `preamble/editorial.aux'.
+
+ (./preamble/editorial.tex
 LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
 (Font)              scaled to size 9.0pt on input line 5.
 Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
@@ -3364,189 +3395,6 @@ ine 7.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
 
-! Undefined control sequence.
-\enit@enditemize ->\enit@after 
-                               \endlist \ifx \enit@series \relax \else \ifnu...
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@enditemize ...x \else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.24 \myitem{advisory}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.24 \myitem{advisory}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.24 \myitem{advisory}
-                      
-I'm forgetting what you said and using zero instead.
-
-! Undefined control sequence.
-\enit@enditemize ...ist \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.24 \myitem{advisory}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.24 \myitem{advisory}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.24 \myitem{advisory}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.24 \myitem{advisory}
-                      
-I'm forgetting what you said and using zero instead.
-
-
 Overfull \hbox (10.56485pt too wide) in paragraph at lines 26--26
 []\EU1/LinLibertine(0)/bx/n/9 Lucy Gill\EU1/LinLibertine(0)/m/n/9 , \EU1/LinLib
 ertine(0)/m/it/9 University of California-Berkeley University (USA)\EU1/LinLibe
@@ -3577,6 +3425,18 @@ Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10.95' on input
  line 26.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10.95' on input
+ line 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10.95' on input 
+line 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10.95' on input
+ line 26.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
 Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
 text;mapping=tex-text;+tnum;+onum;" at 10.95pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -3595,456 +3455,10 @@ Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/10.95' on inpu
 t line 26.
 Package microtype Info: ... Loading protrusion list `T1-default'.
 Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "ecrm0900" at 9.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/9' on input lin
-e 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Requested font "ecrm0500" at 5.0pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/5' on input lin
-e 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 26.
-Requested font "zeurm10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/9' on input line 26.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 26.
-Requested font "zeurm5" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm5.tfm
-Package microtype Info: Setting up font `U/zeur/m/n/5' on input line 26.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 26.
-Requested font "zeusm10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/9' on input line 26.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 26.
-Requested font "zeusm5" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm5.tfm
-Package microtype Info: Setting up font `U/zeus/m/n/5' on input line 26.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 26.
-Requested font "zeuex10" at 8.54997pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/9' on input line 26.
-Package microtype Info: ... No protrusion.
-LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 26.
-Requested font "zeuex10" at 4.74998pt
- -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
-Package microtype Info: Setting up font `U/zeuex/m/n/5' on input line 26.
-Package microtype Info: ... No protrusion.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/9' on input line
- 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/5' on input line
- 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/9' on input lin
-e 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/5' on input lin
-e 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10.95' on input
- line 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10.95' on input 
-line 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10.95' on input
- line 26.
-Package microtype Info: ... Loading protrusion list `T1-default'.
-Package microtype Info: ... : First loading protrusion list `default'.
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
-)
-[1
-
+[3
 
 
 ]
-! Undefined control sequence.
-\enit@enditemize ->\enit@after 
-                               \endlist \ifx \enit@series \relax \else \ifnu...
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@enditemize ...x \else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.26 \myitem{editorialboard}
-                            
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.26 \myitem{editorialboard}
-                            
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.26 \myitem{editorialboard}
-                            
-I'm forgetting what you said and using zero instead.
-
-! Undefined control sequence.
-\enit@enditemize ...ist \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.26 \myitem{editorialboard}
-                            
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.26 \myitem{editorialboard}
-                            
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.26 \myitem{editorialboard}
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.26 \myitem{editorialboard}
-                            
-I'm forgetting what you said and using zero instead.
-
-! Undefined control sequence.
-\enit@enditemize ->\enit@after 
-                               \endlist \ifx \enit@series \relax \else \ifnu...
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@enditemize ...x \else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.28 \myitem{editing}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.28 \myitem{editing}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.28 \myitem{editing}
-                     
-I'm forgetting what you said and using zero instead.
-
-! Undefined control sequence.
-\enit@enditemize ...ist \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.28 \myitem{editing}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.28 \myitem{editing}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.28 \myitem{editing}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.28 \myitem{editing}
-                     
-I'm forgetting what you said and using zero instead.
-
-
 Underfull \hbox (badness 7273) in paragraph at lines 32--32
 []\EU1/LinLibertine(0)/bx/n/9 Sabrina Autenrieth\EU1/LinLibertine(0)/m/n/9 , \E
 U1/LinLibertine(0)/m/it/9 Leiden University
@@ -4073,7 +3487,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--32
 EU1/LinLibertine(0)/m/it/9 Universidad
  []
 
-[2]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
 []\EU1/LinLibertine(0)/bx/n/9 Tathagata Neogi\EU1/LinLibertine(0)/m/n/9 , \EU1/
 LinLibertine(0)/m/it/9 Exeter University
@@ -4091,220 +3505,1876 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--32
 Archaeology,
  []
 
-! Undefined control sequence.
-\enit@enditemize ->\enit@after 
-                               \endlist \ifx \enit@series \relax \else \ifnu...
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+) [5]
+\openout2 = `preamble/_toc.aux'.
 
-! Undefined control sequence.
-\enit@enditemize ...x \else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ (./preamble/_toc.tex [6
 
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.32 \myitem{reviewers}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
 
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.32 \myitem{reviewers}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+]
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 17.28pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/17.28' on inpu
+t line 1.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Disabling protrusion on input line 1.
+Package tocbasic Info: character protrusion at toc deactivated on input line 1.
 
-! Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ (./ijsra_2016_02.toc
+Package microtype Info: *** Changing to language context `english'
+(microtype)              on input line 3.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 5.
+Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 12.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RB.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/bx/n/12' on input l
+ine 5.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 12.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/12' on input l
+ine 5.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
 
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Overfull \hbox (8.6525pt too wide) in paragraph at lines 13--13
+ \EU1/LinBiolinum(0)/bx/n/10.95 Gods, Games, and Geography: A Cross Cultural St
+udy of Chance Games 
+ []
 
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.32 \myitem{reviewers}
-                       
-I'm forgetting what you said and using zero instead.
+Overfull \hbox (1.53148pt too wide) detected at line 14
+ [][][]\EU1/LinBiolinum(0)/bx/n/12 123[][]
+ []
 
-! Undefined control sequence.
-\enit@enditemize ...ist \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.32 \myitem{reviewers}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+Overfull \hbox (1.53148pt too wide) detected at line 16
+ [][][]\EU1/LinBiolinum(0)/bx/n/12 137[][]
+ []
 
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" >
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 19.
+ [7]
+Overfull \hbox (0.85968pt too wide) in paragraph at lines 19--19
+ \EU1/LinBiolinum(0)/bx/n/10.95 Reseña III Congreso Internacional de Jóvenes In
+vestigadores del Mun- 
+ []
 
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package microtype Info: *** Changing to language context `english'
+(microtype)              on input line 20.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.32 \myitem{reviewers}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+Overfull \hbox (12.97131pt too wide) in paragraph at lines 22--22
+ \EU1/LinBiolinum(0)/bx/n/10.95 Giving the Past a Future: Review of the 8th Wor
+ld Archaeology Congress 
+ []
 
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.32 \myitem{reviewers}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Overfull \hbox (1.53148pt too wide) detected at line 25
+ [][][]\EU1/LinBiolinum(0)/bx/n/12 177[][]
+ []
 
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.32 \myitem{reviewers}
-                       
-I'm forgetting what you said and using zero instead.
+)
+\tf@toc=\write7
+\openout7 = `ijsra_2016_02.toc'.
 
-) [3]
+) [8]
+\openout2 = `preamble/issue-presentation.aux'.
+
+ (./preamble/issue-presentation.tex
+\blx@maxsegment@1=\count478
+\blx@sectionciteorder@1=\count479
+Package biblatex Info: Reference section=1 on input line 22.
+Package biblatex Info: Setting label 'refsection:1' on input line 22.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;+smcp;+smcp;" at 14.4pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/14.4' on inpu
+t line 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "ecrm1440" at 14.4pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/14.4' on input 
+line 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "ecrm1000" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/10' on input li
+ne 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "ecrm0700" at 7.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
+Package microtype Info: Setting up font `T1/LinLibertine(0)/m/n/7' on input lin
+e 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 22.
+Requested font "zeurm10" at 13.67995pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
+Package microtype Info: Setting up font `U/zeur/m/n/14.4' on input line 22.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 22.
+Requested font "zeurm10" at 9.49997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm10.tfm
+Package microtype Info: Setting up font `U/zeur/m/n/10' on input line 22.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeur/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 22.
+Requested font "zeurm7" at 6.64998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeurm7.tfm
+Package microtype Info: Setting up font `U/zeur/m/n/7' on input line 22.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeus/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 22.
+Requested font "zeusm10" at 13.67995pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
+Package microtype Info: Setting up font `U/zeus/m/n/14.4' on input line 22.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeus/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 22.
+Requested font "zeusm10" at 9.49997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm10.tfm
+Package microtype Info: Setting up font `U/zeus/m/n/10' on input line 22.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeus/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 22.
+Requested font "zeusm7" at 6.64998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeusm7.tfm
+Package microtype Info: Setting up font `U/zeus/m/n/7' on input line 22.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 22.
+Requested font "zeuex10" at 13.67995pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+Package microtype Info: Setting up font `U/zeuex/m/n/14.4' on input line 22.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 22.
+Requested font "zeuex10" at 9.49997pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+Package microtype Info: Setting up font `U/zeuex/m/n/10' on input line 22.
+Package microtype Info: ... No protrusion.
+LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 22.
+Requested font "zeuex10" at 6.64998pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/eulervm/zeuex10.tfm
+Package microtype Info: Setting up font `U/zeuex/m/n/7' on input line 22.
+Package microtype Info: ... No protrusion.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/14.4' on input l
+ine 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/10' on input lin
+e 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinBiolinum(0)/m/n/7' on input line
+ 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/14.4' on input 
+line 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/10' on input li
+ne 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Package microtype Info: Setting up font `T1/LinLibertine(5)/m/n/7' on input lin
+e 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;+smcp;+smcp;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/10' on input 
+line 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 8.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/8' on input li
+ne 22.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 31.91946pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/31.91946' on i
+nput line 24.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 48.5143pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/48.5143' on in
+put line 24.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" > [1
+
+
+
+
+]
+Overfull \hbox (0.11966pt too wide) in paragraph at lines 31--32
+\EU1/LinLibertine(0)/m/n/10.95 towards fundamental dimensions of human experien
+ce are plural and changing through
+ []
+
+[2]
+Package marginnote Info: Margin note 11.1 is on absolute page 11
+(marginnote)              on input line 40.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 40.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/10' on input l
+ine 40.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 40.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;mapping=tex-te
+xt;mapping=tex-text;+tnum;+onum;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_R.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/n/10' on input li
+ne 40.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+ [3]
+Package marginnote Info: Margin note 12.1 is on absolute page 12
+(marginnote)              on input line 45.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 45.
+ [4]
+Package marginnote Info: Margin note 13.1 is on absolute page 13
+(marginnote)              on input line 61.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 61.
+ [5]
+
+LaTeX Warning: Empty bibliography on input line 66.
+
+Package biblatex Info: Reference section=0 on input line 66.
+) [6]
+\openout2 = `preamble/_part_interviews.aux'.
+
+ (./preamble/_part_interviews.tex
+part I.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 1.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 24.88pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/24.88' on inpu
+t line 1.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;+smcp;+smcp;" at 24.88pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/24.88' on inp
+ut line 1.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+[7
+
+
+
+
+] [8])
+\openout2 = `content/16Stringer.aux'.
+
+ (./content/16Stringer.tex
+\blx@maxsegment@2=\count480
+\blx@sectionciteorder@2=\count481
+Package biblatex Info: Reference section=2 on input line 23.
+Package biblatex Info: Setting label 'refsection:2' on input line 23.
+File: content/figures/Stringer_Figure1.jpeg Graphic file (type QTm)
+
+<use  "content/figures/Stringer_Figure1.jpeg" >
+Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+onum;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RB.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/bx/n/10' on input 
+line 31.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+onum;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RI.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/10' on input 
+line 31.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" >
+[1
+
+
+
+
+]
+Overfull \hbox (10.39801pt too wide) in paragraph at lines 50--51
+[]\EU1/LinLibertine(0)/m/it/10.95 When and why
+ []
+
+[2]
+Overfull \hbox (5.21053pt too wide) in paragraph at lines 128--129
+[]\EU1/LinLibertine(0)/m/it/10.95 With ancient DNA techniques, researchers have
+ found both hybridization behaviour
+ []
+
+[3]
+
+LaTeX Warning: Empty bibliography on input line 188.
+
+Package biblatex Info: Reference section=0 on input line 188.
+) [4]
+\openout2 = `preamble/_part_articles.aux'.
+
+ (./preamble/_part_articles.tex
+part II.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 1.
+[5
+
+
+
+
+] [6])
+\openout2 = `content/fyfe.aux'.
+
+ (./content/fyfe.tex
+
+LaTeX Warning: Overwriting file `./fyfe.bib'.
+
+\openout15 = `fyfe.bib'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+\blx@maxsegment@3=\count482
+\blx@sectionciteorder@3=\count483
+Package biblatex Info: Reference section=3 on input line 382.
+Package biblatex Info: Setting label 'refsection:3' on input line 382.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 382.
+Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 9.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RI.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/9' on input li
+ne 382.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
+(Font)              scaled to size 10.95pt on input line 382.
+Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 10.95pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RI.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/10.95' on inpu
+t line 382.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" > [7
+
+
+
+
+
+] [8]
+Package marginnote Info: Margin note 25.1 is on absolute page 25
+(marginnote)              on input line 406.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 406.
+ [9] [10]
+Package marginnote Info: Margin note 27.1 is on absolute page 27
+(marginnote)              on input line 465.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 465.
+ [11]
+File: content/figures/Fyfe-Table01.jpg Graphic file (type QTm)
+
+<use  "content/figures/Fyfe-Table01.jpg" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 490.
+See the caption package documentation for explanation.
+
+File: content/figures/Fyfe-Table02.jpg Graphic file (type QTm)
+<use  "content/figures/Fyfe-Table02.jpg" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 501.
+See the caption package documentation for explanation.
+
+[12] [13]
+Package marginnote Info: Margin note 30.1 is on absolute page 30
+(marginnote)              on input line 520.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 520.
+File: content/figures/Fyfe-Figure01.jpg Graphic file (type QTm)
+ <use  "content/figures/Fyfe-Figure01.jpg" > [14]
+Package marginnote Info: Margin note 31.1 is on absolute page 31
+(marginnote)              on input line 553.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 553.
+ [15]
+File: content/figures/Fyfe-Figure02.jpg Graphic file (type QTm)
+
+<use  "content/figures/Fyfe-Figure02.jpg" >
+Package marginnote Info: Margin note 32.1 is on absolute page 32
+(marginnote)              on input line 577.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 577.
+ [16]
+File: content/figures/Fyfe-Figure03.jpg Graphic file (type QTm)
+
+<use  "content/figures/Fyfe-Figure03.jpg" > [17]
+Package marginnote Info: Margin note 34.1 is on absolute page 34
+(marginnote)              on input line 603.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 603.
+ [18]
+Package marginnote Info: Margin note 35.1 is on absolute page 35
+(marginnote)              on input line 637.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 637.
+ [19]
+Package marginnote Info: Margin note 36.1 is on absolute page 36
+(marginnote)              on input line 644.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 644.
+ [20]
+Overfull \hbox (25.80472pt too wide) in paragraph at lines 656--656
+[][]\EU1/LinLibertine(0)/m/n/10.95 Ireland, T. et al. 2013: Historical archaeol
+ogy and Australia‘s cultural heritage sector:emerging
+ []
+
+[21]
+Package biblatex Info: Reference section=0 on input line 656.
+) [22]
+\openout2 = `content/forssman.aux'.
+
+ (./content/forssman.tex
+
+LaTeX Warning: Overwriting file `./forssman.bib'.
+
+\openout15 = `forssman.bib'.
+
+
+\blx@maxsegment@4=\count484
+\blx@sectionciteorder@4=\count485
+Package biblatex Info: Reference section=4 on input line 279.
+Package biblatex Info: Setting label 'refsection:4' on input line 279.
+Package marginnote Info: Margin note 39.1 is on absolute page 39
+(marginnote)              on input line 279.
+Package marginnote Info: xpos seems to be 142.17824pt,
+(marginnote)             \marginnoterightadjust ignored on input line 279.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 279.
+Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 10.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RI.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/10' on input l
+ine 279.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+
+Overfull \hbox (3.21062pt too wide) in paragraph at lines 282--285
+[][] \EU1/LinLibertine(0)/m/n/10.95 Later Stone Age (LSA) sequence of the Great
+er Mapungubwe Landscape, which
+ []
+
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" > [23
+
+
+
+
+]
+File: content/figures/Forssman-Figure01.jpg Graphic file (type QTm)
+ <use  "content/figures/Forssman-Figure01.jpg" >
+Package marginnote Info: Margin note 40.1 is on absolute page 40
+(marginnote)              on input line 293.
+Package marginnote Info: xpos seems to be 205.84677pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 293.
+
+Overfull \hbox (4.83548pt too wide) in paragraph at lines 293--295
+[]\EU1/LinLibertine(0)/m/n/10.95 Mafunyane |[][][] is situated in a sandstone b
+elt that stretches along the Motloutse, Limpopo,
+ []
+
+[24]
+Package marginnote Info: Margin note 41.1 is on absolute page 41
+(marginnote)              on input line 302.
+Package marginnote Info: xpos seems to be 170.98631pt,
+(marginnote)             \marginnoterightadjust ignored on input line 302.
+File: content/figures/Forssman-Figure02.jpg Graphic file (type QTm)
+ <use  "content/figures/Forssman-Figure02.jpg" >
+File: content/figures/Forssman-Figure03.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Figure03.jpg" >
+File: content/figures/Forssman-Table01.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Table01.jpg" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 337.
+See the caption package documentation for explanation.
+
+[25] [26]
+Package marginnote Info: Margin note 43.1 is on absolute page 43
+(marginnote)              on input line 343.
+Package marginnote Info: xpos seems to be 126.68518pt,
+(marginnote)             \marginnoterightadjust ignored on input line 343.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 5.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/n/5' on input li
+ne 343.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+File: content/figures/Forssman-Figure04.jpg Graphic file (type QTm)
+ <use  "content/figures/Forssman-Figure04.jpg" >
+File: content/figures/Forssman-Table02.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Table02.jpg" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 360.
+See the caption package documentation for explanation.
+
+[27] [28]
+Package marginnote Info: Margin note 45.1 is on absolute page 45
+(marginnote)              on input line 367.
+Package marginnote Info: xpos seems to be 139.50482pt,
+(marginnote)             \marginnoterightadjust ignored on input line 367.
+Package marginnote Info: Margin note 45.2 is on absolute page 45
+(marginnote)              on input line 383.
+Package marginnote Info: xpos seems to be 288.43628pt,
+(marginnote)             \marginnoterightadjust ignored on input line 383.
+File: content/figures/Forssman-Figure05.jpg Graphic file (type QTm)
+ <use  "content/figures/Forssman-Figure05.jpg" >
+File: content/figures/Forssman-Figure06.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Figure06.jpg" >
+File: content/figures/Forssman-Table03.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Table03.jpg" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 410.
+See the caption package documentation for explanation.
+
+File: content/figures/Forssman-Table04.jpg Graphic file (type QTm)
+<use  "content/figures/Forssman-Table04.jpg" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 422.
+See the caption package documentation for explanation.
+
+Package marginnote Info: Margin note 45.3 is on absolute page 48
+(marginnote)              on input line 429.
+Package marginnote Info: xpos seems to be 263.95125pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 429.
+[29] [30] [31]
+File: content/figures/Forssman-Figure07.jpg Graphic file (type QTm)
+ <use  "content/figures/Forssman-Figure07.jpg" >
+File: content/figures/Forssman-Figure08.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Figure08.jpg" >
+Package marginnote Info: Margin note 48.1 is on absolute page 48
+(marginnote)              on input line 451.
+Package marginnote Info: xpos seems to be 210.89096pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 451.
+ [32]
+File: content/figures/Forssman-Table05.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Table05.jpg" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 468.
+See the caption package documentation for explanation.
+
+File: content/figures/Forssman-Figure09.jpg Graphic file (type QTm)
+<use  "content/figures/Forssman-Figure09.jpg" >
+File: content/figures/Forssman-Figure10.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Figure10.jpg" >
+Package marginnote Info: Margin note 49.1 is on absolute page 49
+(marginnote)              on input line 499.
+Package marginnote Info: xpos seems to be 170.1824pt,
+(marginnote)             \marginnoterightadjust ignored on input line 499.
+ [33] [34] [35]
+File: content/figures/Forssman-Figure11.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Figure11.jpg" >
+File: content/figures/Forssman-Figure12.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Figure12.jpg" >
+File: content/figures/Forssman-Table06.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Table06.jpg" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 526.
+See the caption package documentation for explanation.
+
+Package marginnote Info: Margin note 52.1 is on absolute page 52
+(marginnote)              on input line 532.
+Package marginnote Info: xpos seems to be 217.56581pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 532.
+
+Overfull \hbox (1.6485pt too wide) in paragraph at lines 532--540
+\EU1/LinLibertine(0)/m/n/10.95 number of identifiable specimens (NISP) and dens
+ity of non-identified remains ([][]/
+ []
+
+[36] [37]
+File: content/figures/Forssman-Table07.jpg Graphic file (type QTm)
+ <use  "content/figures/Forssman-Table07.jpg" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 543.
+See the caption package documentation for explanation.
+
+Package marginnote Info: Margin note 54.1 is on absolute page 54
+(marginnote)              on input line 550.
+Package marginnote Info: xpos seems to be 252.63014pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 550.
+File: content/figures/Forssman-Figure13.jpg Graphic file (type QTm)
+<use  "content/figures/Forssman-Figure13.jpg" > [38]
+File: content/figures/Forssman-Figure14.jpg Graphic file (type QTm)
+
+<use  "content/figures/Forssman-Figure14.jpg" >
+Package marginnote Info: Margin note 55.1 is on absolute page 55
+(marginnote)              on input line 571.
+Package marginnote Info: xpos seems to be 221.65422pt,
+(marginnote)             \marginnoterightadjust ignored on input line 571.
+ [39] [40]
+Package marginnote Info: Margin note 57.1 is on absolute page 57
+(marginnote)              on input line 588.
+Package marginnote Info: xpos seems to be 89.10886pt,
+(marginnote)             \marginnoterightadjust ignored on input line 588.
+
+
+Package biblatex Warning: No driver for entry type 'bachelorthesis'.
+(biblatex)                Using fallback driver on input line 601.
+
+[41]
+Package biblatex Info: Reference section=0 on input line 601.
+) [42]
+\openout2 = `content/17Pereda.aux'.
+
+ (./content/17Pereda.tex
+
+LaTeX Warning: Overwriting file `./17Pereda.bib'.
+
+\openout15 = `17Pereda.bib'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+\blx@maxsegment@5=\count486
+\blx@sectionciteorder@5=\count487
+Package biblatex Info: Reference section=5 on input line 306.
+Package biblatex Info: Setting label 'refsection:5' on input line 306.
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" > [43
+
+
+
+
+]
+Package marginnote Info: Margin note 60.1 is on absolute page 60
+(marginnote)              on input line 317.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 317.
+File: content/figures/Pereda-Figure01.jpg Graphic file (type QTm)
+ <use  "content/figures/Pereda-Figure01.jpg" >
+[44]
+Package marginnote Info: Margin note 61.1 is on absolute page 61
+(marginnote)              on input line 331.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 331.
+Package marginnote Info: Margin note 61.2 is on absolute page 61
+(marginnote)              on input line 335.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 335.
+Package marginnote Info: Margin note 61.3 is on absolute page 61
+(marginnote)              on input line 342.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 342.
+ [45]
+Package marginnote Info: Margin note 62.1 is on absolute page 62
+(marginnote)              on input line 353.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 353.
+File: content/figures/Pereda-Figure02.jpg Graphic file (type QTm)
+ <use  "content/figures/Pereda-Figure02.jpg" >
+Package marginnote Info: Margin note 62.2 is on absolute page 62
+(marginnote)              on input line 361.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 361.
+Package marginnote Info: Margin note 62.3 is on absolute page 63
+(marginnote)              on input line 368.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 368.
+ [46]
+Package marginnote Info: Margin note 63.1 is on absolute page 63
+(marginnote)              on input line 376.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 376.
+File: content/figures/Pereda-Figure03.jpg Graphic file (type QTm)
+
+<use  "content/figures/Pereda-Figure03.jpg" >
+Package marginnote Info: Margin note 63.2 is on absolute page 63
+(marginnote)              on input line 387.
+Package marginnote Info: xpos seems to be 442.92471pt,
+(marginnote)             \marginnoterightadjust ignored on input line 387.
+ [47]
+Package marginnote Info: Margin note 64.1 is on absolute page 64
+(marginnote)              on input line 390.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 390.
+
+Overfull \hbox (0.25594pt too wide) in paragraph at lines 397--400
+\EU1/LinLibertine(0)/m/n/10.95 north-west was the kitchen ([]Thomas, Sloane, an
+d Phillpotts, [][]1997[][]:51; []Thomas, [][]2002[][]:100);
+ []
+
+Package marginnote Info: Margin note 64.2 is on absolute page 64
+(marginnote)              on input line 405.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 405.
+[48]
+File: content/figures/Pereda-Figure04.jpg Graphic file (type QTm)
+ <use  "content/figures/Pereda-Figure04.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package marginnote Info: Margin note 65.1 is on absolute page 66
+(marginnote)              on input line 434.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 434.
+[49] [50]
+Overfull \hbox (3.38362pt too wide) in paragraph at lines 456--456
+[][]\EU1/LinLibertine(0)/m/n/10.95 Brodman, J. 2009: \EU1/LinLibertine(0)/m/it/
+10.95 Charity and religion in Medieval Europe\EU1/LinLibertine(0)/m/n/10.95 . W
+ashington D.C.: The Catholic
+ []
+
+[51]
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/sc/10.95' on inp
+ut line 456.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+ [52]
+Package biblatex Info: Reference section=0 on input line 456.
+) [53]
+\openout2 = `content/11Raza.aux'.
+
+ (./content/11Raza.tex
+
+LaTeX Warning: Overwriting file `./11Raza.bib'.
+
+\openout15 = `11Raza.bib'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+\blx@maxsegment@6=\count488
+\blx@sectionciteorder@6=\count489
+Package biblatex Info: Reference section=6 on input line 621.
+Package biblatex Info: Setting label 'refsection:6' on input line 621.
+[54
+
+
+
+
+]
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" > [55]
+File: content/figures/Raza-Figure01.jpg Graphic file (type QTm)
+ <use  "content/figures/Raza-Figure01.jpg" >
+[56] [57] [58]
+Overfull \hbox (0.70973pt too wide) in paragraph at lines 725--729
+\EU1/LinLibertine(0)/m/n/10.95 ones (\EU1/LinLibertine(0)/m/it/10.95 interpreta
+tio graeca\EU1/LinLibertine(0)/m/n/10.95 ). Significantly, Demetrius’ coins dep
+icted the goddess Artemis
+ []
+
+File: content/figures/Raza-Figure02.jpg Graphic file (type QTm)
+<use  "content/figures/Raza-Figure02.jpg" > [59]
+File: content/figures/Raza-Figure03.jpg Graphic file (type QTm)
+
+<use  "content/figures/Raza-Figure03.jpg" >
+File: content/figures/Raza-Figure04.jpg Graphic file (type QTm)
+
+<use  "content/figures/Raza-Figure04.jpg" > [60]
+File: content/figures/Raza-Figure05.jpg Graphic file (type QTm)
+
+<use  "content/figures/Raza-Figure05.jpg" > [61]
+Overfull \hbox (17.8222pt too wide) in paragraph at lines 810--813
+\EU1/LinLibertine(0)/m/n/10.95 not unlike Indra’s representation in Indian trad
+ition (see figs. [][]4[][] to [][]6[][]) ([]MacDowall, [][]2007a[][]:242–
+ []
+
+File: content/figures/Raza-Figure06.jpg Graphic file (type QTm)
+<use  "content/figures/Raza-Figure06.jpg" >
+File: content/figures/Raza-Figure07.jpg Graphic file (type QTm)
+
+<use  "content/figures/Raza-Figure07.jpg" > [62]
+File: content/figures/Raza-Figure08.jpg Graphic file (type QTm)
+
+<use  "content/figures/Raza-Figure08.jpg" > [63]
+File: content/figures/Raza-Figure09.jpg Graphic file (type QTm)
+
+<use  "content/figures/Raza-Figure09.jpg" > [64]
+Package marginnote Info: Margin note 81.1 is on absolute page 82
+(marginnote)              on input line 924.
+Package marginnote Info: xpos seems to be 149.02643pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 924.
+ [65] [66] [67] [68]
+Package biblatex Info: Reference section=0 on input line 925.
+) [69]
+\openout2 = `content/Rownd.aux'.
+
+
+(./content/Rownd.tex
+
+LaTeX Warning: Overwriting file `./Rownd.bib'.
+
+\openout15 = `Rownd.bib'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+\blx@maxsegment@7=\count490
+\blx@sectionciteorder@7=\count491
+Package biblatex Info: Reference section=7 on input line 204.
+Package biblatex Info: Setting label 'refsection:7' on input line 204.
+[70
+
+
+
+
+]
+Package marginnote Info: Margin note 87.1 is on absolute page 87
+(marginnote)              on input line 204.
+Package marginnote Info: xpos seems to be 116.43158pt,
+(marginnote)             \marginnoterightadjust ignored on input line 204.
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" > [71] [72]
+Package marginnote Info: Margin note 89.1 is on absolute page 89
+(marginnote)              on input line 217.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 217.
+Package marginnote Info: Margin note 89.2 is on absolute page 89
+(marginnote)              on input line 221.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 221.
+ [73] [74]
+Package marginnote Info: Margin note 91.1 is on absolute page 91
+(marginnote)              on input line 241.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 241.
+ [75]
+Package marginnote Info: Margin note 92.1 is on absolute page 92
+(marginnote)              on input line 263.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 263.
+ [76] [77] [78]
+Package marginnote Info: Margin note 95.1 is on absolute page 95
+(marginnote)              on input line 302.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 302.
+ [79]
+Package marginnote Info: Margin note 96.1 is on absolute page 96
+(marginnote)              on input line 312.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 312.
+
+Overfull \hbox (4.9451pt too wide) in paragraph at lines 330--331
+[]\EU1/LinLibertine(0)/m/n/10.95 to ensure that excavations and other potential
+ly destructive techniques
+ []
+
+[80]
+Package marginnote Info: Margin note 97.1 is on absolute page 97
+(marginnote)              on input line 344.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 344.
+ [81] [82]
+Package biblatex Info: Reference section=0 on input line 349.
+) [83]
+\openout2 = `content/Davis.aux'.
+
+ (./content/Davis.tex
+
+LaTeX Warning: Overwriting file `./Davis.bib'.
+
+\openout15 = `Davis.bib'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+\blx@maxsegment@8=\count492
+\blx@sectionciteorder@8=\count493
+Package biblatex Info: Reference section=8 on input line 475.
+Package biblatex Info: Setting label 'refsection:8' on input line 475.
+[84
+
+
+
+
+]
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
+(Font)              scaled to size 6.0pt on input line 475.
+Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;mapping=tex-text;+tnum;+onum;" at 6.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
+num_RI.otf
+Package microtype Info: Setting up font `EU1/LinBiolinum(0)/m/it/6' on input li
+ne 475.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" > [85]
+Package marginnote Info: Margin note 102.1 is on absolute page 102
+(marginnote)              on input line 491.
+Package marginnote Info: xpos seems to be 221.01575pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 491.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cite' on input line 491.
+
+[86]
+Overfull \hbox (9.37248pt too wide) in paragraph at lines 496--497
+[]\EU1/LinLibertine(0)/m/n/10.95 Games of physical skill are potentially relate
+d to environmental conditions ([]Roberts,
+ []
+
+File: content/figures/Davis-Table01.png Graphic file (type QTm)
+<use  "content/figures/Davis-Table01.png" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 507.
+See the caption package documentation for explanation.
+
+Package marginnote Info: Margin note 103.1 is on absolute page 103
+(marginnote)              on input line 511.
+Package marginnote Info: xpos seems to be 145.0124pt,
+(marginnote)             \marginnoterightadjust ignored on input line 511.
+[87]
+Package marginnote Info: Margin note 104.1 is on absolute page 104
+(marginnote)              on input line 517.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 517.
+ [88]
+Package marginnote Info: Margin note 105.1 is on absolute page 105
+(marginnote)              on input line 525.
+Package marginnote Info: xpos seems to be 105.05861pt,
+(marginnote)             \marginnoterightadjust ignored on input line 525.
+
+Overfull \hbox (4.24048pt too wide) in paragraph at lines 523--526
+[]\EU1/LinLibertine(0)/m/n/10.95 Additional comparisons were conducted to addre
+ss further correlations between game
+ []
+
+Package marginnote Info: Margin note 105.2 is on absolute page 105
+(marginnote)              on input line 527.
+Package marginnote Info: xpos seems to be 129.80688pt,
+(marginnote)             \marginnoterightadjust ignored on input line 527.
+[89]
+File: content/figures/Davis-Table02.png Graphic file (type QTm)
+ <use  "content/figures/Davis-Table02.png" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 532.
+See the caption package documentation for explanation.
+
+Package marginnote Info: Margin note 106.1 is on absolute page 106
+(marginnote)              on input line 537.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 537.
+Package marginnote Info: Margin note 106.2 is on absolute page 106
+(marginnote)              on input line 540.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 540.
+[90]
+File: content/figures/Davis_Figure1_082016.png Graphic file (type QTm)
+ <use  "content/figures/Davis_Figure1_082016.png" >
+File: content/figures/Davis_Figure2_082016.png Graphic file (type QTm)
+
+<use  "content/figures/Davis_Figure2_082016.png" >
+File: content/figures/Davis_Figure3_082016.png Graphic file (type QTm)
+
+<use  "content/figures/Davis_Figure3_082016.png" > [91]
+Package marginnote Info: Margin note 108.1 is on absolute page 108
+(marginnote)              on input line 579.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 579.
+File: content/figures/Davis-Table02.png Graphic file (type QTm)
+
+<use  "content/figures/Davis-Table02.png" >
+
+Package caption Warning: The caption type was already set to `figure'
+(caption)                 on input line 584.
+See the caption package documentation for explanation.
+
+File: content/figures/Davis_Figure4_082016.png Graphic file (type QTm)
+<use  "content/figures/Davis_Figure4_082016.png" >
+Package marginnote Info: Margin note 108.2 is on absolute page 109
+(marginnote)              on input line 597.
+Package marginnote Info: xpos seems to be 103.99571pt,
+(marginnote)             \marginnoterightadjust ignored on input line 597.
+ [92] [93] [94]
+File: content/figures/Davis_Figure5_082016.png Graphic file (type QTm)
+
+<use  "content/figures/Davis_Figure5_082016.png" > [95] [96] [97]
+File: content/figures/Davis_Figure6_082016.png Graphic file (type QTm)
+
+<use  "content/figures/Davis_Figure6_082016.png" >
+File: content/figures/Davis_Figure7_082016.png Graphic file (type QTm)
+
+<use  "content/figures/Davis_Figure7_082016.png" >
+Package marginnote Info: Margin note 114.1 is on absolute page 115
+(marginnote)              on input line 666.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 666.
+ [98]
+Overfull \hbox (0.16716pt too wide) in paragraph at lines 669--670
+[]\EU1/LinLibertine(0)/m/n/10.95 For archaeologists, these conclusions reaffirm
+ that games, especially games of chance,
+ []
+
+[99] [100]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+ <use  "content/Davis_Appendix.pdf" >
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf" >
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page1>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page1>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page1>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page1>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page1> [101
+
+]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page2>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page2>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page2> [102]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page3>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page3>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page3> [103]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page4>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page4>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page4> [104]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page5>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page5>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page5> [105]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page6>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page6>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page6> [106]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page7>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page7>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page7> [107]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page8>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page8>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page8> [108]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page9>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page9>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page9> [109]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page10>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page10>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page10> [110]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page11>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page11>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page11> [111]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page12>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page12>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page12> [112]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page13>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page13>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page13> [113]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page14>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page14>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page14> [114]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page15>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page15>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page15> [115]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page16>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page16>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page16> [116]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page17>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page17>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page17> [117]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page18>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page18>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page18> [118]
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page19>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page19>
+File: content/Davis_Appendix.pdf Graphic file (type QTm)
+
+<use  "content/Davis_Appendix.pdf"  page19> [119] [120]
+Overfull \hbox (1.59785pt too wide) in paragraph at lines 682--682
+[][]\EU1/LinLibertine(0)/m/n/10.95 Peregrine, Peter N. 2008: Political Strategy
+ and Cross-Cultural Variation in Games. \EU1/LinLibertine(0)/m/it/10.95 Cross-
+ []
+
+
+Package biblatex Warning: No driver for entry type 'standard'.
+(biblatex)                Using fallback driver on input line 682.
+
+[121]
+Package biblatex Info: Reference section=0 on input line 682.
+) [122]
+\openout2 = `preamble/_part_litreviews.aux'.
+
+ (./preamble/_part_litreviews.tex
+part III.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 1.
+[123
+
+
+
+
+] [124])
+\openout2 = `content/Gyngell.aux'.
+
+ (./content/Gyngell.tex
+
+LaTeX Warning: Overwriting file `./Gyngell.bib'.
+
+\openout15 = `Gyngell.bib'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+\blx@maxsegment@9=\count494
+\blx@sectionciteorder@9=\count495
+Package biblatex Info: Reference section=9 on input line 282.
+Package biblatex Info: Setting label 'refsection:9' on input line 282.
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" > [125
+
+
+
+
+]
+Package marginnote Info: Margin note 142.1 is on absolute page 142
+(marginnote)              on input line 293.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 293.
+Package marginnote Info: Margin note 142.2 is on absolute page 142
+(marginnote)              on input line 302.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 302.
+ [126]
+Package marginnote Info: Margin note 143.1 is on absolute page 143
+(marginnote)              on input line 321.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 321.
+ [127]
+Package marginnote Info: Margin note 144.1 is on absolute page 144
+(marginnote)              on input line 339.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 339.
+ [128]
+Package marginnote Info: Margin note 145.1 is on absolute page 145
+(marginnote)              on input line 348.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 348.
+Package marginnote Info: Margin note 145.2 is on absolute page 145
+(marginnote)              on input line 352.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 352.
+File: content/figures/Gyngell-Fig01.jpg Graphic file (type QTm)
+
+<use  "content/figures/Gyngell-Fig01.jpg" >
+File: content/figures/Gyngell-Fig02.jpg Graphic file (type QTm)
+
+<use  "content/figures/Gyngell-Fig02.jpg" >
+File: content/figures/Gyngell-Fig03.jpg Graphic file (type QTm)
+
+<use  "content/figures/Gyngell-Fig03.jpg" > [129]
+Underfull \hbox (badness 1292) in paragraph at lines 422--425
+[][]\EU1/LinLibertine(0)/m/n/10.95 More recently, []Hardy-Smith and Edwards ([]
+[]2004[][]) con-
+ []
+
+Package marginnote Info: Margin note 146.1 is on absolute page 146
+(marginnote)              on input line 436.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 436.
+[130]
+File: content/figures/Gyngell-Fig04.jpg Graphic file (type QTm)
+ <use  "content/figures/Gyngell-Fig04.jpg" >
+File: content/figures/Gyngell-Fig05.jpg Graphic file (type QTm)
+
+<use  "content/figures/Gyngell-Fig05.jpg" >
+Overfull \hbox (131.65399pt too wide) in paragraph at lines 446--460
+[][]  |  [] 
+ []
+
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
+put line 460.
+[131]
+Package marginnote Info: Margin note 148.1 is on absolute page 148
+(marginnote)              on input line 470.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 470.
+File: content/figures/Gyngell-Fig06.jpg Graphic file (type QTm)
+ <use  "content/figures/Gyngell-Fig06.jpg" >
+File: content/figures/Gyngell-Fig07.jpg Graphic file (type QTm)
+
+<use  "content/figures/Gyngell-Fig07.jpg" >
+Package marginnote Info: Margin note 148.2 is on absolute page 148
+(marginnote)              on input line 501.
+Package marginnote Info: xpos seems to be 142.26378pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 501.
+ [132
+
+]
+Package marginnote Info: Margin note 149.1 is on absolute page 149
+(marginnote)              on input line 511.
+Package marginnote Info: xpos seems to be 71.13187pt,
+(marginnote)             \marginnoterightadjust ignored on input line 511.
+ [133] [134]
+Package biblatex Info: Reference section=0 on input line 514.
+) [135]
+\openout2 = `preamble/_part_reviews.aux'.
+
+
+(./preamble/_part_reviews.tex [136
+
+
+
+
+]
+part IV.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 1.
+[137] [138])
+\openout2 = `content/Ward.aux'.
+
+ (./content/Ward.tex
+
+LaTeX Warning: Overwriting file `./Ward.bib'.
+
+\openout15 = `Ward.bib'.
+
+
+\blx@maxsegment@10=\count496
+\blx@sectionciteorder@10=\count497
+Package biblatex Info: Reference section=10 on input line 82.
+Package biblatex Info: Setting label 'refsection:10' on input line 82.
+Missing character: There is no † in font ecrm0800!
+Missing character: There is no ‡ in font ecrm0800!
+Package marginnote Info: Margin note 155.1 is on absolute page 155
+(marginnote)              on input line 85.
+Package marginnote Info: xpos seems to be 113.073pt,
+(marginnote)             \marginnoterightadjust ignored on input line 85.
+File: content/figures/Ward-Figure1.jpg Graphic file (type QTm)
+<use  "content/figures/Ward-Figure1.jpg" >
+File: content/figures/Ward-Figure2.jpg Graphic file (type QTm)
+
+<use  "content/figures/Ward-Figure2.jpg" >
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" > [139
+
+
+
+
+
+]
+File: content/figures/Ward-Figure3.jpg Graphic file (type QTm)
+
+<use  "content/figures/Ward-Figure3.jpg" >
+File: content/figures/Ward-Figure4.jpg Graphic file (type QTm)
+
+<use  "content/figures/Ward-Figure4.jpg" >
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=DFLT;mapping=tex-
+text;mapping=tex-text;+tnum;+onum;" at 7.0pt
+ -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_RI.otf
+Package microtype Info: Setting up font `EU1/LinLibertine(0)/m/it/7' on input l
+ine 137.
+Package microtype Info: ... Loading protrusion list `T1-default'.
+Package microtype Info: ... : First loading protrusion list `default'.
+File: content/figures/Ward-Figure5.jpg Graphic file (type QTm)
+
+<use  "content/figures/Ward-Figure5.jpg" >
+File: content/figures/Ward-Figure6.jpg Graphic file (type QTm)
+
+<use  "content/figures/Ward-Figure6.jpg" >
+LaTeX Font Info:    Font shape `EU1/LinLibertine(0)/m/sl' in size <10> not avai
+lable
+(Font)              Font shape `EU1/LinLibertine(0)/m/it' tried instead on inpu
+t line 153.
+ [140]
+File: content/figures/Ward-Figure7.jpg Graphic file (type QTm)
+
+<use  "content/figures/Ward-Figure7.jpg" >
+Package marginnote Info: Margin note 157.1 is on absolute page 157
+(marginnote)              on input line 185.
+Package marginnote Info: xpos seems to be 125.19931pt,
+(marginnote)             \marginnoterightadjust ignored on input line 185.
+
+Overfull \hbox (2.36076pt too wide) in paragraph at lines 185--194
+[]\EU1/LinLibertine(0)/m/n/10.95 Graduate |[][][] and undergraduate research is
+ scattered throughout the meetings as posters
+ []
+
+File: content/figures/Ward-Figure8.jpg Graphic file (type QTm)
+<use  "content/figures/Ward-Figure8.jpg" > [141]
+Overfull \hbox (6.58652pt too wide) in paragraph at lines 214--215
+[]\EU1/LinLibertine(0)/m/n/10.95 AAA-AAPA Poster Prize for his poster titled, “
+\EU1/LinLibertine(0)/m/it/10.95 Pat-
+ []
+
+
+Overfull \hbox (0.99197pt too wide) in paragraph at lines 215--216
+[]\EU1/LinLibertine(0)/m/n/10.95 Aleš Hrdlička Prize for his podium
+ []
+
+[142]
+Package marginnote Info: Margin note 159.1 is on absolute page 159
+(marginnote)              on input line 221.
+Package marginnote Info: xpos seems to be 98.59433pt,
+(marginnote)             \marginnoterightadjust ignored on input line 221.
+ [143]
+Overfull \hbox (3.31131pt too wide) in paragraph at lines 232--235
+\EU1/LinLibertine(0)/m/n/10.95 AAPA attendees to ‘listen in’ on multiple sessio
+ns simultaneously. Overall, live-tweeting
+ []
+
+Package marginnote Info: Margin note 160.1 is on absolute page 161
+(marginnote)              on input line 236.
+Package marginnote Info: xpos seems to be 101.29384pt,
+(marginnote)             \marginnoterightadjust ignored on input line 236.
+[144] [145] [146]
+Package marginnote Info: Margin note 163.1 is on absolute page 163
+(marginnote)              on input line 277.
+Package marginnote Info: xpos seems to be 101.4288pt,
+(marginnote)             \marginnoterightadjust ignored on input line 277.
+ [147] [148]
+File: content/figures/Ward-Figure9.jpg Graphic file (type QTm)
+ <use  "content/figures/Ward-Figure9.jpg" >
+Overfull \hbox (5.40117pt too wide) in paragraph at lines 337--341
+\EU1/LinLibertine(0)/m/n/10.95 the AAPA-Wiley Reception, Increasing Diversity i
+n Evolutionary Anthropology (IDEAS),
+ []
+
+Package marginnote Info: Margin note 165.1 is on absolute page 165
+(marginnote)              on input line 342.
+Package marginnote Info: xpos seems to be 109.26546pt,
+(marginnote)             \marginnoterightadjust ignored on input line 342.
+[149]
+Package marginnote Info: Margin note 166.1 is on absolute page 166
+(marginnote)              on input line 358.
+Package marginnote Info: xpos seems to be 170.06023pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 358.
+Package biblatex Info: Reference section=0 on input line 362.
+) [150]
+\openout2 = `content/Resena.aux'.
+
+ (./content/Resena.tex
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+\blx@maxsegment@11=\count498
+\blx@sectionciteorder@11=\count499
+Package biblatex Info: Reference section=11 on input line 21.
+Package biblatex Info: Setting label 'refsection:11' on input line 21.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 21.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 21.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 21.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 21.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 21.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 21.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/sl' in size <9> not availa
+ble
+(Font)              Font shape `EU1/LinBiolinum(0)/m/it' tried instead on input
+ line 21.
+LaTeX Font Info:    Font shape `EU1/LinBiolinum(0)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 21.
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" >
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 24.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 24.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 24.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 24.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 24.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 24.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 24.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 24.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 24.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 24.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 24.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 24.
+ [151
+
+
+
+
+]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 34.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 34.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 34.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 34.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 34.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 34.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 34.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 34.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 34.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 34.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 34.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 34.
+ [152]
+
+LaTeX Warning: Empty bibliography on input line 50.
+
+Package biblatex Info: Reference section=0 on input line 50.
+Package microtype Info: *** Changing to language context `english'
+(microtype)              on input line 51.
+) [153]
+\openout2 = `content/7IARSS.aux'.
+
+ (./content/7IARSS.tex
+\blx@maxsegment@12=\count500
+\blx@sectionciteorder@12=\count501
+Package biblatex Info: Reference section=12 on input line 32.
+Package biblatex Info: Setting label 'refsection:12' on input line 32.
+ [154
+
+
+
+
+]
+File: content/figures/IARSS_Session.jpg Graphic file (type QTm)
+
+<use  "content/figures/IARSS_Session.jpg" >
+File: content/figures/IARSS_Break2.jpg Graphic file (type QTm)
+
+<use  "content/figures/IARSS_Break2.jpg" >
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" > [155]
+File: content/figures/IARSS_Conference3.jpg Graphic file (type QTm)
+
+<use  "content/figures/IARSS_Conference3.jpg" >
+Overfull \hbox (92.5978pt too wide) in paragraph at lines 60--61
+[][] 
+ []
+
+
+Overfull \hbox (49.07019pt too wide) in paragraph at lines 61--61
+[][]|[]|  
+ []
+
+File: content/figures/IARSS_Quiz.jpg Graphic file (type QTm)
+<use  "content/figures/IARSS_Quiz.jpg" >
+Overfull \hbox (92.5978pt too wide) in paragraph at lines 64--65
+[][] 
+ []
+
+[156]
+
+LaTeX Warning: Empty bibliography on input line 89.
+
+Package biblatex Info: Reference section=0 on input line 89.
+) [157]
+\openout2 = `content/Hawkins.aux'.
+
+ (./content/Hawkins.tex
+
+LaTeX Warning: Overwriting file `./Hawkins.bib'.
+
+\openout15 = `Hawkins.bib'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+\blx@maxsegment@13=\count502
+\blx@sectionciteorder@13=\count503
+Package biblatex Info: Reference section=13 on input line 61.
+Package biblatex Info: Setting label 'refsection:13' on input line 61.
+[158
+
+
+
+
+]
+Package marginnote Info: Margin note 175.1 is on absolute page 175
+(marginnote)              on input line 69.
+Package marginnote Info: xpos seems to be 137.94049pt,
+(marginnote)             \marginnoterightadjust ignored on input line 69.
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" > [159]
+File: content/figures/Hawkins-Figure01.jpg Graphic file (type QTm)
+
+<use  "content/figures/Hawkins-Figure01.jpg" >
+File: content/figures/Hawkins-Figure02.jpg Graphic file (type QTm)
+
+<use  "content/figures/Hawkins-Figure02.jpg" >
+File: content/figures/Hawkins-Figure03.jpg Graphic file (type QTm)
+
+<use  "content/figures/Hawkins-Figure03.jpg" >
+Package marginnote Info: Margin note 176.1 is on absolute page 176
+(marginnote)              on input line 96.
+Package marginnote Info: xpos seems to be 245.86977pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 96.
+ [160] [161]
+Package marginnote Info: Margin note 178.1 is on absolute page 178
+(marginnote)              on input line 104.
+Package marginnote Info: xpos seems to be 211.58488pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 104.
+File: content/figures/Hawkins-Figure04.jpg Graphic file (type QTm)
+
+<use  "content/figures/Hawkins-Figure04.jpg" > [162] [163]
+File: content/figures/Hawkins-Figure05.jpg Graphic file (type QTm)
+
+<use  "content/figures/Hawkins-Figure05.jpg" >
+File: content/figures/Hawkins-Figure06.jpg Graphic file (type QTm)
+
+<use  "content/figures/Hawkins-Figure06.jpg" > [164]
+Package marginnote Info: Margin note 181.1 is on absolute page 181
+(marginnote)              on input line 141.
+Package marginnote Info: xpos seems to be 180.44453pt,
+(marginnote)             \marginnoterightadjust ignored on input line 141.
+ [165]
+Package marginnote Info: Margin note 182.1 is on absolute page 182
+(marginnote)              on input line 150.
+Package marginnote Info: xpos seems to be 215.46819pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 150.
+ [166]
+Package biblatex Info: Reference section=0 on input line 156.
+) [167]
+\openout2 = `content/18Kerr.aux'.
+
+
+(./content/18Kerr.tex
+\blx@maxsegment@14=\count504
+\blx@sectionciteorder@14=\count505
+Package biblatex Info: Reference section=14 on input line 19.
+Package biblatex Info: Setting label 'refsection:14' on input line 19.
+ [168
+
+
+
+
+]
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" > [169]
+File: content/figures/Kerr_fig01.jpg Graphic file (type QTm)
+
+<use  "content/figures/Kerr_fig01.jpg" > [170] [171]
+
+LaTeX Warning: Empty bibliography on input line 51.
+
+Package biblatex Info: Reference section=0 on input line 51.
+) [172]
+\openout2 = `content/19Kenny.aux'.
+
+ (./content/19Kenny.tex
+\blx@maxsegment@15=\count506
+\blx@sectionciteorder@15=\count507
+Package biblatex Info: Reference section=15 on input line 24.
+Package biblatex Info: Setting label 'refsection:15' on input line 24.
+File: ijsra_logo.png Graphic file (type QTm)
+ <use  "ijsra_logo.png" > [173
+
+
+
+
+]
+Overfull \hbox (0.71098pt too wide) in paragraph at lines 47--48
+\EU1/LinLibertine(0)/m/n/10.95 and developed over time, reviewed the problems w
+ith current models and finally putting
+ []
+
+[174] [175]
+
+LaTeX Warning: Empty bibliography on input line 58.
+
+Package biblatex Info: Reference section=0 on input line 58.
+) [176]
+\openout2 = `preamble/_part_bookreviews.aux'.
+
+ (./preamble/_part_bookreviews.tex
+part V.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 1.
+[177
+
+
+
+
+] [178])
+\openout2 = `content/Rivera.aux'.
+
+ (./content/Rivera.tex
+
+LaTeX Warning: Overwriting file `./Rivera.bib'.
+
+\openout15 = `Rivera.bib'.
+
+
+\blx@maxsegment@16=\count508
+\blx@sectionciteorder@16=\count509
+Package biblatex Info: Reference section=16 on input line 101.
+Package biblatex Info: Setting label 'refsection:16' on input line 101.
+File: ijsra_logo.png Graphic file (type QTm)
+<use  "ijsra_logo.png" > [179
+
+
+
+
+
+] [180] [181]
+Package biblatex Info: Reference section=0 on input line 143.
+) [182]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
  (./ijsra_2016_02.aux
-No file preamble/colophon.aux.
-(./preamble/editorial.aux)
+(./preamble/colophon.aux)
 Package microtype Info: *** Changing to language context `english'
-(microtype)              on input line 31.
-
-No file preamble/_toc.aux.
-No file preamble/issue-presentation.aux.
-No file preamble/_part_interviews.aux.
-No file content/16Stringer.aux.
-No file preamble/_part_articles.aux.
-No file content/fyfe.aux.
-No file content/forssman.aux.
-No file content/17Pereda.aux.
-No file content/11Raza.aux.
-(./content/Rownd.aux)
-No file content/Davis.aux.
-No file preamble/_part_litreviews.aux.
-No file content/Gyngell.aux.
-No file preamble/_part_reviews.aux.
-No file content/Ward.aux.
-No file content/Resena.aux.
-No file content/7IARSS.aux.
-No file content/Hawkins.aux.
-No file content/18Kerr.aux.
-No file content/19Kenny.aux.
-No file preamble/_part_bookreviews.aux.
-No file content/Rivera.aux.
-)
+(microtype)              on input line 30.
+ (./preamble/editorial.aux) (./preamble/_toc.aux)
+(./preamble/issue-presentation.aux) (./preamble/_part_interviews.aux)
+(./content/16Stringer.aux) (./preamble/_part_articles.aux) (./content/fyfe.aux)
+(./content/forssman.aux) (./content/17Pereda.aux) (./content/11Raza.aux)
+(./content/Rownd.aux) (./content/Davis.aux) (./preamble/_part_litreviews.aux)
+(./content/Gyngell.aux) (./preamble/_part_reviews.aux) (./content/Ward.aux)
+(./content/Resena.aux
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+Package microtype Info: *** Changing to language context `english'
+(microtype)              on input line 15.
+) (./content/7IARSS.aux) (./content/Hawkins.aux)
+(./content/18Kerr.aux) (./content/19Kenny.aux)
+(./preamble/_part_bookreviews.aux) (./content/Rivera.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
 
 
@@ -4364,7 +5434,6 @@ LinBiolinum_K.tex
 LinLibertine_I.tex
     LKey.tex
  eulervm.sty    2005/01/11 v4.0 (WaS)
-enumitem.sty    2011/09/28 v3.5.2 Customized lists
      url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
    babel.sty    2016/04/23 3.9r The Babel package
  frenchb.ldf    2016/05/14 v3.2c French support from the babel system
@@ -4556,8 +5625,151 @@ RS)
    uzeus.fd    2005/01/11 v4.0 (WaS)
   mt-eus.cfg    2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
   uzeuex.fd    2005/01/11 v4.0 (WaS)
-preamble/editorial.tex
+preamble/colophon.tex
 se-ascii-print.def    2016/05/16 v1.11 stringenc: Printable ASCII characters
+figures/forssman-titlepage.jpg
+ijsra_logo.png    Graphic file (type QTm)
+preamble/CC4-0.png
+preamble/OpenAccess3.png
+preamble/editorial.tex
+preamble/_toc.tex
+ijsra_logo.png    Graphic file (type QTm)
+preamble/issue-presentation.tex
+ijsra_logo.png    Graphic file (type QTm)
+preamble/_part_interviews.tex
+content/16Stringer.tex
+content/figures/Stringer_Figure1.jpeg
+ijsra_logo.png    Graphic file (type QTm)
+preamble/_part_articles.tex
+content/fyfe.tex
+ijsra_logo.png    Graphic file (type QTm)
+content/figures/Fyfe-Table01.jpg
+content/figures/Fyfe-Table02.jpg
+content/figures/Fyfe-Figure01.jpg
+content/figures/Fyfe-Figure02.jpg
+content/figures/Fyfe-Figure03.jpg
+content/forssman.tex
+ijsra_logo.png    Graphic file (type QTm)
+content/figures/Forssman-Figure01.jpg
+content/figures/Forssman-Figure02.jpg
+content/figures/Forssman-Figure03.jpg
+content/figures/Forssman-Table01.jpg
+content/figures/Forssman-Figure04.jpg
+content/figures/Forssman-Table02.jpg
+content/figures/Forssman-Figure05.jpg
+content/figures/Forssman-Figure06.jpg
+content/figures/Forssman-Table03.jpg
+content/figures/Forssman-Table04.jpg
+content/figures/Forssman-Figure07.jpg
+content/figures/Forssman-Figure08.jpg
+content/figures/Forssman-Table05.jpg
+content/figures/Forssman-Figure09.jpg
+content/figures/Forssman-Figure10.jpg
+content/figures/Forssman-Figure11.jpg
+content/figures/Forssman-Figure12.jpg
+content/figures/Forssman-Table06.jpg
+content/figures/Forssman-Table07.jpg
+content/figures/Forssman-Figure13.jpg
+content/figures/Forssman-Figure14.jpg
+content/17Pereda.tex
+ijsra_logo.png    Graphic file (type QTm)
+content/figures/Pereda-Figure01.jpg
+content/figures/Pereda-Figure02.jpg
+content/figures/Pereda-Figure03.jpg
+content/figures/Pereda-Figure04.jpg
+content/11Raza.tex
+ijsra_logo.png    Graphic file (type QTm)
+content/figures/Raza-Figure01.jpg
+content/figures/Raza-Figure02.jpg
+content/figures/Raza-Figure03.jpg
+content/figures/Raza-Figure04.jpg
+content/figures/Raza-Figure05.jpg
+content/figures/Raza-Figure06.jpg
+content/figures/Raza-Figure07.jpg
+content/figures/Raza-Figure08.jpg
+content/figures/Raza-Figure09.jpg
+content/Rownd.tex
+ijsra_logo.png    Graphic file (type QTm)
+content/Davis.tex
+ijsra_logo.png    Graphic file (type QTm)
+content/figures/Davis-Table01.png
+content/figures/Davis-Table02.png
+content/figures/Davis_Figure1_082016.png
+content/figures/Davis_Figure2_082016.png
+content/figures/Davis_Figure3_082016.png
+content/figures/Davis-Table02.png
+content/figures/Davis_Figure4_082016.png
+content/figures/Davis_Figure5_082016.png
+content/figures/Davis_Figure6_082016.png
+content/figures/Davis_Figure7_082016.png
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+content/Davis_Appendix.pdf
+preamble/_part_litreviews.tex
+content/Gyngell.tex
+ijsra_logo.png    Graphic file (type QTm)
+content/figures/Gyngell-Fig01.jpg
+content/figures/Gyngell-Fig02.jpg
+content/figures/Gyngell-Fig03.jpg
+content/figures/Gyngell-Fig04.jpg
+content/figures/Gyngell-Fig05.jpg
+content/figures/Gyngell-Fig06.jpg
+content/figures/Gyngell-Fig07.jpg
+preamble/_part_reviews.tex
+content/Ward.tex
+content/figures/Ward-Figure1.jpg
+content/figures/Ward-Figure2.jpg
+ijsra_logo.png    Graphic file (type QTm)
+content/figures/Ward-Figure3.jpg
+content/figures/Ward-Figure4.jpg
+content/figures/Ward-Figure5.jpg
+content/figures/Ward-Figure6.jpg
+content/figures/Ward-Figure7.jpg
+content/figures/Ward-Figure8.jpg
+content/figures/Ward-Figure9.jpg
+content/Resena.tex
+ijsra_logo.png    Graphic file (type QTm)
+content/7IARSS.tex
+content/figures/IARSS_Session.jpg
+content/figures/IARSS_Break2.jpg
+ijsra_logo.png    Graphic file (type QTm)
+content/figures/IARSS_Conference3.jpg
+content/figures/IARSS_Quiz.jpg
+content/Hawkins.tex
+ijsra_logo.png    Graphic file (type QTm)
+content/figures/Hawkins-Figure01.jpg
+content/figures/Hawkins-Figure02.jpg
+content/figures/Hawkins-Figure03.jpg
+content/figures/Hawkins-Figure04.jpg
+content/figures/Hawkins-Figure05.jpg
+content/figures/Hawkins-Figure06.jpg
+content/18Kerr.tex
+ijsra_logo.png    Graphic file (type QTm)
+content/figures/Kerr_fig01.jpg
+content/19Kenny.tex
+ijsra_logo.png    Graphic file (type QTm)
+preamble/_part_bookreviews.tex
+content/Rivera.tex
+ijsra_logo.png    Graphic file (type QTm)
  ***********
 
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 90.
@@ -4569,12 +5781,12 @@ Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66242 strings out of 493589
- 1322842 string characters out of 6143511
- 1868575 words of memory out of 5000000
- 68721 multiletter control sequences out of 15000+600000
- 13325 words of font info for 72 fonts, out of 8000000 for 9000
+ 68728 strings out of 493589
+ 1376446 string characters out of 6143511
+ 2152150 words of memory out of 5000000
+ 70945 multiletter control sequences out of 15000+600000
+ 19376 words of font info for 107 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 80i,22n,147p,10428b,3586s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,24n,147p,10428b,5917s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ijsra_2016_02.pdf (3 pages).
+Output written on ijsra_2016_02.pdf (198 pages).

@@ -69,7 +69,7 @@
 \RequirePackage[T1,small,euler-digits]{eulervm}
 \renewcommand*\ttdefault{lmvtt}
 
-\RequirePackage{enumitem}
+%\RequirePackage{enumitem}
 
 
 \RequirePackage{url}
