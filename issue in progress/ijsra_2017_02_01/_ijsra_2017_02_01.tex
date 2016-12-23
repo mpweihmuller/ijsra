@@ -1,0 +1,67 @@
+\documentclass[
+  month=December,
+  year=2016,
+  volume=1,
+  number=2,
+  titlefigure=forssman-titlepage,
+	nobib,
+	%Fyfe-Figure03_titlefigure,%must be in the folder "figures" (ratio: 1000x400 pt)
+  ]{ijsra}
+
+
+%\addbibresource{ijsra_2016_02.bib}
+\addbibresource{XXX.bib}
+
+\usepackage[delimiter="]{datatool}
+\DTLloaddb{advisory}{csv/advisory.csv}
+\DTLloaddb{editorialboard}{csv/editorialboard.csv}
+\DTLloaddb{editing}{csv/editing.csv}
+\DTLloaddb{reviewers}{csv/reviewers.csv}
+
+%\includeonly{%
+%preamble/colophon,
+%preamble/editorial,
+%preamble/issue-presentation,
+%%%%------------------------------
+%content/
+%}
+%%%%%%%%%%%%%%%%%%%
+%%%      document itself      %%% 
+%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\include{preamble/colophon}
+\include{preamble/editorial}
+\include{preamble/_toc}
+%------------------------------
+%\frontmatter
+\renewcommand{\thepage}{\roman{page}}%
+\setcounter{page}{1}
+\include{preamble/issue-presentation}
+
+
+%------------------------------
+%\mainmatter
+\renewcommand{\thepage}{\arabic{page}}%
+%------------------------------
+\include{preamble/_part_interviews}
+\setcounter{page}{1}
+%\include{content/}
+
+
+%------------------------------
+\include{preamble/_part_articles}
+%\include{content/}
+
+%------------------------------
+\include{preamble/_part_litreviews}
+%\include{content/}
+
+%------------------------------
+\include{preamble/_part_reviews}
+%\include{content/}
+
+%------------------------------
+\include{preamble/_part_bookreviews}
+%\include{content/}
+
+\end{document}
