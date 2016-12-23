@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  23 DEC 2016 11:11
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.30)  23 DEC 2016 11:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3453,17 +3453,6 @@ Package microtype Info: ... : First loading protrusion list `default'.
 
 
 ]
-Underfull \hbox (badness 7273) in paragraph at lines 32--32
-[]\EU1/LinLibertine(0)/bx/n/9 Sabrina Autenrieth\EU1/LinLibertine(0)/m/n/9 , \E
-U1/LinLibertine(0)/m/it/9 Leiden University
- []
-
-
-Underfull \hbox (badness 7221) in paragraph at lines 32--32
-\EU1/LinLibertine(0)/m/n/9 South American Archaeology, Heritage
- []
-
-
 Overfull \hbox (13.04695pt too wide) in paragraph at lines 32--32
 [][]\EU1/LinLibertine(0)/m/n/9 antonia.edwards-freshwater@wolfson.ox.ac.uk[][][
 ] 
@@ -3471,32 +3460,18 @@ Overfull \hbox (13.04695pt too wide) in paragraph at lines 32--32
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]\EU1/LinLibertine(0)/bx/n/9 Mariana Favila\EU1/LinLibertine(0)/m/n/9 , \EU1/L
-inLibertine(0)/m/it/9 Universidad Nacional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]\EU1/LinLibertine(0)/bx/n/9 Nayeli Jiménez Cano\EU1/LinLibertine(0)/m/n/9 , \
-EU1/LinLibertine(0)/m/it/9 Universidad
+\EU1/LinLibertine(0)/m/it/9 Maximilians-Universität München (Ger-
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]\EU1/LinLibertine(0)/bx/n/9 Tathagata Neogi\EU1/LinLibertine(0)/m/n/9 , \EU1/
-LinLibertine(0)/m/it/9 Exeter University
+Underfull \hbox (badness 8132) in paragraph at lines 32--32
+[]\EU1/LinLibertine(0)/bx/n/9 Tanambelo Rasolondrainy\EU1/LinLibertine(0)/m/n/9
+ , \EU1/LinLibertine(0)/m/it/9 Yale University
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 32--32
-[]\EU1/LinLibertine(0)/bx/n/9 Oluseyi Odunyemi\EU1/LinLibertine(0)/m/n/9 , \EU1
-/LinLibertine(0)/m/it/9 University College
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\EU1/LinLibertine(0)/m/it/9 ham (UK)\EU1/LinLibertine(0)/m/n/9 . Mediterranean 
-Archaeology,
+Underfull \hbox (badness 6825) in paragraph at lines 32--32
+\EU1/LinLibertine(0)/m/n/9 Mediterranean Archaeology, Mesoameri-
  []
 
 ) [5]
@@ -5782,7 +5757,7 @@ Package logreq Info: Writing requests to 'ijsra_2016_02.run.xml'.
 Here is how much of TeX's memory you used:
  67903 strings out of 493589
  1366642 string characters out of 6143511
- 2138802 words of memory out of 5000000
+ 2135808 words of memory out of 5000000
  70120 multiletter control sequences out of 15000+600000
  19376 words of font info for 107 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
