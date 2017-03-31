@@ -1,0 +1,33 @@
+\documentclass[%
+	%draft
+	]{ijsra}
+\def\IJSRAidentifier{\currfilebase} %<---- don’t change this!
+%-------Title | Email | Keywords | Abstract-------------
+\def\shorttitle{Jons short title}
+\def\maintitle{Jons very long title about his paper}
+\def\cmail{John@Doe.com}
+\def\keywords{Research, Archaeology, ...}
+%\def\keywordname{}%<--- redefine the name “Keywords“ in needed language
+\def\abstract{In his paper Jon is showing ...}
+%--------Author’s names------------
+\def\authorone{Jon Doe}
+%-------Biographical information-------------
+\def\bioone{Jon Doe is doing his research about ...}
+%------University/Institution--------------
+\def\affilone{Jon Doe’s university or institution}
+
+\begin{filecontents}{\IJSRAidentifier.bib}
+%Bibliography-data HERE
+\end{filecontents}
+\begin{document}
+\IJSRAopening%<---- don’t change this!
+%-------
+\lettrine{M}{ain} text ... 
+
+\IJSRAsection{small headline}
+
+\IJSRAseparator
+
+
+\IJSRAclosing%<---- don’t change this!
+\end{document}
