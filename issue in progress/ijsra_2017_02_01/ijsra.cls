@@ -18,10 +18,13 @@
 
 \ProvidesClass{ijsra}
 \RequirePackage{ifxetex,ifluatex,ifpdf,ifvtex}
-\RequirePackage{xkeyval}
+\RequirePackage{xkeyval,etoolbox}
 
 \def\IJSRAversion{1.0}
 \def\IJSRAversiondate{2017/03/29}
+
+\newbool{issue}
+\boolfalse{issue}
 
 
 
@@ -37,6 +40,7 @@
 \DeclareOptionX{draft}{\PassOptionsToClass{\CurrentOption}{scrbook}}
 \DeclareOptionX{month}{\def\IJSRAmonth{#1}}
 \DeclareOptionX{year}{\def\IJSRAyear{#1}}
+\DeclareOptionX{completeissue}{\booltrue{issue}}
 \DeclareOptionX{volume}{\def\IJSRAvolume{Vol.\addspace #1}}
 \DeclareOptionX{number}{\def\IJSRAnumber{No.\addspace #1}}
 \DeclareOptionX{titlefigure}{\def\IJSRAtitlefigure{\includegraphics[width=\linewidth]{figures/#1}}}
@@ -192,7 +196,11 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \lohead{\normalfont\sffamily\footnotesize International Journal of Student Research in Archaeology (IJSRA) \newline 
 \normalfont\sffamily\footnotesize \IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber \ppages}
 }
-\newpairofpagestyles[scrheadings]{part}{\clearscrheadfoot}
+
+
+
+\newpairofpagestyles[scrheadings]{part}{\clearscrheadfoot
+}
 \renewcommand\partpagestyle{part}
 
 %-----------------------------
@@ -217,7 +225,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \widowpenalty=10000				% prevent single lines at the end of a paragraph (Hurenkinder)
 \displaywidowpenalty=10000		%
 %-----------------------------------------
-\usepackage[%
+\RequirePackage[%
 	marginal,
 	ragged,%
 	hang, %
@@ -271,6 +279,21 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 
 \def\keywords{}
 \def\keywordname{Keywords}
+
+\newcommand\mypagesize{\newgeometry{%
+		bindingoffset=0.5cm,			% 	- binding correction
+		top=3cm,							% 	- total body: top margin
+		left=2cm,							% 	- total body: left margin (odd pages)
+		right=2cm,							% 	- total body: right margin (odd pages)
+    marginparwidth=0cm,			% 	- width for side note
+    marginparsep=0cm,				% 	- space between notes and body text (content)
+		bottom=2cm,						% 	- total body: bottom margin
+	}}
+\newcommand\mypartstyle[1]{
+\mypagesize
+\part{#1}
+\restoregeometry
+\clearpage}
 
 \newcommand{\IJSRAsection}[1]{%
 	\marginnote{#1}\pdfbookmark[1]{#1}{#1}%
@@ -356,11 +379,11 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\vspace{1em}
 	}
 
-% \newcommand{\IJSRAchapter}[1]{%
-% 	\setcounter{chapter}{1}
-% 	\chapter*{#1}
-% 	\addcontentsline{toc}{chapter}{\normalfont\shortauthor\protect\newline\emph{\maintitletoc}}
-% 	}
+\newcommand{\IJSRAchapter}[1]{%
+	\setcounter{chapter}{1}
+	\chapter*{#1}
+	\addcontentsline{toc}{chapter}{\normalfont\shortauthor\protect\newline\emph{\maintitletoc}}
+	}
 	
 \newcommand\email{{\normalfont\href{mailto:\cmail}{\cmail}}}
 
@@ -374,16 +397,18 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 
 
 \providecommand\IJSRAopening{%
+\ifbool{issue}{}{\begin{document}}
 	\begin{refsection}
 	\setcounter{footnote}{0}
 	\setcounter{table}{0}
 	\setcounter{figure}{0}
 	\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
 	\phantomsection
-	\thispagestyle{ijsrachapter}
-	\vspace*{2em}
-  {\LARGE\sffamily\maintitle}\\[-.3em]
-	\addcontentsline{toc}{chapter}{\normalfont\shortauthor\protect\newline\emph{\maintitletoc}}
+%	\thispagestyle{ijsrachapter}
+	\chapter*{\maintitle}
+	% \vspace*{2em}
+%   {\LARGE\sffamily\maintitle}\\[-.3em]
+% 	\addcontentsline{toc}{chapter}{\normalfont\shortauthor\protect\newline\emph{\maintitletoc}}
  \begin{center}
 	{\Large\scshape%
 	\authorone\ifdef{\bioone}{{\footnote[1]{\bioone}}}{}%
@@ -444,7 +469,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \undef\biothree{}
 \undef\biofour{}
 \undef\biofive{}
-	}
+\ifbool{issue}{}{\end{document}}}
 
 \def\Put(#1,#2)#3{\makebox(0,0){\put(#1,#2){#3}}}
 
