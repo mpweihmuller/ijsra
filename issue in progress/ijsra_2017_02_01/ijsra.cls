@@ -50,7 +50,7 @@
 \LoadClass[%
 	parskip=half,
 	twoside=true,				% onesite or twoside printing
-	open=right,					% doublepage cleaning ends up right side
+	open=any,					% doublepage cleaning ends up right side
 	chapterprefix=false,		% prefix for chapter marks (Löscht "Kapitel" bei Kapitel)
 	headings=optiontohead, 	% \chapter[tocentry={}]{}
 	fontsize=11pt,				% font size
@@ -76,6 +76,8 @@
 %\fi
 \RequirePackage{colortbl}
 \RequirePackage{abbrevs}
+\RequirePackage[shortlabels]{enumitem}
+
 \RequirePackage{alertmessage}
 \RequirePackage{marginnote}
 \RequirePackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
@@ -118,6 +120,8 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \RequirePackage{xspace}
 \RequirePackage{xcolor}
 \RequirePackage{hologo}
+\RequirePackage{url}
+\urlstyle{same}
 \definecolor{myblue}{rgb}{0,0,51}
 \definecolor{mygold}{RGB}{204,153,51}
 \definecolor{mybluetitle}{RGB}{28,40,65} % HEX 1c2841
@@ -182,6 +186,14 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \refoot{\normalfont\sffamily\footnotesize International Journal of Student Research in Archaeology}
 \lofoot{\normalfont\sffamily\footnotesize \IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, No. \IJSRAnumber}
 \automark[subsection]{section}  
+
+\newpairofpagestyles[scrheadings]{ijsrachapter}{
+\rohead{\marginnote{\vspace{-5em}\includegraphics[width=3cm]{ijsra_logo}}}
+\lohead{\normalfont\sffamily\footnotesize International Journal of Student Research in Archaeology (IJSRA) \newline 
+\normalfont\sffamily\footnotesize \IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber \ppages}
+}
+\newpairofpagestyles[scrheadings]{part}{\clearscrheadfoot}
+\renewcommand\partpagestyle{part}
 
 %-----------------------------
 \setkomafont{partnumber}{\normalfont\Huge}
@@ -344,11 +356,11 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\vspace{1em}
 	}
 
-\newcommand{\IJSRAchapter}[1]{%
-	\setcounter{chapter}{1}
-	\chapter*{#1}
-	\addcontentsline{toc}{chapter}{\normalfont\shortauthor\protect\newline\emph{\maintitletoc}}
-	}
+% \newcommand{\IJSRAchapter}[1]{%
+% 	\setcounter{chapter}{1}
+% 	\chapter*{#1}
+% 	\addcontentsline{toc}{chapter}{\normalfont\shortauthor\protect\newline\emph{\maintitletoc}}
+% 	}
 	
 \newcommand\email{{\normalfont\href{mailto:\cmail}{\cmail}}}
 
@@ -357,7 +369,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\edef\tempa{\getpagerefnumber{#1}\booltrue{@page}}%
 	\edef\tempb{\getpagerefnumber{#2}}%
 	\ifboolexpr{bool{@page}}{}{\ $\bullet$ 
-		\tempa--\tempb}
+		\tempa–\tempb}
 	}
 
 
@@ -367,9 +379,12 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\setcounter{table}{0}
 	\setcounter{figure}{0}
 	\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
-	\IJSRAchapter{\maintitle}
-	\begin{center}
-	
+	\phantomsection
+	\thispagestyle{ijsrachapter}
+	\vspace*{2em}
+  {\LARGE\sffamily\maintitle}\\[-.3em]
+	\addcontentsline{toc}{chapter}{\normalfont\shortauthor\protect\newline\emph{\maintitletoc}}
+ \begin{center}
 	{\Large\scshape%
 	\authorone\ifdef{\bioone}{{\footnote[1]{\bioone}}}{}%
 	\ifdef{\authortwo}{, \authortwo\ifdef{\biotwo}{{\footnote[2]{\biotwo}}}{}}{}%
