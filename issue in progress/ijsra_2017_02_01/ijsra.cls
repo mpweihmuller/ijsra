@@ -65,7 +65,14 @@
 
 
 \RequirePackage{filecontents}
-\RequirePackage{libertine}
+%\RequirePackage{fontspec}
+%\RequirePackage{libertine}
+\RequirePackage{unicode-math}
+\setsansfont{Libertinus Sans}
+\setmainfont{Libertinus Serif}
+\setmonofont{Libertinus Mono}
+
+
 \renewcommand*\ttdefault{lmvtt}
 \RequirePackage[french, ngerman, spanish, italian, main=english]{babel}
 %\ifxetex\else
