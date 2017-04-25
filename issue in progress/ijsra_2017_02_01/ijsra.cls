@@ -66,11 +66,11 @@
 
 \RequirePackage{filecontents}
 %\RequirePackage{fontspec}
-%\RequirePackage{libertine}
-\RequirePackage{unicode-math}
-\setsansfont{Libertinus Sans}
-\setmainfont{Libertinus Serif}
-\setmonofont{Libertinus Mono}
+\RequirePackage{libertine}
+% \RequirePackage{unicode-math}
+% \setsansfont{Libertinus Sans}
+% \setmainfont{Libertinus Serif}
+% \setmonofont{Libertinus Mono}
 
 
 \renewcommand*\ttdefault{lmvtt}
