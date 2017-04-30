@@ -575,6 +575,7 @@ ISSN: 2398-2012\\
 
 \RequirePackage{hyperref} % For hyperlinks in the PDF
 \hypersetup{					% setup the hyperref-package options
+	unicode,
 	colorlinks   = true, %Colours links instead of ugly boxes
 	urlcolor     =  myblue, %Colour for external hyperlinks
 	linkcolor    = myblue, %Colour of internal links
