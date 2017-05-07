@@ -47,6 +47,16 @@ journaltitle = {South African Archaeological Bulletin},
 volume = {50},
 pages  = {175\psq}}
 \end{filecontents}
+
+\newcommand\bruynmarginfigure[3]{%
+\marginpar{\includegraphics[width=0.95\marginparwidth]{#1}
+ \captionsetup{format=plain,labelsep=newline}
+ \captionof{figure}{#2
+{\normalfont\scriptsize \\ \copyright\ by 
+                 \shortauthor#3
+                 % or NAME OF COPYRIGHT HOLDER
+                  }}
+\label{fig:#1}}}
 \IJSRAopening
 %-------
 \lettrine{S}{outhern} African archaeology is diverse in topic and practice. From human origins to the historical period, archaeology in this region provides a kaleidoscope of life ways over a vast amount of time. From colonial roots, followed by apartheid restrictions, to current initiatives to decolonise the discipline, the practice of archaeology is undergoing transformation. Southern African archaeology is facing challenges. These challenges are protecting local heritage and sites, addressing the claims of various stakeholders, connecting with non-academic audiences, and developing and retaining archaeologists, by no means an exhaustive list or challenges entirely unique to southern Africa. We invited archaeologists to respond to a questionnaire about the state of archaeology in southern Africa, and the impact student led initiatives have on the discipline. 
@@ -71,6 +81,7 @@ Commonly used Abbreviations:
 \IJSRAseparator
 \IJSRAsection{Shadreck Chirikure}
 {\sffamily Shadreck Chirikure, a PhD graduate from University College London, UK, is an associate professor at University of Cape Town, SA. He runs the Archaeology Materials Laboratory at UCT, the only facility dedicated to the study of African indigenous technology. He sits on the advisory boards of numerous journals and advocates practices that bring archaeological knowledge to the public (see his tedtalk on African indigenous technology).}
+\bruynmarginfigure{27-Shadreck-Chirikure}{Shadreck Chirikure}{}
 
 \begin{labeling}{IJSRA}	
 \item[IJSRA] \emph{What drew you to archaeology and what path did you follow to become an archaeologist? }
@@ -102,11 +113,15 @@ Even in the Iron Age, more students are needed to engage with multiple theories 
 \IJSRAseparator
 \IJSRAsection{Peter Mitchell}
 {\sffamily Peter Mitchell, a PhD graduate from University of Oxford, UK, is a professor of African Archaeology at University of Oxford and an honorary research fellow at the school Geography, Archaeology, and Environmental studies at the University of Witwatersrand. He is the co-editor for “Azania: Archaeological research in Africa” and is an editorial board member for several international journals. Over the years, he has conducted fieldwork in Lesotho and has raised awareness about the management of local heritage. }
+
+
 \begin{labeling}{IJSRA}	
 
 \item[IJSRA] \emph{What drew you to archaeology and what path did you follow to become an archaeologist?}
 	
-\item[Peter Mitchell (PM)] Probably like several other people of my generation, the arrival of the Tutankhamun exhibition in Britain in 1972 provided the first spark of interest, followed up by numerous holidays that took in ancient sites across the UK. Having got to Cambridge, I was fortunately able to take an option in African archaeology with David Phillipson to complement my main area of specialization, the Neolithic, Bronze Age and Iron Age of Europe. Captured by this, I decided to look around for postgraduate opportunities in African prehistory. Though as things turned out I went straight into doing a doctorate, I chose Oxford because it offered a two year course based Masters degree. Ray Inskeep, who was the Africanist at Oxford, had taught in Cape Town in the 1960s and early 1970s and, together with Pat Carter back in Cambridge, we worked out topic that might prove a viable DPhil thesis.
+\item[Peter Mitchell (PM)] 
+Probably like several other people of my generation, the arrival of the Tutankhamun exhibition in Britain in 1972 provided the first spark of interest, followed up by numerous holidays that took in ancient sites across the UK. Having got to Cambridge, I was fortunately able to take an option in African archaeology with David Phillipson to complement my main area of specialization, the Neolithic, Bronze Age and Iron Age of Europe. Captured by this, I decided to look around for postgraduate opportunities in African prehistory. Though as things turned out I went straight into doing a doctorate, I chose Oxford because it offered a two year course based Masters degree. Ray Inskeep, who was the Africanist at Oxford, had taught in Cape Town in the 1960s and early 1970s and, together with Pat Carter back in Cambridge, we worked out topic that might prove a viable DPhil thesis.
+\bruynmarginfigure{27-Peter-Mitchell}{Peter Mitchell}{}
 
 That thesis focused on the late Pleistocene Robberg industry from Pat’s Sehonghong site in Lesotho and it was to compare my observations of that with similar material from sites in SA that I first visited SA in 1985, principally being hosted in Stellenbosch by Hilary and Janette Deacon. Once I completed my DPhil I was lucky enough to get a post-doctoral research fellowship from the British Academy that allowed me to undertake my own fieldwork in Lesotho, followed by teaching experience and another postdoc in Cape Town before coming back to Britain in 1993 and returning to Oxford two years later to take up the post from which Ray had retired the year before.
 
@@ -138,6 +153,8 @@ And second, students from disadvantaged backgrounds in particular need to be nur
 \IJSRAseparator
 \IJSRAsection{Janette Deacon}
 {\sffamily Janette Deacon, a PhD graduate from the University of Cape Town, SA, is now retired. She was a lecturer, a journal editor, a Later Stone Age and rock art specialist, and the appointed archaeologist for the National Monuments Council. During her retirement, Janette has managed the Southern African Rock Art Project. The project, with assistance from various organisations, including the Getty Conservation Institute, has allowed for the training of  staff, at various southern African world heritage and protected sites, as rock art tourist guides, assistants for management and conservation of rock art, and as contributors to the process of world heritage site nomination. In 2016 UCT awarded her an Honorary D.Litt. in recognition of her contribution to the field of archaeology.}
+\bruynmarginfigure{27-Dr-Janette-Deacon}{Janette Deacon}{}
+
 \begin{labeling}{IJSRA}	
 \item[IJSRA] \emph{What drew you to archaeology and what path did you follow to become an archaeologist?}
 	
@@ -193,6 +210,8 @@ Yes, I certainly believe they have the potential to do so, not only because of t
 \IJSRAsection{Ndukuyakhe Ndlovu}
 {\sffamily Ndukuyakhe Ndlovu, a PhD graduate from Newcastle University, UK, is a senior lecturer in archaeology at the University of Pretoria, SA. He has over 15 years’ experience in heritage management in SA, having worked for both national and provincial heritage authorities. He is also the Editor-in-Chief for the \emph{The South African Archaeological Bulletin}, an executive member and a Secretary-elect of the World Archaeological Congress, and a Council member for the Association of Southern African Professional Archaeologists. 
 }
+\bruynmarginfigure{27-Ndukuyakhe-Ndlovu}{Ndukuyakhe Ndlovu}{}
+
 \begin{labeling}{IJSRA}	
 \item[IJSRA] \emph{What drew you to archaeology and what path did you follow to become an archaeologist?}
 	
@@ -235,6 +254,9 @@ Indeed, I think such platforms have a critical role to play. For instance, as a 
 \IJSRAseparator
 \IJSRAsection{Gavin Whitelaw}
 {\sffamily Gavin Whitelaw, is a chief curator in Human Sciences at KwaZulu-Natal Museum, SA. His research focus is on the nature of southern African farming societies in the first millennium\AD. He has presented southern African archaeology to the public through museum exhibits as well as through a travel nature series, called Shoreline.}
+\bruynmarginfigure{27-Gavin-Whitelaw}{Gavin Whitelaw}{}
+
+
 \begin{labeling}{IJSRA}	
 \item[IJSRA] \emph{What drew you to archaeology and what path did you follow to become an archaeologist?}
 	
@@ -279,11 +301,14 @@ Do the student groups have an impact on the discipline? My sense is no, or at le
 \IJSRAseparator
 \IJSRAsection{Keneiloe Molopyane}
 {\sffamily Keneiloe Molopyane is an Associate lecturer and current PhD candidate of the University of Witwatersrand. She had been involved in an international collaborative project focused on the Trans-Atlantic Slave Trade. She completed her BHCS Heritage and Cultural Tourism and BA Honours degrees in Archaeology at the University of Pretoria and an MSc in Bioarchaeology at the University of York.}
+
+
 \begin{labeling}{IJSRA}	
 \item[IJSRA] \emph{What drew you to archaeology and what path did you follow to become an archaeologist?}
 	
 \item[Keneiloe Molopyane (KM)]
 What drew me to archaeology? The most simple of questions, yet the hardest to answer. My first encounter with archaeology was actually from watching an episode of “The Adventures of Tintin: Cigars of the Pharaoh”. This was then followed by Indiana Jones movies (so cliché but true), and, and, and… I was the ripe young age of seven years when I decided this is what I wanted to do. I could not even pronounce the word “archaeology” until I was about nine or ten, do not get me started how old I was when I could actually spell the word. I have always been the curious kid and I guess the investigative properties of archaeology are what lured me in and kept me occupied for more than 30 minutes at a time.
+\bruynmarginfigure{27-Keneiloe-Molopyane}{Keneiloe Molopyane}{}
 
 Having graduated from highschool, I went straight to varsity to pursue a degree in archaeology. This was then followed by an honour’s in archaeology, an MSc in Bioarchaeology, and finally I find myself in the first of many final years of a PhD in anatomy.
 
