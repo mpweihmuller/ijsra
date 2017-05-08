@@ -51,9 +51,10 @@ pages  = {175\psq}}
 \newcommand\bruynmarginfigure[3]{%
 \marginpar{\includegraphics[width=0.95\marginparwidth]{#1}
  \captionsetup{format=plain,labelsep=newline}
- \captionof{figure}{#2
+ %\captionof{figure}
+ {\small #2
 {\normalfont\scriptsize \\ \copyright\ by 
-                 \shortauthor#3
+                 #2
                  % or NAME OF COPYRIGHT HOLDER
                   }}
 \label{fig:#1}}}
