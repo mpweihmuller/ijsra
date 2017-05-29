@@ -1,0 +1,77 @@
+\documentclass[
+  month=December,
+  year=2017,
+  volume=2,
+  number=1,
+	completeissue,
+%  titlefigure=forssman-titlepage,
+%	nobib,
+	%Fyfe-Figure03_titlefigure,%must be in the folder "figures" (ratio: 1000x400 pt)
+  ]{ijsra}
+
+\addbibresource{\jobname.bib}
+%\addbibresource{XXX.bib}
+
+\usepackage[delimiter="]{datatool}
+\DTLloaddb{advisory}{csv/advisory.csv}
+\DTLloaddb{editorialboard}{csv/editorialboard.csv}
+\DTLloaddb{editing}{csv/editing.csv}
+\DTLloaddb{reviewers}{csv/reviewers.csv}
+
+% \includeonly{%
+% %preamble/colophon,
+% %preamble/editorial,
+% %preamble/issue-presentation,
+% %%%%------------------------------
+% %content/
+% 27-Bruyn-Jordaan,
+% }
+%%%%%%%%%%%%%%%%%%%
+%%%      document itself      %%% 
+%%%%%%%%%%%%%%%%%%%
+\begin{document} 
+\include{preamble/colophon}
+\include{preamble/editorial}
+\include{preamble/_toc}
+%------------------------------
+%\frontmatter
+\renewcommand{\thepage}{\roman{page}}%
+\setcounter{page}{1}
+\include{preamble/issue-presentation}
+
+
+%------------------------------
+%\mainmatter
+\renewcommand{\thepage}{\arabic{page}}%
+%------------------------------
+\include{preamble/_part_interviews}
+\setcounter{page}{1}
+\include{27-Bruyn-Jordaan}
+%\include{content/}
+%\include{content/}
+
+%------------------------------
+\include{preamble/_part_articles}
+\include{26-Maggio}
+%\include{content/}
+%\include{content/}
+
+%------------------------------
+\include{preamble/_part_litreviews}
+%\include{content/}
+%\include{content/}
+%\include{content/}
+
+%------------------------------
+\include{preamble/_part_reviews}
+%\include{content/}
+%\include{content/}
+%\include{content/}
+
+%------------------------------
+\include{preamble/_part_bookreviews}
+%\include{content/}
+%\include{content/}
+%\include{content/}
+
+\end{document}
