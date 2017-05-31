@@ -24,6 +24,9 @@
 \def\IJSRAversiondate{2017/03/29}
 
 \newbool{issue}
+\newbool{nobib}
+
+\boolfalse{nobib}
 \boolfalse{issue}
 
 
@@ -98,6 +101,7 @@
 \renewcommand{\LettrineFontHook}{\normalfont}
 \RequirePackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
 \RequirePackage{currfile}
+\RequirePackage{enumerate}
 \RequirePackage{currfile-abspath}
 
 
@@ -456,8 +460,8 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 
 	
 \providecommand\IJSRAclosing{%
-	\IJSRAseparator
-	\printbibliography[heading=subbibliography] 
+\ifbool{nobib}{}{\IJSRAseparator
+	\printbibliography[heading=subbibliography]}
 	\end{refsection}
 	\label{lastpage\IJSRAidentifier}
 \undef\authorone{}
