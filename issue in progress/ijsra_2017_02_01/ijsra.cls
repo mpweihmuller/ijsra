@@ -302,10 +302,10 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \newcommand\pcref[1]{\parentext{\cref{#1}}}
 
 \newcommand{\IJSRAsection}[1]{%
-	\marginnote{#1}\pdfbookmark[1]{#1}{#1}%
+	\marginnote{#1}\pdfbookmark[2]{#1}{#1}%
 }
 \newcommand{\IJSRAsubsection}[1]{%
-	\marginnote{#1}\pdfbookmark[2]{#1}{#1\IJSRAidentifier}%
+	\marginnote{#1}\pdfbookmark[3]{#1}{#1\IJSRAidentifier}%
 }
 \let\ijsrasection\IJSRAsection
 \let\ijsrasubsection\IJSRAsubsection
