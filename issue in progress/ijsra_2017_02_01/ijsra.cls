@@ -78,16 +78,14 @@
 
 \renewcommand*\ttdefault{lmvtt}
 \RequirePackage[french, ngerman, spanish, italian, main=english]{babel}
-%\ifxetex\else
 \RequirePackage[%
-%,protrusion=true
-%,expansion=true
+,protrusion=true
+,expansion=true
 ,verbose=true
 ,final=true
 ,letterspace=100
 ,babel=true
 ]{microtype}
-%\fi
 \RequirePackage{colortbl}
 \RequirePackage{abbrevs}
 \RequirePackage[shortlabels]{enumitem}
@@ -175,8 +173,9 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \RequirePackage{setspace}			% for line spacing, e.g. \onehalfspacing
 \RequirePackage{booktabs} % Horizontal rules in tables
 \RequirePackage{nth}
+\RequirePackage[content={Figure omitted due to faster compiling.}]{draftfigure}
 
-
+	
 \RequirePackage{chngcntr} %Voraussetzung fuer Fussnoten durch alle Kapitel durchnummerieren
 \RequirePackage{listings}
 \AtBeginDocument{\counterwithin{lstlisting}{chapter}}
@@ -192,26 +191,25 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	]{scrlayer-scrpage} 
 \pagestyle{scrheadings}
 \clearscrheadfoot
-
-\lohead[\normalfont\sffamily\footnotesize International Journal of Student Research in Archaeology (IJSRA) \newline 
-\normalfont\sffamily\footnotesize \IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber \ppages]{\normalfont\sffamily\footnotesize \shorttitle\ \ppages}
-\rehead{\normalfont\sffamily\footnotesize \shortauthor}
-\rohead[{{\vspace{-3em}\includegraphics[width=2cm]{ijsra_logo}}}]{\normalfont\textbf{\sffamily\thepage}}
-\lehead{\normalfont\textbf{\sffamily\thepage}}
-\refoot{\normalfont\sffamily\footnotesize International Journal of Student Research in Archaeology}
-\lofoot{\normalfont\sffamily\footnotesize \IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, No. \IJSRAnumber}
+\addtokomafont{pageheadfoot}{\normalfont\sffamily\footnotesize}
+\lohead[International Journal of Student Research in Archaeology (IJSRA) \newline 
+\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber{ } \ifdefempty{\ppages}{}{$\bullet$ \ppages}]{\shorttitle\ \ppages}
+\rehead{\shortauthor}
+\rohead[{{\vspace{-3em}\includegraphics[width=2cm]{ijsra_logo}}}]{\textbf{\thepage}}
+\lehead{\textbf{\thepage}}
+\refoot{International Journal of Student Research in Archaeology}
+\lofoot{\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber}
 \automark[subsection]{section}  
 
 \newpairofpagestyles[scrheadings]{ijsrachapter}{
 \rohead{\marginnote{\vspace{-5em}\includegraphics[width=3cm]{ijsra_logo}}}
-\lohead{\normalfont\sffamily\footnotesize International Journal of Student Research in Archaeology (IJSRA) \newline 
-\normalfont\sffamily\footnotesize \IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber \ppages}
+\lohead{International Journal of Student Research in Archaeology (IJSRA) \newline 
+\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber \ppages}
 }
 
 
 
-\newpairofpagestyles[scrheadings]{part}{\clearscrheadfoot
-}
+\newpairofpagestyles[scrheadings]{part}{\clearscrheadfoot}
 \renewcommand\partpagestyle{part}
 
 %-----------------------------
@@ -256,7 +254,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 }{}
 
 \renewcommand{\marginfont}{\noindent\rule{0pt}{0.7\baselineskip}\color{mygold}\small\sffamily}
-\RequirePackage{marginfix}
+%\RequirePackage{marginfix}
 %-------------------------------------------
 %---Zitate/Quote
 \def\signed #1{\leavevmode\unskip\nobreak\hfil\penalty50\hskip2em
@@ -280,13 +278,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \newcommand\affiliation{}
 \newcommand\thanknote{}
 
-\patchcmd{\Gin@setfile}{\ttfamily\expandafter\strip@prefix\meaning\@tempa}{\@missingcopyright}{}{}
-\def\@missingcopyright{%
-	\footnotesize\sffamily
-		Figure omitted due to faster compiling.
-		% comment the following line if you don't want to show the file name
-%\expandafter\strip@prefix\meaning\@tempa 
-	}
+
 
 \def\keywords{}
 \def\keywordname{Keywords}
@@ -411,9 +403,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \newcommand{\pagerange}[2]{%pp.~
 	\edef\tempa{\getpagerefnumber{#1}\booltrue{@page}}%
 	\edef\tempb{\getpagerefnumber{#2}}%
-	\ifboolexpr{bool{@page}}{}{\ $\bullet$ 
-		\tempa–\tempb}
-	}
+	\ifboolexpr{bool{@page}}{}{\tempa--\tempb}}
 
 
 \providecommand\IJSRAopening{%
@@ -494,6 +484,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \def\Put(#1,#2)#3{\makebox(0,0){\put(#1,#2){#3}}}
 
 \def\IJSRAtitlepage{%
+\pdfbookmark[1]{Titlepage}{title}
 \definecolor{mybluetitle}{RGB}{28,40,65} % HEX 1c2841
 \newgeometry{%
 	head=0cm,			% 	- no header
@@ -507,9 +498,9 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 }
 \thispagestyle{empty}
 \pagecolor{mybluetitle}
-\Put(-11,-450){\IJSRAtitlefigure}\\
-\Put(-11,-450){\color{white}\rule{1.5\linewidth}{15pt}}
-\Put(.5\linewidth-3.5cm,-1.1\linewidth){\includegraphics[width=7cm]{ijsra_logo.png}}\\
+\Put(0,-.85\textheight+6cm){\hfill\IJSRAtitlefigure\hfill}\\
+\Put(0,-.85\textheight+6cm){\color{white}\rule{1.5\linewidth}{20pt}}
+\Put(.5\linewidth-3.5cm,-.85\textheight){\includegraphics[width=7cm]{ijsra_logo.png}}\\
 
 \vspace{.6\linewidth}
 \begin{center}\color{white}
