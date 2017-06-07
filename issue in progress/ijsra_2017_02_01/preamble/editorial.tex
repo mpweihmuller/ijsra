@@ -1,14 +1,18 @@
 \begin{footnotesize}
+\pdfbookmark[1]{Editorial}{editorial}
+
 \def\shorttitle{Editorial}\def\ppages{}
 %\label{firstpage\IJSRAidentifier}
 %\def\IJSRAidentifier{Editorial}
 \section*{Executive Editor}
-
+\pdfbookmark[2]{Executive Editor}{editorial-ee}
 \textbf{Gonzalo Linares Matás},  \emph{St Hugh's College, University of Oxford (UK)}. 
 Archaeology and Anthropology
 
 
 \section*{Advisory Editorial Board}
+\pdfbookmark[2]{Advisory Editorial Board}{editorial-aeb}
+\newtoggle{nomail}
 \newcommand{\myitem}[1]{%
 \begin{description}
         \setlength{\itemsep}{0pt}%
@@ -19,22 +23,24 @@ Archaeology and Anthropology
             \field=field, 
             \university=university, 
             \mail=mail}
-        {\item \textbf{\name}, \emph{\university}. \field \\ \href{mailto:\mail}{\mail}}
+        {\item \textbf{\name}, \emph{\university}. \field \\ \iftoggle{nomail}{}{\href{mailto:\mail}{\mail}}
+				}
 \end{description}}
 \myitem{advisory}
 \section*{Editorial Board}
+\pdfbookmark[2]{Editorial Board}{editorial-eb}
 \myitem{editorialboard}
 \section*{Formatting Team}
+\pdfbookmark[2]{Formatting Team}{editorial-ft}
 \myitem{editing}
-\def\shorttitle{Editorial}\def\ppages{}
+\def\shorttitle{Editorial}\undef\ppages
 \section*{Reviewing Team}
+\pdfbookmark[2]{Reviewing Team}{editorial-rt}
 \begin{multicols}{2}
+\toggletrue{nomail}
 \myitem{reviewers}
 \end{multicols}
-
-
-\def\shorttitle{Editorial}\def\ppages{}
 \end{footnotesize}
-\clearpage
+\cleardoublepage
 
 %	\label{lastpage\IJSRAidentifier}
