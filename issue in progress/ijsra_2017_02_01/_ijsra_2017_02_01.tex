@@ -4,20 +4,18 @@
   volume=3,
   number=1,
 	completeissue,
-  titlefigure=cover,
+  titlefigure=cover,%ratio: 1100x550
 %	nobib,
-	%Fyfe-Figure03_titlefigure,%must be in the folder "figures" (ratio: 1000x400 pt)
 	%draft
   ]{ijsra}
 
-\addbibresource{\jobname.bib}
+%\addbibresource{\jobname.bib}
 \addbibresource{26-Maggio.bib}
 \addbibresource{27-Bruyn-Jordaan.bib}
 \addbibresource{29-Verezen.bib}
 \addbibresource{30-Koziar.bib}
 \addbibresource{31-Croucher.bib}
 \addbibresource{33-Padoan.bib}
-%\addbibresource{XXX.bib}
 
 \usepackage[delimiter="]{datatool}
 \DTLloaddb{advisory}{csv/advisory.csv}
@@ -26,38 +24,29 @@
 \DTLloaddb{reviewers}{csv/reviewers.csv}
 
 % \includeonly{%
-% % %preamble/colophon,
-% % %preamble/editorial,
-% % %preamble/issue-presentation,
-% % %%%%------------------------------
-% % %content/
-%  27-Bruyn-Jordaan,
-%  26-Maggio,
+% % % %preamble/colophon,
+% % % %preamble/editorial,
+% preamble/issue-presentation,
+% % % %%%%------------------------------
+% % % %content/
+% %  27-Bruyn-Jordaan,
+% %  26-Maggio,
 %  }
 %%%%%%%%%%%%%%%%%%%
 %%%      document itself      %%% 
 %%%%%%%%%%%%%%%%%%%
-\begin{document} 
+\begin{document}
+\frontmatter
 \include{preamble/colophon}
 \include{preamble/editorial}
 \include{preamble/_toc}
 %------------------------------
-%\frontmatter
-\renewcommand{\thepage}{\roman{page}}%
-\setcounter{page}{1}
 \include{preamble/issue-presentation}
 
-
-%------------------------------
-%\mainmatter
-\renewcommand{\thepage}{\arabic{page}}%
+\mainmatter
 %------------------------------
 \include{preamble/_part_interviews}
-\setcounter{page}{1}
 \include{27-Bruyn-Jordaan}
-%\include{content/}
-%\include{content/}
-
 %------------------------------
 \include{preamble/_part_articles}
 \include{29-Verezen}
@@ -65,23 +54,13 @@
 \include{31-Croucher}
 \include{33-Padoan}
 \include{34-Harris}
-
 %------------------------------
 %\include{preamble/_part_litreviews}
-%\include{content/}
-%\include{content/}
-%\include{content/}
-
+%\include{}
 %------------------------------
 \include{preamble/_part_reviews}
 \include{32-Hawkins}
-%\include{content/}
-%\include{content/}
-
 %------------------------------
 \include{preamble/_part_bookreviews}
 \include{26-Maggio}
-%\include{content/}
-%\include{content/}
-
 \end{document}

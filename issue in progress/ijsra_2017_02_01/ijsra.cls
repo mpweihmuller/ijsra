@@ -57,7 +57,7 @@
 \LoadClass[%
 	parskip=half,
 	twoside=true,				% onesite or twoside printing
-	open=any,					% doublepage cleaning ends up right side
+	open=right,					% doublepage cleaning ends up right side
 	chapterprefix=false,		% prefix for chapter marks (Löscht "Kapitel" bei Kapitel)
 	headings=optiontohead, 	% \chapter[tocentry={}]{}
 	fontsize=11pt,				% font size
@@ -65,8 +65,7 @@
 	captions=tableabove,		% display table captions above the float env
 	numbers=noenddot,
 ]{scrbook}%	
-
-
+								
 \RequirePackage{filecontents}
 %\RequirePackage{fontspec}
 \RequirePackage{libertine}
@@ -192,25 +191,31 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \pagestyle{scrheadings}
 \clearscrheadfoot
 \addtokomafont{pageheadfoot}{\normalfont\sffamily\footnotesize}
-\lohead[International Journal of Student Research in Archaeology (IJSRA) \newline 
-\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber{ } \ifdefempty{\ppages}{}{$\bullet$ \ppages}]{\shorttitle\ \ppages}
+
+\lohead%
+%[International Journal of Student Research in Archaeology (IJSRA) \newline \IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber{ } \ifdefempty{\ppages}{}{$\bullet$ \ppages}]
+{\ifdefempty{\shorttitle}{}{\shorttitle\ \ifdefempty{\ppages}{}{$\bullet$ \ppages}}}
 \rehead{\shortauthor}
-\rohead[{{\vspace{-3em}\includegraphics[width=2cm]{ijsra_logo}}}]{\textbf{\thepage}}
+\rohead%
+%[{{\vspace{-3em}\includegraphics[width=2cm]{ijsra_logo}}}]
+{\textbf{\thepage}}
 \lehead{\textbf{\thepage}}
 \refoot{International Journal of Student Research in Archaeology}
 \lofoot{\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber}
 \automark[subsection]{section}  
 
 \newpairofpagestyles[scrheadings]{ijsrachapter}{
-\rohead{\marginnote{\vspace{-5em}\includegraphics[width=3cm]{ijsra_logo}}}
+\rohead{\marginnote{\vspace{-5em}\includegraphics[width=\linewidth]{ijsra_logo}}}
 \lohead{International Journal of Student Research in Archaeology (IJSRA) \newline 
-\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber \ppages}
+\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber\ $\bullet$ \ppages}
 }
 
 
 
 \newpairofpagestyles[scrheadings]{part}{\clearscrheadfoot}
 \renewcommand\partpagestyle{part}
+\renewcommand\chapterpagestyle{ijsrachapter}
+
 
 %-----------------------------
 \setkomafont{partnumber}{\normalfont\Huge}
@@ -272,7 +277,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \newcommand\ppages{\pagerange{firstpage\IJSRAidentifier}{lastpage\IJSRAidentifier}}
 \newcommand\shorttitle{}
 \newcommand\maintitle{}
-\newcommand\maintitletoc{\let\\=\relax\maintitle}
+\newcommand\maintitletoc{\let\\ \relax\maintitle}
 \newcommand\shortauthor{}
 \newcommand\cmail{}
 \newcommand\affiliation{}
@@ -302,14 +307,14 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \newcommand\pcref[1]{\parentext{\cref{#1}}}
 
 \newcommand{\IJSRAsection}[1]{%
-	\marginnote{#1}\pdfbookmark[2]{#1}{#1}%
+	\marginnote{#1}\pdfbookmark[1]{#1}{#1\IJSRAidentifier}%
 }
 \newcommand{\IJSRAsubsection}[1]{%
-	\marginnote{#1}\pdfbookmark[3]{#1}{#1\IJSRAidentifier}%
+	\marginnote{#1}\pdfbookmark[2]{#1}{#1\IJSRAidentifier}%
 }
-\let\ijsrasection\IJSRAsection
-\let\ijsrasubsection\IJSRAsubsection
-
+ \let\ijsrasection\IJSRAsection
+ \let\ijsrasubsection\IJSRAsubsection
+%
 
 \newcommand\authorone{}
 \newcommand\authortwo{}
@@ -384,19 +389,11 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 {\endlist}
 
 \newcommand{\IJSRAseparator}{%
-	\vspace{1em}
 	\begin{center}
 	* * *
 	\end{center}
-	\vspace{1em}
 	}
 
-\newcommand{\IJSRAchapter}[1]{%
-	\setcounter{chapter}{1}
-	\chapter*{#1}
-	\addcontentsline{toc}{chapter}{\normalfont\shortauthor\protect\newline\emph{\maintitletoc}}
-	}
-	
 \newcommand\email{{\normalfont\href{mailto:\cmail}{\cmail}}}
 
 \newbool{@page}
@@ -404,6 +401,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\edef\tempa{\getpagerefnumber{#1}\booltrue{@page}}%
 	\edef\tempb{\getpagerefnumber{#2}}%
 	\ifboolexpr{bool{@page}}{}{\tempa--\tempb}}
+	%\ifdefequal{\tempa}{\tempb}{}{
 
 
 \providecommand\IJSRAopening{%
@@ -414,11 +412,13 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\setcounter{figure}{0}
 	\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
 	\phantomsection
-%	\thispagestyle{ijsrachapter}
+	\pagestyle{ijsrachapter}
 	\chapter*{\maintitle}
 	% \vspace*{2em}
 %   {\LARGE\sffamily\maintitle}\\[-.3em]
-% 	\addcontentsline{toc}{chapter}{\normalfont\shortauthor\protect\newline\emph{\maintitletoc}}
+ \ifbool{issue}{%
+% \pdfbookmark[1]{\shortauthor | \shorttitle}{\shortauthor}
+ \addcontentsline{toc}{chapter}{\normalfont\shortauthor\protect\newline\emph{\maintitletoc}}}{}
  \begin{center}
 	{\Large\scshape%
 	\authorone\ifdef{\bioone}{{\footnote[1]{\bioone}}}{}%
@@ -450,7 +450,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 
 	
 \providecommand\IJSRAclosing{%
-\ifbool{nobib}{}{\IJSRAseparator
+\ifbool{nobib}{}{\IJSRAseparator\vspace*{-3em}
 	\printbibliography[heading=subbibliography]}
 	\end{refsection}
 	\label{lastpage\IJSRAidentifier}
@@ -588,8 +588,9 @@ ISSN: 2398-2012\\
 	pdfborder={0 0 0},			% 	-
 	breaklinks=true,			% 	- allow line break inside links
 	bookmarksnumbered=true,		%
-	bookmarksopenlevel=2,
+	bookmarksopenlevel=4,
 	bookmarksopen=true,		%
+	bookmarks=true,
 	final=true	% = true, only with web-Documents!!
 }
 
