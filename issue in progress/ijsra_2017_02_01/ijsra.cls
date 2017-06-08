@@ -31,13 +31,13 @@
 
 
 
-\newcommand*\IJSRAmonth{\scshape proof}
-\newcommand*\IJSRAyear{\scshape proof}% \edef\issueyear{\the\year}
-\newcommand*\IJSRAvolume{\scshape proof}
-\newcommand*\IJSRAnumber{\scshape proof}
-\newcommand*\IJSRAtitlefigure{\color{mygold}\rule{\linewidth}{410pt}}
+\newcommand*\IJSRAmonth{{\scshape proof}}
+\newcommand*\IJSRAyear{{\scshape proof}}% \edef\issueyear{\the\year}
+\newcommand*\IJSRAvolume{{\scshape proof}}
+\newcommand*\IJSRAnumber{{\scshape proof}}
+\newcommand*\IJSRAtitlefigure{{\color{mygold}\rule{\linewidth}{410pt}}}
 \newcommand*\IJSRAidentifier{\jobname}
-
+\newcommand*\monthyearnumber{\IJSRAmonth\ \IJSRAyear |\IJSRAnumber}
 
 
 \DeclareOptionX{draft}{\PassOptionsToClass{\CurrentOption}{scrbook}}
@@ -45,7 +45,7 @@
 \DeclareOptionX{year}{\def\IJSRAyear{#1}}
 \DeclareOptionX{completeissue}{\booltrue{issue}}
 \DeclareOptionX{volume}{\def\IJSRAvolume{Vol.\addspace #1}}
-\DeclareOptionX{number}{\def\IJSRAnumber{No.\addspace #1}}
+\DeclareOptionX{number}{\def\IJSRAnumber{#1}}
 \DeclareOptionX{titlefigure}{\def\IJSRAtitlefigure{\includegraphics[width=\linewidth]{figures/#1}}}
 \DeclareOptionX*{\OptionNotUsed}
 \ProcessOptionsX\relax
@@ -145,6 +145,13 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 
 \RequirePackage{pdfpages}
+
+
+
+\newcommand\submission{}
+\newcommand\acceptance{}
+
+
 %-----------------------------------------
 \RequirePackage[					% page layout modifications
 	paper=a4paper,				% 	- use A4 paper size
@@ -184,6 +191,16 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \counterwithout{table}{chapter}
 
 %-------------------------------------------
+\newcommand*{\ijsradate}[1]{\expandafter\@ijsradate#1\@nil} 
+\newcommand*{\@ijsradate}{} 
+\def\@ijsradate#1-#2-#3\@nil{\begingroup
+	\year=#1\relax 
+	\month=#2\relax 
+	\day=#3\relax 
+	% \DayName{#1}{#2}{#3}, % 
+	\today%
+	\endgroup} 
+	
 \RequirePackage[ 
 	headsepline, 
 	draft=false,
@@ -192,21 +209,21 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \clearscrheadfoot
 \addtokomafont{pageheadfoot}{\normalfont\sffamily\footnotesize}
 
-\lohead%
-%[International Journal of Student Research in Archaeology (IJSRA) \newline \IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber{ } \ifdefempty{\ppages}{}{$\bullet$ \ppages}]
-{\ifdefempty{\shorttitle}{}{\shorttitle\ \ifdefempty{\ppages}{}{$\bullet$ \ppages}}}
+\lohead{\ifdefempty{\shorttitle}{}{\shorttitle\ \ifdefempty{\ppages}{}{$\bullet$ \ppages}}}
 \rehead{\shortauthor}
-\rohead%
-%[{{\vspace{-3em}\includegraphics[width=2cm]{ijsra_logo}}}]
-{\textbf{\thepage}}
+\rohead{\textbf{\thepage}}
 \lehead{\textbf{\thepage}}
 \refoot{International Journal of Student Research in Archaeology}
-\lofoot{\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber}
+\lofoot{\monthyearnumber}
 \automark[subsection]{section}  
 
+
 \newpairofpagestyles[scrheadings]{ijsrachapter}{\clearscrheadfoot
-\chead{International Journal of Student Research in Archaeology (IJSRA) \newline 
-\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber\ $\bullet$ \ppages\marginnote{\vspace{-5em}\includegraphics[width=\linewidth]{ijsra_logo}}}
+\chead{International Journal of Student Research in Archaeology | IJSRA\hfill\monthyearnumber\\ 
+  \ifdefempty{\submission}{}{submission: \ijsradate{\submission}}
+  \ifdefempty{\acceptance}{}{| acceptance: \ijsradate{\acceptance}}
+  \hfill pp.\,\ppages%
+\marginnote{\vspace{-5em}\includegraphics[width=\linewidth]{ijsra_logo}}}
 }
 
 
@@ -284,6 +301,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 
 
 
+
 \def\keywords{}
 \def\keywordname{Keywords}
 
@@ -299,9 +317,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \newcommand\mypartstyle[1]{
 \mypagesize
 \part{#1}
-\restoregeometry
-%\clearpage
-}
+\restoregeometry}
 
 
 \newcommand\pcref[1]{\parentext{\cref{#1}}}
@@ -342,6 +358,9 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 
 \newcommand\abstract{}
 \undef\abstract{}
+
+\def\submission{}
+\def\acceptance{}
 
 \undef\authorone{}
 \undef\authortwo{}
@@ -391,8 +410,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \newcommand{\IJSRAseparator}{%
 	\begin{center}
 	* * *
-	\end{center}
-	}
+	\end{center}}
 
 \newcommand\email{{\normalfont\href{mailto:\cmail}{\cmail}}}
 
@@ -474,6 +492,9 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 
 \undef\abstract{}
 
+\def\submission{}
+\def\acceptance{}
+
 \undef\bioone{}
 \undef\biotwo{}
 \undef\biothree{}
@@ -499,7 +520,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \thispagestyle{empty}
 \pagecolor{mybluetitle}
 \Put(0,-.85\textheight+6cm){\hfill\IJSRAtitlefigure\hfill}\\
-\Put(0,-.85\textheight+6cm){\color{white}\rule{1.5\linewidth}{20pt}}
+\Put(0,-.85\textheight+6cm){\color{mygold}\rule{1.5\linewidth}{20pt}}
 \Put(.5\linewidth-3.5cm,-.85\textheight){\includegraphics[width=7cm]{ijsra_logo.png}}\\
 
 \vspace{.6\linewidth}
@@ -512,8 +533,7 @@ Archaeology
 \vfill
 \fontsize{15}{15}\selectfont
 ISSN: 2398-2012\\
-\IJSRAnumber\ \IJSRAvolume\\
-\IJSRAmonth\ \IJSRAyear
+\monthyearnumber
 
 \vspace{2em}
 {ijsra.org}
