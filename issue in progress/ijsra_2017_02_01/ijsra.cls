@@ -57,7 +57,7 @@
 \LoadClass[%
 	parskip=half,
 	twoside=true,				% onesite or twoside printing
-	open=right,					% doublepage cleaning ends up right side
+	open=any,					% doublepage cleaning ends up right side
 	chapterprefix=false,		% prefix for chapter marks (Löscht "Kapitel" bei Kapitel)
 	headings=optiontohead, 	% \chapter[tocentry={}]{}
 	fontsize=11pt,				% font size
@@ -204,10 +204,9 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \lofoot{\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber}
 \automark[subsection]{section}  
 
-\newpairofpagestyles[scrheadings]{ijsrachapter}{
-\rohead{\marginnote{\vspace{-5em}\includegraphics[width=\linewidth]{ijsra_logo}}}
-\lohead{International Journal of Student Research in Archaeology (IJSRA) \newline 
-\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber\ $\bullet$ \ppages}
+\newpairofpagestyles[scrheadings]{ijsrachapter}{\clearscrheadfoot
+\chead{International Journal of Student Research in Archaeology (IJSRA) \newline 
+\IJSRAmonth\ \IJSRAyear\ $\bullet$ \IJSRAvolume, \IJSRAnumber\ $\bullet$ \ppages\marginnote{\vspace{-5em}\includegraphics[width=\linewidth]{ijsra_logo}}}
 }
 
 
@@ -301,7 +300,8 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \mypagesize
 \part{#1}
 \restoregeometry
-\clearpage}
+%\clearpage
+}
 
 
 \newcommand\pcref[1]{\parentext{\cref{#1}}}
