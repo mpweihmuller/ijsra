@@ -209,7 +209,8 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \clearscrheadfoot
 \addtokomafont{pageheadfoot}{\normalfont\sffamily\footnotesize}
 
-\lohead{\ifdefempty{\shorttitle}{}{\shorttitle\ \ifdefempty{\ppages}{}{$\bullet$ \ppages}}}
+\lohead{\ifdefempty{\shorttitle}{}{\shorttitle%\ \ifdefempty{\ppages}{}{$\bullet$ \ppages}
+}}
 \rehead{\shortauthor}
 \rohead{\textbf{\thepage}}
 \lehead{\textbf{\thepage}}
