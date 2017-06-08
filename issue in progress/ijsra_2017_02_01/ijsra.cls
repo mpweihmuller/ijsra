@@ -37,7 +37,7 @@
 \newcommand*\IJSRAnumber{{\scshape proof}}
 \newcommand*\IJSRAtitlefigure{{\color{mygold}\rule{\linewidth}{410pt}}}
 \newcommand*\IJSRAidentifier{\jobname}
-\newcommand*\monthyearnumber{\IJSRAmonth\ \IJSRAyear |\IJSRAnumber}
+\newcommand*\yearnumber{\IJSRAyear\,|\,\IJSRAnumber}
 
 
 \DeclareOptionX{draft}{\PassOptionsToClass{\CurrentOption}{scrbook}}
@@ -68,7 +68,7 @@
 								
 \RequirePackage{filecontents}
 %\RequirePackage{fontspec}
-\RequirePackage{libertine}
+\RequirePackage[osf]{libertine}
 % \RequirePackage{unicode-math}
 % \setsansfont{Libertinus Sans}
 % \setmainfont{Libertinus Serif}
@@ -215,12 +215,12 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \rohead{\textbf{\thepage}}
 \lehead{\textbf{\thepage}}
 \refoot{International Journal of Student Research in Archaeology}
-\lofoot{\monthyearnumber}
+\lofoot{\yearnumber}
 \automark[subsection]{section}  
 
 
 \newpairofpagestyles[scrheadings]{ijsrachapter}{\clearscrheadfoot
-\chead{International Journal of Student Research in Archaeology | IJSRA\hfill\monthyearnumber\\ 
+\chead{International Journal of Student Research in Archaeology | IJSRA\hfill\yearnumber\\ 
   \ifdefempty{\submission}{}{submission: \ijsradate{\submission}}
   \ifdefempty{\acceptance}{}{| acceptance: \ijsradate{\acceptance}}
   \hfill pp.\,\ppages%
@@ -534,7 +534,7 @@ Archaeology
 \vfill
 \fontsize{15}{15}\selectfont
 ISSN: 2398-2012\\
-\monthyearnumber
+\IJSRAmonth\ \yearnumber
 
 \vspace{2em}
 {ijsra.org}

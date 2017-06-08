@@ -14,16 +14,14 @@ Archaeology and Anthropology
 \pdfbookmark[2]{Advisory Editorial Board}{editorial-aeb}
 \newtoggle{nomail}
 \newcommand{\myitem}[1]{%
-\begin{description}
-        \setlength{\itemsep}{0pt}%
-        \setlength{\parskip}{0pt}%
-        \setlength{\parsep}{0pt}%
+\begin{description}[leftmargin=20pt,partopsep=0pt,	itemsep=5pt,	parsep=0pt]
         \DTLforeach{#1}{%
             \name=name, 
             \field=field, 
             \university=university, 
             \mail=mail}
-        {\item \textbf{\name}, \emph{\university}. \field \iftoggle{nomail}{}{\\\href{mailto:\mail}{\mail}}
+        {\item \textbf{\name}, \emph{\university}. 
+				\field \iftoggle{nomail}{}{\\\href{mailto:\mail}{\mail}}
 				}
 \end{description}}
 \myitem{advisory}
