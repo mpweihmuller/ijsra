@@ -520,8 +520,8 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 }
 \thispagestyle{empty}
 \pagecolor{mybluetitle}
-\Put(0,-.85\textheight+6cm){\hfill\IJSRAtitlefigure\hfill}\\
-\Put(0,-.85\textheight+6cm){\color{mygold}\rule{1.5\linewidth}{20pt}}
+\Put(0,-.85\textheight+5.3cm){\IJSRAtitlefigure}\\
+\Put(0,-.85\textheight+6cm){\color{mygold}\rule{1.5\linewidth}{5pt}}
 \Put(.5\linewidth-3.5cm,-.85\textheight){\includegraphics[width=7cm]{ijsra_logo.png}}\\
 
 \vspace{.6\linewidth}
