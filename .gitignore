@@ -110,3 +110,5 @@
 *.csv#
 
 *.csv#
+
+*.synctex(busy)

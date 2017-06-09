@@ -101,7 +101,6 @@
 \RequirePackage{enumerate}
 \RequirePackage{currfile-abspath}
 
-
 \RequirePackage[
 detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	exponent-to-prefix  		= true,
@@ -198,7 +197,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\month=#2\relax 
 	\day=#3\relax 
 	% \DayName{#1}{#2}{#3}, % 
-	\today%
+  \today%
 	\endgroup} 
 	
 \RequirePackage[ 
@@ -608,13 +607,13 @@ Issue \IJSRAnumber\,|\,\IJSRAmonth\ \IJSRAyear
 	linktoc=page,
 	pdfborder={0 0 0},			% 	-
 	breaklinks=true,			% 	- allow line break inside links
-	bookmarksnumbered=true,		%
-	bookmarksopenlevel=4,
-	bookmarksopen=true,		%
-	bookmarks=true,
+	% bookmarksnumbered=true,		%
+	 bookmarksopenlevel=2,
+	% bookmarksopen=false,		%
+	% bookmarks=true,
 	final=true	% = true, only with web-Documents!!
 }
-
+\RequirePackage{bookmark}
 \RequirePackage{cleveref}
 
 
