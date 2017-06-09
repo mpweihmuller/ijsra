@@ -534,7 +534,7 @@ Archaeology
 \vfill
 \fontsize{15}{15}\selectfont
 ISSN: 2398-2012\\
-\IJSRAmonth\ \yearnumber
+Issue \IJSRAnumber\,|\,\IJSRAmonth\ \IJSRAyear
 
 \vspace{2em}
 {ijsra.org}
