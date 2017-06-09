@@ -1,0 +1,74 @@
+\documentclass[
+  month=June,
+  year=2017,
+  number=3,
+	completeissue,
+  titlefigure=cover,%ratio: 1100x550
+%	nobib,
+%	draft
+]{ijsra}
+
+%\addbibresource{\jobname.bib}
+\addbibresource{26-Maggio.bib}
+\addbibresource{27-Bruyn-Jordaan.bib}
+\addbibresource{29-Verezen.bib}
+\addbibresource{30-Koziar.bib}
+\addbibresource{31-Croucher.bib}
+\addbibresource{33-Padoan.bib}
+
+\usepackage[delimiter="]{datatool}
+\DTLloaddb{advisory}{csv/advisory.csv}
+\DTLloaddb{editorialboard}{csv/editorialboard.csv}
+\DTLloaddb{editing}{csv/editing.csv}
+\DTLloaddb{reviewers}{csv/reviewers.csv}
+%  \includeonly{%
+% % preamble/colophon,
+% % %preamble/editorial,
+% % %preamble/issue-presentation,
+% % % % %%%%------------------------------
+% % %------------------------------
+% % {preamble/issue-presentation},
+% % %------------------------------
+% % {27-Bruyn-Jordaan},
+% % %------------------------------
+% % {29-Verezen},
+% % {30-Koziar},
+% % {31-Croucher},
+% % {33-Padoan},
+% % %------------------------------
+% % {32-Hawkins},
+% % {34-Harris},
+% % %------------------------------
+%  {26-Maggio},
+% }
+%%%%%%%%%%%%%%%%%%%
+%%%      document itself      %%% 
+%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\frontmatter
+\include{preamble/colophon}
+\include{preamble/editorial}
+\include{preamble/_toc}
+%------------------------------
+\include{preamble/issue-presentation}
+\mainmatter
+%------------------------------
+\include{preamble/_part_interviews}
+\include{27-Bruyn-Jordaan}
+%------------------------------
+\include{preamble/_part_articles}
+\include{29-Verezen}
+\include{30-Koziar}
+\include{31-Croucher}
+\include{33-Padoan}
+%------------------------------
+%\include{preamble/_part_litreviews}
+%\include{}
+%------------------------------
+\include{preamble/_part_reviews}
+\include{32-Hawkins}
+\include{34-Harris}
+%------------------------------
+\include{preamble/_part_bookreviews}
+\include{26-Maggio}
+\end{document}

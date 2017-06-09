@@ -1,7 +1,7 @@
-\documentclass[%
-	%draft
-	]{ijsra}
+\documentclass{ijsra}
 \def\IJSRAidentifier{\currfilebase} %<---- don’t change this!
+\def\submission{}%YYYY-MM-DD
+\def\acceptance{}%YYYY-MM-DD
 %-------Title | Email | Keywords | Abstract-------------
 \def\shorttitle{Jons short title}
 \def\maintitle{Jons very long title about his paper}
@@ -10,16 +10,15 @@
 %\def\keywordname{}%<--- redefine the name “Keywords“ in needed language
 \def\abstract{In his paper Jon is showing ...}
 %--------Author’s names------------
-\def\authorone{Jon Doe}
+\def\authorone{John Doe}
 %-------Biographical information-------------
-\def\bioone{Jon Doe is doing his research about ...}
+\def\bioone{John Doe is doing his research about ...}
 %------University/Institution--------------
-\def\affilone{Jon Doe’s university or institution}
+\def\affilone{John Doe’s university or institution}
 
 \begin{filecontents}{\IJSRAidentifier.bib}
 %Bibliography-data HERE
 \end{filecontents}
-\begin{document}
 \IJSRAopening%<---- don’t change this!
 %-------
 \lettrine{M}{ain} text ... 
@@ -30,4 +29,3 @@
 
 
 \IJSRAclosing%<---- don’t change this!
-\end{document}
