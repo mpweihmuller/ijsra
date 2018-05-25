@@ -1,0 +1,136 @@
+@book{,
+address = {Chicago},
+publisher = {Johnson & Company},
+title = {The History of Peoria County, Illinois: Containing a History of the Northwest - History of Illinois - History of the County - Its Early Settlement, Growth, Development, Resources, Etc, Etc - a Sketch of Its Cities and Towns, Their Improvements, Industries},
+year = {1880},
+url = {https://books.google.com/books/about/The_History_of_Peoria_County_Illinois.html?id=j4w6AQAAIAAJ},
+}
+
+@book{,
+address = {Philadelphia},
+author = {Allen, D.},
+publisher = {Matthews, Crane, and Co. Publishers.},
+title = {Map of Peoria Co., Illinois},
+year = {1861},
+url = {https://www.loc.gov/item/2013593079/},
+}
+
+@book{,
+address = {Chicago},
+author = {Andreas, A.},
+title = {Atlas map of Peoria County, Illinois; Compiled, drawn, and published from personal examinations and surveys by A.T. Andreas},
+year = {1873},
+url = {https://catalog.hathitrust.org/Record/100319188},
+}
+
+@book{,
+author = {Gallay, A.},
+publisher = {Routledge},
+title = {Colonial Wars of North America 1512-1763 (Routledge Revivals): An Encyclopedia},
+year = {2015},
+url = {https://books.google.com/books?isbn=1317487184},
+}
+
+@unpublished{,
+author = {Illinois General Assembly, 94th General Assembly},
+title = {Full Text of SJR0073},
+url = {http://www.ilga.gov/legislation/fulltext.asp?DocName=&SessionId=50&GA=94&DocTypeId=SJR&DocNum=73&GAID=8&LegID=24935&SpecSess=&Session=},
+}
+
+@article{,
+author = {Illinois Geospatial Data Clearinghouse},
+title = {1937-1947 Illinois Historical Aerial Photography},
+year = {2015},
+url = {http://clearinghouse.isgs.illinois.edu/data/imagery/1937-1947-illinois-historical-aerial-photography},
+}
+
+@article{,
+author = {Illinois Inventory of Archaeological Sites},
+url = {https://geoserver.dnr.illinois.gov/archaeologyviewer/},
+}
+
+@article{,
+author = {Illinois State Museum},
+title = {Ancestors of the Illinois},
+year = {2000},
+url = {http://www.museum.state.il.us/muslink/nat_amer/post/htmls/arch_anc.html},
+}
+
+@article{,
+author = {Illinois State Museum},
+title = {The Midwestern United States 16,000 Years Ago; Glacial Deposits: Loess and Till},
+url = {http://exhibits.museum.state.il.us/exhibits/larson/loess.html},
+}
+
+@book{,
+address = {Tuscaloosa},
+editor = {Lacquement, C.},
+publisher = {University of Alabama Press},
+title = {Architectural Variability in the Southeast},
+year = {2007},
+url = {https://books.google.com/books?isbn=081735459X},
+}
+
+@book{,
+address = {Chicago, Peoria},
+editor = {McCulloch, D},
+publisher = {Munsell Publishing Company},
+title = {Historical Encyclopedia of Illinois and History of Peoria County},
+year = {1902},
+url = {https://books.google.com/books?id=4wZJAQAAMAAJ},
+}
+
+@article{,
+author = {North Staffordshire Pottery Marks},
+title = {J & G Meakin (Ltd)},
+url = {http://www.thepotteries.org/mark/m/meakin_jg.html},
+}
+
+@article{,
+author = {Projectile Point Identification Guide},
+title = {Projectile Point Typology Database},
+url = {http://www.projectilepoints.net/},
+unidentified = {[online] Available at: [Accessed ]},
+}
+
+@article{,
+author = {Projectile Point Identification Guide},
+title = {Projectile Point Typology Database},
+url = {http://www.projectilepoints.net/},
+}
+
+@article{,
+author = {Rennick, P.},
+journal = {Journal of the Illinois State Historical Society},
+number = {4},
+pages = {366-368},
+title = {The Peoria and Galena Trail and Coach Road and the Peoria Neighborhood},
+volume = {28},
+year = {1935},
+url = {http://www.galenatrail.com/maps/rennickarticle.pdf},
+}
+
+@article{,
+author = {United States Environmental Protection Agency},
+title = {Level III and IV Ecoregions of the Continental United States},
+url = {https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states},
+}
+
+@article{,
+author = {USDA Natural Resources Conservation Service},
+title = {Soil Survey},
+url = {https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/survey/},
+}
+
+@article{,
+author = {USDA Natural Resources Conservation Service},
+title = {Soil Survey},
+url = {https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/survey/},
+}
+
+@article{,
+author = {USDA Natural Resources Conservation Service},
+title = {Soil Survey},
+url = {https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/survey/},
+}
+
