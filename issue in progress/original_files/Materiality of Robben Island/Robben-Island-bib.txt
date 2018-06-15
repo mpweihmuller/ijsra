@@ -1,0 +1,193 @@
+@article{a00,
+author = {Alberti, S.},
+journal = {Isis},
+number = {4},
+pages = {559-571},
+title = {Objects and the Museum},
+volume = {96},
+year = {2000},
+}
+
+@book{a94,
+address = {Cape Town},
+author = {Alexander, N.},
+publisher = {UCT Press},
+title = {Robben Island prison dossier 1964-1974},
+year = {1994},
+}
+
+@book{bs04,
+address = {London},
+editor = {Beck, C. M. Johnson and W. J. Schofield W. J. Schofield},
+publisher = {Routledge},
+series = {One World Archaeology},
+title = {Matériel Culture: The Archaeology of Twentieth-Century Conflict},
+volume = {44},
+year = {2004},
+}
+
+@book{f95,
+address = {New York},
+author = {Foucault, M.},
+publisher = {Vintage Books, Random House},
+title = {Discipline and Punish: the birth of the prison},
+year = {1995 (1977)},
+}
+
+@book{h10,
+address = {Manchester},
+editor = {Harrison, R},
+publisher = {Manchester University Press and Open University Press},
+title = {Understanding the Politics of Heritage},
+year = {2010},
+}
+
+@article{hl14,
+author = {Haslam, N. and Loughnan, S.},
+journal = {The Annual Review of Psychology},
+pages = {399-423},
+title = {Dehumanization and Infrahumanization},
+volume = {65},
+year = {2014},
+}
+
+@incollection{h06,
+address = {Routledge,},
+author = {Hoskins, J.},
+booktitle = {Handbook of Material Culture},
+editor = {Tilley, C. et al},
+pages = {74-84},
+publisher = {London},
+title = {Agency, Biography and Objects},
+year = {2006},
+}
+
+@book{h97,
+address = {Johannesburg and Bellvile},
+author = {Hutton, B.},
+publisher = {SACHED and Mayibuye Books},
+title = {Robben Island: Symbol of Resistance},
+year = {1997},
+}
+
+@book{v,
+address = {Cape Town},
+author = {Robben Island World Heritage Site},
+publisher = {Robben Island World Heritage Site},
+title = {Integrated Conservation Management Plan: Abridged Version (2007-2012).},
+year = {2012},
+}
+
+@book{,
+address = {Cape Town},
+author = {Robben Island World Heritage Site},
+publisher = {Robben Island World Heritage Site},
+title = {Integrated Conservation Management Plan: Abridged Version (2013-2018)},
+year = {2013},
+}
+
+@book{Int09,
+address = {Pretoria},
+author = {International Committee of the Red Cross},
+publisher = {Red Cross Regional Delegation of South Africa},
+title = {Commemorating 150 years since the battle of Solferino: 24 June 1859-24 June 2009},
+year = {2009},
+}
+
+@techreport{m07,
+author = {ICOM},
+institution = {International Council of Museums},
+note = {Accessed on 09 December 2016},
+title = {Museum Definition},
+year = {2007},
+url = {http://icom.museum/the-vision/museum-definition/},
+}
+
+@article{mm09,
+author = {Martin, L. L and Mitchelson, M. L.},
+journal = {Geography Compasses},
+number = {1},
+pages = {459-477},
+title = {Geographies of Detention and Imprisonment: Interrogating Spatial Practices of Confinement, Discipline, Law and State Power},
+volume = {3},
+year = {2009},
+}
+
+@book{n82,
+address = {Penguin books},
+author = {Naidoo, I.},
+publisher = {Cape Town},
+title = {Island in Chains},
+year = {1982},
+}
+
+@mastersthesis{n05,
+author = {Nesje, P.},
+school = {University of Cape Town},
+title = {Representing the Past in the Present with the Future in Mind: A Close Reading of the Cell Stories Exhibition at the Robben Island Museum},
+year = {2005},
+}
+
+@article{r05,
+author = {Rafael, T.},
+journal = {Journal of the American Institute for Conservation},
+number = {8},
+pages = {245-257},
+title = {Preventive conservation and the exhibition process: development of exhibit guidelines and standards for conservation},
+volume = {33},
+year = {2005},
+}
+
+@book{r00,
+address = {Cape Town},
+author = {Riouful, V.},
+publisher = {University of the Western Cape Press},
+title = {Behind Telling: Post-Apartheid Representations of Robben Island's Past},
+year = {2000},
+}
+
+@mastersthesis{r99,
+author = {Rioufol, V.},
+school = {University of Cape Town},
+title = {The Making of the New Past for a "New" South Africa: the commemoration of Robben Island},
+year = {1999},
+}
+
+@book{i,
+address = {Cape Town},
+author = {Robben Island Museum Ex-Political Prisoners Reference Groups},
+publisher = {Robben Island Museum},
+title = {Project Blue Stone Quarry},
+volume = {2},
+year = {2003},
+}
+
+@article{s00,
+author = {Solani, N.},
+journal = {Kronos: The Journal of Cape History},
+number = {5},
+pages = {42-55},
+title = {The Saint of the Struggle: Deconstructing the Mandela Myth},
+volume = {26},
+year = {2000},
+}
+
+@unpublished{s07,
+author = {SAMA (sama)},
+title = {Policy Adopted during the 21st General Conference of the South African Museums Association in Vienna},
+year = {2007},
+}
+
+@book{i,
+author = {Walker, Meredith},
+edition = {7th},
+publisher = {ICOMOS},
+title = {The Burra Charter: The Australia Icomos Charter for the Conservation of Places of Cultural Significance},
+year = {2013 (1979)},
+}
+
+@unpublished{w15,
+author = {Wintein, C.},
+title = {Robben Island Site Collection Report 1998-2014},
+year = {2015},
+}
