@@ -20,8 +20,8 @@
 \RequirePackage{ifxetex,ifluatex,ifpdf,ifvtex}
 \RequirePackage{xkeyval,etoolbox}
 
-\def\IJSRAversion{1.0}
-\def\IJSRAversiondate{2017/03/29}
+\def\IJSRAversion{1.2}
+\def\IJSRAversiondate{2018/06/15}
 
 \newbool{issue}
 \newbool{nobib}
@@ -87,8 +87,20 @@
 ]{microtype}
 \RequirePackage{colortbl}
 \RequirePackage{abbrevs}
-\RequirePackage[shortlabels]{enumitem}
+% \RequirePackage[%
+%   nosep,
+%   shortlabels
+%   ]{enumitem}
 
+\RequirePackage{enumitem}
+\setlist{
+  nosep, 
+  % itemindent=1em,
+  % labelindent=0.5\parindent,
+  % leftmargin=2em
+  }
+  
+  
 \RequirePackage{alertmessage}
 \RequirePackage{marginnote}
 \RequirePackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
@@ -96,9 +108,8 @@
 \setcounter{DefaultLines}{3}
 \renewcommand{\LettrineTextFont}{\normalfont}%für zweite Klammer
 \renewcommand{\LettrineFontHook}{\normalfont}
-\RequirePackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+%\RequirePackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
 \RequirePackage{currfile}
-\RequirePackage{enumerate}
 \RequirePackage{currfile-abspath}
 
 \RequirePackage[
@@ -149,7 +160,8 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 
 \newcommand\submission{}
 \newcommand\acceptance{}
-
+\newcommand\BCE{\,BCE\xspace}
+\newcommand\CE{\,CE\xspace}
 
 %-----------------------------------------
 \RequirePackage[					% page layout modifications

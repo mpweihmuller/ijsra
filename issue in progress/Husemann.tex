@@ -1,5 +1,4 @@
 \documentclass{ijsra}
-\usepackage{enumitem}
 \def\IJSRAidentifier{\currfilebase} %<---- don’t change this!
 \def\submission{}%YYYY-MM-DD
 \def\acceptance{}%YYYY-MM-DD
@@ -9,7 +8,7 @@
 \def\cmail{bshusemann@gmail.com}
 \def\keywords{NO KEYWORDS}
 %\def\keywordname{}%<--- redefine the name “Keywords“ in needed language
-\def\abstract{In early 2017, an archaeological survey was conducted across a large section of the Schaub family farm in northeastern Peoria County, Illinois. The purpose of the survey was to locate and delineate any and all archaeological sites within the defined survey area and register them with the Illinois State Museum. One previously unknown site, newly registered as Site 11P852, was discovered within the survey area; this site includes a prehistoric component and two separate historic components. The prehistoric component consists entirely of lithic remains, chiefly lithic debitage, as well as several tools or tool fragments. Diagnostic prehistoric artifacts found across the site indicate that it was occupied by Native Americans over a period of thousands of years, possibly as early as the Early Archaic Period (8000-6000 \BCE). The westernmost historic component is a scatter of surface artifacts in a tilled agricultural field, while the easternmost historic component contains three intact features, including a cellar pit and a brick vault cistern, as well as several surface and subsurface artifacts. The integrity of the site varies, as large areas have been damaged by plowing or erosion, whereas other portions have remained relatively intact.}
+\def\abstract{In early 2017, an archaeological survey was conducted across a large section of the Schaub family farm in northeastern Peoria County, Illinois. The purpose of the survey was to locate and delineate any and all archaeological sites within the defined survey area and register them with the Illinois State Museum. One previously unknown site, newly registered as Site 11P852, was discovered within the survey area; this site includes a prehistoric component and two separate historic components. The prehistoric component consists entirely of lithic remains, chiefly lithic debitage, as well as several tools or tool fragments. Diagnostic prehistoric artifacts found across the site indicate that it was occupied by Native Americans over a period of thousands of years, possibly as early as the Early Archaic Period (8000--6000\BCE). The westernmost historic component is a scatter of surface artifacts in a tilled agricultural field, while the easternmost historic component contains three intact features, including a cellar pit and a brick vault cistern, as well as several surface and subsurface artifacts. The integrity of the site varies, as large areas have been damaged by plowing or erosion, whereas other portions have remained relatively intact.}
 %--------Author’s names------------
 \def\authorone{Bradley Husemann}
 %-------Biographical information-------------
@@ -18,7 +17,7 @@
 \def\affilone{NO AFFIL}
 
 \begin{filecontents}{\IJSRAidentifier.bib}
-@book{,
+@book{XXX,
 	address = {Chicago},
 	publisher = {Johnson \& Company},
 	title = {The History of Peoria County, Illinois: Containing a History of the Northwest - History of Illinois - History of the County - Its Early Settlement, Growth, Development, Resources, Etc, Etc - a Sketch of Its Cities and Towns, Their Improvements, Industries},
@@ -125,7 +124,7 @@
 
 @article{epa,
 	author = {United States Environmental Protection Agency},
-	year = {2015}
+	year = {2015},
 	title = {Level III and IV Ecoregions of the Continental United States},
 	url = {https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states},
 }
@@ -170,13 +169,13 @@ If any archaeological deposits were discovered over the course of the survey, th
 
 \IJSRAsection{Environmental and Cultural Background}
 
-The study area is located on the Schaub family farm, a tract of approximately 300 acres in Central Illinois. The Schaub farm is a combination of agricultural land, Conservation Reserve Program (CRP) prairie grass, and secondary growth forest (see Figure \cref{Husemann_Figure_01}). It is split between Hallock and Chillicothe Townships in northeastern Peoria County, Illinois; the nearest town is North Hampton, a small, unincorporated community located in Hallock Township. The larger town of Chillicothe lies approximately three kilometers to the south, and the Illinois River lies roughly three kilometers to the east.
+The study area is located on the Schaub family farm, a tract of approximately 300 acres in Central Illinois. The Schaub farm is a combination of agricultural land, Conservation Reserve Program (CRP) prairie grass, and secondary growth forest (see \cref{Husemann_Figure_01}). It is split between Hallock and Chillicothe Townships in northeastern Peoria County, Illinois; the nearest town is North Hampton, a small, unincorporated community located in Hallock Township. The larger town of Chillicothe lies approximately three kilometers to the south, and the Illinois River lies roughly three kilometers to the east.
 
 No prior archaeological study had ever taken place on the property; however, landowner Tony Schaub offered some anecdotal accounts of projectile point/knives found on the farm. These artifacts were no longer in his possession, so they could not be examined; furthermore, they would have had no clear provenience.
 
 \IJSRAsubsection{Environmental Background}
 
-The farm is located within the vicinity of several ecological regions, or “ecoregions,” as designated by the Environmental Protection Agency (EPA). It lies entirely within an ecoregion known as the River Hills, which consists of the steep bluffs that rise above the Illinois River, dissected in many places by narrow creeks (\cite{epa}). This ecoregion could be very suitable for early human habitation, given the combination of high ground and easy access to running water (see Figure \cref{Husemann_Figure_02}).
+The farm is located within the vicinity of several ecological regions, or “ecoregions,” as designated by the Environmental Protection Agency (EPA). It lies entirely within an ecoregion known as the River Hills, which consists of the steep bluffs that rise above the Illinois River, dissected in many places by narrow creeks (\cite{epa}). This ecoregion could be very suitable for early human habitation, given the combination of high ground and easy access to running water (see \cref{Husemann_Figure_02}).
 
 %FIGURE 2: Map of ecological regions near Schaub farm
 \begin{figure}[!htb]
@@ -189,7 +188,7 @@ The farm is located within the vicinity of several ecological regions, or “eco
 	\label{fig:Husemann_Figure_02}
 \end{figure}
 
-The current terrain of the Schaub farm can be divided into upland terraces and lowland floodplains. On the map below (Figure \cref{Husemann_Figure_03}), the floodplains are identified as “frequently flooded” soil types.
+The current terrain of the Schaub farm can be divided into upland terraces and lowland floodplains. On the map below (\cref{Husemann_Figure_03}), the floodplains are identified as “frequently flooded” soil types.
 
 %FIGURE 3: Map of soil types within Schaub farm
 \begin{figure}[!htb]
@@ -202,7 +201,7 @@ The current terrain of the Schaub farm can be divided into upland terraces and l
 	\label{fig:Husemann_Figure_03}
 \end{figure}
 
-The formation of the upland areas was influenced by glacial activity during the Pleistocene Epoch. The most recent glaciation was the Wisconsin Glacial Episode, which affected what is now Northern Illinois from approximately 23,000 to 11,500 \BCE, though the glaciation lasted longer in other parts of North America (\cite{ehlers_2004}). During this time, the Laurentide Ice Sheet covered much of Northern Illinois, including what is now the Schaub farm. As the ice sheet receded, meltwaters from the glacier carried silt particles out onto the lower plains, and the wind picked up these particles and deposited them on upland areas, as periglacial loess. Because this accumulation of loess mainly occurred during the glacial episodes, there has probably been very little new deposition on these upland landforms since the end of the Pleistocene (\cite{carroll_1970}). Without any deposition of new sediment to bury cultural remains, any artifacts left on these upland areas since 11,500 \BCE would probably be located at or near the ground surface, without any chronological stratification.
+The formation of the upland areas was influenced by glacial activity during the Pleistocene Epoch. The most recent glaciation was the Wisconsin Glacial Episode, which affected what is now Northern Illinois from approximately 23,000 to 11,500\BCE, though the glaciation lasted longer in other parts of North America (\cite{ehlers_2004}). During this time, the Laurentide Ice Sheet covered much of Northern Illinois, including what is now the Schaub farm. As the ice sheet receded, meltwaters from the glacier carried silt particles out onto the lower plains, and the wind picked up these particles and deposited them on upland areas, as periglacial loess. Because this accumulation of loess mainly occurred during the glacial episodes, there has probably been very little new deposition on these upland landforms since the end of the Pleistocene (\cite{carroll_1970}). Without any deposition of new sediment to bury cultural remains, any artifacts left on these upland areas since 11,500\BCE would probably be located at or near the ground surface, without any chronological stratification.
 
 Because the lowland areas are prone to flooding, much of the sediment there is likely alluvial in origin, and its deposition could possibly be much more recent than that of the upland loess. If this were so, then some cultural remains could be buried deep beneath the recent sediment, leading to a possible chronological stratification of artifacts.
 
@@ -211,10 +210,10 @@ Because the lowland areas are prone to flooding, much of the sediment there is l
 The earliest inhabitants of Central Illinois were prehistoric Native Americans. Before the arrival of Europeans, the indigenous people of eastern North America (the “Eastern Woodlands”) underwent four major cultural phases (the dates of which are very subjective, and vary by region):
 
 \begin{itemize}
-	\item Paleoindian Period (first arrivals-8000 \BCE)
-	\item Archaic Period (8000-1000 \BCE)
-	\item Woodland Period (1000 BCE-700 \CE)
-	\item Mississippian Period (700-1700 \CE)
+	\item Paleoindian Period (first arrivals-8000\BCE)
+	\item Archaic Period (8000-1000\BCE)
+	\item Woodland Period (1000 BCE-700\CE)
+	\item Mississippian Period (700-1700\CE)
 \end{itemize}
 
 The basic chronology of the Eastern Woodlands is as follows: the continent’s first inhabitants (the “Paleoindians”) were hunter-gatherers. Their descendants during the Archaic Period continued to live primarily as hunter-gatherers, but they made new technological innovations, such as the creation of ground-stone artifacts, and projectile point/knives with notched or stemmed bases. Later, during the Woodland Period, the people of the Eastern Woodlands began to develop agriculture, particularly the cultivation of maize, but still relied heavily on hunting and gathering. They also developed the use of pottery. Finally, during the Mississippian Period, Native Americans in the area depended heavily on maize, and lived in settlements built around earthen mound complexes. However, this general chronology is vastly oversimplified, and there are many regional exceptions (\cite{gibbon_1998}).
@@ -228,7 +227,7 @@ The first European settlers in the area were the French. In 1680, the French exp
 
 The first comprehensive plat map of Peoria County was drafted in 1861, by the surveyor D.B. Allen. This provides the first detailed map of the land currently occupied by the Schaub farm. Two early landowners, T. Baldwin and E.L. Burnett, owned structures on their respective parcels, and both of these structures appear to be in or near the current boundaries of the Schaub farm. In 1861, Senachwine Creek was drawn flowing to the west of the Baldwin house, but since then, it has shifted eastwards considerably. It is likely that the creek undercut and obliterated the Baldwin house (\cite{allen_1861}).
 
-In the map below (Figure \cref{fig:Husemann_Figure_04}), the modern boundaries of the Schaub farm can be seen superimposed against the 1861 plat:
+In the map below (\cref{fig:Husemann_Figure_04}), the modern boundaries of the Schaub farm can be seen superimposed against the 1861 plat:
 
 %FIGURE 4: 1861 plat map
 \begin{figure}[!htb]
@@ -242,7 +241,7 @@ In the map below (Figure \cref{fig:Husemann_Figure_04}), the modern boundaries o
 \end{figure}
 
 
-Another plat map of Peoria County was drawn in 1873, by the surveyor A.T. Andreas. A portion of Andreas’ atlas, featuring Chillicothe Township, is shown below (Figure \cref{fig:Husemann_Figure_05}). According to the atlas, the area that now comprises the Schaub farm contained two structures in 1873 (on the eastern side of the township boundary). One structure belonged to F.S. Wilmot, who owned a large, heavily wooded parcel. Roughly half a kilometer to the southwest, there was another structure on a smaller parcel owned by S.M. Murry, or possibly Murray (\cite{andreas_1873}).
+Another plat map of Peoria County was drawn in 1873, by the surveyor A.T. Andreas. A portion of Andreas’ atlas, featuring Chillicothe Township, is shown below (\cref{fig:Husemann_Figure_05}). According to the atlas, the area that now comprises the Schaub farm contained two structures in 1873 (on the eastern side of the township boundary). One structure belonged to F.S. Wilmot, who owned a large, heavily wooded parcel. Roughly half a kilometer to the southwest, there was another structure on a smaller parcel owned by S.M. Murry, or possibly Murray (\cite{andreas_1873}).
 
 %FIGURE 5: 1873 plat map
 \begin{figure}[!htb]
@@ -284,16 +283,16 @@ In some places, positive shovel tests were flanked with radial tests, in order t
 
 While delineating the site(s), any artifacts that were more than 100 meters apart, with no other artifacts between them, would be considered to belong to separate sites. Any artifacts within 100 meters of one another would be considered part of the same site, regardless of temporal or cultural affiliation. Any site that contained both prehistoric and historic remains, either overlapping each other or in close proximity to one other, would be characterized as “multi-component.”
 
-It was not feasible to methodically survey all 300 acres of the Schaub farm, so a smaller research area was defined. The actual survey area was restricted to 78 acres within the middle of the farm. The survey area encompassed two frequently tilled agricultural fields, as well as a large patch of woodland. One of the agricultural fields occupies an upland terrace, overlooking Senachwine Creek to the west. Directly to the east, across a steep ravine, lies another upland terrace, this one heavily wooded.  Both terraces overlook a floodplain to the north, formed by alluvial sediment from the Senachwine’s overflow. This floodplain is also occupied by an agricultural field.  The full survey area can be seen outlined below (Figure \cref{fig:Husemann_Figure_07}).
+It was not feasible to methodically survey all 300 acres of the Schaub farm, so a smaller research area was defined. The actual survey area was restricted to 78 acres within the middle of the farm. The survey area encompassed two frequently tilled agricultural fields, as well as a large patch of woodland. One of the agricultural fields occupies an upland terrace, overlooking Senachwine Creek to the west. Directly to the east, across a steep ravine, lies another upland terrace, this one heavily wooded.  Both terraces overlook a floodplain to the north, formed by alluvial sediment from the Senachwine’s overflow. This floodplain is also occupied by an agricultural field.  The full survey area can be seen outlined below (\cref{fig:Husemann_Figure_07}).
 
 %Fig 7 is in multiple parts
 
 \IJSRAsection{Survey Results}
 
-Over the course of the survey, a large, previously unknown archaeological site was discovered and documented, Site 11P852. This site contains an extensive prehistoric component that overlaps or comes in close proximity to two distinct historic components (Figure \cref{fig:Husemann_Figure_10}). It is almost certain that the site extends well beyond the arbitrary boundaries of the survey area, as some artifacts were found far outside the survey area, but they were not recorded. Thus, the site cannot be said to have been fully delineated (though its boundaries within the survey area were defined).
+Over the course of the survey, a large, previously unknown archaeological site was discovered and documented, Site 11P852. This site contains an extensive prehistoric component that overlaps or comes in close proximity to two distinct historic components (\cref{fig:Husemann_Figure_10}). It is almost certain that the site extends well beyond the arbitrary boundaries of the survey area, as some artifacts were found far outside the survey area, but they were not recorded. Thus, the site cannot be said to have been fully delineated (though its boundaries within the survey area were defined).
 
 %FIGURE 10: Site 11P852, within survey area
-\begin{figure}[!htb]
+\begin{figure}[!p]
 	\includegraphics[width=\linewidth]{Husemann_Figure_10}
 	\caption{Site 11P852, within survey area 
 		{\normalfont\scriptsize \\ \copyright\ by Bradley Husemann
@@ -306,10 +305,10 @@ Over the course of the survey, a large, previously unknown archaeological site w
 \IJSRAsubsection{Prehistoric Component}
 
 
-The prehistoric component is the most expansive element of the site, and extends across virtually the whole survey area (as well as beyond the survey area). The survey yielded a diverse array of prehistoric lithics; the predominant lithic material was a white chert, probably Burlington chert. The vast majority of these artifacts were flakes of lithic debitage (knapping debris), some of which display evidence of having been retouched along the edges. These artifacts were scattered across both of the upland terraces, as well as the lowland floodplain to the north, but they were mainly concentrated on a high spot along the gently undulating surface of the western terrace. Artifacts are also heavily distributed along the western and northern edges of this terrace (Figure \cref{fig:Husemann_Figure_11}). Some flakes were even noticed on the face of a cliff overlooking Senachwine Creek, indicating that the ground has been eroded out from under them (however, due to the dangers involved, these flakes were not recovered or mapped).
+The prehistoric component is the most expansive element of the site, and extends across virtually the whole survey area (as well as beyond the survey area). The survey yielded a diverse array of prehistoric lithics; the predominant lithic material was a white chert, probably Burlington chert. The vast majority of these artifacts were flakes of lithic debitage (knapping debris), some of which display evidence of having been retouched along the edges. These artifacts were scattered across both of the upland terraces, as well as the lowland floodplain to the north, but they were mainly concentrated on a high spot along the gently undulating surface of the western terrace. Artifacts are also heavily distributed along the western and northern edges of this terrace (\cref{fig:Husemann_Figure_11}). Some flakes were even noticed on the face of a cliff overlooking Senachwine Creek, indicating that the ground has been eroded out from under them (however, due to the dangers involved, these flakes were not recovered or mapped).
 
 %FIGURE 11: Map of prehistoric lithic scatter
-\begin{figure}[!htb]
+\begin{figure}[!p]
 	\includegraphics[width=\linewidth]{Husemann_Figure_11}
 	\caption{Map of prehistoric lithic scatter
 		{\normalfont\scriptsize \\ \copyright\ by Bradley Husemann
@@ -335,12 +334,12 @@ Most of these artifacts were recovered by pedestrian survey, but a few were foun
 	\item 288 fragments of lithic debitage (including retouched flakes)
 \end{itemize}
 
-The four projectile point/knives are intact enough to be diagnostic (Figure \cref{fig:Husemann_Figure_12}). They indicate that the site was occupied by Native Americans over several thousand years, beginning in the Early Archaic Period (8000-6000 \BCE). These typologies are tentative at best, however. 
+The four projectile point/knives are intact enough to be diagnostic (\cref{fig:Husemann_Figure_12}). They indicate that the site was occupied by Native Americans over several thousand years, beginning in the Early Archaic Period (8000-6000\BCE). These typologies are tentative at best, however. 
 
 %FIGURE 12: Diagnostic Projectile Point/Knives
 \begin{figure}[!htb]
 	\includegraphics[width=\linewidth]{Husemann_Figure_12}
-	\caption Diagnostic Projectile Point/Knives: a.	Kirk Corner-Notched Point, Early Archaic (8000-6000 \BCE) b.	Kirk Corner-Notched Point, reversed c.	Godar Point, Middle to Late Archaic (6000-1000 \BCE) d.	Godar Point, reversed e.	Osceola Point, Late Archaic to Early Woodland (3000 BCE-1 \CE) f.	Osceola Point, reversed g.	Apple Blossom Point, Late Archaic to Early Woodland (3000 \BCE-1 \CE) h.	Apple Blossom Point, reversed
+	\caption{Diagnostic Projectile Point/Knives: a.	Kirk Corner-Notched Point, Early Archaic (8000-6000\BCE) b.	Kirk Corner-Notched Point, reversed c.	Godar Point, Middle to Late Archaic (6000-1000\BCE) d.	Godar Point, reversed e.	Osceola Point, Late Archaic to Early Woodland (3000 BCE-1\CE) f.	Osceola Point, reversed g.	Apple Blossom Point, Late Archaic to Early Woodland (3000\BCE-1\CE) h.	Apple Blossom Point, reversed
 		{\normalfont\scriptsize \\ \copyright\ by Bradley Husemann
 			%\shortauthor
 			% or NAME OF COPYRIGHT HOLDER
@@ -348,24 +347,30 @@ The four projectile point/knives are intact enough to be diagnostic (Figure \cre
 	\label{fig:Husemann_Figure_12}
 \end{figure}
 
-The survey also recovered several tools or tool fragments that were not strictly diagnostic (see Figure \cref{fig:Husemann_Figure_13}).
+The survey also recovered several tools or tool fragments that were not strictly diagnostic (see \cref{fig:Husemann_Figure_13}).
 
 %FIGURE 13: Not Diagnostic Projectile Point/Knives
 \begin{figure}[!htb]
 	\includegraphics[width=\linewidth]{Husemann_Figure_13}
-	\caption Non- Diagnostic Tools of Tool Fragments a.	Celt b.	Celt, with cutting edge shown c.	Biface fragment d.	Biface fragment, reversed e.	Drill tip f.	Broken point tip
+	\caption{Non- Diagnostic Tools of Tool Fragments\\
+  a.	Celt \\
+  b.	Celt, with cutting edge shown\\ 
+  c.	Biface fragment \\
+  d.	Biface fragment, reversed \\
+  e.	Drill tip \\
+  f.	Broken point tip
 		%\shortauthor
 		% or NAME OF COPYRIGHT HOLDER
-}}
+}
 \label{fig:Husemann_Figure_13}
 \end{figure}
 
-The map below (Figure \cref{fig:Husemann_Figure_14}) shows the location where each projectile point/knife was recovered.
+The map below (\cref{fig:Husemann_Figure_14}) shows the location where each projectile point/knife was recovered.
 
 %FIGURE 14: Map of projectile point/knife locations
 \begin{figure}[!htb]
 	\includegraphics[width=\linewidth]{Husemann_Figure_14}
-	\caption Map of projectile point/knife locations
+	\caption{Map of projectile point/knife locations
 	%\shortauthor
 	% or NAME OF COPYRIGHT HOLDER
 }}
@@ -414,10 +419,10 @@ The eastern historic component is located on a wooded terrace overlooking the fl
 %FIG 18
 \begin{figure}[!htb]
 	\includegraphics[width=\linewidth]{Husemann_Figure_18}
-	\caption{Historic artifacts from Wilmot house:
-a.	J. \& G. Meakin Ironstone Dishware, 1890-1907
-b.	Decorated salt-glazed stoneware with maker’s mark
-c.	Decorated vessel glass
+	\caption{Historic artifacts from Wilmot house:\\
+a.	J. \& G. Meakin Ironstone Dishware, 1890-1907\\
+b.	Decorated salt-glazed stoneware with maker’s mark\\
+c.	Decorated vessel glass\\
 d.	Square-cut nail
 		{\normalfont\scriptsize \\ \copyright\ by 
 			%\shortauthor
@@ -426,7 +431,7 @@ d.	Square-cut nail
 	\label{fig:Husemann_Figure_18}
 \end{figure}
 
-\IJSRAsection{Discussion}
+\IJSRAsection{Discussion} 
 
 At the beginning of the survey, five specific research questions were stated. Ultimately, the survey was able to answer all five.
 
@@ -436,7 +441,9 @@ At the beginning of the survey, five specific research questions were stated. Ul
 
 The survey located exactly one archaeological site within the 78-acre research area; the Illinois State Museum registered it as 11P852. The site boundary is fairly subjective. This survey classified any cultural resources located within 100 meters of one another as being part of the same site, but other surveyors might have used different parameters, which would have required that 11P852 be divided into multiple sites. In all likelihood, the site actually extends well beyond the survey area, so more research would be required to fully delineate the site.
 
+\begin{enumerate}[resume]
 	\item What kinds of archaeological deposits (i.e., artifacts, features), if any, are located within the survey area?
+\end{enumerate}
 
 The survey area contains both prehistoric and historic archaeological remains. Over 300 prehistoric artifacts were recovered, all of them lithics (primarily lithic debitage). Aside from the fragments of debitage, there were also four relatively intact projectile point/knives, three broken point tips, three biface fragments, a drill tip, a bifacial scraper, 10 cores or core fragments, and one ground-stone tool (a celt, or polished adze). The presence of these prehistoric artifacts supports the assumption that the River Hills ecoregion would have been a hospitable place for early humans.
 The survey also yielded three historic features and several historic artifacts. The features include a cellar pit, a brick vault cistern, and a small pit of uncertain usage. The artifacts include samples of whiteware, salt-glazed stoneware, window glass, vessel glass, bricks, and one square nail. This seems to vindicate the earlier assumption that the survey area’s proximity to the Peoria and Galena Coach Road might increase the possibility of finding historic remains. Also, the 1873 county plat had alluded to the possibility of finding historic sites.
@@ -455,7 +462,7 @@ As for the vertical, or stratigraphic, distribution of artifacts, all were locat
 	\item What is the approximate temporal and/or cultural affiliation of the archaeological deposits within the survey area?
 \end{enumerate}
 
-The four projectile point/knives hint at the temporal affiliation of the prehistoric remains; it appears that the site may have been occupied by Native Americans from the Early Archaic Period (8000-6000 \BCE) to the Early Woodland Period (1000 \BCE-1 \CE). As of yet, there is no evidence of any prior or subsequent prehistoric habitation, but it is still fully possible that such evidence may surface. All that can be said with certainty is that Native Americans occupied the site over a broad period of time, beginning during a period when they would have been predominantly hunter-gatherers, and possibly extending into a period when agriculture and the use of ceramics became more widespread (though no prehistoric ceramics were found). Throughout most of this time period, the site probably would have been used as a temporary campsite by transient hunters.
+The four projectile point/knives hint at the temporal affiliation of the prehistoric remains; it appears that the site may have been occupied by Native Americans from the Early Archaic Period (8000-6000\BCE) to the Early Woodland Period (1000\BCE-1\CE). As of yet, there is no evidence of any prior or subsequent prehistoric habitation, but it is still fully possible that such evidence may surface. All that can be said with certainty is that Native Americans occupied the site over a broad period of time, beginning during a period when they would have been predominantly hunter-gatherers, and possibly extending into a period when agriculture and the use of ceramics became more widespread (though no prehistoric ceramics were found). Throughout most of this time period, the site probably would have been used as a temporary campsite by transient hunters.
 The historic artifacts and features, having been left by American settlers, belong to a much narrower spectrum of time, ranging from the late nineteenth century to the early twentieth century. Historic evidence indicates that there were two houses within the survey area at least as early as 1873 (but after 1861). A sherd of ironstone dishware associated with the Wilmot house can be positively dated between 1890 and 1907. An amethyst bottle, also affiliated with the Wilmot house, was probably made prior to the First World War.
 
 \begin{enumerate}[resume]
