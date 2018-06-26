@@ -112,3 +112,7 @@
 *.csv#
 
 *.synctex(busy)
+
+issue in progress/figures/Husemann_Figure_12.png
+
+*.png
