@@ -1,0 +1,370 @@
+\documentclass{article}
+\usepackage{ltxtable}
+%\usepackage{rotating}
+\usepackage{filecontents}
+
+\begin{document}
+	
+	\begin{filecontents}{\jobname-document.tex}			
+		\begin{longtable}{p{1cm}p{6cm}ll}
+			\caption{Results of pedestrian survey}\\
+			\label{table_1}
+			% Definition des ersten Tabellenkopfes auf der ersten Seite
+			ID & Artifacts & Latitude & Longitude \\
+			\hline
+			\endfirsthead % Erster Kopf zu Ende
+			%  Definition des Tabellenkopfes auf den folgenden Seiten
+			\caption{continued from previous page}\\
+			ID & Artifacts & Latitude & Longitude \\
+			\hline
+			\endhead % Zweiter Kopf ist zu Ende
+			\hline
+			& continued on next page\\
+			\endfoot
+			\hline
+			\\
+			\endlastfoot
+			% Ab hier kommt der Inhalt der Tabelle
+			sf1 & 1 point fragment, 1 tertiary flake & 40.94966335 & -87.5280935\\
+			sf2 & 1 retouched flake & 40.94958407 & -89.52788806\\
+			sf3 & 1 point & 40.94915395 & -89.52764964\\
+			sf4 & 1 secondary flake & 40.94841371 & -89.52727554\\
+			sf5 & 1 primary flake & 40.9484285 & -89.52742573\\
+			sf6 & 2 tertiary flakes & 40.9486522 & -89.52782901\\
+			sf7 & 1 tertiary flake & 40.94883028 & -89.52787151\\
+			sf8 & 1 tertiary flake & 40.94897144 & -89.52776448\\
+			sf9 & 1 core fragment & 40.9492281 & -89.52776117\\
+			sf10 & 1 secondary flake & 40.94941522& -89.52767095\\
+			sf11 & 1 tertiary flake & 40.94937536 & -89.52806444\\
+			
+			sf13 & 2 tertiary flakes & 40.94962667 & -89.52809194\\
+			sf14 & 1 shatter & 40.94962032 & -89.52805687\\
+			sf15 & 1 tertiary flake & 40.94950339 & -89.5280134\\
+			sf16 & 1 tertiary flake & 40.94963538 & -89.52800544\\
+			sf17 & 1 tertiary flake & 40.94965328 & -89.52802595\\
+			sf18 & 1 secondary flake & 40.94966725 & -89.52799988\\
+			sf19 & "1 core fragment, 1 tertiary flake" & 40.9496856 & -89.52803395\\
+			sf20 & 1 core & 40.94965948 & -89.52806452\\
+			sf21 & "1 core fragment, 2 tertiary flakes" & 40.94968097 & -89.52808971\\
+			sf22 & "3 tertiary flakes, 1 stoneware" & 40.94972018 & -89.52810655\\
+			sf23 & 1 retouched flake & 40.94975428 & -89.52810943\\
+			sf24 & 2 tertiary flakes & 40.94976751 & -89.52810645\\
+			sf25 & "1 tertiary flake, 1 secondary flake" & 40.9498316 & -89.52810721\\
+			sf26 & 1 primary flake & 40.94989497 & -89.52805395\\
+			sf27 & 1 retouched flake & 40.94981654 & -89.52798297\\
+			sf28 & 1 tertiary flake & 40.94973524 & -89.52800218\\
+			sf29 & 1 tertiary flake & 40.9497093 & -89.52800631\\
+			sf30 & 1 shatter & 40.94971709 & -89.52804101\\
+			sf31 & 1 tertiary flake & 40.9497171 & -89.52806701\\
+			sf32 & 1 tertiary flake & 40.94970053 & -89.52802665\\
+			sf33 & "1 secondary flake, 1 tertiary flake" & 40.94956983 & -89.52782244\\
+			sf34 & 1 tertiary flake & 40.9495253 & -89.52750855\\
+			sf35 & 1 tertiary flake & 40.94967932 & -89.52771129\\
+			sf36 & 1 core fragment & 40.94988861 & -89.52741928\\
+			sf37 & 1 secondary flake & 40.94985947 & -89.52740205\\
+			
+			sf39 & 1 secondary flake & 40.95024988 & -89.5268014\\
+			sf40 & 1 secondary flake & 40.95070412 & -89.52646785\\
+			sf41 & 1 tertiary flake & 40.95056157 & -89.52639152\\
+			sf42 & 1 tertiary flake & 40.95057016 & -89.52629411\\
+			
+			sf44 & "1 FCR, 1 tertiary flake" & 40.95072869 & -89.52603597\\
+			sf45 & 1 tertiary flake & 40.95044356 & -89.52600355\\
+			sf46 & 1 tertiary flake & 40.95028082 & -89.52594142\\
+			
+			sf48 & 1 shatter & 40.94987261 & -89.52630411\\
+			sf49 & 1 tertiary flake & 40.9497836, & 89.5262213\\
+			sf50 & 1 secondary flake & 40.95042505 & -89.52573454\\
+			sf51 & 2 tertiary flakes & 40.95045562 & -89.52553479\\
+			sf52 & 1 tertiary flake & 40.950319 & -89.52508753\\
+			sf53 & "1 point, 1 tertiary flake" & 40.94993277 & -89.52477434\\
+			sf53a & 1 tertiary flake & 40.94986651 & -89.5246975\\
+			sf54 & 1 tertiary flake & 40.9499595 & -89.52480887\\
+			sf55 & 1 tertiary flake & 40.9499532 & -89.52485436\\
+			sf56 & 1 bifacial scraper & 40.94994775 & -89.52501497\\
+			sf57 & 1 tertiary flake & 40.94999461 & -89.52495485\\
+			sf58 & 1 core & 40.95008413 & -89.52484783\\
+			sf59 & 1 biface fragment & 40.95009964 & -89.5247779\\
+			sf59 & 1 tertiary flake & 40.95018641 & -89.52475365\\
+			sf60 & "1 tertiary flake, 1 shatter" & 40.95019884 & -89.52478306\\
+			sf61 & 1 tertiary flake & 40.95019788 & -89.52475426\\
+			sf62 & 1 primary flake & 40.95016785 & -89.5246658\\
+			
+			sf64 & 2 tertiary flakes & 40.95005369 & -89.52500774\\
+			sf65 & 1 secondary flake & 40.95050061 & -89.52500237\\
+			sf66 & "1 primary flake, 1 tertiary flake" & 40.95044923 & -89.52479091\\
+			sf67 & 2 secondary flakes & 40.95046421 & -89.52476255\\
+			sf68 & 1 tertiary flake & 40.95046009 & -89.52474702\\
+			sf69 & 1 secondary flake & 40.95043143 & -89.52473175\\
+			sf70 & 1 tertiary flake & 40.95044108 & -89.52471769\\
+			sf71 & 2 tertiary flakes & 40.9504436 & -89.52469468\\
+			sf72 & 1 tertiary flake & 40.95045829 & -89.52469072\\
+			sf73 & 2 tertiary flakes & 40.95047559 & -89.52469747\\
+			sf74 & 1 tertiary flake & 40.95036439 & -89.5247777\\
+			sf75 & "1 secondary flake, 1 tertiary flake" & 40.95046626 & -89.52466693\\
+			sf76 & "1 primary flake, 1 retouched flake" & 40.95045562 & -89.52463776\\
+			sf77 & 1 shatter & 40.95043794 & -89.52466056\\
+			sf78 & 2 tertiary flakes & 40.95042365 & -89.52467165\\
+			sf79 & 2 tertiary flakes & 40.95040597 & -89.52467157\\
+			sf80 & 1 celt & 40.95038124 & -89.52468533\\
+			sf81 & 3 tertiary flakes & 40.95035622 & -89.52468469\\
+			sf82 & "1 core fragment, 3 tertiary flakes" & 40.95035775 & -89.52465694\\
+			sf83 & 2 primary flakes & 40.95040093 & -89.52463644\\
+			sf84 & "1 tertiary flake, 1 window glass" & 40.95041334 & -89.52463445\\
+			sf85 & 5 tertiary flakes & 40.95043298 & -89.52461559\\
+			sf86 & 1 tertiary flake & 40.95044312 & -89.5246119\\
+			sf87 & 1 shatter & 40.95048302 & -89.52462516\\
+			sf88 & "1 secondary flake, 1 tertiary flake" & 40.9504956 & -89.52460872\\
+			sf89 & 1 tertiary flake & 40.9505093 & -89.52460525\\
+			sf90 & 1 tertiary flake & 40.95051249 & -89.52455681\\
+			sf91 & 1 tertiary flake & 40.95012896 & -89.52458865\\
+			sf92 & 1 tertiary flake & 40.95014781 & -89.52458535\\
+			sf93 & 3 tertiary flakes & 40.95021973 & -89.5245784\\
+			sf94 & 1 tertiary flake & 40.95023946 & -89.52458972\\
+			sf95 & 1 amethyst glass & 40.95025849 & -89.52458468\\
+			sf96 & 1 retouched flake & 40.95027176 & -89.52456371\\
+			sf97 & "1 drill fragment, 2 tertiary flakes" & 40.9502991 & -89.5245654\\
+			sf98 & 1 tertiary flake & 40.9502896 & -89.52454664\\
+			sf99 & "1 shatter, 1 tertiary flake" & 40.95035401 & -89.52453234\\
+			sf100 & 1 tertiary flake & 40.95039653 & -89.52452628\\
+			sf101 & 1 tertiary flake & 40.95046115 &-89.52450839\\ 
+			sf102 & 1 secondary flake & 40.95045723 & -89.52448173\\
+			sf103 & 2 tertiary flakes & 40.95039865 & -89.52440469\\
+			sf104 & 1 tertiary flake & 40.95022052 & -89.524454\\
+			sf105 & 1 shatter & 40.95021693 & -89.52438445\\
+			sf106 & 1 tertiary flake & 40.95018466 & -89.52444871\\ 
+			sf107 & 1 tertiary flake & 40.95006659 & -89.52458796\\
+			sf108 & 1 secondary flake & 40.94997004 & -89.52464923\\
+			sf109 & 1 secondary flake & 40.94991675 & -89.52464662\\
+			sf110 & 1 secondary flake & 40.94980572 & -89.52466662\\
+			sf111 & "1 secondary flake, 2 tertiary flakes" & 40.94981196 & -89.52470122\\
+			sf112 & 3 tertiary flakes & 40.94984189 & -89.52479066\\
+			sf113 & 1 tertiary flake & 40.94985748 & -89.52489918\\
+			sf114 & 1 tertiary flake & 40.94979951 & -89.52484212\\
+			sf115 & 1 tertiary flake & 40.94975889 & -89.52488284\\
+			sf116 & 1 secondary flake & 40.94974051 & -89.52488991\\
+			sf117 & 1 tertiary flake & 40.94963306 & -89.52484763\\
+			sf118 & 1 tertiary flake & 40.94945542 & -89.52469502\\
+			sf119 & 1 primary flake & 40.94927683 & -89.52473281\\
+			sf120 & 1 biface fragment & 40.94908033 & -89.52462171\\
+			sf121 & 1 tertiary flake & 40.94888714 & -89.52454081\\
+			
+			sf123 & 1 tertiary flake & 40.94969854 & -89.5249904\\
+		
+			sf125 & 1 secondary flake & 40.95018296 & -89.52429881\\
+			sf126 & 1 tertiary flake & 40.95033576 & -89.52431811\\
+			sf127 & "2 tertiary flakes, 1 secondary flake" & 40.95036164 & -89.52433617\\
+			sf128 & 1 whiteware & 40.95036824 & -89.52429207\\
+			sf129 & 1 tertiary flake & 40.95045736 & -89.524324\\ 
+			sf130 & 1 whiteware & 40.95048569 & -89.52418032\\
+			sf131 & 1 window glass & 40.95042432 & -89.52410044\\
+			sf132 & 1 stoneware & 40.95047129 & -89.52403482\\
+			sf133 & 1 core fragment & 40.95052204 & -89.52396686\\
+			sf134 & 1 tertiary flake & 40.95052742 & -89.52389739\\
+			sf135 & 1 tertiary flake & 40.95043939 & -89.52387351\\
+			sf136 & 1 stoneware & 40.95042152 & -89.52388797\\
+			sf137 & 2 window glass & 40.95041133 & -89.52377489\\
+			sf138 & 1 green glass & 40.9503933 & -89.52382725\\
+			sf139 & 1 stoneware & 40.95033141 & -89.52385113\\
+			sf140 & "1 tertiary flake, 1 stoneware" & 40.95029528 & -89.52399401\\
+			sf141 & 1 secondary flake & 40.95027049 & -89.52407741\\
+			sf142 & 1 whiteware & 40.95025967 & -89.52419254\\
+			sf143 & 1 tertiary flake & 40.9500681 & -89.52416227\\
+			sf144 & 1 stoneware & 40.95002652 & -89.52405535\\
+			sf145 & 1 stoneware rimsherd & 40.95009587 & -89.52392194\\
+			sf146 & 1 aqua glass & 40.94998837 & -89.52385997\\ 
+			sf147 & 1 tertiary flake & 40.94991664 & -89.52376541\\
+			sf148 & 1 aqua glass & 40.95001736 & -89.52376021\\
+		
+			sf150 & 1 window glass & 40.95021977 & -89.52365344\\
+			
+			sf152 & 1 clear vessel glass & 40.95026486 & -89.52363635\\
+			sf153 & "2 stoneware, 1 green glass" & 40.95031935 & -89.52364501\\
+			sf154 & 2 stoneware & 40.95029563 & -89.52372804\\
+			sf155 & 4 window glass & 40.95032048 & -89.52375713\\
+			sf156 & 1 whiteware & 40.95013985 & -89.52351437\\
+			sf157 & 1 shatter & 40.95005362 & -89.52346045\\
+			sf158 & "1 primary flake, 1 retouched flake, 1 tertiary flake" & 40.95002315 & -89.52355251\\
+			sf159 & 1 secondary flake & 40.94990431 & -89.52346562\\
+			sf160 & 1 secondary flake & 40.9497558 & -89.52371989\\
+			sf161 & 1 brown glass & 40.94966713 & -89.52371068\\
+			sf162 & 1 tertiary flake & 40.94963829 & -89.52377479\\
+			sf163 & 1 tertiary flake & 40.94966525 & -89.52408893\\
+			sf164 & 1 primary flake & 40.94959686 & -89.52406058\\
+			sf165 & 1 stoneware & 40.94950887 & -89.52412912\\
+			sf166 & 1 tertiary flake & 40.94882226 & -89.52372596\\
+			sf167 & 1 tertiary flake & 40.94868542 & -89.52350372\\
+			sf168 & 1 core fragment & 40.94887093 & -89.52355887\\
+			sf169 & 2 tertiary flakes & 40.94899819 & -89.52354185\\
+			sf170 & 1 tertiary flake & 40.94910867 & -89.5236878\\
+			sf171 & 1 tertiary flake & 40.9492494 & -89.52361912\\
+			sf172 & 1 tertiary flake & 40.94938578 & -89.52353135\\
+			sf173 & 1 stoneware & 40.95024796 & -89.52383476\\
+			sf174 & "1 green glass, 1 stoneware, 1 whiteware" & 40.95025796 & -89.52372628\\
+			sf175 & 1 primary flake & 40.95015357 & -89.52356523\\
+			sf176 & 1 retouched flake & 40.95018284 & -89.52403452\\
+			sf177 & "1 whiteware, 1 stoneware, 1 aqua glass" & 40.95000464 & -89.52392499\\
+			sf178 & 1 tertiary flake & 40.94827048 & -89.52261659\\
+			sf179 & 1 tertiary flake & 40.94819692 & -89.52242734\\
+			
+			sf181 & 1 secondary flake & 40.9481897 & -89.52255491\\
+			sf182 & "1 shatter, 1 tertiary flake" & 40.94966676 & -89.52830119\\
+			sf183 & "1 shatter, 1 tertiary flake" & 40.94919022 & -89.52819365\\
+			sf184 & 1 tertiary flake & 40.95165738 & -89.52678554\\
+			sf185 & 1 tertiary flake & 40.95167117 & -89.5267255\\
+			sf186 & 1 core & 40.95155757 & -89.52672249\\
+			sf187 & 1 tertiary flake & 40.95168914 & -89.52639571\\
+			sf188 & 1 tertiary flake & 40.95137371 & -89.52595282\\
+			
+			sf190 & 1 tertiary flake & 40.9513237 & -89.52587515\\
+			sf190a & 1 tertiary flake & 40.95133208 & -89.52593177\\
+			sf191 & 1 shatter & 40.95125993 & -89.52567386\\
+			sf192 & 1 tertiary flake & 40.95177146 & -89.52577385\\
+			sf193 & 1 tertiary flake & 40.95153148 & -89.52520687\\
+			sf194 & 1 tertiary flake & 40.95156715 & -89.5252106\\
+			sf195 & 1 secondary flake & 40.951467 & -89.52507684\\
+			sf196 & 1 tertiary flake & 40.95137367 & -89.52515201\\
+			sf197 & 1 tertiary flake & 40.95013417 & -89.52371607\\
+			
+			sf200 & 1 point & 40.95149946 & -89.52501709\\
+			sf201 & 1 glass bottle base (1948) & 40.95172058 & -89.52504096\\
+			sf203 & 2 tertiary flakes & 40.95149625 & -89.5249107\\
+			sf204 & 1 tertiary flake & 40.95153266 & -89.52478338\\
+			sf205 & 1 secondary flake & 40.95144546 & -89.52465978\\
+
+			sf207 & 1 tertiary flake & 40.95145944 & -89.52458343\\
+			sf208 & "2 tertiary flakes, 1 secondary flake" & 40.95132396 & -89.52433631\\
+			sf209 & 2 tertiary flakes & 40.95130089 & -89.52414541\\
+			sf210 & 1 tertiary flake & 40.95039616 & -89.52462425\\
+			sf211 & 1 tertiary flake & 40.95039627 & -89.52471669\\
+			sf212 & 1 tertiary flake & 40.95032887 & -89.52472975\\
+			sf213 & 1 tertiary flake & 40.95027136 & -89.52468689\\
+			sf214 & 1 tertiary flake & 40.95027306 & -89.5246306\\
+			sf215 & 1 tertiary flake & 40.95022678 & -89.52467668\\
+			sf216 & 1 tertiary flake & 40.95018432 & -89.52466982\\
+			sf217 & 1 tertiary flake & 40.95012185 & -89.52406551\\
+
+			sf220 & "1 tertiary flake, 1 secondary flake" & 40.95136577 & -89.52451983\\
+			sf221 & 1 tertiary flake & 40.95135438 & -89.52430518\\
+			sf222 & 1 shatter & 40.95140959 & -89.5243117\\
+			sf223 & 1 secondary flake & 40.95149602 & -89.52421285\\
+			sf224 & 2 tertiary flakes & 40.95157711 & -89.52430846\\
+			sf225 & 1 tertiary flake & 40.95160776 & -89.524149\\
+			sf226 & 1 tertiary flake & 40.95180761 & -89.52421283\\
+			sf227 & 1 secondary flake & 40.9520647 & -89.52380549\\
+			sf228 & 1 tertiary flake & 40.95241683 & -89.52348517\\
+			
+			sf230 & 1 secondary flake & 40.95299296 & -89.5233553\\
+			sf231 & 1 retouched flake & 40.95295133 & -89.52440865\\
+			sf232 & 1 secondary flake & 40.95295114 & -89.52451167\\
+			sf233 & 1 core & 40.95287841 & -89.52475525\\
+			sf234 & 2 tertiary flakes & 40.95139048 & -89.52413098\\
+			
+			sf236 & 3 "tertiary flakes, 1 secondary flake" & 40.95133661 & -89.5240851\\
+			sf237 & 2 tertiary flakes & 40.95134356 & -89.52404946\\
+			sf238 & 1 tertiary flake & 40.95126128 & -89.52396289\\
+			sf239 & 1 tertiary flake & 40.95133568 & -89.52393586\\
+			sf239 & 1 tertiary flake & 40.95276942 & -89.52326287\\
+			sf240 & 1 tertiary flake & 40.95125348 & -89.52383571\\
+			sf241 & 1 secondary flake & 40.95129284 & -89.5238144\\
+			sf242 & 1 tertiary flake & 40.95121122 & -89.52378142\\
+			sf243 & 1 tertiary flake & 40.95129061 & -89.52354562\\
+			sf244 & 1 tertiary flake & 40.95155873 & -89.52368673\\
+			sf245 & 1 tertiary flake & 40.95163049 & -89.52342614\\
+			sf246 & 1 retouched flake & 40.9515273 & -89.52298341\\
+			sf247 & 1 tertiary flake & 40.95157144 & -89.52296178\\
+			
+			sf249 & 1 secondary flake & 40.95144096 & -89.52302815\\
+			sf250 & 2 tertiary flakes & 40.95126107 & -89.52367702\\
+			sf251 & 1 secondary flake & 40.95236467 & -89.52282811\\
+			sf252 & 1 tertiary flake & 40.95242076 & -89.52243148\\
+			sf253 & 1 tertiary flake & 40.95260106 & -89.52239536\\
+			sf254 & 1 tertiary flake & 40.95247778 & -89.52203888\\
+			sf254 & 1 tertiary flake & 40.95262722 & -89.52195638\\
+			sf255 & 1 tertiary flake & 40.95263262 & -89.52172333\\
+			sf256 & 1 secondary flake & 40.9529838 & -89.52203161\\
+			sf257 & 1 secondary flake & 40.95334947 & -89.52183701\\
+			sf258 & 1 tertiary flake & 40.95338457 & -89.5218029\\
+			sf259 & 2 tertiary flakes & 40.95339174 & -89.52176618\\
+			sf260 & 1 point & 40.95366914 & -89.52024879\\
+			
+			sf262 & 1 tertiary flake & 40.95316993 & -89.52167525\\
+			sf263 & 1 tertiary flake & 40.95336156 & -89.52176009\\
+			sf264 & 1 tertiary flake & 40.95336241 & -89.52158914\\
+			sf265 & 1 tertiary flake & 40.95363958 & -89.52160283\\
+			sf266 & 1 tertiary flake & 40.95353867 & -89.52128902\\
+			sf267 & 1 secondary flake & 40.95356289 & -89.52124301\\
+			sf268 & 1 tertiary flake & 40.95373246 & -89.52090442\\
+			sf269 & 1 tertiary flake & 40.95351418 & -89.5213983\\
+			sf270 & 1 tertiary flake & 40.95324654 & -89.52179653\\
+			sf271 & 1 tertiary flake & 40.95034527 & -89.52306386\\
+			sf272 & 1 blue glass & 40.95145657 & -89.52149604\\
+			sf273 & "1 ironstone sherd, 1 stoneware, 1 amethyst bottle" & 40.95162062 & -89.52137667\\
+			sf274 & 1 tertiary flake & 40.95031147 & -89.5229528\\
+			sf275 & 2 tertiary flakes & 40.95019684 & -89.52262138\\
+			sf276 & "1 primary flake, 2 tertiary flakes" & 40.95075132 & -89.52296895\\
+			sf277 & "1 point fragment, 1 tertiary flake" & 40.95133007 & -89.5241619\\
+			sf278 & 1 point fragment & 40.95132564 & -89.52432695\\
+			sf279 & 1 tertiary flake & 40.95137512 & -89.52381621\\
+			sf280 & 1 tertiary flake & 40.95144304 & -89.5237325\\
+			sf281 & 1 tertiary flake & 40.95238326 & -89.52384006\\
+			sf282 & 1 tertiary flake & 40.95267827 & -89.52325574\\
+			sf283 & bricks & 40.95159207 & -89.52164346\\
+			sf284 & brick & 40.95158544 & -89.52123303\\
+			sf285 & bricks & 40.95103447 & -89.52190462\\
+			sf286 & 1 tertiary flake & 40.95035914 & -89.52194232\\
+			sf287 & 1 tertiary flake & 40.95086583 & -89.52322686\\
+		\end{longtable}
+	%\end{sidewaystable}
+	\end{filecontents}
+	\LTXtable{\textwidth}{\jobname-document.tex}
+
+\pagebreak
+
+\begin{table}[]
+	\centering
+	\caption{Results of shovel testing}
+	\label{table_2}
+	\begin{tabular}{llll}
+		\hline
+		ID         & Artifacts                                        & Latitude    & Longitude    \\ \hline
+		stp2       & 1 tertiary flake                                 & 40.95026807 & -89.52471951 \\
+		stp55      & 1 square nail, 1 whiteware, 1 clear vessel glass & 40.95135977 & -89.52142825 \\
+		stp54      & 1 aqua glass                                     & 40.95127987 & -89.52162316 \\
+		stp53      & 1 whiteware                                      & 40.95118693 & -89.52173608 \\
+		stp29      & 1 tertiary flake                                 & 40.95074795 & -89.52176926 \\
+		stp33      & 1 tertiary flake                                 & 40.95028218 & -89.52144072 \\
+		stp55\_10S & 2 bricks (not collected)                         & 40.95128898 & -89.52138859 \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[]
+	\centering
+	\caption{Location of features}
+	\label{table_3}
+	\begin{tabular}{llll}
+		\hline
+		ID       & Latitude    & Longitude    & Feature Type        \\ \hline
+		feature1 & 40.95148667 & -89.52148618 & Cellar pit          \\
+		feature2 & 40.95145196 & -89.52145442 & Brick vault cistern \\
+		feature3 & 40.95134446 & -89.52143335 & Pit                 \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\end{document}
+
+%\begin{longtable}{llllllll}
+%	\caption{Results of pedestrian survey}\\
+%	\label{table_1}
+%	ID & Artifacts & Latitude & Longitude & ID & Artifacts & Latitude & Longitude\\
+%	\hline\endfirsthead
+%	\caption{continued from previous page} \\
+%	\hline\endhead
+%	\hline\endfoot
+%	\hline\endlastfoot
+	
+%	sf1 & 1 point fragment, 1 tertiary flake & 40.94966335 & -87.5280935 & sf233 & 1 core & 40.95287841 & -89.52475525\\
+	
+%\end{longtable}
+
