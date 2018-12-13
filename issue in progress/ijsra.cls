@@ -626,7 +626,7 @@ Issue \IJSRAnumber\,|\,\IJSRAmonth\ \IJSRAyear
 	final=true	% = true, only with web-Documents!!
 }
 \RequirePackage{bookmark}
-\RequirePackage{cleveref}
+\AtBeginDocument{\RequirePackage{cleveref}}
 
 
 \endinput
