@@ -6,9 +6,12 @@
   % titlefigure=cover,%ratio: 1100x550
 %	nobib,
 %	draft
-]{ijsra}
+]{ijsra} 
+\usepackage{enumitem}
+	\usepackage{longtable}
 \newfontfamily\tamilfont[Ligatures=TeX]{NotoSerifTamil-Regular}
-
+ 
+\nonstopmode
 %\addbibresource{\jobname.bib}
 \addbibresource{Clark.bib}
 \addbibresource{Husemann1.bib}
@@ -17,8 +20,8 @@
 \addbibresource{Lindsey.bib}
 \addbibresource{Mwaita.bib}
 \addbibresource{Nyambiya.bib}
-\addbibresource{Robson.bib}
 \addbibresource{Schuitema.bib}
+\addbibresource{Robson.bib}
 
 \usepackage[delimiter="]{datatool}
 \DTLloaddb{advisory}{csv/advisory.csv}
@@ -26,12 +29,11 @@
 \DTLloaddb{editing}{csv/editing.csv}
 \DTLloaddb{reviewers}{csv/reviewers.csv}
 %  \includeonly{%
-% % preamble/colophon,
-% % %preamble/editorial,
+%  preamble/colophon,
+% preamble/editorial,
 % % %preamble/issue-presentation,
 % % % % %%%%------------------------------
 % % %------------------------------
-% % {preamble/issue-presentation},
 % % %------------------------------
 % % {27-Bruyn-Jordaan},
 % % %------------------------------
@@ -43,7 +45,7 @@
 % % {32-Hawkins},
 % % {34-Harris},
 % % %------------------------------
-%  {26-Maggio},
+%  % {26-Maggio},
 % }
 %%%%%%%%%%%%%%%%%%%
 %%%      document itself      %%%
@@ -52,15 +54,18 @@
 \frontmatter
 \include{preamble/colophon}
 \include{preamble/editorial}
+
 \include{preamble/_toc}
 %------------------------------
 \include{preamble/issue-presentation}
 \mainmatter
+
 %------------------------------
 \include{preamble/_part_interviews}
 \include{Vandergugten}
 %------------------------------
 \include{preamble/_part_articles}
+
 \include{Robson}
 \include{Nyambiya}
 \include{Mwaita}
