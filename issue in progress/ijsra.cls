@@ -46,7 +46,7 @@
 \DeclareOptionX{completeissue}{\booltrue{issue}}
 \DeclareOptionX{volume}{\def\IJSRAvolume{Vol.\addspace #1}}
 \DeclareOptionX{number}{\def\IJSRAnumber{#1}}
-\DeclareOptionX{titlefigure}{\def\IJSRAtitlefigure{\includegraphics[width=\linewidth]{figures/#1}}}
+\DeclareOptionX{titlefigure}{\def\IJSRAtitlefigure{\includegraphics[width=.5\linewidth]{figures/#1}}}
 \DeclareOptionX*{\OptionNotUsed}
 \ProcessOptionsX\relax
 
@@ -235,7 +235,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
   \ifdefempty{\submission}{}{submission: \ijsradate{\submission}}
   \ifdefempty{\acceptance}{}{| acceptance: \ijsradate{\acceptance}}
   \hfill pp.\,\ppages%
-\marginnote{\vspace{-5em}\includegraphics[width=\linewidth]{ijsra_logo}}}
+\marginnote{\vspace{-5em}\includegraphics[width=.5\linewidth]{ijsra_logo}}}
 }
 
 
