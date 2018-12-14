@@ -64,8 +64,8 @@
 	titlepage=on,				% own page for each title page
 	captions=tableabove,		% display table captions above the float env
 	numbers=noenddot,
-]{scrbook}%	
-								
+]{scrbook}%
+
 \RequirePackage{filecontents}
 %\RequirePackage{fontspec}
 \RequirePackage[osf]{libertine}
@@ -94,13 +94,13 @@
 
 \RequirePackage{enumitem}
 \setlist{
-  nosep, 
+  nosep,
   % itemindent=1em,
   % labelindent=0.5\parindent,
   % leftmargin=2em
   }
-  
-  
+
+
 \RequirePackage{alertmessage}
 \RequirePackage{marginnote}
 \RequirePackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
@@ -115,16 +115,16 @@
 \RequirePackage[
 detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	exponent-to-prefix  		= true,
-	round-mode          		= places, 
-	group-minimum-digits 	= 4, 
+	round-mode          		= places,
+	group-minimum-digits 	= 4,
 	group-separator		={,},		% für "12.345" statt "12 345"
 	range-phrase 			= {$\times$},%
 	zero-decimal-to-integer 	= true,	%aus "2.0" wird "2"
 	range-units			=single, 	% --> 2 x 2 m, - auskommentieren für 2 m x 2 m
-	]{siunitx} 
+	]{siunitx}
 \RequirePackage[					% advanced quotes
-	strict=true,					
-	style=english,					
+	strict=true,
+	style=english,
 ]{csquotes}
 \RequirePackage[					%% use  for bibliography
 	backend=biber,
@@ -177,7 +177,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 ]{geometry}
 \RequirePackage{multicol} % Used for the two-column layout of the document
 \RequirePackage[%
-	%hang, 
+	%hang,
 	small,
 	labelfont=bf,
 	up,
@@ -192,7 +192,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \RequirePackage{nth}
 \RequirePackage[content={Figure omitted due to faster compiling.}]{draftfigure}
 
-	
+
 \RequirePackage{chngcntr} %Voraussetzung fuer Fussnoten durch alle Kapitel durchnummerieren
 \RequirePackage{listings}
 \AtBeginDocument{\counterwithin{lstlisting}{chapter}}
@@ -202,20 +202,20 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \counterwithout{table}{chapter}
 
 %-------------------------------------------
-\newcommand*{\ijsradate}[1]{\expandafter\@ijsradate#1\@nil} 
-\newcommand*{\@ijsradate}{} 
+\newcommand*{\ijsradate}[1]{\expandafter\@ijsradate#1\@nil}
+\newcommand*{\@ijsradate}{}
 \def\@ijsradate#1-#2-#3\@nil{\begingroup
-	\year=#1\relax 
-	\month=#2\relax 
-	\day=#3\relax 
-	% \DayName{#1}{#2}{#3}, % 
+	\year=#1\relax
+	\month=#2\relax
+	\day=#3\relax
+	% \DayName{#1}{#2}{#3}, %
   \today%
-	\endgroup} 
-	
-\RequirePackage[ 
-	headsepline, 
+	\endgroup}
+
+\RequirePackage[
+	headsepline,
 	draft=false,
-	]{scrlayer-scrpage} 
+	]{scrlayer-scrpage}
 \pagestyle{scrheadings}
 \clearscrheadfoot
 \addtokomafont{pageheadfoot}{\normalfont\sffamily\footnotesize}
@@ -227,14 +227,14 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \lehead{\textbf{\thepage}}
 \refoot{International Journal of Student Research in Archaeology}
 \lofoot{\yearnumber}
-\automark[subsection]{section}  
+\automark[subsection]{section}
 
 
 \newpairofpagestyles[scrheadings]{ijsrachapter}{\clearscrheadfoot
-\chead{International Journal of Student Research in Archaeology | IJSRA\hfill\yearnumber\\ 
+\chead{International Journal of Student Research in Archaeology | IJSRA\hfill\yearnumber\\
   \ifdefempty{\submission}{}{submission: \ijsradate{\submission}}
   \ifdefempty{\acceptance}{}{| acceptance: \ijsradate{\acceptance}}
-  \hfill pp.\,\ppages%
+  \hfill\ppages%
 \marginnote{\vspace{-5em}\includegraphics[width=.5\linewidth]{ijsra_logo}}}
 }
 
@@ -302,7 +302,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 
 \appto\quote{\normalsize\singlespacing}
 %-----------------------------------------
-\newcommand\ppages{\pagerange{firstpage\IJSRAidentifier}{lastpage\IJSRAidentifier}}
+\newcommand\ppages{pp.\,\pagerange{firstpage\IJSRAidentifier}{lastpage\IJSRAidentifier}}
 \newcommand\shorttitle{}
 \newcommand\maintitle{}
 \newcommand\maintitletoc{\let\\ \relax\maintitle}
@@ -405,11 +405,11 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\ifdef{\authorfour}{, \authorfour}{}%
 	\ifdef{\authorfive}{, \authorfive}{}
 }
-	
-	
-	
-	
-	
+
+
+
+
+
 
 \newenvironment{IJSRAabstract}
 {\list{}{\rightmargin\leftmargin}%
@@ -461,12 +461,12 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 	\email
 	\ifdef{\affilone}{\\ \textsuperscript{\ifdef{\affiloneauthor}{$\affiloneauthor$}{}}\affilone}{}%
 	\ifdef{\affiltwo}{\\ \ifdef{\affiltwoauthor}{\textsuperscript{$\affiltwoauthor$}}{}\affiltwo}{}%
-	\ifdef{\affilthree}{\\ \ifdef{\affilthreeauthor}{\textsuperscript{$\affilthreeauthor$}}{}\affilthree}{}%	
+	\ifdef{\affilthree}{\\ \ifdef{\affilthreeauthor}{\textsuperscript{$\affilthreeauthor$}}{}\affilthree}{}%
 	\ifdef{\affilfour}{\\ \ifdef{\affilfourauthor}{\textsuperscript{$\affilfourauthor$}}{}\affilfour}{}%
 	\ifdef{\affilfive}{\\ \ifdef{\affilfiveauthor}{\textsuperscript{$\affilfiveauthor$}}{}\affilfive}{}%
 \end{center}
 	\vspace{3em}
-	\pagestyle{scrheadings}	
+	\pagestyle{scrheadings}
 	\setcounter{footnote}{0}
 	\renewcommand*{\thefootnote}{\arabic{footnote}}
 	\label{firstpage\IJSRAidentifier}
@@ -478,7 +478,7 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 }{}
 }
 
-	
+
 \providecommand\IJSRAclosing{%
 \ifbool{nobib}{}{\IJSRAseparator\vspace*{-3em}
 	\printbibliography[heading=subbibliography]}
@@ -538,8 +538,8 @@ detect-all, %Zahlen werden in der aktuellen Schrift angezeigt
 \vspace{.6\linewidth}
 \begin{center}\color{white}
 \fontsize{40}{40}\selectfont
-International Journal of \\ 
-Student Research in \\ 
+International Journal of \\
+Student Research in \\
 Archaeology
 
 \vfill
@@ -555,11 +555,11 @@ Issue \IJSRAnumber\,|\,\IJSRAmonth\ \IJSRAyear
 
  \DeclareCaptionFormat{listing}{#1#2#3}
  \captionsetup[lstlisting]{format=listing,%
- 			 singlelinecheck=false, 
- 			 margin=0pt, 
+ 			 singlelinecheck=false,
+ 			 margin=0pt,
  			 font={sf},
  			 size=footnotesize}
- 
+
 
 
 \renewcommand{\lstlistingname}{Example}%rename caption
@@ -568,7 +568,7 @@ Issue \IJSRAnumber\,|\,\IJSRAmonth\ \IJSRAyear
 
 \lstdefinestyle{code}{%
 	language=[LaTeX]TeX,
-    backgroundcolor=\color{backcolour},   
+    backgroundcolor=\color{backcolour},
     commentstyle=\color{codegreen},
     keywordstyle=\color{codeblue},
     numberstyle=\tiny\color{codegray},
@@ -580,19 +580,19 @@ Issue \IJSRAnumber\,|\,\IJSRAmonth\ \IJSRAyear
     						@Inproceedings,@Talk,@Review,@Inreference,@Incollection,
     						},
     basicstyle=\ttfamily\footnotesize,
-    breakatwhitespace=false,         
-    breaklines=true,   
-    numberbychapter=false,   
-    captionpos=b,                    
-    keepspaces=true,               
-	%framexleftmargin=5mm, 
+    breakatwhitespace=false,
+    breaklines=true,
+    numberbychapter=false,
+    captionpos=b,
+    keepspaces=true,
+	%framexleftmargin=5mm,
 	%frame=shadowbox,
 	rulesepcolor=\color{codeblue},
-    numbers=left,                    
-    numbersep=5pt,            
-    showspaces=false,                
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
     showstringspaces=false,
-    showtabs=false,                  
+    showtabs=false,
     tabsize=2,
     literate=
             *{\{}{{{\color{codegreen}{\{}}}}{1}
