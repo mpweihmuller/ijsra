@@ -46,7 +46,7 @@
 \DeclareOptionX{completeissue}{\booltrue{issue}}
 \DeclareOptionX{volume}{\def\IJSRAvolume{Vol.\addspace #1}}
 \DeclareOptionX{number}{\def\IJSRAnumber{#1}}
-\DeclareOptionX{titlefigure}{\def\IJSRAtitlefigure{\includegraphics[width=.5\linewidth]{figures/#1}}}
+\DeclareOptionX{titlefigure}{\def\IJSRAtitlefigure{\includegraphics[width=\linewidth]{figures/#1}}}
 \DeclareOptionX*{\OptionNotUsed}
 \ProcessOptionsX\relax
 
