@@ -18,4 +18,4 @@ The following issues have been published for **IJSRA**:
 1. [2016 vol. 1 no. 1](https://github.com/LukasCBossert/ijsra/blob/master/issues-completed-pdf/ijsra_2016_01_01.pdf)
 2. [2016 vol. 1 no. 2](https://github.com/LukasCBossert/ijsra/blob/master/issues-completed-pdf/ijsra_2016_01_02/ijsra_2016_01_02.pdf)
 3. [2017 | 3](https://github.com/LukasCBossert/ijsra/blob/master/issues-completed-pdf/ijsra_2017_03/ijsra_2017_03-00.pdf)
-4. [2018 | 4](https://github.com/LukasCBossert/ijsra/blob/master/issues-completed-pdf/ijsra_2017_04/)
+4. [2018 | 4](https://github.com/LukasCBossert/ijsra/blob/master/issues-completed-pdf/ijsra_2018_04/)
