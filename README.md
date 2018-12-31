@@ -9,7 +9,7 @@ and the citation style [_biblatex-ijsra_](https://github.com/LukasCBossert/bibla
 Both are part of TeXlive/MikTeX distributions.
 
 ---
-We are always looking for people who would like to submit articles, contribute to peer-reviewing, or help in editing articles for publication.
+We are always looking for people who would like to submit articles, contribute to peer-review, or help edit articles for publication. If you are interested, you may contact us at editor.ijsra@gmail.com.
 
 If you wish to turn in your paper in LaTeX-Code you can use the template hosted at [OverLeaf](https://www.overleaf.com/latex/templates/template-for-international-journal-of-student-research-in-archaeology-ijsra/nwdmgkqqxkhd#.WF2fkLGYwiM).
 
