@@ -102,7 +102,7 @@ get-pandoc-scholar:
 	| cut -d : -f 2,3 \
 	| tr -d '"' \
 	| wget -qi -
-	sudo install -d -m 0777 $(PANDOC_SCHOLAR_PATH)
+	install -d -m 0777 $(PANDOC_SCHOLAR_PATH)
 	@unzip -qq pandoc-scholar.zip -d $(PANDOC_SCHOLAR_PATH_PREFIX)/
 	@rm -f pandoc-scholar.zip*	
 	$(echoPROJECT) "* pandoc-scholar installed * $(NC)"
