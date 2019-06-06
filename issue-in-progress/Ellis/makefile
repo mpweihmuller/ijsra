@@ -6,6 +6,7 @@ IN    :=$(if $(IN),$(IN),content/$(PROJECT))
 OUT   ?=$(IN)
 OUTDIR := $(dir $(OUT))
 OUTFILE := $(notdir $(OUT))
+DOCX = archive/$(PROJECT)
 # zip
 PWD   = $(shell pwd)
 TEMP := $(shell mktemp -d -t tmp.XXXXXXXXXX)
@@ -23,9 +24,12 @@ ARTICLE_FILE        ?= $(IN).md
 OUTFILE_PREFIX      ?= $(IN)
 PANDOC_SCHOLAR_PATH_PREFIX = /usr/local
 PANDOC_SCHOLAR_PATH = $(PANDOC_SCHOLAR_PATH_PREFIX)/pandoc-scholar
-PANDOC_LATEX_OPTIONS   =  --pdf-engine=lualatex
-PANDOC_WRITER_OPTIONS += data/metadata.yaml
-# TEMPLATE_FILE_LATEX = $(PROJECT)-template.latex
+PANDOC_LATEX_OPTIONS  +=  --pdf-engine=lualatex
+TEMPLATE_FILE_LATEX = ijsra.latex
+# PANDOC_WRITER_OPTIONS  = --standalone
+# PANDOC_WRITER_OPTIONS += --filter=pandoc-citeproc
+# PANDOC_WRITER_OPTIONS += --metadata-file=data/metadata.yaml 
+
 
 # checking if pandoc-scholar is available
 ifeq ($(wildcard $(PANDOC_SCHOLAR_PATH)),)
@@ -36,96 +40,12 @@ else
 include $(PANDOC_SCHOLAR_PATH)/Makefile
 endif
 
-########
-.PHONY: test
 
-
-test:
 
 docx2md:
-	pandoc -s $(IN).docx -t markdown -o archive/$(OUTFILE)-raw.md
+	pandoc -s $(DOCX).docx -t markdown -o archive/$(OUTFILE)-raw.md
 	$(MAKE) cleanmd
 	$(echoPROJECT) "* conversion .docx to .md finished * $(NC)"
 cleanmd:
 	$(shell perl -0777 -pe 's/\\\[\\\[/\[\@/g' archive/$(OUTFILE)-raw.md  > $(TEMP)/1.md)	
 	$(shell perl -0777 -pe 's/\\\]\\\]/\]/g'  $(TEMP)/1.md  >  content/$(OUTFILE).md)
-
-tif2jpg:
-	@cd figures && convert *.tif -set filename: "%t" %[filename:].jpg
-	@-mkdir archive/figures
-	@mv figures/*.tif archive/figures/
-	$(echoPROJECT) "* figures converted * $(NC)"
-
-# clean not needed files
-cleanup: 
-	@rm -f $(PROJECT).{xdv,aux,mw,bbl,bcf,blg,doc,fls,glo,gls,hd,idx,ilg,ind,\
-		listing,log,nav,out,run.xml,snm,synctex.gz,toc,vrb}
-	@rm -f *.fdb_latexmk
-	@rm -f *.fls
-	@rm -f *.run.xml
-	@rm -f *.blg
-	@rm -f *.toc
-	@rm -f *.glo
-	@rm -f *.pkglist
-	@rm -f *.ins
-	@rm -f *.bbl
-	@rm -f *.listing
-	@rm -f *.bcf	
-	@rm -f $(PROJECT).markdown.{in,lua,out}
-	@rm -f *.{log,aux}
-	@rm -rf _markdown_*
-	$(echoPROJECT) "* cleaned temp files * $(NC)"
-
-# clean all
-cleanbundle: cleanup
-	@rm -f *.{{b,c,d,l}bx,bib,ins,pdf,zip,cls,latex}
-	@rm -f *-style.sty
-	$(echoPROJECT) "* all files cleaned * $(NC)"
-
-# zip files for sending etc.
-zip:
-	$(echoPROJECT) "* start zipping files * $(NC)"
-	@-mkdir archive
-	@rm -f archive/$(PROJECT)-$(DATE)*.zip
-	@mkdir $(TDIR)
-	@cp $(PROJECT).{bib,tex,pdf,csv} README.md makefile $(TDIR)
-	@cd $(TEMP); \
-   zip -Drq $(PWD)/archive/$(PROJECT)-$(VERS).zip $(PROJECT)
-	$(echoPROJECT) "* files zipped * $(NC)"
-
-# minimize PDF
-minimize:
-	$(echoPROJECT) "* minimizing article * $(NC)"
-	@-mkdir archive
-	@rm -f archive/$(PROJECT)-$(DATE)*.pdf
-	gs \
-   -sDEVICE=pdfwrite \
-   -dCompatibilityLevel=1.4 \
-   -dPDFSETTINGS=/printer \
-   -dNOPAUSE \
-   -dQUIET \
-   -dBATCH \
-   -sOutputFile=archive/$(PROJECT)-$(VERS).pdf \
-  $(PROJECT).pdf
-	$(echoPROJECT) "* article minimized * $(NC)"
-
-# count pages with colors
-count.colorpages:
-	$(echoPROJECT) "* listing and counting colored pages * $(NC)"
-	@echo "Meta information about colors in $(PROJECT)"
-	@gs -o - -sDEVICE=inkcov $(PROJECT).pdf \
-   | tail -n +5 \
-   | sed '/^Page*/N;s/\n//' \
-   | tee $(PROJECT).csv
-	@echo -n "List of pages with colors: "
-	@cat $(PROJECT).csv \
-   | awk '$$3!="0.00000" ||  $$4!="0.00000" || $$5!="0.00000"{if(length(colored))colored=colored","$$2;else colored=$$2} END{print colored}' \
-   | tee  -a $(PROJECT).csv
-	@echo -n "Total amount of pages with color: "
-	@gs -o - -sDEVICE=inkcov $(PROJECT).pdf \
-   | grep -v "^ 0.00000  0.00000  0.00000" \
-   | grep "^ " \
-   | wc -l \
-   | sed 's/[[:space:]]//g' \
-   | tee  -a $(PROJECT).csv
-	$(echoPROJECT) "* colored pages listed and counted * $(NC)"

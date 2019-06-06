@@ -1,21 +1,305 @@
-\#Abstract Poggio Civitate is the location of an ancient Etruscan
-settlement in present-day Tuscany which, in the Archaic period
-(c.580-c.480 BC), was home to a monumental courtyard complex, its roof
-adorned with a series of terracotta acroteria. These acroteria took the
-form of seated and standing men and women, which form the basis of this
-study, as well as fantastic and real animals. The question addressed
-will be the appropriate identification of these figures, regarding which
-there is currently no scholarly agreement. The matter is contentious
-because of the uncertainty about the function of the Archaic Building
-itself. This paper argues that the Archaic Building most likely
-functioned as a domestic complex, based on an analysis of the plan of
-the building and its relationship to the previous phase. It is then
-argued that the arbitrary categories of ``mortal'' and ``divine'' often
-applied to the acroteria are an anachronism and that the acroteria
-should in fact be identified more broadly as status markers: symbols of
-the wealth and power of the Archaic Building's elite occupants.
+\documentclass[	
+	parskip=half,
+	twoside=true,				% onesite or twoside printing
+	headings=optiontohead, 	% \chapter[tocentry={}]{}
+	fontsize=11pt,				% font size
+	titlepage=on,				% own page for each title page
+	captions=tableabove,		% display table captions above the float env
+	numbers=noenddot,
+]{scrartcl}%	
+\KOMAoption{listof}{
+%  entryprefix,
+  totoc,
+  %numbered,
+  leveldown,
+}
+\usepackage{fontspec}
+\defaultfontfeatures{%
+  Ligatures = TeX
+ ,Scale = MatchLowercase
+ ,Numbers = OldStyle
+}
+\setmainfont[%
+ Ligatures = TeX
+  ,Numbers = OldStyle]{TeX Gyre Pagella}
+\setmonofont[Scale=1]{TeX Gyre Cursor}
+\setsansfont[%
+  ,LetterSpace = .8]{TeX Gyre Adventor-Regular}
+\linespread{1.05}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+  \usepackage{mathspec}
+  \else
+  \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[%
+,protrusion=true
+,expansion=true
+,verbose=true
+,final=true
+,letterspace=100
+,babel=true
+]{microtype}\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\RequirePackage[					% page layout modifications
+	paper=a4paper,				% 	- use A4 paper size
+	head=4\baselineskip,			% 	- no header
+	foot =4\baselineskip,
+	top=3cm,						% 	- total body: top margin
+	left=3cm,						% 	- total body: left margin (odd pages)
+	right=3cm,					% 	- total body: right margin (odd pages)
+	bottom=4cm,					% 	- total body: bottom margin
+]{geometry}
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+  pdftitle={The Acroteria From the Archaic Building at Poggio Civitate (Etruria)},
+  pdfkeywords={Poggio Civitate, Etruscan, architectural terracotta decoration, Archaic
+period},
+  colorlinks=true,
+  linkcolor=myblue,
+  citecolor=mygold,
+  urlcolor=myblue,
+  breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[
+	strict=true,					
+	style=english,					
+]{csquotes}
+\usepackage[
+	backend=biber,
+	style=ijsra,
+]{biblatex}
+\usepackage{graphicx,grffile}
+\graphicspath{{figures/}}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\usepackage[%
+	content={Figure omitted due to faster compiling.}
+]{draftfigure}
+\usepackage[%
+	%hang, 
+	small,
+	labelfont=bf,
+	up,
+	singlelinecheck=off,
+	justification=raggedright,
+	textfont=it,
+	up,
+]{caption} 
+\usepackage{subcaption}
 
-\textbf{Introduction}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\usepackage[shortlabels]{enumitem}
+\usepackage{xspace}
+\usepackage{xcolor}
+
+\definecolor{myblue}{rgb}{0,0,51}
+\definecolor{mygold}{RGB}{204,153,51}
+\definecolor{mybluetitle}{RGB}{28,40,65} % HEX 1c2841
+
+\makeatletter
+\newcommand*{\ijsradate}[1]{\expandafter\@ijsradate#1\@nil} 
+\newcommand*{\@ijsradate}{} 
+\def\@ijsradate#1-#2-#3\@nil{\begingroup
+	\year=#1\relax 
+	\month=#2\relax 
+	\day=#3\relax 
+	% \DayName{#1}{#2}{#3}, % 
+  \today%
+	\endgroup} 
+\makeatother	
+\usepackage[ 
+	headsepline, 
+	draft=false,
+]{scrlayer-scrpage} 
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\addtokomafont{pageheadfoot}{\normalfont\sffamily\footnotesize}
+\lohead{The Acroteria From the Archaic Building at Poggio Civitate (Etruria)}
+\rehead{Abbey L. R. Ellis}
+\rohead{\textbf{\thepage}}
+\lehead{\textbf{\thepage}}
+\refoot{International Journal of Student Research in Archaeology}
+\lofoot{2}
+\automark[subsection]{section}
+
+
+
+%-----------------------------
+\setkomafont{section}{\normalfont\Large}%\uppercase
+\setkomafont{subsection}{\normalfont}%\uppercase
+\setkomafont{subsubsection}{\normalfont}%\uppercase
+\setkomafont{paragraph}{\normalfont\scshape}%\uppercase
+\addtokomafont{descriptionlabel}{\normalfont\sffamily}%\textsf\large}%\uppercase
+\addtokomafont{sectioning}{\linespread{1}\selectfont} %einfacher Zeilenabstand in Überschriften
+\addtokomafont{headsepline}{\color{mygold}}
+\addtokomafont{labelinglabel}{\sffamily\bfseries}
+
+\setfootnoterule{0pt}
+
+\addtolength{\skip\footins}{.5\baselineskip} % Abstand Text <->
+\KOMAoptions{headsepline=3pt}
+
+\clubpenalty=10000				% prevent single lines at the beginning of a paragraph (Schusterjungen)
+\widowpenalty=10000				% prevent single lines at the end of a paragraph (Hurenkinder)
+\displaywidowpenalty=10000		%
+
+\usepackage[%
+	marginal,
+	ragged,%
+	hang, %
+	bottom%
+]{footmisc}
+\deffootnote{0em}{1em}{{\sffamily\textbf\thefootnotemark}\ }
+
+\raggedbottom
+
+
+\newcommand{\ppages}{\pageref{IJSRAfirstpage}--\pageref{IJSRAlastpage}}
+
+\newcommand\thanknote{Abbey Ellis is a PhD researcher working on a collaborative project at
+the School of Museum Studies, University of Leicester and Ashmolean
+Museum of Art and Archaeology, Oxford. Her current research focuses on
+archaeological plaster casts of Greek and Roman statuary, considering
+the authenticity, value, and uses of the casts as objects in their own
+right. Abbey has a background in archaeology, gaining a first class BA
+in Classical Archaeology and Ancient History, followed by a MSt in
+Classical Archaeology at Merton College, Oxford. Her interest in the
+Etruscan civilisation stems from her Masters studies.}
+
+
+
+\title{The Acroteria From the Archaic Building at Poggio Civitate (Etruria)}
+\usepackage{etoolbox}
+\AtBeginEnvironment{abstract}{\footnotesize\sffamily}
+
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1}}{}{}
+}
+\makeatother
+\subtitle{How Should They Be Interpreted?}
+\usepackage{authblk}
+\author[%
+  1%
+  ]{%
+  Abbey L. R. Ellis%
+  %
+  \textsuperscript{*\,}%
+  %%
+  %
+}
+\affil[1]{X}
+\date{}
+
+\makeatletter
+\renewcommand*{\maketitle}{%
+\thispagestyle{empty}
+\begin{minipage}[c][3cm]{.7\linewidth}
+International Journal of Student Research in Archaeology\\
+{\Huge IJSRA}
+\end{minipage}\hfill
+\begin{minipage}[c][3cm]{.29\linewidth}
+ \includegraphics[width=3cm]{ijsra_logo}
+\end{minipage}
+ {IJSRA | 
+publication: \textcolor{red}{missing \texttt{date-publication}}
+  | pp.\,\ppages\\
+submission: \textcolor{red}{missing \texttt{date-submission}}
+acceptance: \textcolor{red}{missing \texttt{date-acceptance}}
+}
+  \begin {center}%
+  \let \footnote \thanks
+ {\LARGE \@title \par}%
+ \vskip 1.5em%
+ {\large \lineskip .5em%
+  \begin {tabular}[t]{c}%
+  \@author
+  \end {tabular}\par}%
+      \vskip 0.2em{\textsuperscript{*}\,Correspondence:
+    Abbey L. R. Ellis \href{mailto:abbey.ellis@ashmus.ox.ac.uk}{abbey.ellis@ashmus.ox.ac.uk}\\
+  }%
+  %  \vskip 1em{\large \@date}%
+  \end {center}%
+  \par
+  \vskip 1.5em}
+\makeatother
+
+\begin{document}
+\label{IJSRAfirstpage}
+\maketitle
+
+\begin{abstract}
+Poggio Civitate is the location of an ancient Etruscan settlement in
+present-day Tuscany which, in the Archaic period (c.580-c.480 BC), was
+home to a monumental courtyard complex, its roof adorned with a series
+of terracotta acroteria. These acroteria took the form of seated and
+standing men and women, which form the basis of this study, as well as
+fantastic and real animals. The question addressed will be the
+appropriate identification of these figures, regarding which there is
+currently no scholarly agreement. The matter is contentious because of
+the uncertainty about the function of the Archaic Building itself. This
+paper argues that the Archaic Building most likely functioned as a
+domestic complex, based on an analysis of the plan of the building and
+its relationship to the previous phase. It is then argued that the
+arbitrary categories of ``mortal'' and ``divine'' often applied to the
+acroteria are an anachronism and that the acroteria should in fact be
+identified more broadly as status markers: symbols of the wealth and
+power of the Archaic Building's elite occupants.
+\par
+\textbf{Keywords:}
+Poggio Civitate, Etruscan, architectural terracotta decoration, Archaic
+period
+
+
+\end{abstract}
+
+
+
+
+\hypersetup{linkcolor=myblue}
+\setcounter{tocdepth}{3}
+\tableofcontents
+
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
 
 Poggio Civitate is located in northern inland Etruria, near to the River
 Ombrone and the modern \emph{comune} of Murlo, an hour's drive south of
@@ -158,7 +442,7 @@ not found in the position where they would have fallen from the roof
 (Edlund-Gantz 1972: 209). Fragments have been discovered in four main
 locations across the site: alongside the building's north wing; in the
 fossa ditch which runs along the building's west wing; within the
-so-called ``dump'' past the fossa; and inside the courtyard
+so-called \enquote{dump} past the fossa; and inside the courtyard
 (Edlund-Gantz 1972: 210). An assemblage of fragments belonging to the
 human figures has been discovered on the northern flank, which might
 indicate their original placement here (Winter 2009: 157). The animal
@@ -356,11 +640,11 @@ residential contexts, the aristocratic themes such as banqueting which
 are illustrated on the revetment plaques from the Archaic Building have
 also been taken to indicate that it functioned as a domestic complex
 (O'Donoghue 2013: 272). However, \textbf{the} original excavator wrote
-that it was ``out of the question'' for the building to be considered a
-domestic complex (Phillips 1992: xvi). Nevertheless, this paper,
-building on the above arguments made by O'Donoghue (2013) and Turfa and
-Steinmayer (2002), argues that an analysis of the plan of the Archaic
-Building confirms its residential function.
+that it was \enquote{out of the question} for the building to be
+considered a domestic complex (Phillips 1992: xvi). Nevertheless, this
+paper, building on the above arguments made by O'Donoghue (2013) and
+Turfa and Steinmayer (2002), argues that an analysis of the plan of the
+Archaic Building confirms its residential function.
 
 The plan of the Archaic Building at Poggio Civitate may well indicate
 its use as a domestic structure. Although there are few well-excavated
@@ -466,25 +750,20 @@ In addition to this, the Archaic Building's courtyard structure may well
 have functioned in the same manner as the atrium in the Roman
 \emph{domus}. Diodorus Siculus (\emph{Library of History} 5.40) records
 that in domestic architecture, the Romans adopted the Etruscan invention
-of the peristyle courtyard,\footnote{In line with the Loeb translation
-  of this passage, ``Τυρρηνῶν'' (literally ``Tyrrheni'') has here been
-  read as ``Etruscans''. That ``Tyrrheni'' refers to the Etruscans is
-  established by Strabo \emph{Geography} 5.2: ``Οἱ Τυρρηνοὶ τοίνυν παρὰ
-  τοῖς Ῥωμαίοις Ἑτροῦσκοι καὶ Τοῦσκοι προσαγορεύονται'' / ``The
-  Tyrrheni, then, are called among the Romans `Etrusci' and `Tusci.'\,''}
-a structure used to contain the homeowner's entourage. The Roman form of
-this structure is known as the atrium (Prayon 2009: 60), the reception
-space where the Roman paterfamilias could receive clients for the
-\emph{salutatio} ritual \textbf{\emph{(Platts 2016: 47). The anecdote
-from Diodorus Siculus suggests that the Etruscan courtyard was used for
-similar purposes, which may mean that the courtyard at Poggio Civitate
-functioned as a semi-public space within a domestic complex, like the
-Roman atrium. However,}} the size of the 40m² courtyard (Winter 2009:
-153) might make this proposal seem unlikely. Yet \textbf{\emph{there is
-strong evidence that the Orientalizing building OC1, which is of
-comparable size to the Archaic Building, served a domestic purpose. This
-means that the size of the complex need not discount the interpretation
-of the Archaic Building having a residential function.}}
+of the peristyle courtyard,{[}\^{}1{]} a structure used to contain the
+homeowner's entourage. The Roman form of this structure is known as the
+atrium (Prayon 2009: 60), the reception space where the Roman
+paterfamilias could receive clients for the \emph{salutatio} ritual
+\textbf{\emph{(Platts 2016: 47). The anecdote from Diodorus Siculus
+suggests that the Etruscan courtyard was used for similar purposes,
+which may mean that the courtyard at Poggio Civitate functioned as a
+semi-public space within a domestic complex, like the Roman atrium.
+However,}} the size of the 40m² courtyard (Winter 2009: 153) might make
+this proposal seem unlikely. Yet \textbf{\emph{there is strong evidence
+that the Orientalizing building OC1, which is of comparable size to the
+Archaic Building, served a domestic purpose. This means that the size of
+the complex need not discount the interpretation of the Archaic Building
+having a residential function.}}
 
 If the Archaic Building did function as a domestic complex, it would be
 in keeping with trends seen in wider Etruria. Studies of general
@@ -550,8 +829,8 @@ series of prayers are preserved where the divinities are consistently
 referred to as noble (Warden 2009: 209). This emphasizes the conflation
 of the noble and the divine for the Etruscans (Rix 1997: 393). It
 therefore seems an anachronism to enforce the modern separate categories
-of ``ancestor'' and ``god'' onto the acroteria. It may be more
-appropriate, and closer to the original Etruscan perception of the
+of \enquote{ancestor} and \enquote{god} onto the acroteria. It may be
+more appropriate, and closer to the original Etruscan perception of the
 sculptures, to consider the acroteria from Poggio Civitate as neither
 gods nor mortals.
 
@@ -607,4 +886,11 @@ consequence, this paper advocates the interpretation of the acroteria as
 status markers, symbols of the wealth and power wielded by the
 aristocrats who inhabited the Archaic Building. This approach is
 prioritized over that seen in existing scholarship, which favours the
-arbitrary categories of ``mortal'' or ``divine''.
+arbitrary categories of \enquote{mortal} or \enquote{divine}.
+
+
+\printbibliography[
+heading=subbibliography]
+
+\label{IJSRAlastpage}
+\end{document}

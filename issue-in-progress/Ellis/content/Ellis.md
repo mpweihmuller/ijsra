@@ -1,11 +1,24 @@
-**Abbey L. R. Ellis**
+---
+title: The Acroteria From the Archaic Building at Poggio Civitate (Etruria)
+subtitle: How Should They Be Interpreted?
+author:
+	- Abbey L. R. Ellis:
+		email: abbey.ellis@ashmus.ox.ac.uk
+		correspondence: "yes"
+		institute: X
+date-submission: "2018/05/02"
+date-acceptance: "2019/05/15"
+date-publication:
+number-publication: 2
+doi: 10.23.44/2313
+bio: Abbey Ellis is a PhD researcher working on a collaborative project at the School of Museum Studies, University of Leicester and Ashmolean Museum of Art and Archaeology, Oxford. Her current research focuses on archaeological plaster casts of Greek and Roman statuary, considering the authenticity, value, and uses of the casts as objects in their own right. Abbey has a background in archaeology, gaining a first class BA in Classical Archaeology and Ancient History, followed by a MSt in Classical Archaeology at Merton College, Oxford. Her interest in the Etruscan civilisation stems from her Masters studies.
+keywords: Poggio Civitate, Etruscan, architectural terracotta decoration, Archaic period
+babel-lang: english
+---
 
-abbey.ellis\@ashmus.ox.ac.uk
-
-**The Acroteria From the Archaic Building at Poggio Civitate (Etruria):
-How Should They Be Interpreted?**
-
-**Abstract:** Poggio Civitate is the location of an ancient Etruscan
+# Abstract
+ 
+Poggio Civitate is the location of an ancient Etruscan 
 settlement in present-day Tuscany which, in the Archaic period
 (c.580-c.480 BC), was home to a monumental courtyard complex, its roof
 adorned with a series of terracotta acroteria. These acroteria took the
@@ -22,10 +35,7 @@ applied to the acroteria are an anachronism and that the acroteria
 should in fact be identified more broadly as status markers: symbols of
 the wealth and power of the Archaic Building's elite occupants.
 
-**Keywords:** Poggio Civitate, Etruscan, architectural terracotta
-decoration, Archaic period
-
-**Introduction**
+# Introduction
 
 Poggio Civitate is located in northern inland Etruria, near to the River
 Ombrone and the modern *comune* of Murlo, an hour's drive south of the
@@ -610,10 +620,3 @@ status markers, symbols of the wealth and power wielded by the
 aristocrats who inhabited the Archaic Building. This approach is
 prioritized over that seen in existing scholarship, which favours the
 arbitrary categories of "mortal" or "divine".
-
-[^1]: In line with the Loeb translation of this passage, "Τυρρηνῶν"
-    (literally "Tyrrheni") has here been read as "Etruscans". That
-    "Tyrrheni" refers to the Etruscans is established by Strabo
-    *Geography* 5.2: "Οἱ Τυρρηνοὶ τοίνυν παρὰ τοῖς Ῥωμαίοις Ἑτροῦσκοι
-    καὶ Τοῦσκοι προσαγορεύονται" / "The Tyrrheni, then, are called among
-    the Romans 'Etrusci' and 'Tusci.'"
