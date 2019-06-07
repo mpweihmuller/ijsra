@@ -1,106 +1,79 @@
-PROJECT  =Croucher
-SHELL = bash
-MAKE  = make
-WHOAMI = $(shell whoami)
-IN    :=$(if $(IN),$(IN),content/$(PROJECT))
-OUT   ?=$(IN)
-OUTDIR := $(dir $(OUT))
+PROJECT =Croucher
+SHELL   = bash
+MAKE    = make
+WHOAMI  = $(shell whoami)
+IN      :=$(if $(IN),$(IN),content/$(PROJECT))
+OUT     ?=$(IN)
+OUTDIR  := $(dir $(OUT))
 OUTFILE := $(notdir $(OUT))
-# zip
-PWD   = $(shell pwd)
-TEMP := $(shell mktemp -d -t tmp.XXXXXXXXXX)
-TDIR  = $(TEMP)/$(PROJECT)
-VERS  = $(shell /bin/date "+%Y-%m-%d---%H-%M-%S")
-DATE  = $(shell /bin/date "+%Y-%m-%d")
+DOCX    ?= archive/$(PROJECT)
+TEMP    := $(shell mktemp -d -t tmp.XXXXXXXXXX)
 # Colors
 RED   = \033[0;31m
 CYAN  = \033[0;36m
 NC    = \033[0m
 echoPROJECT = @echo -e "$(CYAN) <$(PROJECT)>$(RED)"
 
-########
-ARTICLE_FILE        ?= $(IN).md
-OUTFILE_PREFIX      ?= $(IN)
-PANDOC_SCHOLAR_PATH_PREFIX = /usr/local
-PANDOC_SCHOLAR_PATH = $(PANDOC_SCHOLAR_PATH_PREFIX)/pandoc-scholar
-PANDOC_LATEX_OPTIONS   =  --pdf-engine=lualatex
-PANDOC_WRITER_OPTIONS += $(IN).yaml
-# TEMPLATE_FILE_LATEX = $(PROJECT)-template.latex
+########################################
+ARTICLE_FILE          ?= $(IN).md
+OUTFILE_PREFIX        ?= $(PROJECT)-IJSRA
+PANDOC_SCHOLAR_PATH_PREFIX = system
+PANDOC_SCHOLAR_PATH    = $(PANDOC_SCHOLAR_PATH_PREFIX)/pandoc-scholar
+PANDOC_LATEX_OPTIONS  += --biblatex --pdf-engine=latexmk --pdf-engine-opt=-lualatex -outdir=system/.latex
+TEMPLATE_FILE_LATEX    = system/ijsra.latex
+TEMPLATE_FILE_HTML     = system/ijsra.html
+PANDOC_READER_OPTIONS  = data/metadata.yaml
+PANDOC_WRITER_OPTIONS  = --standalone
+PANDOC_WRITER_OPTIONS += --csl=system/csl-styles/chicago-author-date.csl
+PANDOC_WRITER_OPTIONS += --filter=pandoc-citeproc
+PANDOC_WRITER_OPTIONS += --lua-filter=$(LUA_FILTERS_PATH)/short-captions/short-captions.lua
+DEFAULT_EXTENSIONS     =  latex pdf html epub
+########################################
+
 
 # checking if pandoc-scholar is available
 ifeq ($(wildcard $(PANDOC_SCHOLAR_PATH)),)
 all: 
 	$(echoPROJECT) "* pandoc-scholar is not detected. Downloading now. * $(NC)"
-	@$(MAKE) install
+	$(MAKE) updatesystem
+	$(MAKE)
 else
 include $(PANDOC_SCHOLAR_PATH)/Makefile
 endif
 
-########
-.PHONY: test
 
-
-test:
 
 docx2md:
-	pandoc -s $(IN).docx -t markdown -o archive/$(OUTFILE)-raw.md
+	pandoc --wrap=none -s $(DOCX).docx -t markdown -o archive/$(OUTFILE)-raw.md
 	$(MAKE) cleanmd
 	$(echoPROJECT) "* conversion .docx to .md finished * $(NC)"
 cleanmd:
-	$(shell perl -0777 -pe 's/\\\[\\\[/\[\@/g' archive/$(OUTFILE)-raw.md  > $(TEMP)/1.md)	
-	$(shell perl -0777 -pe 's/\\\]\\\]/\]/g'  $(TEMP)/1.md  >  content/$(OUTFILE).md)
+	$(shell perl -0777 -pe 's/\\@/@/g' archive/$(OUTFILE)-raw.md  > $(TEMP)/1a.md)	
+	$(shell perl -0777 -pe 's/\\\[/\[/g' $(TEMP)/1a.md  > $(TEMP)/1.md)	
+	$(shell perl -0777 -pe 's/\\\]/\]/g' $(TEMP)/1.md  > $(TEMP)/2.md)	
+	$(shell perl -0777 -pe 's/\[\@fig:(.*?)\]/\+fig:$$1/g' $(TEMP)/2.md  > $(TEMP)/3.md)	
+	$(shell perl -0777 -pe 's/\[figure-here\\\|(.*?)\\\|(.*?)\\\|(.*?)\\\|(.*?)\\\|(.*?)\]/![$$3](figures\/$$2){#fig:$$2 short-caption="$$4" width=$$5}/g'  $(TEMP)/3.md  >  content/$(OUTFILE).md)
 
-tif2jpg:
-	cd figures && \
-	 for f in *.tif; \
-	 do
-	 @echo "Converting $f"; \
-	 convert "$f"  "$(basename "$f" .tif).jpg"; done
-	 
-# clean not needed files
-cleanup: 
-	@rm -f $(PROJECT).{xdv,aux,mw,bbl,bcf,blg,doc,fls,glo,gls,hd,idx,ilg,ind,\
-		listing,log,nav,out,run.xml,snm,synctex.gz,toc,vrb}
-	@rm -f *.fdb_latexmk
-	@rm -f *.fls
-	@rm -f *.run.xml
-	@rm -f *.blg
-	@rm -f *.toc
-	@rm -f *.glo
-	@rm -f *.pkglist
-	@rm -f *.ins
-	@rm -f *.bbl
-	@rm -f *.listing
-	@rm -f *.bcf	
-	@rm -f $(PROJECT).markdown.{in,lua,out}
-	@rm -f *.{log,aux}
-	@rm -rf _markdown_*
-	$(echoPROJECT) "* cleaned temp files * $(NC)"
-
-# clean all
-cleanbundle: cleanup
-	@rm -f *.{{b,c,d,l}bx,bib,ins,pdf,zip,cls,latex}
-	@rm -f *-style.sty
-	$(echoPROJECT) "* all files cleaned * $(NC)"
-
-
-install: install-full
-	$(MAKE) get-pandoc-scholar
-	# $(MAKE) setup-folder
-	$(echoPROJECT) "* edition-topoi-plus installed * $(NC)"
-
-install-full:
-	$(echoPROJECT) "* installing needed programs and files * $(NC)"
+checksystem: csl
 	@which brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-	@which wget || brew install wget
 	@brew list pandoc || brew install pandoc
-	$(echoPROJECT) "* edition-topoi-plus fully installed * $(NC)"
+	@which pip || curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
+	| python get-pip.py \
+	| rm get-pip.py
+	@which pantable || pip install pantable
+	@which pandoc-crossref || brew install pandoc-crossref
+	$(echoPROJECT) "* system checked * $(NC)"
 
-# setup-folder:
-# 	@-mkdir project project/bibliography project/csl-styles
-# 	# git clone https://github.com/citation-style-language/styles.git project/csl-styles
-# 	# @curl -s https://raw.githubusercontent.com/citation-style-language/styles/master/deutsches-archaologisches-institut.csl >> project/csl-styles/deutsches-archaologisches-institut.csl
-# 	$(echoPROJECT) "* folder setup completed  * $(NC)"
+updatesystem: checksystem get-pandoc-scholar
+	-brew upgrade pandoc
+	-brew upgrade pandoc-crossref
+	-pip install --upgrade pandoc-pantable
+	$(echoPROJECT) "* system updated * $(NC)"$(echoPROJECT) "* edition-topoi-plus fully installed * $(NC)"
+
+csl:
+	@-mkdir system system/csl-styles
+	@curl -s https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-author-date.csl >> system/csl-styles/chicago-author-date.csl
+	$(echoPROJECT) "* csl downloaded  * $(NC)"
 
 
 get-pandoc-scholar:
@@ -109,55 +82,7 @@ get-pandoc-scholar:
 	| cut -d : -f 2,3 \
 	| tr -d '"' \
 	| wget -qi -
-	sudo install -d -m 0777 $(PANDOC_SCHOLAR_PATH)
+	install -d -m 0777 $(PANDOC_SCHOLAR_PATH)
 	@unzip -qq pandoc-scholar.zip -d $(PANDOC_SCHOLAR_PATH_PREFIX)/
 	@rm -f pandoc-scholar.zip*	
 	$(echoPROJECT) "* pandoc-scholar installed * $(NC)"
-
-# zip files for sending etc.
-zip:
-	$(echoPROJECT) "* start zipping files * $(NC)"
-	@-mkdir archive
-	@rm -f archive/$(PROJECT)-$(DATE)*.zip
-	@mkdir $(TDIR)
-	@cp $(PROJECT).{bib,tex,pdf,csv} README.md makefile $(TDIR)
-	@cd $(TEMP); \
-   zip -Drq $(PWD)/archive/$(PROJECT)-$(VERS).zip $(PROJECT)
-	$(echoPROJECT) "* files zipped * $(NC)"
-
-# minimize PDF
-minimize:
-	$(echoPROJECT) "* minimizing article * $(NC)"
-	@-mkdir archive
-	@rm -f archive/$(PROJECT)-$(DATE)*.pdf
-	gs \
-   -sDEVICE=pdfwrite \
-   -dCompatibilityLevel=1.4 \
-   -dPDFSETTINGS=/printer \
-   -dNOPAUSE \
-   -dQUIET \
-   -dBATCH \
-   -sOutputFile=archive/$(PROJECT)-$(VERS).pdf \
-  $(PROJECT).pdf
-	$(echoPROJECT) "* article minimized * $(NC)"
-
-# count pages with colors
-count.colorpages:
-	$(echoPROJECT) "* listing and counting colored pages * $(NC)"
-	@echo "Meta information about colors in $(PROJECT)"
-	@gs -o - -sDEVICE=inkcov $(PROJECT).pdf \
-   | tail -n +5 \
-   | sed '/^Page*/N;s/\n//' \
-   | tee $(PROJECT).csv
-	@echo -n "List of pages with colors: "
-	@cat $(PROJECT).csv \
-   | awk '$$3!="0.00000" ||  $$4!="0.00000" || $$5!="0.00000"{if(length(colored))colored=colored","$$2;else colored=$$2} END{print colored}' \
-   | tee  -a $(PROJECT).csv
-	@echo -n "Total amount of pages with color: "
-	@gs -o - -sDEVICE=inkcov $(PROJECT).pdf \
-   | grep -v "^ 0.00000  0.00000  0.00000" \
-   | grep "^ " \
-   | wc -l \
-   | sed 's/[[:space:]]//g' \
-   | tee  -a $(PROJECT).csv
-	$(echoPROJECT) "* colored pages listed and counted * $(NC)"

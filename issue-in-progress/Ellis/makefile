@@ -35,7 +35,7 @@ DEFAULT_EXTENSIONS     =  latex pdf html epub
 ifeq ($(wildcard $(PANDOC_SCHOLAR_PATH)),)
 all: 
 	$(echoPROJECT) "* pandoc-scholar is not detected. Downloading now. * $(NC)"
-	$(MAKE) get-pandoc-scholar
+	$(MAKE) updatesystem
 	$(MAKE)
 else
 include $(PANDOC_SCHOLAR_PATH)/Makefile
@@ -64,7 +64,7 @@ checksystem: csl
 	@which pandoc-crossref || brew install pandoc-crossref
 	$(echoPROJECT) "* system checked * $(NC)"
 
-updatesystem: checksystem
+updatesystem: checksystem get-pandoc-scholar
 	-brew upgrade pandoc
 	-brew upgrade pandoc-crossref
 	-pip install --upgrade pandoc-pantable

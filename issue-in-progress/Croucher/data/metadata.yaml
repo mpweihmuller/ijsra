@@ -10,6 +10,13 @@ institute:
 	- UCL:
 		name: University College London
 keywords: Osteoarchaeology, Funerary archaeology, Bioarchaeology, Skeletal anthropology, Chichester, Medieval archaeology, Industrial Revolution, Shoulder disease, Osteoarthritis, Impingement, Rotator cuff disease, Fracture
-bibliography: Croucher.bib
+bibliography: bib/Croucher.bib
 babel-lang: english
+dates:
+	- submission: 201X/XX/XX
+	- acceptance: 201X/XX/XX
+	- publication: 201X/XX/XX
+numbers:
+	- publicaton: X
+	- version: 1.0
 ---
