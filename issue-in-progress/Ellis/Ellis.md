@@ -1,3 +1,25 @@
+---
+title: The Acroteria From the Archaic Building at Poggio Civitate (Etruria)
+subtitle: How Should They Be Interpreted?
+author:
+	- Abbey L. R. Ellis:
+		email: abbey.ellis@ashmus.ox.ac.uk
+		correspondence: "yes"
+		institute: NN
+		bio: Abbey Ellis is a PhD researcher working on a collaborative project at the School of Museum Studies, University of Leicester and Ashmolean Museum of Art and Archaeology, Oxford. Her current research focuses on archaeological plaster casts of Greek and Roman statuary, considering the authenticity, value, and uses of the casts as objects in their own right. Abbey has a background in archaeology, gaining a first class BA in Classical Archaeology and Ancient History, followed by a MSt in Classical Archaeology at Merton College, Oxford. Her interest in the Etruscan civilisation stems from her Masters studies.
+dates:
+	- submission: 2018/05/02
+	- acceptance: 2019/05/15
+	- publication: 2019/06/XX
+publicationnumber: 2
+bibliography: bib/bibliography.bib
+doi: 10.23.44/2313
+keywords: Poggio Civitate, Etruscan, architectural terracotta decoration, Archaic period
+babel-lang: english
+lot: no
+---
+ 
+             
 Abstract
 ========
 
@@ -6,22 +28,22 @@ Poggio Civitate is the location of an ancient Etruscan settlement in present-day
 Introduction 
 =============
 
-Poggio Civitate is located in northern inland Etruria, near to the River Ombrone and the modern *comune* of Murlo, an hour's drive south of the major city of Siena (see **Fig.1**). It is situated in a prominent, highly visible position \[\@meyers2003etrusco, 114\] on the eastern portion of a hilltop plateau bordering central Tuscany \[\@Donati2000, 324; \@meyers2003etrusco, 72\]. Occupied since the Iron Age, the site was first monumentalized in the Orientalizing period (c.720-c.580 BC) \[\@Haynes2000, 115\]. After the Orientalizing Period complex was destroyed in the late seventh century BC \[\@Turfa2002, 3\], Poggio Civitate was rebuilt in the Archaic Period \[\@DamgaardAndersen1990,79\]. It was upon the Archaic Building that the rooftop acroteria considered in this paper once stood.
+Poggio Civitate is located in northern inland Etruria, near to the River Ombrone and the modern *comune* of Murlo, an hour's drive south of the major city of Siena (see **Fig.1**). It is situated in a prominent, highly visible position [@meyers2003etrusco, 114] on the eastern portion of a hilltop plateau bordering central Tuscany [@Donati2000, 324; @meyers2003etrusco, 72]. Occupied since the Iron Age, the site was first monumentalized in the Orientalizing period (c.720-c.580 BC) [@Haynes2000, 115]. After the Orientalizing Period complex was destroyed in the late seventh century BC [@Turfa2002, 3], Poggio Civitate was rebuilt in the Archaic Period [@DamgaardAndersen1990,79]. It was upon the Archaic Building that the rooftop acroteria considered in this paper once stood.
 
 A descriptive overview of the rooftop acroteria from the site will be given in Part One. To interpret these acroteria, one must first decide upon the likely function of the Archaic Building, something that is still disputed. Therefore, Part Two of this paper is dedicated to demonstrating precisely how the varied scholarly interpretations of the site's function impact the understanding of the acroteria. From this discussion, the conclusion is drawn that the Archaic Building functioned as a domestic structure. Finally, in Part Three, the implications that this proposed function has on the interpretation of the acroteria are explored. All dates given will be BC.
 
-\[figure-here\|1\|Ellis01.jpg\|Map showing the location of Poggio Civitate within wider Etruria.\|Plan by Renate Sponer Za for Winter, Symbols of Wealth and Power, 2009, page LII.\|80%\]
+![Map showing the location of Poggio Civitate within wider Etruria.](figures/Ellis01.jpg){#fig:Ellis01.jpg short-caption="Plan by Renate Sponer Za for Winter, Symbols of Wealth and Power, 2009, page LII." width=80%}
 
 Part One: Descriptive Overview
 ==============================
 
 The Orientalizing phase of occupation at Poggio Civitate (**Fig.2**) is dated from 650 to around 610/600BC, when a fire destroyed the site (Edlund-Gantz 1972: 198). The Orientalizing complex comprised three buildings; OC1, a residence; OC2, an industrial workshop; and OC3, a tripartite structure which has been interpreted as a religious building (Haynes 2000: 115).
 
-\[figure-here\|2\|Ellis02.jpg\|Plan of the Orientalizing phase at Poggio Civitate.\|Drawing by Renate Sponer Za for Winter, Symbols of Wealth and Power, 2009, Plan 8.\|80%\]
+![Plan of the Orientalizing phase at Poggio Civitate.](figures/Ellis02.jpg){#fig:Ellis02.jpg short-caption="Drawing by Renate Sponer Za for Winter, Symbols of Wealth and Power, 2009, Plan 8." width=80%}
 
 The Archaic Building (**Fig.3**) was constructed between 600-575BC atop the remains of the Orientalizing complex (Haynes 2000: 117). It consisted of a monumental four-winged structure measuring 60 x 61.8m (Meyers 2012: 4), enclosing a colonnaded courtyard (O'Donoghue 2013: 269), surrounded by four wings of continuous rooms (Meyers 2003: 70). On the western side, a defensive structure extended the complex a further 30m (Tuck et al. 2010: 93).
 
-\[figure-here\|3\|Ellis03.jpg\|Plan of the Archaic Building at Poggio Civitate.\|Drawing by Renate Sponer Za for Winter, Symbols of Wealth and Power, 2009, Plan 9.\|80%\]
+![Plan of the Archaic Building at Poggio Civitate.](figures/Ellis03.jpg){#fig:Ellis03.jpg short-caption="Drawing by Renate Sponer Za for Winter, Symbols of Wealth and Power, 2009, Plan 9." width=80%}
 
 The acroteria were part of a decorative programme which encompassed the whole terracotta roof. **The** roof was also decorated with sculpted female heads, feline waterspouts, rosettes, and gorgon antefixes (Edlund-Gantz 1972: 203), as well as relief sculpted revetment plaques, bearing images of a banquet, a procession, an assembly, and a horse race (Rathje 1994: 95). Stylistic analyses suggest that all of the roof elements were conceived as one sculptural programme (Winter 2009: 159). **Fig.4** provides a guide to where these elements would have been situated on the roof.
 

@@ -3,7 +3,7 @@ SHELL = bash
 MAKE  = make
 WHOAMI = $(shell whoami)
 #IN = $(PROJECT)
-IN    :=$(if $(IN),$(IN),content/$(PROJECT))
+IN    :=$(if $(IN),$(IN),$(PROJECT))
 OUT   ?=$(IN)
 OUTDIR := $(dir $(OUT))
 OUTFILE := $(notdir $(OUT))
@@ -22,13 +22,14 @@ echoPROJECT = @echo -e "$(CYAN) <$(PROJECT)>$(RED)"
 
 ########
 ARTICLE_FILE        ?= $(IN).md
-OUTFILE_PREFIX      ?= ./$(PROJECT)-IJSRA
+OUTFILE_PREFIX      ?= $(PROJECT)-IJSRA
 PANDOC_SCHOLAR_PATH_PREFIX = system
 PANDOC_SCHOLAR_PATH = $(PANDOC_SCHOLAR_PATH_PREFIX)/pandoc-scholar
-PANDOC_LATEX_OPTIONS  +=  --pdf-engine=lualatex
+PANDOC_LATEX_OPTIONS  +=  --biblatex --pdf-engine=lualatex --bibliography="bib/bibliography.bib"
 TEMPLATE_FILE_LATEX = system/ijsra.latex
-DEFAULT_EXTENSIONS    = latex pdf
-
+TEMPLATE_FILE_HTML = system/ijsra.html
+PANDOC_WRITER_OPTIONS  += --lua-filter=$(LUA_FILTERS_PATH)/short-captions/short-captions.lua  
+DEFAULT_EXTENSIONS    =  latex pdf html epub
 
 # checking if pandoc-scholar is available
 ifeq ($(wildcard $(PANDOC_SCHOLAR_PATH)),)
@@ -42,25 +43,35 @@ endif
 
 
 docx2md:
-	pandoc -s $(DOCX).docx -t markdown -o archive/$(OUTFILE)-raw.md
+	pandoc --wrap=none -s $(DOCX).docx -t markdown -o archive/$(OUTFILE)-raw.md
 	$(MAKE) cleanmd
+	$(MAKE) addmeta
 	$(echoPROJECT) "* conversion .docx to .md finished * $(NC)"
 cleanmd:
-	$(shell perl -0777 -pe 's/\\\[\\\[/\[\@/g' archive/$(OUTFILE)-raw.md  > $(TEMP)/1.md)	
-	$(shell perl -0777 -pe 's/\\\]\\\]/\]/g'  $(TEMP)/1.md  >  content/$(OUTFILE).md)
+	$(shell perl -0777 -pe 's/\\@/@/g' archive/$(OUTFILE)-raw.md  > $(TEMP)/1a.md)	
+	$(shell perl -0777 -pe 's/\\\[/\[/g' $(TEMP)/1a.md  > $(TEMP)/1.md)	
+	$(shell perl -0777 -pe 's/\\\]/\]/g' $(TEMP)/1.md  > $(TEMP)/2.md)	
+	$(shell perl -0777 -pe 's/\[\@fig:(.*?)\]/\+fig:$$1/g' $(TEMP)/2.md  > $(TEMP)/3.md)	
+	$(shell perl -0777 -pe 's/\[figure-here\\\|(.*?)\\\|(.*?)\\\|(.*?)\\\|(.*?)\\\|(.*?)\]/![$$3](figures\/$$2){#fig:$$2 short-caption="$$4" width=$$5}/g'  $(TEMP)/3.md  >  archive/$(OUTFILE)-plain.md)
+addmeta:
+	cat data/metadata.yaml > $(PROJECT).md
+	@echo -e "\n\n" >> $(PROJECT).md
+	cat archive/$(PROJECT)-plain.md  >> $(PROJECT).md
 
-
-install: install-full
-	$(MAKE) get-pandoc-scholar
-	# $(MAKE) setup-folder
-	$(echoPROJECT) "* edition-topoi-plus installed * $(NC)"
-
-install-full:
-	$(echoPROJECT) "* installing needed programs and files * $(NC)"
+checksystem:
 	@which brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-	@which wget || brew install wget
 	@brew list pandoc || brew install pandoc
-	$(echoPROJECT) "* edition-topoi-plus fully installed * $(NC)"
+	@which pip || curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
+	| python get-pip.py \
+	| rm get-pip.py
+	@which pantable || pip install pantable
+	@which pandoc-crossref || brew install pandoc-crossref
+	$(echoPROJECT) "* system checked * $(NC)"
+updatesystem: checksystem
+	-brew upgrade pandoc
+	-brew upgrade pandoc-crossref
+	-pip install --upgrade pandoc-pantable
+	$(echoPROJECT) "* system updated * $(NC)"$(echoPROJECT) "* edition-topoi-plus fully installed * $(NC)"
 
 # setup-folder:
 # 	@-mkdir project project/bibliography project/csl-styles

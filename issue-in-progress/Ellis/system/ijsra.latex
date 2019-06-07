@@ -125,6 +125,9 @@ $for(polyglossia-otherlangs)$
 $endfor$
 \fi
 $endif$
+\usepackage{multicol}
+  \setlength{\columnsep}{1.5cm}
+  \setlength{\columnseprule}{0.2pt}
 \usepackage[
 	strict=true,					
 	style=english,					
@@ -153,7 +156,7 @@ $if(tables)$
 \usepackage{longtable,booktabs,multirow}
 $endif$
 \usepackage{graphicx,grffile}
-\graphicspath{{figures/}}
+\graphicspath{{figures/}{./figures/}}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -175,7 +178,6 @@ $endif$
 	textfont=it,
 	up,
 ]{caption} 
-\usepackage{subcaption}
 
 $if(links-as-notes)$
 % Make links footnotes instead of hotlinks:
@@ -265,11 +267,7 @@ $endif$
 \rohead{\textbf{\thepage}}
 \lehead{\textbf{\thepage}}
 \refoot{International Journal of Student Research in Archaeology}
-$if(number-publication)$
-\lofoot{$number-publication$}
-$else$
-\lofoot{Missing number in \texttt{number-publication}}
-$endif$
+\lofoot{$doi$}
 \automark[subsection]{section}
 
 
@@ -439,22 +437,29 @@ $include-before$
 
 $endfor$
 
+
+\begin{multicols}{2}
 \hypersetup{linkcolor=myblue}
 \setcounter{tocdepth}{$toc-depth$}
-\tableofcontents
-
+\footnotesize\parskip=0mm \tableofcontents
+\end{multicols}
 
 $body$
 
 
 $if(lot)$
+$else$
 \listoftables
 $endif$
 $if(lof)$
+$else$
 \listoffigures
 $endif$
-\printbibliography[$if(biblio-title)$title=$biblio-title$,$endif$
-heading=subbibliography]
+$if(biblatex)$
+\printbibliography[%
+  title=Bibliography,
+  heading=subbibliography]
+$endif$
 
 $for(include-after)$
 $include-after$
