@@ -29,6 +29,7 @@ TEMPLATE_FILE_LATEX = ijsra.latex
 # PANDOC_WRITER_OPTIONS  = --standalone
 # PANDOC_WRITER_OPTIONS += --filter=pandoc-citeproc
 # PANDOC_WRITER_OPTIONS += --metadata-file=data/metadata.yaml 
+DEFAULT_EXTENSIONS    = latex pdf
 
 
 # checking if pandoc-scholar is available

@@ -26,10 +26,8 @@
 \setsansfont[%
   ,LetterSpace = .8]{TeX Gyre Adventor-Regular}
 \linespread{1.05}
-$if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}
-$endif$
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
@@ -303,9 +301,6 @@ $endif$
 
 \raggedbottom
 
-
-\newcommand{\ppages}{\pageref{IJSRAfirstpage}--\pageref{IJSRAlastpage}}
-
 \newcommand\thanknote{$bio$}
 
 
@@ -316,17 +311,22 @@ $endfor$
 $if(title)$
 \title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
 $endif$
-$if(subtitle)$
 \usepackage{etoolbox}
-\AtBeginEnvironment{abstract}{\footnotesize\sffamily}
+\renewenvironment{abstract}
+ {\small
+  \begin{center}
+  \bfseries \abstractname\vspace{-.5em}\vspace{0pt}
+  \end{center}
+  \list{}{%
+   \footnotesize
+   \sffamily
+   \singlespacing
+    \setlength{\leftmargin}{1cm}%
+    \setlength{\rightmargin}{\leftmargin}%
+  }%
+  \item\relax}
+ {\endlist}
 
-\makeatletter
-\providecommand{\subtitle}[1]{% add subtitle to \maketitle
-  \apptocmd{\@title}{\par {\large #1}}{}{}
-}
-\makeatother
-\subtitle{$subtitle$}
-$endif$
 \usepackage{authblk}
 $for(author)$
 \author[$for(author.institute_indices)$%
@@ -346,33 +346,55 @@ $for(institute)$
 $endfor$
 \date{$date$}
 
+\usepackage{marginnote}
+\renewcommand{\marginfont}{\noindent\rule{0pt}{0.7\baselineskip}\color{mygold}\small\sffamily}
+
+\newpairofpagestyles[scrheadings]{ijsratitle}{%
+	\clearscrheadfoot
+	\setlength{\headheight}{5cm}
+	\ihead{\begin{minipage}[t]{\linewidth}
+	\setstretch{.8}
+	\begin{minipage}[c][4cm]{.7\linewidth}
+	\resizebox{\linewidth}{!}{International Journal of Student Research in Archaeology}\\
+	\resizebox{4cm}{!}{IJSRA}\\[1em]
+	\begin{minipage}[t]{.5\linewidth}
+	\marginnote{pp.\,\pageref*{IJSRAfirstpage}--\pageref*{IJSRAlastpage}}
+	$for(dates)$
+		$if(dates.publication)$ 
+		  publication: $dates.publication$\newline
+		$endif$
+		$if(dates.submission)$
+		  submission: $dates.submission$\newline
+		$endif$
+		$if(dates.acceptance)$
+		  acceptance: $dates.acceptance$\newline
+		$endif$
+	$endfor$%
+	\end{minipage}\hfill%
+	\begin{minipage}[t]{.5\linewidth}
+	$if(doi)$
+	DOI: \href{http://dx.doi.org/$doi$}{$doi$}\newline
+	$endif$%
+	$if(publicationnumber)$
+	Publication No. $publicationnumber$
+	$else$
+	Publication No. \textcolor{red}{missing!}
+	$endif$
+	\end{minipage}
+	\end{minipage}\hfill%
+	\begin{minipage}[c][4cm]{4cm}
+	 \includegraphics[width=\linewidth]{ijsra_logo}
+	\end{minipage}
+	\end{minipage}%
+}}
+
+
 \makeatletter
 \renewcommand*{\maketitle}{%
-\thispagestyle{empty}
-\begin{minipage}[c][3cm]{.7\linewidth}
-International Journal of Student Research in Archaeology\\
-{\Huge IJSRA}
-\end{minipage}\hfill
-\begin{minipage}[c][3cm]{.29\linewidth}
- \includegraphics[width=3cm]{ijsra_logo}
-\end{minipage}
- {IJSRA | 
-$if(date-publication)$ publication: \ijsradate{$date-publication$}$else$publication: \textcolor{red}{missing \texttt{date-publication}}$endif$
-  | pp.\,\ppages\\
-$if(data-submission)$
-submission: \ijsradate{$date-submission$}
-$else$
-submission: \textcolor{red}{missing \texttt{date-submission}}
-$endif$
-$if(data-acceptance)$
-acceptance: \ijsradate{$date-acceptance$}
-$else$
-acceptance: \textcolor{red}{missing \texttt{date-acceptance}}
-$endif$
-}
+\thispagestyle{ijsratitle}
   \begin {center}%
   \let \footnote \thanks
- {\LARGE \@title \par}%
+ {\LARGE \@title $if(subtitle)$. $subtitle$$endif$\par}%
  \vskip 1.5em%
  {\large \lineskip .5em%
   \begin {tabular}[t]{c}%
@@ -401,11 +423,10 @@ $endif$
 $if(abstract)$
 \begin{abstract}
 $abstract$
-$if(keywords)$\par
-\textbf{Keywords:}
+ $if(keywords)$\par
+Keywords:
 $for(keywords)$$keywords$$sep$; $endfor$
 $endif$
-
 \end{abstract}
 $endif$
 

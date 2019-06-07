@@ -5,11 +5,12 @@ author:
 	- Abbey L. R. Ellis:
 		email: abbey.ellis@ashmus.ox.ac.uk
 		correspondence: "yes"
-		institute: X
-date-submission: "2018/05/02"
-date-acceptance: "2019/05/15"
-date-publication:
-number-publication: 2
+		institute: NN
+dates:
+	- submission: 2018/05/02
+	- acceptance: 2019/05/15
+	- publication: 2019/06/XX
+publicationnumber: 2
 doi: 10.23.44/2313
 bio: Abbey Ellis is a PhD researcher working on a collaborative project at the School of Museum Studies, University of Leicester and Ashmolean Museum of Art and Archaeology, Oxford. Her current research focuses on archaeological plaster casts of Greek and Roman statuary, considering the authenticity, value, and uses of the casts as objects in their own right. Abbey has a background in archaeology, gaining a first class BA in Classical Archaeology and Ancient History, followed by a MSt in Classical Archaeology at Merton College, Oxford. Her interest in the Etruscan civilisation stems from her Masters studies.
 keywords: Poggio Civitate, Etruscan, architectural terracotta decoration, Archaic period

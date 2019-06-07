@@ -26,6 +26,8 @@
 \setsansfont[%
   ,LetterSpace = .8]{TeX Gyre Adventor-Regular}
 \linespread{1.05}
+\usepackage{setspace}
+\setstretch{}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
@@ -156,7 +158,7 @@ period},
 \rohead{\textbf{\thepage}}
 \lehead{\textbf{\thepage}}
 \refoot{International Journal of Student Research in Archaeology}
-\lofoot{2}
+\lofoot{Missing number in \texttt{number-publication}}
 \automark[subsection]{section}
 
 
@@ -190,9 +192,6 @@ period},
 
 \raggedbottom
 
-
-\newcommand{\ppages}{\pageref{IJSRAfirstpage}--\pageref{IJSRAlastpage}}
-
 \newcommand\thanknote{Abbey Ellis is a PhD researcher working on a collaborative project at
 the School of Museum Studies, University of Leicester and Ashmolean
 Museum of Art and Archaeology, Oxford. Her current research focuses on
@@ -207,14 +206,21 @@ Etruscan civilisation stems from her Masters studies.}
 
 \title{The Acroteria From the Archaic Building at Poggio Civitate (Etruria)}
 \usepackage{etoolbox}
-\AtBeginEnvironment{abstract}{\footnotesize\sffamily}
+\renewenvironment{abstract}
+ {\small
+  \begin{center}
+  \bfseries \abstractname\vspace{-.5em}\vspace{0pt}
+  \end{center}
+  \list{}{%
+   \footnotesize
+   \sffamily
+   \singlespacing
+    \setlength{\leftmargin}{1cm}%
+    \setlength{\rightmargin}{\leftmargin}%
+  }%
+  \item\relax}
+ {\endlist}
 
-\makeatletter
-\providecommand{\subtitle}[1]{% add subtitle to \maketitle
-  \apptocmd{\@title}{\par {\large #1}}{}{}
-}
-\makeatother
-\subtitle{How Should They Be Interpreted?}
 \usepackage{authblk}
 \author[%
   1%
@@ -225,28 +231,46 @@ Etruscan civilisation stems from her Masters studies.}
   %%
   %
 }
-\affil[1]{X}
+\affil[1]{NN}
 \date{}
+
+\usepackage{marginnote}
+\renewcommand{\marginfont}{\noindent\rule{0pt}{0.7\baselineskip}\color{mygold}\small\sffamily}
+
+\newpairofpagestyles[scrheadings]{ijsratitle}{%
+	\clearscrheadfoot
+	\setlength{\headheight}{5cm}
+	\ihead{\begin{minipage}[t]{\linewidth}
+	\setstretch{.8}
+	\begin{minipage}[c][4cm]{.7\linewidth}
+	\resizebox{\linewidth}{!}{International Journal of Student Research in Archaeology}\\
+	\resizebox{4cm}{!}{IJSRA}\\[1em]
+	\begin{minipage}[t]{.5\linewidth}
+	\marginnote{pp.\,\pageref*{IJSRAfirstpage}--\pageref*{IJSRAlastpage}}
+							  submission: 2018/05/02\newline
+													  acceptance: 2019/05/15\newline
+							  publication: 2019/06/XX\newline
+							%
+	\end{minipage}\hfill%
+	\begin{minipage}[t]{.5\linewidth}
+		DOI: \href{http://dx.doi.org/10.23.44/2313}{10.23.44/2313}\newline
+	%
+		Publication No. 2
+		\end{minipage}
+	\end{minipage}\hfill%
+	\begin{minipage}[c][4cm]{4cm}
+	 \includegraphics[width=\linewidth]{ijsra_logo}
+	\end{minipage}
+	\end{minipage}%
+}}
+
 
 \makeatletter
 \renewcommand*{\maketitle}{%
-\thispagestyle{empty}
-\begin{minipage}[c][3cm]{.7\linewidth}
-International Journal of Student Research in Archaeology\\
-{\Huge IJSRA}
-\end{minipage}\hfill
-\begin{minipage}[c][3cm]{.29\linewidth}
- \includegraphics[width=3cm]{ijsra_logo}
-\end{minipage}
- {IJSRA | 
-publication: \textcolor{red}{missing \texttt{date-publication}}
-  | pp.\,\ppages\\
-submission: \textcolor{red}{missing \texttt{date-submission}}
-acceptance: \textcolor{red}{missing \texttt{date-acceptance}}
-}
+\thispagestyle{ijsratitle}
   \begin {center}%
   \let \footnote \thanks
- {\LARGE \@title \par}%
+ {\LARGE \@title . How Should They Be Interpreted?\par}%
  \vskip 1.5em%
  {\large \lineskip .5em%
   \begin {tabular}[t]{c}%
@@ -282,11 +306,10 @@ arbitrary categories of ``mortal'' and ``divine'' often applied to the
 acroteria are an anachronism and that the acroteria should in fact be
 identified more broadly as status markers: symbols of the wealth and
 power of the Archaic Building's elite occupants.
-\par
-\textbf{Keywords:}
+ \par
+Keywords:
 Poggio Civitate, Etruscan, architectural terracotta decoration, Archaic
 period
-
 
 \end{abstract}
 
