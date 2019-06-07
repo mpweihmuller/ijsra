@@ -99,6 +99,8 @@ $if(title-meta)$
 $endif$
 $if(author-meta)$
   pdfauthor={$author-meta$},
+  $else$
+  pdfauthor={$for(author)$$author.name$$sep$ -- $endfor$},
 $endif$
 $if(keywords)$
   pdfkeywords={$for(keywords)$$keywords$$sep$; $endfor$},
@@ -309,7 +311,7 @@ $header-includes$
 $endfor$
 
 $if(title)$
-\title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
+\title{$title$}
 $endif$
 \usepackage{etoolbox}
 \renewenvironment{abstract}
@@ -333,6 +335,7 @@ $for(author)$
   $author.institute_indices$%
   $sep$,$endfor$]{%
   $author.name$%
+  $if(author.bio)$\footnote{$author.bio$}$endif$
   $if(author.correspondence)$$if(author.email)$%
   \textsuperscript{*\,}%
   %$endif$$endif$%
@@ -393,13 +396,14 @@ $endfor$
 \renewcommand*{\maketitle}{%
 \thispagestyle{ijsratitle}
   \begin {center}%
-  \let \footnote \thanks
  {\LARGE \@title $if(subtitle)$. $subtitle$$endif$\par}%
  \vskip 1.5em%
  {\large \lineskip .5em%
-  \begin {tabular}[t]{c}%
+  \begingroup%
+  \renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+  \setcounter{footnote}{3}
   \@author
-  \end {tabular}\par}%
+  \endgroup\par}%
   $if(has_equal_contributors)$
   \vskip 0.5em{\textsuperscript{$if(equal_contributor_symbol)$$equal_contributor_symbol$$else$\textdagger$endif$}\,%
   These authors contributed equally to this work.}
@@ -407,11 +411,12 @@ $endfor$
   $if(has_correspondence)$
   \vskip 0.2em{\textsuperscript{*}\,Correspondence:
   $for(author)$$if(author.correspondence)$$if(author.email)$
-  $author.name$ \href{mailto:$author.email$}{$author.email$}\\
+  \href{mailto:$author.email$}{$author.email$}\\
   $endif$$endif$$endfor$}%
   %$endif$
   \vskip 1em{\large \@date}%
   \end {center}%
+  \setcounter{footnote}{0}
   \par
   \vskip 1.5em}
 \makeatother
