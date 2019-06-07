@@ -6,13 +6,8 @@
 	titlepage=on,				% own page for each title page
 	captions=tableabove,		% display table captions above the float env
 	numbers=noenddot,
+	listof=leveldown,
 ]{scrartcl}%	
-\KOMAoption{listof}{
-%  entryprefix,
-  totoc,
-  %numbered,
-  leveldown,
-}
 \usepackage{fontspec}
 \defaultfontfeatures{%
   Ligatures = TeX
@@ -257,11 +252,11 @@ Etruscan civilisation stems from her Masters studies.}
 	\begin{minipage}[t]{.5\linewidth}
 		DOI: \href{http://dx.doi.org/10.23.44/2313}{10.23.44/2313}\newline
 	%
-		Publication No. 2
-		\end{minipage}
+								Version No. 1
+			\end{minipage}
 	\end{minipage}\hfill%
 	\begin{minipage}[c][4cm]{4cm}
-	 \includegraphics[width=\linewidth]{ijsra_logo}
+	 \includegraphics[width=\linewidth]{system/ijsra_logo}
 	\end{minipage}
 	\end{minipage}%
 }}

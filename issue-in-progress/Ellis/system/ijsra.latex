@@ -5,14 +5,9 @@
 	fontsize=11pt,				% font size
 	titlepage=on,				% own page for each title page
 	captions=tableabove,		% display table captions above the float env
-	numbers=noenddot,$for(classoption)$$classoption$$sep$,$endfor$
+	numbers=noenddot,
+	listof=leveldown,$for(classoption)$$classoption$$sep$,$endfor$
 ]{scrartcl}%	
-\KOMAoption{listof}{
-%  entryprefix,
-  totoc,
-  %numbered,
-  leveldown,
-}
 \usepackage{fontspec}
 \defaultfontfeatures{%
   Ligatures = TeX
@@ -373,15 +368,18 @@ $endfor$
 	$if(doi)$
 	DOI: \href{http://dx.doi.org/$doi$}{$doi$}\newline
 	$endif$%
-	$if(publicationnumber)$
-	Publication No. $publicationnumber$
-	$else$
-	Publication No. \textcolor{red}{missing!}
+		$for(numbers)$
+	$if(numbers.publication)$
+	Publication No. $numbers.publication$
 	$endif$
+	$if(numbers.version)$
+	Version No. $numbers.version$
+	$endif$
+	$endfor$
 	\end{minipage}
 	\end{minipage}\hfill%
 	\begin{minipage}[c][4cm]{4cm}
-	 \includegraphics[width=\linewidth]{ijsra_logo}
+	 \includegraphics[width=\linewidth]{system/ijsra_logo}
 	\end{minipage}
 	\end{minipage}%
 }}
@@ -455,11 +453,9 @@ $if(lof)$
 $else$
 \listoffigures
 $endif$
-$if(biblatex)$
 \printbibliography[%
   title=Bibliography,
   heading=subbibliography]
-$endif$
 
 $for(include-after)$
 $include-after$

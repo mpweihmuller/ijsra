@@ -11,7 +11,9 @@ dates:
 	- submission: 2018/05/02
 	- acceptance: 2019/05/15
 	- publication: 2019/06/XX
-publicationnumber: 2
+numbers:
+	- publicaton: 2
+	- version: 1.0
 doi: 10.23.44/2313
 keywords: Poggio Civitate, Etruscan, architectural terracotta decoration, Archaic period
 babel-lang: english
