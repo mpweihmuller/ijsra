@@ -2,6 +2,7 @@ PROJECT  =Ellis
 SHELL = bash
 MAKE  = make
 WHOAMI = $(shell whoami)
+#IN = $(PROJECT)
 IN    :=$(if $(IN),$(IN),content/$(PROJECT))
 OUT   ?=$(IN)
 OUTDIR := $(dir $(OUT))
@@ -21,14 +22,11 @@ echoPROJECT = @echo -e "$(CYAN) <$(PROJECT)>$(RED)"
 
 ########
 ARTICLE_FILE        ?= $(IN).md
-OUTFILE_PREFIX      ?= $(IN)
-PANDOC_SCHOLAR_PATH_PREFIX = /usr/local
+OUTFILE_PREFIX      ?= ./$(PROJECT)-IJSRA
+PANDOC_SCHOLAR_PATH_PREFIX = system
 PANDOC_SCHOLAR_PATH = $(PANDOC_SCHOLAR_PATH_PREFIX)/pandoc-scholar
 PANDOC_LATEX_OPTIONS  +=  --pdf-engine=lualatex
-TEMPLATE_FILE_LATEX = ijsra.latex
-# PANDOC_WRITER_OPTIONS  = --standalone
-# PANDOC_WRITER_OPTIONS += --filter=pandoc-citeproc
-# PANDOC_WRITER_OPTIONS += --metadata-file=data/metadata.yaml 
+TEMPLATE_FILE_LATEX = system/ijsra.latex
 DEFAULT_EXTENSIONS    = latex pdf
 
 
@@ -50,3 +48,34 @@ docx2md:
 cleanmd:
 	$(shell perl -0777 -pe 's/\\\[\\\[/\[\@/g' archive/$(OUTFILE)-raw.md  > $(TEMP)/1.md)	
 	$(shell perl -0777 -pe 's/\\\]\\\]/\]/g'  $(TEMP)/1.md  >  content/$(OUTFILE).md)
+
+
+install: install-full
+	$(MAKE) get-pandoc-scholar
+	# $(MAKE) setup-folder
+	$(echoPROJECT) "* edition-topoi-plus installed * $(NC)"
+
+install-full:
+	$(echoPROJECT) "* installing needed programs and files * $(NC)"
+	@which brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	@which wget || brew install wget
+	@brew list pandoc || brew install pandoc
+	$(echoPROJECT) "* edition-topoi-plus fully installed * $(NC)"
+
+# setup-folder:
+# 	@-mkdir project project/bibliography project/csl-styles
+# 	# git clone https://github.com/citation-style-language/styles.git project/csl-styles
+# 	# @curl -s https://raw.githubusercontent.com/citation-style-language/styles/master/deutsches-archaologisches-institut.csl >> project/csl-styles/deutsches-archaologisches-institut.csl
+# 	$(echoPROJECT) "* folder setup completed  * $(NC)"
+
+
+get-pandoc-scholar:
+	@curl -s https://api.github.com/repos/pandoc-scholar/pandoc-scholar/releases/latest \
+	| grep "browser_download_url.*zip" \
+	| cut -d : -f 2,3 \
+	| tr -d '"' \
+	| wget -qi -
+	install -d -m 0777 $(PANDOC_SCHOLAR_PATH)
+	@unzip -qq pandoc-scholar.zip -d $(PANDOC_SCHOLAR_PATH_PREFIX)/
+	@rm -f pandoc-scholar.zip*	
+	$(echoPROJECT) "* pandoc-scholar installed * $(NC)"
