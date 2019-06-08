@@ -382,7 +382,10 @@ $endfor$
 	 \includegraphics[width=\linewidth]{system/ijsra_logo}
 	\end{minipage}
 	\end{minipage}%
-}}
+}
+\ifoot{%
+Image permissions are secured by the author.}
+}
 
 
 \makeatletter
