@@ -1,4 +1,4 @@
-PROJECT =Ellis
+PROJECT = Padoan
 SHELL   = bash
 MAKE    = make
 WHOAMI  = $(shell whoami)
@@ -23,8 +23,9 @@ PANDOC_LATEX_OPTIONS  += --biblatex --pdf-engine=latexmk --pdf-engine-opt=-luala
 TEMPLATE_FILE_LATEX    = system/ijsra.latex
 TEMPLATE_FILE_HTML     = system/ijsra.html
 PANDOC_READER_OPTIONS  = data/metadata.yaml
+# PANDOC_READER_OPTIONS += --extract-media=figures
 PANDOC_WRITER_OPTIONS  = --standalone
-PANDOC_WRITER_OPTIONS += --csl=system/csl-styles/chicago-author-date.csl
+# PANDOC_WRITER_OPTIONS += --csl=system/csl-styles/chicago-author-date.csl
 PANDOC_WRITER_OPTIONS += --filter=pandoc-citeproc
 PANDOC_WRITER_OPTIONS += --lua-filter=$(LUA_FILTERS_PATH)/short-captions/short-captions.lua
 DEFAULT_EXTENSIONS     =  latex pdf html epub
@@ -44,7 +45,7 @@ endif
 
 
 docx2md:
-	pandoc --wrap=none -s $(DOCX).docx -t markdown -o archive/$(OUTFILE)-raw.md
+	pandoc --wrap=none -s $(IN).docx -t markdown -o archive/$(OUTFILE)-raw.md
 	$(MAKE) cleanmd
 	$(echoPROJECT) "* conversion .docx to .md finished * $(NC)"
 cleanmd:
