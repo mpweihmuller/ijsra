@@ -15,7 +15,7 @@ A descriptive overview of the rooftop acroteria from the site will be given in P
 Part One: Descriptive Overview
 ==============================
 
-The Orientalizing phase of occupation at Poggio Civitate (**Fig.2**) is dated from 650 to around 610/600BC, when a fire destroyed the site (Edlund-Gantz 1972: 198). The Orientalizing complex comprised three buildings; OC1, a residence; OC2, an industrial workshop; and OC3, a tripartite structure which has been interpreted as a religious building (Haynes 2000: 115).
+The Orientalizing phase of occupation at Poggio Civitate (**Fig.2**) is dated from 650 to around 610/600BC, when a fire destroyed the site [@Edlund-Gantz1972, 198]. The Orientalizing complex comprised three buildings; OC1, a residence; OC2, an industrial workshop; and OC3, a tripartite structure which has been interpreted as a religious building [@Haynes2000, 115].
 
 ![Plan of the Orientalizing phase at Poggio Civitate.](figures/Ellis02.jpg){#fig:Ellis02.jpg short-caption="Drawing by Renate Sponer Za for Winter, Symbols of Wealth and Power, 2009, Plan 8." width=80%}
 
@@ -23,7 +23,7 @@ The Archaic Building (**Fig.3**) was constructed between 600-575BC atop the rema
 
 ![Plan of the Archaic Building at Poggio Civitate.](figures/Ellis03.jpg){#fig:Ellis03.jpg short-caption="Drawing by Renate Sponer Za for Winter, Symbols of Wealth and Power, 2009, Plan 9." width=80%}
 
-The acroteria were part of a decorative programme which encompassed the whole terracotta roof. **The** roof was also decorated with sculpted female heads, feline waterspouts, rosettes, and gorgon antefixes (Edlund-Gantz 1972: 203), as well as relief sculpted revetment plaques, bearing images of a banquet, a procession, an assembly, and a horse race (Rathje 1994: 95). Stylistic analyses suggest that all of the roof elements were conceived as one sculptural programme (Winter 2009: 159). **Fig.4** provides a guide to where these elements would have been situated on the roof.
+The acroteria were part of a decorative programme which encompassed the whole terracotta roof. **The** roof was also decorated with sculpted female heads, feline waterspouts, rosettes, and gorgon antefixes (Edlund-Gantz 1972: 203), as well as relief sculpted revetment plaques, bearing images of a banquet, a procession, an assembly, and a horse race (Rathje 1994: 95). Stylistic analyses suggest that all of the roof elements were conceived as one sculptural programme [@Winter2009, 159]. **Fig.4** provides a guide to where these elements would have been situated on the roof.
 
 **Fig.4:** Generic roof with names of architectural elements.
 
@@ -133,4 +133,4 @@ In fact, the entire Archaic Building can be read as a public display of elite st
 
 Overall, this paper has argued that the function of the Archaic Building at Poggio Civitate was domestic, based on the internal layout of the building and its relationship to the preceding Orientalizing phase. As a consequence, this paper advocates the interpretation of the acroteria as status markers, symbols of the wealth and power wielded by the aristocrats who inhabited the Archaic Building. This approach is prioritized over that seen in existing scholarship, which favours the arbitrary categories of "mortal" or "divine".
 
-[^1]: In line with the Loeb translation of this passage, "Τυρρηνῶν" (literally "Tyrrheni") has here been read as "Etruscans". That "Tyrrheni" refers to the Etruscans is established by Strabo *Geography* 5.2: "Οἱ Τυρρηνοὶ τοίνυν παρὰ τοῖς Ῥωμαίοις Ἑτροῦσκοι καὶ Τοῦσκοι προσαγορεύονται" / "The Tyrrheni, then, are called among the Romans 'Etrusci' and 'Tusci.'"
+[^1]: In line with the Loeb translation of this passage, "Τυρρηνῶν" (literally "Tyrrheni") has here been read as "Etruscans". That "Tyrrheni" refers to the Etruscans is established by Strabo *Geography* 5.2: "Οἱ Τυρρηνοὶ τοίνυν παρὰ τοῖς Ῥωμαίοις Ἑτροῦσκοι καὶ Τοῦσκοι προσαγορεύονται" / "The Tyrrheni, then, are called among the Romans 'Etrusci' and 'Tusci.'"
