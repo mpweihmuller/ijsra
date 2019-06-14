@@ -259,7 +259,10 @@ Etruscan civilisation stems from her Masters studies.}
 	 \includegraphics[width=\linewidth]{system/ijsra_logo}
 	\end{minipage}
 	\end{minipage}%
-}}
+}
+\ifoot{%
+Image permissions are secured by the author.}
+}
 
 
 \makeatletter
@@ -365,11 +368,11 @@ within wider Etruria.}
 Overview}\label{part-one-descriptive-overview}}
 
 The Orientalizing phase of occupation at Poggio Civitate
-(\textbf{Fig.2}) is dated from 650 to around 610/600BC, when a fire
-destroyed the site (Edlund-Gantz 1972: 198). The Orientalizing complex
-comprised three buildings; OC1, a residence; OC2, an industrial
-workshop; and OC3, a tripartite structure which has been interpreted as
-a religious building (Haynes 2000: 115).
+\autocite{fig:Ellis02.jpg} is dated from 650 to around 610/600BC, when a
+fire destroyed the site \autocite[198]{Edlund-Gantz1972}. The
+Orientalizing complex comprised three buildings; OC1, a residence; OC2,
+an industrial workshop; and OC3, a tripartite structure which has been
+interpreted as a religious building \autocite[115]{Haynes2000}.
 
 \hypertarget{fig:Ellis02.jpg}{%
 \begin{figure}
@@ -382,13 +385,13 @@ Civitate.}
 \end{figure}
 }
 
-The Archaic Building (\textbf{Fig.3}) was constructed between 600-575BC
-atop the remains of the Orientalizing complex (Haynes 2000: 117). It
-consisted of a monumental four-winged structure measuring 60 x 61.8m
-(Meyers 2012: 4), enclosing a colonnaded courtyard (O'Donoghue 2013:
-269), surrounded by four wings of continuous rooms (Meyers 2003: 70). On
-the western side, a defensive structure extended the complex a further
-30m (Tuck et al.~2010: 93).
+The Archaic Building \autocite{fig:Ellis03.jpg} was constructed between
+600-575BC atop the remains of the Orientalizing complex (Haynes 2000:
+117). It consisted of a monumental four-winged structure measuring 60 x
+61.8m (Meyers 2012: 4), enclosing a colonnaded courtyard (O'Donoghue
+2013: 269), surrounded by four wings of continuous rooms (Meyers 2003:
+70). On the western side, a defensive structure extended the complex a
+further 30m (Tuck et al.~2010: 93).
 
 \hypertarget{fig:Ellis03.jpg}{%
 \begin{figure}
@@ -401,39 +404,45 @@ Power, 2009, Plan 9.}]{Plan of the Archaic Building at Poggio Civitate.}
 }
 
 The acroteria were part of a decorative programme which encompassed the
-whole terracotta roof. \textbf{The} roof was also decorated with
-sculpted female heads, feline waterspouts, rosettes, and gorgon
-antefixes (Edlund-Gantz 1972: 203), as well as relief sculpted revetment
-plaques, bearing images of a banquet, a procession, an assembly, and a
-horse race (Rathje 1994: 95). Stylistic analyses suggest that all of the
-roof elements were conceived as one sculptural programme (Winter 2009:
-159). \textbf{Fig.4} provides a guide to where these elements would have
-been situated on the roof.
+whole terracotta roof. The roof was also decorated with sculpted female
+heads, feline waterspouts, rosettes, and gorgon antefixes (Edlund-Gantz
+1972: 203), as well as relief sculpted revetment plaques, bearing images
+of a banquet, a procession, an assembly, and a horse race (Rathje 1994:
+95). Stylistic analyses suggest that all of the roof elements were
+conceived as one sculptural programme \autocite[159]{Winter2009}.
+\autocite{fig:Ellis04.jpg} provides a guide to where these elements
+would have been situated on the roof.
 
-\textbf{Fig.4:} Generic roof with names of architectural elements.
-
-\textbf{Source:} Drawing by Renate Sponer Za for Winter, Symbols of
-Wealth and Power, 2009, page 6.
+\hypertarget{fig:Ellis04.jpg}{%
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{figures/Ellis04.jpg}
+\caption[{Drawing by Renate Sponer Za for
+\autocite[6]{Winter2009}}]{Generic roof with names of architectural
+elements}
+\label{fig:Ellis04.jpg}
+\end{figure}
+}
 
 Now that the context of the Archaic Building at Poggio Civitate has been
 defined, the general features of the acroteria can be described, before
 the specifics of each category of sculpture from the roof are given. All
-of the acroteria are made of terracotta (Phillips 1992: 17), sculpted in
-the round, and would originally have been painted (Winter 2009: 511).
-They were located on top of the tiles used to protect the ridgepole, the
-horizontal beam that formed the apex of the roof. This location is
-identified by the fact that the feet of some of the acroteria are still
-connected to ridge tiles (Winter 2009: 198). Although around 30\% of the
-building's entire decorative elements survive (Tuck 2016: 111), no
-single acroterion is whole, but there are over 200 fragments
-(Edlund-Berry 1993: 117).
+of the acroteria are made of terracotta \autocite[17]{Phillips1992},
+sculpted in the round, and would originally have been painted (Winter
+2009: 511). They were located on top of the tiles used to protect the
+ridgepole, the horizontal beam that formed the apex of the roof. This
+location is identified by the fact that the feet of some of the
+acroteria are still connected to ridge tiles (Winter 2009: 198).
+Although around 30\% of the building's entire decorative elements
+survive (Tuck 2016: 111), no single acroterion is whole, but there are
+over 200 fragments (Edlund-Berry 1993: 117).
 
 There are five categories of acroteria: seated figures, striding
 figures, helmeted heads, and real and fantastic animals. Fragments from
-at least ten life-size seated males are known (Winter 2009: 155).
-\textbf{\emph{The}} bearded males (\textbf{Fig.5}) wear wide-brimmed,
-high-crowned hats, long tunics, and pointed boots (Haynes 2000, 120;
-Winter 2009: 196). They are seated on stools.
+at least ten life-size seated males are known (Winter 2009: 155). The
+bearded males (\textbf{Fig.5}) wear wide-brimmed, high-crowned hats,
+long tunics, and pointed boots
+\autocites[120]{Haynes2000}[196]{Winter2009}. They are seated on stools.
 
 \textbf{Fig.5:} Reconstruction drawing of a seated male acroterion from
 the Archaic Building. This reconstruction is now known to comprise
@@ -504,10 +513,10 @@ Wealth and Power, 2009, Ill. Roof 3-8. 3. Ridge.
 The human acroteria figures that form the main subject of this paper
 have been variously interpreted in scholarship as divinities
 (Edlund-Berry 1993; Turfa \& Steinmayer 2002; Rathje 2007), heroized
-ancestors (O'Donoghue 2013), and symbols of the surrounding community
-(Tuck 2016). These interpretations are problematic for a number of
-reasons. First, the fragmentary nature of the remains and their
-scattered find-spots makes a full reconstruction of the figures
+ancestors \autocite{ODonoghue2013}, and symbols of the surrounding
+community (Tuck 2016). These interpretations are problematic for a
+number of reasons. First, the fragmentary nature of the remains and
+their scattered find-spots makes a full reconstruction of the figures
 difficult. Second, they lack attributes that might aid their
 identification. Third, the understanding of the acroteria is tied up
 with the interpretation of the function of the Archaic Building as a
@@ -648,20 +657,20 @@ acroteria might thus be interpreted as symbols of these collective
 entities, either the local community, or the northern league (Tuck 2016:
 112).
 
-\textbf{But again, these theories are problematic. Livy attests to the
-existence of an Etruscan League (4.23.5, 4.25.7, 4.61.2, 5.17.6, 6.2.2),
-which is believed to have met at the \emph{Fanum Voltumnae} near Orvieto
-(Haynes 2000: 135; Stopponi 2014: 632), but nothing from Poggio Civiate
-suggests that such a league met at this site (O'Donoghue 2013: 273).}
-\textbf{Additionally, for the complex to be a gathering space for the
-local community, one would expect the Archaic Building to be the only
+But again, these theories are problematic. Livy attests to the existence
+of an Etruscan League (4.23.5, 4.25.7, 4.61.2, 5.17.6, 6.2.2), which is
+believed to have met at the \emph{Fanum Voltumnae} near Orvieto (Haynes
+2000: 135; Stopponi 2014: 632), but nothing from Poggio Civiate suggests
+that such a league met at this site (O'Donoghue 2013: 273).
+Additionally, for the complex to be a gathering space for the local
+community, one would expect the Archaic Building to be the only
 structure of its type in the area. However, this is not the case. Poggio
 Civitate was not isolated; there are thought to be several other
 courtyard complexes in the near vicinity (Acconcia 2012: 96-105).
 Consequently, that Poggio Civitate functioned as a central gathering
 place either for the surrounding community or for a league of cities is
 doubtful, as is the interpretation of the acroteria as emblems of these
-associations.}
+associations.
 
 \emph{Elite Residence}
 
@@ -682,12 +691,12 @@ elite family (Edlund-Berry 1994: 16). Although not peculiar to
 residential contexts, the aristocratic themes such as banqueting which
 are illustrated on the revetment plaques from the Archaic Building have
 also been taken to indicate that it functioned as a domestic complex
-(O'Donoghue 2013: 272). However, \textbf{the} original excavator wrote
-that it was \enquote{out of the question} for the building to be
-considered a domestic complex (Phillips 1992: xvi). Nevertheless, this
-paper, building on the above arguments made by O'Donoghue (2013) and
-Turfa and Steinmayer (2002), argues that an analysis of the plan of the
-Archaic Building confirms its residential function.
+(O'Donoghue 2013: 272). However, the original excavator wrote that it
+was \enquote{out of the question} for the building to be considered a
+domestic complex (Phillips 1992: xvi). Nevertheless, this paper,
+building on the above arguments made by O'Donoghue (2013) and Turfa and
+Steinmayer (2002), argues that an analysis of the plan of the Archaic
+Building confirms its residential function.
 
 The plan of the Archaic Building at Poggio Civitate may well indicate
 its use as a domestic structure. Although there are few well-excavated
@@ -797,22 +806,22 @@ of the peristyle courtyard,\footnote{In line with the Loeb translation
   of this passage, \enquote{Τυρρηνῶν} (literally \enquote{Tyrrheni}) has
   here been read as \enquote{Etruscans}. That \enquote{Tyrrheni} refers
   to the Etruscans is established by Strabo \emph{Geography} 5.2:
-  \enquote{Οἱ Τυρρηνοὶ τοίνυν παρὰ τοῖς Ῥωμαίοις Ἑτροῦσκοι καὶ Τοῦσκοι
-  προσαγορεύονται} / \enquote{The Tyrrheni, then, are called among the
+  \enquote{Οἱ Τυρρηνοὶ τοίνυν παρὰ τοῖς Ῥωμαίοις Ἑτροῦσκοι καὶ Τοῦσκοι
+  προσαγορεύονται} / \enquote{The Tyrrheni, then, are called among the
   Romans \enquote{Etrusci} and \enquote{Tusci.}}} a structure used to
 contain the homeowner's entourage. The Roman form of this structure is
 known as the atrium (Prayon 2009: 60), the reception space where the
 Roman paterfamilias could receive clients for the \emph{salutatio}
-ritual \textbf{\emph{(Platts 2016: 47). The anecdote from Diodorus
-Siculus suggests that the Etruscan courtyard was used for similar
-purposes, which may mean that the courtyard at Poggio Civitate
-functioned as a semi-public space within a domestic complex, like the
-Roman atrium. However,}} the size of the 40m² courtyard (Winter 2009:
-153) might make this proposal seem unlikely. Yet \textbf{\emph{there is
-strong evidence that the Orientalizing building OC1, which is of
-comparable size to the Archaic Building, served a domestic purpose. This
-means that the size of the complex need not discount the interpretation
-of the Archaic Building having a residential function.}}
+ritual* \textbf{(Platts 2016: 47). The anecdote from Diodorus Siculus
+suggests that the Etruscan courtyard was used for similar purposes,
+which may mean that the courtyard at Poggio Civitate functioned as a
+semi-public space within a domestic complex, like the Roman atrium.
+However,}* the size of the 40m² courtyard (Winter 2009: 153) might make
+this proposal seem unlikely. Yet \textbf{\emph{there is strong evidence
+that the Orientalizing building OC1, which is of comparable size to the
+Archaic Building, served a domestic purpose. This means that the size of
+the complex need not discount the interpretation of the Archaic Building
+having a residential function.}}
 
 If the Archaic Building did function as a domestic complex, it would be
 in keeping with trends seen in wider Etruria. Studies of general
@@ -831,7 +840,9 @@ countryside residences exist in the region in the Archaic period.
 Overall, it seems highly likely that the Archaic Building at Poggio
 Civitate functioned as a domestic complex.
 
-\textbf{Part Three: Interpreting the Acroteria}
+\hypertarget{part-three-interpreting-the-acroteria}{%
+\section{Part Three: Interpreting the
+Acroteria}\label{part-three-interpreting-the-acroteria}}
 
 In Part Two, we reached the conclusion that the Archaic Building at
 Poggio Civitate is likely to have served as an aristocratic residence.
@@ -926,7 +937,8 @@ from the roof, as collectively, the building itself, the figural
 acroteria, and the animal acroteria all convey the same message of
 wealth, power, and elite command over the landscape.
 
-\textbf{Conclusion}
+\hypertarget{conclusion}{%
+\section{Conclusion}\label{conclusion}}
 
 Overall, this paper has argued that the function of the Archaic Building
 at Poggio Civitate was domestic, based on the internal layout of the
