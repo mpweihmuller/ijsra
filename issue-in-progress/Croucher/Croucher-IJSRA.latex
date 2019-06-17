@@ -243,17 +243,24 @@ post-medieval Chichester}
 	\resizebox{4cm}{!}{IJSRA}\\[1em]
 	\begin{minipage}[t]{.5\linewidth}
 	\marginnote{pp.\,\pageref*{IJSRAfirstpage}--\pageref*{IJSRAlastpage}}
-	%
+							  submission: 201X/XX/XX\newline
+													  acceptance: 201X/XX/XX\newline
+							  publication: 201X/XX/XX\newline
+							%
 	\end{minipage}\hfill%
 	\begin{minipage}[t]{.5\linewidth}
 	%
+								Version No. 1
 			\end{minipage}
 	\end{minipage}\hfill%
 	\begin{minipage}[c][4cm]{4cm}
 	 \includegraphics[width=\linewidth]{system/ijsra_logo}
 	\end{minipage}
 	\end{minipage}%
-}}
+}
+\ifoot{%
+Image permissions are secured by the author.}
+}
 
 
 \makeatletter
@@ -291,8 +298,8 @@ Chichester to consider how disease prevalence altered between
 demographic groups. The research centralised around the political and
 social boundaries that were present across the Industrial Revolution, to
 determine if these corresponded to differences in shoulder disease
-between demographic groups (Loeb, 1994; Burnette, 1997; Pinchbeck,
-2013).
+between demographic groups
+\autocite{Loeb1994,Burnette1997,Pinchbeck2013}.
 
 Amongst coffin-buried skeletal remains both biological age and sex were
 found to significantly impact the occurrence of GHJ (sex:\emph{p}=0.026,
@@ -333,15 +340,15 @@ Fracture
 \section{Research aims}\label{research-aims}}
 
 Shoulder disease is a broad term for numerous lesions affecting the
-glenohumeral (GHJ) and acromioclavicular joints (ACJ) (Waldron, 2009),
-which are common locations for the manifestation of disease in both
-archaeological (Waldron, 2009) and modern populations (Nirschl, 1988;
-Brukhart et al., 2000). Visible on skeletal remains through pathological
-lesions, this research assessed shoulder disease on skeletal remains
-from 18th and 19th century Chichester to quantify lesions in the
-historic population and improve understandings of the prevalence of
-shoulder pathology in an economically prosperous society at the time of
-the Industrial Revolution.
+glenohumeral (GHJ) and acromioclavicular joints (ACJ)
+\autocite{Waldron2009}, which are common locations for the manifestation
+of disease in both archaeological \autocite{Waldron2009} and modern
+populations (Nirschl, 1988; Brukhart et al., 2000). Visible on skeletal
+remains through pathological lesions, this research assessed shoulder
+disease on skeletal remains from 18th and 19th century Chichester to
+quantify lesions in the historic population and improve understandings
+of the prevalence of shoulder pathology in an economically prosperous
+society at the time of the Industrial Revolution.
 
 This study quantifies osteoarthritis, rotator cuff disease, impingement
 and fractures: common lesions observed on the shoulder girdle and
@@ -358,7 +365,8 @@ shoulder disease.
 \hypertarget{research-context}{%
 \section{Research context}\label{research-context}}
 
-\textbf{Evolution}
+\hypertarget{evolution}{%
+\subsection{Evolution}\label{evolution}}
 
 Originating as a weight bearing joint in primates, the shoulder complex
 has adapted with evolution, resulting in a fundamental role change as
@@ -366,152 +374,160 @@ bipedalism developed (Schmitt, 1998). Shoulder girdle adaptions are
 believed to have developed to facilitate the formation of higher agility
 at the shoulder joint, exempt from the forces of locomotion and
 kinematic stress, and to be protective, ensuring fewer forces are placed
-through the unstable joint (Vilensky, 1989; Biewener, 1990; Schmitt,
-1998).
+through the unstable joint
+\autocite{Vilensky1989,Biewener1990,Schmitt1998}.
 
 Using geometric analyses of the size and shape of the coxofemoral and
 glenohumeral joints to evaluate their concordance with body mass amongst
-primates with known body mass time and time of death, Jungers (1988)
-found the measurements, excluding those of the human hip joint, to
-correlate with body size. The research suggests the coxofemoral joint in
-modern humans has adaptively increased in size due to bipedalism to
-support and stabilise the full weight of the trunk. Concurrently, the
-shoulder complex has proportionally decreased in size as fewer kinetic
-forces and stresses are placed through it, becoming the adaptable,
-gracile and mobile joint that it is today (Jungers, 1988).
+primates with known body mass time and time of death,
+\autocite*{Jungers1988} found the measurements, excluding those of the
+human hip joint, to correlate with body size. The research suggests the
+coxofemoral joint in modern humans has adaptively increased in size due
+to bipedalism to support and stabilise the full weight of the trunk.
+Concurrently, the shoulder complex has proportionally decreased in size
+as fewer kinetic forces and stresses are placed through it, becoming the
+adaptable, gracile and mobile joint that it is today
+\autocite{Jungers1988}.
 
-\textbf{Pathology}
+\hypertarget{pathology}{%
+\subsection{Pathology}\label{pathology}}
 
 The high mobility of the shoulder joint is closely related to its
 instability and susceptibility to injury. This, as well as natural
 degeneration, is responsible for shoulder disease.
 
-\emph{OSTEOARTHRITIS}
+\hypertarget{osteoarthritis}{%
+\subsubsection{Osteoarthritis}\label{osteoarthritis}}
 
 Osteoarthritis (OA) is a proliferative joint disease that can occur
 either as a primary or secondary disease. Primary OA is caused by
 biological factors, such as age, sex and body weight, whilst secondary
 OA occurs when the disease is triggered by other pathology or trauma
-(Esser and Bailey, 2011).
+\autocite{Esser2011}.
 
 OA is a common disease historically and in modern populations and is the
-most prevalent joint disease identified on skeletal remains (Waldron,
-2009). In the shoulder, glenohumeral (GHJ) OA and acromioclavicular
-joint (ACJ) OA can occur. Waldron (2009) states GHJ OA to be uncommon
-when the shoulder has not experienced trauma, whilst it can also be
-caused by excessive use of the shoulder complex. Conversely, ACJ OA is
-highly prevalent, reported to be one of the most frequent locations for
-the manifestation of OA in remains from the medieval and post-medieval
-periods (Waldron, 2009), occurring due to natural degeneration.
+most prevalent joint disease identified on skeletal remains
+\autocite{Waldron2009}. In the shoulder, glenohumeral (GHJ) OA and
+acromioclavicular joint (ACJ) OA can occur. \textcite{Waldron2009}
+states GHJ OA to be uncommon when the shoulder has not experienced
+trauma, whilst it can also be caused by excessive use of the shoulder
+complex. Conversely, ACJ OA is highly prevalent, reported to be one of
+the most frequent locations for the manifestation of OA in remains from
+the medieval and post-medieval periods \autocite{Waldron2009}, occurring
+due to natural degeneration.
 
 The prevalence of OA is positively linked with age, increasing linearly
 as degenerative changes occur in the ageing process, and genetics,
-causing some to be more susceptible than others (Hanna \emph{et al}.,
-2009; Prieto-Alhambra \emph{et al}., 2014). The disease has equally been
+causing some to be more susceptible than others
+\autocite{Hanna2009,Prieto-Alhambra2014}. The disease has equally been
 linked to physicality and labour in archaeological remains across the
-literature, and was explored by Waldron and Cox (1989) in documented
+literature, and was explored by \textcite{Waldron1989} in documented
 remains from London's Spitalfields Cemetery. The study found manual
 workers to exhibit a larger quantity of OA, proposedly due to greater
 wear and tear at the joint. Studies further suggest females to more
 commonly exhibit OA, associated with biological intrinsic causes,
-including the menopause (Verbrugge, 1995; Waldron, 2009). This was
-outlined in a clinical assessment of tibiofemoral OA by Hanna \emph{et
-al}. (2009), finding females to have a predisposition to OA due to
-cartilage health, and supported in a study by Verbrugge (1995),
-outlining the rate of all forms of arthritis in females to exceed the
-rate in males in studies by the American National Health Interview
-Survey.
+including the menopause \autocite{Verbrugge1995,Waldron2009}. This was
+outlined in a clinical assessment of tibiofemoral OA by
+\textcite{Hanna2009}, finding females to have a predisposition to OA due
+to cartilage health, and supported in a study by
+\textcite{Verbrugge1995}, outlining the rate of all forms of arthritis
+in females to exceed the rate in males in studies by the American
+National Health Interview Survey.
 
-Verbrugge (1995) states that after \enquote{midlife}, arthritis is the
-highest occurring chronic condition in females, whilst arthritis becomes
-the top-ranking chronic disease in males only after the ages of 45-46.
-Verbrugge (1995) further proposes that the prevalence gap between the
-genders decreases over time, suggesting the rate of OA increases in
-males concurrently with age.
+\textcite{Verbrugge1995} states that after \enquote{midlife}, arthritis
+is the highest occurring chronic condition in females, whilst arthritis
+becomes the top-ranking chronic disease in males only after the ages of
+45-46. \autocite*{Verbrugge1995} further proposes that the prevalence
+gap between the genders decreases over time, suggesting the rate of OA
+increases in males concurrently with age.
 
-\emph{ROTATOR CUFF DISEASE AND IMPINGEMENT}
+\hypertarget{rotator-cuff-disease-and-impingement}{%
+\subsubsection{Rotator Cuff Disease And
+Impingement}\label{rotator-cuff-disease-and-impingement}}
 
 Rotator cuff disease (RCD) is characterised by inflammation of the
 rotator cuff muscle tendons through extrinsic (overuse, repetitive
 straining motions or sustained raising of the arms above 30° horizontal)
 or intrinsic factors (degeneration of the tendons due to old age, poor
-blood supply, attrition and tendon calcification) (Clement \emph{et
-al.,} 2012). When complete rupture of the subscapularis or other tendons
-within the rotator cuff occurs, impingement can occur, resulting in the
-upwards pull of the humerus to the inferior surface of the acromion
-process of the scapula, consequence of the pull of the deltoid muscle
-(Ludewig and Cook, 2000; Waldron, 2009).
+blood supply, attrition and tendon calcification)
+\autocite{Clement2012}. When complete rupture of the subscapularis or
+other tendons within the rotator cuff occurs, impingement can occur,
+resulting in the upwards pull of the humerus to the inferior surface of
+the acromion process of the scapula, consequence of the pull of the
+deltoid muscle \autocite{Ludewig2000,Waldron2009}.
 
-Waldron (2009) calculated a RCD prevalence of 21\% in individuals over
-the age of 70, a 7-27\% prevalence in cadavers and a higher prevalence
-in females than males. Medical ultrasound scanning has identified the
-prevalence to be 13\% in individuals aged 50-59, 20\% in individuals
-aged 60-69, and 31\% in individuals aged 70-79 (Tempelhof \emph{et al}.,
-1999). This is supported in assessments by Clement \emph{et al}. (2012),
-citing degenerative rotator cuff tears to predominately occur in
-individuals aged \textgreater50.
+\textcite{Waldron2009} calculated a RCD prevalence of 21\% in
+individuals over the age of 70, a 7-27\% prevalence in cadavers and a
+higher prevalence in females than males. Medical ultrasound scanning has
+identified the prevalence to be 13\% in individuals aged 50-59, 20\% in
+individuals aged 60-69, and 31\% in individuals aged 70-79
+\autocite{Tempelhof1999}. This is supported in assessments by
+\autocite{Clement2012}, citing degenerative rotator cuff tears to
+predominately occur in individuals aged \textgreater50.
 
-\emph{FRACTURES}
+\hypertarget{fractures}{%
+\subsubsection{Fractures}\label{fractures}}
 
 Fractures result when osteological tissue fails, caused by stress
 outside of the tissues elastic region being placed on the element,
 resulting in the separation of osteons and a line of non-union along the
-element (Ring and Jupiter, 2007). Fractures can be caused by accidental
-or purposeful trauma and is readily identifiable on skeletal remains
-when healing was incomplete peri-mortem.
+element \autocite{Ring2007}. Fractures can be caused by accidental or
+purposeful trauma and is readily identifiable on skeletal remains when
+healing was incomplete peri-mortem.
 
 Fractures to the clavicle bone are often left un-reduced according to
-Ring and Jupiter (2007), ordinarily resulting in harmless deformation
-with retained function. Fractures to the shoulder girdle are cited to
-most commonly occur through falling or fast paced collisions, such as
-road traffic accidents or sporting injuries in modern populations, with
-direct injury to the shoulder uncommon (Nordqvist and Petersson, 1995).
+\textcite{Ring2007}, ordinarily resulting in harmless deformation with
+retained function. Fractures to the shoulder girdle are cited to most
+commonly occur through falling or fast paced collisions, such as road
+traffic accidents or sporting injuries in modern populations, with
+direct injury to the shoulder uncommon \autocite{Nordqvist1995}.
 
 \hypertarget{methodology}{%
 \section{Methodology}\label{methodology}}
 
-\textbf{Sample}
+\hypertarget{sample}{%
+\subsection{Sample}\label{sample}}
 
-93 \textbf{skeletal remains from si}te ESC11, St.~Michaels Litten
-Cemetery, Eastgate Square, Chichester, West Sussex were examined. The
-cemetery is located on the eastern side of the medieval and
-post-medieval site and was first documented in the early
-12\textsuperscript{th} century. Excavations were undertaken at the
-cemetery in 2005 and 2006, uncovering 93 inhumations, and later
-excavations by Pre-Construct Archaeology Ltd.~(PCA) Archaeology
-South-East (ASE) between August 2011 and January 2012 excavated the
-remaining 1637 skeletons, which were \emph{typically aligned NE-SW},
-totalling 1634 inhumations.
+93 skeletal remains from site ESC11, St.~Michaels Litten Cemetery,
+Eastgate Square, Chichester, West Sussex were examined. The cemetery is
+located on the eastern side of the medieval and post-medieval site and
+was first documented in the early 12\textsuperscript{th} century.
+Excavations were undertaken at the cemetery in 2005 and 2006, uncovering
+93 inhumations, and later excavations by Pre-Construct Archaeology
+Ltd.~(PCA) Archaeology South-East (ASE) between August 2011 and January
+2012 excavated the remaining 1637 skeletons, which were \emph{typically
+aligned NE-SW}, totalling 1634 inhumations.
 
 Archaeological evidence suggests the site was initially occupied from
 the early Roman period, late 1\textsuperscript{st} century AD, and
 continually inhabited from the medieval period by a Saxon-Norman
-population to the post-medieval period (Hart, 2012). Across the medieval
-and post-medieval periods, the site is understood to have had strong
-links with the local port, alongside wool and grain production
-industries, resulting in a thriving economy (Hart, 2012). Disease is
-recorded to have been highly prevalent across Chichester throughout the
-17\textsuperscript{th}, 18\textsuperscript{th} and
+population to the post-medieval period \autocite{Hart2012}. Across the
+medieval and post-medieval periods, the site is understood to have had
+strong links with the local port, alongside wool and grain production
+industries, resulting in a thriving economy \autocite{Hart2012}. Disease
+is recorded to have been highly prevalent across Chichester throughout
+the 17\textsuperscript{th}, 18\textsuperscript{th} and
 19\textsuperscript{th} centuries, with plague occurring in the city in
-the early 17\textsuperscript{th} century and in 1665 (Morgan, 1992).
-Equally, small pox occurred at a high rate in 1722, 1740, 1759 and 1775,
-and epidemics related to water and sewage, including cholera and typhoid
-fever, waged regularly. Morgan (1992) reported the poor conditions in
-Chichester, stating the area to have had sub-standard sanitation in
-comparison to other cities in England and outlining that between 1871
-and 1880, Chichester had one of the highest rates of typhoid fever in
-the country, supposedly due to poor sanitation and consequence of the
-lack of infrastructure providing clean water and sewage drainage. Though
-these diseases do not directly influence shoulder health, information on
-the sanitation and health of the subject population is important for
+the early 17\textsuperscript{th} century and in 1665
+\autocite{Morgan1992}. Equally, small pox occurred at a high rate in
+1722, 1740, 1759 and 1775, and epidemics related to water and sewage,
+including cholera and typhoid fever, waged regularly.
+\textcite{Morgan1992} reported the poor conditions in Chichester,
+stating the area to have had sub-standard sanitation in comparison to
+other cities in England and outlining that between 1871 and 1880,
+Chichester had one of the highest rates of typhoid fever in the country,
+supposedly due to poor sanitation and consequence of the lack of
+infrastructure providing clean water and sewage drainage. Though these
+diseases do not directly influence shoulder health, information on the
+sanitation and health of the subject population is important for
 contextualising the alternate factors influencing health and wellbeing,
 and understanding the living conditions faced by the individuals.
 
 The cemetery was continually utilised by the population until it was
 formally closed in 1859, incorporating populations from the medieval and
-post-medieval periods (Hart, 2012). Seven burial styles were identified
-within the cemetery. \emph{The inhumation types, variation within body
-positioning and associated dates can be seen in Table 1.}
+post-medieval periods \autocite{Hart2012}. Seven burial styles were
+identified within the cemetery. The inhumation types, variation within
+body positioning and associated dates can be seen in Table 1.
 
 \textbf{\emph{{Table 1: Table of Common Burial Types in ESC11}}}
 
@@ -541,8 +557,9 @@ across both the medieval and post-medieval periods, summing 1365 cases.
 This was followed by coffined and tomb burials. Alongside these, four
 ash and charcoal burials were identified, including both coffined and
 un-coffined cases from the medieval and post-medieval period, as well as
-12 pillow graves dating to the 10th and 11th centuries, and three later
-charnel pits (Hart, 2012).
+12 pillow graves dating to the 10\textsuperscript{th} and
+11\textsuperscript{th} centuries, and three later charnel pits
+\autocite{Hart2012}.
 
 The differing styles of inhumation have been suggested to represent
 socio-economic status, with coffins proposedly representing higher
@@ -560,7 +577,8 @@ taphonomic staining was not largely different between coffin and shroud
 burials. The remains are partially fragmented due to post-mortem
 fracturing and cortical destruction from taphonomic processes.
 
-\textbf{Method}
+\hypertarget{method}{%
+\subsection{Method}\label{method}}
 
 An analysis of lesions on the proximal humerus, distal clavicle, and the
 acromion process and glenoid fossa of the scapula was undertaken to
@@ -576,36 +594,36 @@ Skeletons were included in the analysis only when biological age and sex
 could be determined.
 
 Demographic data were recorded for all skeletons which qualified for
-assessment. Biological age was identified using Brooks and Suchey (1990)
-and Lovejoy \emph{et al.} (1985). When required, the fusion stage of the
-left and right medial clavicle epiphyses was used to determine a young
-age, following Scheuer and Black (2000). No juveniles were assessed as
-the age ranges included in the study were 20-39 and 40+. These age
-ranges were devised due to the influence of progressive degeneration on
-the skeletal system of the older population after the age of 35 as peak
-bone density passed, and as susceptibility of wear and tear increased.
-The age ranges consequently control this to illuminate how the factor of
-age affected disease (Waldron, 2009).
+assessment. Biological age was identified using \textcite{Brooks1990}
+and \textcite{Lovejoy1985}. When required, the fusion stage of the left
+and right medial clavicle epiphyses was used to determine a young age,
+following \textcite{Scheuer2000}. No juveniles were assessed as the age
+ranges included in the study were 20-39 and 40+. These age ranges were
+devised due to the influence of progressive degeneration on the skeletal
+system of the older population after the age of 35 as peak bone density
+passed, and as susceptibility of wear and tear increased. The age ranges
+consequently control this to illuminate how the factor of age affected
+disease \autocite{Waldron2009}.
 
-Sex was determined following Phenice (1969) and Buikstra and Ubelaker
-(1994). Measurements of the femoral head were taken following Bass
-(1995) to aid identification of biological sex. The humeral head was not
-measured to avoid the duplicate use of the study focus area. Remains
-scored as probable using Phenice and Buikstra and Ubelaker methods were
-scored as male or female when the measurement from the femoral head
-correlated with the probable score, and remains were omitted when sex
-was indeterminable.
+Sex was determined following \textcite{Phenice1969} and
+\textcite{Buikstra1994}. Measurements of the femoral head were taken
+following \textcite{Bass1995} to aid identification of biological sex.
+The humeral head was not measured to avoid the duplicate use of the
+study focus area. Remains scored as probable using Phenice and Buikstra
+and Ubelaker methods were scored as male or female when the measurement
+from the femoral head correlated with the probable score, and remains
+were omitted when sex was indeterminable.
 
 The determination of socio-economic status followed site publications on
 ESC11, outlining shroud burials to be of lower socio-economic status due
-to the cost of a coffin burial at the time (Hart, 2012), which is
+to the cost of a coffin burial at the time \autocite{Hart2012}, which is
 accepted across literature discussing post-medieval burial practices
-(Mytum, 2004). Laterality was lastly determined visually using
-osteological identification methods (Gray, 1998). Analysis of the
+\autocite{Mytum2004}. Laterality was lastly determined visually using
+osteological identification methods \autocite{Gray1998}. Analysis of the
 presence or absence of disease was completed through a macroscopic
 visual analysis of the remains. Pathological data were collected in a
 nominal form from the elements present on both the left and right sides
-utilising the detailed definitions following Waldron (2009).
+utilising the detailed definitions following \autocite{Waldron2009}.
 
 Osteoarthritis (OA) was identified as present in this study when two or
 more of the following osteological features within or along the margin
@@ -613,22 +631,20 @@ of the articular surface on the humeral head, glenoid fossa, acromion
 process and acromial extremity of the clavicle were extant: cortical
 pitting, new bone formation, marginal osteophytes or alterations to the
 joint contour, or by the presence of the pathognomonic sign eburnation
-(Waldron, 2009; Firesten \emph{et al}., 2012).
+\autocite{Waldron2009,Firesten2012}.
 
 \begin{figure}
 \centering
-\includegraphics[width=3.48958in,height=3.11389in]{media/image1.jpeg}
-\caption{C:\textbackslash Users\textbackslash danni.CINDYCW\textbackslash AppData\textbackslash Local\textbackslash Microsoft\textbackslash Windows\textbackslash INetCache\textbackslash Content.Word\textbackslash IMG\_6563.jpg}
-\end{figure}
-
-Figure 1. Authors Own (2017). Left scapula and clavicle displaying
+\includegraphics[width=3.48958in,height=3.11389in]{figures/image1.jpeg}
+\caption{Authors Own (2017). Left scapula and clavicle displaying
 osteoarthritis at the ACJ, with signs of cortical pitting and lipping
 around the articular surface, new bone formation at the rim and
-resultant joint contour alteration and eburnation.
+resultant joint contour alteration and eburnation.}
+\end{figure}
 
 Rotator cuff disease (RCD) was determined as present in this study when
 new bone growth on or around the entheses of the rotator cuff muscle
-tendons was identified (Waldron, 2009). This was diagnosed by the
+tendons was identified \autocite{Waldron2009}. This was diagnosed by the
 presence of periosteal new bone, pitting on the cortical surface at the
 tendon insertion points and alteration of the insertion point contour.
 The coracoid and acromion processes can also be osteologically involved
@@ -642,43 +658,37 @@ associated with RCD, however this was not used as an indicative marker
 of RCD when no other osteological signs of the disease were identified,
 in which case it was classified as ACJ OA. When ACJ OA was accompanied
 with signs of RCD on other elements, the skeleton was classified as
-exhibiting both RCD and ACJ OA (Waldron, 2009).
+exhibiting both RCD and ACJ OA \autocite{Waldron2009}.
 
-\begin{quote}
 \begin{figure}
 \centering
-\includegraphics[width=2.89028in,height=2.69306in]{media/image2.jpeg}
-\caption{C:\textbackslash Users\textbackslash danni.CINDYCW\textbackslash AppData\textbackslash Local\textbackslash Microsoft\textbackslash Windows\textbackslash INetCache\textbackslash Content.Word\textbackslash IMG\_6530.jpg}
+\includegraphics[width=2.89028in,height=2.69306in]{figures/image2.jpeg}
+\caption{Authors Own (2017). Right humerus, clavicle and scapula showing
+RCD on the humerus due to the presence of new bone growth. ACJ OA is
+visible on the clavicle and acromion process. Impingement was further
+present due to the presence of eburnation on the superior pole of the
+humeral head and inferior acromion process.}
 \end{figure}
-
-Figure 2. Authors Own (2017). Right humerus, clavicle and scapula
-showing RCD on the humerus due to the presence of new bone growth. ACJ
-OA is visible on the clavicle and acromion process. Impingement was
-further present due to the presence of eburnation on the superior pole
-of the humeral head and inferior acromion process.
-\end{quote}
 
 Impingement was determined as present in this study when eburnation was
 identified as present on the superior pole of the humeral head or on the
 inferior surface of the acromion process, or when localised new bone
-growth was present in these areas (Waldron, 2009).
+growth was present in these areas \autocite{Waldron2009}.
 
 Fractures were treated as separate cases based on the skeletal element
 they were presented on. These were determined as present in this study
 if discontinuation in the natural contour of the bone was identified,
 caused through ante-mortem breaking of the element, or if a healing line
-or callus was identified (Waldron, 2009).
+or callus was identified \autocite{Waldron2009}.
 
 \begin{figure}
 \centering
-\includegraphics[width=2.79254in,height=2.67606in]{media/image3.jpeg}
-\caption{C:\textbackslash Users\textbackslash danni.CINDYCW\textbackslash AppData\textbackslash Local\textbackslash Microsoft\textbackslash Windows\textbackslash INetCache\textbackslash Content.Word\textbackslash IMG\_6479.jpg}
-\end{figure}
-
-Figure 3. Authors Own (2017). Right clavicle with a healed fracture that
+\includegraphics[width=2.79254in,height=2.67606in]{figures/image3.jpeg}
+\caption{Authors Own (2017). Right clavicle with a healed fracture that
 was not reduced and is consequently misaligned. No fracture line or
 callus is present, suggesting the break was fully healed at the time of
-death.
+death.}
+\end{figure}
 
 The identification of an occupation is inarguably unachievable in a
 population without documentation, however the prevalence of pathological
@@ -689,7 +699,7 @@ link between pathology and lifestyle is also obscured by intrinsic
 factors influencing disease. Many diseases occur due to natural
 degeneration, seen by the common finding of increased rates of joint
 disease and fractures in elderly populations due to decreased bone
-density (Nordqvist and Petersson, 1995; Waldron, 2009). The independent
+density \autocite{Nordqvist1995,Waldron2009}. The independent
 proposition that pathology is related to repetitive motions and wear and
 tear is flawed by these biological factors, including ancestry, body
 weight and genetic predisposition. Consequently, this research assesses
@@ -952,66 +962,56 @@ remains from the Victorian cemetery in East London's Spitalfields, a
 site with a corresponding date and location in southern England and with
 good documentation due to the survival of coffin plates within the
 cemetery. ACJ OA has a prevalence of 94\% amongst 255 skeletal remains
-from the crypt in Christ Church analysed by Waldron (1990). The high
-rates of ACJ OA in both Chichester and Spitalfields complement the
+from the crypt in Christ Church analysed by \textcite{Waldron1990}. The
+high rates of ACJ OA in both Chichester and Spitalfields complement the
 osteological record and are continuous with normative prevalence rates,
-as ACJ OA is cited by Waldron (2009) to be the most common location for
-the manifestation of OA in cadavers, due to natural degeneration. GHJ OA
-is correspondingly stated to occur less frequently and due to causal
-factors, such as trauma or significant wear and tear at the joint,
-consistent with its lower prevalence in this study (Waldron, 2009).
+as ACJ OA is cited by \textcite{Waldron1990} to be the most common
+location for the manifestation of OA in cadavers, due to natural
+degeneration. GHJ OA is correspondingly stated to occur less frequently
+and due to causal factors, such as trauma or significant wear and tear
+at the joint, consistent with its lower prevalence in this study
+\autocite{Waldron2009}.
 
 RCD, occurring at 17\% in the coffin assemblage, corresponds with
-external research as Yamamoto \emph{et al}. (2010) state the prevalence
-of RCD in cadavers to vary between 5\% and 39\%. Yamamoto \emph{et al}.
-(2010) further positively identified impingement to occur at a
-prevalence of 18.4\% in a modern Japanese population, a rate higher than
-the results seen in this assessment which were just 8\% in males and
-absent in females. The large geographical and temporal separation
-between these studies may be responsible for the contradicting results,
-however published archaeological analyses of RCD are sparse.
+external research as \textcite{Yamamoto2010} state the prevalence of RCD
+in cadavers to vary between 5\% and 39\%. \textcite{Yamamoto2010}
+further positively identified impingement to occur at a prevalence of
+18.4\% in a modern Japanese population, a rate higher than the results
+seen in this assessment which were just 8\% in males and absent in
+females. The large geographical and temporal separation between these
+studies may be responsible for the contradicting results, however
+published archaeological analyses of RCD are sparse.
 
-In a modern study, Nordqvist and Petersson (1995) used hospital data
-from Malmö general hospital, Sweden, 1987, to analyse the incidence of
+In a modern study, \textcite{Nordqvist1995} used hospital data from
+Malmö general hospital, Sweden, 1987, to analyse the incidence of
 clavicular, scapula and humeral head fractures and glenohumeral and
 acromioclavicular dislocations within the urban population across the
 year. The study found 0.22\% of the population experienced a shoulder
 fracture or dislocation.
 
-\textbf{{Table 2: Table of Results from Nordqvist and Petersson (1995)}}
+\textbf{\autocite[Table 2: Table of Results
+from][]{Nordqvist1995}\{.underline\}} \textbf{Incidence
+(\emph{n}/100,000)}\\
+----------------------------------------- --------- -------------
+---------- ------------ -------------- ----------------
+----------------------------- ------------ ---------- ------------
+\textbf{\emph{n}} \textbf{Percent} \textbf{Male} \textbf{Female}
+\textbf{Male} \textbf{Female} \textbf{Male} \textbf{Female}
+\textbf{Male} \textbf{Female} \textbf{Proximal humerus fracture} 269 53
+58 211 63 71 68.5 75 53 174 \textbf{Clavicular fracture} 147 29 94 53 23
+33 16 21 86 44 \textbf{Scapular fracture} 14 3 10 4 45 84 49.5 83.5 9 3
+\textbf{Shoulder dislocation} 55 11 29 26 44 63 40 68 27 22
+\textbf{Acromioclavicular joint dislocation} 19 4 17 2 37 26 31 26 15 2
+\textbf{Total} 504 100 208 296 190 245
 
-\begin{longtable}[]{@{}lllllllllll@{}}
-\toprule
-& & & & & \textbf{Mean age} & \textbf{Median age} & \textbf{Incidence
-(\emph{n}/100,000)} & & &\tabularnewline
-\midrule
-\endhead
-& \textbf{\emph{n}} & \textbf{Percent} & \textbf{Male} & \textbf{Female}
-& \textbf{Male} & \textbf{Female} & \textbf{Male} & \textbf{Female} &
-\textbf{Male} & \textbf{Female}\tabularnewline
-\textbf{Proximal humerus fracture} & 269 & 53 & 58 & 211 & 63 & 71 &
-68.5 & 75 & 53 & 174\tabularnewline
-\textbf{Clavicular fracture} & 147 & 29 & 94 & 53 & 23 & 33 & 16 & 21 &
-86 & 44\tabularnewline
-\textbf{Scapular fracture} & 14 & 3 & 10 & 4 & 45 & 84 & 49.5 & 83.5 & 9
-& 3\tabularnewline
-\textbf{Shoulder dislocation} & 55 & 11 & 29 & 26 & 44 & 63 & 40 & 68 &
-27 & 22\tabularnewline
-\textbf{Acromioclavicular joint dislocation} & 19 & 4 & 17 & 2 & 37 & 26
-& 31 & 26 & 15 & 2\tabularnewline
-\textbf{Total} & 504 & 100 & 208 & 296 & & & & & 190 &
-245\tabularnewline
-\bottomrule
-\end{longtable}
-
-Table 2, recreated from Nordqvist and Petersson (1995). Table showing a
+Table 2, recreated from \textcite{Nordqvist1995}. Table showing a
 greater incidence of proximal humeral fractures among males, and more
 clavicular fractures among females, highlighting the differences in the
 prevalence in these based on the differing activities between the two
 groups.
 
-Nordqvist and Petersson (1995) record proximal humeral fractures to be
-the most common shoulder injury in their clinical analysis of shoulder
+\textcite{Nordqvist1995} record proximal humeral fractures to be the
+most common shoulder injury in their clinical analysis of shoulder
 trauma in Sweden, followed by clavicular fractures. This is reflected in
 this study by the presence of fractures in these locations and the
 absence of breakages on the scapula, however just one fracture was
@@ -1040,8 +1040,8 @@ The technological boom caused by the Industrial Revolution increased
 occupation diversity, urbanising towns and the jobs undertaken by the
 inhabiting population. This in-turn created nouveau demographic roles as
 labour was distributed between social groups, which may have impacted
-society in Chichester due to its strong links to the local port (Hart,
-2012).
+society in Chichester due to its strong links to the local port
+\autocite{Hart2012}.
 
 The concepts of gender and biological sex are clearly defined in
 physical anthropology; the former being a social and cultural construct
@@ -1049,7 +1049,7 @@ and the latter a biological absolute. Despite this, social definitions
 of gender dictated treatment and conceptions of males and females and
 impacted lifestyle across 18\textsuperscript{th} and
 19\textsuperscript{th} century England, as opportunities were limited
-and defined by gender (Burnette, 1997). Indeed, in this analysis
+and defined by gender \autocite{Burnette1997}. Indeed, in this analysis
 expected and actual counts calculated in the Chi-Squared Tests found
 counts of all the diseases across the analysis were uniformly higher
 than expected in the male sample and lower in the female sample. This
@@ -1060,29 +1060,30 @@ a significantly greater risk of having GHJ and ACJ OA than females.
 
 Occurring at a higher prevalence in males than females by over 50\%,
 results showed males to have greater odds of having ACJ and GHJ OA. This
-is contradictory to research by Verbrugge (1995) and Hanna \emph{et al.}
-(2009), stating females to have a higher prevalence of OA in Spanish and
-American clinical assessments. Waldron (1992) equally found OA to occur
-at a higher rate in females (39.5\%), than males (34.3\%), on skeletal
-remains from the Black Death plague pit in London. This opposes the data
-in this research, however the sample analysed by Waldron (1992) was
-small, comprised of 23 males and just 9 females, suggesting those
-results could alter if further remains were analysed. Results from
-Spitalfields by Waldron (1990) conversely support the results found in
-this study, finding the ratio of shoulder OA to be 1.1:1 between males
-and females. These studies show there to be great variability between
-the prevalence of OA between the sexes, with rates altering across
-studies. The significantly higher rate of shoulder OA in males found in
-this study could be suggested to be related to physical activity
-differences between the sexes (Stirland and Waldron, 1997), or due to a
-genetic predisposition in the males within the sample.
+is contradictory to research by \textcite{Verbrugge1995} and
+\textcite{Hanna2009}, stating females to have a higher prevalence of OA
+in Spanish and American clinical assessments. \textcite{Waldron1992}
+equally found OA to occur at a higher rate in females (39.5\%), than
+males (34.3\%), on skeletal remains from the Black Death plague pit in
+London. This opposes the data in this research, however the sample
+analysed by \textcite{Waldron1992} was small, comprised of 23 males and
+just 9 females, suggesting those results could alter if further remains
+were analysed. Results from Spitalfields by \textcite{Waldron1990}
+conversely support the results found in this study, finding the ratio of
+shoulder OA to be 1.1:1 between males and females. These studies show
+there to be great variability between the prevalence of OA between the
+sexes, with rates altering across studies. The significantly higher rate
+of shoulder OA in males found in this study could be suggested to be
+related to physical activity differences between the sexes
+\autocite{Stirland1997}, or due to a genetic predisposition in the males
+within the sample.
 
 RCD prevalence was higher in males (24\%) than females (10\%), which is
-contrary to findings by Waldron (2009). Impingement similarly occurred
-at a higher prevalence in males (8\%) as no cases of impingement were
-observed on females, which is complemented by Yamamoto \emph{et al}.
-(2010), who found sex to be a significant factor in the presence of
-rotator cuff tears in Japan, (P=0.007).
+contrary to findings by \textcite{Waldron2009}. Impingement similarly
+occurred at a higher prevalence in males (8\%) as no cases of
+impingement were observed on females, which is complemented by
+\textcite{Yamamoto2010}, who found sex to be a significant factor in the
+presence of rotator cuff tears in Japan, (P=0.007).
 
 The higher prevalence of fractures in males in this study is not deemed
 noteworthy as just two fractures were seen in the coffin sample,
@@ -1097,64 +1098,63 @@ indeterminable.
 Results correspond to published literature finding age greatly
 influenced both GHJ OA and ACJ OA (see figure 5), as OA is a
 degenerative disease and found to increase uniformly with age across
-numerous modern clinical studies (Hanna \emph{et al}., 2009;
-Prieto-Alhambra \emph{et al}., 2014) and archaeologically (Waldron,
-2009). The ORs equally suggest age to have had a greater influence on
-GHJ OA, as the ratio is higher in this area than the ACJ. In the
-age-specific OA analysis undertaken by Waldron (1992) on skeletal
-remains from the Black Death plague pit in London, OA was equally found
-to increase in prevalence with age, as seen in this study, supporting
-the link between degeneration with advancing age and the prevalence of
-OA.
+numerous modern clinical studies
+\autocite{Hanna2009,Prieto-Alhambra2014} and archaeologically
+\autocite{Waldron2009}. The ORs equally suggest age to have had a
+greater influence on GHJ OA, as the ratio is higher in this area than
+the ACJ. In the age-specific OA analysis undertaken by
+\textcite{Waldron1992} on skeletal remains from the Black Death plague
+pit in London, OA was equally found to increase in prevalence with age,
+as seen in this study, supporting the link between degeneration with
+advancing age and the prevalence of OA.
 
 Impingement and fractures were not statistically significant in this
 study and were found to decrease in prevalence with increasing age,
 contradicting the pattern of OA. No humeral fractures were found in the
-40+ group in this study, contrary to findings by Nordqvist and Petersson
-(1995), who found proximal humeral fractures to be most prevalent in the
-elderly population in Swedish Malmö, with the mean age 63 in males and
-71 in females. The Swedish study associated the increase in fractures
-with age to decreased bone density and increased likelihood of falling
-in old age, however the study found clavicle fractures to occur at a
-higher incidence in young individuals, with the mean age 23 in males and
-33 in females, proposedly due to activities. Clavicular results in this
-study accord with that result, occurring more commonly in the younger
-population. This higher occurrence of fractures in the younger
-population, despite the increased risk of fractures occurring due to
-osteoporosis, degeneration of stability and muscular atrophy in
-advancing age, could thus suggest the fracture was caused by trauma from
-activities, such as a physical job, however due to the nature of
-osteological healing and the lack of documentation, this causation
-cannot be identified.
+40+ group in this study, contrary to findings by
+\textcite{Nordqvist1995}, who found proximal humeral fractures to be
+most prevalent in the elderly population in Swedish Malmö, with the mean
+age 63 in males and 71 in females. The Swedish study associated the
+increase in fractures with age to decreased bone density and increased
+likelihood of falling in old age, however the study found clavicle
+fractures to occur at a higher incidence in young individuals, with the
+mean age 23 in males and 33 in females, proposedly due to activities.
+Clavicular results in this study accord with that result, occurring more
+commonly in the younger population. This higher occurrence of fractures
+in the younger population, despite the increased risk of fractures
+occurring due to osteoporosis, degeneration of stability and muscular
+atrophy in advancing age, could thus suggest the fracture was caused by
+trauma from activities, such as a physical job, however due to the
+nature of osteological healing and the lack of documentation, this
+causation cannot be identified.
 
 The prevalence of RCD increased with age in this study, however the
 increase was not statistically significant, suggesting it to be
-unaffected by age. This is again contrary to research by Yamamoto
-\emph{et al}. (2010), who found age to be a significant factor in the
+unaffected by age. This is again contrary to research by
+\textcite{Yamamoto2010}, who found age to be a significant factor in the
 presence of RCD (P\textless{} 0.001).
 
-\includegraphics[width=3.61111in,height=2.98611in]{media/image4.png}
+\begin{figure}
+\centering
+\includegraphics[width=3.61111in,height=2.98611in]{figures/image4.png}
+\caption{Prevalence of RCTs in the Japanese sample separated by age
+group. Taken from \textcite{Yamamoto2010}. RCTs (rotator cuff tears) are
+seen to increase with age, which complements the RCD results in this
+study, however contradicts the impingement results in this study, which
+decreased.}
+\end{figure}
 
-\begin{quote}
-Figure 25. Prevalence of RCTs in the Japanese sample separated by age
-group. Taken from Yamamoto \emph{et al}. (2010). RCTs (rotator cuff
-tears) are seen to increase with age, which complements the RCD results
-in this study, however contradicts the impingement results in this
-study, which decreased.
-\end{quote}
-
-Research from ultrasound scanning by (Tempelhof \emph{et al}., 1999)
-outlined RCD to have a prevalence of 13\% in modern individuals aged
-50-59, 20\% in individuals aged 60-69, and 31\% in individuals aged
-70-79. This high prevalence in individuals over the age of 50 is
-supported by the high prevalence in individuals over the age of 40 in
-this study, 24\%, and as the prevalence increased with age by 118\%.
-Clement \emph{et al.} (2012) further support this, citing degenerative
-rotator cuff tears to predominately occur in individuals aged
-\textgreater50. Despite the non-significant result recorded in this
-study, the prevalence accords with external research as RCD is largely
-influenced by natural age-related degeneration (Clement \emph{et al.,}
-2012).
+Research from ultrasound scanning by \autocite{Tempelhof1999} outlined
+RCD to have a prevalence of 13\% in modern individuals aged 50-59, 20\%
+in individuals aged 60-69, and 31\% in individuals aged 70-79. This high
+prevalence in individuals over the age of 50 is supported by the high
+prevalence in individuals over the age of 40 in this study, 24\%, and as
+the prevalence increased with age by 118\%. \textcite{Clement2012}
+further support this, citing degenerative rotator cuff tears to
+predominately occur in individuals aged \textgreater50. Despite the
+non-significant result recorded in this study, the prevalence accords
+with external research as RCD is largely influenced by natural
+age-related degeneration \autocite{Clement2012}.
 
 In relation to the expected and actual counts calculated in the
 Chi-Squared Tests, counts of both GHJ and ACJ OA were higher than the
@@ -1189,8 +1189,8 @@ prevalence-increase with age between the sexes could alternately be
 suggested to be due to factors such as biological predisposition or wear
 and tear due to gender-differences in joint usage, with males
 potentially using the joint a greater amount in life, accelerating
-degeneration, as seen in the vertebrae of Mary Rose sailors (Stirland
-and Waldron, 1997).
+degeneration, as seen in the vertebrae of Mary Rose sailors
+\autocite{Stirland1997}.
 
 Despite the similar prevalence of GHJ OA in males and females, in
 relation to the expected and actual counts calculated in the Chi-Squared
@@ -1212,63 +1212,63 @@ elderly males by 6.7. Again, the ACJ OA OR was not statistically
 significant in females, signifying the increase in disease prevalence
 with age to be more significant in males. These results differ to
 findings on the rates of arthritis from the American National Health
-Interview Survey by Verbrugge (1995), who cited females to have a
-greater rate of arthritis in youth, and for the prevalence gap between
+Interview Survey by \textcite{Verbrugge1995}, who cited females to have
+a greater rate of arthritis in youth, and for the prevalence gap between
 the sexes to decrease as age advances. Disease prevalence difference
 between the sexes does not decrease with age in this study, and the
 rates are still significantly higher in males in the 40+ age group,
 suggesting a significant causal factor was influencing the disease
 occurrence in males.
 
-The results by Nordqvist and Petersson (1995) from Malmö general
-hospital, Sweden, 1987, altered significantly between age and sex
-groups. Nordqvist and Petersson (1995) associated age differences to
-physiological stability, skeletal density and behavioural differences
-between age groups, as actions were the primary factor affecting disease
-incidence between the sex and age categories. This is supported by
-Simonet \emph{et al}. (1984), who reported the overall incidence of
-traumatic shoulder dislocation in Olmsted County, Minnesota, to be
-significantly greater among younger men than women of all ages.
+The results by \textcite{Nordqvist1995} from Malmö general hospital,
+Sweden, 1987, altered significantly between age and sex groups.
+\textcite{Nordqvist1995} associated age differences to physiological
+stability, skeletal density and behavioural differences between age
+groups, as actions were the primary factor affecting disease incidence
+between the sex and age categories. This is supported by
+\textcite{Simonet1984}, who reported the overall incidence of traumatic
+shoulder dislocation in Olmsted County, Minnesota, to be significantly
+greater among younger men than women of all ages.
 
-In relation to biological sex, Nordqvist and Petersson (1995) found
-males exhibited a larger prevalence of clavicle and scapula fractures
-and dislocations than females, which was attributed to lifestyle
-differences in the paper as male traumas were linked to traffic and
-sporting injuries. 35\% of shoulder dislocations in adults were sports
-related, illuminating a trend of physicality impacting disease and
-gender as a variable within this. Age was similarly substantial as 83\%
-of injuries within the elderly population were caused by falls, whilst
-49\% of the shoulder injuries in children were due to playing or
-sporting accidents (Nordqvist and Petersson, 1995). Elderly females had
-the highest trauma incidence, associated with the large elderly female
-population and the high prevalence of osteoporosis in females aged
-\textgreater70 (Nordqvist and Petersson, 1995).
+In relation to biological sex, \textcite{Nordqvist1995} found males
+exhibited a larger prevalence of clavicle and scapula fractures and
+dislocations than females, which was attributed to lifestyle differences
+in the paper as male traumas were linked to traffic and sporting
+injuries. 35\% of shoulder dislocations in adults were sports related,
+illuminating a trend of physicality impacting disease and gender as a
+variable within this. Age was similarly substantial as 83\% of injuries
+within the elderly population were caused by falls, whilst 49\% of the
+shoulder injuries in children were due to playing or sporting accidents
+\autocite{Nordqvist1995}. Elderly females had the highest trauma
+incidence, associated with the large elderly female population and the
+high prevalence of osteoporosis in females aged \textgreater70
+\autocite{Nordqvist1995}.
 
-Despite the results by Nordqvist and Petersson (1995) RCD, impingement
-and the fractures were not significantly associated with age and sex,
-however, the prevalence of RCD increased at a greater rate with age in
-females (133\%), than males (100\%). This could suggest females to have
-had a greater risk of attaining RCD as degeneration developed, or to
-have had a higher predisposition to the disease. Conversely, the rate of
+Despite the results by \textcite{Nordqvist1995} RCD, impingement and the
+fractures were not significantly associated with age and sex, however,
+the prevalence of RCD increased at a greater rate with age in females
+(133\%), than males (100\%). This could suggest females to have had a
+greater risk of attaining RCD as degeneration developed, or to have had
+a higher predisposition to the disease. Conversely, the rate of
 impingement decreased with age in males by 54\%, whilst no impingement
 cases were observed in females, as was seen in the fractures data. The
-absence of fractures in females complements findings by Simonet \emph{et
-al}. (1984), who reported the overall incidence of shoulder trauma in
-Olmsted County, Minnesota, to be significantly greater among younger men
-than women. Aforementioned, this has been highly variable across
-societies, however, and the fractures were not significant in this
-research. Despite this, the assessment has shown the diseases analysed
-to be influenced by the combined factors of age and sex, with these
-factors affecting each disease differently.
+absence of fractures in females complements findings by
+\textcite{Simonet1984}, who reported the overall incidence of shoulder
+trauma in Olmsted County, Minnesota, to be significantly greater among
+younger men than women. Aforementioned, this has been highly variable
+across societies, however, and the fractures were not significant in
+this research. Despite this, the assessment has shown the diseases
+analysed to be influenced by the combined factors of age and sex, with
+these factors affecting each disease differently.
 
 \hypertarget{laterality-1}{%
 \subsection{Laterality}\label{laterality-1}}
 
 Handedness or laterality has been studied with controversy and has been
 argued to positively and negatively link to increased bone length in
-numerous studies (Auerbach and Ruff, 2006; Danforth and Thompson, 2008).
-The role of intrinsic factors and genetics in bilateral asymmetry is
-firmly supported (Plochockim, 2002), however preferential lateral use
+numerous studies \autocite{Auerbach2006,Danforth2008}. The role of
+intrinsic factors and genetics in bilateral asymmetry is firmly
+supported \autocite{Plochockim2002}, however preferential lateral use
 could contribute to the wear-and-tear factor within pathology due to
 greater stress being placed through a limb and its joints. This is
 assessed in this research through an analysis of trends within the
@@ -1279,24 +1279,24 @@ The analysis of the prevalence of diseases laterally across the coffin
 sample showed a statistically significant difference between the
 prevalence of GHJ OA of the left side and ACJ OA on the right side (see
 figure 7). The OA data are complemented by results from Spitalfields by
-Waldron (1990), which found ACJ OA to frequently be bilateral, but
-outlined that when the disease was unilateral it was more frequently
+\textcite{Waldron1990}, which found ACJ OA to frequently be bilateral,
+but outlined that when the disease was unilateral it was more frequently
 prevalent on the right. This lateral skew is frequently associated with
 physicality due to the common trend of right hand dominance (Danforth
 and Thompson, 2008), and complements the dominance of right side ACJ OA
 in this study.
 
-Yamamoto \emph{et al}. (2010) similarly discussed disease laterality in
+\textcite{Yamamoto2010} similarly discussed disease laterality in
 relation to physicality and occupation, assessing rotator cuff tears in
 Japan, and found lateral arm dominance to be a significant factor in the
 presence of RCD (\emph{p}=0.001). This significant result was related to
 the heaviness of labour, divided into light, intermediate and heavy,
 which was found to significantly affect rotator cuff tears
-(\emph{p}\textless0.001). Furthermore, ORs calculated by Yamamoto
-\emph{et al}. (2010) found dominant arms to have greater risk of disease
-by 1.08 (95\% CI 1.07-1.10). Although RCD was not significant laterally
-across the remains assessed in this study, it had a greater prevalence
-on the right side by 13\%, which may be relatable to this.
+(\emph{p}\textless0.001). Furthermore, ORs calculated by
+\textcite{Yamamoto2010} found dominant arms to have greater risk of
+disease by 1.08 (95\% CI 1.07-1.10). Although RCD was not significant
+laterally across the remains assessed in this study, it had a greater
+prevalence on the right side by 13\%, which may be relatable to this.
 
 When separated by age and sex, laterality carried a greater influence in
 the occurrence of disease. Lateral prevalence was greater in males aged
@@ -1324,8 +1324,8 @@ the right by 33\%, whilst the rate of ACJ OA increased by 27\% on the
 left. Moreover, the rate of RCD was 50\% greater on the right than the
 left. These results show greater lateral differentiation in the female
 40+ group than the male group, suggesting age and sex to have had an
-impact on disease laterality. Indeed, in their assessment Yamamoto
-\emph{et al}. (2010) found rotator cuff tears to be more strongly
+impact on disease laterality. Indeed, in their assessment
+\textcite{Yamamoto2010} found rotator cuff tears to be more strongly
 associated with the dominant arm in individuals \textless49 (84.2\%),
 whilst individuals aged over 50 had a smaller correlation (61.4\%). This
 assessment could not be determined in this study as arm dominance was
@@ -1335,7 +1335,7 @@ its more equal prevalence in the 40+ group as more widespread
 age-related degeneration occurred. Conversely, impingement occurred on
 both the left and right in the 20-39 age group, with a greater
 prevalence on the left, but occurred only on the right in the older
-group, which contradicts the research by Yamamoto \emph{et al}. (2010).
+group, which contradicts the research by \textcite{Yamamoto2010}.
 
 Comparing laterality between the sexes, all the disease counts showed a
 skew towards a higher than expected rate of disease in males in the
@@ -1376,18 +1376,18 @@ RCD, impingement and fractures of 93 skeletal remains from
 found males to exhibit a greater prevalence of shoulder disease in
 comparison to females. This result could be suggested to be related to
 physical activity differences between the sexes due to cultural physical
-activity difference at the time of the Industrial Revolution (Stirland
-and Waldron, 1997; Burnette, 1997), or due to a genetic predisposition
-in the males within the sample (Prieto-Alhambra \emph{et al}., 2014).
+activity difference at the time of the Industrial Revolution
+\autocite{Stirland1997,Burnette1997}, or due to a genetic predisposition
+in the males within the sample \autocite{Prieto-Alhambra2014}.
 
 Osteoarthritis in the sample positively linked with age, which is
 uniform with published literature as OA is a degenerative disease found
 to increase uniformly with age across numerous modern clinical studies
-(Hanna \emph{et al}., 2009; Prieto-Alhambra \emph{et al}., 2014) and
-archaeologically (Waldron, 2009). No other diseases were significantly
-associated with age, however this assessment further showed the diseases
-to be influenced by the combined factors of age and sex, with these
-affecting each disease differently.
+\autocite{Hanna2009,Prieto-Alhambra2014} and archaeologically
+\autocite{Waldron2009}. No other diseases were significantly associated
+with age, however this assessment further showed the diseases to be
+influenced by the combined factors of age and sex, with these affecting
+each disease differently.
 
 Lateral differences were observed when the sample was divided by age and
 sex, which showed sidedness had a greater variability in males aged
@@ -1400,10 +1400,11 @@ To conclude, OA prevalence was largely impacted by demographic factors
 in the post-medieval Chichester sample, whilst no other diseases were
 associated with demographic trends in this way. Despite this, with
 consideration of the poor living conditions and high disease rates in
-the population outlined by Morgan (1992), the study has shown shoulder
-disease prevalence to be variable between sex and age groups, suggesting
-males and older individuals to predominantly have been at a greater risk
-of shoulder disease in the Industrial Revolution population.
+the population outlined by \textcite{Morgan1992}, the study has shown
+shoulder disease prevalence to be variable between sex and age groups,
+suggesting males and older individuals to predominantly have been at a
+greater risk of shoulder disease in the Industrial Revolution
+population.
 
 
 \listoftables

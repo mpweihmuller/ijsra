@@ -24,7 +24,7 @@ TEMPLATE_FILE_LATEX    = system/ijsra.latex
 TEMPLATE_FILE_HTML     = system/ijsra.html
 PANDOC_READER_OPTIONS  = data/metadata.yaml
 PANDOC_WRITER_OPTIONS  = --standalone
-PANDOC_WRITER_OPTIONS += --csl=system/csl-styles/chicago-author-date.csl
+# PANDOC_WRITER_OPTIONS += --csl=system/csl-styles/chicago-author-date.csl
 PANDOC_WRITER_OPTIONS += --filter=pandoc-citeproc
 PANDOC_WRITER_OPTIONS += --lua-filter=$(LUA_FILTERS_PATH)/short-captions/short-captions.lua
 DEFAULT_EXTENSIONS     =  latex pdf html epub
